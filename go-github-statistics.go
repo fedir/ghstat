@@ -23,30 +23,23 @@ type Match struct {
 
 func getRemoteJSON(repoKey string) []byte {
 	url := "https://api.github.com/repos/" + repoKey
-
 	response, err := http.Get(url)
-
 	if err != nil {
 		panic(err.Error())
 	}
-
 	jsonResponse, err := ioutil.ReadAll(response.Body)
-
 	if err != nil {
 		panic(err.Error())
 	}
-
 	return jsonResponse
 }
 
 func parseJSON(jsonResponse []byte) *Match {
 	result := &Match{}
 	err := json.Unmarshal([]byte(jsonResponse), result)
-
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	return result
 }
 
