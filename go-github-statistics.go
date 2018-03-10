@@ -16,18 +16,18 @@ import (
 
 var repositoriesKeys = []string{
 	"astaxie/beego",
-	"gobuffalo/buffalo",
-	"go-chi/chi",
 	"gohugoio/hugo",
+	"gin-gonic/gin",
 	"labstack/echo",
 	"revel/revel",
-	"gin-gonic/gin",
+	"gobuffalo/buffalo",
+	"go-chi/chi",
 	"kataras/iris",
 }
 
 var csvData = [][]string{}
 
-type Match struct {
+type Repository struct {
 	Name       string    `json:"name"`
 	FullName   string    `json:"full_name"`
 	Watchers   int       `json:"watchers"`
@@ -52,8 +52,8 @@ func getRemoteJSON(repoKey string) []byte {
 	return jsonResponse
 }
 
-func parseJSON(jsonResponse []byte) *Match {
-	result := &Match{}
+func parseJSON(jsonResponse []byte) *Repository {
+	result := &Repository{}
 	err := json.Unmarshal([]byte(jsonResponse), result)
 	if err != nil {
 		log.Fatal(err)
@@ -61,16 +61,14 @@ func parseJSON(jsonResponse []byte) *Match {
 	return result
 }
 
-func createCsv() {
+func writeCsv() {
 	file, err := os.Create("result.csv")
 	if err != nil {
 		log.Fatal("Cannot create file", err)
 	}
 	defer file.Close()
-
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
-
 	for _, value := range csvData {
 		err := writer.Write(value)
 		if err != nil {
@@ -79,28 +77,26 @@ func createCsv() {
 	}
 }
 
-func PrepareResult(res *Match) string {
-	csvData = append(csvData, []string{res.Name, res.FullName, fmt.Sprintf("%d/%02d", res.CreatedAt.Year(), res.CreatedAt.Month()), fmt.Sprintf("%d", res.Watchers), fmt.Sprintf("%d", res.Forks), fmt.Sprintf("%d", res.OpenIssues)})
-	return fmt.Sprintf("\tName: %s\n", res.Name) +
-		fmt.Sprintf("\tFull name: %s\n", res.FullName) +
-		fmt.Sprintf("\tCreated at: %d/%02d\n", res.CreatedAt.Year(), res.CreatedAt.Month()) +
-		fmt.Sprintf("\tStars: %d\n", res.Watchers) +
-		fmt.Sprintf("\tForks: %d\n", res.Forks) +
-		fmt.Sprintf("\tOpen issues : %d\n", res.OpenIssues)
+func FillCSVData(res *Repository) {
+	csvData = append(csvData, []string{
+		res.Name,
+		res.FullName,
+		fmt.Sprintf("%d/%02d", res.CreatedAt.Year(), res.CreatedAt.Month()),
+		fmt.Sprintf("%d", res.Watchers),
+		fmt.Sprintf("%d", res.Forks),
+		fmt.Sprintf("%d", res.OpenIssues)},
+	)
 }
 
-func PrintResult(res *Match) {
-	fmt.Println(PrepareResult(res))
-}
-
-func PrintRepositoryStatistics(RepoKey string) {
-	PrintResult(parseJSON(getRemoteJSON(RepoKey)))
+func GetRepositoryStatistics(RepoKey string) *Repository {
+	return parseJSON(getRemoteJSON(RepoKey))
 }
 
 func main() {
 	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues"})
 	for _, rKey := range repositoriesKeys {
-		PrintRepositoryStatistics(rKey)
+		repositoryData := GetRepositoryStatistics(rKey)
+		FillCSVData(repositoryData)
 	}
-	createCsv()
+	writeCsv()
 }
