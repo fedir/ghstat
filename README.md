@@ -2,7 +2,7 @@
 
 Statistical and analytical comparison of multi-criteria decision-making comparator for Github's projects
 
-Usage example with collecting of date of Go frameworks, maintained on Github :
+Usage example with statistics of Go open source web frameworks, maintained on Github :
   
 	$ go run go-github-statistics.go 
   
