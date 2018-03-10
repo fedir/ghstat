@@ -82,7 +82,7 @@ func createCsv() {
 }
 
 func PrepareResult(res *Match) string {
-	csvData = append(csvData, []string{res.Name, res.FullName, fmt.Sprintf("%d/%d", res.CreatedAt.Year(), res.CreatedAt.Month()), fmt.Sprintf("%d", res.Watchers), fmt.Sprintf("%d", res.Forks), fmt.Sprintf("%d", res.OpenIssues)})
+	csvData = append(csvData, []string{res.Name, res.FullName, fmt.Sprintf("%d/%02d", res.CreatedAt.Year(), res.CreatedAt.Month()), fmt.Sprintf("%d", res.Watchers), fmt.Sprintf("%d", res.Forks), fmt.Sprintf("%d", res.OpenIssues)})
 	return fmt.Sprintf("\tName: %s\n", res.Name) +
 		fmt.Sprintf("\tFull name: %s\n", res.FullName) +
 		fmt.Sprintf("\tCreated at: %d/%02d\n", res.CreatedAt.Year(), res.CreatedAt.Month()) +
