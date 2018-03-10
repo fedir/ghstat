@@ -79,12 +79,6 @@ func createCsv() {
 	}
 }
 
-func checkError(message string, err error) {
-	if err != nil {
-		log.Fatal(message, err)
-	}
-}
-
 func PrepareResult(res *Match) string {
 	csvContent = append(csvContent, fmt.Sprintf("%s,%s,%d/%d,%d,%d,%d", res.Name, res.FullName, res.CreatedAt.Year(), res.CreatedAt.Month(), res.Watchers, res.Forks, res.OpenIssues))
 	return fmt.Sprintf("\tName: %s\n", res.Name) +
