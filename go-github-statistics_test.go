@@ -110,7 +110,7 @@ var jsonResponse = `
 }
 `
 
-func TestJSONDataExtraction(t *testing.T) {
+func TestParseJSON(t *testing.T) {
 	repositoryDataExtracted := parseJSON([]byte(jsonResponse))
 	repositoryDataExpected := &Repository{
 		Name:       "beego",
@@ -125,7 +125,7 @@ func TestJSONDataExtraction(t *testing.T) {
 	}
 }
 
-func TestJSONDataExtractionNegative(t *testing.T) {
+func TestParseJSONNegative(t *testing.T) {
 	repositoryDataExtracted := parseJSON([]byte(jsonResponse))
 	repositoryDataExpected := &Repository{
 		Name:       "beego",
@@ -138,4 +138,8 @@ func TestJSONDataExtractionNegative(t *testing.T) {
 	if reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
 		t.Fail()
 	}
+}
+
+// TODO
+func TestFillCSVData(t *testing.T) {
 }
