@@ -21,13 +21,16 @@ type Match struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
+var myClient = &http.Client{Timeout: 10 * time.Second}
+
 func getRemoteJSON(repoKey string) []byte {
 	url := "https://api.github.com/repos/" + repoKey
-	response, err := http.Get(url)
+	r, err := myClient.Get(url)
 	if err != nil {
 		panic(err.Error())
 	}
-	jsonResponse, err := ioutil.ReadAll(response.Body)
+	defer r.Body.Close()
+	jsonResponse, err := ioutil.ReadAll(r.Body)
 	if err != nil {
 		panic(err.Error())
 	}
