@@ -25,7 +25,7 @@ var repositoriesKeys = []string{
 	"kataras/iris",
 }
 
-var data = [][]string{}
+var csvData = [][]string{}
 
 var csvContent []string
 
@@ -73,14 +73,16 @@ func createCsv() {
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
 
-	err = writer.Write(csvContent)
-	if err != nil {
-		log.Fatal("Cannot write to file", err)
+	for _, value := range csvData {
+		err := writer.Write(value)
+		if err != nil {
+			log.Fatal("Cannot write to file", err)
+		}
 	}
 }
 
 func PrepareResult(res *Match) string {
-	csvContent = append(csvContent, fmt.Sprintf("%s,%s,%d/%d,%d,%d,%d", res.Name, res.FullName, res.CreatedAt.Year(), res.CreatedAt.Month(), res.Watchers, res.Forks, res.OpenIssues))
+	csvData = append(csvData, []string{res.Name, res.FullName, fmt.Sprintf("%d/%d", res.CreatedAt.Year(), res.CreatedAt.Month()), fmt.Sprintf("%d", res.Watchers), fmt.Sprintf("%d", res.Forks), fmt.Sprintf("%d", res.OpenIssues)})
 	return fmt.Sprintf("\tName: %s\n", res.Name) +
 		fmt.Sprintf("\tFull name: %s\n", res.FullName) +
 		fmt.Sprintf("\tCreated at: %d/%02d\n", res.CreatedAt.Year(), res.CreatedAt.Month()) +
