@@ -27,8 +27,6 @@ var repositoriesKeys = []string{
 
 var csvData = [][]string{}
 
-var csvContent []string
-
 type Match struct {
 	Name       string    `json:"name"`
 	FullName   string    `json:"full_name"`
@@ -100,7 +98,7 @@ func PrintRepositoryStatistics(RepoKey string) {
 }
 
 func main() {
-	csvContent = append(csvContent, fmt.Sprintf("Name,Full name,Created at,Watchers,Forks,Open Issues"))
+	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues"})
 	for _, rKey := range repositoriesKeys {
 		PrintRepositoryStatistics(rKey)
 	}
