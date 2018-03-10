@@ -98,6 +98,7 @@ func PrintRepositoryStatistics(RepoKey string) {
 }
 
 func main() {
+	csvContent = append(csvContent, fmt.Sprintf("Name,Full name,Created at,Watchers,Forks,Open Issues"))
 	for _, rKey := range repositoriesKeys {
 		PrintRepositoryStatistics(rKey)
 	}
