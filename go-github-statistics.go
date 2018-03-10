@@ -27,6 +27,7 @@ var repositoriesKeys = []string{
 
 var csvData = [][]string{}
 
+// Repository structure with selcted data keys
 type Repository struct {
 	Name       string    `json:"name"`
 	FullName   string    `json:"full_name"`
@@ -77,7 +78,7 @@ func writeCsv() {
 	}
 }
 
-func FillCSVData(res *Repository) {
+func fillCSVData(res *Repository) {
 	csvData = append(csvData, []string{
 		res.Name,
 		res.FullName,
@@ -88,15 +89,15 @@ func FillCSVData(res *Repository) {
 	)
 }
 
-func GetRepositoryStatistics(RepoKey string) *Repository {
+func getRepositoryStatistics(RepoKey string) *Repository {
 	return parseJSON(getRemoteJSON(RepoKey))
 }
 
 func main() {
 	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues"})
 	for _, rKey := range repositoriesKeys {
-		repositoryData := GetRepositoryStatistics(rKey)
-		FillCSVData(repositoryData)
+		repositoryData := getRepositoryStatistics(rKey)
+		fillCSVData(repositoryData)
 	}
 	writeCsv()
 }
