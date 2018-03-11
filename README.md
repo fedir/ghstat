@@ -5,7 +5,7 @@
 [![GoDoc](https://godoc.org/github.com/fedir/go-github-statistics?status.svg)](https://godoc.org/github.com/fedir/go-github-statistics)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Statistical and analytical comparison of multi-criteria decision-making comparator for Github's projects
+Statistical multi-criteria decision-making comparator for Github's projects
 
 Usage example with statistics of Go open source web frameworks, maintained on Github :
 
