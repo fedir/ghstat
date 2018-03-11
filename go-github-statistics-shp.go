@@ -17,7 +17,7 @@ import (
 	"time"
 )
 
-var cacheTtl = 3600
+var cacheTTL = 3600
 
 var tmpFolder = "tmp"
 
@@ -63,6 +63,7 @@ func loadRespFromFile(file string) []byte {
 	return resp
 }
 
+// ReadResp :  reads response from the cached HTTP query.
 func ReadResp(fullResp []byte) ([]byte, string, error) {
 	r := bufio.NewReader(bytes.NewReader(fullResp))
 	resp, err := http.ReadResponse(r, nil)
@@ -74,6 +75,8 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 	return body, linkHeader, err
 }
 
+// MakeCachedHTTPRequest : if the request was already made once, it will be not done again, but read from the file in temporary folder.
+// Currently is used only for GET queries
 func MakeCachedHTTPRequest(url string) []byte {
 	var fullResp []byte
 	filename := getFilename(url)
