@@ -7,9 +7,7 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
-	"net/http"
 	"os"
 	"time"
 )
@@ -37,19 +35,10 @@ type Repository struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
-var myClient = &http.Client{Timeout: 10 * time.Second}
-
 func getRemoteJSON(repoKey string) []byte {
 	url := "https://api.github.com/repos/" + repoKey
-	r, err := myClient.Get(url)
-	if err != nil {
-		panic(err.Error())
-	}
-	defer r.Body.Close()
-	jsonResponse, err := ioutil.ReadAll(r.Body)
-	if err != nil {
-		panic(err.Error())
-	}
+	fullResp := MakeCachedHTTPRequest(url)
+	jsonResponse, _, _ := ReadResp(fullResp)
 	return jsonResponse
 }
 
