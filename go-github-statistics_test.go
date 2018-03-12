@@ -110,8 +110,8 @@ var jsonResponse = `
 }
 `
 
-func TestParseJSON(t *testing.T) {
-	repositoryDataExtracted := parseJSON([]byte(jsonResponse))
+func TestParseRepositoryData(t *testing.T) {
+	repositoryDataExtracted := parseRepositoryData([]byte(jsonResponse))
 	repositoryDataExpected := &Repository{
 		Name:       "beego",
 		FullName:   "astaxie/beego",
@@ -125,8 +125,8 @@ func TestParseJSON(t *testing.T) {
 	}
 }
 
-func TestParseJSONNegative(t *testing.T) {
-	repositoryDataExtracted := parseJSON([]byte(jsonResponse))
+func TestParseRepositoryDataNegative(t *testing.T) {
+	repositoryDataExtracted := parseRepositoryData([]byte(jsonResponse))
 	repositoryDataExpected := &Repository{
 		Name:       "beego",
 		FullName:   "astaxie/beego",

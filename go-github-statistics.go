@@ -35,14 +35,14 @@ type Repository struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
-func getRemoteJSON(repoKey string) []byte {
+func getRepositoryData(repoKey string) []byte {
 	url := "https://api.github.com/repos/" + repoKey
 	fullResp := MakeCachedHTTPRequest(url)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	return jsonResponse
 }
 
-func parseJSON(jsonResponse []byte) *Repository {
+func parseRepositoryData(jsonResponse []byte) *Repository {
 	result := &Repository{}
 	err := json.Unmarshal([]byte(jsonResponse), result)
 	if err != nil {
@@ -79,7 +79,7 @@ func fillCSVData(res *Repository) {
 }
 
 func getRepositoryStatistics(RepoKey string) *Repository {
-	return parseJSON(getRemoteJSON(RepoKey))
+	return parseRepositoryData(getRepositoryData(RepoKey))
 }
 
 func main() {
