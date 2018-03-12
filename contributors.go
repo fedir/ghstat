@@ -8,6 +8,7 @@ import (
 
 const (
 	regexpPageIndexes = `.*page=(\d+).*page=(\d+).*`
+	regexpLastPageURL = `.* rel="next", <(.*)>;.*`
 )
 
 // Contributor structure with selcted data keys for JSON processing
@@ -36,12 +37,25 @@ func getRepositoryContributorsNumber(repoKey string) int {
 		json.Unmarshal(jsonResponse, &contributors)
 		totalContributors = len(contributors)
 	} else {
+
 		// TODO :
 		// get with regexps last URL
 		// make an additional query to the last page
 		// count contributors, add to the base
-		totalContributors = (lastPage - 1) * 30
-		totalContributors++
+		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader)
+		totalContributors = (lastPage-1)*30 + contributorsOnLastPage
 	}
 	return totalContributors
+}
+
+func getRepositoryContributorsNumberLastPage(linkHeader string) int {
+	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
+	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
+	lastPageURL := matchLastURL[1]
+	fullResp := MakeCachedHTTPRequest(lastPageURL)
+	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	contributors := make([]Contributor, 0)
+	json.Unmarshal(jsonResponse, &contributors)
+	contributorsOnLastPage := len(contributors)
+	return contributorsOnLastPage
 }
