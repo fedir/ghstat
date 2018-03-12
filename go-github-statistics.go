@@ -9,7 +9,11 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"regexp"
+	"strconv"
 	"time"
+
+	"github.com/tidwall/gjson"
 )
 
 var repositoriesKeys = []string{
@@ -33,6 +37,47 @@ type Repository struct {
 	Forks      int       `json:"forks"`
 	OpenIssues int       `json:"open_issues"`
 	CreatedAt  time.Time `json:"created_at"`
+}
+
+type Contributor struct {
+	Login string `json:"login"`
+}
+
+func getRepositoryContributorsNumber(repoKey string) int {
+	var totalContributors int
+	url := "https://api.github.com/repos/" + repoKey + "/contributors"
+	fullResp := MakeCachedHTTPRequest(url)
+	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	var compRegEx = regexp.MustCompile(`.*page=(\d+).*page=(\d+).*`)
+	match := compRegEx.FindStringSubmatch(linkHeader)
+	nextPage := 0
+	lastPage := 0
+	for range compRegEx.SubexpNames() {
+		if len(match) == 3 {
+			nextPage, _ = strconv.Atoi(match[1])
+			lastPage, _ = strconv.Atoi(match[2])
+		}
+	}
+	//fmt.Printf("%d / %d\n", nextPage, lastPage)
+	if nextPage == 0 {
+		contributors := make([]Contributor, 0)
+		json.Unmarshal(jsonResponse, &contributors)
+		totalContributors = len(contributors)
+	} else {
+		// make an additional query to the last page
+		totalContributors = (lastPage - 1) * 30
+		totalContributors += 1
+	}
+	return totalContributors
+}
+
+func getRepositoryTotalIssues(repoKey string) int64 {
+	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
+	fullResp := MakeCachedHTTPRequest(url)
+	jsonResponse, _, _ := ReadResp(fullResp)
+	totalIssuesResult := gjson.Get(string(jsonResponse), "total_count")
+	//fmt.Printf("%d\n", totalIssuesResult.Int())
+	return totalIssuesResult.Int()
 }
 
 func getRepositoryData(repoKey string) []byte {
@@ -67,15 +112,17 @@ func writeCsv() {
 	}
 }
 
-func fillCSVData(res *Repository) {
+func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber int) {
 	csvData = append(csvData, []string{
-		res.Name,
-		res.FullName,
-		fmt.Sprintf("%d/%02d", res.CreatedAt.Year(), res.CreatedAt.Month()),
-		fmt.Sprintf("%d", res.Watchers),
-		fmt.Sprintf("%d", res.Forks),
-		fmt.Sprintf("%d", res.OpenIssues)},
-	)
+		repository.Name,
+		repository.FullName,
+		fmt.Sprintf("%d/%02d", repository.CreatedAt.Year(), repository.CreatedAt.Month()),
+		fmt.Sprintf("%d", repository.Watchers),
+		fmt.Sprintf("%d", repository.Forks),
+		fmt.Sprintf("%d", repository.OpenIssues),
+		fmt.Sprintf("%d", totalIssues),
+		fmt.Sprintf("%d", contributorsNumber),
+	})
 }
 
 func getRepositoryStatistics(RepoKey string) *Repository {
@@ -83,10 +130,12 @@ func getRepositoryStatistics(RepoKey string) *Repository {
 }
 
 func main() {
-	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues"})
+	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues", "Total Issues", "Total contributors"})
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
-		fillCSVData(repositoryData)
+		totalIssues := getRepositoryTotalIssues(rKey)
+		contributorsNumber := getRepositoryContributorsNumber(rKey)
+		fillCSVData(repositoryData, totalIssues, contributorsNumber)
 	}
 	writeCsv()
 }
