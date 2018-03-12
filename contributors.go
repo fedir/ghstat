@@ -47,7 +47,7 @@ func getRepositoryContributorsNumberLastPage(linkHeader string) int {
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
 	fullResp := MakeCachedHTTPRequest(lastPageURL)
-	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	jsonResponse, _, _ := ReadResp(fullResp)
 	contributors := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &contributors)
 	contributorsOnLastPage := len(contributors)
