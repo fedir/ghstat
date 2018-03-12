@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"time"
 )
 
 var repositoriesKeys = []string{
@@ -44,6 +45,7 @@ func fillCSVData(repository *Repository, totalIssues int64, closedIssuesPercenta
 		repository.Name,
 		fmt.Sprintf("https://github.com/%s", repository.FullName),
 		fmt.Sprintf("%d/%02d", repository.CreatedAt.Year(), repository.CreatedAt.Month()),
+		fmt.Sprintf("%d", int(time.Since(repository.CreatedAt).Seconds()/86400)),
 		fmt.Sprintf("%d", repository.Watchers),
 		fmt.Sprintf("%d", repository.Forks),
 		fmt.Sprintf("%d", contributorsNumber),
@@ -55,7 +57,7 @@ func fillCSVData(repository *Repository, totalIssues int64, closedIssuesPercenta
 }
 
 func main() {
-	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"})
+	csvData = append(csvData, []string{"Name", "URL", "Created at", "Age in days", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"})
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
