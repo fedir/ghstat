@@ -42,7 +42,7 @@ func writeCsv() {
 func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber int) {
 	csvData = append(csvData, []string{
 		repository.Name,
-		repository.FullName,
+		fmt.Sprintf("https://github.com/%s", repository.FullName),
 		fmt.Sprintf("%d/%02d", repository.CreatedAt.Year(), repository.CreatedAt.Month()),
 		fmt.Sprintf("%d", repository.Watchers),
 		fmt.Sprintf("%d", repository.Forks),
@@ -53,7 +53,7 @@ func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber i
 }
 
 func main() {
-	csvData = append(csvData, []string{"Name", "Full name", "Created at", "Watchers", "Forks", "Open Issues", "Total Issues", "Total contributors"})
+	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Open Issues", "Total Issues", "Total contributors"})
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
