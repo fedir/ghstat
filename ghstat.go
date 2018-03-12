@@ -29,7 +29,7 @@ var repositoriesKeys = []string{
 
 var csvData = [][]string{}
 
-// Repository structure with selcted data keys
+// Repository structure with selcted data keys for JSON processing
 type Repository struct {
 	Name       string    `json:"name"`
 	FullName   string    `json:"full_name"`
@@ -39,6 +39,7 @@ type Repository struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
+// Contributor structure with selcted data keys for JSON processing
 type Contributor struct {
 	Login string `json:"login"`
 }
