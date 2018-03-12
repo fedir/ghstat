@@ -64,9 +64,12 @@ func getRepositoryContributorsNumber(repoKey string) int {
 		json.Unmarshal(jsonResponse, &contributors)
 		totalContributors = len(contributors)
 	} else {
+		// TODO :
+		// get with regexps last URL
 		// make an additional query to the last page
+		// count contributors, add to the base
 		totalContributors = (lastPage - 1) * 30
-		totalContributors += 1
+		totalContributors++
 	}
 	return totalContributors
 }
