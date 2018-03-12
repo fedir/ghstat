@@ -46,3 +46,10 @@ func parseRepositoryData(jsonResponse []byte) *Repository {
 func getRepositoryStatistics(RepoKey string) *Repository {
 	return parseRepositoryData(getRepositoryData(RepoKey))
 }
+
+func getClosedIssuesPercentage(openIssues int, totalIssues int) float64 {
+	openIssuesFloat := float64(openIssues)
+	totalIssuesFloat := float64(totalIssues)
+	closedIssuesPercentage := 100 - (openIssuesFloat/totalIssuesFloat)*100
+	return closedIssuesPercentage
+}

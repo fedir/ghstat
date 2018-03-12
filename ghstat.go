@@ -39,7 +39,7 @@ func writeCsv() {
 	}
 }
 
-func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber int, activeForkersPercentage float64) {
+func fillCSVData(repository *Repository, totalIssues int64, closedIssuesPercentage float64, contributorsNumber int, activeForkersPercentage float64) {
 	csvData = append(csvData, []string{
 		repository.Name,
 		fmt.Sprintf("https://github.com/%s", repository.FullName),
@@ -50,17 +50,19 @@ func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber i
 		fmt.Sprintf("%.2f", activeForkersPercentage),
 		fmt.Sprintf("%d", repository.OpenIssues),
 		fmt.Sprintf("%d", totalIssues),
+		fmt.Sprintf("%.2f", closedIssuesPercentage),
 	})
 }
 
 func main() {
-	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Contributors", "Active forkers percentage", "Open Issues", "Total Issues"})
+	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"})
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
 		contributorsNumber := getRepositoryContributorsNumber(rKey)
 		activeForkersPercentage := getActiveForkersPercentage(contributorsNumber, repositoryData.Forks)
-		fillCSVData(repositoryData, totalIssues, contributorsNumber, activeForkersPercentage)
+		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
+		fillCSVData(repositoryData, totalIssues, closedIssuesPercentage, contributorsNumber, activeForkersPercentage)
 	}
 	writeCsv()
 }
