@@ -59,3 +59,10 @@ func getRepositoryContributorsNumberLastPage(linkHeader string) int {
 	contributorsOnLastPage := len(contributors)
 	return contributorsOnLastPage
 }
+
+func getActiveForkersPercentage(contributors int, forkers int) float64 {
+	contributorsFloat := float64(contributors)
+	forkersFloat := float64(forkers)
+	activeForkersPercentage := (contributorsFloat / forkersFloat) * 100
+	return activeForkersPercentage
+}

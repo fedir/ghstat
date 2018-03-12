@@ -46,10 +46,3 @@ func parseRepositoryData(jsonResponse []byte) *Repository {
 func getRepositoryStatistics(RepoKey string) *Repository {
 	return parseRepositoryData(getRepositoryData(RepoKey))
 }
-
-func getActiveForkersPercentage(contributors int, forkers int) float64 {
-	contributorsFloat := float64(contributors)
-	forkersFloat := float64(forkers)
-	activeForkersPercentage := (contributorsFloat / forkersFloat) * 100
-	return activeForkersPercentage
-}
