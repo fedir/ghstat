@@ -1,6 +1,20 @@
 // Copyright 2018 Fedir RYKHTIK. All rights reserved.
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
+
+/*
+HTTP request static cache
+
+Usage example :
+
+func main() {
+	url := "https://api.github.com/repos/astaxie/beego/contributors"
+	body := MakeCachedHTTPRequest(url)
+	jsonResp, linkHeader, _ := ReadResp(body)
+	fmt.Printf("%s\n%s", jsonResp, linkHeader)
+}
+*/
+
 package main
 
 import (
@@ -98,12 +112,3 @@ func MakeCachedHTTPRequest(url string) []byte {
 	}
 	return fullResp
 }
-
-/*
-func main() {
-	url := "https://api.github.com/repos/astaxie/beego/contributors"
-	body := MakeCachedHTTPRequest(url)
-	jsonResp, linkHeader, _ := ReadResp(body)
-	fmt.Printf("%s\n%s", jsonResp, linkHeader)
-}
-*/
