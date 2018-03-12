@@ -46,14 +46,14 @@ func fillCSVData(repository *Repository, totalIssues int64, contributorsNumber i
 		fmt.Sprintf("%d/%02d", repository.CreatedAt.Year(), repository.CreatedAt.Month()),
 		fmt.Sprintf("%d", repository.Watchers),
 		fmt.Sprintf("%d", repository.Forks),
+		fmt.Sprintf("%d", contributorsNumber),
 		fmt.Sprintf("%d", repository.OpenIssues),
 		fmt.Sprintf("%d", totalIssues),
-		fmt.Sprintf("%d", contributorsNumber),
 	})
 }
 
 func main() {
-	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Open Issues", "Total Issues", "Total contributors"})
+	csvData = append(csvData, []string{"Name", "URL", "Created at", "Watchers", "Forks", "Contributors", "Open Issues", "Total Issues"})
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
