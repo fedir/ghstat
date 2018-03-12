@@ -31,17 +31,11 @@ func getRepositoryContributorsNumber(repoKey string) int {
 			lastPage, _ = strconv.Atoi(match[2])
 		}
 	}
-	//fmt.Printf("%d / %d\n", nextPage, lastPage)
 	if nextPage == 0 {
 		contributors := make([]Contributor, 0)
 		json.Unmarshal(jsonResponse, &contributors)
 		totalContributors = len(contributors)
 	} else {
-
-		// TODO :
-		// get with regexps last URL
-		// make an additional query to the last page
-		// count contributors, add to the base
 		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader)
 		totalContributors = (lastPage-1)*30 + contributorsOnLastPage
 	}
