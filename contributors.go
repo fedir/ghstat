@@ -6,6 +6,10 @@ import (
 	"strconv"
 )
 
+const (
+	regexpPageIndexes = `.*page=(\d+).*page=(\d+).*`
+)
+
 // Contributor structure with selcted data keys for JSON processing
 type Contributor struct {
 	Login string `json:"login"`
@@ -16,7 +20,7 @@ func getRepositoryContributorsNumber(repoKey string) int {
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
 	fullResp := MakeCachedHTTPRequest(url)
 	jsonResponse, linkHeader, _ := ReadResp(fullResp)
-	var compRegEx = regexp.MustCompile(`.*page=(\d+).*page=(\d+).*`)
+	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
 	lastPage := 0
