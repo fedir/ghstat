@@ -19,7 +19,7 @@ type Contributor struct {
 	Login string `json:"login"`
 }
 
-func getRepositoryContributorsNumber(repoKey string) int {
+func getRepositoryContributors(repoKey string) int {
 	var totalContributors int
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
 	fullResp := MakeCachedHTTPRequest(url)

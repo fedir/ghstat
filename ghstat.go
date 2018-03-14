@@ -25,13 +25,25 @@ var repositoriesKeys = []string{
 var csvData = [][]string{}
 
 func main() {
-	headers := []string{"Name", "URL", "Created at", "Age in days", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"}
+	headers := []string{
+		"Name",
+		"URL",
+		"Created at",
+		"Age in days",
+		"Watchers",
+		"Forks",
+		"Contributors",
+		"Active forkers, %",
+		"Open issues",
+		"Total issues",
+		"Closed issues, %",
+	}
 	csvData = append(csvData, headers)
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
-		contributorsNumber := getRepositoryContributorsNumber(rKey)
-		activeForkersPercentage := getActiveForkersPercentage(contributorsNumber, repositoryData.Forks)
+		contributors := getRepositoryContributors(rKey)
+		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
 		csvData = append(csvData, []string{
 			repositoryData.Name,
@@ -40,7 +52,7 @@ func main() {
 			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
 			fmt.Sprintf("%d", repositoryData.Watchers),
 			fmt.Sprintf("%d", repositoryData.Forks),
-			fmt.Sprintf("%d", contributorsNumber),
+			fmt.Sprintf("%d", contributors),
 			fmt.Sprintf("%.2f", activeForkersPercentage),
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
 			fmt.Sprintf("%d", totalIssues),
