@@ -24,6 +24,32 @@ var repositoriesKeys = []string{
 
 var csvData = [][]string{}
 
+func main() {
+	headers := []string{"Name", "URL", "Created at", "Age in days", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"}
+	csvData = append(csvData, headers)
+	for _, rKey := range repositoriesKeys {
+		repositoryData := getRepositoryStatistics(rKey)
+		totalIssues := getRepositoryTotalIssues(rKey)
+		contributorsNumber := getRepositoryContributorsNumber(rKey)
+		activeForkersPercentage := getActiveForkersPercentage(contributorsNumber, repositoryData.Forks)
+		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
+		csvData = append(csvData, []string{
+			repositoryData.Name,
+			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
+			fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
+			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
+			fmt.Sprintf("%d", repositoryData.Watchers),
+			fmt.Sprintf("%d", repositoryData.Forks),
+			fmt.Sprintf("%d", contributorsNumber),
+			fmt.Sprintf("%.2f", activeForkersPercentage),
+			fmt.Sprintf("%d", repositoryData.OpenIssues),
+			fmt.Sprintf("%d", totalIssues),
+			fmt.Sprintf("%.2f", closedIssuesPercentage),
+		})
+	}
+	writeCsv()
+}
+
 func writeCsv() {
 	file, err := os.Create("result.csv")
 	if err != nil {
@@ -38,33 +64,4 @@ func writeCsv() {
 			log.Fatal("Cannot write to file", err)
 		}
 	}
-}
-
-func fillCSVData(repository *Repository, totalIssues int64, closedIssuesPercentage float64, contributorsNumber int, activeForkersPercentage float64) {
-	csvData = append(csvData, []string{
-		repository.Name,
-		fmt.Sprintf("https://github.com/%s", repository.FullName),
-		fmt.Sprintf("%d/%02d", repository.CreatedAt.Year(), repository.CreatedAt.Month()),
-		fmt.Sprintf("%d", int(time.Since(repository.CreatedAt).Seconds()/86400)),
-		fmt.Sprintf("%d", repository.Watchers),
-		fmt.Sprintf("%d", repository.Forks),
-		fmt.Sprintf("%d", contributorsNumber),
-		fmt.Sprintf("%.2f", activeForkersPercentage),
-		fmt.Sprintf("%d", repository.OpenIssues),
-		fmt.Sprintf("%d", totalIssues),
-		fmt.Sprintf("%.2f", closedIssuesPercentage),
-	})
-}
-
-func main() {
-	csvData = append(csvData, []string{"Name", "URL", "Created at", "Age in days", "Watchers", "Forks", "Contributors", "Active forkers, %", "Open Issues", "Total Issues", "Closed issues, %"})
-	for _, rKey := range repositoriesKeys {
-		repositoryData := getRepositoryStatistics(rKey)
-		totalIssues := getRepositoryTotalIssues(rKey)
-		contributorsNumber := getRepositoryContributorsNumber(rKey)
-		activeForkersPercentage := getActiveForkersPercentage(contributorsNumber, repositoryData.Forks)
-		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
-		fillCSVData(repositoryData, totalIssues, closedIssuesPercentage, contributorsNumber, activeForkersPercentage)
-	}
-	writeCsv()
 }
