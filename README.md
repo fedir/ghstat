@@ -14,3 +14,14 @@ Usage example with statistics of Go open source web frameworks, maintained on Gi
     ./ghstat
 
 After that, `result.csv` file will be created (or updated, if it's already exists) with the statistics of selected repositories.
+
+## Comparaison methodology
+
+We choosed following metrics, here they are, in alphabetical order : 
+
+* Active forkers - more is better
+* Age in days - newest is better :)
+* Closed issues, % - more is better
+* Contributors - more is better
+* Forks - more is better
+* Watchers - more is better
