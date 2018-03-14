@@ -56,6 +56,7 @@ func main() {
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
 			fmt.Sprintf("%d", totalIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
+			fmt.Sprintf("0"),
 		})
 	}
 
