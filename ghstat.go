@@ -22,9 +22,8 @@ var repositoriesKeys = []string{
 	"kataras/iris",
 }
 
-var csvData = [][]string{}
-
 func main() {
+	var csvData = [][]string{}
 	headers := []string{
 		"Name",
 		"URL",
@@ -37,8 +36,8 @@ func main() {
 		"Open issues",
 		"Total issues",
 		"Closed issues, %",
+		"Total points",
 	}
-	csvData = append(csvData, headers)
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
 		totalIssues := getRepositoryTotalIssues(rKey)
@@ -59,10 +58,13 @@ func main() {
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
 		})
 	}
-	writeCsv()
+
+	csvDataSorted := sortSliceByColumnIndexFloatDesc(csvData, 10)
+
+	writeCsv(headers, csvDataSorted)
 }
 
-func writeCsv() {
+func writeCsv(headers []string, csvData [][]string) {
 	file, err := os.Create("result.csv")
 	if err != nil {
 		log.Fatal("Cannot create file", err)
@@ -70,6 +72,12 @@ func writeCsv() {
 	defer file.Close()
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
+
+	err = writer.Write(headers)
+	if err != nil {
+		log.Fatal("Cannot write to file", err)
+	}
+
 	for _, value := range csvData {
 		err := writer.Write(value)
 		if err != nil {
