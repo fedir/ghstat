@@ -19,7 +19,6 @@ var repositoriesKeys = []string{
 	"revel/revel",
 	"gobuffalo/buffalo",
 	"go-chi/chi",
-	"kataras/iris",
 }
 
 func main() {
