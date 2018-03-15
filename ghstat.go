@@ -85,7 +85,7 @@ func main() {
 	csvData = sortSliceByColumnIndexIntAsc(csvData, 11)
 
 	csvData = assignPlaces(csvData, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The best project taking in account the placement in multiple section is")
+	firstPlaceGreeting(csvData, 3, "The best project (taking in account placements in all competitions) is")
 
 	writeCsv(headers, csvData)
 }
