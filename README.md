@@ -19,9 +19,8 @@ After that, `result.csv` file will be created (or updated, if it's already exist
 
 At the moment We choosed following metrics, here they are, in alphabetical order :
 
-* Active forkers - more is better
+* Active forkers percentage - more is better
 * Age in days - newest is better :)
 * Closed issues, % - more is better
-* Contributors - more is better
 * Forks - more is better
 * Watchers - more is better
