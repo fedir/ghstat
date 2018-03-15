@@ -37,7 +37,7 @@ func main() {
 		"Open issues",
 		"Total issues",
 		"Closed issues, %",
-		"Total points",
+		"Place",
 	}
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey)
