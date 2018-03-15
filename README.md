@@ -24,10 +24,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Closed issues, % - more is better
 * Watchers - more is better
 
-## Current results
+## Go web framework rating
 
 * The most popular project is `hugo`
-* The newest project is `iris`
+* The newest project is `chi`
 * The project with the most active community is `buffalo`
-* The project with best errors resolving rate is `iris`
+* The project with best errors resolving rate is `revel`
 * The best project taking in account the placement in multiple section is `hugo`
