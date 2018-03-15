@@ -17,7 +17,7 @@ After that, `result.csv` file will be created (or updated, if it's already exist
 
 ## Comparaison methodology
 
-We choosed following metrics, here they are, in alphabetical order : 
+At the moment We choosed following metrics, here they are, in alphabetical order :
 
 * Active forkers - more is better
 * Age in days - newest is better :)
