@@ -21,18 +21,18 @@ type Repository struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
-func getRepositoryTotalIssues(repoKey string) int64 {
+func getRepositoryTotalIssues(repoKey string, debug bool) int64 {
 	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
-	fullResp := MakeCachedHTTPRequest(url)
+	fullResp := MakeCachedHTTPRequest(url, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	totalIssuesResult := gjson.Get(string(jsonResponse), "total_count")
 	//fmt.Printf("%d\n", totalIssuesResult.Int())
 	return totalIssuesResult.Int()
 }
 
-func getRepositoryData(repoKey string) []byte {
+func getRepositoryData(repoKey string, debug bool) []byte {
 	url := "https://api.github.com/repos/" + repoKey
-	fullResp := MakeCachedHTTPRequest(url)
+	fullResp := MakeCachedHTTPRequest(url, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	return jsonResponse
 }
@@ -46,8 +46,8 @@ func parseRepositoryData(jsonResponse []byte) *Repository {
 	return result
 }
 
-func getRepositoryStatistics(RepoKey string) *Repository {
-	return parseRepositoryData(getRepositoryData(RepoKey))
+func getRepositoryStatistics(RepoKey string, debug bool) *Repository {
+	return parseRepositoryData(getRepositoryData(RepoKey, debug))
 }
 
 func getClosedIssuesPercentage(openIssues int, totalIssues int) float64 {

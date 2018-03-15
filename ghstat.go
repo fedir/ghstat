@@ -5,6 +5,7 @@ package main
 
 import (
 	"encoding/csv"
+	"flag"
 	"fmt"
 	"log"
 	"os"
@@ -22,6 +23,11 @@ var repositoriesKeys = []string{
 }
 
 func main() {
+	var (
+		debug = flag.Bool("d", false, "Debug mode")
+	)
+	flag.Parse()
+
 	var totalPointsColumnIndex = 11
 	var csvData = [][]string{}
 	headers := []string{
@@ -39,9 +45,9 @@ func main() {
 		"Place",
 	}
 	for _, rKey := range repositoriesKeys {
-		repositoryData := getRepositoryStatistics(rKey)
-		totalIssues := getRepositoryTotalIssues(rKey)
-		contributors := getRepositoryContributors(rKey)
+		repositoryData := getRepositoryStatistics(rKey, *debug)
+		totalIssues := getRepositoryTotalIssues(rKey, *debug)
+		contributors := getRepositoryContributors(rKey, *debug)
 		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
 		csvData = append(csvData, []string{

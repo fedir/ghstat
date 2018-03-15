@@ -91,7 +91,7 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 
 // MakeCachedHTTPRequest : if the request was already made once, it will be not done again, but read from the file in temporary folder.
 // Currently is used only for GET queries
-func MakeCachedHTTPRequest(url string) []byte {
+func MakeCachedHTTPRequest(url string, debug bool) []byte {
 	var fullResp []byte
 	filename := getFilename(url)
 	filepath := filename
@@ -99,7 +99,9 @@ func MakeCachedHTTPRequest(url string) []byte {
 		filepath = tmpFolder + "/" + filename
 	}
 	if _, err := os.Stat(filepath); os.IsNotExist(err) {
-		fmt.Println("HTTP query: " + url)
+		if debug == true {
+			fmt.Println("HTTP query: " + url)
+		}
 		resp, err := makeHTTPRequest(url)
 		if err != nil {
 			panic(err)
@@ -107,7 +109,9 @@ func MakeCachedHTTPRequest(url string) []byte {
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
 	} else {
-		fmt.Println("Loaded results directly from: " + filepath)
+		if debug == true {
+			fmt.Println("Loaded results directly from: " + filepath)
+		}
 		fullResp = loadRespFromFile(filepath)
 	}
 	return fullResp
