@@ -22,5 +22,4 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Active forkers percentage - more is better
 * Age in days - newest is better :)
 * Closed issues, % - more is better
-* Forks - more is better
 * Watchers - more is better

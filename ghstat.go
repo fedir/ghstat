@@ -23,6 +23,7 @@ var repositoriesKeys = []string{
 }
 
 func main() {
+	var totalPointsColumnIndex = 11
 	var csvData = [][]string{}
 	headers := []string{
 		"Name",
@@ -56,13 +57,24 @@ func main() {
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
 			fmt.Sprintf("%d", totalIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
-			fmt.Sprintf("0"),
+			"0",
 		})
 	}
 
-	csvDataSorted := sortSliceByColumnIndexFloatDesc(csvData, 10)
+	// Add points by active forkers
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 7), 7, totalPointsColumnIndex)
+	// Add points by proportion of total and resolved issues
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 10), 10, totalPointsColumnIndex)
+	// Add points by age (we like fresh ideas)
+	csvData = addPoints(sortSliceByColumnIndexIntAsc(csvData, 3), 3, totalPointsColumnIndex)
+	// Add points by total populatiry
+	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, 4), 4, totalPointsColumnIndex)
 
-	writeCsv(headers, csvDataSorted)
+	csvData = sortSliceByColumnIndexFloatDesc(csvData, 11)
+
+	csvData = assignPlaces(csvData, totalPointsColumnIndex)
+
+	writeCsv(headers, csvData)
 }
 
 func writeCsv(headers []string, csvData [][]string) {
