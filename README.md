@@ -23,3 +23,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Age in days - newest is better :)
 * Closed issues, % - more is better
 * Watchers - more is better
+
+## Current results
+
+* The newest project is `iris`
+* The most popular project is `hugo`
+* The most active community is `buffalo`
+* The project with best errors resolving rate is `iris`
+* The best project is `hugo`

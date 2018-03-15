@@ -61,18 +61,26 @@ func main() {
 		})
 	}
 
-	// Add points by active forkers
-	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 7), 7, totalPointsColumnIndex)
-	// Add points by proportion of total and resolved issues
-	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 10), 10, totalPointsColumnIndex)
-	// Add points by age (we like fresh ideas)
-	csvData = addPoints(sortSliceByColumnIndexIntAsc(csvData, 3), 3, totalPointsColumnIndex)
 	// Add points by total populatiry
 	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, 4), 4, totalPointsColumnIndex)
+	firstPlaceGreeting(csvData, 3, "The most popular project is")
 
-	csvData = sortSliceByColumnIndexFloatDesc(csvData, 11)
+	// Add points by age (we like fresh ideas)
+	csvData = addPoints(sortSliceByColumnIndexIntAsc(csvData, 3), 3, totalPointsColumnIndex)
+	firstPlaceGreeting(csvData, 3, "The newest project is")
+
+	// Add points by active forkers
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 7), 7, totalPointsColumnIndex)
+	firstPlaceGreeting(csvData, 3, "The project with the most active community is")
+
+	// Add points by proportion of total and resolved issues
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 10), 10, totalPointsColumnIndex)
+	firstPlaceGreeting(csvData, 3, "The project with best errors resolving rate is")
+
+	csvData = sortSliceByColumnIndexIntAsc(csvData, 11)
 
 	csvData = assignPlaces(csvData, totalPointsColumnIndex)
+	firstPlaceGreeting(csvData, 3, "The best project basing on placement by these multiple criterias is")
 
 	writeCsv(headers, csvData)
 }
