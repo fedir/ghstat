@@ -17,7 +17,7 @@ func addPoints(s [][]string, columnIndex int, totalPointsColumnIndex int) [][]st
 	return s
 }
 
-func firstPlaceGreeting(s [][]string, columnIndex int, message string) {
+func firstPlaceGreeting(s [][]string, message string) {
 	fmt.Printf("* %s `%s`\n", message, s[0][0])
 }
 
