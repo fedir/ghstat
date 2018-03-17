@@ -43,9 +43,11 @@ func main() {
 		"Total issues",
 		"Closed issues, %",
 		"Place",
+		"Author",
 	}
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey, *debug)
+		authorLogin := getRepositoryCommits(rKey, *debug)
 		totalIssues := getRepositoryTotalIssues(rKey, *debug)
 		contributors := getRepositoryContributors(rKey, *debug)
 		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
@@ -63,6 +65,7 @@ func main() {
 			fmt.Sprintf("%d", totalIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
 			"0",
+			fmt.Sprintf("%s", authorLogin),
 		})
 	}
 
