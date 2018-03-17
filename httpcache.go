@@ -45,7 +45,7 @@ func getFilename(url string) string {
 	return hex.EncodeToString(encoder.Sum(nil))
 }
 
-func makeHTTPRequest(url string) ([]byte, error) {
+func makeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		log.Fatal("Cannont prepare the HTTP request", err)
@@ -59,7 +59,7 @@ func makeHTTPRequest(url string) ([]byte, error) {
 	if err != nil {
 		log.Fatal("Cannont dump the body of HTTP response", err)
 	}
-	return body, err
+	return body, resp.StatusCode, err
 }
 
 func saveRespToFile(file string, resp []byte) {
@@ -102,9 +102,12 @@ func MakeCachedHTTPRequest(url string, debug bool) []byte {
 		if debug == true {
 			fmt.Println("HTTP query: " + url)
 		}
-		resp, err := makeHTTPRequest(url)
+		resp, statusCode, err := makeHTTPRequest(url)
 		if err != nil {
 			panic(err)
+		}
+		if statusCode != 200 {
+			log.Fatalf("The status code is not OK : %d", statusCode)
 		}
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
