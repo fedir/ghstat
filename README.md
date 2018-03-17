@@ -11,6 +11,7 @@ Statistical multi-criteria decision-making comparator for selected Github's proj
 Usage example with statistics of Go open source web frameworks, maintained on Github :
 
     go build
+    mkdir tmp
     ./ghstat
 
 Usage example to compare most famous JS frameworks
