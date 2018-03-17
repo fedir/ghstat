@@ -19,7 +19,7 @@ Usage example to compare most famous JS frameworks
 
 Usage example to compare most famous PHP frameworks
 
-    ./ghstat -r laravel/laravel,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter
+    ./ghstat -r laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter
 
 After that, `result.csv` file will be created (or updated, if it's already exists) with the statistics of selected repositories.
 
@@ -53,9 +53,9 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## PHP frameworks rating
 
-* The most popular project is `laravel`
-* The newest project is `yii2`
-* The project with the most active community is `symfony`
-* The project with best errors resolving rate is `CodeIgniter`
+* The most popular project is `symfony`
+* The newest project is `framework`
+* The project with the most active community is `framework`
+* The project with best errors resolving rate is `framework`
 * The project with more commits is `symfony`
-* The best project (taking in account placements in all competitions) is `symfony`
+* The best project (taking in account placements in all competitions) is `framework`
