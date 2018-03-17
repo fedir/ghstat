@@ -65,7 +65,13 @@ func main() {
 			fmt.Sprintf("%d", totalIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
 			"0",
-			fmt.Sprintf("%s", authorLogin),
+			fmt.Sprintf("%s", func(a string) string {
+				if a == "" {
+					return "[Account removed]"
+				} else {
+					return a
+				}
+			}(authorLogin)),
 		})
 	}
 
