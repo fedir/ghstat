@@ -28,14 +28,24 @@ func main() {
 	)
 	flag.Parse()
 
-	var totalPointsColumnIndex = 11
 	var csvData = [][]string{}
+	const (
+		NameColumn                   = 0
+		AgeColumn                    = 4
+		TotalCommitsColumn           = 5
+		StargazersColumn             = 6
+		ActiveForkersColumn          = 9
+		ClosedIssuesPercentageColumn = 12
+		TotalPointsColumnIndex       = 13
+	)
 	headers := []string{
 		"Name",
 		"URL",
+		"Author",
 		"Created at",
 		"Age in days",
-		"Watchers",
+		"Total commits",
+		"Stargazers",
 		"Forks",
 		"Contributors",
 		"Active forkers, %",
@@ -43,8 +53,6 @@ func main() {
 		"Total issues",
 		"Closed issues, %",
 		"Place",
-		"Author",
-		"Total commits",
 	}
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey, *debug)
@@ -78,25 +86,29 @@ func main() {
 	}
 
 	// Add points by total populatiry
-	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, 4), 4, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The most popular project is")
+	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, StargazersColumn), StargazersColumn, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The most popular project is")
 
 	// Add points by age (we like fresh ideas)
-	csvData = addPoints(sortSliceByColumnIndexIntAsc(csvData, 3), 3, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The newest project is")
+	csvData = addPoints(sortSliceByColumnIndexIntAsc(csvData, AgeColumn), AgeColumn, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The newest project is")
 
 	// Add points by active forkers
-	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 7), 7, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The project with the most active community is")
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, ActiveForkersColumn), ActiveForkersColumn, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The project with the most active community is")
 
 	// Add points by proportion of total and resolved issues
-	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, 10), 10, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The project with best errors resolving rate is")
+	csvData = addPoints(sortSliceByColumnIndexFloatDesc(csvData, ClosedIssuesPercentageColumn), ClosedIssuesPercentageColumn, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The project with best errors resolving rate is")
+
+	// Add points by number of commits
+	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, TotalCommitsColumn), TotalCommitsColumn, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The project with more commits is")
 
 	csvData = sortSliceByColumnIndexIntAsc(csvData, 11)
 
-	csvData = assignPlaces(csvData, totalPointsColumnIndex)
-	firstPlaceGreeting(csvData, 3, "The best project (taking in account placements in all competitions) is")
+	csvData = assignPlaces(csvData, TotalPointsColumnIndex)
+	firstPlaceGreeting(csvData, "The best project (taking in account placements in all competitions) is")
 
 	writeCsv(headers, csvData)
 }
