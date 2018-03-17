@@ -105,7 +105,7 @@ func main() {
 	csvData = addPoints(sortSliceByColumnIndexIntDesc(csvData, TotalCommitsColumn), TotalCommitsColumn, TotalPointsColumnIndex)
 	firstPlaceGreeting(csvData, "The project with more commits is")
 
-	csvData = sortSliceByColumnIndexIntAsc(csvData, 11)
+	csvData = sortSliceByColumnIndexIntAsc(csvData, TotalPointsColumnIndex)
 
 	csvData = assignPlaces(csvData, TotalPointsColumnIndex)
 	firstPlaceGreeting(csvData, "The best project (taking in account placements in all competitions) is")
