@@ -23,6 +23,8 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Age in days - newest is better :)
 * Closed issues, % - more is better
 * Watchers - more is better
+* Total commits - more is better
+  * More precisely, it's total commits by existing contributors, commits of deleted accounts, will not be taken in account
 
 ## Go web framework rating
 
