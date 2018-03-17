@@ -30,10 +30,28 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Total commits - more is better
   * More precisely, it's total commits by existing contributors, commits of deleted accounts, will not be taken in account
 
-## Go web framework rating
+## Go web frameworks rating
 
 * The most popular project is `hugo`
 * The newest project is `chi`
 * The project with the most active community is `buffalo`
 * The project with best errors resolving rate is `revel`
 * The best project taking in account the placement in multiple section is `hugo`
+
+## JS frameworks rating
+
+* The most popular project is `react`
+* The newest project is `angular`
+* The project with the most active community is `angular`
+* The project with best errors resolving rate is `vue`
+* The project with more commits is `angular`
+* The best project (taking in account placements in all competitions) is `angular`
+
+## PHP frameworks rating
+
+* The most popular project is `laravel`
+* The newest project is `yii2`
+* The project with the most active community is `symfony`
+* The project with best errors resolving rate is `CodeIgniter`
+* The project with more commits is `symfony`
+* The best project (taking in account placements in all competitions) is `symfony`
