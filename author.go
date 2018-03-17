@@ -58,3 +58,41 @@ func getRepositoryFirstCommitAuthorLogin(linkHeader string, debug bool) string {
 func getCommitAuthorLogin(c Commit) string {
 	return c.Author.Login
 }
+
+func getUserFollowers(username string, debug bool) int {
+	var total int
+	url := "https://api.github.com/users/" + username + "/followers"
+	fullResp := MakeCachedHTTPRequest(url, debug)
+	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	var compRegEx = regexp.MustCompile(regexpPageIndexes)
+	match := compRegEx.FindStringSubmatch(linkHeader)
+	nextPage := 0
+	lastPage := 0
+	for range compRegEx.SubexpNames() {
+		if len(match) == 3 {
+			nextPage, _ = strconv.Atoi(match[1])
+			lastPage, _ = strconv.Atoi(match[2])
+		}
+	}
+	if nextPage == 0 {
+		contributors := make([]Contributor, 0)
+		json.Unmarshal(jsonResponse, &contributors)
+		total = len(contributors)
+	} else {
+		itemsNumberOnLastPage := getItemsNumberOnLastPage(linkHeader, debug)
+		total = (lastPage-1)*30 + itemsNumberOnLastPage
+	}
+	return total
+}
+
+func getItemsNumberOnLastPage(linkHeader string, debug bool) int {
+	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
+	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
+	lastPageURL := matchLastURL[1]
+	fullResp := MakeCachedHTTPRequest(lastPageURL, debug)
+	jsonResponse, _, _ := ReadResp(fullResp)
+	items := make([]Contributor, 0)
+	json.Unmarshal(jsonResponse, &items)
+	itemsNumberOnLastPage := len(items)
+	return itemsNumberOnLastPage
+}
