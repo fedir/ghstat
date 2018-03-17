@@ -5,7 +5,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 )
 
 // StatsContributor contains statistical data for contribution
@@ -38,11 +37,11 @@ func getContributionStatistics(repoKey string, debug bool) ContributionStatistic
 	jsonResponse, _, _ := ReadResp(fullResp)
 	contributionStatistics := make([]StatsContributor, 0)
 	json.Unmarshal(jsonResponse, &contributionStatistics)
-	fmt.Printf("%v#", contributionStatistics)
-	for i, c := range contributionStatistics {
-		fmt.Printf("%d %s %d\n", i, c.Author.Login, c.TotalCommits)
+	//fmt.Printf("%v#", contributionStatistics)
+	for _, c := range contributionStatistics {
+		//fmt.Printf("%d %s %d\n", i, c.Author.Login, c.TotalCommits)
 		cs.TotalCommits += c.TotalCommits
 	}
-	fmt.Printf("%d\n", cs.TotalCommits)
+	//fmt.Printf("%d\n", cs.TotalCommits)
 	return cs
 }
