@@ -65,8 +65,15 @@ func main() {
 		csvData = append(csvData, []string{
 			repositoryData.Name,
 			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
+			fmt.Sprintf("%s", func(a string) string {
+				if a == "" {
+					a = "[Account removed]"
+				}
+				return a
+			}(authorLogin)),
 			fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
 			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
+			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
 			fmt.Sprintf("%d", repositoryData.Watchers),
 			fmt.Sprintf("%d", repositoryData.Forks),
 			fmt.Sprintf("%d", contributors),
@@ -75,13 +82,6 @@ func main() {
 			fmt.Sprintf("%d", totalIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
 			"0",
-			fmt.Sprintf("%s", func(a string) string {
-				if a == "" {
-					a = "[Account removed]"
-				}
-				return a
-			}(authorLogin)),
-			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
 		})
 	}
 
