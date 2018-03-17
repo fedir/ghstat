@@ -107,7 +107,7 @@ func MakeCachedHTTPRequest(url string, debug bool) []byte {
 			panic(err)
 		}
 		if statusCode != 200 {
-			log.Fatalf("The status code is not OK : %d", statusCode)
+			log.Fatalf("The status code of URL %s is not OK : %d", url, statusCode)
 		}
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
