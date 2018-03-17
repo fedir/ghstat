@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -24,9 +25,14 @@ var repositoriesKeys = []string{
 
 func main() {
 	var (
-		debug = flag.Bool("d", false, "Debug mode")
+		debug                  = flag.Bool("d", false, "Debug mode")
+		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 	)
 	flag.Parse()
+
+	if *repositoriesKeysManual != "" {
+		repositoriesKeys = strings.Split(*repositoriesKeysManual, ",")
+	}
 
 	var csvData = [][]string{}
 	const (

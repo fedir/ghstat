@@ -13,6 +13,10 @@ Usage example with statistics of Go open source web frameworks, maintained on Gi
     go build
     ./ghstat
 
+Usage example to compare most famous JS frameworks
+
+    ./ghstat -r angular/angular,facebook/react,vuejs/vue
+
 After that, `result.csv` file will be created (or updated, if it's already exists) with the statistics of selected repositories.
 
 ## Comparaison methodology
