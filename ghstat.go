@@ -44,6 +44,7 @@ func main() {
 		"Closed issues, %",
 		"Place",
 		"Author",
+		"Total commits",
 	}
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey, *debug)
@@ -52,6 +53,7 @@ func main() {
 		contributors := getRepositoryContributors(rKey, *debug)
 		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
+		contributionStatistics := getContributionStatistics(rKey, *debug)
 		csvData = append(csvData, []string{
 			repositoryData.Name,
 			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
@@ -71,6 +73,7 @@ func main() {
 				}
 				return a
 			}(authorLogin)),
+			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
 		})
 	}
 
