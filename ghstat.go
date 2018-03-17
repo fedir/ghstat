@@ -67,10 +67,9 @@ func main() {
 			"0",
 			fmt.Sprintf("%s", func(a string) string {
 				if a == "" {
-					return "[Account removed]"
-				} else {
-					return a
+					a = "[Account removed]"
 				}
+				return a
 			}(authorLogin)),
 		})
 	}
