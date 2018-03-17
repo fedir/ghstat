@@ -17,6 +17,10 @@ Usage example to compare most famous JS frameworks
 
     ./ghstat -r angular/angular,facebook/react,vuejs/vue
 
+Usage example to compare most famous PHP frameworks
+
+    ./ghstat -r laravel/laravel,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter
+
 After that, `result.csv` file will be created (or updated, if it's already exists) with the statistics of selected repositories.
 
 ## Comparaison methodology
