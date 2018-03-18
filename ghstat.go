@@ -40,10 +40,14 @@ func main() {
 		AuthorsFollowersColumn       = 4
 		AgeColumn                    = 5
 		TotalCommitsColumn           = 6
-		StargazersColumn             = 7
-		ActiveForkersColumn          = 10
-		ClosedIssuesPercentageColumn = 13
-		TotalPointsColumnIndex       = 14
+		TotalAdditionsColumn         = 7
+		TotalDeletionsColumn         = 8
+		TotalCodeChangesColumn       = 9
+		MediCommitSizeColumn         = 10
+		StargazersColumn             = 11
+		ActiveForkersColumn          = 14
+		ClosedIssuesPercentageColumn = 17
+		TotalPointsColumnIndex       = 18
 	)
 	headers := []string{
 		"Name",
@@ -53,6 +57,10 @@ func main() {
 		"Created at",
 		"Age in days",
 		"Total commits",
+		"Total additions",
+		"Total deletions",
+		"Total code changes",
+		"Medium commit size",
 		"Stargazers",
 		"Forks",
 		"Contributors",
@@ -87,6 +95,10 @@ func main() {
 			fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
 			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
 			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
+			fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
+			fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
+			fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
+			fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
 			fmt.Sprintf("%d", repositoryData.Watchers),
 			fmt.Sprintf("%d", repositoryData.Forks),
 			fmt.Sprintf("%d", contributors),

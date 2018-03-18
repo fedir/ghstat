@@ -13,35 +13,52 @@ type StatsContributor struct {
 		Login string `json:"login"`
 	} `json:"author"`
 	TotalCommits int `json:"total"`
-	//Weeks        []StatsContributorWeek `json:"weeks"`
-}
-
-// StatsContributorWeek substructure
-type StatsContributorWeek struct {
-	Week      string `json:"w"`
-	Additions string `json:"a"`
-	Deletions string `json:"d"`
-	Commits   string `json:"c"`
+	Weeks        []struct {
+		Week      int `json:"w"`
+		Additions int `json:"a"`
+		Deletions int `json:"d"`
+		Commits   int `json:"c"`
+	} `json:"weeks"`
 }
 
 // ContributionStatistics contains multiple statistics about contribution into the repository
 type ContributionStatistics struct {
-	TotalCommits int
+	TotalCommits     int
+	TotalAdditions   int
+	TotalDeletions   int
+	TotalCodeChanges int
+	MediumCommitSize int
 }
 
 func getContributionStatistics(repoKey string, debug bool) ContributionStatistics {
-	var cs ContributionStatistics
-	cs.TotalCommits = 0
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
 	fullResp := MakeCachedHTTPRequest(url, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
+	cs := extractContributionStatisticsFromJSON(jsonResponse)
+	return cs
+}
+
+func extractContributionStatisticsFromJSON(jsonResponse []byte) ContributionStatistics {
+	var cs ContributionStatistics
+	cs.TotalCommits = 0
+	cs.TotalAdditions = 0
+	cs.TotalDeletions = 0
+	cs.TotalCodeChanges = 0
 	contributionStatistics := make([]StatsContributor, 0)
 	json.Unmarshal(jsonResponse, &contributionStatistics)
-	//fmt.Printf("%v#", contributionStatistics)
 	for _, c := range contributionStatistics {
-		//fmt.Printf("%d %s %d\n", i, c.Author.Login, c.TotalCommits)
 		cs.TotalCommits += c.TotalCommits
+		for _, cw := range c.Weeks {
+			cs.TotalAdditions += cw.Additions
+			cs.TotalDeletions += cw.Deletions
+			cs.TotalCodeChanges += cw.Additions
+			cs.TotalCodeChanges += cw.Deletions
+		}
 	}
-	//fmt.Printf("%d\n", cs.TotalCommits)
+	cs.MediumCommitSize = calculateMediumCommitSize(cs.TotalCommits, cs.TotalCodeChanges)
 	return cs
+}
+
+func calculateMediumCommitSize(totalCommits int, totalCodeChanges int) int {
+	return int(float64(totalCodeChanges) / float64(totalCommits))
 }
