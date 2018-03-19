@@ -26,9 +26,10 @@ var repositoriesKeys = []string{
 
 func main() {
 	var (
+		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 		debug                  = flag.Bool("d", false, "Debug mode")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
-		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
+		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
 	)
 	flag.Parse()
 
@@ -39,6 +40,13 @@ func main() {
 
 	if *repositoriesKeysManual != "" {
 		repositoriesKeys = strings.Split(*repositoriesKeysManual, ",")
+	}
+
+	csvFilePath := ""
+	if *resultFileSavePath != "" {
+		csvFilePath = *resultFileSavePath
+	} else {
+		csvFilePath = "result.csv"
 	}
 
 	var csvData = [][]string{}
@@ -153,7 +161,7 @@ func main() {
 	firstPlaceGreeting(csvDataSorted, "The best project (taking in account placements in all competitions) is")
 	csvDataTotal = assignPlaces(csvData, TotalPointsColumnIndex)
 
-	writeCsv(headers, csvDataTotal)
+	writeCsv(csvFilePath, headers, csvDataTotal)
 }
 
 func checkAndPrintRateLimit() {
@@ -200,8 +208,8 @@ func getRelativeTime(unixTime int) int {
 	return int((float64(unixTime) - float64(now)) / 60)
 }
 
-func writeCsv(headers []string, csvData [][]string) {
-	file, err := os.Create("result.csv")
+func writeCsv(csvFilePath string, headers []string, csvData [][]string) {
+	file, err := os.Create(csvFilePath)
 	if err != nil {
 		log.Fatal("Cannot create file", err)
 	}
