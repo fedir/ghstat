@@ -81,4 +81,4 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
 * The project with more commits is `framework`
 * The best project (taking in account placements in all competitions) is `framework`
 
-https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
+Details : https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
