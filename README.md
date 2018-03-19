@@ -37,23 +37,26 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## Go web frameworks rating
 
+* The project made by most notable author is `beego`
 * The most popular project is `hugo`
 * The newest project is `chi`
 * The project with the most active community is `buffalo`
-* The project with best errors resolving rate is `revel`
-* The best project taking in account the placement in multiple section is `hugo`
+* The project with best errors resolving rate is `chi`
+* The project with more commits is `hugo`
+* The best project (taking in account placements in all competitions) is `hugo`
 
 ## JS frameworks rating
 
+* The project made by most notable author is `angular`
 * The most popular project is `react`
 * The newest project is `angular`
 * The project with the most active community is `angular`
 * The project with best errors resolving rate is `vue`
 * The project with more commits is `angular`
-* The best project (taking in account placements in all competitions) is `angular`
 
 ## PHP frameworks rating
 
+* The project made by most notable author is `framework`
 * The most popular project is `symfony`
 * The newest project is `framework`
 * The project with the most active community is `framework`
