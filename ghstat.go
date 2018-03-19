@@ -5,6 +5,7 @@ package main
 
 import (
 	"encoding/csv"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
@@ -27,8 +28,14 @@ func main() {
 	var (
 		debug                  = flag.Bool("d", false, "Debug mode")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
+		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 	)
 	flag.Parse()
+
+	if *rateLimitCheck {
+		checkAndPrintRateLimit()
+		os.Exit(0)
+	}
 
 	if *repositoriesKeysManual != "" {
 		repositoriesKeys = strings.Split(*repositoriesKeysManual, ",")
@@ -147,6 +154,44 @@ func main() {
 	csvDataTotal = assignPlaces(csvData, TotalPointsColumnIndex)
 
 	writeCsv(headers, csvDataTotal)
+}
+
+func checkAndPrintRateLimit() {
+	type RateLimits struct {
+		Resources struct {
+			Core struct {
+				Limit     int `json:"limit"`
+				Remaining int `json:"remaining"`
+				Reset     int `json:"reset"`
+			} `json:"core"`
+			Search struct {
+				Limit     int `json:"limit"`
+				Remaining int `json:"remaining"`
+				Reset     int `json:"reset"`
+			} `json:"search"`
+			Rate struct {
+				Limit     int `json:"limit"`
+				Remaining int `json:"remaining"`
+				Reset     int `json:"reset"`
+			} `json:"rate"`
+		} `json:"resources"`
+	}
+	url := "https://api.github.com/rate_limit"
+	resp, statusCode, err := makeHTTPRequest(url)
+	if err != nil {
+		log.Fatalf("Error during checking rate limit : %d %v#", statusCode, err)
+	}
+	jsonResponse, _, _ := ReadResp(resp)
+	rateLimits := RateLimits{}
+	json.Unmarshal(jsonResponse, &rateLimits)
+	fmt.Printf("Core: %d/%d (reset in %d minutes)", rateLimits.Resources.Core.Remaining, rateLimits.Resources.Core.Limit, getRelativeTime(rateLimits.Resources.Core.Reset))
+}
+
+func getRelativeTime(unixTime int) int {
+	now := int(time.Now().Unix())
+	fmt.Println(now)
+	fmt.Println(unixTime)
+	return int((float64(unixTime) - float64(now)) / 60)
 }
 
 func writeCsv(headers []string, csvData [][]string) {
