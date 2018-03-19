@@ -1,0 +1,2 @@
+#!/bin/bash
+./ghstat -r angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,riot/riot -f stats/js_frameworks.csv
