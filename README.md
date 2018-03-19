@@ -51,10 +51,11 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv
 
 * The project made by most notable author is `angular`
 * The most popular project is `react`
-* The newest project is `angular`
-* The project with the most active community is `angular`
-* The project with best errors resolving rate is `vue`
-* The project with more commits is `angular`
+* The newest project is `hyperapp`
+* The project with the most active community is `riot`
+* The project with best errors resolving rate is `meteor`
+* The project with more commits is `meteor`
+* The best project (taking in account placements in all competitions) is `meteor`
 
 Details : https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv
 
