@@ -50,6 +50,10 @@ func makeHTTPRequest(url string) ([]byte, int, error) {
 	if err != nil {
 		log.Fatal("Cannont prepare the HTTP request", err)
 	}
+	if os.Getenv("GH_USR") != "" && os.Getenv("GH_PASS") != "" {
+		req.SetBasicAuth(os.Getenv("GH_USR"), os.Getenv("GH_PASS"))
+	}
+
 	resp, err := httpClient.Do(req)
 	if err != nil {
 		log.Fatal("Cannot process the HTTP request", err)
