@@ -45,6 +45,8 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The project with more commits is `hugo`
 * The best project (taking in account placements in all competitions) is `hugo`
 
+Details : https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv
+
 ## JS frameworks rating
 
 * The project made by most notable author is `angular`
@@ -53,6 +55,8 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The project with the most active community is `angular`
 * The project with best errors resolving rate is `vue`
 * The project with more commits is `angular`
+
+Details : https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv
 
 ## PHP frameworks rating
 
@@ -63,3 +67,5 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The project with best errors resolving rate is `framework`
 * The project with more commits is `symfony`
 * The best project (taking in account placements in all competitions) is `framework`
+
+Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
