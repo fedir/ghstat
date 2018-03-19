@@ -70,3 +70,15 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv
 * The best project (taking in account placements in all competitions) is `framework`
 
 Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
+
+## Java frameworks rating
+
+* The project made by most notable author is `playframework`
+* The most popular project is `playframework`
+* The newest project is `bootique`
+* The project with the most active community is `ratpack`
+* The project with best errors resolving rate is `jooby`
+* The project with more commits is `framework`
+* The best project (taking in account placements in all competitions) is `framework`
+
+https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
