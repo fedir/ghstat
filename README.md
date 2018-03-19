@@ -82,3 +82,15 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
 * The best project (taking in account placements in all competitions) is `framework`
 
 Details : https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
+
+## Haskell frameworks rating
+
+* The project made by most notable author is `yesod`
+* The most popular project is `yesod`
+* The newest project is `magicbane`
+* The project with the most active community is `fn`
+* The project with best errors resolving rate is `snap-core`
+* The project with more commits is `yesod`
+* The best project (taking in account placements in all competitions) is `yesod`
+
+Details : https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv
