@@ -41,7 +41,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The most popular project is `hugo`
 * The newest project is `chi`
 * The project with the most active community is `buffalo`
-* The project with best errors resolving rate is `chi`
+* The project with best errors resolving rate is `hugo`
 * The project with more commits is `hugo`
 * The best project (taking in account placements in all competitions) is `hugo`
 
