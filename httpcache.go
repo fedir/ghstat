@@ -33,8 +33,6 @@ import (
 
 var cacheTTL = 3600
 
-var tmpFolder = "tmp"
-
 var httpClient = &http.Client{Timeout: 10 * time.Second}
 
 const dumpBody = true
@@ -95,7 +93,7 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 
 // MakeCachedHTTPRequest : if the request was already made once, it will be not done again, but read from the file in temporary folder.
 // Currently is used only for GET queries
-func MakeCachedHTTPRequest(url string, debug bool) []byte {
+func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 	var fullResp []byte
 	filename := getFilename(url)
 	filepath := filename

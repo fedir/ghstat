@@ -19,10 +19,10 @@ type Contributor struct {
 	Login string `json:"login"`
 }
 
-func getRepositoryContributors(repoKey string, debug bool) int {
+func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) int {
 	var totalContributors int
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
-	fullResp := MakeCachedHTTPRequest(url, debug)
+	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, linkHeader, _ := ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
@@ -39,17 +39,17 @@ func getRepositoryContributors(repoKey string, debug bool) int {
 		json.Unmarshal(jsonResponse, &contributors)
 		totalContributors = len(contributors)
 	} else {
-		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader, debug)
+		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader, tmpFolder, debug)
 		totalContributors = (lastPage-1)*30 + contributorsOnLastPage
 	}
 	return totalContributors
 }
 
-func getRepositoryContributorsNumberLastPage(linkHeader string, debug bool) int {
+func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string, debug bool) int {
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, debug)
+	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	contributors := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &contributors)

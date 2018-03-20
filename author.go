@@ -16,11 +16,11 @@ type Commit struct {
 	} `json:"author"`
 }
 
-func getRepositoryCommits(repoKey string, debug bool) string {
+func getRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 	var total int
 	var commitAuthorLogin string
 	url := "https://api.github.com/repos/" + repoKey + "/commits"
-	fullResp := MakeCachedHTTPRequest(url, debug)
+	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, linkHeader, _ := ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
@@ -36,17 +36,17 @@ func getRepositoryCommits(repoKey string, debug bool) string {
 		total = len(commits)
 		commitAuthorLogin = getCommitAuthorLogin(commits[total-1])
 	} else {
-		commitAuthorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, debug)
+		commitAuthorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
 	}
 	return commitAuthorLogin
 }
 
-func getRepositoryFirstCommitAuthorLogin(linkHeader string, debug bool) string {
+func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, debug bool) string {
 	var commitAuthorLogin string
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, debug)
+	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
@@ -59,10 +59,10 @@ func getCommitAuthorLogin(c Commit) string {
 	return c.Author.Login
 }
 
-func getUserFollowers(username string, debug bool) int {
+func getUserFollowers(username string, tmpFolder string, debug bool) int {
 	var total int
 	url := "https://api.github.com/users/" + username + "/followers"
-	fullResp := MakeCachedHTTPRequest(url, debug)
+	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, linkHeader, _ := ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
@@ -79,17 +79,17 @@ func getUserFollowers(username string, debug bool) int {
 		json.Unmarshal(jsonResponse, &contributors)
 		total = len(contributors)
 	} else {
-		itemsNumberOnLastPage := getItemsNumberOnLastPage(linkHeader, debug)
+		itemsNumberOnLastPage := getItemsNumberOnLastPage(linkHeader, tmpFolder, debug)
 		total = (lastPage-1)*30 + itemsNumberOnLastPage
 	}
 	return total
 }
 
-func getItemsNumberOnLastPage(linkHeader string, debug bool) int {
+func getItemsNumberOnLastPage(linkHeader string, tmpFolder string, debug bool) int {
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, debug)
+	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	items := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &items)

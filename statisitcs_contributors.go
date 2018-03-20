@@ -30,9 +30,9 @@ type ContributionStatistics struct {
 	MediumCommitSize int
 }
 
-func getContributionStatistics(repoKey string, debug bool) ContributionStatistics {
+func getContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
-	fullResp := MakeCachedHTTPRequest(url, debug)
+	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := ReadResp(fullResp)
 	cs := extractContributionStatisticsFromJSON(jsonResponse)
 	return cs
