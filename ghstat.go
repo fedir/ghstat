@@ -27,12 +27,12 @@ var repositoriesKeys = []string{
 
 func main() {
 	var (
-		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
-		debug                  = flag.Bool("d", false, "Debug mode")
-		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
-		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
 		clearHTTPCacheDryRun   = flag.Bool("ccdr", false, "Clear HTTP cache (dry run)")
+		debug                  = flag.Bool("d", false, "Debug mode")
+		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
+		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
+		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		tmpFolder              = flag.String("t", "tmp", "Clear HTTP cache (dry run)")
 	)
 	flag.Parse()
