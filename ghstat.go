@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 )
@@ -30,8 +31,20 @@ func main() {
 		debug                  = flag.Bool("d", false, "Debug mode")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
+		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
+		clearHTTPCacheDryRun   = flag.Bool("ccdr", false, "Clear HTTP cache (dry run)")
+		tmpFolder              = flag.String("t", "tmp", "Clear HTTP cache (dry run)")
 	)
 	flag.Parse()
+
+	if *clearHTTPCache || *clearHTTPCacheDryRun {
+		clearHTTPCacheFolder(*tmpFolder, *clearHTTPCacheDryRun)
+		os.Exit(0)
+	}
+	if *rateLimitCheck {
+		checkAndPrintRateLimit()
+		os.Exit(0)
+	}
 
 	if *rateLimitCheck {
 		checkAndPrintRateLimit()
@@ -86,17 +99,17 @@ func main() {
 		"Place",
 	}
 	for _, rKey := range repositoriesKeys {
-		repositoryData := getRepositoryStatistics(rKey, *debug)
-		authorLogin := getRepositoryCommits(rKey, *debug)
+		repositoryData := getRepositoryStatistics(rKey, *tmpFolder, *debug)
+		authorLogin := getRepositoryCommits(rKey, *tmpFolder, *debug)
 		authorFollowers := 0
 		if authorLogin != "" {
-			authorFollowers = getUserFollowers(authorLogin, *debug)
+			authorFollowers = getUserFollowers(authorLogin, *tmpFolder, *debug)
 		}
-		totalIssues := getRepositoryTotalIssues(rKey, *debug)
-		contributors := getRepositoryContributors(rKey, *debug)
+		totalIssues := getRepositoryTotalIssues(rKey, *tmpFolder, *debug)
+		contributors := getRepositoryContributors(rKey, *tmpFolder, *debug)
 		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
-		contributionStatistics := getContributionStatistics(rKey, *debug)
+		contributionStatistics := getContributionStatistics(rKey, *tmpFolder, *debug)
 		csvData = append(csvData, []string{
 			repositoryData.Name,
 			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
@@ -162,6 +175,31 @@ func main() {
 	csvDataTotal = assignPlaces(csvData, TotalPointsColumnIndex)
 
 	writeCsv(csvFilePath, headers, csvDataTotal)
+}
+
+func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
+	d, err := os.Open(tmpFolderPath)
+	if err != nil {
+		log.Fatalf("Could not open %s", tmpFolderPath)
+	}
+	defer d.Close()
+	names, err := d.Readdirnames(-1)
+	if err != nil {
+		log.Fatalf("Could not read from %s", tmpFolderPath)
+	}
+	for _, name := range names {
+		fp := filepath.Join(tmpFolderPath, name)
+		if dryRun {
+			fmt.Printf("Deleted %s\n", fp)
+		} else {
+			err = os.RemoveAll(fp)
+			if err != nil {
+				log.Fatalf("Could not remove %s", fp)
+			}
+			fmt.Printf("Deleted %s\n", fp)
+		}
+	}
+	return nil
 }
 
 func checkAndPrintRateLimit() {
