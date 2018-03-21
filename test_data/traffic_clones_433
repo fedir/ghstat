@@ -1,0 +1,25 @@
+HTTP/1.1 403 Forbidden
+Server: GitHub.com
+Date: Wed, 21 Mar 2018 00:34:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Status: 403 Forbidden
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1521595716
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+X-Runtime-rack: 0.022908
+X-GitHub-Request-Id: D0DA:5F57:1903284:3514218:5AB1A880
+
+{
+  "message": "Must have push access to repository",
+  "documentation_url": "https://developer.github.com/v3/repos/traffic/#clones"
+}
