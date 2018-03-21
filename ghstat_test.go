@@ -140,6 +140,10 @@ func TestParseRepositoryDataNegative(t *testing.T) {
 	}
 }
 
+func TestMainProgram(t *testing.T) {
+	main()
+}
+
 // TODO
 func TestFillCSVData(t *testing.T) {
 }
