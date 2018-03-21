@@ -23,7 +23,7 @@ func main() {
 		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
 		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
-		tmpFolder              = flag.String("t", "tmp", "Clear HTTP cache (dry run)")
+		tmpFolder              = flag.String("t", "test_data", "Clear HTTP cache (dry run)")
 		repositoriesKeys       = []string{}
 	)
 	flag.Parse()
