@@ -15,16 +15,6 @@ import (
 	"time"
 )
 
-var repositoriesKeys = []string{
-	"astaxie/beego",
-	"gohugoio/hugo",
-	"gin-gonic/gin",
-	"labstack/echo",
-	"revel/revel",
-	"gobuffalo/buffalo",
-	"go-chi/chi",
-}
-
 func main() {
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
@@ -34,6 +24,7 @@ func main() {
 		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		tmpFolder              = flag.String("t", "tmp", "Clear HTTP cache (dry run)")
+		repositoriesKeys       = []string{}
 	)
 	flag.Parse()
 
@@ -53,6 +44,16 @@ func main() {
 
 	if *repositoriesKeysManual != "" {
 		repositoriesKeys = strings.Split(*repositoriesKeysManual, ",")
+	} else {
+		repositoriesKeys = []string{
+			"astaxie/beego",
+			"gohugoio/hugo",
+			"gin-gonic/gin",
+			"labstack/echo",
+			"revel/revel",
+			"gobuffalo/buffalo",
+			"go-chi/chi",
+		}
 	}
 
 	csvFilePath := ""
