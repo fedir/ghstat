@@ -26,15 +26,6 @@ func sortSliceByColumnIndexIntDesc(s [][]string, columnIndex int) [][]string {
 	return s
 }
 
-func sortSliceByColumnIndexFloatAsc(s [][]string, columnIndex int) [][]string {
-	sort.Slice(s, func(i, j int) bool {
-		firstCellValue, _ := strconv.ParseFloat(s[i][columnIndex], 32)
-		secondCellValue, _ := strconv.ParseFloat(s[j][columnIndex], 32)
-		return firstCellValue < secondCellValue
-	})
-	return s
-}
-
 func sortSliceByColumnIndexFloatDesc(s [][]string, columnIndex int) [][]string {
 	sort.Slice(s, func(i, j int) bool {
 		firstCellValue, _ := strconv.ParseFloat(s[i][columnIndex], 32)
