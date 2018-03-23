@@ -74,9 +74,10 @@ func main() {
 		TotalCodeChangesColumn       = 9
 		MediCommitSizeColumn         = 10
 		StargazersColumn             = 11
-		ActiveForkersColumn          = 14
-		ClosedIssuesPercentageColumn = 17
-		TotalPointsColumnIndex       = 18
+		Top10ContributorsFollowers   = 14
+		ActiveForkersColumn          = 15
+		ClosedIssuesPercentageColumn = 18
+		TotalPointsColumnIndex       = 19
 	)
 	headers := []string{
 		"Name",
@@ -92,6 +93,7 @@ func main() {
 		"Medium commit size",
 		"Stargazers",
 		"Forks",
+		"Top 10 contributors followers",
 		"Contributors",
 		"Active forkers, %",
 		"Open issues",
@@ -107,8 +109,8 @@ func main() {
 			authorFollowers = getUserFollowers(authorLogin, *tmpFolder, *debug)
 		}
 		totalIssues := getRepositoryTotalIssues(rKey, *tmpFolder, *debug)
-		contributors := getRepositoryContributors(rKey, *tmpFolder, *debug)
-		activeForkersPercentage := getActiveForkersPercentage(contributors, repositoryData.Forks)
+		topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, *tmpFolder, *debug)
+		activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
 		contributionStatistics := getContributionStatistics(rKey, *tmpFolder, *debug)
 		csvData = append(csvData, []string{
@@ -130,7 +132,8 @@ func main() {
 			fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
 			fmt.Sprintf("%d", repositoryData.Watchers),
 			fmt.Sprintf("%d", repositoryData.Forks),
-			fmt.Sprintf("%d", contributors),
+			fmt.Sprintf("%d", topContributorsFollowers),
+			fmt.Sprintf("%d", totalContributors),
 			fmt.Sprintf("%.2f", activeForkersPercentage),
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
 			fmt.Sprintf("%d", totalIssues),
@@ -142,9 +145,9 @@ func main() {
 	var csvDataSorted, csvDataTotal [][]string
 
 	// Add points by author's followers
-	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, AuthorsFollowersColumn)
-	firstPlaceGreeting(csvDataSorted, "The project made by most notable author is")
-	csvDataTotal = addPoints(csvDataSorted, AuthorsFollowersColumn, TotalPointsColumnIndex)
+	//csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, AuthorsFollowersColumn)
+	//firstPlaceGreeting(csvDataSorted, "The project made by most notable author is")
+	///csvDataTotal = addPoints(csvDataSorted, AuthorsFollowersColumn, TotalPointsColumnIndex)
 
 	// Add points by reposotory total populatiry
 	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, StargazersColumn)
@@ -160,6 +163,11 @@ func main() {
 	csvDataSorted = sortSliceByColumnIndexFloatDesc(csvData, ActiveForkersColumn)
 	firstPlaceGreeting(csvDataSorted, "The project with the most active community is")
 	csvDataTotal = addPoints(csvDataSorted, ActiveForkersColumn, TotalPointsColumnIndex)
+
+	// Add points by Top10 contributors followers
+	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowers)
+	firstPlaceGreeting(csvDataSorted, "The project made by most notable top contributors is")
+	csvDataTotal = addPoints(csvDataSorted, Top10ContributorsFollowers, TotalPointsColumnIndex)
 
 	// Add points by proportion of total and resolved issues
 	csvDataSorted = sortSliceByColumnIndexFloatDesc(csvData, ClosedIssuesPercentageColumn)

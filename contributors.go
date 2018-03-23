@@ -19,8 +19,10 @@ type Contributor struct {
 	Login string `json:"login"`
 }
 
-func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) int {
+func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) (int, int) {
+	//var topContributors []string
 	var totalContributors int
+	var topContributorsFollowers = 0
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
 	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, linkHeader, _ := ReadResp(fullResp)
@@ -34,15 +36,53 @@ func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) int
 			lastPage, _ = strconv.Atoi(match[2])
 		}
 	}
-	if nextPage == 0 {
-		contributors := make([]Contributor, 0)
-		json.Unmarshal(jsonResponse, &contributors)
-		totalContributors = len(contributors)
-	} else {
+
+	contributors := make([]Contributor, 0)
+	json.Unmarshal(jsonResponse, &contributors)
+	i := 0
+	for _, contributor := range contributors {
+		//fmt.Printf("%s %s", contributor, index)
+		//topContributors = append(topContributors, contributor.Login)
+		topContributorsFollowers = topContributorsFollowers + getContributorFollowers(contributor.Login, tmpFolder, debug)
+		i++
+		if i == 10 {
+			goto TOTAL_CONTRIBUTORS
+		}
+	}
+TOTAL_CONTRIBUTORS:
+	if nextPage != 0 {
 		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader, tmpFolder, debug)
 		totalContributors = (lastPage-1)*30 + contributorsOnLastPage
+	} else {
+		totalContributors = len(contributors)
 	}
-	return totalContributors
+	return topContributorsFollowers, totalContributors
+}
+
+func getContributorFollowers(login string, tmpFolder string, debug bool) int {
+	totalUsers := 0
+	url := "https://api.github.com/users/" + login + "/followers"
+	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	var compRegEx = regexp.MustCompile(regexpPageIndexes)
+	match := compRegEx.FindStringSubmatch(linkHeader)
+	nextPage := 0
+	lastPage := 0
+	for range compRegEx.SubexpNames() {
+		if len(match) == 3 {
+			nextPage, _ = strconv.Atoi(match[1])
+			lastPage, _ = strconv.Atoi(match[2])
+		}
+	}
+	contributors := make([]Contributor, 0)
+	json.Unmarshal(jsonResponse, &contributors)
+	if nextPage != 0 {
+		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader, tmpFolder, debug)
+		totalUsers = (lastPage-1)*30 + contributorsOnLastPage
+	} else {
+		totalUsers = len(contributors)
+	}
+	return totalUsers
 }
 
 func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string, debug bool) int {
