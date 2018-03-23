@@ -38,10 +38,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## Go web frameworks rating
 
-* The project made by most notable author is `beego`
 * The most popular project is `hugo`
 * The newest project is `chi`
 * The project with the most active community is `buffalo`
+* The project made by most notable top contributors is `hugo`
 * The project with best errors resolving rate is `hugo`
 * The project with more commits is `hugo`
 * The best project (taking in account placements in all competitions) is `hugo`
@@ -50,10 +50,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## JS frameworks rating
 
-* The project made by most notable author is `angular`
 * The most popular project is `react`
 * The newest project is `hyperapp`
 * The project with the most active community is `riot`
+* The project made by most notable top contributors is `react`
 * The project with best errors resolving rate is `meteor`
 * The project with more commits is `meteor`
 * The best project (taking in account placements in all competitions) is `meteor`
@@ -62,10 +62,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## PHP frameworks rating
 
-* The project made by most notable author is `framework`
 * The most popular project is `symfony`
 * The newest project is `framework`
 * The project with the most active community is `framework`
+* The project made by most notable top contributors is `framework`
 * The project with best errors resolving rate is `framework`
 * The project with more commits is `symfony`
 * The best project (taking in account placements in all competitions) is `framework`
@@ -74,22 +74,22 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ## Java frameworks rating
 
-* The project made by most notable author is `playframework`
 * The most popular project is `playframework`
 * The newest project is `bootique`
 * The project with the most active community is `ratpack`
+* The project made by most notable top contributors is `playframework`
 * The project with best errors resolving rate is `jooby`
 * The project with more commits is `framework`
-* The best project (taking in account placements in all competitions) is `framework`
+* The best project (taking in account placements in all competitions) is `ratpack`
 
 [Detailed Java frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
 
 ## Haskell frameworks rating
 
-* The project made by most notable author is `yesod`
 * The most popular project is `yesod`
 * The newest project is `magicbane`
 * The project with the most active community is `fn`
+* The project made by most notable top contributors is `yesod`
 * The project with best errors resolving rate is `snap-core`
 * The project with more commits is `yesod`
 * The best project (taking in account placements in all competitions) is `yesod`
