@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Fri, 23 Mar 2018 01:33:12 GMT
+Etag: W/"83ecf9b3d008f27cd6fc35f42b8718b5"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9EA:5F55:26BE805:5401D15:5AB45957
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4152
+X-Ratelimit-Reset: 1521769151
+X-Runtime-Rack: 0.032004
+X-Xss-Protection: 1; mode=block
+
+369
+[{"login":"iansmith","id":230209,"avatar_url":"https://avatars3.githubusercontent.com/u/230209?v=4","gravatar_id":"","url":"https://api.github.com/users/iansmith","html_url":"https://github.com/iansmith","followers_url":"https://api.github.com/users/iansmith/followers","following_url":"https://api.github.com/users/iansmith/following{/other_user}","gists_url":"https://api.github.com/users/iansmith/gists{/gist_id}","starred_url":"https://api.github.com/users/iansmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iansmith/subscriptions","organizations_url":"https://api.github.com/users/iansmith/orgs","repos_url":"https://api.github.com/users/iansmith/repos","events_url":"https://api.github.com/users/iansmith/events{/privacy}","received_events_url":"https://api.github.com/users/iansmith/received_events","type":"User","site_admin":false}]
+0
+

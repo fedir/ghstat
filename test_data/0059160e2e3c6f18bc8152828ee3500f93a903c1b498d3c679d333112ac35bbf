@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Fri, 23 Mar 2018 01:33:13 GMT
+Etag: W/"3f797c33550cb2391fcfcb2d4a19985b"
+Link: <https://api.github.com/user/5714074/followers?page=2>; rel="prev", <https://api.github.com/user/5714074/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9EA:5F55:26BE892:5401DFA:5AB45959
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4143
+X-Ratelimit-Reset: 1521769151
+X-Runtime-Rack: 0.038228
+X-Xss-Protection: 1; mode=block
+
+1139
+[{"login":"dweomer","id":1033444,"avatar_url":"https://avatars0.githubusercontent.com/u/1033444?v=4","gravatar_id":"","url":"https://api.github.com/users/dweomer","html_url":"https://github.com/dweomer","followers_url":"https://api.github.com/users/dweomer/followers","following_url":"https://api.github.com/users/dweomer/following{/other_user}","gists_url":"https://api.github.com/users/dweomer/gists{/gist_id}","starred_url":"https://api.github.com/users/dweomer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dweomer/subscriptions","organizations_url":"https://api.github.com/users/dweomer/orgs","repos_url":"https://api.github.com/users/dweomer/repos","events_url":"https://api.github.com/users/dweomer/events{/privacy}","received_events_url":"https://api.github.com/users/dweomer/received_events","type":"User","site_admin":false},{"login":"aleccunningham","id":512428,"avatar_url":"https://avatars0.githubusercontent.com/u/512428?v=4","gravatar_id":"","url":"https://api.github.com/users/aleccunningham","html_url":"https://github.com/aleccunningham","followers_url":"https://api.github.com/users/aleccunningham/followers","following_url":"https://api.github.com/users/aleccunningham/following{/other_user}","gists_url":"https://api.github.com/users/aleccunningham/gists{/gist_id}","starred_url":"https://api.github.com/users/aleccunningham/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aleccunningham/subscriptions","organizations_url":"https://api.github.com/users/aleccunningham/orgs","repos_url":"https://api.github.com/users/aleccunningham/repos","events_url":"https://api.github.com/users/aleccunningham/events{/privacy}","received_events_url":"https://api.github.com/users/aleccunningham/received_events","type":"User","site_admin":false},{"login":"neep3r","id":3494610,"avatar_url":"https://avatars2.githubusercontent.com/u/3494610?v=4","gravatar_id":"","url":"https://api.github.com/users/neep3r","html_url":"https://github.com/neep3r","followers_url":"https://api.github.com/users/neep3r/followers","following_url":"https://api.github.com/users/neep3r/following{/other_user}","gists_url":"https://api.github.com/users/neep3r/gists{/gist_id}","starred_url":"https://api.github.com/users/neep3r/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/neep3r/subscriptions","organizations_url":"https://api.github.com/users/neep3r/orgs","repos_url":"https://api.github.com/users/neep3r/repos","events_url":"https://api.github.com/users/neep3r/events{/privacy}","received_events_url":"https://api.github.com/users/neep3r/received_events","type":"User","site_admin":false},{"login":"BlancosWay","id":12399206,"avatar_url":"https://avatars0.githubusercontent.com/u/12399206?v=4","gravatar_id":"","url":"https://api.github.com/users/BlancosWay","html_url":"https://github.com/BlancosWay","followers_url":"https://api.github.com/users/BlancosWay/followers","following_url":"https://api.github.com/users/BlancosWay/following{/other_user}","gists_url":"https://api.github.com/users/BlancosWay/gists{/gist_id}","starred_url":"https://api.github.com/users/BlancosWay/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BlancosWay/subscriptions","organizations_url":"https://api.github.com/users/BlancosWay/orgs","repos_url":"https://api.github.com/users/BlancosWay/repos","events_url":"https://api.github.com/users/BlancosWay/events{/privacy}","received_events_url":"https://api.github.com/users/BlancosWay/received_events","type":"User","site_admin":false},{"login":"modood","id":11327898,"avatar_url":"https://avatars1.githubusercontent.com/u/11327898?v=4","gravatar_id":"","url":"https://api.github.com/users/modood","html_url":"https://github.com/modood","followers_url":"https://api.github.com/users/modood/followers","following_url":"https://api.github.com/users/modood/following{/other_user}","gists_url":"https://api.github.com/users/modood/gists{/gist_id}","starred_url":"https://api.github.com/users/modood/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/modood/subscriptions","organizations_url":"https://api.github.com/users/modood/orgs","repos_url":"https://api.github.com/users/modood/repos","events_url":"https://api.github.com/users/modood/events{/privacy}","received_events_url":"https://api.github.com/users/modood/received_events","type":"User","site_admin":false}]
+0
+

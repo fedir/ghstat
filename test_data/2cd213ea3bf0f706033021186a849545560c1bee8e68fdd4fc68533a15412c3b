@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Fri, 23 Mar 2018 01:33:16 GMT
+Etag: W/"28cd06d5bd0d46067a7aaf55ff0cce1f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9EA:5F55:26BE938:5401F20:5AB4595C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4131
+X-Ratelimit-Reset: 1521769151
+X-Runtime-Rack: 0.035995
+X-Xss-Protection: 1; mode=block
+
+6dd
+[{"login":"asavartsov","id":622073,"avatar_url":"https://avatars3.githubusercontent.com/u/622073?v=4","gravatar_id":"","url":"https://api.github.com/users/asavartsov","html_url":"https://github.com/asavartsov","followers_url":"https://api.github.com/users/asavartsov/followers","following_url":"https://api.github.com/users/asavartsov/following{/other_user}","gists_url":"https://api.github.com/users/asavartsov/gists{/gist_id}","starred_url":"https://api.github.com/users/asavartsov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/asavartsov/subscriptions","organizations_url":"https://api.github.com/users/asavartsov/orgs","repos_url":"https://api.github.com/users/asavartsov/repos","events_url":"https://api.github.com/users/asavartsov/events{/privacy}","received_events_url":"https://api.github.com/users/asavartsov/received_events","type":"User","site_admin":false},{"login":"swhgoon","id":840150,"avatar_url":"https://avatars0.githubusercontent.com/u/840150?v=4","gravatar_id":"","url":"https://api.github.com/users/swhgoon","html_url":"https://github.com/swhgoon","followers_url":"https://api.github.com/users/swhgoon/followers","following_url":"https://api.github.com/users/swhgoon/following{/other_user}","gists_url":"https://api.github.com/users/swhgoon/gists{/gist_id}","starred_url":"https://api.github.com/users/swhgoon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/swhgoon/subscriptions","organizations_url":"https://api.github.com/users/swhgoon/orgs","repos_url":"https://api.github.com/users/swhgoon/repos","events_url":"https://api.github.com/users/swhgoon/events{/privacy}","received_events_url":"https://api.github.com/users/swhgoon/received_events","type":"User","site_admin":false}]
+0
+

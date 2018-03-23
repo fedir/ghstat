@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Fri, 23 Mar 2018 01:32:58 GMT
+Etag: W/"5b4cd57154ce90b237585361daa6cc21"
+Link: <https://api.github.com/user/653711/followers?page=7>; rel="prev", <https://api.github.com/user/653711/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9EA:5F55:26BE343:54013E4:5AB4594A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4217
+X-Ratelimit-Reset: 1521769151
+X-Runtime-Rack: 0.028203
+X-Xss-Protection: 1; mode=block
+
+a2d
+[{"login":"EricLee0107","id":26076921,"avatar_url":"https://avatars2.githubusercontent.com/u/26076921?v=4","gravatar_id":"","url":"https://api.github.com/users/EricLee0107","html_url":"https://github.com/EricLee0107","followers_url":"https://api.github.com/users/EricLee0107/followers","following_url":"https://api.github.com/users/EricLee0107/following{/other_user}","gists_url":"https://api.github.com/users/EricLee0107/gists{/gist_id}","starred_url":"https://api.github.com/users/EricLee0107/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/EricLee0107/subscriptions","organizations_url":"https://api.github.com/users/EricLee0107/orgs","repos_url":"https://api.github.com/users/EricLee0107/repos","events_url":"https://api.github.com/users/EricLee0107/events{/privacy}","received_events_url":"https://api.github.com/users/EricLee0107/received_events","type":"User","site_admin":false},{"login":"Zunqi","id":24456384,"avatar_url":"https://avatars3.githubusercontent.com/u/24456384?v=4","gravatar_id":"","url":"https://api.github.com/users/Zunqi","html_url":"https://github.com/Zunqi","followers_url":"https://api.github.com/users/Zunqi/followers","following_url":"https://api.github.com/users/Zunqi/following{/other_user}","gists_url":"https://api.github.com/users/Zunqi/gists{/gist_id}","starred_url":"https://api.github.com/users/Zunqi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Zunqi/subscriptions","organizations_url":"https://api.github.com/users/Zunqi/orgs","repos_url":"https://api.github.com/users/Zunqi/repos","events_url":"https://api.github.com/users/Zunqi/events{/privacy}","received_events_url":"https://api.github.com/users/Zunqi/received_events","type":"User","site_admin":false},{"login":"minsle","id":26319203,"avatar_url":"https://avatars2.githubusercontent.com/u/26319203?v=4","gravatar_id":"","url":"https://api.github.com/users/minsle","html_url":"https://github.com/minsle","followers_url":"https://api.github.com/users/minsle/followers","following_url":"https://api.github.com/users/minsle/following{/other_user}","gists_url":"https://api.github.com/users/minsle/gists{/gist_id}","starred_url":"https://api.github.com/users/minsle/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/minsle/subscriptions","organizations_url":"https://api.github.com/users/minsle/orgs","repos_url":"https://api.github.com/users/minsle/repos","events_url":"https://api.github.com/users/minsle/events{/privacy}","received_events_url":"https://api.github.com/users/minsle/received_events","type":"User","site_admin":false}]
+0
+

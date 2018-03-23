@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Fri, 23 Mar 2018 01:33:14 GMT
+Etag: W/"02960d9fed8adf59edaee37a91a9e742"
+Link: <https://api.github.com/user/5436722/followers?page=1>; rel="prev", <https://api.github.com/user/5436722/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9EA:5F55:26BE8C6:5401E50:5AB4595A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4140
+X-Ratelimit-Reset: 1521769151
+X-Runtime-Rack: 0.030415
+X-Xss-Protection: 1; mode=block
+
+735
+[{"login":"theodesp","id":328805,"avatar_url":"https://avatars0.githubusercontent.com/u/328805?v=4","gravatar_id":"","url":"https://api.github.com/users/theodesp","html_url":"https://github.com/theodesp","followers_url":"https://api.github.com/users/theodesp/followers","following_url":"https://api.github.com/users/theodesp/following{/other_user}","gists_url":"https://api.github.com/users/theodesp/gists{/gist_id}","starred_url":"https://api.github.com/users/theodesp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/theodesp/subscriptions","organizations_url":"https://api.github.com/users/theodesp/orgs","repos_url":"https://api.github.com/users/theodesp/repos","events_url":"https://api.github.com/users/theodesp/events{/privacy}","received_events_url":"https://api.github.com/users/theodesp/received_events","type":"User","site_admin":false},{"login":"indrajithbandara","id":22976806,"avatar_url":"https://avatars1.githubusercontent.com/u/22976806?v=4","gravatar_id":"","url":"https://api.github.com/users/indrajithbandara","html_url":"https://github.com/indrajithbandara","followers_url":"https://api.github.com/users/indrajithbandara/followers","following_url":"https://api.github.com/users/indrajithbandara/following{/other_user}","gists_url":"https://api.github.com/users/indrajithbandara/gists{/gist_id}","starred_url":"https://api.github.com/users/indrajithbandara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indrajithbandara/subscriptions","organizations_url":"https://api.github.com/users/indrajithbandara/orgs","repos_url":"https://api.github.com/users/indrajithbandara/repos","events_url":"https://api.github.com/users/indrajithbandara/events{/privacy}","received_events_url":"https://api.github.com/users/indrajithbandara/received_events","type":"User","site_admin":false}]
+0
+
