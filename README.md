@@ -46,7 +46,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The project with more commits is `hugo`
 * The best project (taking in account placements in all competitions) is `hugo`
 
-Details : https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv
+[Detailed Go frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv)
 
 ## JS frameworks rating
 
@@ -58,7 +58,7 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv
 * The project with more commits is `meteor`
 * The best project (taking in account placements in all competitions) is `meteor`
 
-Details : https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv
+[Detailed JS frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv)
 
 ## PHP frameworks rating
 
@@ -70,7 +70,7 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv
 * The project with more commits is `symfony`
 * The best project (taking in account placements in all competitions) is `framework`
 
-Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
+[Detailed PHP frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv)
 
 ## Java frameworks rating
 
@@ -82,7 +82,7 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv
 * The project with more commits is `framework`
 * The best project (taking in account placements in all competitions) is `framework`
 
-Details : https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
+[Detailed Java frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
 
 ## Haskell frameworks rating
 
@@ -94,4 +94,4 @@ Details : https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv
 * The project with more commits is `yesod`
 * The best project (taking in account placements in all competitions) is `yesod`
 
-Details : https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv
+[Detailed Haskell frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv)
