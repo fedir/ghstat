@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:48 GMT
+Etag: W/"0437bd80c3cc3fc3afb0c6245206e349"
+Link: <https://api.github.com/user/1457604/followers?page=3>; rel="prev", <https://api.github.com/user/1457604/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D256E:6D60B5F:5AB64534
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4469
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.027630
+X-Xss-Protection: 1; mode=block
+
+381
+[{"login":"LoicMahieu","id":900947,"avatar_url":"https://avatars0.githubusercontent.com/u/900947?v=4","gravatar_id":"","url":"https://api.github.com/users/LoicMahieu","html_url":"https://github.com/LoicMahieu","followers_url":"https://api.github.com/users/LoicMahieu/followers","following_url":"https://api.github.com/users/LoicMahieu/following{/other_user}","gists_url":"https://api.github.com/users/LoicMahieu/gists{/gist_id}","starred_url":"https://api.github.com/users/LoicMahieu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/LoicMahieu/subscriptions","organizations_url":"https://api.github.com/users/LoicMahieu/orgs","repos_url":"https://api.github.com/users/LoicMahieu/repos","events_url":"https://api.github.com/users/LoicMahieu/events{/privacy}","received_events_url":"https://api.github.com/users/LoicMahieu/received_events","type":"User","site_admin":false}]
+0
+

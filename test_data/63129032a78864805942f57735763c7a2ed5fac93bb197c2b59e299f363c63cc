@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:53 GMT
+Etag: W/"5c9f4f9b46665c26a745ddbdc9d0b3fa"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBC98E:80B3309:5AB644C1
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4803
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.038394
+X-Xss-Protection: 1; mode=block
+
+da9
+[{"login":"maxmalakhov","id":1876208,"avatar_url":"https://avatars1.githubusercontent.com/u/1876208?v=4","gravatar_id":"","url":"https://api.github.com/users/maxmalakhov","html_url":"https://github.com/maxmalakhov","followers_url":"https://api.github.com/users/maxmalakhov/followers","following_url":"https://api.github.com/users/maxmalakhov/following{/other_user}","gists_url":"https://api.github.com/users/maxmalakhov/gists{/gist_id}","starred_url":"https://api.github.com/users/maxmalakhov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/maxmalakhov/subscriptions","organizations_url":"https://api.github.com/users/maxmalakhov/orgs","repos_url":"https://api.github.com/users/maxmalakhov/repos","events_url":"https://api.github.com/users/maxmalakhov/events{/privacy}","received_events_url":"https://api.github.com/users/maxmalakhov/received_events","type":"User","site_admin":false},{"login":"rzen","id":137981,"avatar_url":"https://avatars3.githubusercontent.com/u/137981?v=4","gravatar_id":"","url":"https://api.github.com/users/rzen","html_url":"https://github.com/rzen","followers_url":"https://api.github.com/users/rzen/followers","following_url":"https://api.github.com/users/rzen/following{/other_user}","gists_url":"https://api.github.com/users/rzen/gists{/gist_id}","starred_url":"https://api.github.com/users/rzen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rzen/subscriptions","organizations_url":"https://api.github.com/users/rzen/orgs","repos_url":"https://api.github.com/users/rzen/repos","events_url":"https://api.github.com/users/rzen/events{/privacy}","received_events_url":"https://api.github.com/users/rzen/received_events","type":"User","site_admin":false},{"login":"kurbatov","id":8820569,"avatar_url":"https://avatars3.githubusercontent.com/u/8820569?v=4","gravatar_id":"","url":"https://api.github.com/users/kurbatov","html_url":"https://github.com/kurbatov","followers_url":"https://api.github.com/users/kurbatov/followers","following_url":"https://api.github.com/users/kurbatov/following{/other_user}","gists_url":"https://api.github.com/users/kurbatov/gists{/gist_id}","starred_url":"https://api.github.com/users/kurbatov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kurbatov/subscriptions","organizations_url":"https://api.github.com/users/kurbatov/orgs","repos_url":"https://api.github.com/users/kurbatov/repos","events_url":"https://api.github.com/users/kurbatov/events{/privacy}","received_events_url":"https://api.github.com/users/kurbatov/received_events","type":"User","site_admin":false},{"login":"3rdentity","id":33587027,"avatar_url":"https://avatars3.githubusercontent.com/u/33587027?v=4","gravatar_id":"","url":"https://api.github.com/users/3rdentity","html_url":"https://github.com/3rdentity","followers_url":"https://api.github.com/users/3rdentity/followers","following_url":"https://api.github.com/users/3rdentity/following{/other_user}","gists_url":"https://api.github.com/users/3rdentity/gists{/gist_id}","starred_url":"https://api.github.com/users/3rdentity/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/3rdentity/subscriptions","organizations_url":"https://api.github.com/users/3rdentity/orgs","repos_url":"https://api.github.com/users/3rdentity/repos","events_url":"https://api.github.com/users/3rdentity/events{/privacy}","received_events_url":"https://api.github.com/users/3rdentity/received_events","type":"User","site_admin":false}]
+0
+

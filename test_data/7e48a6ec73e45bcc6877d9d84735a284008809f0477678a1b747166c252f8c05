@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:18 GMT
+Etag: W/"f543cedc0d549799e4723fdf54491e5e"
+Link: <https://api.github.com/user/16724/followers?page=12>; rel="prev", <https://api.github.com/user/16724/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D1F8F:6D5FE1D:5AB64516
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4546
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.055101
+X-Xss-Protection: 1; mode=block
+
+6d7
+[{"login":"funkyremi","id":4487178,"avatar_url":"https://avatars3.githubusercontent.com/u/4487178?v=4","gravatar_id":"","url":"https://api.github.com/users/funkyremi","html_url":"https://github.com/funkyremi","followers_url":"https://api.github.com/users/funkyremi/followers","following_url":"https://api.github.com/users/funkyremi/following{/other_user}","gists_url":"https://api.github.com/users/funkyremi/gists{/gist_id}","starred_url":"https://api.github.com/users/funkyremi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/funkyremi/subscriptions","organizations_url":"https://api.github.com/users/funkyremi/orgs","repos_url":"https://api.github.com/users/funkyremi/repos","events_url":"https://api.github.com/users/funkyremi/events{/privacy}","received_events_url":"https://api.github.com/users/funkyremi/received_events","type":"User","site_admin":false},{"login":"rolljee","id":10114634,"avatar_url":"https://avatars0.githubusercontent.com/u/10114634?v=4","gravatar_id":"","url":"https://api.github.com/users/rolljee","html_url":"https://github.com/rolljee","followers_url":"https://api.github.com/users/rolljee/followers","following_url":"https://api.github.com/users/rolljee/following{/other_user}","gists_url":"https://api.github.com/users/rolljee/gists{/gist_id}","starred_url":"https://api.github.com/users/rolljee/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rolljee/subscriptions","organizations_url":"https://api.github.com/users/rolljee/orgs","repos_url":"https://api.github.com/users/rolljee/repos","events_url":"https://api.github.com/users/rolljee/events{/privacy}","received_events_url":"https://api.github.com/users/rolljee/received_events","type":"User","site_admin":false}]
+0
+

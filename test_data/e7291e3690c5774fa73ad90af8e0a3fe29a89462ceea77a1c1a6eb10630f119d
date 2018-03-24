@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:30:00 GMT
+Etag: W/"92a8cf5fd7df59d4686aa4b383f00f22"
+Link: <https://api.github.com/user/4624747/followers?page=6>; rel="prev", <https://api.github.com/user/4624747/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBCBE9:80B36D0:5AB644C7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4781
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.044281
+X-Xss-Protection: 1; mode=block
+
+ab1
+[{"login":"KodiMadhavarao","id":13887725,"avatar_url":"https://avatars2.githubusercontent.com/u/13887725?v=4","gravatar_id":"","url":"https://api.github.com/users/KodiMadhavarao","html_url":"https://github.com/KodiMadhavarao","followers_url":"https://api.github.com/users/KodiMadhavarao/followers","following_url":"https://api.github.com/users/KodiMadhavarao/following{/other_user}","gists_url":"https://api.github.com/users/KodiMadhavarao/gists{/gist_id}","starred_url":"https://api.github.com/users/KodiMadhavarao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KodiMadhavarao/subscriptions","organizations_url":"https://api.github.com/users/KodiMadhavarao/orgs","repos_url":"https://api.github.com/users/KodiMadhavarao/repos","events_url":"https://api.github.com/users/KodiMadhavarao/events{/privacy}","received_events_url":"https://api.github.com/users/KodiMadhavarao/received_events","type":"User","site_admin":false},{"login":"hdusername","id":36029851,"avatar_url":"https://avatars2.githubusercontent.com/u/36029851?v=4","gravatar_id":"","url":"https://api.github.com/users/hdusername","html_url":"https://github.com/hdusername","followers_url":"https://api.github.com/users/hdusername/followers","following_url":"https://api.github.com/users/hdusername/following{/other_user}","gists_url":"https://api.github.com/users/hdusername/gists{/gist_id}","starred_url":"https://api.github.com/users/hdusername/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hdusername/subscriptions","organizations_url":"https://api.github.com/users/hdusername/orgs","repos_url":"https://api.github.com/users/hdusername/repos","events_url":"https://api.github.com/users/hdusername/events{/privacy}","received_events_url":"https://api.github.com/users/hdusername/received_events","type":"User","site_admin":false},{"login":"rohduggal","id":35959788,"avatar_url":"https://avatars2.githubusercontent.com/u/35959788?v=4","gravatar_id":"","url":"https://api.github.com/users/rohduggal","html_url":"https://github.com/rohduggal","followers_url":"https://api.github.com/users/rohduggal/followers","following_url":"https://api.github.com/users/rohduggal/following{/other_user}","gists_url":"https://api.github.com/users/rohduggal/gists{/gist_id}","starred_url":"https://api.github.com/users/rohduggal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rohduggal/subscriptions","organizations_url":"https://api.github.com/users/rohduggal/orgs","repos_url":"https://api.github.com/users/rohduggal/repos","events_url":"https://api.github.com/users/rohduggal/events{/privacy}","received_events_url":"https://api.github.com/users/rohduggal/received_events","type":"User","site_admin":false}]
+0
+

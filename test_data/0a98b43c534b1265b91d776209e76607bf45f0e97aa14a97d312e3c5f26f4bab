@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:47 GMT
+Etag: W/"962e5af92e7f962498764d8791bf6734"
+Link: <https://api.github.com/user/56996/followers?page=10>; rel="prev", <https://api.github.com/user/56996/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D2532:6D60AD7:5AB64533
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4473
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.040589
+X-Xss-Protection: 1; mode=block
+
+b01
+[{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false},{"login":"joao-alberto","id":10820159,"avatar_url":"https://avatars3.githubusercontent.com/u/10820159?v=4","gravatar_id":"","url":"https://api.github.com/users/joao-alberto","html_url":"https://github.com/joao-alberto","followers_url":"https://api.github.com/users/joao-alberto/followers","following_url":"https://api.github.com/users/joao-alberto/following{/other_user}","gists_url":"https://api.github.com/users/joao-alberto/gists{/gist_id}","starred_url":"https://api.github.com/users/joao-alberto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joao-alberto/subscriptions","organizations_url":"https://api.github.com/users/joao-alberto/orgs","repos_url":"https://api.github.com/users/joao-alberto/repos","events_url":"https://api.github.com/users/joao-alberto/events{/privacy}","received_events_url":"https://api.github.com/users/joao-alberto/received_events","type":"User","site_admin":false},{"login":"barbagrigia","id":3762784,"avatar_url":"https://avatars3.githubusercontent.com/u/3762784?v=4","gravatar_id":"","url":"https://api.github.com/users/barbagrigia","html_url":"https://github.com/barbagrigia","followers_url":"https://api.github.com/users/barbagrigia/followers","following_url":"https://api.github.com/users/barbagrigia/following{/other_user}","gists_url":"https://api.github.com/users/barbagrigia/gists{/gist_id}","starred_url":"https://api.github.com/users/barbagrigia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/barbagrigia/subscriptions","organizations_url":"https://api.github.com/users/barbagrigia/orgs","repos_url":"https://api.github.com/users/barbagrigia/repos","events_url":"https://api.github.com/users/barbagrigia/events{/privacy}","received_events_url":"https://api.github.com/users/barbagrigia/received_events","type":"User","site_admin":false}]
+0
+

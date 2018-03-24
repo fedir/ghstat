@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:32:22 GMT
+Etag: W/"4b55f3256d1e4ef12fccba4a31410012"
+Link: <https://api.github.com/user/566016/followers?page=10>; rel="prev", <https://api.github.com/user/566016/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D082:5F57:3DC07C5:80BA3E3:5AB64556
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4344
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.042411
+X-Xss-Protection: 1; mode=block
+
+35f
+[{"login":"kroitor","id":1294454,"avatar_url":"https://avatars3.githubusercontent.com/u/1294454?v=4","gravatar_id":"","url":"https://api.github.com/users/kroitor","html_url":"https://github.com/kroitor","followers_url":"https://api.github.com/users/kroitor/followers","following_url":"https://api.github.com/users/kroitor/following{/other_user}","gists_url":"https://api.github.com/users/kroitor/gists{/gist_id}","starred_url":"https://api.github.com/users/kroitor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kroitor/subscriptions","organizations_url":"https://api.github.com/users/kroitor/orgs","repos_url":"https://api.github.com/users/kroitor/repos","events_url":"https://api.github.com/users/kroitor/events{/privacy}","received_events_url":"https://api.github.com/users/kroitor/received_events","type":"User","site_admin":false}]
+0
+

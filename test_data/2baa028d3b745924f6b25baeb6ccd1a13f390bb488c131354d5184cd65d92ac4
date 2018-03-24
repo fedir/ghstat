@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 14:00:06 GMT
+Etag: W/"74cb13871c573b041cb4ca7390431b2e"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C231:5F58:3FEE4BF:8BE273D:5AB659E6
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 52
+X-Ratelimit-Reset: 1521903604
+X-Runtime-Rack: 0.020972
+X-Xss-Protection: 1; mode=block
+
+6c7
+[{"login":"dplewis","id":9830365,"avatar_url":"https://avatars3.githubusercontent.com/u/9830365?v=4","gravatar_id":"","url":"https://api.github.com/users/dplewis","html_url":"https://github.com/dplewis","followers_url":"https://api.github.com/users/dplewis/followers","following_url":"https://api.github.com/users/dplewis/following{/other_user}","gists_url":"https://api.github.com/users/dplewis/gists{/gist_id}","starred_url":"https://api.github.com/users/dplewis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dplewis/subscriptions","organizations_url":"https://api.github.com/users/dplewis/orgs","repos_url":"https://api.github.com/users/dplewis/repos","events_url":"https://api.github.com/users/dplewis/events{/privacy}","received_events_url":"https://api.github.com/users/dplewis/received_events","type":"User","site_admin":false},{"login":"itsky365","id":352827,"avatar_url":"https://avatars2.githubusercontent.com/u/352827?v=4","gravatar_id":"","url":"https://api.github.com/users/itsky365","html_url":"https://github.com/itsky365","followers_url":"https://api.github.com/users/itsky365/followers","following_url":"https://api.github.com/users/itsky365/following{/other_user}","gists_url":"https://api.github.com/users/itsky365/gists{/gist_id}","starred_url":"https://api.github.com/users/itsky365/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/itsky365/subscriptions","organizations_url":"https://api.github.com/users/itsky365/orgs","repos_url":"https://api.github.com/users/itsky365/repos","events_url":"https://api.github.com/users/itsky365/events{/privacy}","received_events_url":"https://api.github.com/users/itsky365/received_events","type":"User","site_admin":false}]
+0
+

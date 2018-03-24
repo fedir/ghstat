@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:36 GMT
+Etag: W/"c524a9a0d9e3c9c50c70af2e0a3db020"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBC3C5:80B291A:5AB644B0
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4855
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.034588
+X-Xss-Protection: 1; mode=block
+
+da5
+[{"login":"swhgoon","id":840150,"avatar_url":"https://avatars0.githubusercontent.com/u/840150?v=4","gravatar_id":"","url":"https://api.github.com/users/swhgoon","html_url":"https://github.com/swhgoon","followers_url":"https://api.github.com/users/swhgoon/followers","following_url":"https://api.github.com/users/swhgoon/following{/other_user}","gists_url":"https://api.github.com/users/swhgoon/gists{/gist_id}","starred_url":"https://api.github.com/users/swhgoon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/swhgoon/subscriptions","organizations_url":"https://api.github.com/users/swhgoon/orgs","repos_url":"https://api.github.com/users/swhgoon/repos","events_url":"https://api.github.com/users/swhgoon/events{/privacy}","received_events_url":"https://api.github.com/users/swhgoon/received_events","type":"User","site_admin":false},{"login":"samie","id":991105,"avatar_url":"https://avatars0.githubusercontent.com/u/991105?v=4","gravatar_id":"","url":"https://api.github.com/users/samie","html_url":"https://github.com/samie","followers_url":"https://api.github.com/users/samie/followers","following_url":"https://api.github.com/users/samie/following{/other_user}","gists_url":"https://api.github.com/users/samie/gists{/gist_id}","starred_url":"https://api.github.com/users/samie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samie/subscriptions","organizations_url":"https://api.github.com/users/samie/orgs","repos_url":"https://api.github.com/users/samie/repos","events_url":"https://api.github.com/users/samie/events{/privacy}","received_events_url":"https://api.github.com/users/samie/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false},{"login":"samiheikki","id":8615573,"avatar_url":"https://avatars1.githubusercontent.com/u/8615573?v=4","gravatar_id":"","url":"https://api.github.com/users/samiheikki","html_url":"https://github.com/samiheikki","followers_url":"https://api.github.com/users/samiheikki/followers","following_url":"https://api.github.com/users/samiheikki/following{/other_user}","gists_url":"https://api.github.com/users/samiheikki/gists{/gist_id}","starred_url":"https://api.github.com/users/samiheikki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samiheikki/subscriptions","organizations_url":"https://api.github.com/users/samiheikki/orgs","repos_url":"https://api.github.com/users/samiheikki/repos","events_url":"https://api.github.com/users/samiheikki/events{/privacy}","received_events_url":"https://api.github.com/users/samiheikki/received_events","type":"User","site_admin":false}]
+0
+

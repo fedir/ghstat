@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:04 GMT
+Etag: W/"88afecd853d754f2e6c09740f01e9cee"
+Last-Modified: Sat, 24 Mar 2018 09:45:04 GMT
+Link: <https://api.github.com/repositories/1801829/contributors?page=12>; rel="prev", <https://api.github.com/repositories/1801829/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D1CC6:6D5F75F:5AB64508
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4580
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.118808
+X-Xss-Protection: 1; mode=block
+
+e01
+[{"login":"deepflame","id":91208,"avatar_url":"https://avatars3.githubusercontent.com/u/91208?v=4","gravatar_id":"","url":"https://api.github.com/users/deepflame","html_url":"https://github.com/deepflame","followers_url":"https://api.github.com/users/deepflame/followers","following_url":"https://api.github.com/users/deepflame/following{/other_user}","gists_url":"https://api.github.com/users/deepflame/gists{/gist_id}","starred_url":"https://api.github.com/users/deepflame/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/deepflame/subscriptions","organizations_url":"https://api.github.com/users/deepflame/orgs","repos_url":"https://api.github.com/users/deepflame/repos","events_url":"https://api.github.com/users/deepflame/events{/privacy}","received_events_url":"https://api.github.com/users/deepflame/received_events","type":"User","site_admin":false,"contributions":1},{"login":"aspala","id":2420034,"avatar_url":"https://avatars0.githubusercontent.com/u/2420034?v=4","gravatar_id":"","url":"https://api.github.com/users/aspala","html_url":"https://github.com/aspala","followers_url":"https://api.github.com/users/aspala/followers","following_url":"https://api.github.com/users/aspala/following{/other_user}","gists_url":"https://api.github.com/users/aspala/gists{/gist_id}","starred_url":"https://api.github.com/users/aspala/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aspala/subscriptions","organizations_url":"https://api.github.com/users/aspala/orgs","repos_url":"https://api.github.com/users/aspala/repos","events_url":"https://api.github.com/users/aspala/events{/privacy}","received_events_url":"https://api.github.com/users/aspala/received_events","type":"User","site_admin":false,"contributions":1},{"login":"andrei1089","id":74164,"avatar_url":"https://avatars0.githubusercontent.com/u/74164?v=4","gravatar_id":"","url":"https://api.github.com/users/andrei1089","html_url":"https://github.com/andrei1089","followers_url":"https://api.github.com/users/andrei1089/followers","following_url":"https://api.github.com/users/andrei1089/following{/other_user}","gists_url":"https://api.github.com/users/andrei1089/gists{/gist_id}","starred_url":"https://api.github.com/users/andrei1089/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrei1089/subscriptions","organizations_url":"https://api.github.com/users/andrei1089/orgs","repos_url":"https://api.github.com/users/andrei1089/repos","events_url":"https://api.github.com/users/andrei1089/events{/privacy}","received_events_url":"https://api.github.com/users/andrei1089/received_events","type":"User","site_admin":false,"contributions":1},{"login":"andrewfan","id":1834162,"avatar_url":"https://avatars1.githubusercontent.com/u/1834162?v=4","gravatar_id":"","url":"https://api.github.com/users/andrewfan","html_url":"https://github.com/andrewfan","followers_url":"https://api.github.com/users/andrewfan/followers","following_url":"https://api.github.com/users/andrewfan/following{/other_user}","gists_url":"https://api.github.com/users/andrewfan/gists{/gist_id}","starred_url":"https://api.github.com/users/andrewfan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrewfan/subscriptions","organizations_url":"https://api.github.com/users/andrewfan/orgs","repos_url":"https://api.github.com/users/andrewfan/repos","events_url":"https://api.github.com/users/andrewfan/events{/privacy}","received_events_url":"https://api.github.com/users/andrewfan/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

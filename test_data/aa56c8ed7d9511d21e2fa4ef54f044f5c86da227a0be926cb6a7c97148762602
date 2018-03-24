@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Length: 2
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 14:00:07 GMT
+Etag: "d751713988987e9331980363e24189ce"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C231:5F58:3FEE531:8BE285D:5AB659E7
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 46
+X-Ratelimit-Reset: 1521903604
+X-Runtime-Rack: 0.020908
+X-Xss-Protection: 1; mode=block
+
+[]

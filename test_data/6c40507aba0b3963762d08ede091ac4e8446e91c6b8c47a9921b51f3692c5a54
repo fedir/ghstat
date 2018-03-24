@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:30:06 GMT
+Etag: W/"a43b368c52f92205754d3c06b9663c31"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBD020:80B3EA8:5AB644CE
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4761
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.030270
+X-Xss-Protection: 1; mode=block
+
+a71
+[{"login":"thejdeep","id":1708757,"avatar_url":"https://avatars2.githubusercontent.com/u/1708757?v=4","gravatar_id":"","url":"https://api.github.com/users/thejdeep","html_url":"https://github.com/thejdeep","followers_url":"https://api.github.com/users/thejdeep/followers","following_url":"https://api.github.com/users/thejdeep/following{/other_user}","gists_url":"https://api.github.com/users/thejdeep/gists{/gist_id}","starred_url":"https://api.github.com/users/thejdeep/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thejdeep/subscriptions","organizations_url":"https://api.github.com/users/thejdeep/orgs","repos_url":"https://api.github.com/users/thejdeep/repos","events_url":"https://api.github.com/users/thejdeep/events{/privacy}","received_events_url":"https://api.github.com/users/thejdeep/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false},{"login":"digideskio","id":14135456,"avatar_url":"https://avatars2.githubusercontent.com/u/14135456?v=4","gravatar_id":"","url":"https://api.github.com/users/digideskio","html_url":"https://github.com/digideskio","followers_url":"https://api.github.com/users/digideskio/followers","following_url":"https://api.github.com/users/digideskio/following{/other_user}","gists_url":"https://api.github.com/users/digideskio/gists{/gist_id}","starred_url":"https://api.github.com/users/digideskio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/digideskio/subscriptions","organizations_url":"https://api.github.com/users/digideskio/orgs","repos_url":"https://api.github.com/users/digideskio/repos","events_url":"https://api.github.com/users/digideskio/events{/privacy}","received_events_url":"https://api.github.com/users/digideskio/received_events","type":"User","site_admin":false}]
+0
+

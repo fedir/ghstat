@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:01 GMT
+Etag: W/"9dc233730c276b31212e34305a84708f"
+Link: <https://api.github.com/user/61024/followers?page=6>; rel="prev", <https://api.github.com/user/61024/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D1BE7:6D5F55D:5AB64505
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4593
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.048919
+X-Xss-Protection: 1; mode=block
+
+a4b
+[{"login":"batermj","id":250445,"avatar_url":"https://avatars0.githubusercontent.com/u/250445?v=4","gravatar_id":"","url":"https://api.github.com/users/batermj","html_url":"https://github.com/batermj","followers_url":"https://api.github.com/users/batermj/followers","following_url":"https://api.github.com/users/batermj/following{/other_user}","gists_url":"https://api.github.com/users/batermj/gists{/gist_id}","starred_url":"https://api.github.com/users/batermj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/batermj/subscriptions","organizations_url":"https://api.github.com/users/batermj/orgs","repos_url":"https://api.github.com/users/batermj/repos","events_url":"https://api.github.com/users/batermj/events{/privacy}","received_events_url":"https://api.github.com/users/batermj/received_events","type":"User","site_admin":false},{"login":"jeancroy","id":12763666,"avatar_url":"https://avatars1.githubusercontent.com/u/12763666?v=4","gravatar_id":"","url":"https://api.github.com/users/jeancroy","html_url":"https://github.com/jeancroy","followers_url":"https://api.github.com/users/jeancroy/followers","following_url":"https://api.github.com/users/jeancroy/following{/other_user}","gists_url":"https://api.github.com/users/jeancroy/gists{/gist_id}","starred_url":"https://api.github.com/users/jeancroy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jeancroy/subscriptions","organizations_url":"https://api.github.com/users/jeancroy/orgs","repos_url":"https://api.github.com/users/jeancroy/repos","events_url":"https://api.github.com/users/jeancroy/events{/privacy}","received_events_url":"https://api.github.com/users/jeancroy/received_events","type":"User","site_admin":false},{"login":"Panman8201","id":3475765,"avatar_url":"https://avatars2.githubusercontent.com/u/3475765?v=4","gravatar_id":"","url":"https://api.github.com/users/Panman8201","html_url":"https://github.com/Panman8201","followers_url":"https://api.github.com/users/Panman8201/followers","following_url":"https://api.github.com/users/Panman8201/following{/other_user}","gists_url":"https://api.github.com/users/Panman8201/gists{/gist_id}","starred_url":"https://api.github.com/users/Panman8201/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Panman8201/subscriptions","organizations_url":"https://api.github.com/users/Panman8201/orgs","repos_url":"https://api.github.com/users/Panman8201/repos","events_url":"https://api.github.com/users/Panman8201/events{/privacy}","received_events_url":"https://api.github.com/users/Panman8201/received_events","type":"User","site_admin":false}]
+0
+

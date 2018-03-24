@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 14:00:08 GMT
+Etag: W/"ff55d4b87ee532a240dbceb0160d7976"
+Link: <https://api.github.com/user/6106941/followers?page=1>; rel="prev", <https://api.github.com/user/6106941/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C231:5F58:3FEE580:8BE292A:5AB659E8
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 42
+X-Ratelimit-Reset: 1521903604
+X-Runtime-Rack: 0.028147
+X-Xss-Protection: 1; mode=block
+
+3a9
+[{"login":"nextlevelshit","id":10194510,"avatar_url":"https://avatars2.githubusercontent.com/u/10194510?v=4","gravatar_id":"","url":"https://api.github.com/users/nextlevelshit","html_url":"https://github.com/nextlevelshit","followers_url":"https://api.github.com/users/nextlevelshit/followers","following_url":"https://api.github.com/users/nextlevelshit/following{/other_user}","gists_url":"https://api.github.com/users/nextlevelshit/gists{/gist_id}","starred_url":"https://api.github.com/users/nextlevelshit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nextlevelshit/subscriptions","organizations_url":"https://api.github.com/users/nextlevelshit/orgs","repos_url":"https://api.github.com/users/nextlevelshit/repos","events_url":"https://api.github.com/users/nextlevelshit/events{/privacy}","received_events_url":"https://api.github.com/users/nextlevelshit/received_events","type":"User","site_admin":false}]
+0
+

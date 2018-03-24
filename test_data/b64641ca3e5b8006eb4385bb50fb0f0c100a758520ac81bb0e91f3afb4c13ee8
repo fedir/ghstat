@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:30:06 GMT
+Etag: W/"b9e11035bd9343fc99be191eb508337c"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBCFA6:80B3DD6:5AB644CD
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4765
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.042827
+X-Xss-Protection: 1; mode=block
+
+d19
+[{"login":"udiu","id":2521016,"avatar_url":"https://avatars3.githubusercontent.com/u/2521016?v=4","gravatar_id":"","url":"https://api.github.com/users/udiu","html_url":"https://github.com/udiu","followers_url":"https://api.github.com/users/udiu/followers","following_url":"https://api.github.com/users/udiu/following{/other_user}","gists_url":"https://api.github.com/users/udiu/gists{/gist_id}","starred_url":"https://api.github.com/users/udiu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udiu/subscriptions","organizations_url":"https://api.github.com/users/udiu/orgs","repos_url":"https://api.github.com/users/udiu/repos","events_url":"https://api.github.com/users/udiu/events{/privacy}","received_events_url":"https://api.github.com/users/udiu/received_events","type":"User","site_admin":false},{"login":"iris135","id":23030780,"avatar_url":"https://avatars0.githubusercontent.com/u/23030780?v=4","gravatar_id":"","url":"https://api.github.com/users/iris135","html_url":"https://github.com/iris135","followers_url":"https://api.github.com/users/iris135/followers","following_url":"https://api.github.com/users/iris135/following{/other_user}","gists_url":"https://api.github.com/users/iris135/gists{/gist_id}","starred_url":"https://api.github.com/users/iris135/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iris135/subscriptions","organizations_url":"https://api.github.com/users/iris135/orgs","repos_url":"https://api.github.com/users/iris135/repos","events_url":"https://api.github.com/users/iris135/events{/privacy}","received_events_url":"https://api.github.com/users/iris135/received_events","type":"User","site_admin":false},{"login":"912d","id":7474972,"avatar_url":"https://avatars2.githubusercontent.com/u/7474972?v=4","gravatar_id":"","url":"https://api.github.com/users/912d","html_url":"https://github.com/912d","followers_url":"https://api.github.com/users/912d/followers","following_url":"https://api.github.com/users/912d/following{/other_user}","gists_url":"https://api.github.com/users/912d/gists{/gist_id}","starred_url":"https://api.github.com/users/912d/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/912d/subscriptions","organizations_url":"https://api.github.com/users/912d/orgs","repos_url":"https://api.github.com/users/912d/repos","events_url":"https://api.github.com/users/912d/events{/privacy}","received_events_url":"https://api.github.com/users/912d/received_events","type":"User","site_admin":false},{"login":"dehun","id":973520,"avatar_url":"https://avatars3.githubusercontent.com/u/973520?v=4","gravatar_id":"","url":"https://api.github.com/users/dehun","html_url":"https://github.com/dehun","followers_url":"https://api.github.com/users/dehun/followers","following_url":"https://api.github.com/users/dehun/following{/other_user}","gists_url":"https://api.github.com/users/dehun/gists{/gist_id}","starred_url":"https://api.github.com/users/dehun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dehun/subscriptions","organizations_url":"https://api.github.com/users/dehun/orgs","repos_url":"https://api.github.com/users/dehun/repos","events_url":"https://api.github.com/users/dehun/events{/privacy}","received_events_url":"https://api.github.com/users/dehun/received_events","type":"User","site_admin":false}]
+0
+

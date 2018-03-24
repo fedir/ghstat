@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:49 GMT
+Etag: W/"e187ff6715eec203698dc1899523d319"
+Last-Modified: Sun, 18 Mar 2018 22:13:55 GMT
+Link: <https://api.github.com/repositories/4610430/contributors?page=2>; rel="prev", <https://api.github.com/repositories/4610430/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBC7FF:80B308B:5AB644BC
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4812
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.072674
+X-Xss-Protection: 1; mode=block
+
+a71
+[{"login":"kpacha","id":1307694,"avatar_url":"https://avatars3.githubusercontent.com/u/1307694?v=4","gravatar_id":"","url":"https://api.github.com/users/kpacha","html_url":"https://github.com/kpacha","followers_url":"https://api.github.com/users/kpacha/followers","following_url":"https://api.github.com/users/kpacha/following{/other_user}","gists_url":"https://api.github.com/users/kpacha/gists{/gist_id}","starred_url":"https://api.github.com/users/kpacha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kpacha/subscriptions","organizations_url":"https://api.github.com/users/kpacha/orgs","repos_url":"https://api.github.com/users/kpacha/repos","events_url":"https://api.github.com/users/kpacha/events{/privacy}","received_events_url":"https://api.github.com/users/kpacha/received_events","type":"User","site_admin":false,"contributions":1},{"login":"makotan","id":407884,"avatar_url":"https://avatars2.githubusercontent.com/u/407884?v=4","gravatar_id":"","url":"https://api.github.com/users/makotan","html_url":"https://github.com/makotan","followers_url":"https://api.github.com/users/makotan/followers","following_url":"https://api.github.com/users/makotan/following{/other_user}","gists_url":"https://api.github.com/users/makotan/gists{/gist_id}","starred_url":"https://api.github.com/users/makotan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/makotan/subscriptions","organizations_url":"https://api.github.com/users/makotan/orgs","repos_url":"https://api.github.com/users/makotan/repos","events_url":"https://api.github.com/users/makotan/events{/privacy}","received_events_url":"https://api.github.com/users/makotan/received_events","type":"User","site_admin":false,"contributions":1},{"login":"zephiransas","id":909101,"avatar_url":"https://avatars2.githubusercontent.com/u/909101?v=4","gravatar_id":"","url":"https://api.github.com/users/zephiransas","html_url":"https://github.com/zephiransas","followers_url":"https://api.github.com/users/zephiransas/followers","following_url":"https://api.github.com/users/zephiransas/following{/other_user}","gists_url":"https://api.github.com/users/zephiransas/gists{/gist_id}","starred_url":"https://api.github.com/users/zephiransas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zephiransas/subscriptions","organizations_url":"https://api.github.com/users/zephiransas/orgs","repos_url":"https://api.github.com/users/zephiransas/repos","events_url":"https://api.github.com/users/zephiransas/events{/privacy}","received_events_url":"https://api.github.com/users/zephiransas/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

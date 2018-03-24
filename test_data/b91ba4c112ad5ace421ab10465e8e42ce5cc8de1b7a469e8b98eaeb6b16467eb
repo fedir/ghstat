@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:30:13 GMT
+Etag: W/"63c25412f9e5a2b4ea09ed5a85d5a9dd"
+Link: <https://api.github.com/user/1033018/followers?page=2>; rel="prev", <https://api.github.com/user/1033018/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBD39D:80B4500:5AB644D5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4741
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.034398
+X-Xss-Protection: 1; mode=block
+
+acd
+[{"login":"PauloPaquielli","id":3427262,"avatar_url":"https://avatars3.githubusercontent.com/u/3427262?v=4","gravatar_id":"","url":"https://api.github.com/users/PauloPaquielli","html_url":"https://github.com/PauloPaquielli","followers_url":"https://api.github.com/users/PauloPaquielli/followers","following_url":"https://api.github.com/users/PauloPaquielli/following{/other_user}","gists_url":"https://api.github.com/users/PauloPaquielli/gists{/gist_id}","starred_url":"https://api.github.com/users/PauloPaquielli/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PauloPaquielli/subscriptions","organizations_url":"https://api.github.com/users/PauloPaquielli/orgs","repos_url":"https://api.github.com/users/PauloPaquielli/repos","events_url":"https://api.github.com/users/PauloPaquielli/events{/privacy}","received_events_url":"https://api.github.com/users/PauloPaquielli/received_events","type":"User","site_admin":false},{"login":"dramalcolm","id":5769109,"avatar_url":"https://avatars0.githubusercontent.com/u/5769109?v=4","gravatar_id":"","url":"https://api.github.com/users/dramalcolm","html_url":"https://github.com/dramalcolm","followers_url":"https://api.github.com/users/dramalcolm/followers","following_url":"https://api.github.com/users/dramalcolm/following{/other_user}","gists_url":"https://api.github.com/users/dramalcolm/gists{/gist_id}","starred_url":"https://api.github.com/users/dramalcolm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dramalcolm/subscriptions","organizations_url":"https://api.github.com/users/dramalcolm/orgs","repos_url":"https://api.github.com/users/dramalcolm/repos","events_url":"https://api.github.com/users/dramalcolm/events{/privacy}","received_events_url":"https://api.github.com/users/dramalcolm/received_events","type":"User","site_admin":false},{"login":"anitshrestha","id":414141,"avatar_url":"https://avatars2.githubusercontent.com/u/414141?v=4","gravatar_id":"","url":"https://api.github.com/users/anitshrestha","html_url":"https://github.com/anitshrestha","followers_url":"https://api.github.com/users/anitshrestha/followers","following_url":"https://api.github.com/users/anitshrestha/following{/other_user}","gists_url":"https://api.github.com/users/anitshrestha/gists{/gist_id}","starred_url":"https://api.github.com/users/anitshrestha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anitshrestha/subscriptions","organizations_url":"https://api.github.com/users/anitshrestha/orgs","repos_url":"https://api.github.com/users/anitshrestha/repos","events_url":"https://api.github.com/users/anitshrestha/events{/privacy}","received_events_url":"https://api.github.com/users/anitshrestha/received_events","type":"User","site_admin":false}]
+0
+

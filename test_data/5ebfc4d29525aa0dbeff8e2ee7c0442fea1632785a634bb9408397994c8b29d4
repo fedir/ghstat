@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:59 GMT
+Etag: W/"6e2c8f05785e1beedb2e1e8f71b1dcf2"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBCBBB:80B3687:5AB644C7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4784
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.029243
+X-Xss-Protection: 1; mode=block
+
+3a9
+[{"login":"geraldo-netto","id":20527108,"avatar_url":"https://avatars1.githubusercontent.com/u/20527108?v=4","gravatar_id":"","url":"https://api.github.com/users/geraldo-netto","html_url":"https://github.com/geraldo-netto","followers_url":"https://api.github.com/users/geraldo-netto/followers","following_url":"https://api.github.com/users/geraldo-netto/following{/other_user}","gists_url":"https://api.github.com/users/geraldo-netto/gists{/gist_id}","starred_url":"https://api.github.com/users/geraldo-netto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geraldo-netto/subscriptions","organizations_url":"https://api.github.com/users/geraldo-netto/orgs","repos_url":"https://api.github.com/users/geraldo-netto/repos","events_url":"https://api.github.com/users/geraldo-netto/events{/privacy}","received_events_url":"https://api.github.com/users/geraldo-netto/received_events","type":"User","site_admin":false}]
+0
+

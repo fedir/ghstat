@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:31:45 GMT
+Etag: W/"69c46b9691f4d3ed72e3827ea57966f6"
+Link: <https://api.github.com/user/1526883/followers?page=5>; rel="prev", <https://api.github.com/user/1526883/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D07B:5F56:32D24A9:6D60989:5AB64530
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4482
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.042067
+X-Xss-Protection: 1; mode=block
+
+a97
+[{"login":"ckarras11","id":30561347,"avatar_url":"https://avatars3.githubusercontent.com/u/30561347?v=4","gravatar_id":"","url":"https://api.github.com/users/ckarras11","html_url":"https://github.com/ckarras11","followers_url":"https://api.github.com/users/ckarras11/followers","following_url":"https://api.github.com/users/ckarras11/following{/other_user}","gists_url":"https://api.github.com/users/ckarras11/gists{/gist_id}","starred_url":"https://api.github.com/users/ckarras11/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ckarras11/subscriptions","organizations_url":"https://api.github.com/users/ckarras11/orgs","repos_url":"https://api.github.com/users/ckarras11/repos","events_url":"https://api.github.com/users/ckarras11/events{/privacy}","received_events_url":"https://api.github.com/users/ckarras11/received_events","type":"User","site_admin":false},{"login":"priyank-sriv","id":34641210,"avatar_url":"https://avatars3.githubusercontent.com/u/34641210?v=4","gravatar_id":"","url":"https://api.github.com/users/priyank-sriv","html_url":"https://github.com/priyank-sriv","followers_url":"https://api.github.com/users/priyank-sriv/followers","following_url":"https://api.github.com/users/priyank-sriv/following{/other_user}","gists_url":"https://api.github.com/users/priyank-sriv/gists{/gist_id}","starred_url":"https://api.github.com/users/priyank-sriv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/priyank-sriv/subscriptions","organizations_url":"https://api.github.com/users/priyank-sriv/orgs","repos_url":"https://api.github.com/users/priyank-sriv/repos","events_url":"https://api.github.com/users/priyank-sriv/events{/privacy}","received_events_url":"https://api.github.com/users/priyank-sriv/received_events","type":"User","site_admin":false},{"login":"dimitrisnl","id":4951004,"avatar_url":"https://avatars2.githubusercontent.com/u/4951004?v=4","gravatar_id":"","url":"https://api.github.com/users/dimitrisnl","html_url":"https://github.com/dimitrisnl","followers_url":"https://api.github.com/users/dimitrisnl/followers","following_url":"https://api.github.com/users/dimitrisnl/following{/other_user}","gists_url":"https://api.github.com/users/dimitrisnl/gists{/gist_id}","starred_url":"https://api.github.com/users/dimitrisnl/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dimitrisnl/subscriptions","organizations_url":"https://api.github.com/users/dimitrisnl/orgs","repos_url":"https://api.github.com/users/dimitrisnl/repos","events_url":"https://api.github.com/users/dimitrisnl/events{/privacy}","received_events_url":"https://api.github.com/users/dimitrisnl/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:48 GMT
+Etag: W/"f9dd30a1911ce190f1c49dfcd76a3f47"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBC7B7:80B3019:5AB644BB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4818
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.030264
+X-Xss-Protection: 1; mode=block
+
+6c3
+[{"login":"udevril","id":15474,"avatar_url":"https://avatars2.githubusercontent.com/u/15474?v=4","gravatar_id":"","url":"https://api.github.com/users/udevril","html_url":"https://github.com/udevril","followers_url":"https://api.github.com/users/udevril/followers","following_url":"https://api.github.com/users/udevril/following{/other_user}","gists_url":"https://api.github.com/users/udevril/gists{/gist_id}","starred_url":"https://api.github.com/users/udevril/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udevril/subscriptions","organizations_url":"https://api.github.com/users/udevril/orgs","repos_url":"https://api.github.com/users/udevril/repos","events_url":"https://api.github.com/users/udevril/events{/privacy}","received_events_url":"https://api.github.com/users/udevril/received_events","type":"User","site_admin":false},{"login":"kubisflo","id":100676,"avatar_url":"https://avatars3.githubusercontent.com/u/100676?v=4","gravatar_id":"","url":"https://api.github.com/users/kubisflo","html_url":"https://github.com/kubisflo","followers_url":"https://api.github.com/users/kubisflo/followers","following_url":"https://api.github.com/users/kubisflo/following{/other_user}","gists_url":"https://api.github.com/users/kubisflo/gists{/gist_id}","starred_url":"https://api.github.com/users/kubisflo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kubisflo/subscriptions","organizations_url":"https://api.github.com/users/kubisflo/orgs","repos_url":"https://api.github.com/users/kubisflo/repos","events_url":"https://api.github.com/users/kubisflo/events{/privacy}","received_events_url":"https://api.github.com/users/kubisflo/received_events","type":"User","site_admin":false}]
+0
+

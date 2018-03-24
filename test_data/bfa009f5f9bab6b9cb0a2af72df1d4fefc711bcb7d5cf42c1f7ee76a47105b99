@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:18 GMT
+Etag: W/"918e9f1594808177ba47ab33b79fb9aa"
+Last-Modified: Wed, 07 Sep 2011 09:28:33 GMT
+Link: <https://api.github.com/repositories/2340549/commits?page=1>; rel="first", <https://api.github.com/repositories/2340549/commits?page=289>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D06D:5F58:3FA26E8:8AFB9D5:5AB6449D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4892
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.168391
+X-Xss-Protection: 1; mode=block
+
+b76
+[{"sha":"1ab01722b2c0db2980c3e85e2b0b6ede9acd2055","commit":{"author":{"name":"Guillaume Bort","email":"guillaume.bort@gmail.com","date":"2011-09-07T09:28:33Z"},"committer":{"name":"Guillaume Bort","email":"guillaume.bort@gmail.com","date":"2011-09-07T09:28:33Z"},"message":"2.0 preview","tree":{"sha":"c4f47a1e8856bcc16a9833af882c34a2a67bef83","url":"https://api.github.com/repos/playframework/playframework/git/trees/c4f47a1e8856bcc16a9833af882c34a2a67bef83"},"url":"https://api.github.com/repos/playframework/playframework/git/commits/1ab01722b2c0db2980c3e85e2b0b6ede9acd2055","comment_count":3,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/playframework/playframework/commits/1ab01722b2c0db2980c3e85e2b0b6ede9acd2055","html_url":"https://github.com/playframework/playframework/commit/1ab01722b2c0db2980c3e85e2b0b6ede9acd2055","comments_url":"https://api.github.com/repos/playframework/playframework/commits/1ab01722b2c0db2980c3e85e2b0b6ede9acd2055/comments","author":{"login":"guillaumebort","id":94658,"avatar_url":"https://avatars3.githubusercontent.com/u/94658?v=4","gravatar_id":"","url":"https://api.github.com/users/guillaumebort","html_url":"https://github.com/guillaumebort","followers_url":"https://api.github.com/users/guillaumebort/followers","following_url":"https://api.github.com/users/guillaumebort/following{/other_user}","gists_url":"https://api.github.com/users/guillaumebort/gists{/gist_id}","starred_url":"https://api.github.com/users/guillaumebort/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/guillaumebort/subscriptions","organizations_url":"https://api.github.com/users/guillaumebort/orgs","repos_url":"https://api.github.com/users/guillaumebort/repos","events_url":"https://api.github.com/users/guillaumebort/events{/privacy}","received_events_url":"https://api.github.com/users/guillaumebort/received_events","type":"User","site_admin":false},"committer":{"login":"guillaumebort","id":94658,"avatar_url":"https://avatars3.githubusercontent.com/u/94658?v=4","gravatar_id":"","url":"https://api.github.com/users/guillaumebort","html_url":"https://github.com/guillaumebort","followers_url":"https://api.github.com/users/guillaumebort/followers","following_url":"https://api.github.com/users/guillaumebort/following{/other_user}","gists_url":"https://api.github.com/users/guillaumebort/gists{/gist_id}","starred_url":"https://api.github.com/users/guillaumebort/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/guillaumebort/subscriptions","organizations_url":"https://api.github.com/users/guillaumebort/orgs","repos_url":"https://api.github.com/users/guillaumebort/repos","events_url":"https://api.github.com/users/guillaumebort/events{/privacy}","received_events_url":"https://api.github.com/users/guillaumebort/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

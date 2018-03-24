@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:29:31 GMT
+Etag: W/"53d2cf0d0a745cb30fca566516b94d0d"
+Link: <https://api.github.com/user/322311/followers?page=2>; rel="prev", <https://api.github.com/user/322311/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBC1E4:80B259B:5AB644AB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4872
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.025058
+X-Xss-Protection: 1; mode=block
+
+383
+[{"login":"oguzkorkut","id":3520278,"avatar_url":"https://avatars0.githubusercontent.com/u/3520278?v=4","gravatar_id":"","url":"https://api.github.com/users/oguzkorkut","html_url":"https://github.com/oguzkorkut","followers_url":"https://api.github.com/users/oguzkorkut/followers","following_url":"https://api.github.com/users/oguzkorkut/following{/other_user}","gists_url":"https://api.github.com/users/oguzkorkut/gists{/gist_id}","starred_url":"https://api.github.com/users/oguzkorkut/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/oguzkorkut/subscriptions","organizations_url":"https://api.github.com/users/oguzkorkut/orgs","repos_url":"https://api.github.com/users/oguzkorkut/repos","events_url":"https://api.github.com/users/oguzkorkut/events{/privacy}","received_events_url":"https://api.github.com/users/oguzkorkut/received_events","type":"User","site_admin":false}]
+0
+

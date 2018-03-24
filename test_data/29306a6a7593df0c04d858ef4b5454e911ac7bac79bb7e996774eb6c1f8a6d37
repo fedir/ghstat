@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:11:24 GMT
+Etag: W/"42b21c5e952d2dff045f77f50a4339db"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF69:5F56:32C34F8:6D3EEE9:5AB6406C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4934
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.032404
+X-Xss-Protection: 1; mode=block
+
+a3d
+[{"login":"alphapapa","id":601365,"avatar_url":"https://avatars2.githubusercontent.com/u/601365?v=4","gravatar_id":"","url":"https://api.github.com/users/alphapapa","html_url":"https://github.com/alphapapa","followers_url":"https://api.github.com/users/alphapapa/followers","following_url":"https://api.github.com/users/alphapapa/following{/other_user}","gists_url":"https://api.github.com/users/alphapapa/gists{/gist_id}","starred_url":"https://api.github.com/users/alphapapa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alphapapa/subscriptions","organizations_url":"https://api.github.com/users/alphapapa/orgs","repos_url":"https://api.github.com/users/alphapapa/repos","events_url":"https://api.github.com/users/alphapapa/events{/privacy}","received_events_url":"https://api.github.com/users/alphapapa/received_events","type":"User","site_admin":false},{"login":"WallyYang","id":16236211,"avatar_url":"https://avatars3.githubusercontent.com/u/16236211?v=4","gravatar_id":"","url":"https://api.github.com/users/WallyYang","html_url":"https://github.com/WallyYang","followers_url":"https://api.github.com/users/WallyYang/followers","following_url":"https://api.github.com/users/WallyYang/following{/other_user}","gists_url":"https://api.github.com/users/WallyYang/gists{/gist_id}","starred_url":"https://api.github.com/users/WallyYang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/WallyYang/subscriptions","organizations_url":"https://api.github.com/users/WallyYang/orgs","repos_url":"https://api.github.com/users/WallyYang/repos","events_url":"https://api.github.com/users/WallyYang/events{/privacy}","received_events_url":"https://api.github.com/users/WallyYang/received_events","type":"User","site_admin":false},{"login":"skyler","id":205510,"avatar_url":"https://avatars0.githubusercontent.com/u/205510?v=4","gravatar_id":"","url":"https://api.github.com/users/skyler","html_url":"https://github.com/skyler","followers_url":"https://api.github.com/users/skyler/followers","following_url":"https://api.github.com/users/skyler/following{/other_user}","gists_url":"https://api.github.com/users/skyler/gists{/gist_id}","starred_url":"https://api.github.com/users/skyler/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/skyler/subscriptions","organizations_url":"https://api.github.com/users/skyler/orgs","repos_url":"https://api.github.com/users/skyler/repos","events_url":"https://api.github.com/users/skyler/events{/privacy}","received_events_url":"https://api.github.com/users/skyler/received_events","type":"User","site_admin":false}]
+0
+

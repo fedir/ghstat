@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 14:00:07 GMT
+Etag: W/"569fbb92950c46f80667acce73fec54f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C231:5F58:3FEE549:8BE2896:5AB659E7
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 45
+X-Ratelimit-Reset: 1521903604
+X-Runtime-Rack: 0.023224
+X-Xss-Protection: 1; mode=block
+
+6fb
+[{"login":"mingz2013","id":6958058,"avatar_url":"https://avatars2.githubusercontent.com/u/6958058?v=4","gravatar_id":"","url":"https://api.github.com/users/mingz2013","html_url":"https://github.com/mingz2013","followers_url":"https://api.github.com/users/mingz2013/followers","following_url":"https://api.github.com/users/mingz2013/following{/other_user}","gists_url":"https://api.github.com/users/mingz2013/gists{/gist_id}","starred_url":"https://api.github.com/users/mingz2013/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mingz2013/subscriptions","organizations_url":"https://api.github.com/users/mingz2013/orgs","repos_url":"https://api.github.com/users/mingz2013/repos","events_url":"https://api.github.com/users/mingz2013/events{/privacy}","received_events_url":"https://api.github.com/users/mingz2013/received_events","type":"User","site_admin":false},{"login":"csx-huntun","id":28882389,"avatar_url":"https://avatars2.githubusercontent.com/u/28882389?v=4","gravatar_id":"","url":"https://api.github.com/users/csx-huntun","html_url":"https://github.com/csx-huntun","followers_url":"https://api.github.com/users/csx-huntun/followers","following_url":"https://api.github.com/users/csx-huntun/following{/other_user}","gists_url":"https://api.github.com/users/csx-huntun/gists{/gist_id}","starred_url":"https://api.github.com/users/csx-huntun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csx-huntun/subscriptions","organizations_url":"https://api.github.com/users/csx-huntun/orgs","repos_url":"https://api.github.com/users/csx-huntun/repos","events_url":"https://api.github.com/users/csx-huntun/events{/privacy}","received_events_url":"https://api.github.com/users/csx-huntun/received_events","type":"User","site_admin":false}]
+0
+

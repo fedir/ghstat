@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 24 Mar 2018 12:30:01 GMT
+Etag: W/"8f1a7115d4979ca6d85e44d4ad7566f1"
+Last-Modified: Sat, 24 Mar 2018 06:27:40 GMT
+Link: <https://api.github.com/repositories/25446835/contributors?page=1>; rel="prev", <https://api.github.com/repositories/25446835/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D072:5F57:3DBCC96:80B3807:5AB644C9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4774
+X-Ratelimit-Reset: 1521897066
+X-Runtime-Rack: 0.151945
+X-Xss-Protection: 1; mode=block
+
+e59
+[{"login":"gitter-badger","id":8518239,"avatar_url":"https://avatars2.githubusercontent.com/u/8518239?v=4","gravatar_id":"","url":"https://api.github.com/users/gitter-badger","html_url":"https://github.com/gitter-badger","followers_url":"https://api.github.com/users/gitter-badger/followers","following_url":"https://api.github.com/users/gitter-badger/following{/other_user}","gists_url":"https://api.github.com/users/gitter-badger/gists{/gist_id}","starred_url":"https://api.github.com/users/gitter-badger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gitter-badger/subscriptions","organizations_url":"https://api.github.com/users/gitter-badger/orgs","repos_url":"https://api.github.com/users/gitter-badger/repos","events_url":"https://api.github.com/users/gitter-badger/events{/privacy}","received_events_url":"https://api.github.com/users/gitter-badger/received_events","type":"User","site_admin":false,"contributions":1},{"login":"auxiliaire","id":238566,"avatar_url":"https://avatars0.githubusercontent.com/u/238566?v=4","gravatar_id":"","url":"https://api.github.com/users/auxiliaire","html_url":"https://github.com/auxiliaire","followers_url":"https://api.github.com/users/auxiliaire/followers","following_url":"https://api.github.com/users/auxiliaire/following{/other_user}","gists_url":"https://api.github.com/users/auxiliaire/gists{/gist_id}","starred_url":"https://api.github.com/users/auxiliaire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/auxiliaire/subscriptions","organizations_url":"https://api.github.com/users/auxiliaire/orgs","repos_url":"https://api.github.com/users/auxiliaire/repos","events_url":"https://api.github.com/users/auxiliaire/events{/privacy}","received_events_url":"https://api.github.com/users/auxiliaire/received_events","type":"User","site_admin":false,"contributions":1},{"login":"vbauer","id":578021,"avatar_url":"https://avatars0.githubusercontent.com/u/578021?v=4","gravatar_id":"","url":"https://api.github.com/users/vbauer","html_url":"https://github.com/vbauer","followers_url":"https://api.github.com/users/vbauer/followers","following_url":"https://api.github.com/users/vbauer/following{/other_user}","gists_url":"https://api.github.com/users/vbauer/gists{/gist_id}","starred_url":"https://api.github.com/users/vbauer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vbauer/subscriptions","organizations_url":"https://api.github.com/users/vbauer/orgs","repos_url":"https://api.github.com/users/vbauer/repos","events_url":"https://api.github.com/users/vbauer/events{/privacy}","received_events_url":"https://api.github.com/users/vbauer/received_events","type":"User","site_admin":false,"contributions":1},{"login":"bryanneumann","id":1636950,"avatar_url":"https://avatars2.githubusercontent.com/u/1636950?v=4","gravatar_id":"","url":"https://api.github.com/users/bryanneumann","html_url":"https://github.com/bryanneumann","followers_url":"https://api.github.com/users/bryanneumann/followers","following_url":"https://api.github.com/users/bryanneumann/following{/other_user}","gists_url":"https://api.github.com/users/bryanneumann/gists{/gist_id}","starred_url":"https://api.github.com/users/bryanneumann/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bryanneumann/subscriptions","organizations_url":"https://api.github.com/users/bryanneumann/orgs","repos_url":"https://api.github.com/users/bryanneumann/repos","events_url":"https://api.github.com/users/bryanneumann/events{/privacy}","received_events_url":"https://api.github.com/users/bryanneumann/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+
