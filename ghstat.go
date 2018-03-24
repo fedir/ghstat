@@ -108,10 +108,10 @@ func main() {
 		if authorLogin != "" {
 			authorFollowers = getUserFollowers(authorLogin, *tmpFolder, *debug)
 		}
-		totalIssues := getRepositoryTotalIssues(rKey, *tmpFolder, *debug)
+		closedIssues := getRepositoryClosedIssues(rKey, *tmpFolder, *debug)
 		topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, *tmpFolder, *debug)
 		activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
-		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(totalIssues))
+		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
 		contributionStatistics := getContributionStatistics(rKey, *tmpFolder, *debug)
 		csvData = append(csvData, []string{
 			repositoryData.Name,
@@ -136,7 +136,7 @@ func main() {
 			fmt.Sprintf("%d", totalContributors),
 			fmt.Sprintf("%.2f", activeForkersPercentage),
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
-			fmt.Sprintf("%d", totalIssues),
+			fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
 			fmt.Sprintf("%.2f", closedIssuesPercentage),
 			"0",
 		})
