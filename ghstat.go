@@ -66,19 +66,19 @@ func main() {
 
 	var csvData = [][]string{}
 	const (
-		NameColumn                   = 0
-		AuthorsFollowersColumn       = 4
-		Top10ContributorsFollowers   = 5
-		AgeColumn                    = 6
-		TotalCommitsColumn           = 7
-		TotalAdditionsColumn         = 8
-		TotalDeletionsColumn         = 9
-		TotalCodeChangesColumn       = 10
-		MediCommitSizeColumn         = 11
-		StargazersColumn             = 12
-		ActiveForkersColumn          = 15
-		ClosedIssuesPercentageColumn = 18
-		TotalPointsColumnIndex       = 19
+		NameColumn                       = 0
+		AuthorsFollowersColumn           = 3
+		Top10ContributorsFollowersColumn = 4
+		AgeColumn                        = 5
+		TotalCommitsColumn               = 7
+		TotalAdditionsColumn             = 8
+		TotalDeletionsColumn             = 9
+		TotalCodeChangesColumn           = 10
+		MediCommitSizeColumn             = 11
+		StargazersColumn                 = 12
+		ActiveForkersColumn              = 15
+		ClosedIssuesPercentageColumn     = 18
+		TotalPointsColumnIndex           = 19
 	)
 	headers := []string{
 		"Name",
@@ -165,11 +165,6 @@ func main() {
 	firstPlaceGreeting(csvDataSorted, "The project with the most active community is")
 	csvDataTotal = addPoints(csvDataSorted, ActiveForkersColumn, TotalPointsColumnIndex)
 
-	// Add points by Top10 contributors followers
-	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowers)
-	firstPlaceGreeting(csvDataSorted, "The project made by most notable top contributors is")
-	csvDataTotal = addPoints(csvDataSorted, Top10ContributorsFollowers, TotalPointsColumnIndex)
-
 	// Add points by proportion of total and resolved issues
 	csvDataSorted = sortSliceByColumnIndexFloatDesc(csvData, ClosedIssuesPercentageColumn)
 	firstPlaceGreeting(csvDataSorted, "The project with best errors resolving rate is")
@@ -179,6 +174,11 @@ func main() {
 	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, TotalCommitsColumn)
 	firstPlaceGreeting(csvDataSorted, "The project with more commits is")
 	csvDataTotal = addPoints(csvDataSorted, TotalCommitsColumn, TotalPointsColumnIndex)
+
+	// Add points by Top10 contributors followers
+	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowersColumn)
+	firstPlaceGreeting(csvDataSorted, "The project made by most notable top contributors is")
+	csvDataTotal = addPoints(csvDataSorted, Top10ContributorsFollowersColumn, TotalPointsColumnIndex)
 
 	csvDataTotal = sortSliceByColumnIndexIntAsc(csvDataTotal, TotalPointsColumnIndex)
 	firstPlaceGreeting(csvDataSorted, "The best project (taking in account placements in all competitions) is")
