@@ -53,6 +53,7 @@ func main() {
 			"revel/revel",
 			"gobuffalo/buffalo",
 			"go-chi/chi",
+			"kataras/iris",
 		}
 	}
 
@@ -67,14 +68,14 @@ func main() {
 	const (
 		NameColumn                   = 0
 		AuthorsFollowersColumn       = 4
-		AgeColumn                    = 5
-		TotalCommitsColumn           = 6
-		TotalAdditionsColumn         = 7
-		TotalDeletionsColumn         = 8
-		TotalCodeChangesColumn       = 9
-		MediCommitSizeColumn         = 10
-		StargazersColumn             = 11
-		Top10ContributorsFollowers   = 14
+		Top10ContributorsFollowers   = 5
+		AgeColumn                    = 6
+		TotalCommitsColumn           = 7
+		TotalAdditionsColumn         = 8
+		TotalDeletionsColumn         = 9
+		TotalCodeChangesColumn       = 10
+		MediCommitSizeColumn         = 11
+		StargazersColumn             = 12
 		ActiveForkersColumn          = 15
 		ClosedIssuesPercentageColumn = 18
 		TotalPointsColumnIndex       = 19
@@ -84,6 +85,7 @@ func main() {
 		"URL",
 		"Author",
 		"Author's followers",
+		"Top 10 contributors followers",
 		"Created at",
 		"Age in days",
 		"Total commits",
@@ -93,7 +95,6 @@ func main() {
 		"Medium commit size",
 		"Stargazers",
 		"Forks",
-		"Top 10 contributors followers",
 		"Contributors",
 		"Active forkers, %",
 		"Open issues",
@@ -123,6 +124,7 @@ func main() {
 				return a
 			}(authorLogin)),
 			fmt.Sprintf("%d", authorFollowers),
+			fmt.Sprintf("%d", topContributorsFollowers),
 			fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
 			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
 			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
@@ -132,7 +134,6 @@ func main() {
 			fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
 			fmt.Sprintf("%d", repositoryData.Watchers),
 			fmt.Sprintf("%d", repositoryData.Forks),
-			fmt.Sprintf("%d", topContributorsFollowers),
 			fmt.Sprintf("%d", totalContributors),
 			fmt.Sprintf("%.2f", activeForkersPercentage),
 			fmt.Sprintf("%d", repositoryData.OpenIssues),
