@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:51 GMT
+Etag: W/"9e70a2ed6a67839a5b781be78a5d6edf"
+Last-Modified: Fri, 23 Mar 2018 17:30:24 GMT
+Link: <https://api.github.com/repositories/19040482/contributors?page=7>; rel="prev", <https://api.github.com/repositories/19040482/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB20:5F56:38503C6:78C9F78:5AB7DEE6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4655
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.066513
+X-Xss-Protection: 1; mode=block
+
+703
+[{"login":"vremy","id":4244665,"avatar_url":"https://avatars1.githubusercontent.com/u/4244665?v=4","gravatar_id":"","url":"https://api.github.com/users/vremy","html_url":"https://github.com/vremy","followers_url":"https://api.github.com/users/vremy/followers","following_url":"https://api.github.com/users/vremy/following{/other_user}","gists_url":"https://api.github.com/users/vremy/gists{/gist_id}","starred_url":"https://api.github.com/users/vremy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vremy/subscriptions","organizations_url":"https://api.github.com/users/vremy/orgs","repos_url":"https://api.github.com/users/vremy/repos","events_url":"https://api.github.com/users/vremy/events{/privacy}","received_events_url":"https://api.github.com/users/vremy/received_events","type":"User","site_admin":false,"contributions":1},{"login":"wstoettinger","id":935576,"avatar_url":"https://avatars3.githubusercontent.com/u/935576?v=4","gravatar_id":"","url":"https://api.github.com/users/wstoettinger","html_url":"https://github.com/wstoettinger","followers_url":"https://api.github.com/users/wstoettinger/followers","following_url":"https://api.github.com/users/wstoettinger/following{/other_user}","gists_url":"https://api.github.com/users/wstoettinger/gists{/gist_id}","starred_url":"https://api.github.com/users/wstoettinger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wstoettinger/subscriptions","organizations_url":"https://api.github.com/users/wstoettinger/orgs","repos_url":"https://api.github.com/users/wstoettinger/repos","events_url":"https://api.github.com/users/wstoettinger/events{/privacy}","received_events_url":"https://api.github.com/users/wstoettinger/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

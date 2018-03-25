@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:49 GMT
+Etag: W/"8353448e3eeec8c5d67b42b0e21ef81b"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB01:5F55:2FE97EB:6808440:5AB7DEE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4737
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.035449
+X-Xss-Protection: 1; mode=block
+
+d89
+[{"login":"BilbOk","id":4587279,"avatar_url":"https://avatars0.githubusercontent.com/u/4587279?v=4","gravatar_id":"","url":"https://api.github.com/users/BilbOk","html_url":"https://github.com/BilbOk","followers_url":"https://api.github.com/users/BilbOk/followers","following_url":"https://api.github.com/users/BilbOk/following{/other_user}","gists_url":"https://api.github.com/users/BilbOk/gists{/gist_id}","starred_url":"https://api.github.com/users/BilbOk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BilbOk/subscriptions","organizations_url":"https://api.github.com/users/BilbOk/orgs","repos_url":"https://api.github.com/users/BilbOk/repos","events_url":"https://api.github.com/users/BilbOk/events{/privacy}","received_events_url":"https://api.github.com/users/BilbOk/received_events","type":"User","site_admin":false},{"login":"jufei","id":8425377,"avatar_url":"https://avatars3.githubusercontent.com/u/8425377?v=4","gravatar_id":"","url":"https://api.github.com/users/jufei","html_url":"https://github.com/jufei","followers_url":"https://api.github.com/users/jufei/followers","following_url":"https://api.github.com/users/jufei/following{/other_user}","gists_url":"https://api.github.com/users/jufei/gists{/gist_id}","starred_url":"https://api.github.com/users/jufei/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jufei/subscriptions","organizations_url":"https://api.github.com/users/jufei/orgs","repos_url":"https://api.github.com/users/jufei/repos","events_url":"https://api.github.com/users/jufei/events{/privacy}","received_events_url":"https://api.github.com/users/jufei/received_events","type":"User","site_admin":false},{"login":"Fabazad","id":22477033,"avatar_url":"https://avatars2.githubusercontent.com/u/22477033?v=4","gravatar_id":"","url":"https://api.github.com/users/Fabazad","html_url":"https://github.com/Fabazad","followers_url":"https://api.github.com/users/Fabazad/followers","following_url":"https://api.github.com/users/Fabazad/following{/other_user}","gists_url":"https://api.github.com/users/Fabazad/gists{/gist_id}","starred_url":"https://api.github.com/users/Fabazad/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Fabazad/subscriptions","organizations_url":"https://api.github.com/users/Fabazad/orgs","repos_url":"https://api.github.com/users/Fabazad/repos","events_url":"https://api.github.com/users/Fabazad/events{/privacy}","received_events_url":"https://api.github.com/users/Fabazad/received_events","type":"User","site_admin":false},{"login":"meganewintz","id":22477025,"avatar_url":"https://avatars3.githubusercontent.com/u/22477025?v=4","gravatar_id":"","url":"https://api.github.com/users/meganewintz","html_url":"https://github.com/meganewintz","followers_url":"https://api.github.com/users/meganewintz/followers","following_url":"https://api.github.com/users/meganewintz/following{/other_user}","gists_url":"https://api.github.com/users/meganewintz/gists{/gist_id}","starred_url":"https://api.github.com/users/meganewintz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/meganewintz/subscriptions","organizations_url":"https://api.github.com/users/meganewintz/orgs","repos_url":"https://api.github.com/users/meganewintz/repos","events_url":"https://api.github.com/users/meganewintz/events{/privacy}","received_events_url":"https://api.github.com/users/meganewintz/received_events","type":"User","site_admin":false}]
+0
+

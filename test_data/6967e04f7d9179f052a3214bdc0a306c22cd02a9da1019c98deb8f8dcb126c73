@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:48 GMT
+Etag: W/"6bc596b12dec4e5d7e58017190a68e92"
+Link: <https://api.github.com/user/235928/followers?page=2>; rel="prev", <https://api.github.com/user/235928/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAEE:5F56:38502FB:78C9DDD:5AB7DEE4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4852
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.035599
+X-Xss-Protection: 1; mode=block
+
+6f1
+[{"login":"kmadejski","id":10659510,"avatar_url":"https://avatars2.githubusercontent.com/u/10659510?v=4","gravatar_id":"","url":"https://api.github.com/users/kmadejski","html_url":"https://github.com/kmadejski","followers_url":"https://api.github.com/users/kmadejski/followers","following_url":"https://api.github.com/users/kmadejski/following{/other_user}","gists_url":"https://api.github.com/users/kmadejski/gists{/gist_id}","starred_url":"https://api.github.com/users/kmadejski/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kmadejski/subscriptions","organizations_url":"https://api.github.com/users/kmadejski/orgs","repos_url":"https://api.github.com/users/kmadejski/repos","events_url":"https://api.github.com/users/kmadejski/events{/privacy}","received_events_url":"https://api.github.com/users/kmadejski/received_events","type":"User","site_admin":false},{"login":"faustogut","id":28719096,"avatar_url":"https://avatars3.githubusercontent.com/u/28719096?v=4","gravatar_id":"","url":"https://api.github.com/users/faustogut","html_url":"https://github.com/faustogut","followers_url":"https://api.github.com/users/faustogut/followers","following_url":"https://api.github.com/users/faustogut/following{/other_user}","gists_url":"https://api.github.com/users/faustogut/gists{/gist_id}","starred_url":"https://api.github.com/users/faustogut/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/faustogut/subscriptions","organizations_url":"https://api.github.com/users/faustogut/orgs","repos_url":"https://api.github.com/users/faustogut/repos","events_url":"https://api.github.com/users/faustogut/events{/privacy}","received_events_url":"https://api.github.com/users/faustogut/received_events","type":"User","site_admin":false}]
+0
+

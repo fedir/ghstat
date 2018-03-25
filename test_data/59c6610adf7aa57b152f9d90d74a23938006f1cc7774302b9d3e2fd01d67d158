@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:48 GMT
+Etag: W/"a6c34e80913352d0ceb9ae8810dabb24"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB03:5F58:455BFF9:9BF155C:5AB7DEE4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4818
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.033813
+X-Xss-Protection: 1; mode=block
+
+a5b
+[{"login":"tekjava","id":5818246,"avatar_url":"https://avatars0.githubusercontent.com/u/5818246?v=4","gravatar_id":"","url":"https://api.github.com/users/tekjava","html_url":"https://github.com/tekjava","followers_url":"https://api.github.com/users/tekjava/followers","following_url":"https://api.github.com/users/tekjava/following{/other_user}","gists_url":"https://api.github.com/users/tekjava/gists{/gist_id}","starred_url":"https://api.github.com/users/tekjava/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tekjava/subscriptions","organizations_url":"https://api.github.com/users/tekjava/orgs","repos_url":"https://api.github.com/users/tekjava/repos","events_url":"https://api.github.com/users/tekjava/events{/privacy}","received_events_url":"https://api.github.com/users/tekjava/received_events","type":"User","site_admin":false},{"login":"Mortred974","id":12080698,"avatar_url":"https://avatars1.githubusercontent.com/u/12080698?v=4","gravatar_id":"","url":"https://api.github.com/users/Mortred974","html_url":"https://github.com/Mortred974","followers_url":"https://api.github.com/users/Mortred974/followers","following_url":"https://api.github.com/users/Mortred974/following{/other_user}","gists_url":"https://api.github.com/users/Mortred974/gists{/gist_id}","starred_url":"https://api.github.com/users/Mortred974/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mortred974/subscriptions","organizations_url":"https://api.github.com/users/Mortred974/orgs","repos_url":"https://api.github.com/users/Mortred974/repos","events_url":"https://api.github.com/users/Mortred974/events{/privacy}","received_events_url":"https://api.github.com/users/Mortred974/received_events","type":"User","site_admin":false},{"login":"rrkandala","id":26270066,"avatar_url":"https://avatars1.githubusercontent.com/u/26270066?v=4","gravatar_id":"","url":"https://api.github.com/users/rrkandala","html_url":"https://github.com/rrkandala","followers_url":"https://api.github.com/users/rrkandala/followers","following_url":"https://api.github.com/users/rrkandala/following{/other_user}","gists_url":"https://api.github.com/users/rrkandala/gists{/gist_id}","starred_url":"https://api.github.com/users/rrkandala/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rrkandala/subscriptions","organizations_url":"https://api.github.com/users/rrkandala/orgs","repos_url":"https://api.github.com/users/rrkandala/repos","events_url":"https://api.github.com/users/rrkandala/events{/privacy}","received_events_url":"https://api.github.com/users/rrkandala/received_events","type":"User","site_admin":false}]
+0
+

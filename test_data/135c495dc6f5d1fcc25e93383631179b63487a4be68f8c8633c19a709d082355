@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:49 GMT
+Etag: W/"fb0c563531745bfab47d0f9d98878678"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB0E:5F57:468A2A6:915F405:5AB7DEE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4739
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.030736
+X-Xss-Protection: 1; mode=block
+
+377
+[{"login":"doertedev","id":1579335,"avatar_url":"https://avatars2.githubusercontent.com/u/1579335?v=4","gravatar_id":"","url":"https://api.github.com/users/doertedev","html_url":"https://github.com/doertedev","followers_url":"https://api.github.com/users/doertedev/followers","following_url":"https://api.github.com/users/doertedev/following{/other_user}","gists_url":"https://api.github.com/users/doertedev/gists{/gist_id}","starred_url":"https://api.github.com/users/doertedev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/doertedev/subscriptions","organizations_url":"https://api.github.com/users/doertedev/orgs","repos_url":"https://api.github.com/users/doertedev/repos","events_url":"https://api.github.com/users/doertedev/events{/privacy}","received_events_url":"https://api.github.com/users/doertedev/received_events","type":"User","site_admin":false}]
+0
+

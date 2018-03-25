@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:50 GMT
+Etag: W/"73023c08aecc44060b3a50afd2a88a15"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAF1:5F56:3850387:78C9F0C:5AB7DEE6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4696
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.033587
+X-Xss-Protection: 1; mode=block
+
+36b
+[{"login":"naz95naz","id":3611002,"avatar_url":"https://avatars0.githubusercontent.com/u/3611002?v=4","gravatar_id":"","url":"https://api.github.com/users/naz95naz","html_url":"https://github.com/naz95naz","followers_url":"https://api.github.com/users/naz95naz/followers","following_url":"https://api.github.com/users/naz95naz/following{/other_user}","gists_url":"https://api.github.com/users/naz95naz/gists{/gist_id}","starred_url":"https://api.github.com/users/naz95naz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/naz95naz/subscriptions","organizations_url":"https://api.github.com/users/naz95naz/orgs","repos_url":"https://api.github.com/users/naz95naz/repos","events_url":"https://api.github.com/users/naz95naz/events{/privacy}","received_events_url":"https://api.github.com/users/naz95naz/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:48 GMT
+Etag: W/"246504dd27dd2a4eecf833400b00750c"
+Link: <https://api.github.com/user/1872808/followers?page=1>; rel="prev", <https://api.github.com/user/1872808/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB07:5F55:2FE97A2:68083AE:5AB7DEE4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4833
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.027413
+X-Xss-Protection: 1; mode=block
+
+391
+[{"login":"cecilelebon","id":18724423,"avatar_url":"https://avatars3.githubusercontent.com/u/18724423?v=4","gravatar_id":"","url":"https://api.github.com/users/cecilelebon","html_url":"https://github.com/cecilelebon","followers_url":"https://api.github.com/users/cecilelebon/followers","following_url":"https://api.github.com/users/cecilelebon/following{/other_user}","gists_url":"https://api.github.com/users/cecilelebon/gists{/gist_id}","starred_url":"https://api.github.com/users/cecilelebon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cecilelebon/subscriptions","organizations_url":"https://api.github.com/users/cecilelebon/orgs","repos_url":"https://api.github.com/users/cecilelebon/repos","events_url":"https://api.github.com/users/cecilelebon/events{/privacy}","received_events_url":"https://api.github.com/users/cecilelebon/received_events","type":"User","site_admin":false}]
+0
+

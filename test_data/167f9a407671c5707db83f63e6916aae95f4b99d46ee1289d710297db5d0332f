@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:49 GMT
+Etag: W/"3e6a42e42d2d3b30cf54d42bb3489a9a"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB01:5F55:2FE97DE:680842C:5AB7DEE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4751
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.037178
+X-Xss-Protection: 1; mode=block
+
+ddb
+[{"login":"ninjaTN","id":10836454,"avatar_url":"https://avatars1.githubusercontent.com/u/10836454?v=4","gravatar_id":"","url":"https://api.github.com/users/ninjaTN","html_url":"https://github.com/ninjaTN","followers_url":"https://api.github.com/users/ninjaTN/followers","following_url":"https://api.github.com/users/ninjaTN/following{/other_user}","gists_url":"https://api.github.com/users/ninjaTN/gists{/gist_id}","starred_url":"https://api.github.com/users/ninjaTN/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ninjaTN/subscriptions","organizations_url":"https://api.github.com/users/ninjaTN/orgs","repos_url":"https://api.github.com/users/ninjaTN/repos","events_url":"https://api.github.com/users/ninjaTN/events{/privacy}","received_events_url":"https://api.github.com/users/ninjaTN/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false},{"login":"ucsdmath","id":12222464,"avatar_url":"https://avatars2.githubusercontent.com/u/12222464?v=4","gravatar_id":"","url":"https://api.github.com/users/ucsdmath","html_url":"https://github.com/ucsdmath","followers_url":"https://api.github.com/users/ucsdmath/followers","following_url":"https://api.github.com/users/ucsdmath/following{/other_user}","gists_url":"https://api.github.com/users/ucsdmath/gists{/gist_id}","starred_url":"https://api.github.com/users/ucsdmath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ucsdmath/subscriptions","organizations_url":"https://api.github.com/users/ucsdmath/orgs","repos_url":"https://api.github.com/users/ucsdmath/repos","events_url":"https://api.github.com/users/ucsdmath/events{/privacy}","received_events_url":"https://api.github.com/users/ucsdmath/received_events","type":"User","site_admin":false},{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:49 GMT
+Etag: W/"75281d40dcb140d1615bd9a755d18715"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAFB:5F56:3850344:78C9E7F:5AB7DEE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4766
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.028137
+X-Xss-Protection: 1; mode=block
+
+6f9
+[{"login":"blueness","id":297301,"avatar_url":"https://avatars1.githubusercontent.com/u/297301?v=4","gravatar_id":"","url":"https://api.github.com/users/blueness","html_url":"https://github.com/blueness","followers_url":"https://api.github.com/users/blueness/followers","following_url":"https://api.github.com/users/blueness/following{/other_user}","gists_url":"https://api.github.com/users/blueness/gists{/gist_id}","starred_url":"https://api.github.com/users/blueness/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/blueness/subscriptions","organizations_url":"https://api.github.com/users/blueness/orgs","repos_url":"https://api.github.com/users/blueness/repos","events_url":"https://api.github.com/users/blueness/events{/privacy}","received_events_url":"https://api.github.com/users/blueness/received_events","type":"User","site_admin":false},{"login":"opengiineer","id":32831059,"avatar_url":"https://avatars0.githubusercontent.com/u/32831059?v=4","gravatar_id":"","url":"https://api.github.com/users/opengiineer","html_url":"https://github.com/opengiineer","followers_url":"https://api.github.com/users/opengiineer/followers","following_url":"https://api.github.com/users/opengiineer/following{/other_user}","gists_url":"https://api.github.com/users/opengiineer/gists{/gist_id}","starred_url":"https://api.github.com/users/opengiineer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/opengiineer/subscriptions","organizations_url":"https://api.github.com/users/opengiineer/orgs","repos_url":"https://api.github.com/users/opengiineer/repos","events_url":"https://api.github.com/users/opengiineer/events{/privacy}","received_events_url":"https://api.github.com/users/opengiineer/received_events","type":"User","site_admin":false}]
+0
+

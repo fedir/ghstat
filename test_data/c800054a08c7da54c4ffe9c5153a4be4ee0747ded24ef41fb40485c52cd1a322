@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:49 GMT
+Etag: W/"a8762db5b3b5e09ab9d598bbcc9778a9"
+Link: <https://api.github.com/user/5082/followers?page=1>; rel="prev", <https://api.github.com/user/5082/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB0E:5F57:468A270:915F39C:5AB7DEE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4788
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.028163
+X-Xss-Protection: 1; mode=block
+
+35f
+[{"login":"gocanto","id":5246059,"avatar_url":"https://avatars1.githubusercontent.com/u/5246059?v=4","gravatar_id":"","url":"https://api.github.com/users/gocanto","html_url":"https://github.com/gocanto","followers_url":"https://api.github.com/users/gocanto/followers","following_url":"https://api.github.com/users/gocanto/following{/other_user}","gists_url":"https://api.github.com/users/gocanto/gists{/gist_id}","starred_url":"https://api.github.com/users/gocanto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gocanto/subscriptions","organizations_url":"https://api.github.com/users/gocanto/orgs","repos_url":"https://api.github.com/users/gocanto/repos","events_url":"https://api.github.com/users/gocanto/events{/privacy}","received_events_url":"https://api.github.com/users/gocanto/received_events","type":"User","site_admin":false}]
+0
+

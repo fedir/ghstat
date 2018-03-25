@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 17:39:55 GMT
+Etag: W/"20793d21751bf28d3ab4b2fbda42213d"
+Last-Modified: Sun, 25 Mar 2018 15:04:49 GMT
+Link: <https://api.github.com/repositories/2464908/contributors?page=10>; rel="prev", <https://api.github.com/repositories/2464908/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB34:5F58:455C1CA:9BF1A36:5AB7DEEA
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4613
+X-Ratelimit-Reset: 1522002522
+X-Runtime-Rack: 0.138074
+X-Xss-Protection: 1; mode=block
+
+e49
+[{"login":"stiplady","id":1472292,"avatar_url":"https://avatars0.githubusercontent.com/u/1472292?v=4","gravatar_id":"","url":"https://api.github.com/users/stiplady","html_url":"https://github.com/stiplady","followers_url":"https://api.github.com/users/stiplady/followers","following_url":"https://api.github.com/users/stiplady/following{/other_user}","gists_url":"https://api.github.com/users/stiplady/gists{/gist_id}","starred_url":"https://api.github.com/users/stiplady/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stiplady/subscriptions","organizations_url":"https://api.github.com/users/stiplady/orgs","repos_url":"https://api.github.com/users/stiplady/repos","events_url":"https://api.github.com/users/stiplady/events{/privacy}","received_events_url":"https://api.github.com/users/stiplady/received_events","type":"User","site_admin":false,"contributions":2},{"login":"zwiastunsw","id":29527200,"avatar_url":"https://avatars0.githubusercontent.com/u/29527200?v=4","gravatar_id":"","url":"https://api.github.com/users/zwiastunsw","html_url":"https://github.com/zwiastunsw","followers_url":"https://api.github.com/users/zwiastunsw/followers","following_url":"https://api.github.com/users/zwiastunsw/following{/other_user}","gists_url":"https://api.github.com/users/zwiastunsw/gists{/gist_id}","starred_url":"https://api.github.com/users/zwiastunsw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zwiastunsw/subscriptions","organizations_url":"https://api.github.com/users/zwiastunsw/orgs","repos_url":"https://api.github.com/users/zwiastunsw/repos","events_url":"https://api.github.com/users/zwiastunsw/events{/privacy}","received_events_url":"https://api.github.com/users/zwiastunsw/received_events","type":"User","site_admin":false,"contributions":2},{"login":"frostmakk","id":25645600,"avatar_url":"https://avatars0.githubusercontent.com/u/25645600?v=4","gravatar_id":"","url":"https://api.github.com/users/frostmakk","html_url":"https://github.com/frostmakk","followers_url":"https://api.github.com/users/frostmakk/followers","following_url":"https://api.github.com/users/frostmakk/following{/other_user}","gists_url":"https://api.github.com/users/frostmakk/gists{/gist_id}","starred_url":"https://api.github.com/users/frostmakk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frostmakk/subscriptions","organizations_url":"https://api.github.com/users/frostmakk/orgs","repos_url":"https://api.github.com/users/frostmakk/repos","events_url":"https://api.github.com/users/frostmakk/events{/privacy}","received_events_url":"https://api.github.com/users/frostmakk/received_events","type":"User","site_admin":false,"contributions":2},{"login":"big-wave-tim","id":2625723,"avatar_url":"https://avatars2.githubusercontent.com/u/2625723?v=4","gravatar_id":"","url":"https://api.github.com/users/big-wave-tim","html_url":"https://github.com/big-wave-tim","followers_url":"https://api.github.com/users/big-wave-tim/followers","following_url":"https://api.github.com/users/big-wave-tim/following{/other_user}","gists_url":"https://api.github.com/users/big-wave-tim/gists{/gist_id}","starred_url":"https://api.github.com/users/big-wave-tim/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/big-wave-tim/subscriptions","organizations_url":"https://api.github.com/users/big-wave-tim/orgs","repos_url":"https://api.github.com/users/big-wave-tim/repos","events_url":"https://api.github.com/users/big-wave-tim/events{/privacy}","received_events_url":"https://api.github.com/users/big-wave-tim/received_events","type":"User","site_admin":false,"contributions":2}]
+0
+
