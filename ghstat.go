@@ -109,7 +109,7 @@ func main() {
 		wg.Add(1)
 		go fillRepositoryStatistics(rKey, *tmpFolder, *debug, wg, dataChan)
 	}
-	for _ = range repositoriesKeys {
+	for range repositoriesKeys {
 		ghData = append(ghData, <-dataChan)
 	}
 	wg.Wait()
