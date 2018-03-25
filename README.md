@@ -124,9 +124,9 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 ## Java CMS statistics added
 
 * The most popular project is `liferay-portal`
-* The newest project is `giraphe`
+* The newest project is `mesh`
 * The project with the most active community is `ncms`
-* The project with best errors resolving rate is `giraphe`
+* The project with best errors resolving rate is `nuxeo`
 * The project with more commits is `liferay-portal`
 * The project made by most notable top contributors is `liferay-portal`
 * The best project (taking in account placements in all competitions) is `liferay-portal`
