@@ -107,4 +107,28 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * The project made by most notable top contributors is `react`
 * The best project (taking in account placements in all competitions) is `meteor`
 
-[Detailed PHP frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
+[Detailed cross-language frameworks rating](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
+
+## PHP CMS statistics added
+
+* The most popular project is `grav`
+* The newest project is `roadiz`
+* The project with the most active community is `sulu-standard`
+* The project with best errors resolving rate is `bolt`
+* The project with more commits is `joomla-cms`
+* The project made by most notable top contributors is `sulu-standard`
+* The best project (taking in account placements in all competitions) is `bolt`
+
+[Detailed PHP CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/php_cms.csv)
+
+## Java CMS statistics added
+
+* The most popular project is `liferay-portal`
+* The newest project is `giraphe`
+* The project with the most active community is `ncms`
+* The project with best errors resolving rate is `giraphe`
+* The project with more commits is `liferay-portal`
+* The project made by most notable top contributors is `liferay-portal`
+* The best project (taking in account placements in all competitions) is `liferay-portal`
+
+[Detailed Java CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/java_cms.csv)
