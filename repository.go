@@ -8,6 +8,7 @@ import (
 	"log"
 	"time"
 
+	"github.com/fedir/ghstat/httpcache"
 	"github.com/tidwall/gjson"
 )
 
@@ -23,8 +24,8 @@ type Repository struct {
 
 func getRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
 	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	closedIssuesResult := gjson.Get(string(jsonResponse), "total_count")
 	//fmt.Printf("%d\n", closedIssuesResult.Int())
 	return int(closedIssuesResult.Int())
@@ -32,8 +33,8 @@ func getRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int
 
 func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {
 	url := "https://api.github.com/repos/" + repoKey
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	return jsonResponse
 }
 

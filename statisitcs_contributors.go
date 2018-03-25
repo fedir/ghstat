@@ -5,6 +5,8 @@ package main
 
 import (
 	"encoding/json"
+
+	"github.com/fedir/ghstat/httpcache"
 )
 
 // StatsContributor contains statistical data for contribution
@@ -32,8 +34,8 @@ type ContributionStatistics struct {
 
 func getContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	cs := extractContributionStatisticsFromJSON(jsonResponse)
 	return cs
 }

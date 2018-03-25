@@ -7,6 +7,8 @@ import (
 	"encoding/json"
 	"regexp"
 	"strconv"
+
+	"github.com/fedir/ghstat/httpcache"
 )
 
 // Commit structure with selcted data keys for JSON processing
@@ -20,8 +22,8 @@ func getRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 	var total int
 	var commitAuthorLogin string
 	url := "https://api.github.com/repos/" + repoKey + "/commits"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
@@ -46,8 +48,8 @@ func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, de
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
 	commitsOnLastPage := len(commits)
@@ -62,8 +64,8 @@ func getCommitAuthorLogin(c Commit) string {
 func getUserFollowers(username string, tmpFolder string, debug bool) int {
 	var total int
 	url := "https://api.github.com/users/" + username + "/followers"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
@@ -89,8 +91,8 @@ func getItemsNumberOnLastPage(linkHeader string, tmpFolder string, debug bool) i
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	items := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &items)
 	itemsNumberOnLastPage := len(items)

@@ -14,6 +14,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/fedir/ghstat/httpcache"
 	"github.com/fedir/ghstat/timing"
 )
 
@@ -194,11 +195,11 @@ func checkAndPrintRateLimit() {
 		} `json:"rate"`
 	}
 	url := "https://api.github.com/rate_limit"
-	resp, statusCode, err := makeHTTPRequest(url)
+	resp, statusCode, err := httpcache.MakeHTTPRequest(url)
 	if err != nil {
 		log.Fatalf("Error during checking rate limit : %d %v#", statusCode, err)
 	}
-	jsonResponse, _, _ := ReadResp(resp)
+	jsonResponse, _, _ := httpcache.ReadResp(resp)
 	rateLimits := RateLimits{}
 	json.Unmarshal(jsonResponse, &rateLimits)
 	fmt.Printf("Core: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Core.Remaining, rateLimits.Resources.Core.Limit, timing.GetRelativeTime(rateLimits.Resources.Core.Reset))

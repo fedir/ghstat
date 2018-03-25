@@ -9,13 +9,13 @@ Usage example :
 
 func main() {
 	url := "https://api.github.com/repos/astaxie/beego/contributors"
-	body := MakeCachedHTTPRequest(url)
-	jsonResp, linkHeader, _ := ReadResp(body)
+	body := httpcache.MakeCachedHTTPRequest(url)
+	jsonResp, linkHeader, _ := httpcache.ReadResp(body)
 	fmt.Printf("%s\n%s", jsonResp, linkHeader)
 }
 */
 
-package main
+package httpcache
 
 import (
 	"bufio"
@@ -43,7 +43,7 @@ func getFilename(url string) string {
 	return hex.EncodeToString(encoder.Sum(nil))
 }
 
-func makeHTTPRequest(url string) ([]byte, int, error) {
+func MakeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		log.Fatal("Cannont prepare the HTTP request", err)
@@ -104,7 +104,7 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		if debug == true {
 			fmt.Println("HTTP query: " + url)
 		}
-		resp, statusCode, err := makeHTTPRequest(url)
+		resp, statusCode, err := MakeHTTPRequest(url)
 		if err != nil {
 			panic(err)
 		}

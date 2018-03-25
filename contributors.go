@@ -7,6 +7,8 @@ import (
 	"encoding/json"
 	"regexp"
 	"strconv"
+
+	"github.com/fedir/ghstat/httpcache"
 )
 
 const (
@@ -24,8 +26,8 @@ func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) (in
 	var totalContributors int
 	var topContributorsFollowers = 0
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
@@ -62,8 +64,8 @@ TOTAL_CONTRIBUTORS:
 func getContributorFollowers(login string, tmpFolder string, debug bool) int {
 	totalUsers := 0
 	url := "https://api.github.com/users/" + login + "/followers"
-	fullResp := MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, linkHeader, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
@@ -89,8 +91,8 @@ func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	lastPageURL := matchLastURL[1]
-	fullResp := MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := ReadResp(fullResp)
+	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	contributors := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &contributors)
 	contributorsOnLastPage := len(contributors)
