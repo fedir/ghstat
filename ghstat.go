@@ -12,6 +12,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/fedir/ghstat/httpcache"
@@ -100,48 +101,61 @@ func main() {
 		"closedIssuesPercentageColumn":     18,
 		"totalPointsColumnIndex":           19,
 	}
+	wg := &sync.WaitGroup{}
+	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
-		repositoryData := getRepositoryStatistics(rKey, *tmpFolder, *debug)
-		authorLogin := getRepositoryCommits(rKey, *tmpFolder, *debug)
-		authorFollowers := 0
-		if authorLogin != "" {
-			authorFollowers = getUserFollowers(authorLogin, *tmpFolder, *debug)
-		}
-		closedIssues := getRepositoryClosedIssues(rKey, *tmpFolder, *debug)
-		topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, *tmpFolder, *debug)
-		activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
-		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
-		contributionStatistics := getContributionStatistics(rKey, *tmpFolder, *debug)
-		ghData = append(ghData, []string{
-			repositoryData.Name,
-			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
-			fmt.Sprintf("%s", func(a string) string {
-				if a == "" {
-					a = "[Account removed]"
-				}
-				return a
-			}(authorLogin)),
-			fmt.Sprintf("%d", authorFollowers),
-			fmt.Sprintf("%d", topContributorsFollowers),
-			fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
-			fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
-			fmt.Sprintf("%d", contributionStatistics.TotalCommits),
-			fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
-			fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
-			fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
-			fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
-			fmt.Sprintf("%d", repositoryData.Watchers),
-			fmt.Sprintf("%d", repositoryData.Forks),
-			fmt.Sprintf("%d", totalContributors),
-			fmt.Sprintf("%.2f", activeForkersPercentage),
-			fmt.Sprintf("%d", repositoryData.OpenIssues),
-			fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
-			fmt.Sprintf("%.2f", closedIssuesPercentage),
-			"0",
-		})
+		wg.Add(1)
+		go fillRepositoryStatistics(rKey, *tmpFolder, *debug, wg, dataChan)
 	}
+	for _ = range repositoriesKeys {
+		ghData = append(ghData, <-dataChan)
+	}
+	wg.Wait()
 	rateGhData(ghData, ghDataColumnIndexes)
 	writeCsv(csvFilePath, headers, ghData)
+}
+
+func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *sync.WaitGroup, dataChan chan []string) {
+	defer wg.Done()
+	repositoryData := getRepositoryStatistics(rKey, tmpFolder, debug)
+	authorLogin := getRepositoryCommits(rKey, tmpFolder, debug)
+	authorFollowers := 0
+	if authorLogin != "" {
+		authorFollowers = getUserFollowers(authorLogin, tmpFolder, debug)
+	}
+	closedIssues := getRepositoryClosedIssues(rKey, tmpFolder, debug)
+	topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, tmpFolder, debug)
+	activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
+	closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
+	contributionStatistics := getContributionStatistics(rKey, tmpFolder, debug)
+	ghProjectData := []string{
+		repositoryData.Name,
+		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
+		fmt.Sprintf("%s", func(a string) string {
+			if a == "" {
+				a = "[Account removed]"
+			}
+			return a
+		}(authorLogin)),
+		fmt.Sprintf("%d", authorFollowers),
+		fmt.Sprintf("%d", topContributorsFollowers),
+		fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
+		fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
+		fmt.Sprintf("%d", contributionStatistics.TotalCommits),
+		fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
+		fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
+		fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
+		fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
+		fmt.Sprintf("%d", repositoryData.Watchers),
+		fmt.Sprintf("%d", repositoryData.Forks),
+		fmt.Sprintf("%d", totalContributors),
+		fmt.Sprintf("%.2f", activeForkersPercentage),
+		fmt.Sprintf("%d", repositoryData.OpenIssues),
+		fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
+		fmt.Sprintf("%.2f", closedIssuesPercentage),
+		"0",
+	}
+	dataChan <- ghProjectData
 }
 
 func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
