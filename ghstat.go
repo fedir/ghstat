@@ -13,6 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/fedir/ghstat/timing"
 )
 
 func main() {
@@ -199,15 +201,10 @@ func checkAndPrintRateLimit() {
 	jsonResponse, _, _ := ReadResp(resp)
 	rateLimits := RateLimits{}
 	json.Unmarshal(jsonResponse, &rateLimits)
-	fmt.Printf("Core: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Core.Remaining, rateLimits.Resources.Core.Limit, getRelativeTime(rateLimits.Resources.Core.Reset))
-	fmt.Printf("Search: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Search.Remaining, rateLimits.Resources.Search.Limit, getRelativeTime(rateLimits.Resources.Search.Reset))
-	fmt.Printf("GraphQL: %d/%d (reset in %d minutes)\n", rateLimits.Resources.GraphQL.Remaining, rateLimits.Resources.GraphQL.Limit, getRelativeTime(rateLimits.Resources.GraphQL.Reset))
-	fmt.Printf("Rate: %d/%d (reset in %d minutes)\n", rateLimits.Rate.Remaining, rateLimits.Rate.Limit, getRelativeTime(rateLimits.Rate.Reset))
-}
-
-func getRelativeTime(unixTime int) int {
-	now := int(time.Now().Unix())
-	return int((float64(unixTime) - float64(now)) / 60)
+	fmt.Printf("Core: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Core.Remaining, rateLimits.Resources.Core.Limit, timing.GetRelativeTime(rateLimits.Resources.Core.Reset))
+	fmt.Printf("Search: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Search.Remaining, rateLimits.Resources.Search.Limit, timing.GetRelativeTime(rateLimits.Resources.Search.Reset))
+	fmt.Printf("GraphQL: %d/%d (reset in %d minutes)\n", rateLimits.Resources.GraphQL.Remaining, rateLimits.Resources.GraphQL.Limit, timing.GetRelativeTime(rateLimits.Resources.GraphQL.Reset))
+	fmt.Printf("Rate: %d/%d (reset in %d minutes)\n", rateLimits.Rate.Remaining, rateLimits.Rate.Limit, timing.GetRelativeTime(rateLimits.Rate.Reset))
 }
 
 func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
