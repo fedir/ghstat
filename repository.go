@@ -51,6 +51,19 @@ func getRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repo
 	return parseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
 }
 
+func getIssueByDay(totalIssues int, age int) float64 {
+	var issueByDay float64
+	totalIssuesFloat := float64(totalIssues)
+	ageFloat := float64(age)
+	if totalIssuesFloat != 0 && ageFloat != 0 {
+		issueByDay = totalIssuesFloat / ageFloat
+	} else {
+		issueByDay = 0
+	}
+	return issueByDay
+
+}
+
 func getClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
 	var closedIssuesPercentage float64
 	openIssuesFloat := float64(openIssues)

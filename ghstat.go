@@ -83,6 +83,7 @@ func main() {
 		"Active forkers, %",
 		"Open issues",
 		"Total issues",
+		"Issue/day",
 		"Closed issues, %",
 		"Place",
 	}
@@ -98,8 +99,9 @@ func main() {
 		"mediCommitSizeColumn":             11,
 		"stargazersColumn":                 12,
 		"activeForkersColumn":              15,
-		"closedIssuesPercentageColumn":     18,
-		"totalPointsColumnIndex":           19,
+		"issuesByDayColumn":                18,
+		"closedIssuesPercentageColumn":     19,
+		"totalPointsColumnIndex":           20,
 	}
 	wg := &sync.WaitGroup{}
 	dataChan := make(chan []string, len(repositoriesKeys))
@@ -118,6 +120,7 @@ func main() {
 func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *sync.WaitGroup, dataChan chan []string) {
 	defer wg.Done()
 	repositoryData := getRepositoryStatistics(rKey, tmpFolder, debug)
+	repositoryAge := int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
 	authorLogin := getRepositoryCommits(rKey, tmpFolder, debug)
 	authorFollowers := 0
 	if authorLogin != "" {
@@ -126,6 +129,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *syn
 	closedIssues := getRepositoryClosedIssues(rKey, tmpFolder, debug)
 	topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, tmpFolder, debug)
 	activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
+	issueByDay := getIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
 	closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
 	contributionStatistics := getContributionStatistics(rKey, tmpFolder, debug)
 	ghProjectData := []string{
@@ -140,7 +144,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *syn
 		fmt.Sprintf("%d", authorFollowers),
 		fmt.Sprintf("%d", topContributorsFollowers),
 		fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
-		fmt.Sprintf("%d", int(time.Since(repositoryData.CreatedAt).Seconds()/86400)),
+		fmt.Sprintf("%d", repositoryAge),
 		fmt.Sprintf("%d", contributionStatistics.TotalCommits),
 		fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
 		fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
@@ -151,6 +155,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *syn
 		fmt.Sprintf("%d", totalContributors),
 		fmt.Sprintf("%.2f", activeForkersPercentage),
 		fmt.Sprintf("%d", repositoryData.OpenIssues),
+		fmt.Sprintf("%.4f", issueByDay),
 		fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
 		fmt.Sprintf("%.2f", closedIssuesPercentage),
 		"0",
