@@ -13,6 +13,7 @@ Usage example with statistics of Go open source web frameworks, maintained on Gi
 
     go build
     mkdir tmp
+    export GH_USR="your_gh_username" && export GH_PASS="your_gh_api_token"
     ./ghstat
 
 Usage example to compare most famous JS frameworks
