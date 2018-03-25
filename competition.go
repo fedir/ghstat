@@ -9,35 +9,37 @@ import (
 	"strconv"
 )
 
-func rateGhData(ghData [][]string, columnsIndexes map[string]int) {
+func rateGhData(ghData [][]string, columnsIndexes map[string]int) string {
+	greetings := ""
 	// Add points by repository total popularity (more popular is better)
 	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["stargazersColumn"])
-	firstPlaceGreeting(ghData, "The most popular project is")
+	greetings += fmt.Sprintf("* The most popular project is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["stargazersColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by project age (we like fresh ideas)
 	sortSliceByColumnIndexIntAsc(ghData, columnsIndexes["ageColumn"])
-	firstPlaceGreeting(ghData, "The newest project is")
+	greetings += fmt.Sprintf("* The newest project is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["ageColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by active forkers (more active forkers shows good open source spirit of the community)
 	sortSliceByColumnIndexFloatDesc(ghData, columnsIndexes["activeForkersColumn"])
-	firstPlaceGreeting(ghData, "The project with the most active community is")
+	greetings += fmt.Sprintf("* The project with the most active community is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["activeForkersColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by proportion of total and resolved issues (less opened issues is better)
 	sortSliceByColumnIndexFloatDesc(ghData, columnsIndexes["closedIssuesPercentageColumn"])
-	firstPlaceGreeting(ghData, "The project with best errors resolving rate is")
+	greetings += fmt.Sprintf("* The project with best errors resolving rate is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["closedIssuesPercentageColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by number of commits (more commits is better)
 	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["totalCommitsColumn"])
-	firstPlaceGreeting(ghData, "The project with more commits is")
+	greetings += fmt.Sprintf("* The project with more commits is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["totalCommitsColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by Top10 contributors followers
 	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["top10ContributorsFollowersColumn"])
-	firstPlaceGreeting(ghData, "The project made by most notable top contributors is")
+	greetings += fmt.Sprintf("* The project made by most notable top contributors is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["top10ContributorsFollowersColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Assign places to projects by all metrics
 	sortSliceByColumnIndexIntAsc(ghData, columnsIndexes["totalPointsColumnIndex"])
-	firstPlaceGreeting(ghData, "The best project (taking in account placements in all competitions) is")
+	greetings += fmt.Sprintf("* The best project (taking in account placements in all competitions) is `%s`\n", ghData[0][0])
 	assignPlaces(ghData, columnsIndexes["totalPointsColumnIndex"])
+	return greetings
 }
 
 func addPoints(s [][]string, columnIndex int, totalPointsColumnIndex int) [][]string {
@@ -52,8 +54,8 @@ func addPoints(s [][]string, columnIndex int, totalPointsColumnIndex int) [][]st
 	return s
 }
 
-func firstPlaceGreeting(s [][]string, message string) {
-	fmt.Printf("* %s `%s`\n", message, s[0][0])
+func firstPlaceGreeting(s [][]string, message string) string {
+	return fmt.Sprintf("* %s `%s`\n", message, s[0][0])
 }
 
 func assignPlaces(s [][]string, totalPointsColumnIndex int) [][]string {

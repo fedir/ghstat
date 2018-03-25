@@ -109,7 +109,8 @@ func main() {
 	for range repositoriesKeys {
 		ghData = append(ghData, <-dataChan)
 	}
-	rateGhData(ghData, ghDataColumnIndexes)
+	greetings := rateGhData(ghData, ghDataColumnIndexes)
+	fmt.Println(greetings)
 	writeCsv(csvFilePath, headers, ghData)
 }
 
