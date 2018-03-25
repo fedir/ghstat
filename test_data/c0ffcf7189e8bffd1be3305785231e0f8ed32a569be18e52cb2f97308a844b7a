@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:16 GMT
+Etag: W/"e1857a48e53c092fb9a325520476fe03"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4BE:5F56:38E7EB4:7A0859A:5AB80840
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4750
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.039281
+X-Xss-Protection: 1; mode=block
+
+da9
+[{"login":"daimor","id":1212251,"avatar_url":"https://avatars2.githubusercontent.com/u/1212251?v=4","gravatar_id":"","url":"https://api.github.com/users/daimor","html_url":"https://github.com/daimor","followers_url":"https://api.github.com/users/daimor/followers","following_url":"https://api.github.com/users/daimor/following{/other_user}","gists_url":"https://api.github.com/users/daimor/gists{/gist_id}","starred_url":"https://api.github.com/users/daimor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/daimor/subscriptions","organizations_url":"https://api.github.com/users/daimor/orgs","repos_url":"https://api.github.com/users/daimor/repos","events_url":"https://api.github.com/users/daimor/events{/privacy}","received_events_url":"https://api.github.com/users/daimor/received_events","type":"User","site_admin":false},{"login":"cepera","id":476864,"avatar_url":"https://avatars1.githubusercontent.com/u/476864?v=4","gravatar_id":"","url":"https://api.github.com/users/cepera","html_url":"https://github.com/cepera","followers_url":"https://api.github.com/users/cepera/followers","following_url":"https://api.github.com/users/cepera/following{/other_user}","gists_url":"https://api.github.com/users/cepera/gists{/gist_id}","starred_url":"https://api.github.com/users/cepera/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cepera/subscriptions","organizations_url":"https://api.github.com/users/cepera/orgs","repos_url":"https://api.github.com/users/cepera/repos","events_url":"https://api.github.com/users/cepera/events{/privacy}","received_events_url":"https://api.github.com/users/cepera/received_events","type":"User","site_admin":false},{"login":"solutionman","id":12951853,"avatar_url":"https://avatars1.githubusercontent.com/u/12951853?v=4","gravatar_id":"","url":"https://api.github.com/users/solutionman","html_url":"https://github.com/solutionman","followers_url":"https://api.github.com/users/solutionman/followers","following_url":"https://api.github.com/users/solutionman/following{/other_user}","gists_url":"https://api.github.com/users/solutionman/gists{/gist_id}","starred_url":"https://api.github.com/users/solutionman/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/solutionman/subscriptions","organizations_url":"https://api.github.com/users/solutionman/orgs","repos_url":"https://api.github.com/users/solutionman/repos","events_url":"https://api.github.com/users/solutionman/events{/privacy}","received_events_url":"https://api.github.com/users/solutionman/received_events","type":"User","site_admin":false},{"login":"evshvarov","id":2781759,"avatar_url":"https://avatars1.githubusercontent.com/u/2781759?v=4","gravatar_id":"","url":"https://api.github.com/users/evshvarov","html_url":"https://github.com/evshvarov","followers_url":"https://api.github.com/users/evshvarov/followers","following_url":"https://api.github.com/users/evshvarov/following{/other_user}","gists_url":"https://api.github.com/users/evshvarov/gists{/gist_id}","starred_url":"https://api.github.com/users/evshvarov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/evshvarov/subscriptions","organizations_url":"https://api.github.com/users/evshvarov/orgs","repos_url":"https://api.github.com/users/evshvarov/repos","events_url":"https://api.github.com/users/evshvarov/events{/privacy}","received_events_url":"https://api.github.com/users/evshvarov/received_events","type":"User","site_admin":false}]
+0
+

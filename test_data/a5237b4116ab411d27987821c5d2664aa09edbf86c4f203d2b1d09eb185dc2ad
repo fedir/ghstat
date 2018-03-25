@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:14 GMT
+Etag: W/"08684955f9000db99b2af07ecb32919b"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4AD:5F58:45FF7AA:9DC7959:5AB8083E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4800
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.039556
+X-Xss-Protection: 1; mode=block
+
+5bb
+[{"total":1,"weeks":[{"w":1513468800,"a":0,"d":0,"c":0},{"w":1514073600,"a":0,"d":0,"c":0},{"w":1514678400,"a":0,"d":0,"c":0},{"w":1515283200,"a":0,"d":0,"c":0},{"w":1515888000,"a":0,"d":0,"c":0},{"w":1516492800,"a":0,"d":0,"c":0},{"w":1517097600,"a":0,"d":0,"c":0},{"w":1517702400,"a":1,"d":1,"c":1},{"w":1518307200,"a":0,"d":0,"c":0},{"w":1518912000,"a":0,"d":0,"c":0},{"w":1519516800,"a":0,"d":0,"c":0},{"w":1520121600,"a":0,"d":0,"c":0},{"w":1520726400,"a":0,"d":0,"c":0},{"w":1521331200,"a":0,"d":0,"c":0},{"w":1521936000,"a":0,"d":0,"c":0}],"author":{"login":"creactiviti","id":3052806,"avatar_url":"https://avatars3.githubusercontent.com/u/3052806?v=4","gravatar_id":"","url":"https://api.github.com/users/creactiviti","html_url":"https://github.com/creactiviti","followers_url":"https://api.github.com/users/creactiviti/followers","following_url":"https://api.github.com/users/creactiviti/following{/other_user}","gists_url":"https://api.github.com/users/creactiviti/gists{/gist_id}","starred_url":"https://api.github.com/users/creactiviti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/creactiviti/subscriptions","organizations_url":"https://api.github.com/users/creactiviti/orgs","repos_url":"https://api.github.com/users/creactiviti/repos","events_url":"https://api.github.com/users/creactiviti/events{/privacy}","received_events_url":"https://api.github.com/users/creactiviti/received_events","type":"User","site_admin":false}}]
+0
+

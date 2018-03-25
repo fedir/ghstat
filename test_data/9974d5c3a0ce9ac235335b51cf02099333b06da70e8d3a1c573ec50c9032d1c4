@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:15 GMT
+Etag: W/"0b25fae6fb62f09afeeab2cd30cb039f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4AE:5F55:304CF7F:68DF516:5AB8083F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4781
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.032069
+X-Xss-Protection: 1; mode=block
+
+6e1
+[{"login":"stenbacka","id":1195869,"avatar_url":"https://avatars1.githubusercontent.com/u/1195869?v=4","gravatar_id":"","url":"https://api.github.com/users/stenbacka","html_url":"https://github.com/stenbacka","followers_url":"https://api.github.com/users/stenbacka/followers","following_url":"https://api.github.com/users/stenbacka/following{/other_user}","gists_url":"https://api.github.com/users/stenbacka/gists{/gist_id}","starred_url":"https://api.github.com/users/stenbacka/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stenbacka/subscriptions","organizations_url":"https://api.github.com/users/stenbacka/orgs","repos_url":"https://api.github.com/users/stenbacka/repos","events_url":"https://api.github.com/users/stenbacka/events{/privacy}","received_events_url":"https://api.github.com/users/stenbacka/received_events","type":"User","site_admin":false},{"login":"webjohan","id":1153061,"avatar_url":"https://avatars0.githubusercontent.com/u/1153061?v=4","gravatar_id":"","url":"https://api.github.com/users/webjohan","html_url":"https://github.com/webjohan","followers_url":"https://api.github.com/users/webjohan/followers","following_url":"https://api.github.com/users/webjohan/following{/other_user}","gists_url":"https://api.github.com/users/webjohan/gists{/gist_id}","starred_url":"https://api.github.com/users/webjohan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/webjohan/subscriptions","organizations_url":"https://api.github.com/users/webjohan/orgs","repos_url":"https://api.github.com/users/webjohan/repos","events_url":"https://api.github.com/users/webjohan/events{/privacy}","received_events_url":"https://api.github.com/users/webjohan/received_events","type":"User","site_admin":false}]
+0
+

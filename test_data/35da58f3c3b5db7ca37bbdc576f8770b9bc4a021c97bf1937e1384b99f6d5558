@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:16 GMT
+Etag: W/"34ab58a3d01ce2f3b98ab88d4e24757f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4B4:5F57:477C1B3:932ADEA:5AB8083F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4778
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.036975
+X-Xss-Protection: 1; mode=block
+
+71f
+[{"login":"DavidGamba","id":1115287,"avatar_url":"https://avatars2.githubusercontent.com/u/1115287?v=4","gravatar_id":"","url":"https://api.github.com/users/DavidGamba","html_url":"https://github.com/DavidGamba","followers_url":"https://api.github.com/users/DavidGamba/followers","following_url":"https://api.github.com/users/DavidGamba/following{/other_user}","gists_url":"https://api.github.com/users/DavidGamba/gists{/gist_id}","starred_url":"https://api.github.com/users/DavidGamba/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DavidGamba/subscriptions","organizations_url":"https://api.github.com/users/DavidGamba/orgs","repos_url":"https://api.github.com/users/DavidGamba/repos","events_url":"https://api.github.com/users/DavidGamba/events{/privacy}","received_events_url":"https://api.github.com/users/DavidGamba/received_events","type":"User","site_admin":false},{"login":"FisterDotOrg","id":24968014,"avatar_url":"https://avatars1.githubusercontent.com/u/24968014?v=4","gravatar_id":"","url":"https://api.github.com/users/FisterDotOrg","html_url":"https://github.com/FisterDotOrg","followers_url":"https://api.github.com/users/FisterDotOrg/followers","following_url":"https://api.github.com/users/FisterDotOrg/following{/other_user}","gists_url":"https://api.github.com/users/FisterDotOrg/gists{/gist_id}","starred_url":"https://api.github.com/users/FisterDotOrg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FisterDotOrg/subscriptions","organizations_url":"https://api.github.com/users/FisterDotOrg/orgs","repos_url":"https://api.github.com/users/FisterDotOrg/repos","events_url":"https://api.github.com/users/FisterDotOrg/events{/privacy}","received_events_url":"https://api.github.com/users/FisterDotOrg/received_events","type":"User","site_admin":false}]
+0
+

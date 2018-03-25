@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:15 GMT
+Etag: W/"471eee0556071de91644e3bb95586c1b"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4B0:5F56:38E7E78:7A08521:5AB8083F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4784
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.032087
+X-Xss-Protection: 1; mode=block
+
+377
+[{"login":"tuanphpvn","id":7608580,"avatar_url":"https://avatars0.githubusercontent.com/u/7608580?v=4","gravatar_id":"","url":"https://api.github.com/users/tuanphpvn","html_url":"https://github.com/tuanphpvn","followers_url":"https://api.github.com/users/tuanphpvn/followers","following_url":"https://api.github.com/users/tuanphpvn/following{/other_user}","gists_url":"https://api.github.com/users/tuanphpvn/gists{/gist_id}","starred_url":"https://api.github.com/users/tuanphpvn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tuanphpvn/subscriptions","organizations_url":"https://api.github.com/users/tuanphpvn/orgs","repos_url":"https://api.github.com/users/tuanphpvn/repos","events_url":"https://api.github.com/users/tuanphpvn/events{/privacy}","received_events_url":"https://api.github.com/users/tuanphpvn/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 25 Mar 2018 20:36:16 GMT
+Etag: W/"14765ffb9d9eb7695eebb6b4455ae62c"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4BC:5F58:45FF7E4:9DC7A47:5AB8083F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4772
+X-Ratelimit-Reset: 1522013368
+X-Runtime-Rack: 0.030108
+X-Xss-Protection: 1; mode=block
+
+a33
+[{"login":"jtesser","id":1486445,"avatar_url":"https://avatars3.githubusercontent.com/u/1486445?v=4","gravatar_id":"","url":"https://api.github.com/users/jtesser","html_url":"https://github.com/jtesser","followers_url":"https://api.github.com/users/jtesser/followers","following_url":"https://api.github.com/users/jtesser/following{/other_user}","gists_url":"https://api.github.com/users/jtesser/gists{/gist_id}","starred_url":"https://api.github.com/users/jtesser/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jtesser/subscriptions","organizations_url":"https://api.github.com/users/jtesser/orgs","repos_url":"https://api.github.com/users/jtesser/repos","events_url":"https://api.github.com/users/jtesser/events{/privacy}","received_events_url":"https://api.github.com/users/jtesser/received_events","type":"User","site_admin":false},{"login":"vineela12","id":1329885,"avatar_url":"https://avatars3.githubusercontent.com/u/1329885?v=4","gravatar_id":"","url":"https://api.github.com/users/vineela12","html_url":"https://github.com/vineela12","followers_url":"https://api.github.com/users/vineela12/followers","following_url":"https://api.github.com/users/vineela12/following{/other_user}","gists_url":"https://api.github.com/users/vineela12/gists{/gist_id}","starred_url":"https://api.github.com/users/vineela12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vineela12/subscriptions","organizations_url":"https://api.github.com/users/vineela12/orgs","repos_url":"https://api.github.com/users/vineela12/repos","events_url":"https://api.github.com/users/vineela12/events{/privacy}","received_events_url":"https://api.github.com/users/vineela12/received_events","type":"User","site_admin":false},{"login":"saydulk","id":1058663,"avatar_url":"https://avatars2.githubusercontent.com/u/1058663?v=4","gravatar_id":"","url":"https://api.github.com/users/saydulk","html_url":"https://github.com/saydulk","followers_url":"https://api.github.com/users/saydulk/followers","following_url":"https://api.github.com/users/saydulk/following{/other_user}","gists_url":"https://api.github.com/users/saydulk/gists{/gist_id}","starred_url":"https://api.github.com/users/saydulk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/saydulk/subscriptions","organizations_url":"https://api.github.com/users/saydulk/orgs","repos_url":"https://api.github.com/users/saydulk/repos","events_url":"https://api.github.com/users/saydulk/events{/privacy}","received_events_url":"https://api.github.com/users/saydulk/received_events","type":"User","site_admin":false}]
+0
+
