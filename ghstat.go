@@ -69,7 +69,7 @@ func main() {
 		NameColumn                       = 0
 		AuthorsFollowersColumn           = 3
 		Top10ContributorsFollowersColumn = 4
-		AgeColumn                        = 5
+		AgeColumn                        = 6
 		TotalCommitsColumn               = 7
 		TotalAdditionsColumn             = 8
 		TotalDeletionsColumn             = 9
@@ -143,48 +143,43 @@ func main() {
 		})
 	}
 
-	var csvDataSorted, csvDataTotal [][]string
-
-	// Add points by author's followers
-	//csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, AuthorsFollowersColumn)
-	//firstPlaceGreeting(csvDataSorted, "The project made by most notable author is")
-	///csvDataTotal = addPoints(csvDataSorted, AuthorsFollowersColumn, TotalPointsColumnIndex)
+	var dataSorted [][]string
 
 	// Add points by reposotory total populatiry
-	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, StargazersColumn)
-	firstPlaceGreeting(csvDataSorted, "The most popular project is")
-	csvDataTotal = addPoints(csvDataSorted, StargazersColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexIntDesc(csvData, StargazersColumn)
+	firstPlaceGreeting(dataSorted, "The most popular project is")
+	dataSorted = addPoints(dataSorted, StargazersColumn, TotalPointsColumnIndex)
 
 	// Add points by age (we like fresh ideas)
-	csvDataSorted = sortSliceByColumnIndexIntAsc(csvData, AgeColumn)
-	firstPlaceGreeting(csvDataSorted, "The newest project is")
-	csvDataTotal = addPoints(csvDataSorted, AgeColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexIntAsc(csvData, AgeColumn)
+	firstPlaceGreeting(dataSorted, "The newest project is")
+	dataSorted = addPoints(dataSorted, AgeColumn, TotalPointsColumnIndex)
 
 	// Add points by active forkers
-	csvDataSorted = sortSliceByColumnIndexFloatDesc(csvData, ActiveForkersColumn)
-	firstPlaceGreeting(csvDataSorted, "The project with the most active community is")
-	csvDataTotal = addPoints(csvDataSorted, ActiveForkersColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexFloatDesc(csvData, ActiveForkersColumn)
+	firstPlaceGreeting(dataSorted, "The project with the most active community is")
+	dataSorted = addPoints(dataSorted, ActiveForkersColumn, TotalPointsColumnIndex)
 
 	// Add points by proportion of total and resolved issues
-	csvDataSorted = sortSliceByColumnIndexFloatDesc(csvData, ClosedIssuesPercentageColumn)
-	firstPlaceGreeting(csvDataSorted, "The project with best errors resolving rate is")
-	csvDataTotal = addPoints(csvDataSorted, ClosedIssuesPercentageColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexFloatDesc(dataSorted, ClosedIssuesPercentageColumn)
+	firstPlaceGreeting(dataSorted, "The project with best errors resolving rate is")
+	dataSorted = addPoints(dataSorted, ClosedIssuesPercentageColumn, TotalPointsColumnIndex)
 
 	// Add points by number of commits
-	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, TotalCommitsColumn)
-	firstPlaceGreeting(csvDataSorted, "The project with more commits is")
-	csvDataTotal = addPoints(csvDataSorted, TotalCommitsColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexIntDesc(dataSorted, TotalCommitsColumn)
+	firstPlaceGreeting(dataSorted, "The project with more commits is")
+	dataSorted = addPoints(dataSorted, TotalCommitsColumn, TotalPointsColumnIndex)
 
 	// Add points by Top10 contributors followers
-	csvDataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowersColumn)
-	firstPlaceGreeting(csvDataSorted, "The project made by most notable top contributors is")
-	csvDataTotal = addPoints(csvDataSorted, Top10ContributorsFollowersColumn, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowersColumn)
+	firstPlaceGreeting(dataSorted, "The project made by most notable top contributors is")
+	dataSorted = addPoints(dataSorted, Top10ContributorsFollowersColumn, TotalPointsColumnIndex)
 
-	csvDataTotal = sortSliceByColumnIndexIntAsc(csvDataTotal, TotalPointsColumnIndex)
-	firstPlaceGreeting(csvDataSorted, "The best project (taking in account placements in all competitions) is")
-	csvDataTotal = assignPlaces(csvData, TotalPointsColumnIndex)
+	dataSorted = sortSliceByColumnIndexIntAsc(dataSorted, TotalPointsColumnIndex)
+	firstPlaceGreeting(dataSorted, "The best project (taking in account placements in all competitions) is")
+	dataSorted = assignPlaces(dataSorted, TotalPointsColumnIndex)
 
-	writeCsv(csvFilePath, headers, csvDataTotal)
+	writeCsv(csvFilePath, headers, dataSorted)
 }
 
 func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
