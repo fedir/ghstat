@@ -15,6 +15,22 @@ import (
 	"time"
 )
 
+const (
+	NameColumn                       = 0
+	AuthorsFollowersColumn           = 3
+	Top10ContributorsFollowersColumn = 4
+	AgeColumn                        = 6
+	TotalCommitsColumn               = 7
+	TotalAdditionsColumn             = 8
+	TotalDeletionsColumn             = 9
+	TotalCodeChangesColumn           = 10
+	MediCommitSizeColumn             = 11
+	StargazersColumn                 = 12
+	ActiveForkersColumn              = 15
+	ClosedIssuesPercentageColumn     = 18
+	TotalPointsColumnIndex           = 19
+)
+
 func main() {
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
@@ -64,22 +80,8 @@ func main() {
 		csvFilePath = "result.csv"
 	}
 
-	var csvData = [][]string{}
-	const (
-		NameColumn                       = 0
-		AuthorsFollowersColumn           = 3
-		Top10ContributorsFollowersColumn = 4
-		AgeColumn                        = 6
-		TotalCommitsColumn               = 7
-		TotalAdditionsColumn             = 8
-		TotalDeletionsColumn             = 9
-		TotalCodeChangesColumn           = 10
-		MediCommitSizeColumn             = 11
-		StargazersColumn                 = 12
-		ActiveForkersColumn              = 15
-		ClosedIssuesPercentageColumn     = 18
-		TotalPointsColumnIndex           = 19
-	)
+	var ghData = [][]string{}
+
 	headers := []string{
 		"Name",
 		"URL",
@@ -114,7 +116,7 @@ func main() {
 		activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
 		closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
 		contributionStatistics := getContributionStatistics(rKey, *tmpFolder, *debug)
-		csvData = append(csvData, []string{
+		ghData = append(ghData, []string{
 			repositoryData.Name,
 			fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
 			fmt.Sprintf("%s", func(a string) string {
@@ -143,43 +145,9 @@ func main() {
 		})
 	}
 
-	var dataSorted [][]string
+	rateGhData(ghData)
 
-	// Add points by reposotory total populatiry
-	dataSorted = sortSliceByColumnIndexIntDesc(csvData, StargazersColumn)
-	firstPlaceGreeting(dataSorted, "The most popular project is")
-	dataSorted = addPoints(dataSorted, StargazersColumn, TotalPointsColumnIndex)
-
-	// Add points by age (we like fresh ideas)
-	dataSorted = sortSliceByColumnIndexIntAsc(csvData, AgeColumn)
-	firstPlaceGreeting(dataSorted, "The newest project is")
-	dataSorted = addPoints(dataSorted, AgeColumn, TotalPointsColumnIndex)
-
-	// Add points by active forkers
-	dataSorted = sortSliceByColumnIndexFloatDesc(csvData, ActiveForkersColumn)
-	firstPlaceGreeting(dataSorted, "The project with the most active community is")
-	dataSorted = addPoints(dataSorted, ActiveForkersColumn, TotalPointsColumnIndex)
-
-	// Add points by proportion of total and resolved issues
-	dataSorted = sortSliceByColumnIndexFloatDesc(dataSorted, ClosedIssuesPercentageColumn)
-	firstPlaceGreeting(dataSorted, "The project with best errors resolving rate is")
-	dataSorted = addPoints(dataSorted, ClosedIssuesPercentageColumn, TotalPointsColumnIndex)
-
-	// Add points by number of commits
-	dataSorted = sortSliceByColumnIndexIntDesc(dataSorted, TotalCommitsColumn)
-	firstPlaceGreeting(dataSorted, "The project with more commits is")
-	dataSorted = addPoints(dataSorted, TotalCommitsColumn, TotalPointsColumnIndex)
-
-	// Add points by Top10 contributors followers
-	dataSorted = sortSliceByColumnIndexIntDesc(csvData, Top10ContributorsFollowersColumn)
-	firstPlaceGreeting(dataSorted, "The project made by most notable top contributors is")
-	dataSorted = addPoints(dataSorted, Top10ContributorsFollowersColumn, TotalPointsColumnIndex)
-
-	dataSorted = sortSliceByColumnIndexIntAsc(dataSorted, TotalPointsColumnIndex)
-	firstPlaceGreeting(dataSorted, "The best project (taking in account placements in all competitions) is")
-	dataSorted = assignPlaces(dataSorted, TotalPointsColumnIndex)
-
-	writeCsv(csvFilePath, headers, dataSorted)
+	writeCsv(csvFilePath, headers, ghData)
 }
 
 func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
@@ -251,7 +219,43 @@ func getRelativeTime(unixTime int) int {
 	return int((float64(unixTime) - float64(now)) / 60)
 }
 
-func writeCsv(csvFilePath string, headers []string, csvData [][]string) {
+func rateGhData(ghData [][]string) {
+	// Add points by reposotory total populatiry
+	sortSliceByColumnIndexIntDesc(ghData, StargazersColumn)
+	firstPlaceGreeting(ghData, "The most popular project is")
+	addPoints(ghData, StargazersColumn, TotalPointsColumnIndex)
+
+	// Add points by age (we like fresh ideas)
+	sortSliceByColumnIndexIntAsc(ghData, AgeColumn)
+	firstPlaceGreeting(ghData, "The newest project is")
+	addPoints(ghData, AgeColumn, TotalPointsColumnIndex)
+
+	// Add points by active forkers
+	sortSliceByColumnIndexFloatDesc(ghData, ActiveForkersColumn)
+	firstPlaceGreeting(ghData, "The project with the most active community is")
+	addPoints(ghData, ActiveForkersColumn, TotalPointsColumnIndex)
+
+	// Add points by proportion of total and resolved issues
+	sortSliceByColumnIndexFloatDesc(ghData, ClosedIssuesPercentageColumn)
+	firstPlaceGreeting(ghData, "The project with best errors resolving rate is")
+	addPoints(ghData, ClosedIssuesPercentageColumn, TotalPointsColumnIndex)
+
+	// Add points by number of commits
+	sortSliceByColumnIndexIntDesc(ghData, TotalCommitsColumn)
+	firstPlaceGreeting(ghData, "The project with more commits is")
+	addPoints(ghData, TotalCommitsColumn, TotalPointsColumnIndex)
+
+	// Add points by Top10 contributors followers
+	sortSliceByColumnIndexIntDesc(ghData, Top10ContributorsFollowersColumn)
+	firstPlaceGreeting(ghData, "The project made by most notable top contributors is")
+	addPoints(ghData, Top10ContributorsFollowersColumn, TotalPointsColumnIndex)
+
+	sortSliceByColumnIndexIntAsc(ghData, TotalPointsColumnIndex)
+	firstPlaceGreeting(ghData, "The best project (taking in account placements in all competitions) is")
+	assignPlaces(ghData, TotalPointsColumnIndex)
+}
+
+func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
 	file, err := os.Create(csvFilePath)
 	if err != nil {
 		log.Fatal("Cannot create file", err)
@@ -265,7 +269,7 @@ func writeCsv(csvFilePath string, headers []string, csvData [][]string) {
 		log.Fatal("Cannot write to file", err)
 	}
 
-	for _, value := range csvData {
+	for _, value := range ghData {
 		err := writer.Write(value)
 		if err != nil {
 			log.Fatal("Cannot write to file", err)
