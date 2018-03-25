@@ -155,8 +155,8 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *syn
 		fmt.Sprintf("%d", totalContributors),
 		fmt.Sprintf("%.2f", activeForkersPercentage),
 		fmt.Sprintf("%d", repositoryData.OpenIssues),
-		fmt.Sprintf("%.4f", issueByDay),
 		fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
+		fmt.Sprintf("%.4f", issueByDay),
 		fmt.Sprintf("%.2f", closedIssuesPercentage),
 		"0",
 	}
