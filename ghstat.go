@@ -12,7 +12,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"sync"
 	"time"
 
 	"github.com/fedir/ghstat/httpcache"
@@ -103,22 +102,18 @@ func main() {
 		"closedIssuesPercentageColumn":     19,
 		"totalPointsColumnIndex":           20,
 	}
-	wg := &sync.WaitGroup{}
 	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
-		wg.Add(1)
-		go fillRepositoryStatistics(rKey, *tmpFolder, *debug, wg, dataChan)
+		go fillRepositoryStatistics(rKey, *tmpFolder, *debug, dataChan)
 	}
 	for range repositoriesKeys {
 		ghData = append(ghData, <-dataChan)
 	}
-	wg.Wait()
 	rateGhData(ghData, ghDataColumnIndexes)
 	writeCsv(csvFilePath, headers, ghData)
 }
 
-func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, wg *sync.WaitGroup, dataChan chan []string) {
-	defer wg.Done()
+func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataChan chan []string) {
 	repositoryData := getRepositoryStatistics(rKey, tmpFolder, debug)
 	repositoryAge := int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
 	authorLogin := getRepositoryCommits(rKey, tmpFolder, debug)
