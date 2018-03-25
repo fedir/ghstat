@@ -1,5 +1,5 @@
-bash bin/go_stats.sh
-bash bin/haskell_stats.sh
-bash bin/java_stats.sh
-bash bin/js_stats.sh
-bash bin/php_stats.sh
+./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,\
+yesodweb/yesod,snapframework/snap-core,agrafix/Spock,transient-haskell/axiom,myfreeweb/magicbane,positiondev/fn,\
+playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,decebals/pippo,ratpack/ratpack,primefaces/primefaces,\
+angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,riot/riot,\
+laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter -f stats/all_frameworks.csv
