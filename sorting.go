@@ -11,7 +11,7 @@ import (
 
 func sortSliceByColumnIndexIntAsc(s [][]string, columnIndex int) [][]string {
 	if columnIndex == 0 {
-		log.Fatalf("Error occured. Please check map of columns indexes")
+		log.Fatalf("Error occurred. Please check map of columns indexes")
 	}
 	sort.Slice(s, func(i, j int) bool {
 		firstCellValue, _ := strconv.Atoi(s[i][columnIndex])
@@ -23,7 +23,7 @@ func sortSliceByColumnIndexIntAsc(s [][]string, columnIndex int) [][]string {
 
 func sortSliceByColumnIndexIntDesc(s [][]string, columnIndex int) [][]string {
 	if columnIndex == 0 {
-		log.Fatalf("Error occured. Please check map of columns indexes")
+		log.Fatalf("Error occurred. Please check map of columns indexes")
 	}
 	sort.Slice(s, func(i, j int) bool {
 		firstCellValue, _ := strconv.Atoi(s[i][columnIndex])
@@ -35,7 +35,7 @@ func sortSliceByColumnIndexIntDesc(s [][]string, columnIndex int) [][]string {
 
 func sortSliceByColumnIndexFloatDesc(s [][]string, columnIndex int) [][]string {
 	if columnIndex == 0 {
-		log.Fatalf("Error occured. Please check map of columns indexes")
+		log.Fatalf("Error occurred. Please check map of columns indexes")
 	}
 	sort.Slice(s, func(i, j int) bool {
 		firstCellValue, _ := strconv.ParseFloat(s[i][columnIndex], 32)

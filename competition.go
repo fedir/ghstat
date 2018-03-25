@@ -42,7 +42,7 @@ func rateGhData(ghData [][]string, columnsIndexes map[string]int) {
 
 func addPoints(s [][]string, columnIndex int, totalPointsColumnIndex int) [][]string {
 	if totalPointsColumnIndex == 0 {
-		log.Fatalf("Error occured. Please check map of columns indexes")
+		log.Fatalf("Error occurred. Please check map of columns indexes")
 	}
 	for i := range s {
 		currentValue, _ := strconv.Atoi(s[i][totalPointsColumnIndex])
@@ -58,7 +58,7 @@ func firstPlaceGreeting(s [][]string, message string) {
 
 func assignPlaces(s [][]string, totalPointsColumnIndex int) [][]string {
 	if totalPointsColumnIndex == 0 {
-		log.Fatalf("Error occured. Please check map of columns indexes")
+		log.Fatalf("Error occurred. Please check map of columns indexes")
 	}
 	for i := range s {
 		place := i + 1
