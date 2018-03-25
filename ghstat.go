@@ -15,22 +15,6 @@ import (
 	"time"
 )
 
-const (
-	nameColumn                       = 0
-	authorsFollowersColumn           = 3
-	top10ContributorsFollowersColumn = 4
-	ageColumn                        = 6
-	totalCommitsColumn               = 7
-	totalAdditionsColumn             = 8
-	totalDeletionsColumn             = 9
-	totalCodeChangesColumn           = 10
-	mediCommitSizeColumn             = 11
-	stargazersColumn                 = 12
-	activeForkersColumn              = 15
-	closedIssuesPercentageColumn     = 18
-	totalPointsColumnIndex           = 19
-)
-
 func main() {
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
@@ -98,6 +82,21 @@ func main() {
 		"Closed issues, %",
 		"Place",
 	}
+	ghDataColumnIndexes := map[string]int{
+		"nameColumn":                       0,
+		"authorsFollowersColumn":           3,
+		"top10ContributorsFollowersColumn": 4,
+		"totalAdditionsColumn":             8,
+		"ageColumn":                        6,
+		"totalCommitsColumn":               7,
+		"totalDeletionsColumn":             9,
+		"totalCodeChangesColumn":           10,
+		"mediCommitSizeColumn":             11,
+		"stargazersColumn":                 12,
+		"activeForkersColumn":              15,
+		"closedIssuesPercentageColumn":     18,
+		"totalPointsColumnIndex":           19,
+	}
 	for _, rKey := range repositoriesKeys {
 		repositoryData := getRepositoryStatistics(rKey, *tmpFolder, *debug)
 		authorLogin := getRepositoryCommits(rKey, *tmpFolder, *debug)
@@ -138,7 +137,7 @@ func main() {
 			"0",
 		})
 	}
-	rateGhData(ghData)
+	rateGhData(ghData, ghDataColumnIndexes)
 	writeCsv(csvFilePath, headers, ghData)
 }
 
@@ -209,37 +208,6 @@ func checkAndPrintRateLimit() {
 func getRelativeTime(unixTime int) int {
 	now := int(time.Now().Unix())
 	return int((float64(unixTime) - float64(now)) / 60)
-}
-
-func rateGhData(ghData [][]string) {
-	// Add points by repository total popularity (more popular is better)
-	sortSliceByColumnIndexIntDesc(ghData, stargazersColumn)
-	firstPlaceGreeting(ghData, "The most popular project is")
-	addPoints(ghData, stargazersColumn, totalPointsColumnIndex)
-	// Add points by project age (we like fresh ideas)
-	sortSliceByColumnIndexIntAsc(ghData, ageColumn)
-	firstPlaceGreeting(ghData, "The newest project is")
-	addPoints(ghData, ageColumn, totalPointsColumnIndex)
-	// Add points by active forkers (more active forkers shows good open source spirit of the community)
-	sortSliceByColumnIndexFloatDesc(ghData, activeForkersColumn)
-	firstPlaceGreeting(ghData, "The project with the most active community is")
-	addPoints(ghData, activeForkersColumn, totalPointsColumnIndex)
-	// Add points by proportion of total and resolved issues (less opened issues is better)
-	sortSliceByColumnIndexFloatDesc(ghData, closedIssuesPercentageColumn)
-	firstPlaceGreeting(ghData, "The project with best errors resolving rate is")
-	addPoints(ghData, closedIssuesPercentageColumn, totalPointsColumnIndex)
-	// Add points by number of commits (more commits is better)
-	sortSliceByColumnIndexIntDesc(ghData, totalCommitsColumn)
-	firstPlaceGreeting(ghData, "The project with more commits is")
-	addPoints(ghData, totalCommitsColumn, totalPointsColumnIndex)
-	// Add points by Top10 contributors followers
-	sortSliceByColumnIndexIntDesc(ghData, top10ContributorsFollowersColumn)
-	firstPlaceGreeting(ghData, "The project made by most notable top contributors is")
-	addPoints(ghData, top10ContributorsFollowersColumn, totalPointsColumnIndex)
-	// Assign places to projects by all metrics
-	sortSliceByColumnIndexIntAsc(ghData, totalPointsColumnIndex)
-	firstPlaceGreeting(ghData, "The best project (taking in account placements in all competitions) is")
-	assignPlaces(ghData, totalPointsColumnIndex)
 }
 
 func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
