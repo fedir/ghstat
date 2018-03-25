@@ -43,6 +43,7 @@ func getFilename(url string) string {
 	return hex.EncodeToString(encoder.Sum(nil))
 }
 
+// MakeHTTPRequest makes a request to the external URL
 func MakeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
@@ -51,7 +52,6 @@ func MakeHTTPRequest(url string) ([]byte, int, error) {
 	if os.Getenv("GH_USR") != "" && os.Getenv("GH_PASS") != "" {
 		req.SetBasicAuth(os.Getenv("GH_USR"), os.Getenv("GH_PASS"))
 	}
-
 	resp, err := httpClient.Do(req)
 	if err != nil {
 		log.Fatal("Cannot process the HTTP request", err)
