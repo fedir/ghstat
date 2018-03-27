@@ -2,19 +2,16 @@
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
 
-/*
-HTTP request static cache
-
-Usage example :
-
-func main() {
-	url := "https://api.github.com/repos/astaxie/beego/contributors"
-	body := httpcache.MakeCachedHTTPRequest(url)
-	jsonResp, linkHeader, _ := httpcache.ReadResp(body)
-	fmt.Printf("%s\n%s", jsonResp, linkHeader)
-}
-*/
-
+// Package httpcache provides an interface to HTTP request static cache,
+//
+// Usage example :
+//  func main() {
+//    url := "https://api.github.com/repos/astaxie/beego/contributors"
+//    body := httpcache.MakeCachedHTTPRequest(url)
+//    jsonResp, linkHeader, _ := httpcache.ReadResp(body)
+//    fmt.Printf("%s\n%s", jsonResp, linkHeader)
+//  }
+//
 package httpcache
 
 import (
@@ -43,7 +40,7 @@ func getFilename(url string) string {
 	return hex.EncodeToString(encoder.Sum(nil))
 }
 
-// MakeHTTPRequest makes a request to the external URL
+// MakeHTTPRequest makes a non-cacheable request to the external URL
 func MakeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
@@ -91,8 +88,10 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 	return body, linkHeader, err
 }
 
-// MakeCachedHTTPRequest : if the request was already made once, it will be not done again, but read from the file in temporary folder.
-// Currently is used only for GET queries
+// MakeCachedHTTPRequest makes a cacheable request to the external URL
+// If the request was already made once, it will be not done again,
+// but read from the file in temporary folder.
+// Currently is was tested only for GET queries
 func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 	var fullResp []byte
 	filename := getFilename(url)
