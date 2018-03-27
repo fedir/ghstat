@@ -1,6 +1,8 @@
 // Copyright 2018 Fedir RYKHTIK. All rights reserved.
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
+
+// ghstat - statistical multi-criteria decision-making comparator for Github's projects.
 package main
 
 import (
