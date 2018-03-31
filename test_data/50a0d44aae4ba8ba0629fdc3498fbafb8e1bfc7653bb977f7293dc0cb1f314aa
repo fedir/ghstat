@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:33:11 GMT
+Etag: W/"98915f43ed92edf62992d05dc60a8804"
+Link: <https://api.github.com/user/965839/followers?page=14>; rel="prev", <https://api.github.com/user/965839/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8A6:0953:225FF88:5CAD3AA:5AC01AB7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4791
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.048806
+X-Xss-Protection: 1; mode=block
+
+6bb
+[{"login":"sprog","id":87050,"avatar_url":"https://avatars0.githubusercontent.com/u/87050?v=4","gravatar_id":"","url":"https://api.github.com/users/sprog","html_url":"https://github.com/sprog","followers_url":"https://api.github.com/users/sprog/followers","following_url":"https://api.github.com/users/sprog/following{/other_user}","gists_url":"https://api.github.com/users/sprog/gists{/gist_id}","starred_url":"https://api.github.com/users/sprog/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sprog/subscriptions","organizations_url":"https://api.github.com/users/sprog/orgs","repos_url":"https://api.github.com/users/sprog/repos","events_url":"https://api.github.com/users/sprog/events{/privacy}","received_events_url":"https://api.github.com/users/sprog/received_events","type":"User","site_admin":false},{"login":"AlfredYan","id":14922683,"avatar_url":"https://avatars3.githubusercontent.com/u/14922683?v=4","gravatar_id":"","url":"https://api.github.com/users/AlfredYan","html_url":"https://github.com/AlfredYan","followers_url":"https://api.github.com/users/AlfredYan/followers","following_url":"https://api.github.com/users/AlfredYan/following{/other_user}","gists_url":"https://api.github.com/users/AlfredYan/gists{/gist_id}","starred_url":"https://api.github.com/users/AlfredYan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlfredYan/subscriptions","organizations_url":"https://api.github.com/users/AlfredYan/orgs","repos_url":"https://api.github.com/users/AlfredYan/repos","events_url":"https://api.github.com/users/AlfredYan/events{/privacy}","received_events_url":"https://api.github.com/users/AlfredYan/received_events","type":"User","site_admin":false}]
+0
+
