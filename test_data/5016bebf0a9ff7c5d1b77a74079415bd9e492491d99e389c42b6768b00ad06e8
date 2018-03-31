@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:16 GMT
+Etag: W/"f62ad6f222730a72ad05cbf8d14e0162"
+Last-Modified: Fri, 30 Mar 2018 13:02:52 GMT
+Link: <https://api.github.com/repositories/13677/contributors?page=1>; rel="prev", <https://api.github.com/repositories/13677/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D985:094F:2EED6E5:59AF5D4:5AC01D8B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4850
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.043476
+X-Xss-Protection: 1; mode=block
+
+e3b
+[{"login":"Christopher-Bui","id":2654102,"avatar_url":"https://avatars0.githubusercontent.com/u/2654102?v=4","gravatar_id":"","url":"https://api.github.com/users/Christopher-Bui","html_url":"https://github.com/Christopher-Bui","followers_url":"https://api.github.com/users/Christopher-Bui/followers","following_url":"https://api.github.com/users/Christopher-Bui/following{/other_user}","gists_url":"https://api.github.com/users/Christopher-Bui/gists{/gist_id}","starred_url":"https://api.github.com/users/Christopher-Bui/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Christopher-Bui/subscriptions","organizations_url":"https://api.github.com/users/Christopher-Bui/orgs","repos_url":"https://api.github.com/users/Christopher-Bui/repos","events_url":"https://api.github.com/users/Christopher-Bui/events{/privacy}","received_events_url":"https://api.github.com/users/Christopher-Bui/received_events","type":"User","site_admin":false,"contributions":1},{"login":"shenfeng","id":395472,"avatar_url":"https://avatars0.githubusercontent.com/u/395472?v=4","gravatar_id":"","url":"https://api.github.com/users/shenfeng","html_url":"https://github.com/shenfeng","followers_url":"https://api.github.com/users/shenfeng/followers","following_url":"https://api.github.com/users/shenfeng/following{/other_user}","gists_url":"https://api.github.com/users/shenfeng/gists{/gist_id}","starred_url":"https://api.github.com/users/shenfeng/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shenfeng/subscriptions","organizations_url":"https://api.github.com/users/shenfeng/orgs","repos_url":"https://api.github.com/users/shenfeng/repos","events_url":"https://api.github.com/users/shenfeng/events{/privacy}","received_events_url":"https://api.github.com/users/shenfeng/received_events","type":"User","site_admin":false,"contributions":1},{"login":"josephwilk","id":9792,"avatar_url":"https://avatars0.githubusercontent.com/u/9792?v=4","gravatar_id":"","url":"https://api.github.com/users/josephwilk","html_url":"https://github.com/josephwilk","followers_url":"https://api.github.com/users/josephwilk/followers","following_url":"https://api.github.com/users/josephwilk/following{/other_user}","gists_url":"https://api.github.com/users/josephwilk/gists{/gist_id}","starred_url":"https://api.github.com/users/josephwilk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/josephwilk/subscriptions","organizations_url":"https://api.github.com/users/josephwilk/orgs","repos_url":"https://api.github.com/users/josephwilk/repos","events_url":"https://api.github.com/users/josephwilk/events{/privacy}","received_events_url":"https://api.github.com/users/josephwilk/received_events","type":"User","site_admin":false,"contributions":1},{"login":"toofuu","id":411814,"avatar_url":"https://avatars2.githubusercontent.com/u/411814?v=4","gravatar_id":"","url":"https://api.github.com/users/toofuu","html_url":"https://github.com/toofuu","followers_url":"https://api.github.com/users/toofuu/followers","following_url":"https://api.github.com/users/toofuu/following{/other_user}","gists_url":"https://api.github.com/users/toofuu/gists{/gist_id}","starred_url":"https://api.github.com/users/toofuu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/toofuu/subscriptions","organizations_url":"https://api.github.com/users/toofuu/orgs","repos_url":"https://api.github.com/users/toofuu/repos","events_url":"https://api.github.com/users/toofuu/events{/privacy}","received_events_url":"https://api.github.com/users/toofuu/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

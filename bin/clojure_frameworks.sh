@@ -1,0 +1,1 @@
+./ghstat -r weavejester/compojure,luminus-framework/luminus,duct-framework/duct,pedestal/pedestal,metasoarous/datsys,juxt/yada,hoplon/hoplon,fulcrologic/fulcro -f stats/clojure_frameworks.csv

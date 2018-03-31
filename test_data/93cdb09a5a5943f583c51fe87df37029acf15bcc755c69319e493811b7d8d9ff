@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:13 GMT
+Etag: W/"6043e0bb0f07cd977f6ecf4944a7e00a"
+Link: <https://api.github.com/user/118158/followers?page=3>; rel="prev", <https://api.github.com/user/118158/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D987:094D:1FB96F8:41D7330:5AC01D89
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4943
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.036977
+X-Xss-Protection: 1; mode=block
+
+d8f
+[{"login":"pechorin","id":226270,"avatar_url":"https://avatars2.githubusercontent.com/u/226270?v=4","gravatar_id":"","url":"https://api.github.com/users/pechorin","html_url":"https://github.com/pechorin","followers_url":"https://api.github.com/users/pechorin/followers","following_url":"https://api.github.com/users/pechorin/following{/other_user}","gists_url":"https://api.github.com/users/pechorin/gists{/gist_id}","starred_url":"https://api.github.com/users/pechorin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pechorin/subscriptions","organizations_url":"https://api.github.com/users/pechorin/orgs","repos_url":"https://api.github.com/users/pechorin/repos","events_url":"https://api.github.com/users/pechorin/events{/privacy}","received_events_url":"https://api.github.com/users/pechorin/received_events","type":"User","site_admin":false},{"login":"vojtasvoboda","id":374917,"avatar_url":"https://avatars1.githubusercontent.com/u/374917?v=4","gravatar_id":"","url":"https://api.github.com/users/vojtasvoboda","html_url":"https://github.com/vojtasvoboda","followers_url":"https://api.github.com/users/vojtasvoboda/followers","following_url":"https://api.github.com/users/vojtasvoboda/following{/other_user}","gists_url":"https://api.github.com/users/vojtasvoboda/gists{/gist_id}","starred_url":"https://api.github.com/users/vojtasvoboda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vojtasvoboda/subscriptions","organizations_url":"https://api.github.com/users/vojtasvoboda/orgs","repos_url":"https://api.github.com/users/vojtasvoboda/repos","events_url":"https://api.github.com/users/vojtasvoboda/events{/privacy}","received_events_url":"https://api.github.com/users/vojtasvoboda/received_events","type":"User","site_admin":false},{"login":"lusk","id":1666245,"avatar_url":"https://avatars2.githubusercontent.com/u/1666245?v=4","gravatar_id":"","url":"https://api.github.com/users/lusk","html_url":"https://github.com/lusk","followers_url":"https://api.github.com/users/lusk/followers","following_url":"https://api.github.com/users/lusk/following{/other_user}","gists_url":"https://api.github.com/users/lusk/gists{/gist_id}","starred_url":"https://api.github.com/users/lusk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lusk/subscriptions","organizations_url":"https://api.github.com/users/lusk/orgs","repos_url":"https://api.github.com/users/lusk/repos","events_url":"https://api.github.com/users/lusk/events{/privacy}","received_events_url":"https://api.github.com/users/lusk/received_events","type":"User","site_admin":false},{"login":"MisRob","id":13509191,"avatar_url":"https://avatars1.githubusercontent.com/u/13509191?v=4","gravatar_id":"","url":"https://api.github.com/users/MisRob","html_url":"https://github.com/MisRob","followers_url":"https://api.github.com/users/MisRob/followers","following_url":"https://api.github.com/users/MisRob/following{/other_user}","gists_url":"https://api.github.com/users/MisRob/gists{/gist_id}","starred_url":"https://api.github.com/users/MisRob/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MisRob/subscriptions","organizations_url":"https://api.github.com/users/MisRob/orgs","repos_url":"https://api.github.com/users/MisRob/repos","events_url":"https://api.github.com/users/MisRob/events{/privacy}","received_events_url":"https://api.github.com/users/MisRob/received_events","type":"User","site_admin":false}]
+0
+

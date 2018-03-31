@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:15 GMT
+Etag: W/"473358ff0400c1c621c72adb6bab231f"
+Link: <https://api.github.com/user/29839/followers?page=1>; rel="prev", <https://api.github.com/user/29839/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D985:094F:2EED6D6:59AF5BB:5AC01D8B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4856
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.032373
+X-Xss-Protection: 1; mode=block
+
+6dd
+[{"login":"nfultz","id":418638,"avatar_url":"https://avatars2.githubusercontent.com/u/418638?v=4","gravatar_id":"","url":"https://api.github.com/users/nfultz","html_url":"https://github.com/nfultz","followers_url":"https://api.github.com/users/nfultz/followers","following_url":"https://api.github.com/users/nfultz/following{/other_user}","gists_url":"https://api.github.com/users/nfultz/gists{/gist_id}","starred_url":"https://api.github.com/users/nfultz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nfultz/subscriptions","organizations_url":"https://api.github.com/users/nfultz/orgs","repos_url":"https://api.github.com/users/nfultz/repos","events_url":"https://api.github.com/users/nfultz/events{/privacy}","received_events_url":"https://api.github.com/users/nfultz/received_events","type":"User","site_admin":false},{"login":"Johnicholas","id":461830,"avatar_url":"https://avatars0.githubusercontent.com/u/461830?v=4","gravatar_id":"","url":"https://api.github.com/users/Johnicholas","html_url":"https://github.com/Johnicholas","followers_url":"https://api.github.com/users/Johnicholas/followers","following_url":"https://api.github.com/users/Johnicholas/following{/other_user}","gists_url":"https://api.github.com/users/Johnicholas/gists{/gist_id}","starred_url":"https://api.github.com/users/Johnicholas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Johnicholas/subscriptions","organizations_url":"https://api.github.com/users/Johnicholas/orgs","repos_url":"https://api.github.com/users/Johnicholas/repos","events_url":"https://api.github.com/users/Johnicholas/events{/privacy}","received_events_url":"https://api.github.com/users/Johnicholas/received_events","type":"User","site_admin":false}]
+0
+

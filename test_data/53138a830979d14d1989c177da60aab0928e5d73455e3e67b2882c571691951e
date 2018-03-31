@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:11 GMT
+Etag: W/"57769e6e9ab1a4f51978a84c888d1eac"
+Last-Modified: Fri, 30 Mar 2018 13:02:52 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D985:094F:2EED55C:59AF308:5AC01D87
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4996
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.063634
+X-Xss-Protection: 1; mode=block
+
+1393
+{"id":13677,"name":"compojure","full_name":"weavejester/compojure","owner":{"login":"weavejester","id":8780,"avatar_url":"https://avatars3.githubusercontent.com/u/8780?v=4","gravatar_id":"","url":"https://api.github.com/users/weavejester","html_url":"https://github.com/weavejester","followers_url":"https://api.github.com/users/weavejester/followers","following_url":"https://api.github.com/users/weavejester/following{/other_user}","gists_url":"https://api.github.com/users/weavejester/gists{/gist_id}","starred_url":"https://api.github.com/users/weavejester/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/weavejester/subscriptions","organizations_url":"https://api.github.com/users/weavejester/orgs","repos_url":"https://api.github.com/users/weavejester/repos","events_url":"https://api.github.com/users/weavejester/events{/privacy}","received_events_url":"https://api.github.com/users/weavejester/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/weavejester/compojure","description":"A concise routing library for Ring/Clojure","fork":false,"url":"https://api.github.com/repos/weavejester/compojure","forks_url":"https://api.github.com/repos/weavejester/compojure/forks","keys_url":"https://api.github.com/repos/weavejester/compojure/keys{/key_id}","collaborators_url":"https://api.github.com/repos/weavejester/compojure/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/weavejester/compojure/teams","hooks_url":"https://api.github.com/repos/weavejester/compojure/hooks","issue_events_url":"https://api.github.com/repos/weavejester/compojure/issues/events{/number}","events_url":"https://api.github.com/repos/weavejester/compojure/events","assignees_url":"https://api.github.com/repos/weavejester/compojure/assignees{/user}","branches_url":"https://api.github.com/repos/weavejester/compojure/branches{/branch}","tags_url":"https://api.github.com/repos/weavejester/compojure/tags","blobs_url":"https://api.github.com/repos/weavejester/compojure/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/weavejester/compojure/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/weavejester/compojure/git/refs{/sha}","trees_url":"https://api.github.com/repos/weavejester/compojure/git/trees{/sha}","statuses_url":"https://api.github.com/repos/weavejester/compojure/statuses/{sha}","languages_url":"https://api.github.com/repos/weavejester/compojure/languages","stargazers_url":"https://api.github.com/repos/weavejester/compojure/stargazers","contributors_url":"https://api.github.com/repos/weavejester/compojure/contributors","subscribers_url":"https://api.github.com/repos/weavejester/compojure/subscribers","subscription_url":"https://api.github.com/repos/weavejester/compojure/subscription","commits_url":"https://api.github.com/repos/weavejester/compojure/commits{/sha}","git_commits_url":"https://api.github.com/repos/weavejester/compojure/git/commits{/sha}","comments_url":"https://api.github.com/repos/weavejester/compojure/comments{/number}","issue_comment_url":"https://api.github.com/repos/weavejester/compojure/issues/comments{/number}","contents_url":"https://api.github.com/repos/weavejester/compojure/contents/{+path}","compare_url":"https://api.github.com/repos/weavejester/compojure/compare/{base}...{head}","merges_url":"https://api.github.com/repos/weavejester/compojure/merges","archive_url":"https://api.github.com/repos/weavejester/compojure/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/weavejester/compojure/downloads","issues_url":"https://api.github.com/repos/weavejester/compojure/issues{/number}","pulls_url":"https://api.github.com/repos/weavejester/compojure/pulls{/number}","milestones_url":"https://api.github.com/repos/weavejester/compojure/milestones{/number}","notifications_url":"https://api.github.com/repos/weavejester/compojure/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/weavejester/compojure/labels{/name}","releases_url":"https://api.github.com/repos/weavejester/compojure/releases{/id}","deployments_url":"https://api.github.com/repos/weavejester/compojure/deployments","created_at":"2008-05-01T00:31:39Z","updated_at":"2018-03-30T13:02:52Z","pushed_at":"2018-02-16T16:19:46Z","git_url":"git://github.com/weavejester/compojure.git","ssh_url":"git@github.com:weavejester/compojure.git","clone_url":"https://github.com/weavejester/compojure.git","svn_url":"https://github.com/weavejester/compojure","homepage":"","size":5837,"stargazers_count":3370,"watchers_count":3370,"language":"Clojure","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":true,"forks_count":227,"mirror_url":null,"archived":false,"open_issues_count":4,"license":{"key":"other","name":"Other","spdx_id":null,"url":null},"forks":227,"open_issues":4,"watchers":3370,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":227,"subscribers_count":122}
+0
+

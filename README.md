@@ -61,6 +61,18 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Python frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/python_frameworks.csv)
 
+## Clojure web frameworks rating
+
+* The most popular project is `compojure`
+* The newest project is `fulcro`
+* The project with the most active community is `fulcro`
+* The project with best errors resolving rate is `fulcro`
+* The project with more commits is `fulcro`
+* The project made by most notable top contributors is `fulcro`
+* The best project (taking in account placements in all competitions) is `fulcro`
+
+[Detailed Clojure frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/clojure_frameworks.csv)
+
 ## Haskell frameworks rating
 
 * The most popular project is `yesod`

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:13 GMT
+Etag: W/"1113056b48c92f901c3f543cb9887243"
+Link: <https://api.github.com/user/1177083/followers?page=2>; rel="prev", <https://api.github.com/user/1177083/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D989:0953:2268227:5CCA6C1:5AC01D89
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4952
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.031438
+X-Xss-Protection: 1; mode=block
+
+353
+[{"login":"quangv","id":1171187,"avatar_url":"https://avatars3.githubusercontent.com/u/1171187?v=4","gravatar_id":"","url":"https://api.github.com/users/quangv","html_url":"https://github.com/quangv","followers_url":"https://api.github.com/users/quangv/followers","following_url":"https://api.github.com/users/quangv/following{/other_user}","gists_url":"https://api.github.com/users/quangv/gists{/gist_id}","starred_url":"https://api.github.com/users/quangv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/quangv/subscriptions","organizations_url":"https://api.github.com/users/quangv/orgs","repos_url":"https://api.github.com/users/quangv/repos","events_url":"https://api.github.com/users/quangv/events{/privacy}","received_events_url":"https://api.github.com/users/quangv/received_events","type":"User","site_admin":false}]
+0
+

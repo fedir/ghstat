@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:45:14 GMT
+Etag: W/"9ba98babf2c271aa3f80e9dcca119908"
+Link: <https://api.github.com/user/233227/followers?page=1>; rel="prev", <https://api.github.com/user/233227/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D984:094F:2EED683:59AF51C:5AC01D8A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4892
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.114100
+X-Xss-Protection: 1; mode=block
+
+6a7
+[{"login":"honix","id":11596541,"avatar_url":"https://avatars2.githubusercontent.com/u/11596541?v=4","gravatar_id":"","url":"https://api.github.com/users/honix","html_url":"https://github.com/honix","followers_url":"https://api.github.com/users/honix/followers","following_url":"https://api.github.com/users/honix/following{/other_user}","gists_url":"https://api.github.com/users/honix/gists{/gist_id}","starred_url":"https://api.github.com/users/honix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/honix/subscriptions","organizations_url":"https://api.github.com/users/honix/orgs","repos_url":"https://api.github.com/users/honix/repos","events_url":"https://api.github.com/users/honix/events{/privacy}","received_events_url":"https://api.github.com/users/honix/received_events","type":"User","site_admin":false},{"login":"Bunlong","id":1308397,"avatar_url":"https://avatars0.githubusercontent.com/u/1308397?v=4","gravatar_id":"","url":"https://api.github.com/users/Bunlong","html_url":"https://github.com/Bunlong","followers_url":"https://api.github.com/users/Bunlong/followers","following_url":"https://api.github.com/users/Bunlong/following{/other_user}","gists_url":"https://api.github.com/users/Bunlong/gists{/gist_id}","starred_url":"https://api.github.com/users/Bunlong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bunlong/subscriptions","organizations_url":"https://api.github.com/users/Bunlong/orgs","repos_url":"https://api.github.com/users/Bunlong/repos","events_url":"https://api.github.com/users/Bunlong/events{/privacy}","received_events_url":"https://api.github.com/users/Bunlong/received_events","type":"User","site_admin":false}]
+0
+
