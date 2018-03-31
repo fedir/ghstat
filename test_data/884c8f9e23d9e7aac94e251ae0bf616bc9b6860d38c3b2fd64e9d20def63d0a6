@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:18:48 GMT
+Etag: W/"7c1823333618d0da643ce7e73d93993b"
+Link: <https://api.github.com/user/6923/followers?page=9>; rel="prev", <https://api.github.com/user/6923/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7CE:094F:2EC7F7F:596BFB7:5AC01758
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4935
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.031969
+X-Xss-Protection: 1; mode=block
+
+769
+[{"login":"prashantsekuri","id":11556188,"avatar_url":"https://avatars3.githubusercontent.com/u/11556188?v=4","gravatar_id":"","url":"https://api.github.com/users/prashantsekuri","html_url":"https://github.com/prashantsekuri","followers_url":"https://api.github.com/users/prashantsekuri/followers","following_url":"https://api.github.com/users/prashantsekuri/following{/other_user}","gists_url":"https://api.github.com/users/prashantsekuri/gists{/gist_id}","starred_url":"https://api.github.com/users/prashantsekuri/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/prashantsekuri/subscriptions","organizations_url":"https://api.github.com/users/prashantsekuri/orgs","repos_url":"https://api.github.com/users/prashantsekuri/repos","events_url":"https://api.github.com/users/prashantsekuri/events{/privacy}","received_events_url":"https://api.github.com/users/prashantsekuri/received_events","type":"User","site_admin":false},{"login":"IceDrinkerSHEN","id":26110389,"avatar_url":"https://avatars0.githubusercontent.com/u/26110389?v=4","gravatar_id":"","url":"https://api.github.com/users/IceDrinkerSHEN","html_url":"https://github.com/IceDrinkerSHEN","followers_url":"https://api.github.com/users/IceDrinkerSHEN/followers","following_url":"https://api.github.com/users/IceDrinkerSHEN/following{/other_user}","gists_url":"https://api.github.com/users/IceDrinkerSHEN/gists{/gist_id}","starred_url":"https://api.github.com/users/IceDrinkerSHEN/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IceDrinkerSHEN/subscriptions","organizations_url":"https://api.github.com/users/IceDrinkerSHEN/orgs","repos_url":"https://api.github.com/users/IceDrinkerSHEN/repos","events_url":"https://api.github.com/users/IceDrinkerSHEN/events{/privacy}","received_events_url":"https://api.github.com/users/IceDrinkerSHEN/received_events","type":"User","site_admin":false}]
+0
+

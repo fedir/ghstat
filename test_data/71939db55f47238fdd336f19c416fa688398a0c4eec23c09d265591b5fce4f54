@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:18:50 GMT
+Etag: W/"143d0ecbb35283f4838e84f60213bcb1"
+Link: <https://api.github.com/user/2789078/followers?page=1>; rel="prev", <https://api.github.com/user/2789078/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7C9:094D:1FA24E2:41A9956:5AC0175A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4875
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.029068
+X-Xss-Protection: 1; mode=block
+
+ac7
+[{"login":"PratikLunagaria","id":8949522,"avatar_url":"https://avatars3.githubusercontent.com/u/8949522?v=4","gravatar_id":"","url":"https://api.github.com/users/PratikLunagaria","html_url":"https://github.com/PratikLunagaria","followers_url":"https://api.github.com/users/PratikLunagaria/followers","following_url":"https://api.github.com/users/PratikLunagaria/following{/other_user}","gists_url":"https://api.github.com/users/PratikLunagaria/gists{/gist_id}","starred_url":"https://api.github.com/users/PratikLunagaria/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PratikLunagaria/subscriptions","organizations_url":"https://api.github.com/users/PratikLunagaria/orgs","repos_url":"https://api.github.com/users/PratikLunagaria/repos","events_url":"https://api.github.com/users/PratikLunagaria/events{/privacy}","received_events_url":"https://api.github.com/users/PratikLunagaria/received_events","type":"User","site_admin":false},{"login":"johnkushkorov","id":26551216,"avatar_url":"https://avatars1.githubusercontent.com/u/26551216?v=4","gravatar_id":"","url":"https://api.github.com/users/johnkushkorov","html_url":"https://github.com/johnkushkorov","followers_url":"https://api.github.com/users/johnkushkorov/followers","following_url":"https://api.github.com/users/johnkushkorov/following{/other_user}","gists_url":"https://api.github.com/users/johnkushkorov/gists{/gist_id}","starred_url":"https://api.github.com/users/johnkushkorov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnkushkorov/subscriptions","organizations_url":"https://api.github.com/users/johnkushkorov/orgs","repos_url":"https://api.github.com/users/johnkushkorov/repos","events_url":"https://api.github.com/users/johnkushkorov/events{/privacy}","received_events_url":"https://api.github.com/users/johnkushkorov/received_events","type":"User","site_admin":false},{"login":"tigertv","id":34801553,"avatar_url":"https://avatars0.githubusercontent.com/u/34801553?v=4","gravatar_id":"","url":"https://api.github.com/users/tigertv","html_url":"https://github.com/tigertv","followers_url":"https://api.github.com/users/tigertv/followers","following_url":"https://api.github.com/users/tigertv/following{/other_user}","gists_url":"https://api.github.com/users/tigertv/gists{/gist_id}","starred_url":"https://api.github.com/users/tigertv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tigertv/subscriptions","organizations_url":"https://api.github.com/users/tigertv/orgs","repos_url":"https://api.github.com/users/tigertv/repos","events_url":"https://api.github.com/users/tigertv/events{/privacy}","received_events_url":"https://api.github.com/users/tigertv/received_events","type":"User","site_admin":false}]
+0
+

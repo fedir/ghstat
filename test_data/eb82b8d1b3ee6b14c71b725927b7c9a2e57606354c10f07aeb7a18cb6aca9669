@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:18:49 GMT
+Etag: W/"322ad13d3673207f1055a68af2f1eae3"
+Link: <https://api.github.com/user/418747/followers?page=1>; rel="prev", <https://api.github.com/user/418747/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7C8:094F:2EC7FC0:596C01E:5AC01759
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4918
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.035273
+X-Xss-Protection: 1; mode=block
+
+6f9
+[{"login":"ucsdmath","id":12222464,"avatar_url":"https://avatars2.githubusercontent.com/u/12222464?v=4","gravatar_id":"","url":"https://api.github.com/users/ucsdmath","html_url":"https://github.com/ucsdmath","followers_url":"https://api.github.com/users/ucsdmath/followers","following_url":"https://api.github.com/users/ucsdmath/following{/other_user}","gists_url":"https://api.github.com/users/ucsdmath/gists{/gist_id}","starred_url":"https://api.github.com/users/ucsdmath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ucsdmath/subscriptions","organizations_url":"https://api.github.com/users/ucsdmath/orgs","repos_url":"https://api.github.com/users/ucsdmath/repos","events_url":"https://api.github.com/users/ucsdmath/events{/privacy}","received_events_url":"https://api.github.com/users/ucsdmath/received_events","type":"User","site_admin":false},{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false}]
+0
+

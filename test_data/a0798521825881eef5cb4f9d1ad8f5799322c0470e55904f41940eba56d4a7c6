@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:18:50 GMT
+Etag: W/"2d3ac016bb17b255866e1cefa2b70ae3"
+Link: <https://api.github.com/user/1610/followers?page=58>; rel="prev", <https://api.github.com/user/1610/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7D3:0953:2255C35:5C8828C:5AC0175A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4874
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.063303
+X-Xss-Protection: 1; mode=block
+
+6cd
+[{"login":"tigertv","id":34801553,"avatar_url":"https://avatars0.githubusercontent.com/u/34801553?v=4","gravatar_id":"","url":"https://api.github.com/users/tigertv","html_url":"https://github.com/tigertv","followers_url":"https://api.github.com/users/tigertv/followers","following_url":"https://api.github.com/users/tigertv/following{/other_user}","gists_url":"https://api.github.com/users/tigertv/gists{/gist_id}","starred_url":"https://api.github.com/users/tigertv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tigertv/subscriptions","organizations_url":"https://api.github.com/users/tigertv/orgs","repos_url":"https://api.github.com/users/tigertv/repos","events_url":"https://api.github.com/users/tigertv/events{/privacy}","received_events_url":"https://api.github.com/users/tigertv/received_events","type":"User","site_admin":false},{"login":"thigrush","id":37339876,"avatar_url":"https://avatars1.githubusercontent.com/u/37339876?v=4","gravatar_id":"","url":"https://api.github.com/users/thigrush","html_url":"https://github.com/thigrush","followers_url":"https://api.github.com/users/thigrush/followers","following_url":"https://api.github.com/users/thigrush/following{/other_user}","gists_url":"https://api.github.com/users/thigrush/gists{/gist_id}","starred_url":"https://api.github.com/users/thigrush/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thigrush/subscriptions","organizations_url":"https://api.github.com/users/thigrush/orgs","repos_url":"https://api.github.com/users/thigrush/repos","events_url":"https://api.github.com/users/thigrush/events{/privacy}","received_events_url":"https://api.github.com/users/thigrush/received_events","type":"User","site_admin":false}]
+0
+

@@ -49,6 +49,18 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Go frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv)
 
+## Python web frameworks rating
+
+* The most popular project is `flask`
+* The newest project is `sanic`
+* The project with the most active community is `pyramid`
+* The project with best errors resolving rate is `django`
+* The project with more commits is `django`
+* The project made by most notable top contributors is `flask`
+* The best project (taking in account placements in all competitions) is `django`
+
+[Detailed Python frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/python_frameworks.csv)
+
 ## Haskell frameworks rating
 
 * The most popular project is `yesod`

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:18:49 GMT
+Etag: W/"bcd6580dca9ba6be7f76046630f445db"
+Link: <https://api.github.com/user/837573/followers?page=9>; rel="prev", <https://api.github.com/user/837573/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7CD:094F:2EC7FC4:596C023:5AC01759
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4917
+X-Ratelimit-Reset: 1522539872
+X-Runtime-Rack: 0.044222
+X-Xss-Protection: 1; mode=block
+
+e0f
+[{"login":"Sahil0071","id":32039199,"avatar_url":"https://avatars2.githubusercontent.com/u/32039199?v=4","gravatar_id":"","url":"https://api.github.com/users/Sahil0071","html_url":"https://github.com/Sahil0071","followers_url":"https://api.github.com/users/Sahil0071/followers","following_url":"https://api.github.com/users/Sahil0071/following{/other_user}","gists_url":"https://api.github.com/users/Sahil0071/gists{/gist_id}","starred_url":"https://api.github.com/users/Sahil0071/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Sahil0071/subscriptions","organizations_url":"https://api.github.com/users/Sahil0071/orgs","repos_url":"https://api.github.com/users/Sahil0071/repos","events_url":"https://api.github.com/users/Sahil0071/events{/privacy}","received_events_url":"https://api.github.com/users/Sahil0071/received_events","type":"User","site_admin":false},{"login":"tushartrx","id":32602437,"avatar_url":"https://avatars2.githubusercontent.com/u/32602437?v=4","gravatar_id":"","url":"https://api.github.com/users/tushartrx","html_url":"https://github.com/tushartrx","followers_url":"https://api.github.com/users/tushartrx/followers","following_url":"https://api.github.com/users/tushartrx/following{/other_user}","gists_url":"https://api.github.com/users/tushartrx/gists{/gist_id}","starred_url":"https://api.github.com/users/tushartrx/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tushartrx/subscriptions","organizations_url":"https://api.github.com/users/tushartrx/orgs","repos_url":"https://api.github.com/users/tushartrx/repos","events_url":"https://api.github.com/users/tushartrx/events{/privacy}","received_events_url":"https://api.github.com/users/tushartrx/received_events","type":"User","site_admin":false},{"login":"billychou","id":3585362,"avatar_url":"https://avatars2.githubusercontent.com/u/3585362?v=4","gravatar_id":"","url":"https://api.github.com/users/billychou","html_url":"https://github.com/billychou","followers_url":"https://api.github.com/users/billychou/followers","following_url":"https://api.github.com/users/billychou/following{/other_user}","gists_url":"https://api.github.com/users/billychou/gists{/gist_id}","starred_url":"https://api.github.com/users/billychou/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/billychou/subscriptions","organizations_url":"https://api.github.com/users/billychou/orgs","repos_url":"https://api.github.com/users/billychou/repos","events_url":"https://api.github.com/users/billychou/events{/privacy}","received_events_url":"https://api.github.com/users/billychou/received_events","type":"User","site_admin":false},{"login":"michaeltroger","id":11340859,"avatar_url":"https://avatars1.githubusercontent.com/u/11340859?v=4","gravatar_id":"","url":"https://api.github.com/users/michaeltroger","html_url":"https://github.com/michaeltroger","followers_url":"https://api.github.com/users/michaeltroger/followers","following_url":"https://api.github.com/users/michaeltroger/following{/other_user}","gists_url":"https://api.github.com/users/michaeltroger/gists{/gist_id}","starred_url":"https://api.github.com/users/michaeltroger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/michaeltroger/subscriptions","organizations_url":"https://api.github.com/users/michaeltroger/orgs","repos_url":"https://api.github.com/users/michaeltroger/repos","events_url":"https://api.github.com/users/michaeltroger/events{/privacy}","received_events_url":"https://api.github.com/users/michaeltroger/received_events","type":"User","site_admin":false}]
+0
+
