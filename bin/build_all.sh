@@ -1,11 +1,10 @@
 # web frameworks
-bash bin/go_stats.sh
-bash bin/haskell_stats.sh
-bash bin/java_stats.sh
-bash bin/js_stats.sh
-bash bin/php_stats.sh
-bash bin/all_stats.sh
-# php cms
-bash bin/php_cms_stats.sh
-# java cms
-bash bin/java_cms_stats.sh
+bash bin/go_frameworks.sh
+bash bin/haskell_frameworks.sh
+bash bin/java_frameworks.sh
+bash bin/js_frameworks.sh
+bash bin/php_frameworks.sh
+bash bin/all_frameworks.sh
+# cms
+bash bin/php_cms.sh
+bash bin/java_cms.sh
