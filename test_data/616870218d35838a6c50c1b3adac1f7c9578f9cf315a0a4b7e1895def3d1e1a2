@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:41 GMT
+Etag: W/"bf27bfd3fc48bdc0cfd753030f48c04d"
+Link: <https://api.github.com/user/101934/followers?page=2>; rel="prev", <https://api.github.com/user/101934/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9DF:094A:144D61C:2CF54D6:5AC01F85
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4699
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.026751
+X-Xss-Protection: 1; mode=block
+
+721
+[{"login":"Gilbert-Wong","id":20479699,"avatar_url":"https://avatars0.githubusercontent.com/u/20479699?v=4","gravatar_id":"","url":"https://api.github.com/users/Gilbert-Wong","html_url":"https://github.com/Gilbert-Wong","followers_url":"https://api.github.com/users/Gilbert-Wong/followers","following_url":"https://api.github.com/users/Gilbert-Wong/following{/other_user}","gists_url":"https://api.github.com/users/Gilbert-Wong/gists{/gist_id}","starred_url":"https://api.github.com/users/Gilbert-Wong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Gilbert-Wong/subscriptions","organizations_url":"https://api.github.com/users/Gilbert-Wong/orgs","repos_url":"https://api.github.com/users/Gilbert-Wong/repos","events_url":"https://api.github.com/users/Gilbert-Wong/events{/privacy}","received_events_url":"https://api.github.com/users/Gilbert-Wong/received_events","type":"User","site_admin":false},{"login":"hirokimoto","id":22752054,"avatar_url":"https://avatars2.githubusercontent.com/u/22752054?v=4","gravatar_id":"","url":"https://api.github.com/users/hirokimoto","html_url":"https://github.com/hirokimoto","followers_url":"https://api.github.com/users/hirokimoto/followers","following_url":"https://api.github.com/users/hirokimoto/following{/other_user}","gists_url":"https://api.github.com/users/hirokimoto/gists{/gist_id}","starred_url":"https://api.github.com/users/hirokimoto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hirokimoto/subscriptions","organizations_url":"https://api.github.com/users/hirokimoto/orgs","repos_url":"https://api.github.com/users/hirokimoto/repos","events_url":"https://api.github.com/users/hirokimoto/events{/privacy}","received_events_url":"https://api.github.com/users/hirokimoto/received_events","type":"User","site_admin":false}]
+0
+

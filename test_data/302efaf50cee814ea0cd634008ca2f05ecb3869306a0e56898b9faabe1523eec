@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:40 GMT
+Etag: W/"5b6e3c53f1af26232c5fe1d3019ea4b5"
+Link: <https://api.github.com/user/24722/followers?page=3>; rel="prev", <https://api.github.com/user/24722/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9E4:094F:2EF8855:59C3B27:5AC01F84
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4742
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.040579
+X-Xss-Protection: 1; mode=block
+
+a77
+[{"login":"dunyakirkali","id":698335,"avatar_url":"https://avatars1.githubusercontent.com/u/698335?v=4","gravatar_id":"","url":"https://api.github.com/users/dunyakirkali","html_url":"https://github.com/dunyakirkali","followers_url":"https://api.github.com/users/dunyakirkali/followers","following_url":"https://api.github.com/users/dunyakirkali/following{/other_user}","gists_url":"https://api.github.com/users/dunyakirkali/gists{/gist_id}","starred_url":"https://api.github.com/users/dunyakirkali/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dunyakirkali/subscriptions","organizations_url":"https://api.github.com/users/dunyakirkali/orgs","repos_url":"https://api.github.com/users/dunyakirkali/repos","events_url":"https://api.github.com/users/dunyakirkali/events{/privacy}","received_events_url":"https://api.github.com/users/dunyakirkali/received_events","type":"User","site_admin":false},{"login":"goofansu","id":1143191,"avatar_url":"https://avatars2.githubusercontent.com/u/1143191?v=4","gravatar_id":"","url":"https://api.github.com/users/goofansu","html_url":"https://github.com/goofansu","followers_url":"https://api.github.com/users/goofansu/followers","following_url":"https://api.github.com/users/goofansu/following{/other_user}","gists_url":"https://api.github.com/users/goofansu/gists{/gist_id}","starred_url":"https://api.github.com/users/goofansu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/goofansu/subscriptions","organizations_url":"https://api.github.com/users/goofansu/orgs","repos_url":"https://api.github.com/users/goofansu/repos","events_url":"https://api.github.com/users/goofansu/events{/privacy}","received_events_url":"https://api.github.com/users/goofansu/received_events","type":"User","site_admin":false},{"login":"linjunpop","id":214616,"avatar_url":"https://avatars0.githubusercontent.com/u/214616?v=4","gravatar_id":"","url":"https://api.github.com/users/linjunpop","html_url":"https://github.com/linjunpop","followers_url":"https://api.github.com/users/linjunpop/followers","following_url":"https://api.github.com/users/linjunpop/following{/other_user}","gists_url":"https://api.github.com/users/linjunpop/gists{/gist_id}","starred_url":"https://api.github.com/users/linjunpop/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linjunpop/subscriptions","organizations_url":"https://api.github.com/users/linjunpop/orgs","repos_url":"https://api.github.com/users/linjunpop/repos","events_url":"https://api.github.com/users/linjunpop/events{/privacy}","received_events_url":"https://api.github.com/users/linjunpop/received_events","type":"User","site_admin":false}]
+0
+

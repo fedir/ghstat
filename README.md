@@ -73,6 +73,18 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Clojure frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/clojure_frameworks.csv)
 
+## Erlang web frameworks rating
+
+* The most popular project is `cowboy`
+* The newest project is `n2o`
+* The project with the most active community is `giallo`
+* The project with best errors resolving rate is `giallo`
+* The project with more commits is `zotonic`
+* The project made by most notable top contributors is `mochiweb`
+* The best project (taking in account placements in all competitions) is `n2o`
+
+[Detailed Erlang frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/erlang_frameworks.csv)
+
 ## Haskell frameworks rating
 
 * The most popular project is `yesod`

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:40 GMT
+Etag: W/"596f7e1657d3d1378828c1ca325fc475"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9E2:094A:144D60D:2CF54B8:5AC01F84
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4717
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.029689
+X-Xss-Protection: 1; mode=block
+
+703
+[{"login":"adam-ludgate","id":8349529,"avatar_url":"https://avatars3.githubusercontent.com/u/8349529?v=4","gravatar_id":"","url":"https://api.github.com/users/adam-ludgate","html_url":"https://github.com/adam-ludgate","followers_url":"https://api.github.com/users/adam-ludgate/followers","following_url":"https://api.github.com/users/adam-ludgate/following{/other_user}","gists_url":"https://api.github.com/users/adam-ludgate/gists{/gist_id}","starred_url":"https://api.github.com/users/adam-ludgate/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adam-ludgate/subscriptions","organizations_url":"https://api.github.com/users/adam-ludgate/orgs","repos_url":"https://api.github.com/users/adam-ludgate/repos","events_url":"https://api.github.com/users/adam-ludgate/events{/privacy}","received_events_url":"https://api.github.com/users/adam-ludgate/received_events","type":"User","site_admin":false},{"login":"soegaard","id":461765,"avatar_url":"https://avatars2.githubusercontent.com/u/461765?v=4","gravatar_id":"","url":"https://api.github.com/users/soegaard","html_url":"https://github.com/soegaard","followers_url":"https://api.github.com/users/soegaard/followers","following_url":"https://api.github.com/users/soegaard/following{/other_user}","gists_url":"https://api.github.com/users/soegaard/gists{/gist_id}","starred_url":"https://api.github.com/users/soegaard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soegaard/subscriptions","organizations_url":"https://api.github.com/users/soegaard/orgs","repos_url":"https://api.github.com/users/soegaard/repos","events_url":"https://api.github.com/users/soegaard/events{/privacy}","received_events_url":"https://api.github.com/users/soegaard/received_events","type":"User","site_admin":false}]
+0
+

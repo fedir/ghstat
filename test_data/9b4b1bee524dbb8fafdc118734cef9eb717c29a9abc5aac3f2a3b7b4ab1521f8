@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:42 GMT
+Etag: W/"debac968a116272ee9fd586afb419111"
+Last-Modified: Sat, 31 Mar 2018 16:26:10 GMT
+Link: <https://api.github.com/repositories/1847706/contributors?page=2>; rel="prev", <https://api.github.com/repositories/1847706/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9E2:094A:144D645:2CF551C:5AC01F86
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4668
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.052317
+X-Xss-Protection: 1; mode=block
+
+7bd
+[{"login":"sistema-correspondente","id":13875976,"avatar_url":"https://avatars0.githubusercontent.com/u/13875976?v=4","gravatar_id":"","url":"https://api.github.com/users/sistema-correspondente","html_url":"https://github.com/sistema-correspondente","followers_url":"https://api.github.com/users/sistema-correspondente/followers","following_url":"https://api.github.com/users/sistema-correspondente/following{/other_user}","gists_url":"https://api.github.com/users/sistema-correspondente/gists{/gist_id}","starred_url":"https://api.github.com/users/sistema-correspondente/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sistema-correspondente/subscriptions","organizations_url":"https://api.github.com/users/sistema-correspondente/orgs","repos_url":"https://api.github.com/users/sistema-correspondente/repos","events_url":"https://api.github.com/users/sistema-correspondente/events{/privacy}","received_events_url":"https://api.github.com/users/sistema-correspondente/received_events","type":"User","site_admin":false,"contributions":1},{"login":"tantemelki","id":26347298,"avatar_url":"https://avatars2.githubusercontent.com/u/26347298?v=4","gravatar_id":"","url":"https://api.github.com/users/tantemelki","html_url":"https://github.com/tantemelki","followers_url":"https://api.github.com/users/tantemelki/followers","following_url":"https://api.github.com/users/tantemelki/following{/other_user}","gists_url":"https://api.github.com/users/tantemelki/gists{/gist_id}","starred_url":"https://api.github.com/users/tantemelki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tantemelki/subscriptions","organizations_url":"https://api.github.com/users/tantemelki/orgs","repos_url":"https://api.github.com/users/tantemelki/repos","events_url":"https://api.github.com/users/tantemelki/events{/privacy}","received_events_url":"https://api.github.com/users/tantemelki/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

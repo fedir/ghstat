@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:40 GMT
+Etag: W/"18564670a328cec6c71b42155ec4c3d9"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9DE:0953:226DED8:5CDECD3:5AC01F84
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4728
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.028751
+X-Xss-Protection: 1; mode=block
+
+6d7
+[{"login":"nmirra1992","id":9323271,"avatar_url":"https://avatars1.githubusercontent.com/u/9323271?v=4","gravatar_id":"","url":"https://api.github.com/users/nmirra1992","html_url":"https://github.com/nmirra1992","followers_url":"https://api.github.com/users/nmirra1992/followers","following_url":"https://api.github.com/users/nmirra1992/following{/other_user}","gists_url":"https://api.github.com/users/nmirra1992/gists{/gist_id}","starred_url":"https://api.github.com/users/nmirra1992/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nmirra1992/subscriptions","organizations_url":"https://api.github.com/users/nmirra1992/orgs","repos_url":"https://api.github.com/users/nmirra1992/repos","events_url":"https://api.github.com/users/nmirra1992/events{/privacy}","received_events_url":"https://api.github.com/users/nmirra1992/received_events","type":"User","site_admin":false},{"login":"rubond","id":12397272,"avatar_url":"https://avatars2.githubusercontent.com/u/12397272?v=4","gravatar_id":"","url":"https://api.github.com/users/rubond","html_url":"https://github.com/rubond","followers_url":"https://api.github.com/users/rubond/followers","following_url":"https://api.github.com/users/rubond/following{/other_user}","gists_url":"https://api.github.com/users/rubond/gists{/gist_id}","starred_url":"https://api.github.com/users/rubond/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rubond/subscriptions","organizations_url":"https://api.github.com/users/rubond/orgs","repos_url":"https://api.github.com/users/rubond/repos","events_url":"https://api.github.com/users/rubond/events{/privacy}","received_events_url":"https://api.github.com/users/rubond/received_events","type":"User","site_admin":false}]
+0
+

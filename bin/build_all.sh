@@ -6,6 +6,7 @@ bash bin/js_frameworks.sh
 bash bin/php_frameworks.sh
 bash bin/python_frameworks.sh
 bash bin/clojure_frameworks.sh
+bash bin/erlang_frameworks.sh
 bash bin/all_frameworks.sh
 # cms
 bash bin/php_cms.sh

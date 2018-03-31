@@ -1,0 +1,1 @@
+./ghstat -r tsujigiri/axiom,ChicagoBoss/ChicagoBoss,ninenines/cowboy,kivra/giallo,mochi/mochiweb,synrc/n2o,nitrogen/nitrogen,zotonic/zotonic -f stats/erlang_frameworks.csv

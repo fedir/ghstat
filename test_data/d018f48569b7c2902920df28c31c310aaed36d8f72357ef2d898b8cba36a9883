@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:38 GMT
+Etag: W/"dabc0c63256cf0ea61802a5e1aa19bb1"
+Last-Modified: Thu, 17 Mar 2011 21:22:09 GMT
+Link: <https://api.github.com/repositories/1460612/commits?page=1>; rel="first", <https://api.github.com/repositories/1460612/commits?page=57>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9E5:094F:2EF87E3:59C3A30:5AC01F82
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4780
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.084741
+X-Xss-Protection: 1; mode=block
+
+148d
+[{"sha":"a77b906b9f753b7ca30f4979551af0ac699b34ad","commit":{"author":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:22:09Z"},"committer":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:22:09Z"},"message":"Don't crash on Transport:controlling_process return in the acceptor.\n\nCrashes can happen if we close the connection too fast, leading to\ncontrolling_process returning {error, closed} instead of ok. This can\nhappen when we receive bad requests, reply with 404 Not Found and more.\nSimply do not match the return value of controlling_process to avoid this.","tree":{"sha":"15130e0bf61cb4d6ed2ac5e06cfc2c5e0f847450","url":"https://api.github.com/repos/ninenines/cowboy/git/trees/15130e0bf61cb4d6ed2ac5e06cfc2c5e0f847450"},"url":"https://api.github.com/repos/ninenines/cowboy/git/commits/a77b906b9f753b7ca30f4979551af0ac699b34ad","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ninenines/cowboy/commits/a77b906b9f753b7ca30f4979551af0ac699b34ad","html_url":"https://github.com/ninenines/cowboy/commit/a77b906b9f753b7ca30f4979551af0ac699b34ad","comments_url":"https://api.github.com/repos/ninenines/cowboy/commits/a77b906b9f753b7ca30f4979551af0ac699b34ad/comments","author":null,"committer":null,"parents":[{"sha":"0069e2465d5b8343e06775a3f85693869a05f3c4","url":"https://api.github.com/repos/ninenines/cowboy/commits/0069e2465d5b8343e06775a3f85693869a05f3c4","html_url":"https://github.com/ninenines/cowboy/commit/0069e2465d5b8343e06775a3f85693869a05f3c4"}]},{"sha":"0069e2465d5b8343e06775a3f85693869a05f3c4","commit":{"author":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:06:39Z"},"committer":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:06:39Z"},"message":"Remove a superfluous terminate call in error_terminate.","tree":{"sha":"aee6fd99a872e476b9eb5b983b93928e212caabc","url":"https://api.github.com/repos/ninenines/cowboy/git/trees/aee6fd99a872e476b9eb5b983b93928e212caabc"},"url":"https://api.github.com/repos/ninenines/cowboy/git/commits/0069e2465d5b8343e06775a3f85693869a05f3c4","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ninenines/cowboy/commits/0069e2465d5b8343e06775a3f85693869a05f3c4","html_url":"https://github.com/ninenines/cowboy/commit/0069e2465d5b8343e06775a3f85693869a05f3c4","comments_url":"https://api.github.com/repos/ninenines/cowboy/commits/0069e2465d5b8343e06775a3f85693869a05f3c4/comments","author":null,"committer":null,"parents":[{"sha":"786a05a129d9aeff7f88deaf6d9e4f06b935b665","url":"https://api.github.com/repos/ninenines/cowboy/commits/786a05a129d9aeff7f88deaf6d9e4f06b935b665","html_url":"https://github.com/ninenines/cowboy/commit/786a05a129d9aeff7f88deaf6d9e4f06b935b665"}]},{"sha":"786a05a129d9aeff7f88deaf6d9e4f06b935b665","commit":{"author":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:02:47Z"},"committer":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-17T21:02:47Z"},"message":"Run the dispatcher as early as possible to quickly dismiss 404 errors.","tree":{"sha":"1030d9eeb2904d68ece316c797a155b989638e5d","url":"https://api.github.com/repos/ninenines/cowboy/git/trees/1030d9eeb2904d68ece316c797a155b989638e5d"},"url":"https://api.github.com/repos/ninenines/cowboy/git/commits/786a05a129d9aeff7f88deaf6d9e4f06b935b665","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ninenines/cowboy/commits/786a05a129d9aeff7f88deaf6d9e4f06b935b665","html_url":"https://github.com/ninenines/cowboy/commit/786a05a129d9aeff7f88deaf6d9e4f06b935b665","comments_url":"https://api.github.com/repos/ninenines/cowboy/commits/786a05a129d9aeff7f88deaf6d9e4f06b935b665/comments","author":null,"committer":null,"parents":[{"sha":"da7225594010d0df20779a0915474ccedd25d7cf","url":"https://api.github.com/repos/ninenines/cowboy/commits/da7225594010d0df20779a0915474ccedd25d7cf","html_url":"https://github.com/ninenines/cowboy/commit/da7225594010d0df20779a0915474ccedd25d7cf"}]},{"sha":"da7225594010d0df20779a0915474ccedd25d7cf","commit":{"author":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-07T21:59:22Z"},"committer":{"name":"Loïc Hoguin","email":"essen@dev-extend.eu","date":"2011-03-16T23:29:35Z"},"message":"Initial commit.","tree":{"sha":"eb2c0485076124dec9967c650daca24440786a96","url":"https://api.github.com/repos/ninenines/cowboy/git/trees/eb2c0485076124dec9967c650daca24440786a96"},"url":"https://api.github.com/repos/ninenines/cowboy/git/commits/da7225594010d0df20779a0915474ccedd25d7cf","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ninenines/cowboy/commits/da7225594010d0df20779a0915474ccedd25d7cf","html_url":"https://github.com/ninenines/cowboy/commit/da7225594010d0df20779a0915474ccedd25d7cf","comments_url":"https://api.github.com/repos/ninenines/cowboy/commits/da7225594010d0df20779a0915474ccedd25d7cf/comments","author":null,"committer":null,"parents":[]}]
+0
+

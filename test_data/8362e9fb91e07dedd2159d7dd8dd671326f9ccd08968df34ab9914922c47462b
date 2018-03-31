@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 31 Mar 2018 23:53:41 GMT
+Etag: W/"780a2de28c7cfdbbce0cde9d6f07d38b"
+Link: <https://api.github.com/user/72965/followers?page=2>; rel="prev", <https://api.github.com/user/72965/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9E4:094F:2EF88BF:59C3BFB:5AC01F85
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4695
+X-Ratelimit-Reset: 1522543511
+X-Runtime-Rack: 0.029810
+X-Xss-Protection: 1; mode=block
+
+39d
+[{"login":"samneluomark","id":37070955,"avatar_url":"https://avatars2.githubusercontent.com/u/37070955?v=4","gravatar_id":"","url":"https://api.github.com/users/samneluomark","html_url":"https://github.com/samneluomark","followers_url":"https://api.github.com/users/samneluomark/followers","following_url":"https://api.github.com/users/samneluomark/following{/other_user}","gists_url":"https://api.github.com/users/samneluomark/gists{/gist_id}","starred_url":"https://api.github.com/users/samneluomark/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samneluomark/subscriptions","organizations_url":"https://api.github.com/users/samneluomark/orgs","repos_url":"https://api.github.com/users/samneluomark/repos","events_url":"https://api.github.com/users/samneluomark/events{/privacy}","received_events_url":"https://api.github.com/users/samneluomark/received_events","type":"User","site_admin":false}]
+0
+
