@@ -37,7 +37,9 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 * Total commits - more is better
   * More precisely, it's total commits by existing contributors, commits of deleted accounts, will not be taken in account
 
-## Go web frameworks rating
+## Ratings
+
+### Go web frameworks rating
 
 * The most popular project is `hugo`
 * The newest project is `iris`
@@ -49,7 +51,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Go frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv)
 
-## Python web frameworks rating
+### Python web frameworks rating
 
 * The most popular project is `flask`
 * The newest project is `sanic`
@@ -61,7 +63,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Python frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/python_frameworks.csv)
 
-## Clojure web frameworks rating
+### Clojure web frameworks rating
 
 * The most popular project is `compojure`
 * The newest project is `fulcro`
@@ -73,7 +75,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Clojure frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/clojure_frameworks.csv)
 
-## Erlang web frameworks rating
+### Erlang web frameworks rating
 
 * The most popular project is `cowboy`
 * The newest project is `n2o`
@@ -85,7 +87,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Erlang frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/erlang_frameworks.csv)
 
-## Haskell frameworks rating
+### Haskell frameworks rating
 
 * The most popular project is `yesod`
 * The newest project is `magicbane`
@@ -97,7 +99,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Haskell frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv)
 
-## Java frameworks rating
+### Java frameworks rating
 
 * The most popular project is `playframework`
 * The newest project is `bootique`
@@ -109,7 +111,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Java frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
 
-## JS frameworks rating
+### JS frameworks rating
 
 * The most popular project is `react`
 * The newest project is `hyperapp`
@@ -121,7 +123,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed JS frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv)
 
-## PHP frameworks rating
+### PHP frameworks rating
 
 * The most popular project is `symfony`
 * The newest project is `framework`
@@ -133,7 +135,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed PHP frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv)
 
-## Cross-language frameworks rating
+### Cross-language frameworks rating
 
 * The most popular project is `react`
 * The newest project is `magicbane`
@@ -145,7 +147,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed cross-language frameworks rating](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
 
-## PHP CMS statistics added
+### PHP CMS statistics rating
 
 * The most popular project is `grav`
 * The newest project is `roadiz`
@@ -157,7 +159,7 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed PHP CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/php_cms.csv)
 
-## Java CMS statistics added
+### Java CMS statistics rating
 
 * The most popular project is `liferay-portal`
 * The newest project is `mesh`
