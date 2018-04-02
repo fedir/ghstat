@@ -131,7 +131,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 	closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
 	contributionStatistics := getContributionStatistics(rKey, tmpFolder, debug)
 	ghProjectData := []string{
-		repositoryData.Name,
+		repositoryData.FullName,
 		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
 		fmt.Sprintf("%s", func(a string) string {
 			if a == "" {
