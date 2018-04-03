@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 25 Mar 2018 17:39:48 GMT
-Etag: W/"1fca6a5c23058f9e71a69d4ca4544bb2"
+Date: Tue, 03 Apr 2018 00:59:36 GMT
+Etag: W/"f9f76d2e86433704839f8574071bf3fe"
 Link: <https://api.github.com/user/7253840/followers?page=2>; rel="prev", <https://api.github.com/user/7253840/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB03:5F58:455BFC9:9BF14F6:5AB7DEE3
+X-Github-Request-Id: CBF4:16B5:2E183B:58514E:5AC2D1F7
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4849
-X-Ratelimit-Reset: 1522002522
-X-Runtime-Rack: 0.039641
+X-Ratelimit-Remaining: 3891
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.037688
 X-Xss-Protection: 1; mode=block
 
-36d
-[{"login":"AyoGitNg","id":13318431,"avatar_url":"https://avatars2.githubusercontent.com/u/13318431?v=4","gravatar_id":"","url":"https://api.github.com/users/AyoGitNg","html_url":"https://github.com/AyoGitNg","followers_url":"https://api.github.com/users/AyoGitNg/followers","following_url":"https://api.github.com/users/AyoGitNg/following{/other_user}","gists_url":"https://api.github.com/users/AyoGitNg/gists{/gist_id}","starred_url":"https://api.github.com/users/AyoGitNg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AyoGitNg/subscriptions","organizations_url":"https://api.github.com/users/AyoGitNg/orgs","repos_url":"https://api.github.com/users/AyoGitNg/repos","events_url":"https://api.github.com/users/AyoGitNg/events{/privacy}","received_events_url":"https://api.github.com/users/AyoGitNg/received_events","type":"User","site_admin":false}]
+11a7
+[{"login":"AyoGitNg","id":13318431,"avatar_url":"https://avatars2.githubusercontent.com/u/13318431?v=4","gravatar_id":"","url":"https://api.github.com/users/AyoGitNg","html_url":"https://github.com/AyoGitNg","followers_url":"https://api.github.com/users/AyoGitNg/followers","following_url":"https://api.github.com/users/AyoGitNg/following{/other_user}","gists_url":"https://api.github.com/users/AyoGitNg/gists{/gist_id}","starred_url":"https://api.github.com/users/AyoGitNg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AyoGitNg/subscriptions","organizations_url":"https://api.github.com/users/AyoGitNg/orgs","repos_url":"https://api.github.com/users/AyoGitNg/repos","events_url":"https://api.github.com/users/AyoGitNg/events{/privacy}","received_events_url":"https://api.github.com/users/AyoGitNg/received_events","type":"User","site_admin":false},{"login":"MeteALANLI","id":9418142,"avatar_url":"https://avatars0.githubusercontent.com/u/9418142?v=4","gravatar_id":"","url":"https://api.github.com/users/MeteALANLI","html_url":"https://github.com/MeteALANLI","followers_url":"https://api.github.com/users/MeteALANLI/followers","following_url":"https://api.github.com/users/MeteALANLI/following{/other_user}","gists_url":"https://api.github.com/users/MeteALANLI/gists{/gist_id}","starred_url":"https://api.github.com/users/MeteALANLI/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MeteALANLI/subscriptions","organizations_url":"https://api.github.com/users/MeteALANLI/orgs","repos_url":"https://api.github.com/users/MeteALANLI/repos","events_url":"https://api.github.com/users/MeteALANLI/events{/privacy}","received_events_url":"https://api.github.com/users/MeteALANLI/received_events","type":"User","site_admin":false},{"login":"josefelipetto","id":2763539,"avatar_url":"https://avatars2.githubusercontent.com/u/2763539?v=4","gravatar_id":"","url":"https://api.github.com/users/josefelipetto","html_url":"https://github.com/josefelipetto","followers_url":"https://api.github.com/users/josefelipetto/followers","following_url":"https://api.github.com/users/josefelipetto/following{/other_user}","gists_url":"https://api.github.com/users/josefelipetto/gists{/gist_id}","starred_url":"https://api.github.com/users/josefelipetto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/josefelipetto/subscriptions","organizations_url":"https://api.github.com/users/josefelipetto/orgs","repos_url":"https://api.github.com/users/josefelipetto/repos","events_url":"https://api.github.com/users/josefelipetto/events{/privacy}","received_events_url":"https://api.github.com/users/josefelipetto/received_events","type":"User","site_admin":false},{"login":"whsol","id":8373937,"avatar_url":"https://avatars2.githubusercontent.com/u/8373937?v=4","gravatar_id":"","url":"https://api.github.com/users/whsol","html_url":"https://github.com/whsol","followers_url":"https://api.github.com/users/whsol/followers","following_url":"https://api.github.com/users/whsol/following{/other_user}","gists_url":"https://api.github.com/users/whsol/gists{/gist_id}","starred_url":"https://api.github.com/users/whsol/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/whsol/subscriptions","organizations_url":"https://api.github.com/users/whsol/orgs","repos_url":"https://api.github.com/users/whsol/repos","events_url":"https://api.github.com/users/whsol/events{/privacy}","received_events_url":"https://api.github.com/users/whsol/received_events","type":"User","site_admin":false},{"login":"KonstantinObuhov","id":15628982,"avatar_url":"https://avatars3.githubusercontent.com/u/15628982?v=4","gravatar_id":"","url":"https://api.github.com/users/KonstantinObuhov","html_url":"https://github.com/KonstantinObuhov","followers_url":"https://api.github.com/users/KonstantinObuhov/followers","following_url":"https://api.github.com/users/KonstantinObuhov/following{/other_user}","gists_url":"https://api.github.com/users/KonstantinObuhov/gists{/gist_id}","starred_url":"https://api.github.com/users/KonstantinObuhov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KonstantinObuhov/subscriptions","organizations_url":"https://api.github.com/users/KonstantinObuhov/orgs","repos_url":"https://api.github.com/users/KonstantinObuhov/repos","events_url":"https://api.github.com/users/KonstantinObuhov/events{/privacy}","received_events_url":"https://api.github.com/users/KonstantinObuhov/received_events","type":"User","site_admin":false}]
 0
 

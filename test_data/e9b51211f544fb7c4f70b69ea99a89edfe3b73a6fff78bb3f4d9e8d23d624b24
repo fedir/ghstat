@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Apr 2018 01:05:11 GMT
+Etag: W/"125d9999a96b96a5df003822e266273c"
+Link: <https://api.github.com/user/11868120/followers?page=2>; rel="prev", <https://api.github.com/user/11868120/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CCDA:16B3:1E5359:40A046:5AC2D347
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3114
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.031920
+X-Xss-Protection: 1; mode=block
+
+39b
+[{"login":"udithaindika","id":1488876,"avatar_url":"https://avatars3.githubusercontent.com/u/1488876?v=4","gravatar_id":"","url":"https://api.github.com/users/udithaindika","html_url":"https://github.com/udithaindika","followers_url":"https://api.github.com/users/udithaindika/followers","following_url":"https://api.github.com/users/udithaindika/following{/other_user}","gists_url":"https://api.github.com/users/udithaindika/gists{/gist_id}","starred_url":"https://api.github.com/users/udithaindika/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udithaindika/subscriptions","organizations_url":"https://api.github.com/users/udithaindika/orgs","repos_url":"https://api.github.com/users/udithaindika/repos","events_url":"https://api.github.com/users/udithaindika/events{/privacy}","received_events_url":"https://api.github.com/users/udithaindika/received_events","type":"User","site_admin":false}]
+0
+

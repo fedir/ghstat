@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Apr 2018 00:58:52 GMT
+Etag: W/"55c731c1ff18d3a6faa92153745e1e81"
+Last-Modified: Wed, 13 Jul 2005 16:56:05 GMT
+Link: <https://api.github.com/repositories/4164482/commits?page=1>; rel="first", <https://api.github.com/repositories/4164482/commits?page=853>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB44:16B5:2E072F:5832A7:5AC2D1CC
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4324
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.313946
+X-Xss-Protection: 1; mode=block
+
+b2e
+[{"sha":"d6ded0e91bcdd2a8f7a221f6a5552a33fe545359","commit":{"author":{"name":"Jacob Kaplan-Moss","email":"jacob@jacobian.org","date":"2005-07-13T16:56:05Z"},"committer":{"name":"Jacob Kaplan-Moss","email":"jacob@jacobian.org","date":"2005-07-13T16:56:05Z"},"message":"Created basic repository structure\n\ngit-svn-id: http://code.djangoproject.com/svn/django/trunk@1 bcc190cf-cafb-0310-a4f2-bffc1f526a37","tree":{"sha":"4b825dc642cb6eb9a060e54bf8d69288fbee4904","url":"https://api.github.com/repos/django/django/git/trees/4b825dc642cb6eb9a060e54bf8d69288fbee4904"},"url":"https://api.github.com/repos/django/django/git/commits/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359","comment_count":9,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/django/django/commits/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359","html_url":"https://github.com/django/django/commit/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359","comments_url":"https://api.github.com/repos/django/django/commits/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359/comments","author":{"login":"jacobian","id":21148,"avatar_url":"https://avatars1.githubusercontent.com/u/21148?v=4","gravatar_id":"","url":"https://api.github.com/users/jacobian","html_url":"https://github.com/jacobian","followers_url":"https://api.github.com/users/jacobian/followers","following_url":"https://api.github.com/users/jacobian/following{/other_user}","gists_url":"https://api.github.com/users/jacobian/gists{/gist_id}","starred_url":"https://api.github.com/users/jacobian/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jacobian/subscriptions","organizations_url":"https://api.github.com/users/jacobian/orgs","repos_url":"https://api.github.com/users/jacobian/repos","events_url":"https://api.github.com/users/jacobian/events{/privacy}","received_events_url":"https://api.github.com/users/jacobian/received_events","type":"User","site_admin":false},"committer":{"login":"jacobian","id":21148,"avatar_url":"https://avatars1.githubusercontent.com/u/21148?v=4","gravatar_id":"","url":"https://api.github.com/users/jacobian","html_url":"https://github.com/jacobian","followers_url":"https://api.github.com/users/jacobian/followers","following_url":"https://api.github.com/users/jacobian/following{/other_user}","gists_url":"https://api.github.com/users/jacobian/gists{/gist_id}","starred_url":"https://api.github.com/users/jacobian/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jacobian/subscriptions","organizations_url":"https://api.github.com/users/jacobian/orgs","repos_url":"https://api.github.com/users/jacobian/repos","events_url":"https://api.github.com/users/jacobian/events{/privacy}","received_events_url":"https://api.github.com/users/jacobian/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

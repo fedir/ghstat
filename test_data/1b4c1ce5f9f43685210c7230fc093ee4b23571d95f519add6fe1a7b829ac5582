@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 24 Mar 2018 12:30:20 GMT
-Etag: W/"1e5b1d91547bfa77ddccdc58dbc849e5"
+Date: Tue, 03 Apr 2018 01:05:11 GMT
+Etag: W/"8c2e673d7325e8c7c2bf65b8eb484a0b"
 Link: <https://api.github.com/user/2485545/followers?page=2>; rel="prev", <https://api.github.com/user/2485545/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D072:5F57:3DBD649:80B4A1A:5AB644DC
+X-Github-Request-Id: CCDA:16B3:1E5337:40A004:5AC2D347
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4722
-X-Ratelimit-Reset: 1521897066
-X-Runtime-Rack: 0.037372
+X-Ratelimit-Remaining: 3134
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.035777
 X-Xss-Protection: 1; mode=block
 
-385
-[{"login":"mjoellnier","id":19910271,"avatar_url":"https://avatars2.githubusercontent.com/u/19910271?v=4","gravatar_id":"","url":"https://api.github.com/users/mjoellnier","html_url":"https://github.com/mjoellnier","followers_url":"https://api.github.com/users/mjoellnier/followers","following_url":"https://api.github.com/users/mjoellnier/following{/other_user}","gists_url":"https://api.github.com/users/mjoellnier/gists{/gist_id}","starred_url":"https://api.github.com/users/mjoellnier/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mjoellnier/subscriptions","organizations_url":"https://api.github.com/users/mjoellnier/orgs","repos_url":"https://api.github.com/users/mjoellnier/repos","events_url":"https://api.github.com/users/mjoellnier/events{/privacy}","received_events_url":"https://api.github.com/users/mjoellnier/received_events","type":"User","site_admin":false}]
+75b
+[{"login":"mjoellnier","id":19910271,"avatar_url":"https://avatars2.githubusercontent.com/u/19910271?v=4","gravatar_id":"","url":"https://api.github.com/users/mjoellnier","html_url":"https://github.com/mjoellnier","followers_url":"https://api.github.com/users/mjoellnier/followers","following_url":"https://api.github.com/users/mjoellnier/following{/other_user}","gists_url":"https://api.github.com/users/mjoellnier/gists{/gist_id}","starred_url":"https://api.github.com/users/mjoellnier/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mjoellnier/subscriptions","organizations_url":"https://api.github.com/users/mjoellnier/orgs","repos_url":"https://api.github.com/users/mjoellnier/repos","events_url":"https://api.github.com/users/mjoellnier/events{/privacy}","received_events_url":"https://api.github.com/users/mjoellnier/received_events","type":"User","site_admin":false},{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false}]
 0
 

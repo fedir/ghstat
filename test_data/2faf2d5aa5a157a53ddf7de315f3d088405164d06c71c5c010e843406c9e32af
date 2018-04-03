@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Apr 2018 00:58:40 GMT
+Etag: W/"186235936c1cfd5ca6c39938861b24eb"
+Link: <https://api.github.com/user/664177/followers?page=22>; rel="prev", <https://api.github.com/user/664177/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB32:16B3:1DF3B0:3FD6B7:5AC2D1C0
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4413
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.077696
+X-Xss-Protection: 1; mode=block
+
+ddd
+[{"login":"totemo69","id":4143148,"avatar_url":"https://avatars3.githubusercontent.com/u/4143148?v=4","gravatar_id":"","url":"https://api.github.com/users/totemo69","html_url":"https://github.com/totemo69","followers_url":"https://api.github.com/users/totemo69/followers","following_url":"https://api.github.com/users/totemo69/following{/other_user}","gists_url":"https://api.github.com/users/totemo69/gists{/gist_id}","starred_url":"https://api.github.com/users/totemo69/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/totemo69/subscriptions","organizations_url":"https://api.github.com/users/totemo69/orgs","repos_url":"https://api.github.com/users/totemo69/repos","events_url":"https://api.github.com/users/totemo69/events{/privacy}","received_events_url":"https://api.github.com/users/totemo69/received_events","type":"User","site_admin":false},{"login":"alamgirqazi","id":13376173,"avatar_url":"https://avatars3.githubusercontent.com/u/13376173?v=4","gravatar_id":"","url":"https://api.github.com/users/alamgirqazi","html_url":"https://github.com/alamgirqazi","followers_url":"https://api.github.com/users/alamgirqazi/followers","following_url":"https://api.github.com/users/alamgirqazi/following{/other_user}","gists_url":"https://api.github.com/users/alamgirqazi/gists{/gist_id}","starred_url":"https://api.github.com/users/alamgirqazi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alamgirqazi/subscriptions","organizations_url":"https://api.github.com/users/alamgirqazi/orgs","repos_url":"https://api.github.com/users/alamgirqazi/repos","events_url":"https://api.github.com/users/alamgirqazi/events{/privacy}","received_events_url":"https://api.github.com/users/alamgirqazi/received_events","type":"User","site_admin":false},{"login":"j9x","id":19179727,"avatar_url":"https://avatars3.githubusercontent.com/u/19179727?v=4","gravatar_id":"","url":"https://api.github.com/users/j9x","html_url":"https://github.com/j9x","followers_url":"https://api.github.com/users/j9x/followers","following_url":"https://api.github.com/users/j9x/following{/other_user}","gists_url":"https://api.github.com/users/j9x/gists{/gist_id}","starred_url":"https://api.github.com/users/j9x/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/j9x/subscriptions","organizations_url":"https://api.github.com/users/j9x/orgs","repos_url":"https://api.github.com/users/j9x/repos","events_url":"https://api.github.com/users/j9x/events{/privacy}","received_events_url":"https://api.github.com/users/j9x/received_events","type":"User","site_admin":false},{"login":"SyedWasiHaider","id":3202990,"avatar_url":"https://avatars1.githubusercontent.com/u/3202990?v=4","gravatar_id":"","url":"https://api.github.com/users/SyedWasiHaider","html_url":"https://github.com/SyedWasiHaider","followers_url":"https://api.github.com/users/SyedWasiHaider/followers","following_url":"https://api.github.com/users/SyedWasiHaider/following{/other_user}","gists_url":"https://api.github.com/users/SyedWasiHaider/gists{/gist_id}","starred_url":"https://api.github.com/users/SyedWasiHaider/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SyedWasiHaider/subscriptions","organizations_url":"https://api.github.com/users/SyedWasiHaider/orgs","repos_url":"https://api.github.com/users/SyedWasiHaider/repos","events_url":"https://api.github.com/users/SyedWasiHaider/events{/privacy}","received_events_url":"https://api.github.com/users/SyedWasiHaider/received_events","type":"User","site_admin":false}]
+0
+

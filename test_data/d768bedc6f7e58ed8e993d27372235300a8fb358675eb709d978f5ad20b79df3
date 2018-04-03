@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 24 Mar 2018 12:29:53 GMT
-Etag: W/"1f48c490abe2d57d5e00f95c0b2ad73d"
+Date: Tue, 03 Apr 2018 01:05:10 GMT
+Etag: W/"8068f90a3fbb6ca3ecc087f9892759b5"
 Link: <https://api.github.com/user/493656/followers?page=2>; rel="prev", <https://api.github.com/user/493656/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D072:5F57:3DBC9AB:80B3339:5AB644C1
+X-Github-Request-Id: CCD4:16B5:2E9EB5:594DDA:5AC2D346
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4801
-X-Ratelimit-Reset: 1521897066
-X-Runtime-Rack: 0.033359
+X-Ratelimit-Remaining: 3163
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.032566
 X-Xss-Protection: 1; mode=block
 
-353
-[{"login":"fobo66","id":4471821,"avatar_url":"https://avatars0.githubusercontent.com/u/4471821?v=4","gravatar_id":"","url":"https://api.github.com/users/fobo66","html_url":"https://github.com/fobo66","followers_url":"https://api.github.com/users/fobo66/followers","following_url":"https://api.github.com/users/fobo66/following{/other_user}","gists_url":"https://api.github.com/users/fobo66/gists{/gist_id}","starred_url":"https://api.github.com/users/fobo66/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fobo66/subscriptions","organizations_url":"https://api.github.com/users/fobo66/orgs","repos_url":"https://api.github.com/users/fobo66/repos","events_url":"https://api.github.com/users/fobo66/events{/privacy}","received_events_url":"https://api.github.com/users/fobo66/received_events","type":"User","site_admin":false}]
+713
+[{"login":"fobo66","id":4471821,"avatar_url":"https://avatars0.githubusercontent.com/u/4471821?v=4","gravatar_id":"","url":"https://api.github.com/users/fobo66","html_url":"https://github.com/fobo66","followers_url":"https://api.github.com/users/fobo66/followers","following_url":"https://api.github.com/users/fobo66/following{/other_user}","gists_url":"https://api.github.com/users/fobo66/gists{/gist_id}","starred_url":"https://api.github.com/users/fobo66/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fobo66/subscriptions","organizations_url":"https://api.github.com/users/fobo66/orgs","repos_url":"https://api.github.com/users/fobo66/repos","events_url":"https://api.github.com/users/fobo66/events{/privacy}","received_events_url":"https://api.github.com/users/fobo66/received_events","type":"User","site_admin":false},{"login":"katsapov-sergey","id":29036196,"avatar_url":"https://avatars0.githubusercontent.com/u/29036196?v=4","gravatar_id":"","url":"https://api.github.com/users/katsapov-sergey","html_url":"https://github.com/katsapov-sergey","followers_url":"https://api.github.com/users/katsapov-sergey/followers","following_url":"https://api.github.com/users/katsapov-sergey/following{/other_user}","gists_url":"https://api.github.com/users/katsapov-sergey/gists{/gist_id}","starred_url":"https://api.github.com/users/katsapov-sergey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/katsapov-sergey/subscriptions","organizations_url":"https://api.github.com/users/katsapov-sergey/orgs","repos_url":"https://api.github.com/users/katsapov-sergey/repos","events_url":"https://api.github.com/users/katsapov-sergey/events{/privacy}","received_events_url":"https://api.github.com/users/katsapov-sergey/received_events","type":"User","site_admin":false}]
 0
 

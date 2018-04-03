@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 25 Mar 2018 20:36:16 GMT
-Etag: W/"ba7207a62102393cc03a37a91df1f16b"
+Date: Tue, 03 Apr 2018 01:03:04 GMT
+Etag: W/"0c42c120747a07c6cdfa141aa93f40ed"
 Link: <https://api.github.com/user/4502793/followers?page=1>; rel="prev", <https://api.github.com/user/4502793/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D4AF:5F55:304CF80:68DF517:5AB8083F
+X-Github-Request-Id: CC9E:16B5:2E6F88:58F58C:5AC2D2C8
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4780
-X-Ratelimit-Reset: 1522013368
-X-Runtime-Rack: 0.032965
+X-Ratelimit-Remaining: 3205
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.038706
 X-Xss-Protection: 1; mode=block
 
-6e3
-[{"login":"Openskies","id":8223206,"avatar_url":"https://avatars3.githubusercontent.com/u/8223206?v=4","gravatar_id":"","url":"https://api.github.com/users/Openskies","html_url":"https://github.com/Openskies","followers_url":"https://api.github.com/users/Openskies/followers","following_url":"https://api.github.com/users/Openskies/following{/other_user}","gists_url":"https://api.github.com/users/Openskies/gists{/gist_id}","starred_url":"https://api.github.com/users/Openskies/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Openskies/subscriptions","organizations_url":"https://api.github.com/users/Openskies/orgs","repos_url":"https://api.github.com/users/Openskies/repos","events_url":"https://api.github.com/users/Openskies/events{/privacy}","received_events_url":"https://api.github.com/users/Openskies/received_events","type":"User","site_admin":false},{"login":"akinhwan","id":10124722,"avatar_url":"https://avatars0.githubusercontent.com/u/10124722?v=4","gravatar_id":"","url":"https://api.github.com/users/akinhwan","html_url":"https://github.com/akinhwan","followers_url":"https://api.github.com/users/akinhwan/followers","following_url":"https://api.github.com/users/akinhwan/following{/other_user}","gists_url":"https://api.github.com/users/akinhwan/gists{/gist_id}","starred_url":"https://api.github.com/users/akinhwan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/akinhwan/subscriptions","organizations_url":"https://api.github.com/users/akinhwan/orgs","repos_url":"https://api.github.com/users/akinhwan/repos","events_url":"https://api.github.com/users/akinhwan/events{/privacy}","received_events_url":"https://api.github.com/users/akinhwan/received_events","type":"User","site_admin":false}]
+a95
+[{"login":"Openskies","id":8223206,"avatar_url":"https://avatars3.githubusercontent.com/u/8223206?v=4","gravatar_id":"","url":"https://api.github.com/users/Openskies","html_url":"https://github.com/Openskies","followers_url":"https://api.github.com/users/Openskies/followers","following_url":"https://api.github.com/users/Openskies/following{/other_user}","gists_url":"https://api.github.com/users/Openskies/gists{/gist_id}","starred_url":"https://api.github.com/users/Openskies/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Openskies/subscriptions","organizations_url":"https://api.github.com/users/Openskies/orgs","repos_url":"https://api.github.com/users/Openskies/repos","events_url":"https://api.github.com/users/Openskies/events{/privacy}","received_events_url":"https://api.github.com/users/Openskies/received_events","type":"User","site_admin":false},{"login":"akinhwan","id":10124722,"avatar_url":"https://avatars0.githubusercontent.com/u/10124722?v=4","gravatar_id":"","url":"https://api.github.com/users/akinhwan","html_url":"https://github.com/akinhwan","followers_url":"https://api.github.com/users/akinhwan/followers","following_url":"https://api.github.com/users/akinhwan/following{/other_user}","gists_url":"https://api.github.com/users/akinhwan/gists{/gist_id}","starred_url":"https://api.github.com/users/akinhwan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/akinhwan/subscriptions","organizations_url":"https://api.github.com/users/akinhwan/orgs","repos_url":"https://api.github.com/users/akinhwan/repos","events_url":"https://api.github.com/users/akinhwan/events{/privacy}","received_events_url":"https://api.github.com/users/akinhwan/received_events","type":"User","site_admin":false},{"login":"jordiascension","id":3955758,"avatar_url":"https://avatars3.githubusercontent.com/u/3955758?v=4","gravatar_id":"","url":"https://api.github.com/users/jordiascension","html_url":"https://github.com/jordiascension","followers_url":"https://api.github.com/users/jordiascension/followers","following_url":"https://api.github.com/users/jordiascension/following{/other_user}","gists_url":"https://api.github.com/users/jordiascension/gists{/gist_id}","starred_url":"https://api.github.com/users/jordiascension/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jordiascension/subscriptions","organizations_url":"https://api.github.com/users/jordiascension/orgs","repos_url":"https://api.github.com/users/jordiascension/repos","events_url":"https://api.github.com/users/jordiascension/events{/privacy}","received_events_url":"https://api.github.com/users/jordiascension/received_events","type":"User","site_admin":false}]
 0
 

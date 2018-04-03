@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 25 Mar 2018 20:36:14 GMT
+Date: Tue, 03 Apr 2018 01:03:01 GMT
 Link: <https://api.github.com/search/issues?q=repo%3ASoftmotions%2Fncms+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3ASoftmotions%2Fncms+type%3Aissue+state%3Aclosed&page=2>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D4AB:5F57:477C115:932ACE6:5AB8083E
+X-Github-Request-Id: CC9E:16B5:2E6D2C:58F16A:5AC2D2C4
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 23
-X-Ratelimit-Reset: 1522010234
-X-Runtime-Rack: 0.345750
+X-Ratelimit-Remaining: 16
+X-Ratelimit-Reset: 1522717438
+X-Runtime-Rack: 0.301573
 X-Xss-Protection: 1; mode=block
 
 8000

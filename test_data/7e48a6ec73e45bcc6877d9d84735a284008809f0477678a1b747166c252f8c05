@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 24 Mar 2018 12:31:18 GMT
-Etag: W/"f543cedc0d549799e4723fdf54491e5e"
+Date: Tue, 03 Apr 2018 00:58:36 GMT
+Etag: W/"df3c6c8aadb49177b2507d940d13ea16"
 Link: <https://api.github.com/user/16724/followers?page=12>; rel="prev", <https://api.github.com/user/16724/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D07B:5F56:32D1F8F:6D5FE1D:5AB64516
+X-Github-Request-Id: CB11:16B5:2E010B:5827DE:5AC2D1BC
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4546
-X-Ratelimit-Reset: 1521897066
-X-Runtime-Rack: 0.055101
+X-Ratelimit-Remaining: 4596
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.048232
 X-Xss-Protection: 1; mode=block
 
-6d7
-[{"login":"funkyremi","id":4487178,"avatar_url":"https://avatars3.githubusercontent.com/u/4487178?v=4","gravatar_id":"","url":"https://api.github.com/users/funkyremi","html_url":"https://github.com/funkyremi","followers_url":"https://api.github.com/users/funkyremi/followers","following_url":"https://api.github.com/users/funkyremi/following{/other_user}","gists_url":"https://api.github.com/users/funkyremi/gists{/gist_id}","starred_url":"https://api.github.com/users/funkyremi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/funkyremi/subscriptions","organizations_url":"https://api.github.com/users/funkyremi/orgs","repos_url":"https://api.github.com/users/funkyremi/repos","events_url":"https://api.github.com/users/funkyremi/events{/privacy}","received_events_url":"https://api.github.com/users/funkyremi/received_events","type":"User","site_admin":false},{"login":"rolljee","id":10114634,"avatar_url":"https://avatars0.githubusercontent.com/u/10114634?v=4","gravatar_id":"","url":"https://api.github.com/users/rolljee","html_url":"https://github.com/rolljee","followers_url":"https://api.github.com/users/rolljee/followers","following_url":"https://api.github.com/users/rolljee/following{/other_user}","gists_url":"https://api.github.com/users/rolljee/gists{/gist_id}","starred_url":"https://api.github.com/users/rolljee/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rolljee/subscriptions","organizations_url":"https://api.github.com/users/rolljee/orgs","repos_url":"https://api.github.com/users/rolljee/repos","events_url":"https://api.github.com/users/rolljee/events{/privacy}","received_events_url":"https://api.github.com/users/rolljee/received_events","type":"User","site_admin":false}]
+e0f
+[{"login":"funkyremi","id":4487178,"avatar_url":"https://avatars3.githubusercontent.com/u/4487178?v=4","gravatar_id":"","url":"https://api.github.com/users/funkyremi","html_url":"https://github.com/funkyremi","followers_url":"https://api.github.com/users/funkyremi/followers","following_url":"https://api.github.com/users/funkyremi/following{/other_user}","gists_url":"https://api.github.com/users/funkyremi/gists{/gist_id}","starred_url":"https://api.github.com/users/funkyremi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/funkyremi/subscriptions","organizations_url":"https://api.github.com/users/funkyremi/orgs","repos_url":"https://api.github.com/users/funkyremi/repos","events_url":"https://api.github.com/users/funkyremi/events{/privacy}","received_events_url":"https://api.github.com/users/funkyremi/received_events","type":"User","site_admin":false},{"login":"rolljee","id":10114634,"avatar_url":"https://avatars0.githubusercontent.com/u/10114634?v=4","gravatar_id":"","url":"https://api.github.com/users/rolljee","html_url":"https://github.com/rolljee","followers_url":"https://api.github.com/users/rolljee/followers","following_url":"https://api.github.com/users/rolljee/following{/other_user}","gists_url":"https://api.github.com/users/rolljee/gists{/gist_id}","starred_url":"https://api.github.com/users/rolljee/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rolljee/subscriptions","organizations_url":"https://api.github.com/users/rolljee/orgs","repos_url":"https://api.github.com/users/rolljee/repos","events_url":"https://api.github.com/users/rolljee/events{/privacy}","received_events_url":"https://api.github.com/users/rolljee/received_events","type":"User","site_admin":false},{"login":"meteorjsbrasil","id":30116130,"avatar_url":"https://avatars0.githubusercontent.com/u/30116130?v=4","gravatar_id":"","url":"https://api.github.com/users/meteorjsbrasil","html_url":"https://github.com/meteorjsbrasil","followers_url":"https://api.github.com/users/meteorjsbrasil/followers","following_url":"https://api.github.com/users/meteorjsbrasil/following{/other_user}","gists_url":"https://api.github.com/users/meteorjsbrasil/gists{/gist_id}","starred_url":"https://api.github.com/users/meteorjsbrasil/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/meteorjsbrasil/subscriptions","organizations_url":"https://api.github.com/users/meteorjsbrasil/orgs","repos_url":"https://api.github.com/users/meteorjsbrasil/repos","events_url":"https://api.github.com/users/meteorjsbrasil/events{/privacy}","received_events_url":"https://api.github.com/users/meteorjsbrasil/received_events","type":"User","site_admin":false},{"login":"Meteor-Liu","id":21061655,"avatar_url":"https://avatars2.githubusercontent.com/u/21061655?v=4","gravatar_id":"","url":"https://api.github.com/users/Meteor-Liu","html_url":"https://github.com/Meteor-Liu","followers_url":"https://api.github.com/users/Meteor-Liu/followers","following_url":"https://api.github.com/users/Meteor-Liu/following{/other_user}","gists_url":"https://api.github.com/users/Meteor-Liu/gists{/gist_id}","starred_url":"https://api.github.com/users/Meteor-Liu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Meteor-Liu/subscriptions","organizations_url":"https://api.github.com/users/Meteor-Liu/orgs","repos_url":"https://api.github.com/users/Meteor-Liu/repos","events_url":"https://api.github.com/users/Meteor-Liu/events{/privacy}","received_events_url":"https://api.github.com/users/Meteor-Liu/received_events","type":"User","site_admin":false}]
 0
 

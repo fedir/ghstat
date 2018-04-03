@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Apr 2018 00:59:35 GMT
+Etag: W/"460a30e92cc55aa42ef3852b67f854ec"
+Link: <https://api.github.com/user/1247388/followers?page=4>; rel="prev", <https://api.github.com/user/1247388/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CBFE:16B5:2E1813:585109:5AC2D1F7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3920
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.036390
+X-Xss-Protection: 1; mode=block
+
+36d
+[{"login":"athiwatp","id":15368250,"avatar_url":"https://avatars3.githubusercontent.com/u/15368250?v=4","gravatar_id":"","url":"https://api.github.com/users/athiwatp","html_url":"https://github.com/athiwatp","followers_url":"https://api.github.com/users/athiwatp/followers","following_url":"https://api.github.com/users/athiwatp/following{/other_user}","gists_url":"https://api.github.com/users/athiwatp/gists{/gist_id}","starred_url":"https://api.github.com/users/athiwatp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/athiwatp/subscriptions","organizations_url":"https://api.github.com/users/athiwatp/orgs","repos_url":"https://api.github.com/users/athiwatp/repos","events_url":"https://api.github.com/users/athiwatp/events{/privacy}","received_events_url":"https://api.github.com/users/athiwatp/received_events","type":"User","site_admin":false}]
+0
+

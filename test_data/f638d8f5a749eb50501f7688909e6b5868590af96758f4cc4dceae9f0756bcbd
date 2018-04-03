@@ -2,29 +2,31 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
-Cache-Control: public, max-age=60, s-maxage=60
+Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 24 Mar 2018 14:00:08 GMT
-Etag: W/"87bb9d2b4fcc52f3b31ae1f5c94a6b2a"
-Last-Modified: Sat, 24 Mar 2018 13:39:52 GMT
+Date: Tue, 03 Apr 2018 00:52:02 GMT
+Etag: W/"be54dea6d19b6d56b4b3d8af64d97e05"
+Last-Modified: Mon, 02 Apr 2018 21:36:08 GMT
 Link: <https://api.github.com/repositories/50709152/contributors?page=1>; rel="prev", <https://api.github.com/repositories/50709152/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-Vary: Accept
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C231:5F58:3FEE5A3:8BE297B:5AB659E8
-X-Ratelimit-Limit: 60
-X-Ratelimit-Remaining: 41
-X-Ratelimit-Reset: 1521903604
-X-Runtime-Rack: 0.043381
+X-Github-Request-Id: CA9D:16B7:22D900:5B242A:5AC2D032
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4853
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.046405
 X-Xss-Protection: 1; mode=block
 
-759
-[{"login":"sunshinekitty","id":6498906,"avatar_url":"https://avatars3.githubusercontent.com/u/6498906?v=4","gravatar_id":"","url":"https://api.github.com/users/sunshinekitty","html_url":"https://github.com/sunshinekitty","followers_url":"https://api.github.com/users/sunshinekitty/followers","following_url":"https://api.github.com/users/sunshinekitty/following{/other_user}","gists_url":"https://api.github.com/users/sunshinekitty/gists{/gist_id}","starred_url":"https://api.github.com/users/sunshinekitty/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sunshinekitty/subscriptions","organizations_url":"https://api.github.com/users/sunshinekitty/orgs","repos_url":"https://api.github.com/users/sunshinekitty/repos","events_url":"https://api.github.com/users/sunshinekitty/events{/privacy}","received_events_url":"https://api.github.com/users/sunshinekitty/received_events","type":"User","site_admin":false,"contributions":1},{"login":"sy264115809","id":6114462,"avatar_url":"https://avatars1.githubusercontent.com/u/6114462?v=4","gravatar_id":"","url":"https://api.github.com/users/sy264115809","html_url":"https://github.com/sy264115809","followers_url":"https://api.github.com/users/sy264115809/followers","following_url":"https://api.github.com/users/sy264115809/following{/other_user}","gists_url":"https://api.github.com/users/sy264115809/gists{/gist_id}","starred_url":"https://api.github.com/users/sy264115809/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sy264115809/subscriptions","organizations_url":"https://api.github.com/users/sy264115809/orgs","repos_url":"https://api.github.com/users/sy264115809/repos","events_url":"https://api.github.com/users/sy264115809/events{/privacy}","received_events_url":"https://api.github.com/users/sy264115809/received_events","type":"User","site_admin":false,"contributions":1}]
+e49
+[{"login":"hyhkjiy","id":18144117,"avatar_url":"https://avatars3.githubusercontent.com/u/18144117?v=4","gravatar_id":"","url":"https://api.github.com/users/hyhkjiy","html_url":"https://github.com/hyhkjiy","followers_url":"https://api.github.com/users/hyhkjiy/followers","following_url":"https://api.github.com/users/hyhkjiy/following{/other_user}","gists_url":"https://api.github.com/users/hyhkjiy/gists{/gist_id}","starred_url":"https://api.github.com/users/hyhkjiy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hyhkjiy/subscriptions","organizations_url":"https://api.github.com/users/hyhkjiy/orgs","repos_url":"https://api.github.com/users/hyhkjiy/repos","events_url":"https://api.github.com/users/hyhkjiy/events{/privacy}","received_events_url":"https://api.github.com/users/hyhkjiy/received_events","type":"User","site_admin":false,"contributions":1},{"login":"merrydii","id":35046197,"avatar_url":"https://avatars1.githubusercontent.com/u/35046197?v=4","gravatar_id":"","url":"https://api.github.com/users/merrydii","html_url":"https://github.com/merrydii","followers_url":"https://api.github.com/users/merrydii/followers","following_url":"https://api.github.com/users/merrydii/following{/other_user}","gists_url":"https://api.github.com/users/merrydii/gists{/gist_id}","starred_url":"https://api.github.com/users/merrydii/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/merrydii/subscriptions","organizations_url":"https://api.github.com/users/merrydii/orgs","repos_url":"https://api.github.com/users/merrydii/repos","events_url":"https://api.github.com/users/merrydii/events{/privacy}","received_events_url":"https://api.github.com/users/merrydii/received_events","type":"User","site_admin":false,"contributions":1},{"login":"sunshinekitty","id":6498906,"avatar_url":"https://avatars3.githubusercontent.com/u/6498906?v=4","gravatar_id":"","url":"https://api.github.com/users/sunshinekitty","html_url":"https://github.com/sunshinekitty","followers_url":"https://api.github.com/users/sunshinekitty/followers","following_url":"https://api.github.com/users/sunshinekitty/following{/other_user}","gists_url":"https://api.github.com/users/sunshinekitty/gists{/gist_id}","starred_url":"https://api.github.com/users/sunshinekitty/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sunshinekitty/subscriptions","organizations_url":"https://api.github.com/users/sunshinekitty/orgs","repos_url":"https://api.github.com/users/sunshinekitty/repos","events_url":"https://api.github.com/users/sunshinekitty/events{/privacy}","received_events_url":"https://api.github.com/users/sunshinekitty/received_events","type":"User","site_admin":false,"contributions":1},{"login":"sy264115809","id":6114462,"avatar_url":"https://avatars1.githubusercontent.com/u/6114462?v=4","gravatar_id":"","url":"https://api.github.com/users/sy264115809","html_url":"https://github.com/sy264115809","followers_url":"https://api.github.com/users/sy264115809/followers","following_url":"https://api.github.com/users/sy264115809/following{/other_user}","gists_url":"https://api.github.com/users/sy264115809/gists{/gist_id}","starred_url":"https://api.github.com/users/sy264115809/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sy264115809/subscriptions","organizations_url":"https://api.github.com/users/sy264115809/orgs","repos_url":"https://api.github.com/users/sy264115809/repos","events_url":"https://api.github.com/users/sy264115809/events{/privacy}","received_events_url":"https://api.github.com/users/sy264115809/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

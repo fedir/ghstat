@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 31 Mar 2018 23:45:12 GMT
+Date: Tue, 03 Apr 2018 01:01:42 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Aweavejester%2Fcompojure+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Aweavejester%2Fcompojure+type%3Aissue+state%3Aclosed&page=5>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D985:094F:2EED5A1:59AF37C:5AC01D88
+X-Github-Request-Id: CC4D:16B3:1E20D4:40368F:5AC2D276
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 29
-X-Ratelimit-Reset: 1522539972
-X-Runtime-Rack: 0.271632
+X-Ratelimit-Remaining: 20
+X-Ratelimit-Reset: 1522717351
+X-Runtime-Rack: 0.304457
 X-Xss-Protection: 1; mode=block
 
 8000

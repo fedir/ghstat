@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Apr 2018 00:58:58 GMT
+Etag: W/"7c35154ca7fbc8ba92cc95a9f5b311e5"
+Last-Modified: Thu, 15 Mar 2012 16:46:43 GMT
+Link: <https://api.github.com/repositories/3729629/commits?page=1>; rel="first", <https://api.github.com/repositories/3729629/commits?page=495>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB92:16B1:145575:2DD4C0:5AC2D1D2
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4161
+X-Ratelimit-Reset: 1522720317
+X-Runtime-Rack: 0.188900
+X-Xss-Protection: 1; mode=block
+
+a72
+[{"sha":"4e86099098592ad95ab6f66b1cf61d9250864602","commit":{"author":{"name":"Will Ezell","email":"will@dotcms.com","date":"2012-03-15T16:46:43Z"},"committer":{"name":"Will Ezell","email":"will@dotcms.com","date":"2012-03-15T16:46:43Z"},"message":"initial readme commit","tree":{"sha":"0b292bebfa1487262f28ccdf985a16777a482a42","url":"https://api.github.com/repos/dotCMS/core/git/trees/0b292bebfa1487262f28ccdf985a16777a482a42"},"url":"https://api.github.com/repos/dotCMS/core/git/commits/4e86099098592ad95ab6f66b1cf61d9250864602","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/dotCMS/core/commits/4e86099098592ad95ab6f66b1cf61d9250864602","html_url":"https://github.com/dotCMS/core/commit/4e86099098592ad95ab6f66b1cf61d9250864602","comments_url":"https://api.github.com/repos/dotCMS/core/commits/4e86099098592ad95ab6f66b1cf61d9250864602/comments","author":{"login":"wezell","id":934364,"avatar_url":"https://avatars2.githubusercontent.com/u/934364?v=4","gravatar_id":"","url":"https://api.github.com/users/wezell","html_url":"https://github.com/wezell","followers_url":"https://api.github.com/users/wezell/followers","following_url":"https://api.github.com/users/wezell/following{/other_user}","gists_url":"https://api.github.com/users/wezell/gists{/gist_id}","starred_url":"https://api.github.com/users/wezell/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wezell/subscriptions","organizations_url":"https://api.github.com/users/wezell/orgs","repos_url":"https://api.github.com/users/wezell/repos","events_url":"https://api.github.com/users/wezell/events{/privacy}","received_events_url":"https://api.github.com/users/wezell/received_events","type":"User","site_admin":false},"committer":{"login":"wezell","id":934364,"avatar_url":"https://avatars2.githubusercontent.com/u/934364?v=4","gravatar_id":"","url":"https://api.github.com/users/wezell","html_url":"https://github.com/wezell","followers_url":"https://api.github.com/users/wezell/followers","following_url":"https://api.github.com/users/wezell/following{/other_user}","gists_url":"https://api.github.com/users/wezell/gists{/gist_id}","starred_url":"https://api.github.com/users/wezell/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wezell/subscriptions","organizations_url":"https://api.github.com/users/wezell/orgs","repos_url":"https://api.github.com/users/wezell/repos","events_url":"https://api.github.com/users/wezell/events{/privacy}","received_events_url":"https://api.github.com/users/wezell/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+
