@@ -37,7 +37,7 @@ func GetRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 		commits := make([]Commit, 0)
 		json.Unmarshal(jsonResponse, &commits)
 		total = len(commits)
-		commitAuthorLogin = getCommitAuthorLogin(commits[total-1])
+		commitAuthorLogin = commits[total-1].Author.Login
 	} else {
 		commitAuthorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
 	}
@@ -54,12 +54,8 @@ func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, de
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
 	commitsOnLastPage := len(commits)
-	commitAuthorLogin = getCommitAuthorLogin(commits[commitsOnLastPage-1])
+	commitAuthorLogin = commits[commitsOnLastPage-1].Author.Login
 	return commitAuthorLogin
-}
-
-func getCommitAuthorLogin(c Commit) string {
-	return c.Author.Login
 }
 
 func GetUserFollowers(username string, tmpFolder string, debug bool) int {
