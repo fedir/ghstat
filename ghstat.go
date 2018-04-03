@@ -78,6 +78,7 @@ func main() {
 		"Total additions",
 		"Total deletions",
 		"Total code changes",
+		"Last commit date",
 		"Medium commit size",
 		"Stargazers",
 		"Forks",
@@ -98,12 +99,13 @@ func main() {
 		"totalCommitsColumn":               7,
 		"totalDeletionsColumn":             9,
 		"totalCodeChangesColumn":           10,
-		"mediCommitSizeColumn":             11,
-		"stargazersColumn":                 12,
-		"activeForkersColumn":              15,
-		"issuesByDayColumn":                18,
-		"closedIssuesPercentageColumn":     19,
-		"totalPointsColumnIndex":           20,
+		"lastCommitDate":                   11,
+		"mediCommitSizeColumn":             12,
+		"stargazersColumn":                 13,
+		"activeForkersColumn":              16,
+		"issuesByDayColumn":                19,
+		"closedIssuesPercentageColumn":     20,
+		"totalPointsColumnIndex":           21,
 	}
 	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
@@ -120,7 +122,7 @@ func main() {
 func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataChan chan []string) {
 	repositoryData := github.GetRepositoryStatistics(rKey, tmpFolder, debug)
 	repositoryAge := int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
-	authorLogin := github.GetRepositoryCommits(rKey, tmpFolder, debug)
+	authorLogin, lastCommitDate := github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
 	authorFollowers := 0
 	if authorLogin != "" {
 		authorFollowers = github.GetUserFollowers(authorLogin, tmpFolder, debug)
@@ -148,6 +150,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 		fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
 		fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
 		fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
+		fmt.Sprintf(lastCommitDate.Format("2006-01-02 15:04:05")),
 		fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
 		fmt.Sprintf("%d", repositoryData.Watchers),
 		fmt.Sprintf("%d", repositoryData.Forks),

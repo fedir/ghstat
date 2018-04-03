@@ -8,6 +8,7 @@ import (
 	"encoding/json"
 	"regexp"
 	"strconv"
+	"time"
 
 	"github.com/fedir/ghstat/httpcache"
 )
@@ -16,10 +17,18 @@ import (
 type Commit struct {
 	Author struct {
 		Login string `json:"login"`
+		Date  string `json:"date"`
 	} `json:"author"`
+	Commit struct {
+		Author struct {
+			Name  string    `json:"name"`
+			Email string    `json:"email"`
+			Date  time.Time `json:"date"`
+		} `json:"author"`
+	} `json:"commit"`
 }
 
-func GetRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
+func GetRepositoryCommitsData(repoKey string, tmpFolder string, debug bool) (string, time.Time) {
 	var total int
 	var commitAuthorLogin string
 	url := "https://api.github.com/repos/" + repoKey + "/commits"
@@ -33,6 +42,7 @@ func GetRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 			nextPage, _ = strconv.Atoi(match[1])
 		}
 	}
+	lastCommitDate := getRepositoryLastCommitDate(jsonResponse)
 	if nextPage == 0 {
 		commits := make([]Commit, 0)
 		json.Unmarshal(jsonResponse, &commits)
@@ -41,7 +51,7 @@ func GetRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 	} else {
 		commitAuthorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
 	}
-	return commitAuthorLogin
+	return commitAuthorLogin, lastCommitDate
 }
 
 func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, debug bool) string {
@@ -56,6 +66,12 @@ func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, de
 	commitsOnLastPage := len(commits)
 	commitAuthorLogin = commits[commitsOnLastPage-1].Author.Login
 	return commitAuthorLogin
+}
+
+func getRepositoryLastCommitDate(jsonResponse []byte) time.Time {
+	commits := make([]Commit, 0)
+	json.Unmarshal(jsonResponse, &commits)
+	return commits[0].Commit.Author.Date
 }
 
 func GetUserFollowers(username string, tmpFolder string, debug bool) int {
