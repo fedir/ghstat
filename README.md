@@ -114,10 +114,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 ### JS frameworks rating
 
 * The most popular project is `facebook/react`
-* The newest project is `myfreeweb/magicbane`
-* The project with the most active community is `transient-haskell/axiom`
-* The project with best errors resolving rate is `django/django`
-* The project with more commits is `django/django`
+* The newest project is `hyperapp/hyperapp`
+* The project with the most active community is `riot/riot`
+* The project with best errors resolving rate is `meteor/meteor`
+* The project with more commits is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
 * The best project (taking in account placements in all competitions) is `meteor/meteor`
 
@@ -138,10 +138,10 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 ### Cross-language frameworks rating
 
 * The most popular project is `facebook/react`
-* The newest project is `hyperapp/hyperapp`
-* The project with the most active community is `riot/riot`
-* The project with best errors resolving rate is `meteor/meteor`
-* The project with more commits is `meteor/meteor`
+* The newest project is `myfreeweb/magicbane`
+* The project with the most active community is `transient-haskell/axiom`
+* The project with best errors resolving rate is `kivra/giallo`
+* The project with more commits is `django/django`
 * The project made by most notable top contributors is `facebook/react`
 * The best project (taking in account placements in all competitions) is `meteor/meteor`
 
