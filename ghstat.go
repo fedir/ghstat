@@ -16,6 +16,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/fedir/ghstat/github"
 	"github.com/fedir/ghstat/httpcache"
 	"github.com/fedir/ghstat/timing"
 )
@@ -117,19 +118,19 @@ func main() {
 }
 
 func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataChan chan []string) {
-	repositoryData := getRepositoryStatistics(rKey, tmpFolder, debug)
+	repositoryData := github.GetRepositoryStatistics(rKey, tmpFolder, debug)
 	repositoryAge := int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
-	authorLogin := getRepositoryCommits(rKey, tmpFolder, debug)
+	authorLogin := github.GetRepositoryCommits(rKey, tmpFolder, debug)
 	authorFollowers := 0
 	if authorLogin != "" {
-		authorFollowers = getUserFollowers(authorLogin, tmpFolder, debug)
+		authorFollowers = github.GetUserFollowers(authorLogin, tmpFolder, debug)
 	}
-	closedIssues := getRepositoryClosedIssues(rKey, tmpFolder, debug)
-	topContributorsFollowers, totalContributors := getRepositoryContributors(rKey, tmpFolder, debug)
-	activeForkersPercentage := getActiveForkersPercentage(totalContributors, repositoryData.Forks)
-	issueByDay := getIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
-	closedIssuesPercentage := getClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
-	contributionStatistics := getContributionStatistics(rKey, tmpFolder, debug)
+	closedIssues := github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
+	topContributorsFollowers, totalContributors := github.GetRepositoryContributors(rKey, tmpFolder, debug)
+	activeForkersPercentage := github.GetActiveForkersPercentage(totalContributors, repositoryData.Forks)
+	issueByDay := github.GetIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
+	closedIssuesPercentage := github.GetClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
+	contributionStatistics := github.GetContributionStatistics(rKey, tmpFolder, debug)
 	ghProjectData := []string{
 		repositoryData.FullName,
 		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),

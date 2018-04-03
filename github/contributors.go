@@ -2,7 +2,7 @@
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
 
-package main
+package github
 
 import (
 	"encoding/json"
@@ -22,7 +22,7 @@ type Contributor struct {
 	Login string `json:"login"`
 }
 
-func getRepositoryContributors(repoKey string, tmpFolder string, debug bool) (int, int) {
+func GetRepositoryContributors(repoKey string, tmpFolder string, debug bool) (int, int) {
 	//var topContributors []string
 	var totalContributors int
 	var topContributorsFollowers = 0
@@ -100,7 +100,7 @@ func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string
 	return contributorsOnLastPage
 }
 
-func getActiveForkersPercentage(contributors int, forkers int) float64 {
+func GetActiveForkersPercentage(contributors int, forkers int) float64 {
 	contributorsFloat := float64(contributors)
 	forkersFloat := float64(forkers)
 	activeForkersPercentage := (contributorsFloat / forkersFloat) * 100

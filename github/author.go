@@ -2,7 +2,7 @@
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
 
-package main
+package github
 
 import (
 	"encoding/json"
@@ -19,7 +19,7 @@ type Commit struct {
 	} `json:"author"`
 }
 
-func getRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
+func GetRepositoryCommits(repoKey string, tmpFolder string, debug bool) string {
 	var total int
 	var commitAuthorLogin string
 	url := "https://api.github.com/repos/" + repoKey + "/commits"
@@ -62,7 +62,7 @@ func getCommitAuthorLogin(c Commit) string {
 	return c.Author.Login
 }
 
-func getUserFollowers(username string, tmpFolder string, debug bool) int {
+func GetUserFollowers(username string, tmpFolder string, debug bool) int {
 	var total int
 	url := "https://api.github.com/users/" + username + "/followers"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)

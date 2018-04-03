@@ -2,7 +2,7 @@
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
 
-package main
+package github
 
 import (
 	"encoding/json"
@@ -23,13 +23,17 @@ type Repository struct {
 	CreatedAt  time.Time `json:"created_at"`
 }
 
-func getRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
+func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
 	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	closedIssuesResult := gjson.Get(string(jsonResponse), "total_count")
 	//fmt.Printf("%d\n", closedIssuesResult.Int())
 	return int(closedIssuesResult.Int())
+}
+
+func GetRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repository {
+	return ParseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
 }
 
 func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {
@@ -39,7 +43,7 @@ func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {
 	return jsonResponse
 }
 
-func parseRepositoryData(jsonResponse []byte) *Repository {
+func ParseRepositoryData(jsonResponse []byte) *Repository {
 	result := &Repository{}
 	err := json.Unmarshal([]byte(jsonResponse), result)
 	if err != nil {
@@ -48,11 +52,7 @@ func parseRepositoryData(jsonResponse []byte) *Repository {
 	return result
 }
 
-func getRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repository {
-	return parseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
-}
-
-func getIssueByDay(totalIssues int, age int) float64 {
+func GetIssueByDay(totalIssues int, age int) float64 {
 	var issueByDay float64
 	totalIssuesFloat := float64(totalIssues)
 	ageFloat := float64(age)
@@ -65,7 +65,7 @@ func getIssueByDay(totalIssues int, age int) float64 {
 
 }
 
-func getClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
+func GetClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
 	var closedIssuesPercentage float64
 	openIssuesFloat := float64(openIssues)
 	closedIssuesFloat := float64(closedIssues)

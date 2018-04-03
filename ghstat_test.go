@@ -8,6 +8,8 @@ import (
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/fedir/ghstat/github"
 )
 
 var jsonResponse = `
@@ -112,8 +114,8 @@ var jsonResponse = `
 `
 
 func TestParseRepositoryData(t *testing.T) {
-	repositoryDataExtracted := parseRepositoryData([]byte(jsonResponse))
-	repositoryDataExpected := &Repository{
+	repositoryDataExtracted := github.ParseRepositoryData([]byte(jsonResponse))
+	repositoryDataExpected := &github.Repository{
 		Name:       "beego",
 		FullName:   "astaxie/beego",
 		Watchers:   14391,
@@ -127,8 +129,8 @@ func TestParseRepositoryData(t *testing.T) {
 }
 
 func TestParseRepositoryDataNegative(t *testing.T) {
-	repositoryDataExtracted := parseRepositoryData([]byte(jsonResponse))
-	repositoryDataExpected := &Repository{
+	repositoryDataExtracted := github.ParseRepositoryData([]byte(jsonResponse))
+	repositoryDataExpected := &github.Repository{
 		Name:       "beego",
 		FullName:   "astaxie/beego",
 		Watchers:   14391,

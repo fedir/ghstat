@@ -2,7 +2,7 @@
 // Use of this source code is governed by the GNU GPL 3.0
 // license that can be found in the LICENSE file.
 
-package main
+package github
 
 import (
 	"encoding/json"
@@ -33,7 +33,7 @@ type ContributionStatistics struct {
 	MediumCommitSize int
 }
 
-func getContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
+func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
