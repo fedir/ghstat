@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:48 GMT
+Etag: W/"0b87f8ff75c48536ca5080e087f219a9"
+Last-Modified: Tue, 03 Apr 2018 05:22:31 GMT
+Link: <https://api.github.com/repositories/72690/tags?page=2>; rel="prev", <https://api.github.com/repositories/72690/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C829:1095:348D37:6B08E1:5AC54A5C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4854
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.040966
+X-Xss-Protection: 1; mode=block
+
+900
+[{"name":"R-2.0.9","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.9","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.9","commit":{"sha":"73f3e74300e12926492b9aa4f967268f76172fbd","url":"https://api.github.com/repos/web2py/web2py/commits/73f3e74300e12926492b9aa4f967268f76172fbd"}},{"name":"R-2.0.8","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.8","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.8","commit":{"sha":"07fc7861774d19e25c48af9345470c1fc1ef781a","url":"https://api.github.com/repos/web2py/web2py/commits/07fc7861774d19e25c48af9345470c1fc1ef781a"}},{"name":"R-2.0.7","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.7","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.7","commit":{"sha":"d566e4f444852966d581dbe9d191b72d75eb9c57","url":"https://api.github.com/repos/web2py/web2py/commits/d566e4f444852966d581dbe9d191b72d75eb9c57"}},{"name":"R-2.0.6","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.6","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.6","commit":{"sha":"78b5f4f8aa7967ac27956f37c61662408a513d28","url":"https://api.github.com/repos/web2py/web2py/commits/78b5f4f8aa7967ac27956f37c61662408a513d28"}},{"name":"R-2.0.5","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.5","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.5","commit":{"sha":"e4b6fba5ca16eb63b445daff2c1b0cb91cf2487f","url":"https://api.github.com/repos/web2py/web2py/commits/e4b6fba5ca16eb63b445daff2c1b0cb91cf2487f"}},{"name":"R-2.0.4","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.4","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.4","commit":{"sha":"dba7247b44e626a6b709703fc9a9fad51f80629c","url":"https://api.github.com/repos/web2py/web2py/commits/dba7247b44e626a6b709703fc9a9fad51f80629c"}},{"name":"R-2.0.2","zipball_url":"https://api.github.com/repos/web2py/web2py/zipball/R-2.0.2","tarball_url":"https://api.github.com/repos/web2py/web2py/tarball/R-2.0.2","commit":{"sha":"6a9aa69c9359c3221b8f7f961f255912a68bebe7","url":"https://api.github.com/repos/web2py/web2py/commits/6a9aa69c9359c3221b8f7f961f255912a68bebe7"}}]
+0
+

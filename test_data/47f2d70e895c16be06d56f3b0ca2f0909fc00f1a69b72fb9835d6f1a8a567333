@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:59 GMT
+Etag: W/"707e852843aec3105b160efe8809b7e9"
+Last-Modified: Fri, 30 Mar 2018 20:10:30 GMT
+Link: <https://api.github.com/repositories/2875825/tags?page=5>; rel="prev", <https://api.github.com/repositories/2875825/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C881:1092:206325:4A2EE8:5AC54A67
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4733
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.058013
+X-Xss-Protection: 1; mode=block
+
+c63
+[{"name":"2.7.0","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.7.0","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.7.0","commit":{"sha":"06919fef1263cad8cd82c25c0652989527319bb0","url":"https://api.github.com/repos/contao/core/commits/06919fef1263cad8cd82c25c0652989527319bb0"}},{"name":"2.6.8","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.8","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.8","commit":{"sha":"7a30c9a7169d3647818d50a7296f41c67dcafa09","url":"https://api.github.com/repos/contao/core/commits/7a30c9a7169d3647818d50a7296f41c67dcafa09"}},{"name":"2.6.7","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.7","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.7","commit":{"sha":"6372a38af0a6a0013474455fd85e7f27793eaa15","url":"https://api.github.com/repos/contao/core/commits/6372a38af0a6a0013474455fd85e7f27793eaa15"}},{"name":"2.6.6","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.6","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.6","commit":{"sha":"d93af76daa922fb61fe1e7dab683906289376e11","url":"https://api.github.com/repos/contao/core/commits/d93af76daa922fb61fe1e7dab683906289376e11"}},{"name":"2.6.5","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.5","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.5","commit":{"sha":"c09bb1267e7c73b3960ba69df01d49c5068a1e31","url":"https://api.github.com/repos/contao/core/commits/c09bb1267e7c73b3960ba69df01d49c5068a1e31"}},{"name":"2.6.4","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.4","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.4","commit":{"sha":"b8ba74a52993a0f6a32cc0204ab457238fa665e1","url":"https://api.github.com/repos/contao/core/commits/b8ba74a52993a0f6a32cc0204ab457238fa665e1"}},{"name":"2.6.3","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.3","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.3","commit":{"sha":"c43a290086a128dc9d3d1645e511a81fbadf79d2","url":"https://api.github.com/repos/contao/core/commits/c43a290086a128dc9d3d1645e511a81fbadf79d2"}},{"name":"2.6.2","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.2","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.2","commit":{"sha":"8bdeb3b8545e47ef515cbb53b03e3dcc647377b9","url":"https://api.github.com/repos/contao/core/commits/8bdeb3b8545e47ef515cbb53b03e3dcc647377b9"}},{"name":"2.6.1","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.1","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.1","commit":{"sha":"9f54dbd63f22d1c330e97110093074229f3b8f3f","url":"https://api.github.com/repos/contao/core/commits/9f54dbd63f22d1c330e97110093074229f3b8f3f"}},{"name":"2.6.0","zipball_url":"https://api.github.com/repos/contao/core/zipball/2.6.0","tarball_url":"https://api.github.com/repos/contao/core/tarball/2.6.0","commit":{"sha":"87d3a9147a119b73b04423fc174169782bbd8cae","url":"https://api.github.com/repos/contao/core/commits/87d3a9147a119b73b04423fc174169782bbd8cae"}}]
+0
+

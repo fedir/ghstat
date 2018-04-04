@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:48 GMT
+Etag: W/"fc41110b5860e463458ee9c03107a327"
+Last-Modified: Wed, 04 Apr 2018 15:31:15 GMT
+Link: <https://api.github.com/repositories/1381103/tags?page=1>; rel="prev", <https://api.github.com/repositories/1381103/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C827:1092:206113:4A29AD:5AC54A5C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4852
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.053161
+X-Xss-Protection: 1; mode=block
+
+3d3
+[{"name":"2.1a3","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a3","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a3","commit":{"sha":"dda8994ed147bc009e2516d472abad99a110c790","url":"https://api.github.com/repos/TurboGears/tg2/commits/dda8994ed147bc009e2516d472abad99a110c790"}},{"name":"2.1a2","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a2","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a2","commit":{"sha":"c21de877364abb07a4ad48089683b1a69de29c91","url":"https://api.github.com/repos/TurboGears/tg2/commits/c21de877364abb07a4ad48089683b1a69de29c91"}},{"name":"2.1a1","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a1","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a1","commit":{"sha":"877b92d9def23f668b43b5f1a948b86210f53812","url":"https://api.github.com/repos/TurboGears/tg2/commits/877b92d9def23f668b43b5f1a948b86210f53812"}}]
+0
+

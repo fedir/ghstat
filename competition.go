@@ -24,6 +24,10 @@ func rateGhData(ghData [][]string, columnsIndexes map[string]int) string {
 	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["totalCommitsColumn"])
 	greetings += fmt.Sprintf("* The project with more commits is `%s`\n", ghData[0][0])
 	addPoints(ghData, columnsIndexes["totalCommitsColumn"], columnsIndexes["totalPointsColumnIndex"])
+	// Add points by number of tags (more tags is better)
+	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["totalTagsColumn"])
+	greetings += fmt.Sprintf("* The project with more tags is `%s`\n", ghData[0][0])
+	addPoints(ghData, columnsIndexes["totalCommitsColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by Top10 contributors followers
 	sortSliceByColumnIndexIntDesc(ghData, columnsIndexes["top10ContributorsFollowersColumn"])
 	greetings += fmt.Sprintf("* The project made by most notable top contributors is `%s`\n", ghData[0][0])

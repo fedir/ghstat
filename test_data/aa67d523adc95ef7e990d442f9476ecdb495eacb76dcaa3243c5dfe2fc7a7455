@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:24 GMT
+Etag: W/"73c251cd8c9118643a9286a12eb7a5dc"
+Last-Modified: Wed, 04 Apr 2018 19:39:26 GMT
+Link: <https://api.github.com/repositories/25594973/tags?page=1>; rel="prev", <https://api.github.com/repositories/25594973/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C820:1093:29D679:5B170B:5AC54A44
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4866
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.028983
+X-Xss-Protection: 1; mode=block
+
+bfe
+[{"name":"v0.4.4","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.4","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.4","commit":{"sha":"a70a4aa5f53961095b6b7e063e54a564d9c7e7d2","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/a70a4aa5f53961095b6b7e063e54a564d9c7e7d2"}},{"name":"v0.4.3.1","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.3.1","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.3.1","commit":{"sha":"00b3ee19cfd4e32d32c2ce656b0d15929cff7946","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/00b3ee19cfd4e32d32c2ce656b0d15929cff7946"}},{"name":"v0.4.3","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.3","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.3","commit":{"sha":"40ca40b8a4209713ce8536cc06f984577573005d","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40ca40b8a4209713ce8536cc06f984577573005d"}},{"name":"v0.4.2","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.2","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.2","commit":{"sha":"7b1cf27c502747dd94e98f1e42c4d51407f368ed","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/7b1cf27c502747dd94e98f1e42c4d51407f368ed"}},{"name":"v0.4.1","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.1","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.1","commit":{"sha":"40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205"}},{"name":"v0.4.1.pre","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.1.pre","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.1.pre","commit":{"sha":"40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205"}},{"name":"v0.4.0","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.0","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.0","commit":{"sha":"40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205"}},{"name":"v0.4.0.pre","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/v0.4.0.pre","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/v0.4.0.pre","commit":{"sha":"40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205"}},{"name":"0.4.0","zipball_url":"https://api.github.com/repos/gobuffalo/buffalo/zipball/0.4.0","tarball_url":"https://api.github.com/repos/gobuffalo/buffalo/tarball/0.4.0","commit":{"sha":"40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205","url":"https://api.github.com/repos/gobuffalo/buffalo/commits/40c560a25f4dbc2c1939ed4f7a6eaad40ae4f205"}}]
+0
+

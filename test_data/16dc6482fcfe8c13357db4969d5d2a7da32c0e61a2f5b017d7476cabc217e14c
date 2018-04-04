@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:59 GMT
+Etag: W/"fbcf74b3d42dc642a2b35187179a8776"
+Last-Modified: Tue, 03 Apr 2018 09:54:29 GMT
+Link: <https://api.github.com/repositories/1138583/tags?page=4>; rel="prev", <https://api.github.com/repositories/1138583/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C885:1094:18F7CF:3A6D7B:5AC54A67
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4731
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.039482
+X-Xss-Protection: 1; mode=block
+
+e24
+[{"name":"2.5.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.5.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.5.0","commit":{"sha":"36cc02c4706e2d3a9018121b1ac327288b7e42d5","url":"https://api.github.com/repos/forkcms/forkcms/commits/36cc02c4706e2d3a9018121b1ac327288b7e42d5"}},{"name":"2.4.2","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.4.2","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.4.2","commit":{"sha":"4e7352764404ffe0a7579b0ee42e8494f9ce636b","url":"https://api.github.com/repos/forkcms/forkcms/commits/4e7352764404ffe0a7579b0ee42e8494f9ce636b"}},{"name":"2.4.1","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.4.1","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.4.1","commit":{"sha":"e1249fed4526743439aa95b63618510bf21ca43d","url":"https://api.github.com/repos/forkcms/forkcms/commits/e1249fed4526743439aa95b63618510bf21ca43d"}},{"name":"2.4.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.4.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.4.0","commit":{"sha":"a56b58a408783a7ff17890dfa3f952ec23242b97","url":"https://api.github.com/repos/forkcms/forkcms/commits/a56b58a408783a7ff17890dfa3f952ec23242b97"}},{"name":"2.3.1","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.3.1","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.3.1","commit":{"sha":"5886638e98eb7b059d5a85f7a50b513e4efc8082","url":"https://api.github.com/repos/forkcms/forkcms/commits/5886638e98eb7b059d5a85f7a50b513e4efc8082"}},{"name":"2.3.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.3.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.3.0","commit":{"sha":"ce420afb9a2c652e44893bb12671b657ee78ec4e","url":"https://api.github.com/repos/forkcms/forkcms/commits/ce420afb9a2c652e44893bb12671b657ee78ec4e"}},{"name":"2.2.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.2.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.2.0","commit":{"sha":"b744a39e436da01c0b93e10904b6201c3cb8fb67","url":"https://api.github.com/repos/forkcms/forkcms/commits/b744a39e436da01c0b93e10904b6201c3cb8fb67"}},{"name":"2.1.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.1.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.1.0","commit":{"sha":"5b5638be6a8db39586b919c3250399afd6aa6b4d","url":"https://api.github.com/repos/forkcms/forkcms/commits/5b5638be6a8db39586b919c3250399afd6aa6b4d"}},{"name":"2.0.2","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.0.2","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.0.2","commit":{"sha":"df386a03f0c22de79a72823f64a2939f6e6d3300","url":"https://api.github.com/repos/forkcms/forkcms/commits/df386a03f0c22de79a72823f64a2939f6e6d3300"}},{"name":"2.0.1","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.0.1","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.0.1","commit":{"sha":"84312abe81363334a6a8f405814de0ac79133ef5","url":"https://api.github.com/repos/forkcms/forkcms/commits/84312abe81363334a6a8f405814de0ac79133ef5"}},{"name":"2.0.0","zipball_url":"https://api.github.com/repos/forkcms/forkcms/zipball/2.0.0","tarball_url":"https://api.github.com/repos/forkcms/forkcms/tarball/2.0.0","commit":{"sha":"f3207717d7ea67ecb6f13ef947bbc9448b539a6e","url":"https://api.github.com/repos/forkcms/forkcms/commits/f3207717d7ea67ecb6f13ef947bbc9448b539a6e"}}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:58:00 GMT
+Etag: W/"e83bca27cf5a9f3675efd18e1116bf62"
+Last-Modified: Wed, 04 Apr 2018 19:58:41 GMT
+Link: <https://api.github.com/repositories/3729629/tags?page=1>; rel="prev", <https://api.github.com/repositories/3729629/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C891:1095:3492C0:6B1348:5AC54A68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4717
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.035493
+X-Xss-Protection: 1; mode=block
+
+623
+[{"name":"3.2","zipball_url":"https://api.github.com/repos/dotCMS/core/zipball/3.2","tarball_url":"https://api.github.com/repos/dotCMS/core/tarball/3.2","commit":{"sha":"adcea97edd49ba1623716404e1d95ff6ce57b75e","url":"https://api.github.com/repos/dotCMS/core/commits/adcea97edd49ba1623716404e1d95ff6ce57b75e"}},{"name":"3.1","zipball_url":"https://api.github.com/repos/dotCMS/core/zipball/3.1","tarball_url":"https://api.github.com/repos/dotCMS/core/tarball/3.1","commit":{"sha":"7f3528b42f03793007d2a348be6eb4572ce32c45","url":"https://api.github.com/repos/dotCMS/core/commits/7f3528b42f03793007d2a348be6eb4572ce32c45"}},{"name":"3.0.1","zipball_url":"https://api.github.com/repos/dotCMS/core/zipball/3.0.1","tarball_url":"https://api.github.com/repos/dotCMS/core/tarball/3.0.1","commit":{"sha":"69dbd7523db926dfb237fcd9e4a08d43a6f07629","url":"https://api.github.com/repos/dotCMS/core/commits/69dbd7523db926dfb237fcd9e4a08d43a6f07629"}},{"name":"3.0","zipball_url":"https://api.github.com/repos/dotCMS/core/zipball/3.0","tarball_url":"https://api.github.com/repos/dotCMS/core/tarball/3.0","commit":{"sha":"0ffe317e7b0b39e3da61abf2b2f19313f2a59c0c","url":"https://api.github.com/repos/dotCMS/core/commits/0ffe317e7b0b39e3da61abf2b2f19313f2a59c0c"}},{"name":"3.0PR1","zipball_url":"https://api.github.com/repos/dotCMS/core/zipball/3.0PR1","tarball_url":"https://api.github.com/repos/dotCMS/core/tarball/3.0PR1","commit":{"sha":"4240c3c021532344cd4ea29c9075d7ec5974e630","url":"https://api.github.com/repos/dotCMS/core/commits/4240c3c021532344cd4ea29c9075d7ec5974e630"}}]
+0
+

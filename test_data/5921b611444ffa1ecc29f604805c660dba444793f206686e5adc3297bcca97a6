@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:51 GMT
+Etag: W/"d0f458abe1c777fa24459f82e5e2d5a5"
+Last-Modified: Thu, 29 Mar 2018 08:38:33 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C849:1095:348E74:6B0B57:5AC54A5F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4822
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.051174
+X-Xss-Protection: 1; mode=block
+
+6b9
+[{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/myfreeweb/magicbane/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/myfreeweb/magicbane/tarball/v0.2.0","commit":{"sha":"245c72cfa28c347edc776a09e2f2420a7e2ccc89","url":"https://api.github.com/repos/myfreeweb/magicbane/commits/245c72cfa28c347edc776a09e2f2420a7e2ccc89"}},{"name":"v0.1.3","zipball_url":"https://api.github.com/repos/myfreeweb/magicbane/zipball/v0.1.3","tarball_url":"https://api.github.com/repos/myfreeweb/magicbane/tarball/v0.1.3","commit":{"sha":"bdf552b4ba56a7715eea824fa9f1e9d816a74648","url":"https://api.github.com/repos/myfreeweb/magicbane/commits/bdf552b4ba56a7715eea824fa9f1e9d816a74648"}},{"name":"v0.1.2","zipball_url":"https://api.github.com/repos/myfreeweb/magicbane/zipball/v0.1.2","tarball_url":"https://api.github.com/repos/myfreeweb/magicbane/tarball/v0.1.2","commit":{"sha":"5a7d1817e3f92eef7b5d8a4d1e8e3838ba5fb881","url":"https://api.github.com/repos/myfreeweb/magicbane/commits/5a7d1817e3f92eef7b5d8a4d1e8e3838ba5fb881"}},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/myfreeweb/magicbane/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/myfreeweb/magicbane/tarball/v0.1.1","commit":{"sha":"34748f61ae3516e1a34f3d6290f4003e5fd95ed8","url":"https://api.github.com/repos/myfreeweb/magicbane/commits/34748f61ae3516e1a34f3d6290f4003e5fd95ed8"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/myfreeweb/magicbane/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/myfreeweb/magicbane/tarball/v0.1.0","commit":{"sha":"9f5b8c3f93e99efafcc2b1a2be4feae40ce1a966","url":"https://api.github.com/repos/myfreeweb/magicbane/commits/9f5b8c3f93e99efafcc2b1a2be4feae40ce1a966"}}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:49 GMT
+Etag: W/"1a7ab430f4d81344d1eaa59fd798061f"
+Last-Modified: Tue, 03 Apr 2018 19:06:53 GMT
+Link: <https://api.github.com/repositories/13677/tags?page=2>; rel="prev", <https://api.github.com/repositories/13677/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C836:1095:348DBA:6B09D1:5AC54A5D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4840
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.043888
+X-Xss-Protection: 1; mode=block
+
+15c
+[{"name":"0.1.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.1.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.1.0","commit":{"sha":"793369f3d51bbe53516d7228f61c173fc36f6586","url":"https://api.github.com/repos/weavejester/compojure/commits/793369f3d51bbe53516d7228f61c173fc36f6586"}}]
+0
+

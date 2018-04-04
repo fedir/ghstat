@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:55 GMT
+Etag: W/"95b3ed8cb91fb81ac5487fde38f19a1e"
+Last-Modified: Wed, 04 Apr 2018 21:42:49 GMT
+Link: <https://api.github.com/repositories/24195339/tags?page=7>; rel="prev", <https://api.github.com/repositories/24195339/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C873:1093:29E0CF:5B2DFC:5AC54A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4764
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.055541
+X-Xss-Protection: 1; mode=block
+
+591
+[{"name":"2.0.0-alpha.16","zipball_url":"https://api.github.com/repos/angular/angular/zipball/2.0.0-alpha.16","tarball_url":"https://api.github.com/repos/angular/angular/tarball/2.0.0-alpha.16","commit":{"sha":"acce69da754bfdd6eaf4a7fe0ff75e4e6c11a849","url":"https://api.github.com/repos/angular/angular/commits/acce69da754bfdd6eaf4a7fe0ff75e4e6c11a849"}},{"name":"2.0.0-alpha.15","zipball_url":"https://api.github.com/repos/angular/angular/zipball/2.0.0-alpha.15","tarball_url":"https://api.github.com/repos/angular/angular/tarball/2.0.0-alpha.15","commit":{"sha":"81e6d13241d143b6e72a09530314db5a9e24aeaa","url":"https://api.github.com/repos/angular/angular/commits/81e6d13241d143b6e72a09530314db5a9e24aeaa"}},{"name":"2.0.0-alpha.14","zipball_url":"https://api.github.com/repos/angular/angular/zipball/2.0.0-alpha.14","tarball_url":"https://api.github.com/repos/angular/angular/tarball/2.0.0-alpha.14","commit":{"sha":"1c9938ed9868259955b2d12c8ae541bf6dcbf09a","url":"https://api.github.com/repos/angular/angular/commits/1c9938ed9868259955b2d12c8ae541bf6dcbf09a"}},{"name":"2.0.0-alpha.13","zipball_url":"https://api.github.com/repos/angular/angular/zipball/2.0.0-alpha.13","tarball_url":"https://api.github.com/repos/angular/angular/tarball/2.0.0-alpha.13","commit":{"sha":"da4862a0c82866e117ee3727f80b205c00da0710","url":"https://api.github.com/repos/angular/angular/commits/da4862a0c82866e117ee3727f80b205c00da0710"}}]
+0
+

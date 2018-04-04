@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:55 GMT
+Etag: W/"153c1c10ef2169329ce0748632ed5aa3"
+Last-Modified: Wed, 04 Apr 2018 12:16:31 GMT
+Link: <https://api.github.com/repositories/757363/tags?page=1>; rel="prev", <https://api.github.com/repositories/757363/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C86E:1095:349076:6B0F1C:5AC54A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4772
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.027894
+X-Xss-Protection: 1; mode=block
+
+d35
+[{"name":"v1.2.0","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.2.0","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.2.0","commit":{"sha":"666c3969ad3dfb4b1ecd44b8001253ff13b14c33","url":"https://api.github.com/repos/knockout/knockout/commits/666c3969ad3dfb4b1ecd44b8001253ff13b14c33"}},{"name":"v1.1.2","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.1.2","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.1.2","commit":{"sha":"422038c0d5f96afef18ec7f981d1a052a05728da","url":"https://api.github.com/repos/knockout/knockout/commits/422038c0d5f96afef18ec7f981d1a052a05728da"}},{"name":"v1.1.1","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.1.1","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.1.1","commit":{"sha":"350f9d980c890bbbab9719ffacbf6cf8572fa67e","url":"https://api.github.com/repos/knockout/knockout/commits/350f9d980c890bbbab9719ffacbf6cf8572fa67e"}},{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.1.0","commit":{"sha":"a2e4c7c0f4d5b549b55495e4806a92cc607f87b8","url":"https://api.github.com/repos/knockout/knockout/commits/a2e4c7c0f4d5b549b55495e4806a92cc607f87b8"}},{"name":"v1.0.5","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.5","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.5","commit":{"sha":"5de4cb0293eed24f8062ab87c62081551a1765ac","url":"https://api.github.com/repos/knockout/knockout/commits/5de4cb0293eed24f8062ab87c62081551a1765ac"}},{"name":"v1.0.4","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.4","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.4","commit":{"sha":"db85fc2c960689cc2f6cb7f44ab61b4ba1e2165d","url":"https://api.github.com/repos/knockout/knockout/commits/db85fc2c960689cc2f6cb7f44ab61b4ba1e2165d"}},{"name":"v1.0.3","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.3","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.3","commit":{"sha":"d3543c70ea6a7c80d147e51c4b7246425ce1ea24","url":"https://api.github.com/repos/knockout/knockout/commits/d3543c70ea6a7c80d147e51c4b7246425ce1ea24"}},{"name":"v1.0.2","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.2","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.2","commit":{"sha":"8117236a4511e1e6e15b783bbee1acd47e77ffd4","url":"https://api.github.com/repos/knockout/knockout/commits/8117236a4511e1e6e15b783bbee1acd47e77ffd4"}},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.1","commit":{"sha":"f9d97ad317d9f14e3b60b8bf3476967ee7a91e40","url":"https://api.github.com/repos/knockout/knockout/commits/f9d97ad317d9f14e3b60b8bf3476967ee7a91e40"}},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/knockout/knockout/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/knockout/knockout/tarball/v1.0.0","commit":{"sha":"fd5200a48b93ee94aeb9b2f7abdff690a1f80cb8","url":"https://api.github.com/repos/knockout/knockout/commits/fd5200a48b93ee94aeb9b2f7abdff690a1f80cb8"}}]
+0
+

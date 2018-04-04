@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:53 GMT
+Etag: W/"3c5bdb4fb5ba4a4afd84702d21404522"
+Last-Modified: Wed, 04 Apr 2018 16:07:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C859:1094:18F6F1:3A6B5D:5AC54A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4808
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.034389
+X-Xss-Protection: 1; mode=block
+
+135
+[{"name":"v0.1","zipball_url":"https://api.github.com/repos/ipkn/crow/zipball/v0.1","tarball_url":"https://api.github.com/repos/ipkn/crow/tarball/v0.1","commit":{"sha":"274aad86e77c35072b4287f08213990cca9a14e8","url":"https://api.github.com/repos/ipkn/crow/commits/274aad86e77c35072b4287f08213990cca9a14e8"}}]
+0
+

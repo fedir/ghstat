@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:53 GMT
+Etag: W/"70f28c2d85cb9c777aa0e2415fa16695"
+Last-Modified: Tue, 27 Mar 2018 21:59:36 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C858:1093:29E041:5B2C87:5AC54A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4807
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.025986
+X-Xss-Protection: 1; mode=block
+
+b92
+[{"name":"v0.6.2","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.6.2","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.6.2","commit":{"sha":"dc3d9e51b36eb7edddd8e4db4b1d3a64dbd83d58","url":"https://api.github.com/repos/jlaine/qdjango/commits/dc3d9e51b36eb7edddd8e4db4b1d3a64dbd83d58"}},{"name":"v0.6.1","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.6.1","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.6.1","commit":{"sha":"b201cdb1a9c9bb466aa149e04bb0e24a92c64149","url":"https://api.github.com/repos/jlaine/qdjango/commits/b201cdb1a9c9bb466aa149e04bb0e24a92c64149"}},{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.6.0","commit":{"sha":"97a7a67106c51b8910b8b418e366fa34df847aed","url":"https://api.github.com/repos/jlaine/qdjango/commits/97a7a67106c51b8910b8b418e366fa34df847aed"}},{"name":"v0.5.0","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.5.0","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.5.0","commit":{"sha":"bcb73b81ff1cd721389914a2f75c9502f555dc23","url":"https://api.github.com/repos/jlaine/qdjango/commits/bcb73b81ff1cd721389914a2f75c9502f555dc23"}},{"name":"v0.4.0","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.4.0","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.4.0","commit":{"sha":"80d72d509327f81f57a4ca5bfec0532b1baea5b4","url":"https://api.github.com/repos/jlaine/qdjango/commits/80d72d509327f81f57a4ca5bfec0532b1baea5b4"}},{"name":"v0.3.0","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.3.0","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.3.0","commit":{"sha":"9a01acd3989ee736527d5e4d517706cf8d8855d2","url":"https://api.github.com/repos/jlaine/qdjango/commits/9a01acd3989ee736527d5e4d517706cf8d8855d2"}},{"name":"v0.2.6","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.2.6","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.2.6","commit":{"sha":"9a5840d6b63711578161e708dbad931ab56f07f1","url":"https://api.github.com/repos/jlaine/qdjango/commits/9a5840d6b63711578161e708dbad931ab56f07f1"}},{"name":"v0.2.5","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.2.5","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.2.5","commit":{"sha":"0ce0b6d47ab429d83ecb2f1232afc6a7a0bb65c3","url":"https://api.github.com/repos/jlaine/qdjango/commits/0ce0b6d47ab429d83ecb2f1232afc6a7a0bb65c3"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/jlaine/qdjango/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/jlaine/qdjango/tarball/v0.2.0","commit":{"sha":"da189cec6a0c8bf5ed33c83293f8efb287dfaac5","url":"https://api.github.com/repos/jlaine/qdjango/commits/da189cec6a0c8bf5ed33c83293f8efb287dfaac5"}}]
+0
+

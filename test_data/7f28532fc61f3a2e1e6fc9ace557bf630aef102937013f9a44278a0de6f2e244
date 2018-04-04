@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:48 GMT
+Etag: W/"ba5e80160b3833f7f9eeec6ae84dbdd0"
+Last-Modified: Wed, 04 Apr 2018 21:07:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C82C:1093:29DEC9:5B2902:5AC54A5C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4857
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.034184
+X-Xss-Protection: 1; mode=block
+
+50d
+[{"name":"v0.19.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.19.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.19.0","commit":{"sha":"4ee769d3593d5297602c2bb6faca0eb63884d480","url":"https://api.github.com/repos/plotly/dash/commits/4ee769d3593d5297602c2bb6faca0eb63884d480"}},{"name":"v0.18.3","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.3","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.3","commit":{"sha":"5cce7764cfe36dac1898f2895533b5c3a9894144","url":"https://api.github.com/repos/plotly/dash/commits/5cce7764cfe36dac1898f2895533b5c3a9894144"}},{"name":"v0.18.1","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.1","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.1","commit":{"sha":"b890bd8184fcf82ced88f313cf834e0f07592298","url":"https://api.github.com/repos/plotly/dash/commits/b890bd8184fcf82ced88f313cf834e0f07592298"}},{"name":"v0.18.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.0","commit":{"sha":"dea7b753de9e01ad9add9e353619ee5f80dcb9f4","url":"https://api.github.com/repos/plotly/dash/commits/dea7b753de9e01ad9add9e353619ee5f80dcb9f4"}}]
+0
+

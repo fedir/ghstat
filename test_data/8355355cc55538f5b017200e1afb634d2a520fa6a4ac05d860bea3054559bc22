@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:54 GMT
+Etag: W/"71bf46e8172eb1e3c56943fb42ee7e0a"
+Last-Modified: Wed, 04 Apr 2018 21:48:35 GMT
+Link: <https://api.github.com/repositories/1064563/tags?page=6>; rel="prev", <https://api.github.com/repositories/1064563/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C863:1093:29E08D:5B2D54:5AC54A62
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4786
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.075367
+X-Xss-Protection: 1; mode=block
+
+c6d
+[{"name":"netty-3.3.1.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.3.1.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.3.1.Final","commit":{"sha":"08a823965552c3b104d5667ac88a5cbd5c09209d","url":"https://api.github.com/repos/netty/netty/commits/08a823965552c3b104d5667ac88a5cbd5c09209d"}},{"name":"netty-3.3.0.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.3.0.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.3.0.Final","commit":{"sha":"6ec46bc17f11186b5ce7537dd042fe58409de708","url":"https://api.github.com/repos/netty/netty/commits/6ec46bc17f11186b5ce7537dd042fe58409de708"}},{"name":"netty-3.2.10.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.10.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.10.Final","commit":{"sha":"4ec4abe2e7ac9e1a5e4be88e6dd09403592f9512","url":"https://api.github.com/repos/netty/netty/commits/4ec4abe2e7ac9e1a5e4be88e6dd09403592f9512"}},{"name":"netty-3.2.9.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.9.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.9.Final","commit":{"sha":"3b5550e16b30d0046862ab3c634400ee6e1b9b7e","url":"https://api.github.com/repos/netty/netty/commits/3b5550e16b30d0046862ab3c634400ee6e1b9b7e"}},{"name":"netty-3.2.8.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.8.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.8.Final","commit":{"sha":"f0044891ee047366d896181bf9f23c88dbe9ac07","url":"https://api.github.com/repos/netty/netty/commits/f0044891ee047366d896181bf9f23c88dbe9ac07"}},{"name":"netty-3.2.7.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.7.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.7.Final","commit":{"sha":"0b5abecc002059c00c55c20eff90d96603b083c0","url":"https://api.github.com/repos/netty/netty/commits/0b5abecc002059c00c55c20eff90d96603b083c0"}},{"name":"netty-3.2.6.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.6.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.6.Final","commit":{"sha":"20df06911ef6bc186bd68a4507279d83a5532b9c","url":"https://api.github.com/repos/netty/netty/commits/20df06911ef6bc186bd68a4507279d83a5532b9c"}},{"name":"netty-3.2.5.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.5.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.5.Final","commit":{"sha":"a96d88c251e635d5ca18180b522e345667ddcf71","url":"https://api.github.com/repos/netty/netty/commits/a96d88c251e635d5ca18180b522e345667ddcf71"}},{"name":"netty-3.2.4.Final","zipball_url":"https://api.github.com/repos/netty/netty/zipball/netty-3.2.4.Final","tarball_url":"https://api.github.com/repos/netty/netty/tarball/netty-3.2.4.Final","commit":{"sha":"0b47c34036edb6beab4d90ac6e584fef3f10c89f","url":"https://api.github.com/repos/netty/netty/commits/0b47c34036edb6beab4d90ac6e584fef3f10c89f"}}]
+0
+

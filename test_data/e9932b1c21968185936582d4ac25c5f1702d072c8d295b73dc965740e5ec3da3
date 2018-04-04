@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:50 GMT
+Etag: W/"8519e94602e9747490c4e018018c508f"
+Last-Modified: Tue, 03 Apr 2018 19:05:51 GMT
+Link: <https://api.github.com/repositories/680799/tags?page=1>; rel="prev", <https://api.github.com/repositories/680799/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C841:1092:20618C:4A2AB9:5AC54A5E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4826
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.028009
+X-Xss-Protection: 1; mode=block
+
+7c0
+[{"name":"active-passive","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/active-passive","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/active-passive","commit":{"sha":"ecc6f85090c91c59e6628adb393f0c3bd25cc61d","url":"https://api.github.com/repos/mochi/mochiweb/commits/ecc6f85090c91c59e6628adb393f0c3bd25cc61d"}},{"name":"1.5.2","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.2","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.2","commit":{"sha":"b81e5047a44d55e1b42ddbc62a801940a1a693c4","url":"https://api.github.com/repos/mochi/mochiweb/commits/b81e5047a44d55e1b42ddbc62a801940a1a693c4"}},{"name":"1.5.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.1","commit":{"sha":"bed36252198ae7159e3d2b3a9ca9a9bb9817e1de","url":"https://api.github.com/repos/mochi/mochiweb/commits/bed36252198ae7159e3d2b3a9ca9a9bb9817e1de"}},{"name":"1.5.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.0","commit":{"sha":"86e2b0388737ef79e4c443e62cf8f86e680b887b","url":"https://api.github.com/repos/mochi/mochiweb/commits/86e2b0388737ef79e4c443e62cf8f86e680b887b"}},{"name":"1.4.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.1","commit":{"sha":"80571b9683cbc75cafddd4c428aa3cb2bbd66a7d","url":"https://api.github.com/repos/mochi/mochiweb/commits/80571b9683cbc75cafddd4c428aa3cb2bbd66a7d"}},{"name":"1.4.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.0","commit":{"sha":"32dc8be582d6e8287f7b241990a1d55faec26d43","url":"https://api.github.com/repos/mochi/mochiweb/commits/32dc8be582d6e8287f7b241990a1d55faec26d43"}}]
+0
+

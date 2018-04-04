@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:48 GMT
+Etag: W/"c46adc4589bc9d2f7b846bb7361170c3"
+Last-Modified: Wed, 04 Apr 2018 18:01:49 GMT
+Link: <https://api.github.com/repositories/1020639/tags?page=4>; rel="prev", <https://api.github.com/repositories/1020639/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C82E:1093:29DED6:5B2920:5AC54A5C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4851
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.068640
+X-Xss-Protection: 1; mode=block
+
+cf3
+[{"name":"1.0a7","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a7","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a7","commit":{"sha":"bd3bf1423ab441ccdca2b7e05cdb2b1b94c12223","url":"https://api.github.com/repos/Pylons/pyramid/commits/bd3bf1423ab441ccdca2b7e05cdb2b1b94c12223"}},{"name":"1.0a6","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a6","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a6","commit":{"sha":"07bd035c2e8ca34580fd56c5bbacc58bb455a275","url":"https://api.github.com/repos/Pylons/pyramid/commits/07bd035c2e8ca34580fd56c5bbacc58bb455a275"}},{"name":"1.0a5","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a5","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a5","commit":{"sha":"ec88337c99e84ba17a45a1f6695f6174da4a9172","url":"https://api.github.com/repos/Pylons/pyramid/commits/ec88337c99e84ba17a45a1f6695f6174da4a9172"}},{"name":"1.0a4","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a4","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a4","commit":{"sha":"406259adbe413b91d2629471d0d8be584f0abd7c","url":"https://api.github.com/repos/Pylons/pyramid/commits/406259adbe413b91d2629471d0d8be584f0abd7c"}},{"name":"1.0a3","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a3","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a3","commit":{"sha":"3fa99493e9ba3d1dc05d8e917ee2f1bc1b6ed14e","url":"https://api.github.com/repos/Pylons/pyramid/commits/3fa99493e9ba3d1dc05d8e917ee2f1bc1b6ed14e"}},{"name":"1.0a2","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a2","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a2","commit":{"sha":"3d4e564da02429a297874a9e6881d3424fb24a11","url":"https://api.github.com/repos/Pylons/pyramid/commits/3d4e564da02429a297874a9e6881d3424fb24a11"}},{"name":"1.0a1","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0a1","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0a1","commit":{"sha":"fcc3d18e1986afdeab8db25d23db1c3e240b90d3","url":"https://api.github.com/repos/Pylons/pyramid/commits/fcc3d18e1986afdeab8db25d23db1c3e240b90d3"}},{"name":"1.0-book-proof2","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0-book-proof2","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0-book-proof2","commit":{"sha":"1e3082082f90680de629eed83dde1e2294bae47a","url":"https://api.github.com/repos/Pylons/pyramid/commits/1e3082082f90680de629eed83dde1e2294bae47a"}},{"name":"1.0-book-proof1","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/1.0-book-proof1","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/1.0-book-proof1","commit":{"sha":"13d2f633c4b04fc5f061b8c41fc4dd690f5e811d","url":"https://api.github.com/repos/Pylons/pyramid/commits/13d2f633c4b04fc5f061b8c41fc4dd690f5e811d"}},{"name":"0.2","zipball_url":"https://api.github.com/repos/Pylons/pyramid/zipball/0.2","tarball_url":"https://api.github.com/repos/Pylons/pyramid/tarball/0.2","commit":{"sha":"3d4e564da02429a297874a9e6881d3424fb24a11","url":"https://api.github.com/repos/Pylons/pyramid/commits/3d4e564da02429a297874a9e6881d3424fb24a11"}}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:52 GMT
+Etag: W/"42f2ea89cf0816da060366f2652b6bbc"
+Last-Modified: Wed, 04 Apr 2018 14:38:55 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C84F:1095:348F09:6B0C70:5AC54A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4812
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.031610
+X-Xss-Protection: 1; mode=block
+
+e36
+[{"name":"v0.8","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.8","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.8","commit":{"sha":"46ed564fe1b91d2d253e2f968db233fcc22eeaae","url":"https://api.github.com/repos/davidmoreno/onion/commits/46ed564fe1b91d2d253e2f968db233fcc22eeaae"}},{"name":"v0.7","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.7","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.7","commit":{"sha":"169fabcf97a22cd91a45ebd06da11926b415fa60","url":"https://api.github.com/repos/davidmoreno/onion/commits/169fabcf97a22cd91a45ebd06da11926b415fa60"}},{"name":"v0.5","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.5","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.5","commit":{"sha":"669eec309d38851a735234fbac1044b6f0222303","url":"https://api.github.com/repos/davidmoreno/onion/commits/669eec309d38851a735234fbac1044b6f0222303"}},{"name":"v0.4","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.4","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.4","commit":{"sha":"17af7f1b66c07a0ad13914d56dae499d5568c824","url":"https://api.github.com/repos/davidmoreno/onion/commits/17af7f1b66c07a0ad13914d56dae499d5568c824"}},{"name":"v0.3","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.3","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.3","commit":{"sha":"e427b7d6018d32966f051505d19fa78cbc8b0151","url":"https://api.github.com/repos/davidmoreno/onion/commits/e427b7d6018d32966f051505d19fa78cbc8b0151"}},{"name":"v0.2","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/v0.2","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/v0.2","commit":{"sha":"6da6af19db118e4248a9dfa9b1f01b7b31b6bedf","url":"https://api.github.com/repos/davidmoreno/onion/commits/6da6af19db118e4248a9dfa9b1f01b7b31b6bedf"}},{"name":"0.7","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/0.7","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/0.7","commit":{"sha":"169fabcf97a22cd91a45ebd06da11926b415fa60","url":"https://api.github.com/repos/davidmoreno/onion/commits/169fabcf97a22cd91a45ebd06da11926b415fa60"}},{"name":"0.5","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/0.5","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/0.5","commit":{"sha":"669eec309d38851a735234fbac1044b6f0222303","url":"https://api.github.com/repos/davidmoreno/onion/commits/669eec309d38851a735234fbac1044b6f0222303"}},{"name":"0.4","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/0.4","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/0.4","commit":{"sha":"17af7f1b66c07a0ad13914d56dae499d5568c824","url":"https://api.github.com/repos/davidmoreno/onion/commits/17af7f1b66c07a0ad13914d56dae499d5568c824"}},{"name":"0.3","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/0.3","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/0.3","commit":{"sha":"e427b7d6018d32966f051505d19fa78cbc8b0151","url":"https://api.github.com/repos/davidmoreno/onion/commits/e427b7d6018d32966f051505d19fa78cbc8b0151"}},{"name":"0.2","zipball_url":"https://api.github.com/repos/davidmoreno/onion/zipball/0.2","tarball_url":"https://api.github.com/repos/davidmoreno/onion/tarball/0.2","commit":{"sha":"6da6af19db118e4248a9dfa9b1f01b7b31b6bedf","url":"https://api.github.com/repos/davidmoreno/onion/commits/6da6af19db118e4248a9dfa9b1f01b7b31b6bedf"}}]
+0
+

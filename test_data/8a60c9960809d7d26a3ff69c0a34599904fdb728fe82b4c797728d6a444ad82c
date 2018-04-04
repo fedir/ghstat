@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:59 GMT
+Etag: W/"9805a52bad5ac5b56a886ebbf47c65ac"
+Last-Modified: Wed, 04 Apr 2018 19:14:46 GMT
+Link: <https://api.github.com/repositories/2464908/tags?page=6>; rel="prev", <https://api.github.com/repositories/2464908/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C883:1095:349229:6B121C:5AC54A67
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4734
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.055479
+X-Xss-Protection: 1; mode=block
+
+1134
+[{"name":"2.5.8","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.8","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.8","commit":{"sha":"b95f8ac2bf791c3031bb332daca7f374855587b9","url":"https://api.github.com/repos/joomla/joomla-cms/commits/b95f8ac2bf791c3031bb332daca7f374855587b9"}},{"name":"2.5.7","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.7","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.7","commit":{"sha":"aa415ea6122f44e95970b2160404e52a54ea85b2","url":"https://api.github.com/repos/joomla/joomla-cms/commits/aa415ea6122f44e95970b2160404e52a54ea85b2"}},{"name":"2.5.6","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.6","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.6","commit":{"sha":"2ab73ee2441027c99ca3bb44dcc593d9e42247df","url":"https://api.github.com/repos/joomla/joomla-cms/commits/2ab73ee2441027c99ca3bb44dcc593d9e42247df"}},{"name":"2.5.5","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.5","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.5","commit":{"sha":"7234b9598c0bccfb447da5fa20ee72190c58ff6a","url":"https://api.github.com/repos/joomla/joomla-cms/commits/7234b9598c0bccfb447da5fa20ee72190c58ff6a"}},{"name":"2.5.4","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.4","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.4","commit":{"sha":"0c8cb24dcedcf34a46cc2ff8b0b9ad8df286aa64","url":"https://api.github.com/repos/joomla/joomla-cms/commits/0c8cb24dcedcf34a46cc2ff8b0b9ad8df286aa64"}},{"name":"2.5.3","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.3","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.3","commit":{"sha":"00d8ab3abd2558501592dc73fecfbe46bb56522f","url":"https://api.github.com/repos/joomla/joomla-cms/commits/00d8ab3abd2558501592dc73fecfbe46bb56522f"}},{"name":"2.5.2","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.2","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.2","commit":{"sha":"98bd1442bfb598ab94802315b142bb8eb08a9de2","url":"https://api.github.com/repos/joomla/joomla-cms/commits/98bd1442bfb598ab94802315b142bb8eb08a9de2"}},{"name":"2.5.1","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.1","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.1","commit":{"sha":"830c8c54be64f9d9f6fc00bf6f0f03447d483053","url":"https://api.github.com/repos/joomla/joomla-cms/commits/830c8c54be64f9d9f6fc00bf6f0f03447d483053"}},{"name":"2.5.0","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.0","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.0","commit":{"sha":"d53146a31d303a10b8cc4fa78a6fb16770ae50e7","url":"https://api.github.com/repos/joomla/joomla-cms/commits/d53146a31d303a10b8cc4fa78a6fb16770ae50e7"}},{"name":"2.5.0_beta2","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.0_beta2","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.0_beta2","commit":{"sha":"c1921a8e3fca744d12ac9e9b7e190bff79dec72a","url":"https://api.github.com/repos/joomla/joomla-cms/commits/c1921a8e3fca744d12ac9e9b7e190bff79dec72a"}},{"name":"2.5.0_beta1","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.0_beta1","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.0_beta1","commit":{"sha":"d7e111cef3fbeee4338ce6359e6ec84fc9af44ab","url":"https://api.github.com/repos/joomla/joomla-cms/commits/d7e111cef3fbeee4338ce6359e6ec84fc9af44ab"}},{"name":"2.5.0_RC1","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/2.5.0_RC1","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/2.5.0_RC1","commit":{"sha":"fb536708b5d5dbf0a0c935b174db581ba292ebc5","url":"https://api.github.com/repos/joomla/joomla-cms/commits/fb536708b5d5dbf0a0c935b174db581ba292ebc5"}},{"name":"1.7.3","zipball_url":"https://api.github.com/repos/joomla/joomla-cms/zipball/1.7.3","tarball_url":"https://api.github.com/repos/joomla/joomla-cms/tarball/1.7.3","commit":{"sha":"7d7ffbce4f40c75a99c9b5059e50f30fd1771561","url":"https://api.github.com/repos/joomla/joomla-cms/commits/7d7ffbce4f40c75a99c9b5059e50f30fd1771561"}}]
+0
+

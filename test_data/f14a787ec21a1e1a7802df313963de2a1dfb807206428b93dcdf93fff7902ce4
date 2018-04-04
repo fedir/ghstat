@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:58:00 GMT
+Etag: W/"85892acb86a80d97a1c9f0c0367cfdd8"
+Last-Modified: Wed, 04 Apr 2018 15:11:41 GMT
+Link: <https://api.github.com/repositories/67999496/tags?page=3>; rel="prev", <https://api.github.com/repositories/67999496/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C894:1095:3492CD:6B134F:5AC54A68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4716
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.051494
+X-Xss-Protection: 1; mode=block
+
+781
+[{"name":"0.6.2","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.6.2","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.6.2","commit":{"sha":"d31505db6a8a1a67bbc6fc77296e3f6061f32de5","url":"https://api.github.com/repos/gentics/mesh/commits/d31505db6a8a1a67bbc6fc77296e3f6061f32de5"}},{"name":"0.6.1","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.6.1","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.6.1","commit":{"sha":"0601f80083954f597357f67167c7c79b265f08bc","url":"https://api.github.com/repos/gentics/mesh/commits/0601f80083954f597357f67167c7c79b265f08bc"}},{"name":"0.6.0","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.6.0","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.6.0","commit":{"sha":"27f4a881e9ae21dcfe9796727746c48d7b8c2e73","url":"https://api.github.com/repos/gentics/mesh/commits/27f4a881e9ae21dcfe9796727746c48d7b8c2e73"}},{"name":"0.5.3","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.5.3","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.5.3","commit":{"sha":"46177e40b955e7f44853319c89b84564cac5a616","url":"https://api.github.com/repos/gentics/mesh/commits/46177e40b955e7f44853319c89b84564cac5a616"}},{"name":"0.5.2","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.5.2","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.5.2","commit":{"sha":"46177e40b955e7f44853319c89b84564cac5a616","url":"https://api.github.com/repos/gentics/mesh/commits/46177e40b955e7f44853319c89b84564cac5a616"}},{"name":"0.5.1","zipball_url":"https://api.github.com/repos/gentics/mesh/zipball/0.5.1","tarball_url":"https://api.github.com/repos/gentics/mesh/tarball/0.5.1","commit":{"sha":"43640f8e7b88516036117f7aeca8db38ac5323b2","url":"https://api.github.com/repos/gentics/mesh/commits/43640f8e7b88516036117f7aeca8db38ac5323b2"}}]
+0
+

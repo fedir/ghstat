@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:51 GMT
+Etag: W/"bb6ae0fcccc6d51f73047163b0c82ffd"
+Last-Modified: Wed, 21 Mar 2018 16:10:47 GMT
+Link: <https://api.github.com/repositories/680122/tags?page=2>; rel="prev", <https://api.github.com/repositories/680122/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C84A:1093:29DFBB:5B2B4B:5AC54A5F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4818
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.036184
+X-Xss-Protection: 1; mode=block
+
+135e
+[{"name":"0.2.11","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.11","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.11","commit":{"sha":"cbfa06bd717dcfeb32f30c4047182afb32cb7701","url":"https://api.github.com/repos/snapframework/snap-core/commits/cbfa06bd717dcfeb32f30c4047182afb32cb7701"}},{"name":"0.2.9","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.9","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.9","commit":{"sha":"0ee8437381a52f234b3ed4dcb247c8d8d63992be","url":"https://api.github.com/repos/snapframework/snap-core/commits/0ee8437381a52f234b3ed4dcb247c8d8d63992be"}},{"name":"0.2.8.1","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.8.1","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.8.1","commit":{"sha":"4eb1d400ac0d96cfbcf1bf0296d3229a38140680","url":"https://api.github.com/repos/snapframework/snap-core/commits/4eb1d400ac0d96cfbcf1bf0296d3229a38140680"}},{"name":"0.2.8","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.8","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.8","commit":{"sha":"265ad1ec83e5873a674b2124eec47dbeed02b835","url":"https://api.github.com/repos/snapframework/snap-core/commits/265ad1ec83e5873a674b2124eec47dbeed02b835"}},{"name":"0.2.7.1","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.7.1","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.7.1","commit":{"sha":"d0791eb5307f01ec0a038d6ec832f53fc765d25a","url":"https://api.github.com/repos/snapframework/snap-core/commits/d0791eb5307f01ec0a038d6ec832f53fc765d25a"}},{"name":"0.2.7","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.7","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.7","commit":{"sha":"5e5750e9500dde19680dcd239797472aac368c9e","url":"https://api.github.com/repos/snapframework/snap-core/commits/5e5750e9500dde19680dcd239797472aac368c9e"}},{"name":"0.2.6","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.6","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.6","commit":{"sha":"c79652f5e5978eee3c3aad06c2fad5a97c60045d","url":"https://api.github.com/repos/snapframework/snap-core/commits/c79652f5e5978eee3c3aad06c2fad5a97c60045d"}},{"name":"0.2.5","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.5","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.5","commit":{"sha":"112537b49c1258ff29adec0e3225fa8bcc961623","url":"https://api.github.com/repos/snapframework/snap-core/commits/112537b49c1258ff29adec0e3225fa8bcc961623"}},{"name":"0.2.4","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.4","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.4","commit":{"sha":"28689f30493adc3255fc9e909b940a8c517a42cb","url":"https://api.github.com/repos/snapframework/snap-core/commits/28689f30493adc3255fc9e909b940a8c517a42cb"}},{"name":"0.2.3","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.3","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.3","commit":{"sha":"0ddeb8017bebbbd7833b902940084c51bdec0a8f","url":"https://api.github.com/repos/snapframework/snap-core/commits/0ddeb8017bebbbd7833b902940084c51bdec0a8f"}},{"name":"0.2.2","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.2","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.2","commit":{"sha":"6b80792497464d8606789fd16d76c9a9213d44cf","url":"https://api.github.com/repos/snapframework/snap-core/commits/6b80792497464d8606789fd16d76c9a9213d44cf"}},{"name":"0.2.1","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.2.1","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.2.1","commit":{"sha":"a66d2f473a73b323eb869d47f7a35ef35bb64c30","url":"https://api.github.com/repos/snapframework/snap-core/commits/a66d2f473a73b323eb869d47f7a35ef35bb64c30"}},{"name":"0.1.2","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.1.2","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.1.2","commit":{"sha":"3fee627e0d65171c97e8f1994d536051da3c997e","url":"https://api.github.com/repos/snapframework/snap-core/commits/3fee627e0d65171c97e8f1994d536051da3c997e"}},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/snapframework/snap-core/zipball/0.1.1","tarball_url":"https://api.github.com/repos/snapframework/snap-core/tarball/0.1.1","commit":{"sha":"e1ea73099e26dd1d7f08dc5644e8c186f0ca96f6","url":"https://api.github.com/repos/snapframework/snap-core/commits/e1ea73099e26dd1d7f08dc5644e8c186f0ca96f6"}}]
+0
+

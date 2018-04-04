@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:50 GMT
+Etag: W/"d5d152189196c4c20df151c1814d3ee9"
+Last-Modified: Wed, 04 Apr 2018 20:03:19 GMT
+Link: <https://api.github.com/repositories/1460612/tags?page=1>; rel="prev", <https://api.github.com/repositories/1460612/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C83C:1092:20618A:4A2AB8:5AC54A5E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4827
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.036065
+X-Xss-Protection: 1; mode=block
+
+e45
+[{"name":"0.8.6","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.6","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.6","commit":{"sha":"9eaee45c090b9cb170554bc7e09d679bc0598716","url":"https://api.github.com/repos/ninenines/cowboy/commits/9eaee45c090b9cb170554bc7e09d679bc0598716"}},{"name":"0.8.5","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.5","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.5","commit":{"sha":"bfbe1cc5c60471efe3e840f5658957ace0269dbd","url":"https://api.github.com/repos/ninenines/cowboy/commits/bfbe1cc5c60471efe3e840f5658957ace0269dbd"}},{"name":"0.8.4","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.4","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.4","commit":{"sha":"46b2ea0aaa7fe891bfdf3f8a0c47357393e72cf6","url":"https://api.github.com/repos/ninenines/cowboy/commits/46b2ea0aaa7fe891bfdf3f8a0c47357393e72cf6"}},{"name":"0.8.3","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.3","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.3","commit":{"sha":"7de1d9d3d5ab9194e78059b16ff38406a5fac6ae","url":"https://api.github.com/repos/ninenines/cowboy/commits/7de1d9d3d5ab9194e78059b16ff38406a5fac6ae"}},{"name":"0.8.2","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.2","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.2","commit":{"sha":"cc507789bf1d9ea27e9fb53d06dc8a464672b7da","url":"https://api.github.com/repos/ninenines/cowboy/commits/cc507789bf1d9ea27e9fb53d06dc8a464672b7da"}},{"name":"0.8.1","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.1","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.1","commit":{"sha":"6884a4949b5235eb809996228406c659a349fc60","url":"https://api.github.com/repos/ninenines/cowboy/commits/6884a4949b5235eb809996228406c659a349fc60"}},{"name":"0.8.0","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.8.0","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.8.0","commit":{"sha":"46cce4814390a2917563ce7af82e0e1bbfc81ed3","url":"https://api.github.com/repos/ninenines/cowboy/commits/46cce4814390a2917563ce7af82e0e1bbfc81ed3"}},{"name":"0.6.1","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.6.1","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.6.1","commit":{"sha":"af07e048e3b3dcda1c1b80e5b664b9939100a7dd","url":"https://api.github.com/repos/ninenines/cowboy/commits/af07e048e3b3dcda1c1b80e5b664b9939100a7dd"}},{"name":"0.6.0","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.6.0","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.6.0","commit":{"sha":"0c2e2224e372f01e6cf51a8e12d4856edb4cb8ac","url":"https://api.github.com/repos/ninenines/cowboy/commits/0c2e2224e372f01e6cf51a8e12d4856edb4cb8ac"}},{"name":"0.4.0","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.4.0","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.4.0","commit":{"sha":"9ee120db78dc3619292ae5117c8f25e8bd4aa621","url":"https://api.github.com/repos/ninenines/cowboy/commits/9ee120db78dc3619292ae5117c8f25e8bd4aa621"}},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/ninenines/cowboy/zipball/0.2.0","tarball_url":"https://api.github.com/repos/ninenines/cowboy/tarball/0.2.0","commit":{"sha":"009ad4c9ebbd943e92be4c8edd2ccf7c7b739497","url":"https://api.github.com/repos/ninenines/cowboy/commits/009ad4c9ebbd943e92be4c8edd2ccf7c7b739497"}}]
+0
+

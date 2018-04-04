@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:52 GMT
+Etag: W/"8bff91e11ea8d0e0e8ee299e5e686863"
+Last-Modified: Wed, 04 Apr 2018 07:34:41 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C84E:1093:29DFFF:5B2BE8:5AC54A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4811
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.052982
+X-Xss-Protection: 1; mode=block
+
+829
+[{"name":"2.0.0-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/2.0.0-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/2.0.0-release","commit":{"sha":"a16348d5241b0b82f09c51cf3161872b6916cd76","url":"https://api.github.com/repos/jorisvink/kore/commits/a16348d5241b0b82f09c51cf3161872b6916cd76"}},{"name":"1.2.3-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/1.2.3-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/1.2.3-release","commit":{"sha":"2ee09b6a43620d481307f9c1b55c463cca8e81d9","url":"https://api.github.com/repos/jorisvink/kore/commits/2ee09b6a43620d481307f9c1b55c463cca8e81d9"}},{"name":"1.2.2-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/1.2.2-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/1.2.2-release","commit":{"sha":"81c3325677a8851d6a08bb91b70970b9465baebb","url":"https://api.github.com/repos/jorisvink/kore/commits/81c3325677a8851d6a08bb91b70970b9465baebb"}},{"name":"1.2.1-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/1.2.1-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/1.2.1-release","commit":{"sha":"6005c95ee6086dd5dfee445cd18645ca0e2dce7c","url":"https://api.github.com/repos/jorisvink/kore/commits/6005c95ee6086dd5dfee445cd18645ca0e2dce7c"}},{"name":"1.2-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/1.2-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/1.2-release","commit":{"sha":"f3e863a482d302aa8d1ecb547196eb336a5c4215","url":"https://api.github.com/repos/jorisvink/kore/commits/f3e863a482d302aa8d1ecb547196eb336a5c4215"}},{"name":"1.1-release","zipball_url":"https://api.github.com/repos/jorisvink/kore/zipball/1.1-release","tarball_url":"https://api.github.com/repos/jorisvink/kore/tarball/1.1-release","commit":{"sha":"b7eafa6502c1072b66e8d7029afb66e92343d408","url":"https://api.github.com/repos/jorisvink/kore/commits/b7eafa6502c1072b66e8d7029afb66e92343d408"}}]
+0
+

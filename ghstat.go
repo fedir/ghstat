@@ -83,6 +83,7 @@ func main() {
 		"Last commit date",
 		"Commits/day",
 		"Medium commit size",
+		"Total releases",
 		"Stargazers",
 		"Forks",
 		"Contributors",
@@ -100,19 +101,20 @@ func main() {
 		"licenseColumn":                    3,
 		"authorsFollowersColumn":           4,
 		"top10ContributorsFollowersColumn": 5,
-		"totalAdditionsColumn":             9,
 		"ageColumn":                        7,
 		"totalCommitsColumn":               8,
+		"totalAdditionsColumn":             9,
 		"totalDeletionsColumn":             10,
 		"totalCodeChangesColumn":           11,
 		"lastCommitDateColumn":             12,
 		"commitsByDayColumn":               13,
 		"mediCommitSizeColumn":             14,
-		"stargazersColumn":                 15,
-		"activeForkersColumn":              18,
-		"issuesByDayColumn":                21,
-		"closedIssuesPercentageColumn":     22,
-		"totalPointsColumnIndex":           23,
+		"totalTagsColumn":                  15,
+		"stargazersColumn":                 16,
+		"activeForkersColumn":              19,
+		"issuesByDayColumn":                22,
+		"closedIssuesPercentageColumn":     23,
+		"totalPointsColumnIndex":           24,
 	}
 	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
@@ -136,6 +138,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 	}
 	closedIssues := github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
 	topContributorsFollowers, totalContributors := github.GetRepositoryContributors(rKey, tmpFolder, debug)
+	totalTags := github.GetRepositoryTagsNumber(rKey, tmpFolder, debug)
 	activeForkersPercentage := github.GetActiveForkersPercentage(totalContributors, repositoryData.Forks)
 	issueByDay := github.GetIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
 	closedIssuesPercentage := github.GetClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
@@ -167,6 +170,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 		fmt.Sprintf(lastCommitDate.Format("2006-01-02 15:04:05")),
 		fmt.Sprintf("%.4f", commitsByDay),
 		fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
+		fmt.Sprintf("%d", totalTags),
 		fmt.Sprintf("%d", repositoryData.Watchers),
 		fmt.Sprintf("%d", repositoryData.Forks),
 		fmt.Sprintf("%d", totalContributors),

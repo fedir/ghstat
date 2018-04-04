@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:57:57 GMT
+Etag: W/"58b87d8d42623b8bff479434aaacf7a3"
+Last-Modified: Wed, 04 Apr 2018 21:33:55 GMT
+Link: <https://api.github.com/repositories/458058/tags?page=11>; rel="prev", <https://api.github.com/repositories/458058/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C87B:1093:29E147:5B2EE4:5AC54A64
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4753
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.090773
+X-Xss-Protection: 1; mode=block
+
+561
+[{"name":"v2.0.0-RC4","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC4","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC4","commit":{"sha":"7d8fb3ddb93610f0c75a25ce2060dd568d36da85","url":"https://api.github.com/repos/symfony/symfony/commits/7d8fb3ddb93610f0c75a25ce2060dd568d36da85"}},{"name":"v2.0.0-RC3","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC3","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC3","commit":{"sha":"705fc0ddd3c615b03a4ee001a9164259c8011b68","url":"https://api.github.com/repos/symfony/symfony/commits/705fc0ddd3c615b03a4ee001a9164259c8011b68"}},{"name":"v2.0.0-RC2","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC2","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC2","commit":{"sha":"e906897c185142942bf24d4a2088f3c67163b439","url":"https://api.github.com/repos/symfony/symfony/commits/e906897c185142942bf24d4a2088f3c67163b439"}},{"name":"v2.0.0-RC1","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC1","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC1","commit":{"sha":"92c28844ced90926b6f6ce138783072d6dee2a52","url":"https://api.github.com/repos/symfony/symfony/commits/92c28844ced90926b6f6ce138783072d6dee2a52"}}]
+0
+

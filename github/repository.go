@@ -7,6 +7,8 @@ package github
 import (
 	"encoding/json"
 	"log"
+	"regexp"
+	"strconv"
 	"time"
 
 	"github.com/fedir/ghstat/httpcache"
@@ -24,6 +26,11 @@ type Repository struct {
 	License    struct {
 		SPDXID string `json:"spdx_id"`
 	} `json:"license"`
+}
+
+// Tag structure with selcted data keys for JSON processing
+type Tag struct {
+	Name string `json:"name"`
 }
 
 // GetRepositoryClosedIssues gets number of closed issues of a repository
@@ -82,4 +89,43 @@ func GetClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
 		closedIssuesPercentage = 100
 	}
 	return closedIssuesPercentage
+}
+
+// GetRepositoryTagsNumber gets information about tags of the repository
+func GetRepositoryTagsNumber(repoKey string, tmpFolder string, debug bool) int {
+	var totalTags int
+	url := "https://api.github.com/repos/" + repoKey + "/tags"
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
+	var compRegEx = regexp.MustCompile(regexpPageIndexes)
+	match := compRegEx.FindStringSubmatch(linkHeader)
+	nextPage := 0
+	lastPage := 0
+	for range compRegEx.SubexpNames() {
+		if len(match) == 3 {
+			nextPage, _ = strconv.Atoi(match[1])
+			lastPage, _ = strconv.Atoi(match[2])
+		}
+	}
+	tags := make([]Tag, 0)
+	json.Unmarshal(jsonResponse, &tags)
+	if nextPage != 0 {
+		tagsOnLastPage := getRepositoryTagsNumberLastPage(linkHeader, tmpFolder, debug)
+		totalTags = (lastPage-1)*30 + tagsOnLastPage
+	} else {
+		totalTags = len(tags)
+	}
+	return totalTags
+}
+
+func getRepositoryTagsNumberLastPage(linkHeader string, tmpFolder string, debug bool) int {
+	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
+	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
+	lastPageURL := matchLastURL[1]
+	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	tags := make([]Tag, 0)
+	json.Unmarshal(jsonResponse, &tags)
+	tagsOnLastPage := len(tags)
+	return tagsOnLastPage
 }

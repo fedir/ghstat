@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 21:58:00 GMT
+Etag: W/"1c4ae50c2c75eb4b9f28f35780652347"
+Last-Modified: Tue, 03 Apr 2018 17:04:45 GMT
+Link: <https://api.github.com/repositories/2988101/tags?page=16>; rel="prev", <https://api.github.com/repositories/2988101/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C892:1092:20637D:4A2FB9:5AC54A68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4714
+X-Ratelimit-Reset: 1522880133
+X-Runtime-Rack: 0.108730
+X-Xss-Protection: 1; mode=block
+
+a02
+[{"name":"NXP-9092-release","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/NXP-9092-release","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/NXP-9092-release","commit":{"sha":"d6dcafc41cd1c12c9b198c8f5500abbe023a8d72","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/d6dcafc41cd1c12c9b198c8f5500abbe023a8d72"}},{"name":"NXP-5357-osgi-manifests-1","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/NXP-5357-osgi-manifests-1","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/NXP-5357-osgi-manifests-1","commit":{"sha":"699df49ecd27bd17b2aa0847609744e13e98fe9c","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/699df49ecd27bd17b2aa0847609744e13e98fe9c"}},{"name":"NXP-3425_before_platform_refactoring","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/NXP-3425_before_platform_refactoring","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/NXP-3425_before_platform_refactoring","commit":{"sha":"9ea7ce659cd25f76693c55269e61c79298707093","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/9ea7ce659cd25f76693c55269e61c79298707093"}},{"name":"5.3.2-CP07","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/5.3.2-CP07","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/5.3.2-CP07","commit":{"sha":"3dd3616edd17f150a9a9e357efbd029a65a9f793","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/3dd3616edd17f150a9a9e357efbd029a65a9f793"}},{"name":"1.5.0.m1.PATXT-20081020","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/1.5.0.m1.PATXT-20081020","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/1.5.0.m1.PATXT-20081020","commit":{"sha":"32599ef9d453911b9bc9d92bae5bf95c7a4ac813","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/32599ef9d453911b9bc9d92bae5bf95c7a4ac813"}},{"name":"1.4.3.1-sql-nofulltext-20090507","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/1.4.3.1-sql-nofulltext-20090507","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/1.4.3.1-sql-nofulltext-20090507","commit":{"sha":"ec51148f98ab0655fc4357090ab1affbba1d44bb","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/ec51148f98ab0655fc4357090ab1affbba1d44bb"}},{"name":"1.0.0-b1","zipball_url":"https://api.github.com/repos/nuxeo/nuxeo/zipball/1.0.0-b1","tarball_url":"https://api.github.com/repos/nuxeo/nuxeo/tarball/1.0.0-b1","commit":{"sha":"6872eacf46d9a0cb8d8d7cb421b71d78e3e9adb7","url":"https://api.github.com/repos/nuxeo/nuxeo/commits/6872eacf46d9a0cb8d8d7cb421b71d78e3e9adb7"}}]
+0
+
