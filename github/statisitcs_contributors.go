@@ -41,6 +41,18 @@ func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) Con
 	return cs
 }
 
+func GetCommitsByDay(totalCommits int, repositoryAge int) float64 {
+	var commitsByDay float64
+	totalCommitsFloat := float64(totalCommits)
+	repositoryAgeFloat := float64(repositoryAge)
+	if totalCommitsFloat != 0 && repositoryAgeFloat != 0 {
+		commitsByDay = totalCommitsFloat / repositoryAgeFloat
+	} else {
+		commitsByDay = 0
+	}
+	return commitsByDay
+}
+
 func extractContributionStatisticsFromJSON(jsonResponse []byte) ContributionStatistics {
 	var cs ContributionStatistics
 	cs.TotalCommits = 0

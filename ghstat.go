@@ -80,6 +80,7 @@ func main() {
 		"Total deletions",
 		"Total code changes",
 		"Last commit date",
+		"Commits/day",
 		"Medium commit size",
 		"Stargazers",
 		"Forks",
@@ -100,13 +101,14 @@ func main() {
 		"totalCommitsColumn":               7,
 		"totalDeletionsColumn":             9,
 		"totalCodeChangesColumn":           10,
-		"lastCommitDate":                   11,
-		"mediCommitSizeColumn":             12,
-		"stargazersColumn":                 13,
-		"activeForkersColumn":              16,
-		"issuesByDayColumn":                19,
-		"closedIssuesPercentageColumn":     20,
-		"totalPointsColumnIndex":           21,
+		"lastCommitDateColumn":             11,
+		"commitsByDayColumn":               12,
+		"mediCommitSizeColumn":             13,
+		"stargazersColumn":                 14,
+		"activeForkersColumn":              17,
+		"issuesByDayColumn":                20,
+		"closedIssuesPercentageColumn":     21,
+		"totalPointsColumnIndex":           22,
 	}
 	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
@@ -134,6 +136,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 	issueByDay := github.GetIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
 	closedIssuesPercentage := github.GetClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
 	contributionStatistics := github.GetContributionStatistics(rKey, tmpFolder, debug)
+	commitsByDay := github.GetCommitsByDay(contributionStatistics.TotalCommits, repositoryAge)
 	ghProjectData := []string{
 		repositoryData.FullName,
 		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
@@ -152,6 +155,7 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 		fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
 		fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
 		fmt.Sprintf(lastCommitDate.Format("2006-01-02 15:04:05")),
+		fmt.Sprintf("%.4f", commitsByDay),
 		fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
 		fmt.Sprintf("%d", repositoryData.Watchers),
 		fmt.Sprintf("%d", repositoryData.Forks),

@@ -43,10 +43,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `gohugoio/hugo`
 * The newest project is `kataras/iris`
-* The project with the most active community is `gobuffalo/buffalo`
-* The project with best errors resolving rate is `kataras/iris`
 * The project with more commits is `gohugoio/hugo`
 * The project made by most notable top contributors is `astaxie/beego`
+* The project with best errors resolving rate is `kataras/iris`
+* The project with more commits by day is `gohugoio/hugo`
+* The project with the most active community is `gobuffalo/buffalo`
 * The best project (taking in account placements in all competitions) is `gohugoio/hugo`
 
 [Detailed Go frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/go_frameworks.csv)
@@ -55,10 +56,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `pallets/flask`
 * The newest project is `channelcat/sanic`
-* The project with the most active community is `TurboGears/tg2`
-* The project with best errors resolving rate is `django/django`
 * The project with more commits is `django/django`
 * The project made by most notable top contributors is `pallets/flask`
+* The project with best errors resolving rate is `django/django`
+* The project with more commits by day is `django/django`
+* The project with the most active community is `TurboGears/tg2`
 * The best project (taking in account placements in all competitions) is `django/django`
 
 [Detailed Python frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/python_frameworks.csv)
@@ -67,10 +69,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `weavejester/compojure`
 * The newest project is `fulcrologic/fulcro`
-* The project with the most active community is `fulcrologic/fulcro`
-* The project with best errors resolving rate is `fulcrologic/fulcro`
 * The project with more commits is `fulcrologic/fulcro`
 * The project made by most notable top contributors is `fulcrologic/fulcro`
+* The project with best errors resolving rate is `fulcrologic/fulcro`
+* The project with more commits by day is `fulcrologic/fulcro`
+* The project with the most active community is `fulcrologic/fulcro`
 * The best project (taking in account placements in all competitions) is `fulcrologic/fulcro`
 
 [Detailed Clojure frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/clojure_frameworks.csv)
@@ -79,10 +82,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `ninenines/cowboy`
 * The newest project is `synrc/n2o`
-* The project with the most active community is `kivra/giallo`
-* The project with best errors resolving rate is `kivra/giallo`
 * The project with more commits is `zotonic/zotonic`
 * The project made by most notable top contributors is `mochi/mochiweb`
+* The project with best errors resolving rate is `kivra/giallo`
+* The project with more commits by day is `zotonic/zotonic`
+* The project with the most active community is `kivra/giallo`
 * The best project (taking in account placements in all competitions) is `synrc/n2o`
 
 [Detailed Erlang frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/erlang_frameworks.csv)
@@ -91,10 +95,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `yesodweb/yesod`
 * The newest project is `myfreeweb/magicbane`
-* The project with the most active community is `positiondev/fn`
-* The project with best errors resolving rate is `snapframework/snap-core`
 * The project with more commits is `yesodweb/yesod`
 * The project made by most notable top contributors is `yesodweb/yesod`
+* The project with best errors resolving rate is `snapframework/snap-core`
+* The project with more commits by day is `yesodweb/yesod`
+* The project with the most active community is `transient-haskell/axiom`
 * The best project (taking in account placements in all competitions) is `yesodweb/yesod`
 
 [Detailed Haskell frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv)
@@ -103,10 +108,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `lpereira/lwan`
 * The newest project is `civetweb/civetweb`
-* The project with the most active community is `civetweb/civetweb`
-* The project with best errors resolving rate is `emweb/wt`
 * The project with more commits is `civetweb/civetweb`
 * The project made by most notable top contributors is `lpereira/lwan`
+* The project with best errors resolving rate is `emweb/wt`
+* The project with more commits by day is `civetweb/civetweb`
+* The project with the most active community is `civetweb/civetweb`
 * The best project (taking in account placements in all competitions) is `civetweb/civetweb`
 
 [Detailed C frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/c_frameworks.csv)
@@ -115,10 +121,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `ipkn/crow`
 * The newest project is `oktal/pistache`
-* The project with the most active community is `cutelyst/cutelyst`
-* The project with best errors resolving rate is `cutelyst/cutelyst`
 * The project with more commits is `cutelyst/cutelyst`
 * The project made by most notable top contributors is `treefrogframework/treefrog-framework`
+* The project with best errors resolving rate is `cutelyst/cutelyst`
+* The project with more commits by day is `cutelyst/cutelyst`
+* The project with the most active community is `cutelyst/cutelyst`
 * The best project (taking in account placements in all competitions) is `cutelyst/cutelyst`
 
 [Detailed C++ frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/cpp_frameworks.csv)
@@ -127,10 +134,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `netty/netty`
 * The newest project is `bootique/bootique`
-* The project with the most active community is `ratpack/ratpack`
-* The project with best errors resolving rate is `grails/grails-core`
 * The project with more commits is `vaadin/framework`
 * The project made by most notable top contributors is `netty/netty`
+* The project with best errors resolving rate is `grails/grails-core`
+* The project with more commits by day is `vaadin/framework`
+* The project with the most active community is `ratpack/ratpack`
 * The best project (taking in account placements in all competitions) is `grails/grails-core`
 
 [Detailed Java frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
@@ -139,10 +147,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `facebook/react`
 * The newest project is `hyperapp/hyperapp`
-* The project with the most active community is `riot/riot`
-* The project with best errors resolving rate is `meteor/meteor`
 * The project with more commits is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
+* The project with best errors resolving rate is `meteor/meteor`
+* The project with more commits by day is `meteor/meteor`
+* The project with the most active community is `riot/riot`
 * The best project (taking in account placements in all competitions) is `meteor/meteor`
 
 [Detailed JS frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/js_frameworks.csv)
@@ -151,10 +160,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `symfony/symfony`
 * The newest project is `nova-framework/framework`
-* The project with the most active community is `nova-framework/framework`
-* The project with best errors resolving rate is `nova-framework/framework`
 * The project with more commits is `symfony/symfony`
 * The project made by most notable top contributors is `laravel/framework`
+* The project with best errors resolving rate is `nova-framework/framework`
+* The project with more commits by day is `laravel/framework`
+* The project with the most active community is `nova-framework/framework`
 * The best project (taking in account placements in all competitions) is `laravel/framework`
 
 [Detailed PHP frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/php_frameworks.csv)
@@ -163,10 +173,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `facebook/react`
 * The newest project is `myfreeweb/magicbane`
-* The project with the most active community is `positiondev/fn`
-* The project with best errors resolving rate is `emweb/wt`
 * The project with more commits is `django/django`
 * The project made by most notable top contributors is `facebook/react`
+* The project with best errors resolving rate is `nova-framework/framework`
+* The project with more commits by day is `django/django`
+* The project with the most active community is `transient-haskell/axiom`
 * The best project (taking in account placements in all competitions) is `meteor/meteor`
 
 [Detailed cross-language frameworks rating](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
@@ -175,10 +186,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `getgrav/grav`
 * The newest project is `roadiz/roadiz`
-* The project with the most active community is `sulu/sulu-standard`
-* The project with best errors resolving rate is `bolt/bolt`
 * The project with more commits is `joomla/joomla-cms`
 * The project made by most notable top contributors is `sulu/sulu-standard`
+* The project with best errors resolving rate is `bolt/bolt`
+* The project with more commits by day is `concrete5/concrete5`
+* The project with the most active community is `sulu/sulu-standard`
 * The best project (taking in account placements in all competitions) is `bolt/bolt`
 
 [Detailed PHP CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/php_cms.csv)
@@ -187,10 +199,11 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `liferay/liferay-portal`
 * The newest project is `gentics/mesh`
-* The project with the most active community is `Softmotions/ncms`
-* The project with best errors resolving rate is `nuxeo/nuxeo`
 * The project with more commits is `liferay/liferay-portal`
 * The project made by most notable top contributors is `liferay/liferay-portal`
+* The project with best errors resolving rate is `liferay/liferay-portal`
+* The project with more commits by day is `liferay/liferay-portal`
+* The project with the most active community is `Softmotions/ncms`
 * The best project (taking in account placements in all competitions) is `liferay/liferay-portal`
 
 [Detailed Java CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/java_cms.csv)
