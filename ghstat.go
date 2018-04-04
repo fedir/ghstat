@@ -57,6 +57,7 @@ func main() {
 			"gobuffalo/buffalo",
 			"go-chi/chi",
 			"kataras/iris",
+			"zenazn/goji",
 		}
 	}
 	csvFilePath := ""
