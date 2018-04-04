@@ -33,6 +33,7 @@ type ContributionStatistics struct {
 	MediumCommitSize int
 }
 
+// GetContributionStatistics gets detailsed statistics about contributors of the repository
 func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
@@ -41,6 +42,7 @@ func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) Con
 	return cs
 }
 
+// GetCommitsByDay calculates the rate of commits by day of the repository
 func GetCommitsByDay(totalCommits int, repositoryAge int) float64 {
 	var commitsByDay float64
 	totalCommitsFloat := float64(totalCommits)

@@ -26,15 +26,16 @@ type Repository struct {
 	} `json:"license"`
 }
 
+// GetRepositoryClosedIssues gets number of closed issues of a repository
 func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
 	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	closedIssuesResult := gjson.Get(string(jsonResponse), "total_count")
-	//fmt.Printf("%d\n", closedIssuesResult.Int())
 	return int(closedIssuesResult.Int())
 }
 
+// GetRepositoryStatistics gets repository common statistics
 func GetRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repository {
 	return ParseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
 }
@@ -46,6 +47,7 @@ func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {
 	return jsonResponse
 }
 
+// ParseRepositoryData is used to parse repository common statistics
 func ParseRepositoryData(jsonResponse []byte) *Repository {
 	result := &Repository{}
 	err := json.Unmarshal([]byte(jsonResponse), result)
@@ -55,6 +57,7 @@ func ParseRepositoryData(jsonResponse []byte) *Repository {
 	return result
 }
 
+// GetIssueByDay calculates the rate of issues by day of the repository
 func GetIssueByDay(totalIssues int, age int) float64 {
 	var issueByDay float64
 	totalIssuesFloat := float64(totalIssues)
@@ -68,6 +71,7 @@ func GetIssueByDay(totalIssues int, age int) float64 {
 
 }
 
+// GetClosedIssuesPercentage calculates the percentage of closed issues of the repository
 func GetClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
 	var closedIssuesPercentage float64
 	openIssuesFloat := float64(openIssues)

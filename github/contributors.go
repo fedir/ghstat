@@ -22,8 +22,8 @@ type Contributor struct {
 	Login string `json:"login"`
 }
 
+// GetRepositoryContributors gets information about contributors of the repository
 func GetRepositoryContributors(repoKey string, tmpFolder string, debug bool) (int, int) {
-	//var topContributors []string
 	var totalContributors int
 	var topContributorsFollowers = 0
 	url := "https://api.github.com/repos/" + repoKey + "/contributors"
@@ -44,8 +44,6 @@ func GetRepositoryContributors(repoKey string, tmpFolder string, debug bool) (in
 	json.Unmarshal(jsonResponse, &contributors)
 	i := 0
 	for _, contributor := range contributors {
-		//fmt.Printf("%s %s", contributor, index)
-		//topContributors = append(topContributors, contributor.Login)
 		topContributorsFollowers = topContributorsFollowers + getContributorFollowers(contributor.Login, tmpFolder, debug)
 		i++
 		if i == 10 {
@@ -100,6 +98,7 @@ func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string
 	return contributorsOnLastPage
 }
 
+// GetActiveForkersPercentage calculates the percentage of active forkers of the repository
 func GetActiveForkersPercentage(contributors int, forkers int) float64 {
 	contributorsFloat := float64(contributors)
 	forkersFloat := float64(forkers)

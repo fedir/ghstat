@@ -28,9 +28,11 @@ type Commit struct {
 	} `json:"commit"`
 }
 
+// GetRepositoryCommitsData gets information about commits of a repository.
+// Currerntly used for author login and last commit date
 func GetRepositoryCommitsData(repoKey string, tmpFolder string, debug bool) (string, time.Time) {
 	var total int
-	var commitAuthorLogin string
+	var authorLogin string
 	url := "https://api.github.com/repos/" + repoKey + "/commits"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
@@ -47,11 +49,11 @@ func GetRepositoryCommitsData(repoKey string, tmpFolder string, debug bool) (str
 		commits := make([]Commit, 0)
 		json.Unmarshal(jsonResponse, &commits)
 		total = len(commits)
-		commitAuthorLogin = commits[total-1].Author.Login
+		authorLogin = commits[total-1].Author.Login
 	} else {
-		commitAuthorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
+		authorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
 	}
-	return commitAuthorLogin, lastCommitDate
+	return authorLogin, lastCommitDate
 }
 
 func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, debug bool) string {
@@ -74,6 +76,7 @@ func getRepositoryLastCommitDate(jsonResponse []byte) time.Time {
 	return commits[0].Commit.Author.Date
 }
 
+// GetUserFollowers gets information about followers of a user
 func GetUserFollowers(username string, tmpFolder string, debug bool) int {
 	var total int
 	url := "https://api.github.com/users/" + username + "/followers"
