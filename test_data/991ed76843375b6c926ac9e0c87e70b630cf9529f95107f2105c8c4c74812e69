@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 04:14:19 GMT
+Etag: W/"af2097b98f0c017609312e26294fcd4e"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C109:16B3:8D4EAA:12CE11E:5AC4511B
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 47
+X-Ratelimit-Reset: 1522818856
+X-Runtime-Rack: 0.017996
+X-Xss-Protection: 1; mode=block
+
+36b
+[{"login":"dpkeeper","id":8954712,"avatar_url":"https://avatars2.githubusercontent.com/u/8954712?v=4","gravatar_id":"","url":"https://api.github.com/users/dpkeeper","html_url":"https://github.com/dpkeeper","followers_url":"https://api.github.com/users/dpkeeper/followers","following_url":"https://api.github.com/users/dpkeeper/following{/other_user}","gists_url":"https://api.github.com/users/dpkeeper/gists{/gist_id}","starred_url":"https://api.github.com/users/dpkeeper/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dpkeeper/subscriptions","organizations_url":"https://api.github.com/users/dpkeeper/orgs","repos_url":"https://api.github.com/users/dpkeeper/repos","events_url":"https://api.github.com/users/dpkeeper/events{/privacy}","received_events_url":"https://api.github.com/users/dpkeeper/received_events","type":"User","site_admin":false}]
+0
+
