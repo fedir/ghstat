@@ -71,6 +71,7 @@ func main() {
 		"Name",
 		"URL",
 		"Author",
+		"License",
 		"Author's followers",
 		"Top 10 contributors followers",
 		"Created at",
@@ -94,21 +95,24 @@ func main() {
 	}
 	ghDataColumnIndexes := map[string]int{
 		"nameColumn":                       0,
-		"authorsFollowersColumn":           3,
-		"top10ContributorsFollowersColumn": 4,
-		"totalAdditionsColumn":             8,
-		"ageColumn":                        6,
-		"totalCommitsColumn":               7,
-		"totalDeletionsColumn":             9,
-		"totalCodeChangesColumn":           10,
-		"lastCommitDateColumn":             11,
-		"commitsByDayColumn":               12,
-		"mediCommitSizeColumn":             13,
-		"stargazersColumn":                 14,
-		"activeForkersColumn":              17,
-		"issuesByDayColumn":                20,
-		"closedIssuesPercentageColumn":     21,
-		"totalPointsColumnIndex":           22,
+		"urlColumn":                        1,
+		"authorColumn":                     2,
+		"licenseColumn":                    3,
+		"authorsFollowersColumn":           4,
+		"top10ContributorsFollowersColumn": 5,
+		"totalAdditionsColumn":             9,
+		"ageColumn":                        7,
+		"totalCommitsColumn":               8,
+		"totalDeletionsColumn":             10,
+		"totalCodeChangesColumn":           11,
+		"lastCommitDateColumn":             12,
+		"commitsByDayColumn":               13,
+		"mediCommitSizeColumn":             14,
+		"stargazersColumn":                 15,
+		"activeForkersColumn":              18,
+		"issuesByDayColumn":                21,
+		"closedIssuesPercentageColumn":     22,
+		"totalPointsColumnIndex":           23,
 	}
 	dataChan := make(chan []string, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
@@ -146,6 +150,12 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 			}
 			return a
 		}(authorLogin)),
+		fmt.Sprintf("%s", func(l string) string {
+			if l == "" {
+				l = "[Unknown]"
+			}
+			return l
+		}(repositoryData.License.SPDXID)),
 		fmt.Sprintf("%d", authorFollowers),
 		fmt.Sprintf("%d", topContributorsFollowers),
 		fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),

@@ -21,6 +21,9 @@ type Repository struct {
 	Forks      int       `json:"forks"`
 	OpenIssues int       `json:"open_issues"`
 	CreatedAt  time.Time `json:"created_at"`
+	License    struct {
+		SPDXID string `json:"spdx_id"`
+	} `json:"license"`
 }
 
 func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
