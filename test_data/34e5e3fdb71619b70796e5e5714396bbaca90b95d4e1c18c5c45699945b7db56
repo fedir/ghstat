@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 04:32:02 GMT
+Etag: W/"e4fb24bb68dfdb0d699e7bde6b3001e1"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1F2:16B7:A5A00B:1AFC88D:5AC45542
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4895
+X-Ratelimit-Reset: 1522819801
+X-Runtime-Rack: 0.037763
+X-Xss-Protection: 1; mode=block
+
+de7
+[{"login":"warreee","id":4020491,"avatar_url":"https://avatars0.githubusercontent.com/u/4020491?v=4","gravatar_id":"","url":"https://api.github.com/users/warreee","html_url":"https://github.com/warreee","followers_url":"https://api.github.com/users/warreee/followers","following_url":"https://api.github.com/users/warreee/following{/other_user}","gists_url":"https://api.github.com/users/warreee/gists{/gist_id}","starred_url":"https://api.github.com/users/warreee/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/warreee/subscriptions","organizations_url":"https://api.github.com/users/warreee/orgs","repos_url":"https://api.github.com/users/warreee/repos","events_url":"https://api.github.com/users/warreee/events{/privacy}","received_events_url":"https://api.github.com/users/warreee/received_events","type":"User","site_admin":false},{"login":"lemmensaxel","id":6031082,"avatar_url":"https://avatars2.githubusercontent.com/u/6031082?v=4","gravatar_id":"","url":"https://api.github.com/users/lemmensaxel","html_url":"https://github.com/lemmensaxel","followers_url":"https://api.github.com/users/lemmensaxel/followers","following_url":"https://api.github.com/users/lemmensaxel/following{/other_user}","gists_url":"https://api.github.com/users/lemmensaxel/gists{/gist_id}","starred_url":"https://api.github.com/users/lemmensaxel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lemmensaxel/subscriptions","organizations_url":"https://api.github.com/users/lemmensaxel/orgs","repos_url":"https://api.github.com/users/lemmensaxel/repos","events_url":"https://api.github.com/users/lemmensaxel/events{/privacy}","received_events_url":"https://api.github.com/users/lemmensaxel/received_events","type":"User","site_admin":false},{"login":"anthonyclays","id":9164065,"avatar_url":"https://avatars1.githubusercontent.com/u/9164065?v=4","gravatar_id":"","url":"https://api.github.com/users/anthonyclays","html_url":"https://github.com/anthonyclays","followers_url":"https://api.github.com/users/anthonyclays/followers","following_url":"https://api.github.com/users/anthonyclays/following{/other_user}","gists_url":"https://api.github.com/users/anthonyclays/gists{/gist_id}","starred_url":"https://api.github.com/users/anthonyclays/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anthonyclays/subscriptions","organizations_url":"https://api.github.com/users/anthonyclays/orgs","repos_url":"https://api.github.com/users/anthonyclays/repos","events_url":"https://api.github.com/users/anthonyclays/events{/privacy}","received_events_url":"https://api.github.com/users/anthonyclays/received_events","type":"User","site_admin":false},{"login":"impalaz","id":16821463,"avatar_url":"https://avatars2.githubusercontent.com/u/16821463?v=4","gravatar_id":"","url":"https://api.github.com/users/impalaz","html_url":"https://github.com/impalaz","followers_url":"https://api.github.com/users/impalaz/followers","following_url":"https://api.github.com/users/impalaz/following{/other_user}","gists_url":"https://api.github.com/users/impalaz/gists{/gist_id}","starred_url":"https://api.github.com/users/impalaz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/impalaz/subscriptions","organizations_url":"https://api.github.com/users/impalaz/orgs","repos_url":"https://api.github.com/users/impalaz/repos","events_url":"https://api.github.com/users/impalaz/events{/privacy}","received_events_url":"https://api.github.com/users/impalaz/received_events","type":"User","site_admin":false}]
+0
+

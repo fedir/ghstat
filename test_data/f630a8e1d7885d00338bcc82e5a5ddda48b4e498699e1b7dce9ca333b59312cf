@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 04:30:03 GMT
+Etag: W/"0633709bff70829c03ff62e7e5cef4e5"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1E2:16B1:631FE5:DBAB1D:5AC454CB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4969
+X-Ratelimit-Reset: 1522819801
+X-Runtime-Rack: 0.040193
+X-Xss-Protection: 1; mode=block
+
+a39
+[{"login":"Chipsoid","id":669046,"avatar_url":"https://avatars3.githubusercontent.com/u/669046?v=4","gravatar_id":"","url":"https://api.github.com/users/Chipsoid","html_url":"https://github.com/Chipsoid","followers_url":"https://api.github.com/users/Chipsoid/followers","following_url":"https://api.github.com/users/Chipsoid/following{/other_user}","gists_url":"https://api.github.com/users/Chipsoid/gists{/gist_id}","starred_url":"https://api.github.com/users/Chipsoid/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Chipsoid/subscriptions","organizations_url":"https://api.github.com/users/Chipsoid/orgs","repos_url":"https://api.github.com/users/Chipsoid/repos","events_url":"https://api.github.com/users/Chipsoid/events{/privacy}","received_events_url":"https://api.github.com/users/Chipsoid/received_events","type":"User","site_admin":false},{"login":"podkot","id":570409,"avatar_url":"https://avatars0.githubusercontent.com/u/570409?v=4","gravatar_id":"","url":"https://api.github.com/users/podkot","html_url":"https://github.com/podkot","followers_url":"https://api.github.com/users/podkot/followers","following_url":"https://api.github.com/users/podkot/following{/other_user}","gists_url":"https://api.github.com/users/podkot/gists{/gist_id}","starred_url":"https://api.github.com/users/podkot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/podkot/subscriptions","organizations_url":"https://api.github.com/users/podkot/orgs","repos_url":"https://api.github.com/users/podkot/repos","events_url":"https://api.github.com/users/podkot/events{/privacy}","received_events_url":"https://api.github.com/users/podkot/received_events","type":"User","site_admin":false},{"login":"alphazo-id","id":646773,"avatar_url":"https://avatars1.githubusercontent.com/u/646773?v=4","gravatar_id":"","url":"https://api.github.com/users/alphazo-id","html_url":"https://github.com/alphazo-id","followers_url":"https://api.github.com/users/alphazo-id/followers","following_url":"https://api.github.com/users/alphazo-id/following{/other_user}","gists_url":"https://api.github.com/users/alphazo-id/gists{/gist_id}","starred_url":"https://api.github.com/users/alphazo-id/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alphazo-id/subscriptions","organizations_url":"https://api.github.com/users/alphazo-id/orgs","repos_url":"https://api.github.com/users/alphazo-id/repos","events_url":"https://api.github.com/users/alphazo-id/events{/privacy}","received_events_url":"https://api.github.com/users/alphazo-id/received_events","type":"User","site_admin":false}]
+0
+

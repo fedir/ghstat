@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 04:30:03 GMT
+Etag: W/"af808469bf3df427fc7f602aa6371ab9"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1DE:16B3:8E3711:12EA9DE:5AC454CB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4962
+X-Ratelimit-Reset: 1522819801
+X-Runtime-Rack: 0.035059
+X-Xss-Protection: 1; mode=block
+
+dd9
+[{"login":"nb341153","id":6352828,"avatar_url":"https://avatars0.githubusercontent.com/u/6352828?v=4","gravatar_id":"","url":"https://api.github.com/users/nb341153","html_url":"https://github.com/nb341153","followers_url":"https://api.github.com/users/nb341153/followers","following_url":"https://api.github.com/users/nb341153/following{/other_user}","gists_url":"https://api.github.com/users/nb341153/gists{/gist_id}","starred_url":"https://api.github.com/users/nb341153/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nb341153/subscriptions","organizations_url":"https://api.github.com/users/nb341153/orgs","repos_url":"https://api.github.com/users/nb341153/repos","events_url":"https://api.github.com/users/nb341153/events{/privacy}","received_events_url":"https://api.github.com/users/nb341153/received_events","type":"User","site_admin":false},{"login":"code-beans","id":4446123,"avatar_url":"https://avatars3.githubusercontent.com/u/4446123?v=4","gravatar_id":"","url":"https://api.github.com/users/code-beans","html_url":"https://github.com/code-beans","followers_url":"https://api.github.com/users/code-beans/followers","following_url":"https://api.github.com/users/code-beans/following{/other_user}","gists_url":"https://api.github.com/users/code-beans/gists{/gist_id}","starred_url":"https://api.github.com/users/code-beans/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/code-beans/subscriptions","organizations_url":"https://api.github.com/users/code-beans/orgs","repos_url":"https://api.github.com/users/code-beans/repos","events_url":"https://api.github.com/users/code-beans/events{/privacy}","received_events_url":"https://api.github.com/users/code-beans/received_events","type":"User","site_admin":false},{"login":"SuzGupta","id":5115383,"avatar_url":"https://avatars0.githubusercontent.com/u/5115383?v=4","gravatar_id":"","url":"https://api.github.com/users/SuzGupta","html_url":"https://github.com/SuzGupta","followers_url":"https://api.github.com/users/SuzGupta/followers","following_url":"https://api.github.com/users/SuzGupta/following{/other_user}","gists_url":"https://api.github.com/users/SuzGupta/gists{/gist_id}","starred_url":"https://api.github.com/users/SuzGupta/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SuzGupta/subscriptions","organizations_url":"https://api.github.com/users/SuzGupta/orgs","repos_url":"https://api.github.com/users/SuzGupta/repos","events_url":"https://api.github.com/users/SuzGupta/events{/privacy}","received_events_url":"https://api.github.com/users/SuzGupta/received_events","type":"User","site_admin":false},{"login":"DavidS3141","id":6333870,"avatar_url":"https://avatars2.githubusercontent.com/u/6333870?v=4","gravatar_id":"","url":"https://api.github.com/users/DavidS3141","html_url":"https://github.com/DavidS3141","followers_url":"https://api.github.com/users/DavidS3141/followers","following_url":"https://api.github.com/users/DavidS3141/following{/other_user}","gists_url":"https://api.github.com/users/DavidS3141/gists{/gist_id}","starred_url":"https://api.github.com/users/DavidS3141/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DavidS3141/subscriptions","organizations_url":"https://api.github.com/users/DavidS3141/orgs","repos_url":"https://api.github.com/users/DavidS3141/repos","events_url":"https://api.github.com/users/DavidS3141/events{/privacy}","received_events_url":"https://api.github.com/users/DavidS3141/received_events","type":"User","site_admin":false}]
+0
+

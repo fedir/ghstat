@@ -99,6 +99,30 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Haskell frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv)
 
+### C frameworks rating
+
+* The most popular project is `lpereira/lwan`
+* The newest project is `civetweb/civetweb`
+* The project with the most active community is `civetweb/civetweb`
+* The project with best errors resolving rate is `emweb/wt`
+* The project with more commits is `civetweb/civetweb`
+* The project made by most notable top contributors is `lpereira/lwan`
+* The best project (taking in account placements in all competitions) is `civetweb/civetweb`
+
+[Detailed C frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/c_frameworks.csv)
+
+### C++ frameworks rating
+
+* The most popular project is `ipkn/crow`
+* The newest project is `oktal/pistache`
+* The project with the most active community is `cutelyst/cutelyst`
+* The project with best errors resolving rate is `cutelyst/cutelyst`
+* The project with more commits is `cutelyst/cutelyst`
+* The project made by most notable top contributors is `treefrogframework/treefrog-framework`
+* The best project (taking in account placements in all competitions) is `cutelyst/cutelyst`
+
+[Detailed C++ frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/cpp_frameworks.csv)
+
 ### Java frameworks rating
 
 * The most popular project is `playframework/playframework`
@@ -139,8 +163,8 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 * The most popular project is `facebook/react`
 * The newest project is `myfreeweb/magicbane`
-* The project with the most active community is `transient-haskell/axiom`
-* The project with best errors resolving rate is `kivra/giallo`
+* The project with the most active community is `positiondev/fn`
+* The project with best errors resolving rate is `emweb/wt`
 * The project with more commits is `django/django`
 * The project made by most notable top contributors is `facebook/react`
 * The best project (taking in account placements in all competitions) is `meteor/meteor`

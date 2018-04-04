@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 04 Apr 2018 04:30:02 GMT
+Etag: W/"51ae51fca77bb788cd4d43ee10c0af33"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1E1:16B7:A57D40:1AF6DC7:5AC454CA
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4980
+X-Ratelimit-Reset: 1522819801
+X-Runtime-Rack: 0.066611
+X-Xss-Protection: 1; mode=block
+
+a65
+[{"login":"karim1king","id":12887141,"avatar_url":"https://avatars1.githubusercontent.com/u/12887141?v=4","gravatar_id":"","url":"https://api.github.com/users/karim1king","html_url":"https://github.com/karim1king","followers_url":"https://api.github.com/users/karim1king/followers","following_url":"https://api.github.com/users/karim1king/following{/other_user}","gists_url":"https://api.github.com/users/karim1king/gists{/gist_id}","starred_url":"https://api.github.com/users/karim1king/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/karim1king/subscriptions","organizations_url":"https://api.github.com/users/karim1king/orgs","repos_url":"https://api.github.com/users/karim1king/repos","events_url":"https://api.github.com/users/karim1king/events{/privacy}","received_events_url":"https://api.github.com/users/karim1king/received_events","type":"User","site_admin":false},{"login":"danyright","id":4611396,"avatar_url":"https://avatars2.githubusercontent.com/u/4611396?v=4","gravatar_id":"","url":"https://api.github.com/users/danyright","html_url":"https://github.com/danyright","followers_url":"https://api.github.com/users/danyright/followers","following_url":"https://api.github.com/users/danyright/following{/other_user}","gists_url":"https://api.github.com/users/danyright/gists{/gist_id}","starred_url":"https://api.github.com/users/danyright/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danyright/subscriptions","organizations_url":"https://api.github.com/users/danyright/orgs","repos_url":"https://api.github.com/users/danyright/repos","events_url":"https://api.github.com/users/danyright/events{/privacy}","received_events_url":"https://api.github.com/users/danyright/received_events","type":"User","site_admin":false},{"login":"soramimi","id":3043124,"avatar_url":"https://avatars2.githubusercontent.com/u/3043124?v=4","gravatar_id":"","url":"https://api.github.com/users/soramimi","html_url":"https://github.com/soramimi","followers_url":"https://api.github.com/users/soramimi/followers","following_url":"https://api.github.com/users/soramimi/following{/other_user}","gists_url":"https://api.github.com/users/soramimi/gists{/gist_id}","starred_url":"https://api.github.com/users/soramimi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soramimi/subscriptions","organizations_url":"https://api.github.com/users/soramimi/orgs","repos_url":"https://api.github.com/users/soramimi/repos","events_url":"https://api.github.com/users/soramimi/events{/privacy}","received_events_url":"https://api.github.com/users/soramimi/received_events","type":"User","site_admin":false}]
+0
+
