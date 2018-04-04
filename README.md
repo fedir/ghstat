@@ -125,12 +125,12 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ### Java frameworks rating
 
-* The most popular project is `playframework/playframework`
+* The most popular project is `netty/netty`
 * The newest project is `bootique/bootique`
 * The project with the most active community is `ratpack/ratpack`
 * The project with best errors resolving rate is `grails/grails-core`
 * The project with more commits is `vaadin/framework`
-* The project made by most notable top contributors is `lets-blade/blade`
+* The project made by most notable top contributors is `netty/netty`
 * The best project (taking in account placements in all competitions) is `grails/grails-core`
 
 [Detailed Java frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
