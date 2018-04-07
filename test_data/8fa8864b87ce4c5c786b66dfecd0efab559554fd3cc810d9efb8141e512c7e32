@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:05 GMT
+Etag: W/"c4aaf98447e708df2fecfc9dec02969b"
+Last-Modified: Sat, 31 Mar 2018 08:53:26 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C347:54B9:520604:A4E15A:5AC856A8
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4842
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.037344
+X-Xss-Protection: 1; mode=block
+
+829
+[{"name":"v0.5-alpha","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.5-alpha","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.5-alpha","commit":{"sha":"f0c46d85273c63f3b0c0682599d0ff89f67a6e7b","url":"https://api.github.com/repos/sailorproject/sailor/commits/f0c46d85273c63f3b0c0682599d0ff89f67a6e7b"}},{"name":"v0.4","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.4","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.4","commit":{"sha":"2fae62ffc5720857288b7cc7d2e36941e2f0e6e1","url":"https://api.github.com/repos/sailorproject/sailor/commits/2fae62ffc5720857288b7cc7d2e36941e2f0e6e1"}},{"name":"v0.3","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.3","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.3","commit":{"sha":"5be8319058f87af4442a941a5c634eee35f2e446","url":"https://api.github.com/repos/sailorproject/sailor/commits/5be8319058f87af4442a941a5c634eee35f2e446"}},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.2.1","commit":{"sha":"65ea88040fae35d337adb6f8892b433002080bc8","url":"https://api.github.com/repos/sailorproject/sailor/commits/65ea88040fae35d337adb6f8892b433002080bc8"}},{"name":"v0.2","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.2","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.2","commit":{"sha":"5472932a2483fc3e7b69a4e69f7fa85caa245230","url":"https://api.github.com/repos/sailorproject/sailor/commits/5472932a2483fc3e7b69a4e69f7fa85caa245230"}},{"name":"v0.1-venus","zipball_url":"https://api.github.com/repos/sailorproject/sailor/zipball/v0.1-venus","tarball_url":"https://api.github.com/repos/sailorproject/sailor/tarball/v0.1-venus","commit":{"sha":"26a7261d6a81eae145e9d7551836fa5ba2f67cda","url":"https://api.github.com/repos/sailorproject/sailor/commits/26a7261d6a81eae145e9d7551836fa5ba2f67cda"}}]
+0
+

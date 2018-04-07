@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:03 GMT
+Etag: W/"713308163242cecec2c3c4627106a7f4"
+Link: <https://api.github.com/user/542599/followers?page=1>; rel="prev", <https://api.github.com/user/542599/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C33A:54B8:3F755C:8AD9AB:5AC856A7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4892
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.042809
+X-Xss-Protection: 1; mode=block
+
+d57
+[{"login":"imzyxwvu","id":5236348,"avatar_url":"https://avatars0.githubusercontent.com/u/5236348?v=4","gravatar_id":"","url":"https://api.github.com/users/imzyxwvu","html_url":"https://github.com/imzyxwvu","followers_url":"https://api.github.com/users/imzyxwvu/followers","following_url":"https://api.github.com/users/imzyxwvu/following{/other_user}","gists_url":"https://api.github.com/users/imzyxwvu/gists{/gist_id}","starred_url":"https://api.github.com/users/imzyxwvu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/imzyxwvu/subscriptions","organizations_url":"https://api.github.com/users/imzyxwvu/orgs","repos_url":"https://api.github.com/users/imzyxwvu/repos","events_url":"https://api.github.com/users/imzyxwvu/events{/privacy}","received_events_url":"https://api.github.com/users/imzyxwvu/received_events","type":"User","site_admin":false},{"login":"uudiin","id":4622009,"avatar_url":"https://avatars0.githubusercontent.com/u/4622009?v=4","gravatar_id":"","url":"https://api.github.com/users/uudiin","html_url":"https://github.com/uudiin","followers_url":"https://api.github.com/users/uudiin/followers","following_url":"https://api.github.com/users/uudiin/following{/other_user}","gists_url":"https://api.github.com/users/uudiin/gists{/gist_id}","starred_url":"https://api.github.com/users/uudiin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/uudiin/subscriptions","organizations_url":"https://api.github.com/users/uudiin/orgs","repos_url":"https://api.github.com/users/uudiin/repos","events_url":"https://api.github.com/users/uudiin/events{/privacy}","received_events_url":"https://api.github.com/users/uudiin/received_events","type":"User","site_admin":false},{"login":"Tsmon","id":29967713,"avatar_url":"https://avatars0.githubusercontent.com/u/29967713?v=4","gravatar_id":"","url":"https://api.github.com/users/Tsmon","html_url":"https://github.com/Tsmon","followers_url":"https://api.github.com/users/Tsmon/followers","following_url":"https://api.github.com/users/Tsmon/following{/other_user}","gists_url":"https://api.github.com/users/Tsmon/gists{/gist_id}","starred_url":"https://api.github.com/users/Tsmon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Tsmon/subscriptions","organizations_url":"https://api.github.com/users/Tsmon/orgs","repos_url":"https://api.github.com/users/Tsmon/repos","events_url":"https://api.github.com/users/Tsmon/events{/privacy}","received_events_url":"https://api.github.com/users/Tsmon/received_events","type":"User","site_admin":false},{"login":"baysao","id":3817687,"avatar_url":"https://avatars3.githubusercontent.com/u/3817687?v=4","gravatar_id":"","url":"https://api.github.com/users/baysao","html_url":"https://github.com/baysao","followers_url":"https://api.github.com/users/baysao/followers","following_url":"https://api.github.com/users/baysao/following{/other_user}","gists_url":"https://api.github.com/users/baysao/gists{/gist_id}","starred_url":"https://api.github.com/users/baysao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/baysao/subscriptions","organizations_url":"https://api.github.com/users/baysao/orgs","repos_url":"https://api.github.com/users/baysao/repos","events_url":"https://api.github.com/users/baysao/events{/privacy}","received_events_url":"https://api.github.com/users/baysao/received_events","type":"User","site_admin":false}]
+0
+

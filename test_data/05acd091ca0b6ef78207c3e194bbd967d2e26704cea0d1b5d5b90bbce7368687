@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:05 GMT
+Etag: W/"40a6ddbd24cb8fd38f7472ab827d71a8"
+Last-Modified: Wed, 04 Apr 2018 11:03:37 GMT
+Link: <https://api.github.com/repositories/3239899/tags?page=1>; rel="prev", <https://api.github.com/repositories/3239899/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C33D:54B9:52060A:A4E169:5AC856A8
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4841
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.059795
+X-Xss-Protection: 1; mode=block
+
+41b
+[{"name":"v1.0-beta4","zipball_url":"https://api.github.com/repos/kernelsauce/turbo/zipball/v1.0-beta4","tarball_url":"https://api.github.com/repos/kernelsauce/turbo/tarball/v1.0-beta4","commit":{"sha":"ddcbcec8d4d836d0ed3c3c1d4fc0ce626d7fc35e","url":"https://api.github.com/repos/kernelsauce/turbo/commits/ddcbcec8d4d836d0ed3c3c1d4fc0ce626d7fc35e"}},{"name":"v1.0-beta3","zipball_url":"https://api.github.com/repos/kernelsauce/turbo/zipball/v1.0-beta3","tarball_url":"https://api.github.com/repos/kernelsauce/turbo/tarball/v1.0-beta3","commit":{"sha":"d5478325692fd70ab59cd9dd1f2ef3072c7b3c26","url":"https://api.github.com/repos/kernelsauce/turbo/commits/d5478325692fd70ab59cd9dd1f2ef3072c7b3c26"}},{"name":"v1.0-beta2","zipball_url":"https://api.github.com/repos/kernelsauce/turbo/zipball/v1.0-beta2","tarball_url":"https://api.github.com/repos/kernelsauce/turbo/tarball/v1.0-beta2","commit":{"sha":"70d1520fad5015b9355aa37d4148e9546d0cb51a","url":"https://api.github.com/repos/kernelsauce/turbo/commits/70d1520fad5015b9355aa37d4148e9546d0cb51a"}}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:03 GMT
+Etag: W/"6e8317fa671345636e053933206fc1ee"
+Link: <https://api.github.com/user/725836/followers?page=1>; rel="prev", <https://api.github.com/user/725836/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C338:54B9:5204C5:A4DF39:5AC856A7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4899
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.045694
+X-Xss-Protection: 1; mode=block
+
+737
+[{"login":"envolyse","id":8319849,"avatar_url":"https://avatars1.githubusercontent.com/u/8319849?v=4","gravatar_id":"","url":"https://api.github.com/users/envolyse","html_url":"https://github.com/envolyse","followers_url":"https://api.github.com/users/envolyse/followers","following_url":"https://api.github.com/users/envolyse/following{/other_user}","gists_url":"https://api.github.com/users/envolyse/gists{/gist_id}","starred_url":"https://api.github.com/users/envolyse/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/envolyse/subscriptions","organizations_url":"https://api.github.com/users/envolyse/orgs","repos_url":"https://api.github.com/users/envolyse/repos","events_url":"https://api.github.com/users/envolyse/events{/privacy}","received_events_url":"https://api.github.com/users/envolyse/received_events","type":"User","site_admin":false},{"login":"EugeneAndrievsky","id":22684906,"avatar_url":"https://avatars0.githubusercontent.com/u/22684906?v=4","gravatar_id":"","url":"https://api.github.com/users/EugeneAndrievsky","html_url":"https://github.com/EugeneAndrievsky","followers_url":"https://api.github.com/users/EugeneAndrievsky/followers","following_url":"https://api.github.com/users/EugeneAndrievsky/following{/other_user}","gists_url":"https://api.github.com/users/EugeneAndrievsky/gists{/gist_id}","starred_url":"https://api.github.com/users/EugeneAndrievsky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/EugeneAndrievsky/subscriptions","organizations_url":"https://api.github.com/users/EugeneAndrievsky/orgs","repos_url":"https://api.github.com/users/EugeneAndrievsky/repos","events_url":"https://api.github.com/users/EugeneAndrievsky/events{/privacy}","received_events_url":"https://api.github.com/users/EugeneAndrievsky/received_events","type":"User","site_admin":false}]
+0
+

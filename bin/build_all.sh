@@ -4,6 +4,7 @@ bash bin/python_frameworks.sh
 bash bin/clojure_frameworks.sh
 bash bin/erlang_frameworks.sh
 bash bin/haskell_frameworks.sh
+bash bin/lua_frameworks.sh
 bash bin/c_frameworks.sh
 bash bin/cpp_frameworks.sh
 bash bin/java_frameworks.sh

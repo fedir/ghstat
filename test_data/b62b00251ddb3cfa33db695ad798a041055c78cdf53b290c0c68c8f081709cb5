@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:04 GMT
+Etag: W/"a6341f45560fadcfa155c65e512b8d71"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C33D:54B9:5205D0:A4E0F7:5AC856A8
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4853
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.035665
+X-Xss-Protection: 1; mode=block
+
+353
+[{"login":"slimak","id":2492039,"avatar_url":"https://avatars1.githubusercontent.com/u/2492039?v=4","gravatar_id":"","url":"https://api.github.com/users/slimak","html_url":"https://github.com/slimak","followers_url":"https://api.github.com/users/slimak/followers","following_url":"https://api.github.com/users/slimak/following{/other_user}","gists_url":"https://api.github.com/users/slimak/gists{/gist_id}","starred_url":"https://api.github.com/users/slimak/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slimak/subscriptions","organizations_url":"https://api.github.com/users/slimak/orgs","repos_url":"https://api.github.com/users/slimak/repos","events_url":"https://api.github.com/users/slimak/events{/privacy}","received_events_url":"https://api.github.com/users/slimak/received_events","type":"User","site_admin":false}]
+0
+

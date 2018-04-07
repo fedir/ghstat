@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:01 GMT
+Etag: W/"ce1a9ffa9916711a5cae2253cee29078"
+Link: <https://api.github.com/user/15198/followers?page=33>; rel="prev", <https://api.github.com/user/15198/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C33A:54B8:3F743E:8AD756:5AC856A5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4964
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.049920
+X-Xss-Protection: 1; mode=block
+
+6e5
+[{"login":"asyncrun","id":27915992,"avatar_url":"https://avatars2.githubusercontent.com/u/27915992?v=4","gravatar_id":"","url":"https://api.github.com/users/asyncrun","html_url":"https://github.com/asyncrun","followers_url":"https://api.github.com/users/asyncrun/followers","following_url":"https://api.github.com/users/asyncrun/following{/other_user}","gists_url":"https://api.github.com/users/asyncrun/gists{/gist_id}","starred_url":"https://api.github.com/users/asyncrun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/asyncrun/subscriptions","organizations_url":"https://api.github.com/users/asyncrun/orgs","repos_url":"https://api.github.com/users/asyncrun/repos","events_url":"https://api.github.com/users/asyncrun/events{/privacy}","received_events_url":"https://api.github.com/users/asyncrun/received_events","type":"User","site_admin":false},{"login":"jorgefrac","id":12586457,"avatar_url":"https://avatars1.githubusercontent.com/u/12586457?v=4","gravatar_id":"","url":"https://api.github.com/users/jorgefrac","html_url":"https://github.com/jorgefrac","followers_url":"https://api.github.com/users/jorgefrac/followers","following_url":"https://api.github.com/users/jorgefrac/following{/other_user}","gists_url":"https://api.github.com/users/jorgefrac/gists{/gist_id}","starred_url":"https://api.github.com/users/jorgefrac/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jorgefrac/subscriptions","organizations_url":"https://api.github.com/users/jorgefrac/orgs","repos_url":"https://api.github.com/users/jorgefrac/repos","events_url":"https://api.github.com/users/jorgefrac/events{/privacy}","received_events_url":"https://api.github.com/users/jorgefrac/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:03 GMT
+Etag: W/"5f8c6a3da0e8b682a6c5df09f545e908"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C336:54B8:3F74FC:8AD8E9:5AC856A6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4918
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.040898
+X-Xss-Protection: 1; mode=block
+
+eaf
+[{"login":"Yonaba","id":884058,"avatar_url":"https://avatars3.githubusercontent.com/u/884058?v=4","gravatar_id":"","url":"https://api.github.com/users/Yonaba","html_url":"https://github.com/Yonaba","followers_url":"https://api.github.com/users/Yonaba/followers","following_url":"https://api.github.com/users/Yonaba/following{/other_user}","gists_url":"https://api.github.com/users/Yonaba/gists{/gist_id}","starred_url":"https://api.github.com/users/Yonaba/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Yonaba/subscriptions","organizations_url":"https://api.github.com/users/Yonaba/orgs","repos_url":"https://api.github.com/users/Yonaba/repos","events_url":"https://api.github.com/users/Yonaba/events{/privacy}","received_events_url":"https://api.github.com/users/Yonaba/received_events","type":"User","site_admin":false},{"login":"samiurrahmanwordpress","id":9652797,"avatar_url":"https://avatars1.githubusercontent.com/u/9652797?v=4","gravatar_id":"","url":"https://api.github.com/users/samiurrahmanwordpress","html_url":"https://github.com/samiurrahmanwordpress","followers_url":"https://api.github.com/users/samiurrahmanwordpress/followers","following_url":"https://api.github.com/users/samiurrahmanwordpress/following{/other_user}","gists_url":"https://api.github.com/users/samiurrahmanwordpress/gists{/gist_id}","starred_url":"https://api.github.com/users/samiurrahmanwordpress/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samiurrahmanwordpress/subscriptions","organizations_url":"https://api.github.com/users/samiurrahmanwordpress/orgs","repos_url":"https://api.github.com/users/samiurrahmanwordpress/repos","events_url":"https://api.github.com/users/samiurrahmanwordpress/events{/privacy}","received_events_url":"https://api.github.com/users/samiurrahmanwordpress/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false},{"login":"MichalPaszkiewicz","id":6673982,"avatar_url":"https://avatars3.githubusercontent.com/u/6673982?v=4","gravatar_id":"","url":"https://api.github.com/users/MichalPaszkiewicz","html_url":"https://github.com/MichalPaszkiewicz","followers_url":"https://api.github.com/users/MichalPaszkiewicz/followers","following_url":"https://api.github.com/users/MichalPaszkiewicz/following{/other_user}","gists_url":"https://api.github.com/users/MichalPaszkiewicz/gists{/gist_id}","starred_url":"https://api.github.com/users/MichalPaszkiewicz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MichalPaszkiewicz/subscriptions","organizations_url":"https://api.github.com/users/MichalPaszkiewicz/orgs","repos_url":"https://api.github.com/users/MichalPaszkiewicz/repos","events_url":"https://api.github.com/users/MichalPaszkiewicz/events{/privacy}","received_events_url":"https://api.github.com/users/MichalPaszkiewicz/received_events","type":"User","site_admin":false}]
+0
+

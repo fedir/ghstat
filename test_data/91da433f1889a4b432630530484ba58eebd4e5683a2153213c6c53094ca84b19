@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 07 Apr 2018 05:27:05 GMT
+Etag: W/"52f14f7af0f890981a89aa82b22df15d"
+Last-Modified: Sat, 07 Apr 2018 01:27:17 GMT
+Link: <https://api.github.com/repositories/6062770/tags?page=1>; rel="prev", <https://api.github.com/repositories/6062770/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C33F:54B9:520646:A4E1C4:5AC856A9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4837
+X-Ratelimit-Reset: 1523080505
+X-Runtime-Rack: 0.031701
+X-Xss-Protection: 1; mode=block
+
+141
+[{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/leafo/lapis/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/leafo/lapis/tarball/v0.0.1","commit":{"sha":"967ef3c7b5acdaabd4562ba5a69440212f250e2c","url":"https://api.github.com/repos/leafo/lapis/commits/967ef3c7b5acdaabd4562ba5a69440212f250e2c"}}]
+0
+
