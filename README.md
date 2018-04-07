@@ -105,6 +105,20 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 [Detailed Haskell frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/haskell_frameworks.csv)
 
+### Lua frameworks rating
+
+* The most popular project is `luvit/luvit`
+* The newest project is `sailorproject/sailor`
+* The project with more commits is `luvit/luvit`
+* The project with more tags is `luvit/luvit`
+* The project made by most notable top contributors is `luvit/luvit`
+* The project with best errors resolving rate is `appwilldev/moochine`
+* The project with more commits by day is `leafo/lapis`
+* The project with the most active community is `kernelsauce/turbo`
+* The best project (taking in account placements in all competitions) is `luvit/luvit`
+
+[Detailed Lua frameworks statistics](https://github.com/fedir/ghstat/blob/master/stats/lua_frameworks.csv)
+
 ### C frameworks rating
 
 * The most popular project is `lpereira/lwan`
