@@ -19,6 +19,7 @@ import (
 type Repository struct {
 	Name       string    `json:"name"`
 	FullName   string    `json:"full_name"`
+	Language   string    `json:"language"`
 	Watchers   int       `json:"watchers"`
 	Forks      int       `json:"forks"`
 	OpenIssues int       `json:"open_issues"`
