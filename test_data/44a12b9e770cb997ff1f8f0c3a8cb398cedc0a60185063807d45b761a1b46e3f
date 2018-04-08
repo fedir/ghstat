@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 01:03:01 GMT
+Date: Sun, 08 Apr 2018 22:38:56 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Aalkacon%2Fopencms-core+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Aalkacon%2Fopencms-core+type%3Aissue+state%3Aclosed&page=13>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CCA1:16B5:2E6D2D:58F169:5AC2D2C4
+X-Github-Request-Id: CF06:54B8:F3CF70:21CA6A4:5ACA9A00
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 14
-X-Ratelimit-Reset: 1522717438
-X-Runtime-Rack: 0.347686
+X-Ratelimit-Remaining: 12
+X-Ratelimit-Reset: 1523227184
+X-Runtime-Rack: 0.340259
 X-Xss-Protection: 1; mode=block
 
 8000

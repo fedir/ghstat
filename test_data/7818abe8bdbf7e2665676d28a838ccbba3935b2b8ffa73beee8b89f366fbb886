@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 01:01:57 GMT
-Etag: W/"4b55f3256d1e4ef12fccba4a31410012"
+Date: Sun, 08 Apr 2018 22:39:59 GMT
+Etag: W/"21ea52b3afd4c2a9157e2084b33f02d4"
 Link: <https://api.github.com/user/566016/followers?page=10>; rel="prev", <https://api.github.com/user/566016/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC60:16B5:2E52B8:58BFC5:5AC2D285
+X-Github-Request-Id: CF88:54B9:144EE73:28D3D35:5ACA9A3F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3315
-X-Ratelimit-Reset: 1522720317
-X-Runtime-Rack: 0.057167
+X-Ratelimit-Remaining: 2332
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.041266
 X-Xss-Protection: 1; mode=block
 
-35f
-[{"login":"kroitor","id":1294454,"avatar_url":"https://avatars3.githubusercontent.com/u/1294454?v=4","gravatar_id":"","url":"https://api.github.com/users/kroitor","html_url":"https://github.com/kroitor","followers_url":"https://api.github.com/users/kroitor/followers","following_url":"https://api.github.com/users/kroitor/following{/other_user}","gists_url":"https://api.github.com/users/kroitor/gists{/gist_id}","starred_url":"https://api.github.com/users/kroitor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kroitor/subscriptions","organizations_url":"https://api.github.com/users/kroitor/orgs","repos_url":"https://api.github.com/users/kroitor/repos","events_url":"https://api.github.com/users/kroitor/events{/privacy}","received_events_url":"https://api.github.com/users/kroitor/received_events","type":"User","site_admin":false}]
+39d
+[{"login":"InduprasadSR","id":12188140,"avatar_url":"https://avatars3.githubusercontent.com/u/12188140?v=4","gravatar_id":"","url":"https://api.github.com/users/InduprasadSR","html_url":"https://github.com/InduprasadSR","followers_url":"https://api.github.com/users/InduprasadSR/followers","following_url":"https://api.github.com/users/InduprasadSR/following{/other_user}","gists_url":"https://api.github.com/users/InduprasadSR/gists{/gist_id}","starred_url":"https://api.github.com/users/InduprasadSR/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/InduprasadSR/subscriptions","organizations_url":"https://api.github.com/users/InduprasadSR/orgs","repos_url":"https://api.github.com/users/InduprasadSR/repos","events_url":"https://api.github.com/users/InduprasadSR/events{/privacy}","received_events_url":"https://api.github.com/users/InduprasadSR/received_events","type":"User","site_admin":false}]
 0
 

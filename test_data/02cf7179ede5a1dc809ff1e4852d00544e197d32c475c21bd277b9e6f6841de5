@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:39:50 GMT
+Etag: W/"4cda7b4635c81f77c21ab25d6bc3123b"
+Link: <https://api.github.com/user/216296/followers?page=85>; rel="prev", <https://api.github.com/user/216296/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF6D:54B8:F3DF72:21CC99F:5ACA9A35
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2537
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.095860
+X-Xss-Protection: 1; mode=block
+
+a7d
+[{"login":"plinionaves","id":7607265,"avatar_url":"https://avatars2.githubusercontent.com/u/7607265?v=4","gravatar_id":"","url":"https://api.github.com/users/plinionaves","html_url":"https://github.com/plinionaves","followers_url":"https://api.github.com/users/plinionaves/followers","following_url":"https://api.github.com/users/plinionaves/following{/other_user}","gists_url":"https://api.github.com/users/plinionaves/gists{/gist_id}","starred_url":"https://api.github.com/users/plinionaves/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/plinionaves/subscriptions","organizations_url":"https://api.github.com/users/plinionaves/orgs","repos_url":"https://api.github.com/users/plinionaves/repos","events_url":"https://api.github.com/users/plinionaves/events{/privacy}","received_events_url":"https://api.github.com/users/plinionaves/received_events","type":"User","site_admin":false},{"login":"imbhargav5","id":2936644,"avatar_url":"https://avatars2.githubusercontent.com/u/2936644?v=4","gravatar_id":"","url":"https://api.github.com/users/imbhargav5","html_url":"https://github.com/imbhargav5","followers_url":"https://api.github.com/users/imbhargav5/followers","following_url":"https://api.github.com/users/imbhargav5/following{/other_user}","gists_url":"https://api.github.com/users/imbhargav5/gists{/gist_id}","starred_url":"https://api.github.com/users/imbhargav5/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/imbhargav5/subscriptions","organizations_url":"https://api.github.com/users/imbhargav5/orgs","repos_url":"https://api.github.com/users/imbhargav5/repos","events_url":"https://api.github.com/users/imbhargav5/events{/privacy}","received_events_url":"https://api.github.com/users/imbhargav5/received_events","type":"User","site_admin":false},{"login":"vinceray","id":38118705,"avatar_url":"https://avatars3.githubusercontent.com/u/38118705?v=4","gravatar_id":"","url":"https://api.github.com/users/vinceray","html_url":"https://github.com/vinceray","followers_url":"https://api.github.com/users/vinceray/followers","following_url":"https://api.github.com/users/vinceray/following{/other_user}","gists_url":"https://api.github.com/users/vinceray/gists{/gist_id}","starred_url":"https://api.github.com/users/vinceray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vinceray/subscriptions","organizations_url":"https://api.github.com/users/vinceray/orgs","repos_url":"https://api.github.com/users/vinceray/repos","events_url":"https://api.github.com/users/vinceray/events{/privacy}","received_events_url":"https://api.github.com/users/vinceray/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:36:56 GMT
+Etag: W/"d177cdc5458c76b0fdd5e39ec6784050"
+Link: <https://api.github.com/user/31996/followers?page=57>; rel="prev", <https://api.github.com/user/31996/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CC7A:54B9:144A2DC:28CA723:5ACA9987
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4660
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.052107
+X-Xss-Protection: 1; mode=block
+
+767
+[{"login":"pascaldekloe","id":4867072,"avatar_url":"https://avatars2.githubusercontent.com/u/4867072?v=4","gravatar_id":"","url":"https://api.github.com/users/pascaldekloe","html_url":"https://github.com/pascaldekloe","followers_url":"https://api.github.com/users/pascaldekloe/followers","following_url":"https://api.github.com/users/pascaldekloe/following{/other_user}","gists_url":"https://api.github.com/users/pascaldekloe/gists{/gist_id}","starred_url":"https://api.github.com/users/pascaldekloe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pascaldekloe/subscriptions","organizations_url":"https://api.github.com/users/pascaldekloe/orgs","repos_url":"https://api.github.com/users/pascaldekloe/repos","events_url":"https://api.github.com/users/pascaldekloe/events{/privacy}","received_events_url":"https://api.github.com/users/pascaldekloe/received_events","type":"User","site_admin":false},{"login":"fcarvalhopacheco","id":37884899,"avatar_url":"https://avatars3.githubusercontent.com/u/37884899?v=4","gravatar_id":"","url":"https://api.github.com/users/fcarvalhopacheco","html_url":"https://github.com/fcarvalhopacheco","followers_url":"https://api.github.com/users/fcarvalhopacheco/followers","following_url":"https://api.github.com/users/fcarvalhopacheco/following{/other_user}","gists_url":"https://api.github.com/users/fcarvalhopacheco/gists{/gist_id}","starred_url":"https://api.github.com/users/fcarvalhopacheco/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fcarvalhopacheco/subscriptions","organizations_url":"https://api.github.com/users/fcarvalhopacheco/orgs","repos_url":"https://api.github.com/users/fcarvalhopacheco/repos","events_url":"https://api.github.com/users/fcarvalhopacheco/events{/privacy}","received_events_url":"https://api.github.com/users/fcarvalhopacheco/received_events","type":"User","site_admin":false}]
+0
+

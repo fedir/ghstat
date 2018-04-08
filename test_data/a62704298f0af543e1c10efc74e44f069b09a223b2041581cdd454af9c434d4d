@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 00:58:26 GMT
-Etag: W/"7a5969e009f74b23be7f0138644429f8"
+Date: Sun, 08 Apr 2018 22:37:54 GMT
+Etag: W/"084b763f07f17ee86d2cfd27cab05d8e"
 Link: <https://api.github.com/user/767816/followers?page=2>; rel="prev", <https://api.github.com/user/767816/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAED:16B7:233518:5C2B89:5AC2D1B2
+X-Github-Request-Id: CD8A:54B9:144BCEF:28CD8FD:5ACA99C2
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4759
-X-Ratelimit-Reset: 1522720317
-X-Runtime-Rack: 0.030057
+X-Ratelimit-Remaining: 3839
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.023678
 X-Xss-Protection: 1; mode=block
 
-3a7
-[{"login":"firhatnawfanh","id":5682302,"avatar_url":"https://avatars2.githubusercontent.com/u/5682302?v=4","gravatar_id":"","url":"https://api.github.com/users/firhatnawfanh","html_url":"https://github.com/firhatnawfanh","followers_url":"https://api.github.com/users/firhatnawfanh/followers","following_url":"https://api.github.com/users/firhatnawfanh/following{/other_user}","gists_url":"https://api.github.com/users/firhatnawfanh/gists{/gist_id}","starred_url":"https://api.github.com/users/firhatnawfanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/firhatnawfanh/subscriptions","organizations_url":"https://api.github.com/users/firhatnawfanh/orgs","repos_url":"https://api.github.com/users/firhatnawfanh/repos","events_url":"https://api.github.com/users/firhatnawfanh/events{/privacy}","received_events_url":"https://api.github.com/users/firhatnawfanh/received_events","type":"User","site_admin":false}]
+72b
+[{"login":"firhatnawfanh","id":5682302,"avatar_url":"https://avatars2.githubusercontent.com/u/5682302?v=4","gravatar_id":"","url":"https://api.github.com/users/firhatnawfanh","html_url":"https://github.com/firhatnawfanh","followers_url":"https://api.github.com/users/firhatnawfanh/followers","following_url":"https://api.github.com/users/firhatnawfanh/following{/other_user}","gists_url":"https://api.github.com/users/firhatnawfanh/gists{/gist_id}","starred_url":"https://api.github.com/users/firhatnawfanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/firhatnawfanh/subscriptions","organizations_url":"https://api.github.com/users/firhatnawfanh/orgs","repos_url":"https://api.github.com/users/firhatnawfanh/repos","events_url":"https://api.github.com/users/firhatnawfanh/events{/privacy}","received_events_url":"https://api.github.com/users/firhatnawfanh/received_events","type":"User","site_admin":false},{"login":"Ivan-Yudin","id":16864197,"avatar_url":"https://avatars0.githubusercontent.com/u/16864197?v=4","gravatar_id":"","url":"https://api.github.com/users/Ivan-Yudin","html_url":"https://github.com/Ivan-Yudin","followers_url":"https://api.github.com/users/Ivan-Yudin/followers","following_url":"https://api.github.com/users/Ivan-Yudin/following{/other_user}","gists_url":"https://api.github.com/users/Ivan-Yudin/gists{/gist_id}","starred_url":"https://api.github.com/users/Ivan-Yudin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ivan-Yudin/subscriptions","organizations_url":"https://api.github.com/users/Ivan-Yudin/orgs","repos_url":"https://api.github.com/users/Ivan-Yudin/repos","events_url":"https://api.github.com/users/Ivan-Yudin/events{/privacy}","received_events_url":"https://api.github.com/users/Ivan-Yudin/received_events","type":"User","site_admin":false}]
 0
 

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:39:51 GMT
+Etag: W/"a8e34b8a05bbc80ba5500c21459d2f0c"
+Link: <https://api.github.com/user/3624098/followers?page=138>; rel="prev", <https://api.github.com/user/3624098/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF76:54B9:144EB21:28D3671:5ACA9A36
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2484
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.134293
+X-Xss-Protection: 1; mode=block
+
+dff
+[{"login":"lucaspelloni2","id":17781533,"avatar_url":"https://avatars2.githubusercontent.com/u/17781533?v=4","gravatar_id":"","url":"https://api.github.com/users/lucaspelloni2","html_url":"https://github.com/lucaspelloni2","followers_url":"https://api.github.com/users/lucaspelloni2/followers","following_url":"https://api.github.com/users/lucaspelloni2/following{/other_user}","gists_url":"https://api.github.com/users/lucaspelloni2/gists{/gist_id}","starred_url":"https://api.github.com/users/lucaspelloni2/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lucaspelloni2/subscriptions","organizations_url":"https://api.github.com/users/lucaspelloni2/orgs","repos_url":"https://api.github.com/users/lucaspelloni2/repos","events_url":"https://api.github.com/users/lucaspelloni2/events{/privacy}","received_events_url":"https://api.github.com/users/lucaspelloni2/received_events","type":"User","site_admin":false},{"login":"rperez46","id":9450479,"avatar_url":"https://avatars1.githubusercontent.com/u/9450479?v=4","gravatar_id":"","url":"https://api.github.com/users/rperez46","html_url":"https://github.com/rperez46","followers_url":"https://api.github.com/users/rperez46/followers","following_url":"https://api.github.com/users/rperez46/following{/other_user}","gists_url":"https://api.github.com/users/rperez46/gists{/gist_id}","starred_url":"https://api.github.com/users/rperez46/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rperez46/subscriptions","organizations_url":"https://api.github.com/users/rperez46/orgs","repos_url":"https://api.github.com/users/rperez46/repos","events_url":"https://api.github.com/users/rperez46/events{/privacy}","received_events_url":"https://api.github.com/users/rperez46/received_events","type":"User","site_admin":false},{"login":"samouss","id":6513513,"avatar_url":"https://avatars2.githubusercontent.com/u/6513513?v=4","gravatar_id":"","url":"https://api.github.com/users/samouss","html_url":"https://github.com/samouss","followers_url":"https://api.github.com/users/samouss/followers","following_url":"https://api.github.com/users/samouss/following{/other_user}","gists_url":"https://api.github.com/users/samouss/gists{/gist_id}","starred_url":"https://api.github.com/users/samouss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samouss/subscriptions","organizations_url":"https://api.github.com/users/samouss/orgs","repos_url":"https://api.github.com/users/samouss/repos","events_url":"https://api.github.com/users/samouss/events{/privacy}","received_events_url":"https://api.github.com/users/samouss/received_events","type":"User","site_admin":false},{"login":"talwaserman","id":4783250,"avatar_url":"https://avatars1.githubusercontent.com/u/4783250?v=4","gravatar_id":"","url":"https://api.github.com/users/talwaserman","html_url":"https://github.com/talwaserman","followers_url":"https://api.github.com/users/talwaserman/followers","following_url":"https://api.github.com/users/talwaserman/following{/other_user}","gists_url":"https://api.github.com/users/talwaserman/gists{/gist_id}","starred_url":"https://api.github.com/users/talwaserman/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/talwaserman/subscriptions","organizations_url":"https://api.github.com/users/talwaserman/orgs","repos_url":"https://api.github.com/users/talwaserman/repos","events_url":"https://api.github.com/users/talwaserman/events{/privacy}","received_events_url":"https://api.github.com/users/talwaserman/received_events","type":"User","site_admin":false}]
+0
+

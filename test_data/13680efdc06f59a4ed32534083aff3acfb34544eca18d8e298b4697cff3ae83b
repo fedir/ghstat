@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 00:58:36 GMT
+Date: Sun, 08 Apr 2018 22:39:48 GMT
 Etag: W/"742c1f8306aa4ea9f0f5be9790c07bc5"
-Last-Modified: Mon, 02 Apr 2018 17:46:29 GMT
+Last-Modified: Sun, 08 Apr 2018 16:41:10 GMT
 Link: <https://api.github.com/repositories/952189/contributors?page=2>; rel="next", <https://api.github.com/repositories/952189/contributors?page=10>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,12 +18,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB0C:16B3:1DF2C9:3FD4F3:5AC2D1BC
+X-Github-Request-Id: CF6C:54B6:58E79C:E3B611:5ACA9A33
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4580
-X-Ratelimit-Reset: 1522720317
-X-Runtime-Rack: 0.153800
+X-Ratelimit-Remaining: 2641
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.107062
 X-Xss-Protection: 1; mode=block
 
 6ab9

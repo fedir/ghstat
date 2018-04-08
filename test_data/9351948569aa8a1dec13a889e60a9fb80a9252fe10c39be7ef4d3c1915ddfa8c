@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 07 Apr 2018 05:27:02 GMT
-Etag: W/"703c7b15855ace72adaeeb2653ed4879"
+Date: Sun, 08 Apr 2018 22:38:01 GMT
+Etag: W/"dd0aa5fda42a716e255c514fbad8a464"
 Link: <https://api.github.com/user/1026154/followers?page=2>; rel="prev", <https://api.github.com/user/1026154/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C33C:54B9:5203D2:A4DD69:5AC856A6
+X-Github-Request-Id: CD99:54B9:144C008:28CDED1:5ACA99C9
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4953
-X-Ratelimit-Reset: 1523080505
-X-Runtime-Rack: 0.031853
+X-Ratelimit-Remaining: 3772
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.035297
 X-Xss-Protection: 1; mode=block
 
-353
-[{"login":"rps462","id":1972963,"avatar_url":"https://avatars3.githubusercontent.com/u/1972963?v=4","gravatar_id":"","url":"https://api.github.com/users/rps462","html_url":"https://github.com/rps462","followers_url":"https://api.github.com/users/rps462/followers","following_url":"https://api.github.com/users/rps462/following{/other_user}","gists_url":"https://api.github.com/users/rps462/gists{/gist_id}","starred_url":"https://api.github.com/users/rps462/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rps462/subscriptions","organizations_url":"https://api.github.com/users/rps462/orgs","repos_url":"https://api.github.com/users/rps462/repos","events_url":"https://api.github.com/users/rps462/events{/privacy}","received_events_url":"https://api.github.com/users/rps462/received_events","type":"User","site_admin":false}]
+6bb
+[{"login":"rps462","id":1972963,"avatar_url":"https://avatars3.githubusercontent.com/u/1972963?v=4","gravatar_id":"","url":"https://api.github.com/users/rps462","html_url":"https://github.com/rps462","followers_url":"https://api.github.com/users/rps462/followers","following_url":"https://api.github.com/users/rps462/following{/other_user}","gists_url":"https://api.github.com/users/rps462/gists{/gist_id}","starred_url":"https://api.github.com/users/rps462/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rps462/subscriptions","organizations_url":"https://api.github.com/users/rps462/orgs","repos_url":"https://api.github.com/users/rps462/repos","events_url":"https://api.github.com/users/rps462/events{/privacy}","received_events_url":"https://api.github.com/users/rps462/received_events","type":"User","site_admin":false},{"login":"costeirs","id":666358,"avatar_url":"https://avatars2.githubusercontent.com/u/666358?v=4","gravatar_id":"","url":"https://api.github.com/users/costeirs","html_url":"https://github.com/costeirs","followers_url":"https://api.github.com/users/costeirs/followers","following_url":"https://api.github.com/users/costeirs/following{/other_user}","gists_url":"https://api.github.com/users/costeirs/gists{/gist_id}","starred_url":"https://api.github.com/users/costeirs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/costeirs/subscriptions","organizations_url":"https://api.github.com/users/costeirs/orgs","repos_url":"https://api.github.com/users/costeirs/repos","events_url":"https://api.github.com/users/costeirs/events{/privacy}","received_events_url":"https://api.github.com/users/costeirs/received_events","type":"User","site_admin":false}]
 0
 

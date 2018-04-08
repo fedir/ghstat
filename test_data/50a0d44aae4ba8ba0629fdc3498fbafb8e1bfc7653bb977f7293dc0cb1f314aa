@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 01:01:31 GMT
-Etag: W/"ca178eb812aaa9679fffa4f3440aca4f"
+Date: Sun, 08 Apr 2018 22:36:53 GMT
+Etag: W/"29de315226897cca26a1637d0e8a5f0c"
 Link: <https://api.github.com/user/965839/followers?page=14>; rel="prev", <https://api.github.com/user/965839/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC2C:16B5:2E48FE:58ADD0:5AC2D26B
+X-Github-Request-Id: CC74:54B9:144A1BC:28CA4F7:5ACA9985
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3699
-X-Ratelimit-Reset: 1522720317
-X-Runtime-Rack: 0.108900
+X-Ratelimit-Remaining: 4744
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.034889
 X-Xss-Protection: 1; mode=block
 
-a33
-[{"login":"sprog","id":87050,"avatar_url":"https://avatars0.githubusercontent.com/u/87050?v=4","gravatar_id":"","url":"https://api.github.com/users/sprog","html_url":"https://github.com/sprog","followers_url":"https://api.github.com/users/sprog/followers","following_url":"https://api.github.com/users/sprog/following{/other_user}","gists_url":"https://api.github.com/users/sprog/gists{/gist_id}","starred_url":"https://api.github.com/users/sprog/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sprog/subscriptions","organizations_url":"https://api.github.com/users/sprog/orgs","repos_url":"https://api.github.com/users/sprog/repos","events_url":"https://api.github.com/users/sprog/events{/privacy}","received_events_url":"https://api.github.com/users/sprog/received_events","type":"User","site_admin":false},{"login":"AlfredYan","id":14922683,"avatar_url":"https://avatars3.githubusercontent.com/u/14922683?v=4","gravatar_id":"","url":"https://api.github.com/users/AlfredYan","html_url":"https://github.com/AlfredYan","followers_url":"https://api.github.com/users/AlfredYan/followers","following_url":"https://api.github.com/users/AlfredYan/following{/other_user}","gists_url":"https://api.github.com/users/AlfredYan/gists{/gist_id}","starred_url":"https://api.github.com/users/AlfredYan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlfredYan/subscriptions","organizations_url":"https://api.github.com/users/AlfredYan/orgs","repos_url":"https://api.github.com/users/AlfredYan/repos","events_url":"https://api.github.com/users/AlfredYan/events{/privacy}","received_events_url":"https://api.github.com/users/AlfredYan/received_events","type":"User","site_admin":false},{"login":"vishnuavv","id":11567375,"avatar_url":"https://avatars1.githubusercontent.com/u/11567375?v=4","gravatar_id":"","url":"https://api.github.com/users/vishnuavv","html_url":"https://github.com/vishnuavv","followers_url":"https://api.github.com/users/vishnuavv/followers","following_url":"https://api.github.com/users/vishnuavv/following{/other_user}","gists_url":"https://api.github.com/users/vishnuavv/gists{/gist_id}","starred_url":"https://api.github.com/users/vishnuavv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vishnuavv/subscriptions","organizations_url":"https://api.github.com/users/vishnuavv/orgs","repos_url":"https://api.github.com/users/vishnuavv/repos","events_url":"https://api.github.com/users/vishnuavv/events{/privacy}","received_events_url":"https://api.github.com/users/vishnuavv/received_events","type":"User","site_admin":false}]
+a69
+[{"login":"AlfredYan","id":14922683,"avatar_url":"https://avatars3.githubusercontent.com/u/14922683?v=4","gravatar_id":"","url":"https://api.github.com/users/AlfredYan","html_url":"https://github.com/AlfredYan","followers_url":"https://api.github.com/users/AlfredYan/followers","following_url":"https://api.github.com/users/AlfredYan/following{/other_user}","gists_url":"https://api.github.com/users/AlfredYan/gists{/gist_id}","starred_url":"https://api.github.com/users/AlfredYan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlfredYan/subscriptions","organizations_url":"https://api.github.com/users/AlfredYan/orgs","repos_url":"https://api.github.com/users/AlfredYan/repos","events_url":"https://api.github.com/users/AlfredYan/events{/privacy}","received_events_url":"https://api.github.com/users/AlfredYan/received_events","type":"User","site_admin":false},{"login":"vishnuavv","id":11567375,"avatar_url":"https://avatars1.githubusercontent.com/u/11567375?v=4","gravatar_id":"","url":"https://api.github.com/users/vishnuavv","html_url":"https://github.com/vishnuavv","followers_url":"https://api.github.com/users/vishnuavv/followers","following_url":"https://api.github.com/users/vishnuavv/following{/other_user}","gists_url":"https://api.github.com/users/vishnuavv/gists{/gist_id}","starred_url":"https://api.github.com/users/vishnuavv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vishnuavv/subscriptions","organizations_url":"https://api.github.com/users/vishnuavv/orgs","repos_url":"https://api.github.com/users/vishnuavv/repos","events_url":"https://api.github.com/users/vishnuavv/events{/privacy}","received_events_url":"https://api.github.com/users/vishnuavv/received_events","type":"User","site_admin":false},{"login":"gustavkkk","id":18607447,"avatar_url":"https://avatars1.githubusercontent.com/u/18607447?v=4","gravatar_id":"","url":"https://api.github.com/users/gustavkkk","html_url":"https://github.com/gustavkkk","followers_url":"https://api.github.com/users/gustavkkk/followers","following_url":"https://api.github.com/users/gustavkkk/following{/other_user}","gists_url":"https://api.github.com/users/gustavkkk/gists{/gist_id}","starred_url":"https://api.github.com/users/gustavkkk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gustavkkk/subscriptions","organizations_url":"https://api.github.com/users/gustavkkk/orgs","repos_url":"https://api.github.com/users/gustavkkk/repos","events_url":"https://api.github.com/users/gustavkkk/events{/privacy}","received_events_url":"https://api.github.com/users/gustavkkk/received_events","type":"User","site_admin":false}]
 0
 

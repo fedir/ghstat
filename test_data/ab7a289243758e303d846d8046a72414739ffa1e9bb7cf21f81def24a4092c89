@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:36:54 GMT
+Etag: W/"e85528356f7228119a9f8c6ce71bd26d"
+Link: <https://api.github.com/user/7396/followers?page=356>; rel="prev", <https://api.github.com/user/7396/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CC77:54B9:144A1CE:28CA528:5ACA9985
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4736
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.294207
+X-Xss-Protection: 1; mode=block
+
+ddb
+[{"login":"xingdl2007","id":3676938,"avatar_url":"https://avatars3.githubusercontent.com/u/3676938?v=4","gravatar_id":"","url":"https://api.github.com/users/xingdl2007","html_url":"https://github.com/xingdl2007","followers_url":"https://api.github.com/users/xingdl2007/followers","following_url":"https://api.github.com/users/xingdl2007/following{/other_user}","gists_url":"https://api.github.com/users/xingdl2007/gists{/gist_id}","starred_url":"https://api.github.com/users/xingdl2007/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xingdl2007/subscriptions","organizations_url":"https://api.github.com/users/xingdl2007/orgs","repos_url":"https://api.github.com/users/xingdl2007/repos","events_url":"https://api.github.com/users/xingdl2007/events{/privacy}","received_events_url":"https://api.github.com/users/xingdl2007/received_events","type":"User","site_admin":false},{"login":"leniel","id":764854,"avatar_url":"https://avatars2.githubusercontent.com/u/764854?v=4","gravatar_id":"","url":"https://api.github.com/users/leniel","html_url":"https://github.com/leniel","followers_url":"https://api.github.com/users/leniel/followers","following_url":"https://api.github.com/users/leniel/following{/other_user}","gists_url":"https://api.github.com/users/leniel/gists{/gist_id}","starred_url":"https://api.github.com/users/leniel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leniel/subscriptions","organizations_url":"https://api.github.com/users/leniel/orgs","repos_url":"https://api.github.com/users/leniel/repos","events_url":"https://api.github.com/users/leniel/events{/privacy}","received_events_url":"https://api.github.com/users/leniel/received_events","type":"User","site_admin":false},{"login":"vsaitejaswie","id":25884668,"avatar_url":"https://avatars1.githubusercontent.com/u/25884668?v=4","gravatar_id":"","url":"https://api.github.com/users/vsaitejaswie","html_url":"https://github.com/vsaitejaswie","followers_url":"https://api.github.com/users/vsaitejaswie/followers","following_url":"https://api.github.com/users/vsaitejaswie/following{/other_user}","gists_url":"https://api.github.com/users/vsaitejaswie/gists{/gist_id}","starred_url":"https://api.github.com/users/vsaitejaswie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vsaitejaswie/subscriptions","organizations_url":"https://api.github.com/users/vsaitejaswie/orgs","repos_url":"https://api.github.com/users/vsaitejaswie/repos","events_url":"https://api.github.com/users/vsaitejaswie/events{/privacy}","received_events_url":"https://api.github.com/users/vsaitejaswie/received_events","type":"User","site_admin":false},{"login":"Hissvard","id":19749322,"avatar_url":"https://avatars2.githubusercontent.com/u/19749322?v=4","gravatar_id":"","url":"https://api.github.com/users/Hissvard","html_url":"https://github.com/Hissvard","followers_url":"https://api.github.com/users/Hissvard/followers","following_url":"https://api.github.com/users/Hissvard/following{/other_user}","gists_url":"https://api.github.com/users/Hissvard/gists{/gist_id}","starred_url":"https://api.github.com/users/Hissvard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Hissvard/subscriptions","organizations_url":"https://api.github.com/users/Hissvard/orgs","repos_url":"https://api.github.com/users/Hissvard/repos","events_url":"https://api.github.com/users/Hissvard/events{/privacy}","received_events_url":"https://api.github.com/users/Hissvard/received_events","type":"User","site_admin":false}]
+0
+

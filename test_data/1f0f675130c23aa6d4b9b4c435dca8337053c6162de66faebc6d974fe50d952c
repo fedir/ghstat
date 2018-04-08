@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:36:58 GMT
+Etag: W/"f8855af21cbab51d97497aa90639172b"
+Link: <https://api.github.com/user/772/followers?page=138>; rel="prev", <https://api.github.com/user/772/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CC7B:54B9:144A419:28CA969:5ACA998A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4577
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.129445
+X-Xss-Protection: 1; mode=block
+
+6bf
+[{"login":"SDWally","id":25904788,"avatar_url":"https://avatars3.githubusercontent.com/u/25904788?v=4","gravatar_id":"","url":"https://api.github.com/users/SDWally","html_url":"https://github.com/SDWally","followers_url":"https://api.github.com/users/SDWally/followers","following_url":"https://api.github.com/users/SDWally/following{/other_user}","gists_url":"https://api.github.com/users/SDWally/gists{/gist_id}","starred_url":"https://api.github.com/users/SDWally/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SDWally/subscriptions","organizations_url":"https://api.github.com/users/SDWally/orgs","repos_url":"https://api.github.com/users/SDWally/repos","events_url":"https://api.github.com/users/SDWally/events{/privacy}","received_events_url":"https://api.github.com/users/SDWally/received_events","type":"User","site_admin":false},{"login":"schenkd","id":7011623,"avatar_url":"https://avatars0.githubusercontent.com/u/7011623?v=4","gravatar_id":"","url":"https://api.github.com/users/schenkd","html_url":"https://github.com/schenkd","followers_url":"https://api.github.com/users/schenkd/followers","following_url":"https://api.github.com/users/schenkd/following{/other_user}","gists_url":"https://api.github.com/users/schenkd/gists{/gist_id}","starred_url":"https://api.github.com/users/schenkd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/schenkd/subscriptions","organizations_url":"https://api.github.com/users/schenkd/orgs","repos_url":"https://api.github.com/users/schenkd/repos","events_url":"https://api.github.com/users/schenkd/events{/privacy}","received_events_url":"https://api.github.com/users/schenkd/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Apr 2018 01:01:44 GMT
-Etag: W/"3d65365ccea9c8463fa63f86a44b2862"
+Date: Sun, 08 Apr 2018 22:37:03 GMT
+Etag: W/"ba4cd71002a4f490ec6577b4c6c1af75"
 Link: <https://api.github.com/user/8780/followers?page=36>; rel="prev", <https://api.github.com/user/8780/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC4E:16B3:1E20E1:4036A1:5AC2D276
+X-Github-Request-Id: CC93:54B6:58D741:E387F7:5ACA998F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3494
-X-Ratelimit-Reset: 1522720317
-X-Runtime-Rack: 0.203282
+X-Ratelimit-Remaining: 4528
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.059126
 X-Xss-Protection: 1; mode=block
 
-3bf
-[{"login":"UnisonCodeWorks","id":4434015,"avatar_url":"https://avatars1.githubusercontent.com/u/4434015?v=4","gravatar_id":"","url":"https://api.github.com/users/UnisonCodeWorks","html_url":"https://github.com/UnisonCodeWorks","followers_url":"https://api.github.com/users/UnisonCodeWorks/followers","following_url":"https://api.github.com/users/UnisonCodeWorks/following{/other_user}","gists_url":"https://api.github.com/users/UnisonCodeWorks/gists{/gist_id}","starred_url":"https://api.github.com/users/UnisonCodeWorks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/UnisonCodeWorks/subscriptions","organizations_url":"https://api.github.com/users/UnisonCodeWorks/orgs","repos_url":"https://api.github.com/users/UnisonCodeWorks/repos","events_url":"https://api.github.com/users/UnisonCodeWorks/events{/privacy}","received_events_url":"https://api.github.com/users/UnisonCodeWorks/received_events","type":"User","site_admin":false}]
+6f7
+[{"login":"KangZhiDong","id":8299602,"avatar_url":"https://avatars1.githubusercontent.com/u/8299602?v=4","gravatar_id":"","url":"https://api.github.com/users/KangZhiDong","html_url":"https://github.com/KangZhiDong","followers_url":"https://api.github.com/users/KangZhiDong/followers","following_url":"https://api.github.com/users/KangZhiDong/following{/other_user}","gists_url":"https://api.github.com/users/KangZhiDong/gists{/gist_id}","starred_url":"https://api.github.com/users/KangZhiDong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KangZhiDong/subscriptions","organizations_url":"https://api.github.com/users/KangZhiDong/orgs","repos_url":"https://api.github.com/users/KangZhiDong/repos","events_url":"https://api.github.com/users/KangZhiDong/events{/privacy}","received_events_url":"https://api.github.com/users/KangZhiDong/received_events","type":"User","site_admin":false},{"login":"xafizoff","id":502996,"avatar_url":"https://avatars1.githubusercontent.com/u/502996?v=4","gravatar_id":"","url":"https://api.github.com/users/xafizoff","html_url":"https://github.com/xafizoff","followers_url":"https://api.github.com/users/xafizoff/followers","following_url":"https://api.github.com/users/xafizoff/following{/other_user}","gists_url":"https://api.github.com/users/xafizoff/gists{/gist_id}","starred_url":"https://api.github.com/users/xafizoff/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xafizoff/subscriptions","organizations_url":"https://api.github.com/users/xafizoff/orgs","repos_url":"https://api.github.com/users/xafizoff/repos","events_url":"https://api.github.com/users/xafizoff/events{/privacy}","received_events_url":"https://api.github.com/users/xafizoff/received_events","type":"User","site_admin":false}]
 0
 

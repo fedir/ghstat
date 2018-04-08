@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:38:48 GMT
+Etag: W/"4638d5b04ac51bff4ff6e56c287c141c"
+Link: <https://api.github.com/user/439401/followers?page=49>; rel="prev", <https://api.github.com/user/439401/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CED8:54B7:953338:16BCEAD:5ACA99F7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3108
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.066606
+X-Xss-Protection: 1; mode=block
+
+707
+[{"login":"plesiosaure","id":1562474,"avatar_url":"https://avatars3.githubusercontent.com/u/1562474?v=4","gravatar_id":"","url":"https://api.github.com/users/plesiosaure","html_url":"https://github.com/plesiosaure","followers_url":"https://api.github.com/users/plesiosaure/followers","following_url":"https://api.github.com/users/plesiosaure/following{/other_user}","gists_url":"https://api.github.com/users/plesiosaure/gists{/gist_id}","starred_url":"https://api.github.com/users/plesiosaure/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/plesiosaure/subscriptions","organizations_url":"https://api.github.com/users/plesiosaure/orgs","repos_url":"https://api.github.com/users/plesiosaure/repos","events_url":"https://api.github.com/users/plesiosaure/events{/privacy}","received_events_url":"https://api.github.com/users/plesiosaure/received_events","type":"User","site_admin":false},{"login":"rvasquezz","id":17909427,"avatar_url":"https://avatars1.githubusercontent.com/u/17909427?v=4","gravatar_id":"","url":"https://api.github.com/users/rvasquezz","html_url":"https://github.com/rvasquezz","followers_url":"https://api.github.com/users/rvasquezz/followers","following_url":"https://api.github.com/users/rvasquezz/following{/other_user}","gists_url":"https://api.github.com/users/rvasquezz/gists{/gist_id}","starred_url":"https://api.github.com/users/rvasquezz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rvasquezz/subscriptions","organizations_url":"https://api.github.com/users/rvasquezz/orgs","repos_url":"https://api.github.com/users/rvasquezz/repos","events_url":"https://api.github.com/users/rvasquezz/events{/privacy}","received_events_url":"https://api.github.com/users/rvasquezz/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 08 Apr 2018 22:39:59 GMT
+Etag: W/"d7b328da321f667bf97fdb549bbd3998"
+Link: <https://api.github.com/user/1403741/followers?page=5>; rel="prev", <https://api.github.com/user/1403741/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF86:54B8:F3E292:21CD019:5ACA9A3E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2336
+X-Ratelimit-Reset: 1523230246
+X-Runtime-Rack: 0.039242
+X-Xss-Protection: 1; mode=block
+
+751
+[{"login":"pascalboucher","id":12903791,"avatar_url":"https://avatars1.githubusercontent.com/u/12903791?v=4","gravatar_id":"","url":"https://api.github.com/users/pascalboucher","html_url":"https://github.com/pascalboucher","followers_url":"https://api.github.com/users/pascalboucher/followers","following_url":"https://api.github.com/users/pascalboucher/following{/other_user}","gists_url":"https://api.github.com/users/pascalboucher/gists{/gist_id}","starred_url":"https://api.github.com/users/pascalboucher/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pascalboucher/subscriptions","organizations_url":"https://api.github.com/users/pascalboucher/orgs","repos_url":"https://api.github.com/users/pascalboucher/repos","events_url":"https://api.github.com/users/pascalboucher/events{/privacy}","received_events_url":"https://api.github.com/users/pascalboucher/received_events","type":"User","site_admin":false},{"login":"roshandelpoor","id":16964040,"avatar_url":"https://avatars0.githubusercontent.com/u/16964040?v=4","gravatar_id":"","url":"https://api.github.com/users/roshandelpoor","html_url":"https://github.com/roshandelpoor","followers_url":"https://api.github.com/users/roshandelpoor/followers","following_url":"https://api.github.com/users/roshandelpoor/following{/other_user}","gists_url":"https://api.github.com/users/roshandelpoor/gists{/gist_id}","starred_url":"https://api.github.com/users/roshandelpoor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/roshandelpoor/subscriptions","organizations_url":"https://api.github.com/users/roshandelpoor/orgs","repos_url":"https://api.github.com/users/roshandelpoor/repos","events_url":"https://api.github.com/users/roshandelpoor/events{/privacy}","received_events_url":"https://api.github.com/users/roshandelpoor/received_events","type":"User","site_admin":false}]
+0
+
