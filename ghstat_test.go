@@ -5,6 +5,7 @@
 package main
 
 import (
+	"fmt"
 	"reflect"
 	"testing"
 	"time"
@@ -121,9 +122,12 @@ func TestParseRepositoryData(t *testing.T) {
 		Watchers:   14391,
 		Forks:      3166,
 		OpenIssues: 448,
+		Language:   "Go",
 		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
 	}
 	if !reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
+		fmt.Printf("%v", repositoryDataExtracted)
+		fmt.Printf("%v", repositoryDataExpected)
 		t.Fail()
 	}
 }
@@ -136,9 +140,12 @@ func TestParseRepositoryDataNegative(t *testing.T) {
 		Watchers:   14391,
 		Forks:      3167,
 		OpenIssues: 448,
+		Language:   "Go",
 		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
 	}
 	if reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
+		fmt.Printf("%v", repositoryDataExtracted)
+		fmt.Printf("%v", repositoryDataExpected)
 		t.Fail()
 	}
 }
