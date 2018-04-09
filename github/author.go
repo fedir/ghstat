@@ -57,16 +57,11 @@ func GetRepositoryCommitsData(repoKey string, tmpFolder string, debug bool) (str
 }
 
 func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, debug bool) string {
-	var commitAuthorLogin string
-	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
-	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
-	lastPageURL := matchLastURL[1]
-	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	jsonResponse := getJSONResponse(linkHeader, tmpFolder, debug)
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
 	commitsOnLastPage := len(commits)
-	commitAuthorLogin = commits[commitsOnLastPage-1].Author.Login
+	commitAuthorLogin := commits[commitsOnLastPage-1].Author.Login
 	return commitAuthorLogin
 }
 
@@ -104,11 +99,7 @@ func GetUserFollowers(username string, tmpFolder string, debug bool) int {
 }
 
 func getItemsNumberOnLastPage(linkHeader string, tmpFolder string, debug bool) int {
-	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
-	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
-	lastPageURL := matchLastURL[1]
-	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	jsonResponse := getJSONResponse(linkHeader, tmpFolder, debug)
 	items := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &items)
 	itemsNumberOnLastPage := len(items)

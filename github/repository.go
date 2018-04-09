@@ -120,13 +120,17 @@ func GetRepositoryTagsNumber(repoKey string, tmpFolder string, debug bool) int {
 }
 
 func getRepositoryTagsNumberLastPage(linkHeader string, tmpFolder string, debug bool) int {
-	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
-	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
-	lastPageURL := matchLastURL[1]
-	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	jsonResponse := getJSONResponse(linkHeader, tmpFolder, debug)
 	tags := make([]Tag, 0)
 	json.Unmarshal(jsonResponse, &tags)
 	tagsOnLastPage := len(tags)
 	return tagsOnLastPage
+}
+
+func getJSONResponse(linkHeader string, tmpFolder string, debug bool) []byte {
+	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
+	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
+	fullResp := httpcache.MakeCachedHTTPRequest(matchLastURL[1], tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	return jsonResponse
 }

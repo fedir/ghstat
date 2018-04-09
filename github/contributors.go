@@ -87,11 +87,7 @@ func getContributorFollowers(login string, tmpFolder string, debug bool) int {
 }
 
 func getRepositoryContributorsNumberLastPage(linkHeader string, tmpFolder string, debug bool) int {
-	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
-	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
-	lastPageURL := matchLastURL[1]
-	fullResp := httpcache.MakeCachedHTTPRequest(lastPageURL, tmpFolder, debug)
-	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	jsonResponse := getJSONResponse(linkHeader, tmpFolder, debug)
 	contributors := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &contributors)
 	contributorsOnLastPage := len(contributors)
