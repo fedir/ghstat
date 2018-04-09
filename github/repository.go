@@ -92,7 +92,7 @@ func GetClosedIssuesPercentage(openIssues int, closedIssues int) float64 {
 	if closedIssuesFloat != 0 && openIssuesFloat != 0 {
 		closedIssuesPercentage = closedIssuesFloat / (closedIssuesFloat + openIssuesFloat) * 100
 	} else {
-		closedIssuesPercentage = 100
+		closedIssuesPercentage = 0
 	}
 	return closedIssuesPercentage
 }
