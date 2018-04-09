@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 02:30:52 GMT
+Etag: W/"f6433b7b3341a7e21397a843d4284cda"
+Last-Modified: Sun, 08 Apr 2018 04:29:54 GMT
+Link: <https://api.github.com/repositories/100695/tags?page=10>; rel="prev", <https://api.github.com/repositories/100695/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E4BE:54B8:104F6A5:2423674:5ACAD05C
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 13
+X-Ratelimit-Reset: 1523244647
+X-Runtime-Rack: 0.095257
+X-Xss-Protection: 1; mode=block
+
+b50
+[{"name":"4.3.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/4.3.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/4.3.0","commit":{"sha":"91f5bce36fdc607cbbb912fb133f52f32aa2d3cb","url":"https://api.github.com/repos/drupal/drupal/commits/91f5bce36fdc607cbbb912fb133f52f32aa2d3cb"}},{"name":"4.2.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/4.2.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/4.2.0","commit":{"sha":"27bf2e377d5bce8ce911b271df30971dc6315331","url":"https://api.github.com/repos/drupal/drupal/commits/27bf2e377d5bce8ce911b271df30971dc6315331"}},{"name":"4.1.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/4.1.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/4.1.0","commit":{"sha":"d50941ce25ee8c7586bd98ccbf8892190a8d3052","url":"https://api.github.com/repos/drupal/drupal/commits/d50941ce25ee8c7586bd98ccbf8892190a8d3052"}},{"name":"4.0.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/4.0.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/4.0.0","commit":{"sha":"4ed747ef3d4e95ed2c5d4591fc0833ae8bec9f8e","url":"https://api.github.com/repos/drupal/drupal/commits/4ed747ef3d4e95ed2c5d4591fc0833ae8bec9f8e"}},{"name":"3.0.2","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.2","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.2","commit":{"sha":"5579113b78f48b980e768b33fd7f0c0127ed599c","url":"https://api.github.com/repos/drupal/drupal/commits/5579113b78f48b980e768b33fd7f0c0127ed599c"}},{"name":"3.0.1","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.1","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.1","commit":{"sha":"690e60f030761e7016b2352ed18cc70899989156","url":"https://api.github.com/repos/drupal/drupal/commits/690e60f030761e7016b2352ed18cc70899989156"}},{"name":"3.0.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.0","commit":{"sha":"b5e551557b35914203c22a9ae4d99f29287d693b","url":"https://api.github.com/repos/drupal/drupal/commits/b5e551557b35914203c22a9ae4d99f29287d693b"}},{"name":"2.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/2.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/2.0","commit":{"sha":"b156f83be82a64d3c4d2a215e47c6420f48a83e0","url":"https://api.github.com/repos/drupal/drupal/commits/b156f83be82a64d3c4d2a215e47c6420f48a83e0"}},{"name":"1.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/1.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/1.0","commit":{"sha":"6e88265b1f5fd984c7bff8207e214982ec260e3e","url":"https://api.github.com/repos/drupal/drupal/commits/6e88265b1f5fd984c7bff8207e214982ec260e3e"}}]
+0
+
