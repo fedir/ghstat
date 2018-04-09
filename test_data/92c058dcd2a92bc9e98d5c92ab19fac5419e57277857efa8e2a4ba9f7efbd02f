@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:33 GMT
+Etag: W/"0e11a5eb2314f8b5e768b315c93e8bcf"
+Link: <https://api.github.com/user/210667/followers?page=1>; rel="prev", <https://api.github.com/user/210667/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D945:54B6:5B6533:EA85C4:5ACAB465
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4475
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.025251
+X-Xss-Protection: 1; mode=block
+
+6e3
+[{"login":"arseniy96","id":17098852,"avatar_url":"https://avatars2.githubusercontent.com/u/17098852?v=4","gravatar_id":"","url":"https://api.github.com/users/arseniy96","html_url":"https://github.com/arseniy96","followers_url":"https://api.github.com/users/arseniy96/followers","following_url":"https://api.github.com/users/arseniy96/following{/other_user}","gists_url":"https://api.github.com/users/arseniy96/gists{/gist_id}","starred_url":"https://api.github.com/users/arseniy96/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/arseniy96/subscriptions","organizations_url":"https://api.github.com/users/arseniy96/orgs","repos_url":"https://api.github.com/users/arseniy96/repos","events_url":"https://api.github.com/users/arseniy96/events{/privacy}","received_events_url":"https://api.github.com/users/arseniy96/received_events","type":"User","site_admin":false},{"login":"barisizm","id":4252407,"avatar_url":"https://avatars1.githubusercontent.com/u/4252407?v=4","gravatar_id":"","url":"https://api.github.com/users/barisizm","html_url":"https://github.com/barisizm","followers_url":"https://api.github.com/users/barisizm/followers","following_url":"https://api.github.com/users/barisizm/following{/other_user}","gists_url":"https://api.github.com/users/barisizm/gists{/gist_id}","starred_url":"https://api.github.com/users/barisizm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/barisizm/subscriptions","organizations_url":"https://api.github.com/users/barisizm/orgs","repos_url":"https://api.github.com/users/barisizm/repos","events_url":"https://api.github.com/users/barisizm/events{/privacy}","received_events_url":"https://api.github.com/users/barisizm/received_events","type":"User","site_admin":false}]
+0
+

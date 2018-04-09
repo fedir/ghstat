@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:29 GMT
+Etag: W/"d968483ddaef5a1ed2c2f40b9b73a820"
+Last-Modified: Wed, 18 Jan 2006 05:33:50 GMT
+Link: <https://api.github.com/repositories/284190/commits?page=1>; rel="first", <https://api.github.com/repositories/284190/commits?page=20>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D948:54B9:14F8471:2A2A879:5ACAB461
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4662
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.067013
+X-Xss-Protection: 1; mode=block
+
+3f0
+[{"sha":"abc7043c3a26424550f0d7e0a3b31ac7db1da545","commit":{"author":{"name":"_why","email":"why@whytheluckystiff.net","date":"2006-01-18T05:33:50Z"},"committer":{"name":"_why","email":"why@whytheluckystiff.net","date":"2006-01-18T05:33:50Z"},"message":"Initial import.","tree":{"sha":"fd3e90ebd121e4c099e7c319ca25871ba92529ed","url":"https://api.github.com/repos/camping/camping/git/trees/fd3e90ebd121e4c099e7c319ca25871ba92529ed"},"url":"https://api.github.com/repos/camping/camping/git/commits/abc7043c3a26424550f0d7e0a3b31ac7db1da545","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/camping/camping/commits/abc7043c3a26424550f0d7e0a3b31ac7db1da545","html_url":"https://github.com/camping/camping/commit/abc7043c3a26424550f0d7e0a3b31ac7db1da545","comments_url":"https://api.github.com/repos/camping/camping/commits/abc7043c3a26424550f0d7e0a3b31ac7db1da545/comments","author":null,"committer":null,"parents":[]}]
+0
+

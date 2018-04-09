@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:33 GMT
+Etag: W/"9e80cf3e17674c24e582d71a1699ffaf"
+Link: <https://api.github.com/user/1312023/followers?page=7>; rel="prev", <https://api.github.com/user/1312023/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D95A:54B8:FBCF1A:22E8765:5ACAB465
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4438
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.042052
+X-Xss-Protection: 1; mode=block
+
+d87
+[{"login":"kwent","id":879780,"avatar_url":"https://avatars2.githubusercontent.com/u/879780?v=4","gravatar_id":"","url":"https://api.github.com/users/kwent","html_url":"https://github.com/kwent","followers_url":"https://api.github.com/users/kwent/followers","following_url":"https://api.github.com/users/kwent/following{/other_user}","gists_url":"https://api.github.com/users/kwent/gists{/gist_id}","starred_url":"https://api.github.com/users/kwent/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kwent/subscriptions","organizations_url":"https://api.github.com/users/kwent/orgs","repos_url":"https://api.github.com/users/kwent/repos","events_url":"https://api.github.com/users/kwent/events{/privacy}","received_events_url":"https://api.github.com/users/kwent/received_events","type":"User","site_admin":false},{"login":"IZIREN","id":6132849,"avatar_url":"https://avatars2.githubusercontent.com/u/6132849?v=4","gravatar_id":"","url":"https://api.github.com/users/IZIREN","html_url":"https://github.com/IZIREN","followers_url":"https://api.github.com/users/IZIREN/followers","following_url":"https://api.github.com/users/IZIREN/following{/other_user}","gists_url":"https://api.github.com/users/IZIREN/gists{/gist_id}","starred_url":"https://api.github.com/users/IZIREN/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IZIREN/subscriptions","organizations_url":"https://api.github.com/users/IZIREN/orgs","repos_url":"https://api.github.com/users/IZIREN/repos","events_url":"https://api.github.com/users/IZIREN/events{/privacy}","received_events_url":"https://api.github.com/users/IZIREN/received_events","type":"User","site_admin":false},{"login":"jeefs","id":11971390,"avatar_url":"https://avatars3.githubusercontent.com/u/11971390?v=4","gravatar_id":"","url":"https://api.github.com/users/jeefs","html_url":"https://github.com/jeefs","followers_url":"https://api.github.com/users/jeefs/followers","following_url":"https://api.github.com/users/jeefs/following{/other_user}","gists_url":"https://api.github.com/users/jeefs/gists{/gist_id}","starred_url":"https://api.github.com/users/jeefs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jeefs/subscriptions","organizations_url":"https://api.github.com/users/jeefs/orgs","repos_url":"https://api.github.com/users/jeefs/repos","events_url":"https://api.github.com/users/jeefs/events{/privacy}","received_events_url":"https://api.github.com/users/jeefs/received_events","type":"User","site_admin":false},{"login":"geraldo-netto","id":20527108,"avatar_url":"https://avatars1.githubusercontent.com/u/20527108?v=4","gravatar_id":"","url":"https://api.github.com/users/geraldo-netto","html_url":"https://github.com/geraldo-netto","followers_url":"https://api.github.com/users/geraldo-netto/followers","following_url":"https://api.github.com/users/geraldo-netto/following{/other_user}","gists_url":"https://api.github.com/users/geraldo-netto/gists{/gist_id}","starred_url":"https://api.github.com/users/geraldo-netto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geraldo-netto/subscriptions","organizations_url":"https://api.github.com/users/geraldo-netto/orgs","repos_url":"https://api.github.com/users/geraldo-netto/repos","events_url":"https://api.github.com/users/geraldo-netto/events{/privacy}","received_events_url":"https://api.github.com/users/geraldo-netto/received_events","type":"User","site_admin":false}]
+0
+

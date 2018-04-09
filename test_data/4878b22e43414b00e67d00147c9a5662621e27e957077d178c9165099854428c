@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:32 GMT
+Etag: W/"c7cef5af77774e95eb6c0a03b709d106"
+Link: <https://api.github.com/user/252/followers?page=3>; rel="prev", <https://api.github.com/user/252/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D94B:54B9:14F85AB:2A2AAE2:5ACAB464
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4520
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.034988
+X-Xss-Protection: 1; mode=block
+
+e25
+[{"login":"mstraughan86","id":14251570,"avatar_url":"https://avatars2.githubusercontent.com/u/14251570?v=4","gravatar_id":"","url":"https://api.github.com/users/mstraughan86","html_url":"https://github.com/mstraughan86","followers_url":"https://api.github.com/users/mstraughan86/followers","following_url":"https://api.github.com/users/mstraughan86/following{/other_user}","gists_url":"https://api.github.com/users/mstraughan86/gists{/gist_id}","starred_url":"https://api.github.com/users/mstraughan86/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mstraughan86/subscriptions","organizations_url":"https://api.github.com/users/mstraughan86/orgs","repos_url":"https://api.github.com/users/mstraughan86/repos","events_url":"https://api.github.com/users/mstraughan86/events{/privacy}","received_events_url":"https://api.github.com/users/mstraughan86/received_events","type":"User","site_admin":false},{"login":"kauegimenes","id":7304741,"avatar_url":"https://avatars1.githubusercontent.com/u/7304741?v=4","gravatar_id":"","url":"https://api.github.com/users/kauegimenes","html_url":"https://github.com/kauegimenes","followers_url":"https://api.github.com/users/kauegimenes/followers","following_url":"https://api.github.com/users/kauegimenes/following{/other_user}","gists_url":"https://api.github.com/users/kauegimenes/gists{/gist_id}","starred_url":"https://api.github.com/users/kauegimenes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kauegimenes/subscriptions","organizations_url":"https://api.github.com/users/kauegimenes/orgs","repos_url":"https://api.github.com/users/kauegimenes/repos","events_url":"https://api.github.com/users/kauegimenes/events{/privacy}","received_events_url":"https://api.github.com/users/kauegimenes/received_events","type":"User","site_admin":false},{"login":"haiyangmin","id":30657536,"avatar_url":"https://avatars0.githubusercontent.com/u/30657536?v=4","gravatar_id":"","url":"https://api.github.com/users/haiyangmin","html_url":"https://github.com/haiyangmin","followers_url":"https://api.github.com/users/haiyangmin/followers","following_url":"https://api.github.com/users/haiyangmin/following{/other_user}","gists_url":"https://api.github.com/users/haiyangmin/gists{/gist_id}","starred_url":"https://api.github.com/users/haiyangmin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/haiyangmin/subscriptions","organizations_url":"https://api.github.com/users/haiyangmin/orgs","repos_url":"https://api.github.com/users/haiyangmin/repos","events_url":"https://api.github.com/users/haiyangmin/events{/privacy}","received_events_url":"https://api.github.com/users/haiyangmin/received_events","type":"User","site_admin":false},{"login":"steffen25","id":9927227,"avatar_url":"https://avatars1.githubusercontent.com/u/9927227?v=4","gravatar_id":"","url":"https://api.github.com/users/steffen25","html_url":"https://github.com/steffen25","followers_url":"https://api.github.com/users/steffen25/followers","following_url":"https://api.github.com/users/steffen25/following{/other_user}","gists_url":"https://api.github.com/users/steffen25/gists{/gist_id}","starred_url":"https://api.github.com/users/steffen25/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/steffen25/subscriptions","organizations_url":"https://api.github.com/users/steffen25/orgs","repos_url":"https://api.github.com/users/steffen25/repos","events_url":"https://api.github.com/users/steffen25/events{/privacy}","received_events_url":"https://api.github.com/users/steffen25/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:29 GMT
+Etag: W/"1df8edcfd0e25cc2fc2398803765207e"
+Last-Modified: Wed, 04 Apr 2018 02:31:45 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D93F:54B9:14F843A:2A2A7F0:5ACAB460
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4693
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.044458
+X-Xss-Protection: 1; mode=block
+
+12cf
+{"id":5364066,"name":"Scorched","full_name":"Wardrop/Scorched","owner":{"login":"Wardrop","id":201442,"avatar_url":"https://avatars1.githubusercontent.com/u/201442?v=4","gravatar_id":"","url":"https://api.github.com/users/Wardrop","html_url":"https://github.com/Wardrop","followers_url":"https://api.github.com/users/Wardrop/followers","following_url":"https://api.github.com/users/Wardrop/following{/other_user}","gists_url":"https://api.github.com/users/Wardrop/gists{/gist_id}","starred_url":"https://api.github.com/users/Wardrop/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Wardrop/subscriptions","organizations_url":"https://api.github.com/users/Wardrop/orgs","repos_url":"https://api.github.com/users/Wardrop/repos","events_url":"https://api.github.com/users/Wardrop/events{/privacy}","received_events_url":"https://api.github.com/users/Wardrop/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/Wardrop/Scorched","description":"Light-weight, DRY as a desert, web framework for Ruby.","fork":false,"url":"https://api.github.com/repos/Wardrop/Scorched","forks_url":"https://api.github.com/repos/Wardrop/Scorched/forks","keys_url":"https://api.github.com/repos/Wardrop/Scorched/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Wardrop/Scorched/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Wardrop/Scorched/teams","hooks_url":"https://api.github.com/repos/Wardrop/Scorched/hooks","issue_events_url":"https://api.github.com/repos/Wardrop/Scorched/issues/events{/number}","events_url":"https://api.github.com/repos/Wardrop/Scorched/events","assignees_url":"https://api.github.com/repos/Wardrop/Scorched/assignees{/user}","branches_url":"https://api.github.com/repos/Wardrop/Scorched/branches{/branch}","tags_url":"https://api.github.com/repos/Wardrop/Scorched/tags","blobs_url":"https://api.github.com/repos/Wardrop/Scorched/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Wardrop/Scorched/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Wardrop/Scorched/git/refs{/sha}","trees_url":"https://api.github.com/repos/Wardrop/Scorched/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Wardrop/Scorched/statuses/{sha}","languages_url":"https://api.github.com/repos/Wardrop/Scorched/languages","stargazers_url":"https://api.github.com/repos/Wardrop/Scorched/stargazers","contributors_url":"https://api.github.com/repos/Wardrop/Scorched/contributors","subscribers_url":"https://api.github.com/repos/Wardrop/Scorched/subscribers","subscription_url":"https://api.github.com/repos/Wardrop/Scorched/subscription","commits_url":"https://api.github.com/repos/Wardrop/Scorched/commits{/sha}","git_commits_url":"https://api.github.com/repos/Wardrop/Scorched/git/commits{/sha}","comments_url":"https://api.github.com/repos/Wardrop/Scorched/comments{/number}","issue_comment_url":"https://api.github.com/repos/Wardrop/Scorched/issues/comments{/number}","contents_url":"https://api.github.com/repos/Wardrop/Scorched/contents/{+path}","compare_url":"https://api.github.com/repos/Wardrop/Scorched/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Wardrop/Scorched/merges","archive_url":"https://api.github.com/repos/Wardrop/Scorched/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Wardrop/Scorched/downloads","issues_url":"https://api.github.com/repos/Wardrop/Scorched/issues{/number}","pulls_url":"https://api.github.com/repos/Wardrop/Scorched/pulls{/number}","milestones_url":"https://api.github.com/repos/Wardrop/Scorched/milestones{/number}","notifications_url":"https://api.github.com/repos/Wardrop/Scorched/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Wardrop/Scorched/labels{/name}","releases_url":"https://api.github.com/repos/Wardrop/Scorched/releases{/id}","deployments_url":"https://api.github.com/repos/Wardrop/Scorched/deployments","created_at":"2012-08-10T02:28:41Z","updated_at":"2018-04-04T02:31:45Z","pushed_at":"2017-07-27T02:07:02Z","git_url":"git://github.com/Wardrop/Scorched.git","ssh_url":"git@github.com:Wardrop/Scorched.git","clone_url":"https://github.com/Wardrop/Scorched.git","svn_url":"https://github.com/Wardrop/Scorched","homepage":"http://scorchedrb.com","size":298,"stargazers_count":239,"watchers_count":239,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":false,"has_pages":false,"forks_count":12,"mirror_url":null,"archived":false,"open_issues_count":2,"license":{"key":"mit","name":"MIT License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":12,"open_issues":2,"watchers":239,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":12,"subscribers_count":14}
+0
+

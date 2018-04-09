@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:32 GMT
+Etag: W/"0bf5e94c1338c383e7acaf19f8aa4d9c"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D944:54B9:14F85A5:2A2AAD0:5ACAB464
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4525
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.046014
+X-Xss-Protection: 1; mode=block
+
+aad
+[{"login":"jwtraglia","id":3698534,"avatar_url":"https://avatars2.githubusercontent.com/u/3698534?v=4","gravatar_id":"","url":"https://api.github.com/users/jwtraglia","html_url":"https://github.com/jwtraglia","followers_url":"https://api.github.com/users/jwtraglia/followers","following_url":"https://api.github.com/users/jwtraglia/following{/other_user}","gists_url":"https://api.github.com/users/jwtraglia/gists{/gist_id}","starred_url":"https://api.github.com/users/jwtraglia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jwtraglia/subscriptions","organizations_url":"https://api.github.com/users/jwtraglia/orgs","repos_url":"https://api.github.com/users/jwtraglia/repos","events_url":"https://api.github.com/users/jwtraglia/events{/privacy}","received_events_url":"https://api.github.com/users/jwtraglia/received_events","type":"User","site_admin":false},{"login":"Chandler-Davidson","id":16169308,"avatar_url":"https://avatars3.githubusercontent.com/u/16169308?v=4","gravatar_id":"","url":"https://api.github.com/users/Chandler-Davidson","html_url":"https://github.com/Chandler-Davidson","followers_url":"https://api.github.com/users/Chandler-Davidson/followers","following_url":"https://api.github.com/users/Chandler-Davidson/following{/other_user}","gists_url":"https://api.github.com/users/Chandler-Davidson/gists{/gist_id}","starred_url":"https://api.github.com/users/Chandler-Davidson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Chandler-Davidson/subscriptions","organizations_url":"https://api.github.com/users/Chandler-Davidson/orgs","repos_url":"https://api.github.com/users/Chandler-Davidson/repos","events_url":"https://api.github.com/users/Chandler-Davidson/events{/privacy}","received_events_url":"https://api.github.com/users/Chandler-Davidson/received_events","type":"User","site_admin":false},{"login":"valkn0t","id":8338086,"avatar_url":"https://avatars0.githubusercontent.com/u/8338086?v=4","gravatar_id":"","url":"https://api.github.com/users/valkn0t","html_url":"https://github.com/valkn0t","followers_url":"https://api.github.com/users/valkn0t/followers","following_url":"https://api.github.com/users/valkn0t/following{/other_user}","gists_url":"https://api.github.com/users/valkn0t/gists{/gist_id}","starred_url":"https://api.github.com/users/valkn0t/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/valkn0t/subscriptions","organizations_url":"https://api.github.com/users/valkn0t/orgs","repos_url":"https://api.github.com/users/valkn0t/repos","events_url":"https://api.github.com/users/valkn0t/events{/privacy}","received_events_url":"https://api.github.com/users/valkn0t/received_events","type":"User","site_admin":false}]
+0
+

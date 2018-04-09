@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:32 GMT
+Etag: W/"6904ca3e6bea3c2124bce155fa225c87"
+Last-Modified: Tue, 03 Apr 2018 20:12:51 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D93F:54B9:14F85EC:2A2AB53:5ACAB464
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4488
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.038079
+X-Xss-Protection: 1; mode=block
+
+1479
+[{"name":"v0.11.3","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.11.3","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.11.3","commit":{"sha":"1a1c2b7772822d4a97e3420bcc782f8520761816","url":"https://api.github.com/repos/pakyow/pakyow/commits/1a1c2b7772822d4a97e3420bcc782f8520761816"}},{"name":"v0.11.2","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.11.2","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.11.2","commit":{"sha":"6fc92027bcba2201f572728487d29c128a1cbcb1","url":"https://api.github.com/repos/pakyow/pakyow/commits/6fc92027bcba2201f572728487d29c128a1cbcb1"}},{"name":"v0.11.1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.11.1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.11.1","commit":{"sha":"67c0afd7b6d78012628d656a0194d03154f34622","url":"https://api.github.com/repos/pakyow/pakyow/commits/67c0afd7b6d78012628d656a0194d03154f34622"}},{"name":"v0.11.0","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.11.0","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.11.0","commit":{"sha":"6af5bfea9980c943e8d2aecbe496f9f0d01fcaaa","url":"https://api.github.com/repos/pakyow/pakyow/commits/6af5bfea9980c943e8d2aecbe496f9f0d01fcaaa"}},{"name":"v0.10.2","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.10.2","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.10.2","commit":{"sha":"dc8712c9e7ad7ec7134dd84605a1d453f8ca365c","url":"https://api.github.com/repos/pakyow/pakyow/commits/dc8712c9e7ad7ec7134dd84605a1d453f8ca365c"}},{"name":"v0.10.1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.10.1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.10.1","commit":{"sha":"4bfd5fd4bdf0e5dfd4a1e40a1f988e9b1b0c09cc","url":"https://api.github.com/repos/pakyow/pakyow/commits/4bfd5fd4bdf0e5dfd4a1e40a1f988e9b1b0c09cc"}},{"name":"v0.10.0","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.10.0","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.10.0","commit":{"sha":"3294fd97fad8caa7fdc544f29f010605d3c2888c","url":"https://api.github.com/repos/pakyow/pakyow/commits/3294fd97fad8caa7fdc544f29f010605d3c2888c"}},{"name":"v0.9.1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.9.1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.9.1","commit":{"sha":"78517c8ac69fe1ac8b1d5a28f53f827992ca27cb","url":"https://api.github.com/repos/pakyow/pakyow/commits/78517c8ac69fe1ac8b1d5a28f53f827992ca27cb"}},{"name":"v0.9.0","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.9.0","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.9.0","commit":{"sha":"9885bb3943dd4c43747f5d4026c60ce8a25b3db9","url":"https://api.github.com/repos/pakyow/pakyow/commits/9885bb3943dd4c43747f5d4026c60ce8a25b3db9"}},{"name":"v0.8.0","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.8.0","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.8.0","commit":{"sha":"2c68f75eba435123608effee1f0459ea0e63f89f","url":"https://api.github.com/repos/pakyow/pakyow/commits/2c68f75eba435123608effee1f0459ea0e63f89f"}},{"name":"v0.8rc1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.8rc1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.8rc1","commit":{"sha":"7873e06f1a5be0fc1625c202c77f15334e4413a3","url":"https://api.github.com/repos/pakyow/pakyow/commits/7873e06f1a5be0fc1625c202c77f15334e4413a3"}},{"name":"v0.7.1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.7.1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.7.1","commit":{"sha":"d5ef9f4188599bdd22a5a8c8157e528b54c92f89","url":"https://api.github.com/repos/pakyow/pakyow/commits/d5ef9f4188599bdd22a5a8c8157e528b54c92f89"}},{"name":"v0.7.0","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.7.0","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.7.0","commit":{"sha":"0bfedf0dd02c3bd5fb95fa6d21321e4d7df65458","url":"https://api.github.com/repos/pakyow/pakyow/commits/0bfedf0dd02c3bd5fb95fa6d21321e4d7df65458"}},{"name":"v0.6.3","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.6.3","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.6.3","commit":{"sha":"6f073a5e245692d1a1d80a9109b794b685188e7b","url":"https://api.github.com/repos/pakyow/pakyow/commits/6f073a5e245692d1a1d80a9109b794b685188e7b"}},{"name":"v0.6.2","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.6.2","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.6.2","commit":{"sha":"65726613f09df826241bcb49722a2de6e04ebd83","url":"https://api.github.com/repos/pakyow/pakyow/commits/65726613f09df826241bcb49722a2de6e04ebd83"}},{"name":"v0.6.1","zipball_url":"https://api.github.com/repos/pakyow/pakyow/zipball/v0.6.1","tarball_url":"https://api.github.com/repos/pakyow/pakyow/tarball/v0.6.1","commit":{"sha":"700750115c151e34864c68892c767f78bf4466a5","url":"https://api.github.com/repos/pakyow/pakyow/commits/700750115c151e34864c68892c767f78bf4466a5"}}]
+0
+

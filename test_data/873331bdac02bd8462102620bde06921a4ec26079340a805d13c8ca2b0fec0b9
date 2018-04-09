@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:30 GMT
+Etag: W/"e553262a12eafcfbb800d090da0d44af"
+Last-Modified: Tue, 27 Feb 2018 15:32:47 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D940:54B8:FBCDB7:22E84C0:5ACAB462
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4633
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.054627
+X-Xss-Protection: 1; mode=block
+
+e13
+[{"login":"patriciomacadden","id":321978,"avatar_url":"https://avatars2.githubusercontent.com/u/321978?v=4","gravatar_id":"","url":"https://api.github.com/users/patriciomacadden","html_url":"https://github.com/patriciomacadden","followers_url":"https://api.github.com/users/patriciomacadden/followers","following_url":"https://api.github.com/users/patriciomacadden/following{/other_user}","gists_url":"https://api.github.com/users/patriciomacadden/gists{/gist_id}","starred_url":"https://api.github.com/users/patriciomacadden/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patriciomacadden/subscriptions","organizations_url":"https://api.github.com/users/patriciomacadden/orgs","repos_url":"https://api.github.com/users/patriciomacadden/repos","events_url":"https://api.github.com/users/patriciomacadden/events{/privacy}","received_events_url":"https://api.github.com/users/patriciomacadden/received_events","type":"User","site_admin":false,"contributions":125},{"login":"emancu","id":56375,"avatar_url":"https://avatars3.githubusercontent.com/u/56375?v=4","gravatar_id":"","url":"https://api.github.com/users/emancu","html_url":"https://github.com/emancu","followers_url":"https://api.github.com/users/emancu/followers","following_url":"https://api.github.com/users/emancu/following{/other_user}","gists_url":"https://api.github.com/users/emancu/gists{/gist_id}","starred_url":"https://api.github.com/users/emancu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/emancu/subscriptions","organizations_url":"https://api.github.com/users/emancu/orgs","repos_url":"https://api.github.com/users/emancu/repos","events_url":"https://api.github.com/users/emancu/events{/privacy}","received_events_url":"https://api.github.com/users/emancu/received_events","type":"User","site_admin":false,"contributions":7},{"login":"franc","id":507,"avatar_url":"https://avatars3.githubusercontent.com/u/507?v=4","gravatar_id":"","url":"https://api.github.com/users/franc","html_url":"https://github.com/franc","followers_url":"https://api.github.com/users/franc/followers","following_url":"https://api.github.com/users/franc/following{/other_user}","gists_url":"https://api.github.com/users/franc/gists{/gist_id}","starred_url":"https://api.github.com/users/franc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/franc/subscriptions","organizations_url":"https://api.github.com/users/franc/orgs","repos_url":"https://api.github.com/users/franc/repos","events_url":"https://api.github.com/users/franc/events{/privacy}","received_events_url":"https://api.github.com/users/franc/received_events","type":"User","site_admin":false,"contributions":1},{"login":"havenwood","id":378214,"avatar_url":"https://avatars0.githubusercontent.com/u/378214?v=4","gravatar_id":"","url":"https://api.github.com/users/havenwood","html_url":"https://github.com/havenwood","followers_url":"https://api.github.com/users/havenwood/followers","following_url":"https://api.github.com/users/havenwood/following{/other_user}","gists_url":"https://api.github.com/users/havenwood/gists{/gist_id}","starred_url":"https://api.github.com/users/havenwood/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/havenwood/subscriptions","organizations_url":"https://api.github.com/users/havenwood/orgs","repos_url":"https://api.github.com/users/havenwood/repos","events_url":"https://api.github.com/users/havenwood/events{/privacy}","received_events_url":"https://api.github.com/users/havenwood/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:31 GMT
+Etag: W/"44e183354329a4953c6a33b9ed81494b"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D949:54B9:14F8508:2A2A9A9:5ACAB462
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4608
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.028201
+X-Xss-Protection: 1; mode=block
+
+dc3
+[{"login":"thesnapdragon","id":3129876,"avatar_url":"https://avatars2.githubusercontent.com/u/3129876?v=4","gravatar_id":"","url":"https://api.github.com/users/thesnapdragon","html_url":"https://github.com/thesnapdragon","followers_url":"https://api.github.com/users/thesnapdragon/followers","following_url":"https://api.github.com/users/thesnapdragon/following{/other_user}","gists_url":"https://api.github.com/users/thesnapdragon/gists{/gist_id}","starred_url":"https://api.github.com/users/thesnapdragon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thesnapdragon/subscriptions","organizations_url":"https://api.github.com/users/thesnapdragon/orgs","repos_url":"https://api.github.com/users/thesnapdragon/repos","events_url":"https://api.github.com/users/thesnapdragon/events{/privacy}","received_events_url":"https://api.github.com/users/thesnapdragon/received_events","type":"User","site_admin":false},{"login":"adamluzsi","id":2897081,"avatar_url":"https://avatars1.githubusercontent.com/u/2897081?v=4","gravatar_id":"","url":"https://api.github.com/users/adamluzsi","html_url":"https://github.com/adamluzsi","followers_url":"https://api.github.com/users/adamluzsi/followers","following_url":"https://api.github.com/users/adamluzsi/following{/other_user}","gists_url":"https://api.github.com/users/adamluzsi/gists{/gist_id}","starred_url":"https://api.github.com/users/adamluzsi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamluzsi/subscriptions","organizations_url":"https://api.github.com/users/adamluzsi/orgs","repos_url":"https://api.github.com/users/adamluzsi/repos","events_url":"https://api.github.com/users/adamluzsi/events{/privacy}","received_events_url":"https://api.github.com/users/adamluzsi/received_events","type":"User","site_admin":false},{"login":"Perados","id":4243222,"avatar_url":"https://avatars1.githubusercontent.com/u/4243222?v=4","gravatar_id":"","url":"https://api.github.com/users/Perados","html_url":"https://github.com/Perados","followers_url":"https://api.github.com/users/Perados/followers","following_url":"https://api.github.com/users/Perados/following{/other_user}","gists_url":"https://api.github.com/users/Perados/gists{/gist_id}","starred_url":"https://api.github.com/users/Perados/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Perados/subscriptions","organizations_url":"https://api.github.com/users/Perados/orgs","repos_url":"https://api.github.com/users/Perados/repos","events_url":"https://api.github.com/users/Perados/events{/privacy}","received_events_url":"https://api.github.com/users/Perados/received_events","type":"User","site_admin":false},{"login":"nyklu","id":11644725,"avatar_url":"https://avatars3.githubusercontent.com/u/11644725?v=4","gravatar_id":"","url":"https://api.github.com/users/nyklu","html_url":"https://github.com/nyklu","followers_url":"https://api.github.com/users/nyklu/followers","following_url":"https://api.github.com/users/nyklu/following{/other_user}","gists_url":"https://api.github.com/users/nyklu/gists{/gist_id}","starred_url":"https://api.github.com/users/nyklu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nyklu/subscriptions","organizations_url":"https://api.github.com/users/nyklu/orgs","repos_url":"https://api.github.com/users/nyklu/repos","events_url":"https://api.github.com/users/nyklu/events{/privacy}","received_events_url":"https://api.github.com/users/nyklu/received_events","type":"User","site_admin":false}]
+0
+

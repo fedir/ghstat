@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:33 GMT
+Etag: W/"a5a3e0588410eea1b84759dcd16c569c"
+Last-Modified: Sat, 07 Apr 2018 02:02:48 GMT
+Link: <https://api.github.com/repositories/15805577/contributors?page=2>; rel="prev", <https://api.github.com/repositories/15805577/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D94E:54B9:14F862E:2A2ABF0:5ACAB465
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4463
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.046366
+X-Xss-Protection: 1; mode=block
+
+395
+[{"login":"ryancastro","id":4700651,"avatar_url":"https://avatars1.githubusercontent.com/u/4700651?v=4","gravatar_id":"","url":"https://api.github.com/users/ryancastro","html_url":"https://github.com/ryancastro","followers_url":"https://api.github.com/users/ryancastro/followers","following_url":"https://api.github.com/users/ryancastro/following{/other_user}","gists_url":"https://api.github.com/users/ryancastro/gists{/gist_id}","starred_url":"https://api.github.com/users/ryancastro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ryancastro/subscriptions","organizations_url":"https://api.github.com/users/ryancastro/orgs","repos_url":"https://api.github.com/users/ryancastro/repos","events_url":"https://api.github.com/users/ryancastro/events{/privacy}","received_events_url":"https://api.github.com/users/ryancastro/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

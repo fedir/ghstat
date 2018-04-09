@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:34 GMT
+Etag: W/"3cc79674d3278760cf4043b8ff3fcb0a"
+Link: <https://api.github.com/user/9582/followers?page=256>; rel="prev", <https://api.github.com/user/9582/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D94B:54B9:14F8682:2A2AC94:5ACAB466
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4420
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.215011
+X-Xss-Protection: 1; mode=block
+
+1133
+[{"login":"Argonus","id":9743549,"avatar_url":"https://avatars0.githubusercontent.com/u/9743549?v=4","gravatar_id":"","url":"https://api.github.com/users/Argonus","html_url":"https://github.com/Argonus","followers_url":"https://api.github.com/users/Argonus/followers","following_url":"https://api.github.com/users/Argonus/following{/other_user}","gists_url":"https://api.github.com/users/Argonus/gists{/gist_id}","starred_url":"https://api.github.com/users/Argonus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Argonus/subscriptions","organizations_url":"https://api.github.com/users/Argonus/orgs","repos_url":"https://api.github.com/users/Argonus/repos","events_url":"https://api.github.com/users/Argonus/events{/privacy}","received_events_url":"https://api.github.com/users/Argonus/received_events","type":"User","site_admin":false},{"login":"ousmaneo","id":1381455,"avatar_url":"https://avatars2.githubusercontent.com/u/1381455?v=4","gravatar_id":"","url":"https://api.github.com/users/ousmaneo","html_url":"https://github.com/ousmaneo","followers_url":"https://api.github.com/users/ousmaneo/followers","following_url":"https://api.github.com/users/ousmaneo/following{/other_user}","gists_url":"https://api.github.com/users/ousmaneo/gists{/gist_id}","starred_url":"https://api.github.com/users/ousmaneo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ousmaneo/subscriptions","organizations_url":"https://api.github.com/users/ousmaneo/orgs","repos_url":"https://api.github.com/users/ousmaneo/repos","events_url":"https://api.github.com/users/ousmaneo/events{/privacy}","received_events_url":"https://api.github.com/users/ousmaneo/received_events","type":"User","site_admin":false},{"login":"emaraschio","id":988715,"avatar_url":"https://avatars3.githubusercontent.com/u/988715?v=4","gravatar_id":"","url":"https://api.github.com/users/emaraschio","html_url":"https://github.com/emaraschio","followers_url":"https://api.github.com/users/emaraschio/followers","following_url":"https://api.github.com/users/emaraschio/following{/other_user}","gists_url":"https://api.github.com/users/emaraschio/gists{/gist_id}","starred_url":"https://api.github.com/users/emaraschio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/emaraschio/subscriptions","organizations_url":"https://api.github.com/users/emaraschio/orgs","repos_url":"https://api.github.com/users/emaraschio/repos","events_url":"https://api.github.com/users/emaraschio/events{/privacy}","received_events_url":"https://api.github.com/users/emaraschio/received_events","type":"User","site_admin":false},{"login":"raittes","id":739640,"avatar_url":"https://avatars0.githubusercontent.com/u/739640?v=4","gravatar_id":"","url":"https://api.github.com/users/raittes","html_url":"https://github.com/raittes","followers_url":"https://api.github.com/users/raittes/followers","following_url":"https://api.github.com/users/raittes/following{/other_user}","gists_url":"https://api.github.com/users/raittes/gists{/gist_id}","starred_url":"https://api.github.com/users/raittes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/raittes/subscriptions","organizations_url":"https://api.github.com/users/raittes/orgs","repos_url":"https://api.github.com/users/raittes/repos","events_url":"https://api.github.com/users/raittes/events{/privacy}","received_events_url":"https://api.github.com/users/raittes/received_events","type":"User","site_admin":false},{"login":"IvanIvanoff","id":6518376,"avatar_url":"https://avatars3.githubusercontent.com/u/6518376?v=4","gravatar_id":"","url":"https://api.github.com/users/IvanIvanoff","html_url":"https://github.com/IvanIvanoff","followers_url":"https://api.github.com/users/IvanIvanoff/followers","following_url":"https://api.github.com/users/IvanIvanoff/following{/other_user}","gists_url":"https://api.github.com/users/IvanIvanoff/gists{/gist_id}","starred_url":"https://api.github.com/users/IvanIvanoff/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IvanIvanoff/subscriptions","organizations_url":"https://api.github.com/users/IvanIvanoff/orgs","repos_url":"https://api.github.com/users/IvanIvanoff/repos","events_url":"https://api.github.com/users/IvanIvanoff/events{/privacy}","received_events_url":"https://api.github.com/users/IvanIvanoff/received_events","type":"User","site_admin":false}]
+0
+

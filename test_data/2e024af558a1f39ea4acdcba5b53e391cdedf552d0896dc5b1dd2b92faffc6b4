@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:31 GMT
+Etag: W/"82cb4baa1b1c49c4e8e49d7a83c45387"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D947:54B8:FBCE17:22E8579:5ACAB463
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4581
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.033271
+X-Xss-Protection: 1; mode=block
+
+e37
+[{"login":"onmyway133","id":2284279,"avatar_url":"https://avatars1.githubusercontent.com/u/2284279?v=4","gravatar_id":"","url":"https://api.github.com/users/onmyway133","html_url":"https://github.com/onmyway133","followers_url":"https://api.github.com/users/onmyway133/followers","following_url":"https://api.github.com/users/onmyway133/following{/other_user}","gists_url":"https://api.github.com/users/onmyway133/gists{/gist_id}","starred_url":"https://api.github.com/users/onmyway133/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/onmyway133/subscriptions","organizations_url":"https://api.github.com/users/onmyway133/orgs","repos_url":"https://api.github.com/users/onmyway133/repos","events_url":"https://api.github.com/users/onmyway133/events{/privacy}","received_events_url":"https://api.github.com/users/onmyway133/received_events","type":"User","site_admin":false},{"login":"wellington1993","id":6920053,"avatar_url":"https://avatars3.githubusercontent.com/u/6920053?v=4","gravatar_id":"","url":"https://api.github.com/users/wellington1993","html_url":"https://github.com/wellington1993","followers_url":"https://api.github.com/users/wellington1993/followers","following_url":"https://api.github.com/users/wellington1993/following{/other_user}","gists_url":"https://api.github.com/users/wellington1993/gists{/gist_id}","starred_url":"https://api.github.com/users/wellington1993/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wellington1993/subscriptions","organizations_url":"https://api.github.com/users/wellington1993/orgs","repos_url":"https://api.github.com/users/wellington1993/repos","events_url":"https://api.github.com/users/wellington1993/events{/privacy}","received_events_url":"https://api.github.com/users/wellington1993/received_events","type":"User","site_admin":false},{"login":"sirscriptalot","id":394808,"avatar_url":"https://avatars3.githubusercontent.com/u/394808?v=4","gravatar_id":"","url":"https://api.github.com/users/sirscriptalot","html_url":"https://github.com/sirscriptalot","followers_url":"https://api.github.com/users/sirscriptalot/followers","following_url":"https://api.github.com/users/sirscriptalot/following{/other_user}","gists_url":"https://api.github.com/users/sirscriptalot/gists{/gist_id}","starred_url":"https://api.github.com/users/sirscriptalot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sirscriptalot/subscriptions","organizations_url":"https://api.github.com/users/sirscriptalot/orgs","repos_url":"https://api.github.com/users/sirscriptalot/repos","events_url":"https://api.github.com/users/sirscriptalot/events{/privacy}","received_events_url":"https://api.github.com/users/sirscriptalot/received_events","type":"User","site_admin":false},{"login":"Bunlong","id":1308397,"avatar_url":"https://avatars0.githubusercontent.com/u/1308397?v=4","gravatar_id":"","url":"https://api.github.com/users/Bunlong","html_url":"https://github.com/Bunlong","followers_url":"https://api.github.com/users/Bunlong/followers","following_url":"https://api.github.com/users/Bunlong/following{/other_user}","gists_url":"https://api.github.com/users/Bunlong/gists{/gist_id}","starred_url":"https://api.github.com/users/Bunlong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bunlong/subscriptions","organizations_url":"https://api.github.com/users/Bunlong/orgs","repos_url":"https://api.github.com/users/Bunlong/repos","events_url":"https://api.github.com/users/Bunlong/events{/privacy}","received_events_url":"https://api.github.com/users/Bunlong/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:31 GMT
+Etag: W/"54b214fd453cf05dddb5098e22bd76c6"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D948:54B9:14F8535:2A2A9FB:5ACAB463
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4586
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.025965
+X-Xss-Protection: 1; mode=block
+
+a73
+[{"login":"fabianbuch","id":6063,"avatar_url":"https://avatars3.githubusercontent.com/u/6063?v=4","gravatar_id":"","url":"https://api.github.com/users/fabianbuch","html_url":"https://github.com/fabianbuch","followers_url":"https://api.github.com/users/fabianbuch/followers","following_url":"https://api.github.com/users/fabianbuch/following{/other_user}","gists_url":"https://api.github.com/users/fabianbuch/gists{/gist_id}","starred_url":"https://api.github.com/users/fabianbuch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fabianbuch/subscriptions","organizations_url":"https://api.github.com/users/fabianbuch/orgs","repos_url":"https://api.github.com/users/fabianbuch/repos","events_url":"https://api.github.com/users/fabianbuch/events{/privacy}","received_events_url":"https://api.github.com/users/fabianbuch/received_events","type":"User","site_admin":false},{"login":"ahmetabdi","id":778015,"avatar_url":"https://avatars3.githubusercontent.com/u/778015?v=4","gravatar_id":"","url":"https://api.github.com/users/ahmetabdi","html_url":"https://github.com/ahmetabdi","followers_url":"https://api.github.com/users/ahmetabdi/followers","following_url":"https://api.github.com/users/ahmetabdi/following{/other_user}","gists_url":"https://api.github.com/users/ahmetabdi/gists{/gist_id}","starred_url":"https://api.github.com/users/ahmetabdi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ahmetabdi/subscriptions","organizations_url":"https://api.github.com/users/ahmetabdi/orgs","repos_url":"https://api.github.com/users/ahmetabdi/repos","events_url":"https://api.github.com/users/ahmetabdi/events{/privacy}","received_events_url":"https://api.github.com/users/ahmetabdi/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false}]
+0
+

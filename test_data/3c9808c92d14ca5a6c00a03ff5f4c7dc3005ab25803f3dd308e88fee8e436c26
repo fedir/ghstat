@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:31:33 GMT
+Etag: W/"97477f594bb180890b1f312da31127ae"
+Last-Modified: Wed, 04 Apr 2018 14:35:51 GMT
+Link: <https://api.github.com/repositories/627535/tags?page=1>; rel="prev", <https://api.github.com/repositories/627535/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D95F:54B8:FBCF24:22E877A:5ACAB465
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4436
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.030472
+X-Xss-Protection: 1; mode=block
+
+781
+[{"name":"0.1.0","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.1.0","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.1.0","commit":{"sha":"fc2a79ddf5619e9baa6f55eb2ab27ec2bc88ff39","url":"https://api.github.com/repos/soveran/cuba/commits/fc2a79ddf5619e9baa6f55eb2ab27ec2bc88ff39"}},{"name":"0.0.5","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.0.5","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.0.5","commit":{"sha":"8e74e0f3d07a36d38e0544d5909a62d37344e44a","url":"https://api.github.com/repos/soveran/cuba/commits/8e74e0f3d07a36d38e0544d5909a62d37344e44a"}},{"name":"0.0.4","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.0.4","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.0.4","commit":{"sha":"dae42c6b727a4f003f18a2aa6eaf580bbcaf7eca","url":"https://api.github.com/repos/soveran/cuba/commits/dae42c6b727a4f003f18a2aa6eaf580bbcaf7eca"}},{"name":"0.0.3","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.0.3","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.0.3","commit":{"sha":"6733c53ac2a4c3de23dd6a5841dd0d3518203ea7","url":"https://api.github.com/repos/soveran/cuba/commits/6733c53ac2a4c3de23dd6a5841dd0d3518203ea7"}},{"name":"0.0.2","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.0.2","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.0.2","commit":{"sha":"e118490bd2a43e2164c9e1caa4033346ef00e3c2","url":"https://api.github.com/repos/soveran/cuba/commits/e118490bd2a43e2164c9e1caa4033346ef00e3c2"}},{"name":"0.0.1","zipball_url":"https://api.github.com/repos/soveran/cuba/zipball/0.0.1","tarball_url":"https://api.github.com/repos/soveran/cuba/tarball/0.0.1","commit":{"sha":"77e96c5340719e3ff7de377db9fe1c677d52edf1","url":"https://api.github.com/repos/soveran/cuba/commits/77e96c5340719e3ff7de377db9fe1c677d52edf1"}}]
+0
+
