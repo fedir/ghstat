@@ -124,6 +124,7 @@ func TestParseRepositoryData(t *testing.T) {
 		OpenIssues: 448,
 		Language:   "Go",
 		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
+		HasIssues:  true,
 	}
 	if !reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
 		fmt.Printf("%v", repositoryDataExtracted)
@@ -142,6 +143,7 @@ func TestParseRepositoryDataNegative(t *testing.T) {
 		OpenIssues: 448,
 		Language:   "Go",
 		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
+		HasIssues:  true,
 	}
 	if reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
 		fmt.Printf("%v", repositoryDataExtracted)

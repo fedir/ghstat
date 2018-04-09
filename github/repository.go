@@ -24,6 +24,7 @@ type Repository struct {
 	Forks      int       `json:"forks"`
 	OpenIssues int       `json:"open_issues"`
 	CreatedAt  time.Time `json:"created_at"`
+	HasIssues  bool      `json:"has_issues"`
 	License    struct {
 		SPDXID string `json:"spdx_id"`
 	} `json:"license"`
@@ -45,7 +46,11 @@ func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int
 
 // GetRepositoryStatistics gets repository common statistics
 func GetRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repository {
-	return ParseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
+	repositoryStatistics := ParseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
+	if repositoryStatistics.HasIssues == false {
+		repositoryStatistics.OpenIssues = 0
+	}
+	return repositoryStatistics
 }
 
 func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {

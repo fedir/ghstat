@@ -138,7 +138,11 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 	if authorLogin != "" {
 		authorFollowers = github.GetUserFollowers(authorLogin, tmpFolder, debug)
 	}
-	closedIssues := github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
+
+	closedIssues := 0
+	if repositoryData.HasIssues {
+		closedIssues = github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
+	}
 	topContributorsFollowers, totalContributors := github.GetRepositoryContributors(rKey, tmpFolder, debug)
 	totalTags := github.GetRepositoryTagsNumber(rKey, tmpFolder, debug)
 	activeForkersPercentage := github.GetActiveForkersPercentage(totalContributors, repositoryData.Forks)
