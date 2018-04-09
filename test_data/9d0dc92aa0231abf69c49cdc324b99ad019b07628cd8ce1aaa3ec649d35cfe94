@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:00 GMT
+Etag: W/"ff9e29d83c73c42f6f4045ebe0e14dbc"
+Last-Modified: Wed, 04 Apr 2018 23:01:15 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D790:54B9:14DF1C7:29F9E75:5ACAB0C0
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4882
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.036498
+X-Xss-Protection: 1; mode=block
+
+df0
+[{"login":"mehcode","id":753919,"avatar_url":"https://avatars1.githubusercontent.com/u/753919?v=4","gravatar_id":"","url":"https://api.github.com/users/mehcode","html_url":"https://github.com/mehcode","followers_url":"https://api.github.com/users/mehcode/followers","following_url":"https://api.github.com/users/mehcode/following{/other_user}","gists_url":"https://api.github.com/users/mehcode/gists{/gist_id}","starred_url":"https://api.github.com/users/mehcode/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mehcode/subscriptions","organizations_url":"https://api.github.com/users/mehcode/orgs","repos_url":"https://api.github.com/users/mehcode/repos","events_url":"https://api.github.com/users/mehcode/events{/privacy}","received_events_url":"https://api.github.com/users/mehcode/received_events","type":"User","site_admin":false,"contributions":214},{"login":"Meralis40","id":11294899,"avatar_url":"https://avatars1.githubusercontent.com/u/11294899?v=4","gravatar_id":"","url":"https://api.github.com/users/Meralis40","html_url":"https://github.com/Meralis40","followers_url":"https://api.github.com/users/Meralis40/followers","following_url":"https://api.github.com/users/Meralis40/following{/other_user}","gists_url":"https://api.github.com/users/Meralis40/gists{/gist_id}","starred_url":"https://api.github.com/users/Meralis40/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Meralis40/subscriptions","organizations_url":"https://api.github.com/users/Meralis40/orgs","repos_url":"https://api.github.com/users/Meralis40/repos","events_url":"https://api.github.com/users/Meralis40/events{/privacy}","received_events_url":"https://api.github.com/users/Meralis40/received_events","type":"User","site_admin":false,"contributions":11},{"login":"frewsxcv","id":416575,"avatar_url":"https://avatars2.githubusercontent.com/u/416575?v=4","gravatar_id":"","url":"https://api.github.com/users/frewsxcv","html_url":"https://github.com/frewsxcv","followers_url":"https://api.github.com/users/frewsxcv/followers","following_url":"https://api.github.com/users/frewsxcv/following{/other_user}","gists_url":"https://api.github.com/users/frewsxcv/gists{/gist_id}","starred_url":"https://api.github.com/users/frewsxcv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/frewsxcv/subscriptions","organizations_url":"https://api.github.com/users/frewsxcv/orgs","repos_url":"https://api.github.com/users/frewsxcv/repos","events_url":"https://api.github.com/users/frewsxcv/events{/privacy}","received_events_url":"https://api.github.com/users/frewsxcv/received_events","type":"User","site_admin":false,"contributions":1},{"login":"rolodato","id":829698,"avatar_url":"https://avatars1.githubusercontent.com/u/829698?v=4","gravatar_id":"","url":"https://api.github.com/users/rolodato","html_url":"https://github.com/rolodato","followers_url":"https://api.github.com/users/rolodato/followers","following_url":"https://api.github.com/users/rolodato/following{/other_user}","gists_url":"https://api.github.com/users/rolodato/gists{/gist_id}","starred_url":"https://api.github.com/users/rolodato/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rolodato/subscriptions","organizations_url":"https://api.github.com/users/rolodato/orgs","repos_url":"https://api.github.com/users/rolodato/repos","events_url":"https://api.github.com/users/rolodato/events{/privacy}","received_events_url":"https://api.github.com/users/rolodato/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

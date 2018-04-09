@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:01 GMT
+Etag: W/"df683398b774eea3d078546691b124ca"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D794:54B9:14DF26F:29F9F7E:5ACAB0C1
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4851
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.041573
+X-Xss-Protection: 1; mode=block
+
+39d
+[{"login":"ccievoiceoks","id":23447650,"avatar_url":"https://avatars0.githubusercontent.com/u/23447650?v=4","gravatar_id":"","url":"https://api.github.com/users/ccievoiceoks","html_url":"https://github.com/ccievoiceoks","followers_url":"https://api.github.com/users/ccievoiceoks/followers","following_url":"https://api.github.com/users/ccievoiceoks/following{/other_user}","gists_url":"https://api.github.com/users/ccievoiceoks/gists{/gist_id}","starred_url":"https://api.github.com/users/ccievoiceoks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ccievoiceoks/subscriptions","organizations_url":"https://api.github.com/users/ccievoiceoks/orgs","repos_url":"https://api.github.com/users/ccievoiceoks/repos","events_url":"https://api.github.com/users/ccievoiceoks/events{/privacy}","received_events_url":"https://api.github.com/users/ccievoiceoks/received_events","type":"User","site_admin":false}]
+0
+

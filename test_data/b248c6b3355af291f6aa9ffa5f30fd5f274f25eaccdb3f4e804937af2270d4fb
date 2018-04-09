@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:03 GMT
+Etag: W/"1b6ab1e8e1a009dfd4e45b0ed2407e9a"
+Last-Modified: Sat, 07 Apr 2018 10:05:24 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D79D:54B6:5B164F:E99912:5ACAB0C3
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4768
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.032394
+X-Xss-Protection: 1; mode=block
+
+1021
+[{"name":"0.9.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.9.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.9.0","commit":{"sha":"9c0894562cdc6298dafc4c38b22cb449efc6b5b3","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/9c0894562cdc6298dafc4c38b22cb449efc6b5b3"}},{"name":"0.8.1","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.8.1","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.8.1","commit":{"sha":"653d9f55abc55b66a8cf21e9d79c43fbf8d4c424","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/653d9f55abc55b66a8cf21e9d79c43fbf8d4c424"}},{"name":"0.8.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.8.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.8.0","commit":{"sha":"121e1e08a77d62f448654545153f1f090b05bc9f","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/121e1e08a77d62f448654545153f1f090b05bc9f"}},{"name":"0.7.3","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.7.3","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.7.3","commit":{"sha":"b4ba34c5676aa550be4a667b4802d6d637aa093c","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/b4ba34c5676aa550be4a667b4802d6d637aa093c"}},{"name":"0.7.2","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.7.2","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.7.2","commit":{"sha":"5a2dc388a02d44c3299c6951ccf04c75729b4e18","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/5a2dc388a02d44c3299c6951ccf04c75729b4e18"}},{"name":"0.7.1","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.7.1","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.7.1","commit":{"sha":"3eac209213dce07887f84777bfc78b2476fbd1b5","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/3eac209213dce07887f84777bfc78b2476fbd1b5"}},{"name":"0.7.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.7.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.7.0","commit":{"sha":"a1b9ba45913ec75ba4b2e7b4b67aa2580e070cca","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/a1b9ba45913ec75ba4b2e7b4b67aa2580e070cca"}},{"name":"0.6.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.6.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.6.0","commit":{"sha":"6fbfbfde2985c5724942835fec95953a3a996b65","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/6fbfbfde2985c5724942835fec95953a3a996b65"}},{"name":"0.5.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.5.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.5.0","commit":{"sha":"a9120c6c2018772971cfe4b117da2dea48808f51","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/a9120c6c2018772971cfe4b117da2dea48808f51"}},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.3.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.3.0","commit":{"sha":"db6b5294d6f209daefcb41b1c10dd4a9ee46aa7d","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/db6b5294d6f209daefcb41b1c10dd4a9ee46aa7d"}},{"name":"0.2.1","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.2.1","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.2.1","commit":{"sha":"03c3eb234b90122a752dc6e38f1075ab4bf8cd34","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/03c3eb234b90122a752dc6e38f1075ab4bf8cd34"}},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/nickel-org/nickel.rs/zipball/0.2.0","tarball_url":"https://api.github.com/repos/nickel-org/nickel.rs/tarball/0.2.0","commit":{"sha":"c8e8519c24011818e6d30e9b840a228daa3d56ea","url":"https://api.github.com/repos/nickel-org/nickel.rs/commits/c8e8519c24011818e6d30e9b840a228daa3d56ea"}}]
+0
+

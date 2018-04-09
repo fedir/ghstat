@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:02 GMT
+Etag: W/"6872de7b9ae7ae5fb252bb78d0ac7726"
+Last-Modified: Wed, 04 Apr 2018 23:01:15 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D790:54B9:14DF2A2:29F9FC8:5ACAB0C1
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4838
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.041766
+X-Xss-Protection: 1; mode=block
+
+fa3
+[{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.2.0","commit":{"sha":"64e00ceda2b92ba49945bba4a458d4707f0a53cd","url":"https://api.github.com/repos/mehcode/shio-rs/commits/64e00ceda2b92ba49945bba4a458d4707f0a53cd"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.1.0","commit":{"sha":"edbe843ef705fe7d87e066c585ecc561cce2f1ea","url":"https://api.github.com/repos/mehcode/shio-rs/commits/edbe843ef705fe7d87e066c585ecc561cce2f1ea"}},{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.8","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.8","commit":{"sha":"26d52ac487d928ad10e4a96ab7c30f07117409df","url":"https://api.github.com/repos/mehcode/shio-rs/commits/26d52ac487d928ad10e4a96ab7c30f07117409df"}},{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.7","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.7","commit":{"sha":"a56dcac7041570029dc6d5a15cfad2c9c7f0ae71","url":"https://api.github.com/repos/mehcode/shio-rs/commits/a56dcac7041570029dc6d5a15cfad2c9c7f0ae71"}},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.6","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.6","commit":{"sha":"cc2d94e8f223026ab3a4514f8932bf3e161b793e","url":"https://api.github.com/repos/mehcode/shio-rs/commits/cc2d94e8f223026ab3a4514f8932bf3e161b793e"}},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.5","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.5","commit":{"sha":"63ee404275081135d75341d9d353d536d533ffb2","url":"https://api.github.com/repos/mehcode/shio-rs/commits/63ee404275081135d75341d9d353d536d533ffb2"}},{"name":"v0.0.4","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.4","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.4","commit":{"sha":"47992e7e6ed62c0ce585bae2058a772d3ab473fc","url":"https://api.github.com/repos/mehcode/shio-rs/commits/47992e7e6ed62c0ce585bae2058a772d3ab473fc"}},{"name":"v0.0.3","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.3","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.3","commit":{"sha":"af0300a8ea99222e9659864a311714d8e2f6961c","url":"https://api.github.com/repos/mehcode/shio-rs/commits/af0300a8ea99222e9659864a311714d8e2f6961c"}},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.2","commit":{"sha":"f6998e98384a220e24a56bec880f730bec41a57c","url":"https://api.github.com/repos/mehcode/shio-rs/commits/f6998e98384a220e24a56bec880f730bec41a57c"}},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/v0.0.1","commit":{"sha":"84a5ffcada29572e3d73519e6a02339205681444","url":"https://api.github.com/repos/mehcode/shio-rs/commits/84a5ffcada29572e3d73519e6a02339205681444"}},{"name":"lib-0.3.0","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/lib-0.3.0","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/lib-0.3.0","commit":{"sha":"865ac3d6aaacafa99eed4213b70fad481d4e94a2","url":"https://api.github.com/repos/mehcode/shio-rs/commits/865ac3d6aaacafa99eed4213b70fad481d4e94a2"}},{"name":"lib-0.2.1","zipball_url":"https://api.github.com/repos/mehcode/shio-rs/zipball/lib-0.2.1","tarball_url":"https://api.github.com/repos/mehcode/shio-rs/tarball/lib-0.2.1","commit":{"sha":"9bd1f9ef9eef3c165ee82c04990578f9da8009a8","url":"https://api.github.com/repos/mehcode/shio-rs/commits/9bd1f9ef9eef3c165ee82c04990578f9da8009a8"}}]
+0
+

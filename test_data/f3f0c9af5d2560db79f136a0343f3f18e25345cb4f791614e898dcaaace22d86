@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:03 GMT
+Etag: W/"740254265ca2bbbb7bca2ae31c77f904"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D79D:54B6:5B1637:E998CC:5ACAB0C2
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4798
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.026436
+X-Xss-Protection: 1; mode=block
+
+729
+[{"login":"Nemikolh","id":4008156,"avatar_url":"https://avatars3.githubusercontent.com/u/4008156?v=4","gravatar_id":"","url":"https://api.github.com/users/Nemikolh","html_url":"https://github.com/Nemikolh","followers_url":"https://api.github.com/users/Nemikolh/followers","following_url":"https://api.github.com/users/Nemikolh/following{/other_user}","gists_url":"https://api.github.com/users/Nemikolh/gists{/gist_id}","starred_url":"https://api.github.com/users/Nemikolh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Nemikolh/subscriptions","organizations_url":"https://api.github.com/users/Nemikolh/orgs","repos_url":"https://api.github.com/users/Nemikolh/repos","events_url":"https://api.github.com/users/Nemikolh/events{/privacy}","received_events_url":"https://api.github.com/users/Nemikolh/received_events","type":"User","site_admin":false},{"login":"ArthurEnglebert","id":1899830,"avatar_url":"https://avatars2.githubusercontent.com/u/1899830?v=4","gravatar_id":"","url":"https://api.github.com/users/ArthurEnglebert","html_url":"https://github.com/ArthurEnglebert","followers_url":"https://api.github.com/users/ArthurEnglebert/followers","following_url":"https://api.github.com/users/ArthurEnglebert/following{/other_user}","gists_url":"https://api.github.com/users/ArthurEnglebert/gists{/gist_id}","starred_url":"https://api.github.com/users/ArthurEnglebert/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ArthurEnglebert/subscriptions","organizations_url":"https://api.github.com/users/ArthurEnglebert/orgs","repos_url":"https://api.github.com/users/ArthurEnglebert/repos","events_url":"https://api.github.com/users/ArthurEnglebert/events{/privacy}","received_events_url":"https://api.github.com/users/ArthurEnglebert/received_events","type":"User","site_admin":false}]
+0
+

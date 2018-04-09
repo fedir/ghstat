@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:16:04 GMT
+Etag: W/"b9eb1eb439c51769747eeb8fd5d0cdb4"
+Last-Modified: Sun, 08 Apr 2018 08:29:14 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D794:54B9:14DF408:29FA241:5ACAB0C3
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4757
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.035157
+X-Xss-Protection: 1; mode=block
+
+677
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/gotham-rs/gotham/zipball/0.2.0","tarball_url":"https://api.github.com/repos/gotham-rs/gotham/tarball/0.2.0","commit":{"sha":"e90a6fc8e07f36a2ee45a1385670881b2282f1d4","url":"https://api.github.com/repos/gotham-rs/gotham/commits/e90a6fc8e07f36a2ee45a1385670881b2282f1d4"}},{"name":"0.1.2","zipball_url":"https://api.github.com/repos/gotham-rs/gotham/zipball/0.1.2","tarball_url":"https://api.github.com/repos/gotham-rs/gotham/tarball/0.1.2","commit":{"sha":"fe4b42fb96396c454d56259fec7e6effb4b282ea","url":"https://api.github.com/repos/gotham-rs/gotham/commits/fe4b42fb96396c454d56259fec7e6effb4b282ea"}},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/gotham-rs/gotham/zipball/0.1.1","tarball_url":"https://api.github.com/repos/gotham-rs/gotham/tarball/0.1.1","commit":{"sha":"79777203eddddb426dbef76d1e179b94a6574a5d","url":"https://api.github.com/repos/gotham-rs/gotham/commits/79777203eddddb426dbef76d1e179b94a6574a5d"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/gotham-rs/gotham/zipball/0.1.0","tarball_url":"https://api.github.com/repos/gotham-rs/gotham/tarball/0.1.0","commit":{"sha":"e842a5ca92cebd863a146b90de5e862deff3a399","url":"https://api.github.com/repos/gotham-rs/gotham/commits/e842a5ca92cebd863a146b90de5e862deff3a399"}},{"name":"0.1","zipball_url":"https://api.github.com/repos/gotham-rs/gotham/zipball/0.1","tarball_url":"https://api.github.com/repos/gotham-rs/gotham/tarball/0.1","commit":{"sha":"e842a5ca92cebd863a146b90de5e862deff3a399","url":"https://api.github.com/repos/gotham-rs/gotham/commits/e842a5ca92cebd863a146b90de5e862deff3a399"}}]
+0
+

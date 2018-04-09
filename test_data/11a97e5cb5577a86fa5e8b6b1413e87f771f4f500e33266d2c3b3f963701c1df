@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Mon, 09 Apr 2018 00:15:59 GMT
+Etag: W/"297d41e7193d38907ad314c1a977b962"
+Last-Modified: Sun, 08 Apr 2018 07:13:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D796:54B8:FAB79B:22C0CBE:5ACAB0BF
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4923
+X-Ratelimit-Reset: 1523235841
+X-Runtime-Rack: 0.049840
+X-Xss-Protection: 1; mode=block
+
+11fb
+{"id":16836673,"name":"rustful","full_name":"Ogeon/rustful","owner":{"login":"Ogeon","id":225229,"avatar_url":"https://avatars3.githubusercontent.com/u/225229?v=4","gravatar_id":"","url":"https://api.github.com/users/Ogeon","html_url":"https://github.com/Ogeon","followers_url":"https://api.github.com/users/Ogeon/followers","following_url":"https://api.github.com/users/Ogeon/following{/other_user}","gists_url":"https://api.github.com/users/Ogeon/gists{/gist_id}","starred_url":"https://api.github.com/users/Ogeon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ogeon/subscriptions","organizations_url":"https://api.github.com/users/Ogeon/orgs","repos_url":"https://api.github.com/users/Ogeon/repos","events_url":"https://api.github.com/users/Ogeon/events{/privacy}","received_events_url":"https://api.github.com/users/Ogeon/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/Ogeon/rustful","description":"A light HTTP framework for Rust","fork":false,"url":"https://api.github.com/repos/Ogeon/rustful","forks_url":"https://api.github.com/repos/Ogeon/rustful/forks","keys_url":"https://api.github.com/repos/Ogeon/rustful/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Ogeon/rustful/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Ogeon/rustful/teams","hooks_url":"https://api.github.com/repos/Ogeon/rustful/hooks","issue_events_url":"https://api.github.com/repos/Ogeon/rustful/issues/events{/number}","events_url":"https://api.github.com/repos/Ogeon/rustful/events","assignees_url":"https://api.github.com/repos/Ogeon/rustful/assignees{/user}","branches_url":"https://api.github.com/repos/Ogeon/rustful/branches{/branch}","tags_url":"https://api.github.com/repos/Ogeon/rustful/tags","blobs_url":"https://api.github.com/repos/Ogeon/rustful/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Ogeon/rustful/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Ogeon/rustful/git/refs{/sha}","trees_url":"https://api.github.com/repos/Ogeon/rustful/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Ogeon/rustful/statuses/{sha}","languages_url":"https://api.github.com/repos/Ogeon/rustful/languages","stargazers_url":"https://api.github.com/repos/Ogeon/rustful/stargazers","contributors_url":"https://api.github.com/repos/Ogeon/rustful/contributors","subscribers_url":"https://api.github.com/repos/Ogeon/rustful/subscribers","subscription_url":"https://api.github.com/repos/Ogeon/rustful/subscription","commits_url":"https://api.github.com/repos/Ogeon/rustful/commits{/sha}","git_commits_url":"https://api.github.com/repos/Ogeon/rustful/git/commits{/sha}","comments_url":"https://api.github.com/repos/Ogeon/rustful/comments{/number}","issue_comment_url":"https://api.github.com/repos/Ogeon/rustful/issues/comments{/number}","contents_url":"https://api.github.com/repos/Ogeon/rustful/contents/{+path}","compare_url":"https://api.github.com/repos/Ogeon/rustful/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Ogeon/rustful/merges","archive_url":"https://api.github.com/repos/Ogeon/rustful/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Ogeon/rustful/downloads","issues_url":"https://api.github.com/repos/Ogeon/rustful/issues{/number}","pulls_url":"https://api.github.com/repos/Ogeon/rustful/pulls{/number}","milestones_url":"https://api.github.com/repos/Ogeon/rustful/milestones{/number}","notifications_url":"https://api.github.com/repos/Ogeon/rustful/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Ogeon/rustful/labels{/name}","releases_url":"https://api.github.com/repos/Ogeon/rustful/releases{/id}","deployments_url":"https://api.github.com/repos/Ogeon/rustful/deployments","created_at":"2014-02-14T12:32:26Z","updated_at":"2018-04-08T07:13:43Z","pushed_at":"2017-07-16T20:01:09Z","git_url":"git://github.com/Ogeon/rustful.git","ssh_url":"git@github.com:Ogeon/rustful.git","clone_url":"https://github.com/Ogeon/rustful.git","svn_url":"https://github.com/Ogeon/rustful","homepage":"https://docs.rs/rustful","size":2482,"stargazers_count":839,"watchers_count":839,"language":"Rust","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":50,"mirror_url":null,"archived":false,"open_issues_count":6,"license":{"key":"other","name":"Other","spdx_id":null,"url":null},"forks":50,"open_issues":6,"watchers":839,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":50,"subscribers_count":30}
+0
+
