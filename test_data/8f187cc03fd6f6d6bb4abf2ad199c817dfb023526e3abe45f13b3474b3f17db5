@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 21:55:14 GMT
+Etag: W/"4253ab5b86fe866259e278bfeb62c66b"
+Last-Modified: Tue, 10 Apr 2018 14:33:50 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D20F:3D15:4EBA82:B43C86:5ACD32C2
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4765
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.032407
+X-Xss-Protection: 1; mode=block
+
+3a3
+[{"name":"2.9","zipball_url":"https://api.github.com/repos/synrc/rest/zipball/2.9","tarball_url":"https://api.github.com/repos/synrc/rest/tarball/2.9","commit":{"sha":"4d943049e3b786418085119781916d5aa7f9f770","url":"https://api.github.com/repos/synrc/rest/commits/4d943049e3b786418085119781916d5aa7f9f770"}},{"name":"2.6","zipball_url":"https://api.github.com/repos/synrc/rest/zipball/2.6","tarball_url":"https://api.github.com/repos/synrc/rest/tarball/2.6","commit":{"sha":"8f5eded56b0a07a493593911cb945b4f9daec10c","url":"https://api.github.com/repos/synrc/rest/commits/8f5eded56b0a07a493593911cb945b4f9daec10c"}},{"name":"1.5.0","zipball_url":"https://api.github.com/repos/synrc/rest/zipball/1.5.0","tarball_url":"https://api.github.com/repos/synrc/rest/tarball/1.5.0","commit":{"sha":"1c091ab7c38b9b097f8bcf2b47c40fe4cec5edff","url":"https://api.github.com/repos/synrc/rest/commits/1c091ab7c38b9b097f8bcf2b47c40fe4cec5edff"}}]
+0
+
