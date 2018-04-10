@@ -238,14 +238,14 @@ At the moment We choosed following metrics, here they are, in alphabetical order
 
 ### PHP CMS statistics rating
 
-* The most popular project is `getgrav/grav`
-* The newest project is `roadiz/roadiz`
-* The project with more commits is `joomla/joomla-cms`
-* The project with more tags is `joomla/joomla-cms`
+* The most popular project is `WordPress/WordPress`
+* The newest project is `neos/neos-development-collection`
+* The project with more commits is `drupal/drupal`
+* The project with more tags is `TYPO3/TYPO3.CMS`
 * The project made by most notable top contributors is `sulu/sulu-standard`
 * The project with best errors resolving rate is `bolt/bolt`
 * The project with more commits by day is `concrete5/concrete5`
-* The project with the most active community is `sulu/sulu-standard`
+* The project with the most active community is `spip/SPIP`
 * The best project (taking in account placements in all competitions) is `bolt/bolt`
 
 [Detailed PHP CMS statistics](https://github.com/fedir/ghstat/blob/master/stats/php_cms.csv)

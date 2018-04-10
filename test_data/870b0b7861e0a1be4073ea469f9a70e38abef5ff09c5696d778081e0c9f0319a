@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 21:37:43 GMT
+Etag: W/"47265346c2ccf392424daaa4d2d6a186"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D11D:3D15:4D7CA7:B17EC0:5ACD2EA7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4940
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.029296
+X-Xss-Protection: 1; mode=block
+
+379
+[{"login":"TakCastel","id":11198968,"avatar_url":"https://avatars0.githubusercontent.com/u/11198968?v=4","gravatar_id":"","url":"https://api.github.com/users/TakCastel","html_url":"https://github.com/TakCastel","followers_url":"https://api.github.com/users/TakCastel/followers","following_url":"https://api.github.com/users/TakCastel/following{/other_user}","gists_url":"https://api.github.com/users/TakCastel/gists{/gist_id}","starred_url":"https://api.github.com/users/TakCastel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TakCastel/subscriptions","organizations_url":"https://api.github.com/users/TakCastel/orgs","repos_url":"https://api.github.com/users/TakCastel/repos","events_url":"https://api.github.com/users/TakCastel/events{/privacy}","received_events_url":"https://api.github.com/users/TakCastel/received_events","type":"User","site_admin":false}]
+0
+

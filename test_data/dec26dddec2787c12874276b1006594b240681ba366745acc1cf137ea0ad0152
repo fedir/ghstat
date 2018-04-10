@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 21:37:43 GMT
+Etag: W/"e5372358c7778efefb6ceefab7632ff0"
+Link: <https://api.github.com/user/190777/followers?page=3>; rel="prev", <https://api.github.com/user/190777/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D121:3D15:4D7CA7:B17EC1:5ACD2EA7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4941
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.030087
+X-Xss-Protection: 1; mode=block
+
+adb
+[{"login":"SuriyaaKudoIsc","id":5073946,"avatar_url":"https://avatars2.githubusercontent.com/u/5073946?v=4","gravatar_id":"","url":"https://api.github.com/users/SuriyaaKudoIsc","html_url":"https://github.com/SuriyaaKudoIsc","followers_url":"https://api.github.com/users/SuriyaaKudoIsc/followers","following_url":"https://api.github.com/users/SuriyaaKudoIsc/following{/other_user}","gists_url":"https://api.github.com/users/SuriyaaKudoIsc/gists{/gist_id}","starred_url":"https://api.github.com/users/SuriyaaKudoIsc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SuriyaaKudoIsc/subscriptions","organizations_url":"https://api.github.com/users/SuriyaaKudoIsc/orgs","repos_url":"https://api.github.com/users/SuriyaaKudoIsc/repos","events_url":"https://api.github.com/users/SuriyaaKudoIsc/events{/privacy}","received_events_url":"https://api.github.com/users/SuriyaaKudoIsc/received_events","type":"User","site_admin":false},{"login":"on3iro","id":8681413,"avatar_url":"https://avatars1.githubusercontent.com/u/8681413?v=4","gravatar_id":"","url":"https://api.github.com/users/on3iro","html_url":"https://github.com/on3iro","followers_url":"https://api.github.com/users/on3iro/followers","following_url":"https://api.github.com/users/on3iro/following{/other_user}","gists_url":"https://api.github.com/users/on3iro/gists{/gist_id}","starred_url":"https://api.github.com/users/on3iro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/on3iro/subscriptions","organizations_url":"https://api.github.com/users/on3iro/orgs","repos_url":"https://api.github.com/users/on3iro/repos","events_url":"https://api.github.com/users/on3iro/events{/privacy}","received_events_url":"https://api.github.com/users/on3iro/received_events","type":"User","site_admin":false},{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false}]
+0
+

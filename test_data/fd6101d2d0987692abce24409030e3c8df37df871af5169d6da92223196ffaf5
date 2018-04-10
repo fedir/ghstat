@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 21:37:42 GMT
+Etag: W/"1f00e1dddd5d2d840b46b7e58e590357"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D11D:3D15:4D7C7D:B17E73:5ACD2EA6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4954
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.037108
+X-Xss-Protection: 1; mode=block
+
+a3d
+[{"login":"tut-tuuut","id":1035145,"avatar_url":"https://avatars0.githubusercontent.com/u/1035145?v=4","gravatar_id":"","url":"https://api.github.com/users/tut-tuuut","html_url":"https://github.com/tut-tuuut","followers_url":"https://api.github.com/users/tut-tuuut/followers","following_url":"https://api.github.com/users/tut-tuuut/following{/other_user}","gists_url":"https://api.github.com/users/tut-tuuut/gists{/gist_id}","starred_url":"https://api.github.com/users/tut-tuuut/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tut-tuuut/subscriptions","organizations_url":"https://api.github.com/users/tut-tuuut/orgs","repos_url":"https://api.github.com/users/tut-tuuut/repos","events_url":"https://api.github.com/users/tut-tuuut/events{/privacy}","received_events_url":"https://api.github.com/users/tut-tuuut/received_events","type":"User","site_admin":false},{"login":"Pierrinho","id":2307724,"avatar_url":"https://avatars1.githubusercontent.com/u/2307724?v=4","gravatar_id":"","url":"https://api.github.com/users/Pierrinho","html_url":"https://github.com/Pierrinho","followers_url":"https://api.github.com/users/Pierrinho/followers","following_url":"https://api.github.com/users/Pierrinho/following{/other_user}","gists_url":"https://api.github.com/users/Pierrinho/gists{/gist_id}","starred_url":"https://api.github.com/users/Pierrinho/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Pierrinho/subscriptions","organizations_url":"https://api.github.com/users/Pierrinho/orgs","repos_url":"https://api.github.com/users/Pierrinho/repos","events_url":"https://api.github.com/users/Pierrinho/events{/privacy}","received_events_url":"https://api.github.com/users/Pierrinho/received_events","type":"User","site_admin":false},{"login":"ounziw","id":531277,"avatar_url":"https://avatars1.githubusercontent.com/u/531277?v=4","gravatar_id":"","url":"https://api.github.com/users/ounziw","html_url":"https://github.com/ounziw","followers_url":"https://api.github.com/users/ounziw/followers","following_url":"https://api.github.com/users/ounziw/following{/other_user}","gists_url":"https://api.github.com/users/ounziw/gists{/gist_id}","starred_url":"https://api.github.com/users/ounziw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ounziw/subscriptions","organizations_url":"https://api.github.com/users/ounziw/orgs","repos_url":"https://api.github.com/users/ounziw/repos","events_url":"https://api.github.com/users/ounziw/events{/privacy}","received_events_url":"https://api.github.com/users/ounziw/received_events","type":"User","site_admin":false}]
+0
+

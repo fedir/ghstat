@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 21:37:44 GMT
+Etag: W/"2d3fc2cc8abb9168e968cd20bf365b4e"
+Last-Modified: Mon, 09 Apr 2018 04:00:10 GMT
+Link: <https://api.github.com/repositories/834621/tags?page=4>; rel="prev", <https://api.github.com/repositories/834621/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D120:3D16:663788:DFBFE6:5ACD2EA8
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4908
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.081285
+X-Xss-Protection: 1; mode=block
+
+293
+[{"name":"spip-1.9.1i","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.9.1i","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.9.1i","commit":{"sha":"7f764359c2b7972d1a793b3b7eaec79edb5d4912","url":"https://api.github.com/repos/spip/SPIP/commits/7f764359c2b7972d1a793b3b7eaec79edb5d4912"}},{"name":"spip-1.8.3b","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.8.3b","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.8.3b","commit":{"sha":"dc5d667fb15646526915f646ba538e9ec28ba81c","url":"https://api.github.com/repos/spip/SPIP/commits/dc5d667fb15646526915f646ba538e9ec28ba81c"}}]
+0
+
