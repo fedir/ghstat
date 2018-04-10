@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:22 GMT
+Etag: W/"1e134ae15d81c3487c47a8bfe0558da6"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D493:3D16:69B5B0:E7BF99:5ACD386A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4650
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.040389
+X-Xss-Protection: 1; mode=block
+
+df1
+[{"login":"redaxmedia","id":1835397,"avatar_url":"https://avatars3.githubusercontent.com/u/1835397?v=4","gravatar_id":"","url":"https://api.github.com/users/redaxmedia","html_url":"https://github.com/redaxmedia","followers_url":"https://api.github.com/users/redaxmedia/followers","following_url":"https://api.github.com/users/redaxmedia/following{/other_user}","gists_url":"https://api.github.com/users/redaxmedia/gists{/gist_id}","starred_url":"https://api.github.com/users/redaxmedia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/redaxmedia/subscriptions","organizations_url":"https://api.github.com/users/redaxmedia/orgs","repos_url":"https://api.github.com/users/redaxmedia/repos","events_url":"https://api.github.com/users/redaxmedia/events{/privacy}","received_events_url":"https://api.github.com/users/redaxmedia/received_events","type":"User","site_admin":false},{"login":"tobytes","id":1456803,"avatar_url":"https://avatars2.githubusercontent.com/u/1456803?v=4","gravatar_id":"","url":"https://api.github.com/users/tobytes","html_url":"https://github.com/tobytes","followers_url":"https://api.github.com/users/tobytes/followers","following_url":"https://api.github.com/users/tobytes/following{/other_user}","gists_url":"https://api.github.com/users/tobytes/gists{/gist_id}","starred_url":"https://api.github.com/users/tobytes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tobytes/subscriptions","organizations_url":"https://api.github.com/users/tobytes/orgs","repos_url":"https://api.github.com/users/tobytes/repos","events_url":"https://api.github.com/users/tobytes/events{/privacy}","received_events_url":"https://api.github.com/users/tobytes/received_events","type":"User","site_admin":false},{"login":"ronny-springer","id":2517233,"avatar_url":"https://avatars3.githubusercontent.com/u/2517233?v=4","gravatar_id":"","url":"https://api.github.com/users/ronny-springer","html_url":"https://github.com/ronny-springer","followers_url":"https://api.github.com/users/ronny-springer/followers","following_url":"https://api.github.com/users/ronny-springer/following{/other_user}","gists_url":"https://api.github.com/users/ronny-springer/gists{/gist_id}","starred_url":"https://api.github.com/users/ronny-springer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ronny-springer/subscriptions","organizations_url":"https://api.github.com/users/ronny-springer/orgs","repos_url":"https://api.github.com/users/ronny-springer/repos","events_url":"https://api.github.com/users/ronny-springer/events{/privacy}","received_events_url":"https://api.github.com/users/ronny-springer/received_events","type":"User","site_admin":false},{"login":"mimmi20","id":1120192,"avatar_url":"https://avatars3.githubusercontent.com/u/1120192?v=4","gravatar_id":"","url":"https://api.github.com/users/mimmi20","html_url":"https://github.com/mimmi20","followers_url":"https://api.github.com/users/mimmi20/followers","following_url":"https://api.github.com/users/mimmi20/following{/other_user}","gists_url":"https://api.github.com/users/mimmi20/gists{/gist_id}","starred_url":"https://api.github.com/users/mimmi20/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mimmi20/subscriptions","organizations_url":"https://api.github.com/users/mimmi20/orgs","repos_url":"https://api.github.com/users/mimmi20/repos","events_url":"https://api.github.com/users/mimmi20/events{/privacy}","received_events_url":"https://api.github.com/users/mimmi20/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:24 GMT
+Etag: W/"922bb38206921256b6e7f52057def098"
+Last-Modified: Mon, 26 Mar 2018 21:32:59 GMT
+Link: <https://api.github.com/repositories/8863081/contributors?page=2>; rel="prev", <https://api.github.com/repositories/8863081/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D4A9:3D13:40BD1D:96F883:5ACD386B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4563
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.062132
+X-Xss-Protection: 1; mode=block
+
+379
+[{"login":"shakaran","id":14254,"avatar_url":"https://avatars1.githubusercontent.com/u/14254?v=4","gravatar_id":"","url":"https://api.github.com/users/shakaran","html_url":"https://github.com/shakaran","followers_url":"https://api.github.com/users/shakaran/followers","following_url":"https://api.github.com/users/shakaran/following{/other_user}","gists_url":"https://api.github.com/users/shakaran/gists{/gist_id}","starred_url":"https://api.github.com/users/shakaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shakaran/subscriptions","organizations_url":"https://api.github.com/users/shakaran/orgs","repos_url":"https://api.github.com/users/shakaran/repos","events_url":"https://api.github.com/users/shakaran/events{/privacy}","received_events_url":"https://api.github.com/users/shakaran/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

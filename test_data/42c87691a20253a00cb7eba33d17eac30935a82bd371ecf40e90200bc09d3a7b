@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:23 GMT
+Etag: W/"c37e6aa62419a736d50f9c7b11255cc5"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D48E:3D13:40BCF8:96F829:5ACD386B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4589
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.042646
+X-Xss-Protection: 1; mode=block
+
+719
+[{"login":"toothbrush","id":423357,"avatar_url":"https://avatars2.githubusercontent.com/u/423357?v=4","gravatar_id":"","url":"https://api.github.com/users/toothbrush","html_url":"https://github.com/toothbrush","followers_url":"https://api.github.com/users/toothbrush/followers","following_url":"https://api.github.com/users/toothbrush/following{/other_user}","gists_url":"https://api.github.com/users/toothbrush/gists{/gist_id}","starred_url":"https://api.github.com/users/toothbrush/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/toothbrush/subscriptions","organizations_url":"https://api.github.com/users/toothbrush/orgs","repos_url":"https://api.github.com/users/toothbrush/repos","events_url":"https://api.github.com/users/toothbrush/events{/privacy}","received_events_url":"https://api.github.com/users/toothbrush/received_events","type":"User","site_admin":false},{"login":"jeroengerits","id":808734,"avatar_url":"https://avatars2.githubusercontent.com/u/808734?v=4","gravatar_id":"","url":"https://api.github.com/users/jeroengerits","html_url":"https://github.com/jeroengerits","followers_url":"https://api.github.com/users/jeroengerits/followers","following_url":"https://api.github.com/users/jeroengerits/following{/other_user}","gists_url":"https://api.github.com/users/jeroengerits/gists{/gist_id}","starred_url":"https://api.github.com/users/jeroengerits/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jeroengerits/subscriptions","organizations_url":"https://api.github.com/users/jeroengerits/orgs","repos_url":"https://api.github.com/users/jeroengerits/repos","events_url":"https://api.github.com/users/jeroengerits/events{/privacy}","received_events_url":"https://api.github.com/users/jeroengerits/received_events","type":"User","site_admin":false}]
+0
+

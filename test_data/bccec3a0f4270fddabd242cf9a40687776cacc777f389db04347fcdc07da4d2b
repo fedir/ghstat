@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:23 GMT
+Etag: W/"d66091a20d83dad7807c15f7b04bcabc"
+Last-Modified: Sun, 01 Apr 2018 15:04:24 GMT
+Link: <https://api.github.com/repositories/1027912/contributors?page=1>; rel="prev", <https://api.github.com/repositories/1027912/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D48E:3D13:40BD1C:96F881:5ACD386B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4564
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.057015
+X-Xss-Protection: 1; mode=block
+
+711
+[{"login":"andorkerti","id":13197926,"avatar_url":"https://avatars2.githubusercontent.com/u/13197926?v=4","gravatar_id":"","url":"https://api.github.com/users/andorkerti","html_url":"https://github.com/andorkerti","followers_url":"https://api.github.com/users/andorkerti/followers","following_url":"https://api.github.com/users/andorkerti/following{/other_user}","gists_url":"https://api.github.com/users/andorkerti/gists{/gist_id}","starred_url":"https://api.github.com/users/andorkerti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andorkerti/subscriptions","organizations_url":"https://api.github.com/users/andorkerti/orgs","repos_url":"https://api.github.com/users/andorkerti/repos","events_url":"https://api.github.com/users/andorkerti/events{/privacy}","received_events_url":"https://api.github.com/users/andorkerti/received_events","type":"User","site_admin":false,"contributions":1},{"login":"ochinedu","id":297463,"avatar_url":"https://avatars2.githubusercontent.com/u/297463?v=4","gravatar_id":"","url":"https://api.github.com/users/ochinedu","html_url":"https://github.com/ochinedu","followers_url":"https://api.github.com/users/ochinedu/followers","following_url":"https://api.github.com/users/ochinedu/following{/other_user}","gists_url":"https://api.github.com/users/ochinedu/gists{/gist_id}","starred_url":"https://api.github.com/users/ochinedu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ochinedu/subscriptions","organizations_url":"https://api.github.com/users/ochinedu/orgs","repos_url":"https://api.github.com/users/ochinedu/repos","events_url":"https://api.github.com/users/ochinedu/events{/privacy}","received_events_url":"https://api.github.com/users/ochinedu/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:23 GMT
+Etag: W/"8a6a46c5b57a0265d2dc9b5a07898106"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D49E:3D15:504930:B7E2E5:5ACD386A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4615
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.039598
+X-Xss-Protection: 1; mode=block
+
+713
+[{"login":"opengiineer","id":32831059,"avatar_url":"https://avatars0.githubusercontent.com/u/32831059?v=4","gravatar_id":"","url":"https://api.github.com/users/opengiineer","html_url":"https://github.com/opengiineer","followers_url":"https://api.github.com/users/opengiineer/followers","following_url":"https://api.github.com/users/opengiineer/following{/other_user}","gists_url":"https://api.github.com/users/opengiineer/gists{/gist_id}","starred_url":"https://api.github.com/users/opengiineer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/opengiineer/subscriptions","organizations_url":"https://api.github.com/users/opengiineer/orgs","repos_url":"https://api.github.com/users/opengiineer/repos","events_url":"https://api.github.com/users/opengiineer/events{/privacy}","received_events_url":"https://api.github.com/users/opengiineer/received_events","type":"User","site_admin":false},{"login":"indpurvesh","id":4218702,"avatar_url":"https://avatars0.githubusercontent.com/u/4218702?v=4","gravatar_id":"","url":"https://api.github.com/users/indpurvesh","html_url":"https://github.com/indpurvesh","followers_url":"https://api.github.com/users/indpurvesh/followers","following_url":"https://api.github.com/users/indpurvesh/following{/other_user}","gists_url":"https://api.github.com/users/indpurvesh/gists{/gist_id}","starred_url":"https://api.github.com/users/indpurvesh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indpurvesh/subscriptions","organizations_url":"https://api.github.com/users/indpurvesh/orgs","repos_url":"https://api.github.com/users/indpurvesh/repos","events_url":"https://api.github.com/users/indpurvesh/events{/privacy}","received_events_url":"https://api.github.com/users/indpurvesh/received_events","type":"User","site_admin":false}]
+0
+

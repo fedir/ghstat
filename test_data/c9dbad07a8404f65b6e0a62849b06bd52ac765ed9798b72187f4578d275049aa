@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 10 Apr 2018 22:19:23 GMT
+Etag: W/"29ec37a3b36a1a7a67131e094168b623"
+Link: <https://api.github.com/user/4319323/followers?page=1>; rel="prev", <https://api.github.com/user/4319323/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D498:3D15:504930:B7E2C6:5ACD386A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4616
+X-Ratelimit-Reset: 1523399859
+X-Runtime-Rack: 0.034857
+X-Xss-Protection: 1; mode=block
+
+68f
+[{"login":"kamohy","id":37085865,"avatar_url":"https://avatars1.githubusercontent.com/u/37085865?v=4","gravatar_id":"","url":"https://api.github.com/users/kamohy","html_url":"https://github.com/kamohy","followers_url":"https://api.github.com/users/kamohy/followers","following_url":"https://api.github.com/users/kamohy/following{/other_user}","gists_url":"https://api.github.com/users/kamohy/gists{/gist_id}","starred_url":"https://api.github.com/users/kamohy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kamohy/subscriptions","organizations_url":"https://api.github.com/users/kamohy/orgs","repos_url":"https://api.github.com/users/kamohy/repos","events_url":"https://api.github.com/users/kamohy/events{/privacy}","received_events_url":"https://api.github.com/users/kamohy/received_events","type":"User","site_admin":false},{"login":"usox","id":5184763,"avatar_url":"https://avatars2.githubusercontent.com/u/5184763?v=4","gravatar_id":"","url":"https://api.github.com/users/usox","html_url":"https://github.com/usox","followers_url":"https://api.github.com/users/usox/followers","following_url":"https://api.github.com/users/usox/following{/other_user}","gists_url":"https://api.github.com/users/usox/gists{/gist_id}","starred_url":"https://api.github.com/users/usox/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/usox/subscriptions","organizations_url":"https://api.github.com/users/usox/orgs","repos_url":"https://api.github.com/users/usox/repos","events_url":"https://api.github.com/users/usox/events{/privacy}","received_events_url":"https://api.github.com/users/usox/received_events","type":"User","site_admin":false}]
+0
+
