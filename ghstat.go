@@ -154,13 +154,13 @@ func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataCha
 	ghProjectData := []string{
 		repositoryData.FullName,
 		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
-		fmt.Sprintf("%s", repositoryData.Language),
 		fmt.Sprintf("%s", func(a string) string {
 			if a == "" {
 				a = "[Account removed]"
 			}
 			return a
 		}(authorLogin)),
+		fmt.Sprintf("%s", repositoryData.Language),
 		fmt.Sprintf("%s", func(l string) string {
 			if l == "" {
 				l = "[Unknown]"
