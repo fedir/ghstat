@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:27:55 GMT
+Etag: W/"f497a07e170637a8233be65dd60df166"
+Link: <https://api.github.com/user/39854/followers?page=14>; rel="prev", <https://api.github.com/user/39854/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C972:148C:16340A:2DD1EC:5ACE53AB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4701
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.058623
+X-Xss-Protection: 1; mode=block
+
+6cd
+[{"login":"tuannda","id":16602816,"avatar_url":"https://avatars0.githubusercontent.com/u/16602816?v=4","gravatar_id":"","url":"https://api.github.com/users/tuannda","html_url":"https://github.com/tuannda","followers_url":"https://api.github.com/users/tuannda/followers","following_url":"https://api.github.com/users/tuannda/following{/other_user}","gists_url":"https://api.github.com/users/tuannda/gists{/gist_id}","starred_url":"https://api.github.com/users/tuannda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tuannda/subscriptions","organizations_url":"https://api.github.com/users/tuannda/orgs","repos_url":"https://api.github.com/users/tuannda/repos","events_url":"https://api.github.com/users/tuannda/events{/privacy}","received_events_url":"https://api.github.com/users/tuannda/received_events","type":"User","site_admin":false},{"login":"ThuraMoe","id":17001535,"avatar_url":"https://avatars3.githubusercontent.com/u/17001535?v=4","gravatar_id":"","url":"https://api.github.com/users/ThuraMoe","html_url":"https://github.com/ThuraMoe","followers_url":"https://api.github.com/users/ThuraMoe/followers","following_url":"https://api.github.com/users/ThuraMoe/following{/other_user}","gists_url":"https://api.github.com/users/ThuraMoe/gists{/gist_id}","starred_url":"https://api.github.com/users/ThuraMoe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ThuraMoe/subscriptions","organizations_url":"https://api.github.com/users/ThuraMoe/orgs","repos_url":"https://api.github.com/users/ThuraMoe/repos","events_url":"https://api.github.com/users/ThuraMoe/events{/privacy}","received_events_url":"https://api.github.com/users/ThuraMoe/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:27:53 GMT
+Etag: W/"bdf7e93c4a8334dac0d5ad81e039cc26"
+Last-Modified: Tue, 03 Apr 2018 19:58:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C969:148C:163268:2DCEA3:5ACE53A9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4754
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.026431
+X-Xss-Protection: 1; mode=block
+
+1461
+[{"name":"3.7.1","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.7.1","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.7.1","commit":{"sha":"48be6627823466f1d4f18731405119a3db230067","url":"https://api.github.com/repos/PHPixie/Project/commits/48be6627823466f1d4f18731405119a3db230067"}},{"name":"3.7","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.7","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.7","commit":{"sha":"fc94e35854d4502613ec7148dda70e2d7ad84f23","url":"https://api.github.com/repos/PHPixie/Project/commits/fc94e35854d4502613ec7148dda70e2d7ad84f23"}},{"name":"3.6.2","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.6.2","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.6.2","commit":{"sha":"c5af0fd66ccc9dcc82f78da8121919fab2a2ba13","url":"https://api.github.com/repos/PHPixie/Project/commits/c5af0fd66ccc9dcc82f78da8121919fab2a2ba13"}},{"name":"3.6.1","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.6.1","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.6.1","commit":{"sha":"945765915bf772b488751a2f84a10fede059646c","url":"https://api.github.com/repos/PHPixie/Project/commits/945765915bf772b488751a2f84a10fede059646c"}},{"name":"3.6","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.6","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.6","commit":{"sha":"c1dac042e5a24973f76a1cff5adb37dea19747e5","url":"https://api.github.com/repos/PHPixie/Project/commits/c1dac042e5a24973f76a1cff5adb37dea19747e5"}},{"name":"3.5","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.5","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.5","commit":{"sha":"8d017ac8a81f2a9dce017e32e1b90908e7f1d48f","url":"https://api.github.com/repos/PHPixie/Project/commits/8d017ac8a81f2a9dce017e32e1b90908e7f1d48f"}},{"name":"3.4","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.4","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.4","commit":{"sha":"11eab023db749447e24140fa910a1741abbeb9df","url":"https://api.github.com/repos/PHPixie/Project/commits/11eab023db749447e24140fa910a1741abbeb9df"}},{"name":"3.3.4","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.3.4","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.3.4","commit":{"sha":"48dc491801074cb6ed07e9985e0d9480c7f6d411","url":"https://api.github.com/repos/PHPixie/Project/commits/48dc491801074cb6ed07e9985e0d9480c7f6d411"}},{"name":"3.3.3","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.3.3","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.3.3","commit":{"sha":"d67c5cbc16e0a082ca717986a3499ef81553a93a","url":"https://api.github.com/repos/PHPixie/Project/commits/d67c5cbc16e0a082ca717986a3499ef81553a93a"}},{"name":"3.3.2","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.3.2","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.3.2","commit":{"sha":"2512f696d272d127371825b78bbaad18ad54ed2a","url":"https://api.github.com/repos/PHPixie/Project/commits/2512f696d272d127371825b78bbaad18ad54ed2a"}},{"name":"3.3.1","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.3.1","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.3.1","commit":{"sha":"0e9d01776431568b1f8bf2149a88e4900168e284","url":"https://api.github.com/repos/PHPixie/Project/commits/0e9d01776431568b1f8bf2149a88e4900168e284"}},{"name":"3.3","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.3","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.3","commit":{"sha":"d7068c08d366a211247e30851c2be9f901ec134b","url":"https://api.github.com/repos/PHPixie/Project/commits/d7068c08d366a211247e30851c2be9f901ec134b"}},{"name":"3.2.1","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.2.1","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.2.1","commit":{"sha":"b3452705d63b078fd6437897640db7a16612177a","url":"https://api.github.com/repos/PHPixie/Project/commits/b3452705d63b078fd6437897640db7a16612177a"}},{"name":"3.2","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.2","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.2","commit":{"sha":"bd328d349b6c171f6b0a78ffac7471a52791308a","url":"https://api.github.com/repos/PHPixie/Project/commits/bd328d349b6c171f6b0a78ffac7471a52791308a"}},{"name":"3.1","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.1","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.1","commit":{"sha":"b805739d15473a393168c54185d611e690b7977f","url":"https://api.github.com/repos/PHPixie/Project/commits/b805739d15473a393168c54185d611e690b7977f"}},{"name":"3.0","zipball_url":"https://api.github.com/repos/PHPixie/Project/zipball/3.0","tarball_url":"https://api.github.com/repos/PHPixie/Project/tarball/3.0","commit":{"sha":"fe8bb979bc9c6d3099c574a92f254b170fa1a021","url":"https://api.github.com/repos/PHPixie/Project/commits/fe8bb979bc9c6d3099c574a92f254b170fa1a021"}}]
+0
+

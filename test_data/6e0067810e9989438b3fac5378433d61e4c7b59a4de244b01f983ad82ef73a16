@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:27:57 GMT
+Etag: W/"7d8ac9db8c4c211972a2d7a151f0ce90"
+Link: <https://api.github.com/user/112567/followers?page=4>; rel="prev", <https://api.github.com/user/112567/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C975:148A:108C96:241904:5ACE53AC
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4668
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.040180
+X-Xss-Protection: 1; mode=block
+
+e15
+[{"login":"dalinhuang99","id":6508763,"avatar_url":"https://avatars2.githubusercontent.com/u/6508763?v=4","gravatar_id":"","url":"https://api.github.com/users/dalinhuang99","html_url":"https://github.com/dalinhuang99","followers_url":"https://api.github.com/users/dalinhuang99/followers","following_url":"https://api.github.com/users/dalinhuang99/following{/other_user}","gists_url":"https://api.github.com/users/dalinhuang99/gists{/gist_id}","starred_url":"https://api.github.com/users/dalinhuang99/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dalinhuang99/subscriptions","organizations_url":"https://api.github.com/users/dalinhuang99/orgs","repos_url":"https://api.github.com/users/dalinhuang99/repos","events_url":"https://api.github.com/users/dalinhuang99/events{/privacy}","received_events_url":"https://api.github.com/users/dalinhuang99/received_events","type":"User","site_admin":false},{"login":"dneustadt","id":9033214,"avatar_url":"https://avatars0.githubusercontent.com/u/9033214?v=4","gravatar_id":"","url":"https://api.github.com/users/dneustadt","html_url":"https://github.com/dneustadt","followers_url":"https://api.github.com/users/dneustadt/followers","following_url":"https://api.github.com/users/dneustadt/following{/other_user}","gists_url":"https://api.github.com/users/dneustadt/gists{/gist_id}","starred_url":"https://api.github.com/users/dneustadt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dneustadt/subscriptions","organizations_url":"https://api.github.com/users/dneustadt/orgs","repos_url":"https://api.github.com/users/dneustadt/repos","events_url":"https://api.github.com/users/dneustadt/events{/privacy}","received_events_url":"https://api.github.com/users/dneustadt/received_events","type":"User","site_admin":false},{"login":"SurfaceB00k","id":25737058,"avatar_url":"https://avatars2.githubusercontent.com/u/25737058?v=4","gravatar_id":"","url":"https://api.github.com/users/SurfaceB00k","html_url":"https://github.com/SurfaceB00k","followers_url":"https://api.github.com/users/SurfaceB00k/followers","following_url":"https://api.github.com/users/SurfaceB00k/following{/other_user}","gists_url":"https://api.github.com/users/SurfaceB00k/gists{/gist_id}","starred_url":"https://api.github.com/users/SurfaceB00k/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SurfaceB00k/subscriptions","organizations_url":"https://api.github.com/users/SurfaceB00k/orgs","repos_url":"https://api.github.com/users/SurfaceB00k/repos","events_url":"https://api.github.com/users/SurfaceB00k/events{/privacy}","received_events_url":"https://api.github.com/users/SurfaceB00k/received_events","type":"User","site_admin":false},{"login":"Lawondyss","id":272130,"avatar_url":"https://avatars0.githubusercontent.com/u/272130?v=4","gravatar_id":"","url":"https://api.github.com/users/Lawondyss","html_url":"https://github.com/Lawondyss","followers_url":"https://api.github.com/users/Lawondyss/followers","following_url":"https://api.github.com/users/Lawondyss/following{/other_user}","gists_url":"https://api.github.com/users/Lawondyss/gists{/gist_id}","starred_url":"https://api.github.com/users/Lawondyss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lawondyss/subscriptions","organizations_url":"https://api.github.com/users/Lawondyss/orgs","repos_url":"https://api.github.com/users/Lawondyss/repos","events_url":"https://api.github.com/users/Lawondyss/events{/privacy}","received_events_url":"https://api.github.com/users/Lawondyss/received_events","type":"User","site_admin":false}]
+0
+
