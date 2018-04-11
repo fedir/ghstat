@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:23:14 GMT
+Etag: W/"ea7d1477b0668d6ba75e35e82e5948c4"
+Last-Modified: Wed, 11 Apr 2018 17:56:41 GMT
+Link: <https://api.github.com/repositories/43441403/tags?page=1>; rel="prev", <https://api.github.com/repositories/43441403/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C947:1489:DE2A5:1EC26C:5ACE5292
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4830
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.059901
+X-Xss-Protection: 1; mode=block
+
+131b
+[{"name":"v1.5.1","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.5.1","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.5.1","commit":{"sha":"501c577fe39a708da7c99463ee2cc79d79c95be6","url":"https://api.github.com/repos/strapi/strapi/commits/501c577fe39a708da7c99463ee2cc79d79c95be6"}},{"name":"v1.5.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.5.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.5.0","commit":{"sha":"cf0b0035d7f77c6d3a0b001f9a4c3b683961c225","url":"https://api.github.com/repos/strapi/strapi/commits/cf0b0035d7f77c6d3a0b001f9a4c3b683961c225"}},{"name":"v1.4.1","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.4.1","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.4.1","commit":{"sha":"b0d562ea484166194b10f7eeda2f5f11c337b2b1","url":"https://api.github.com/repos/strapi/strapi/commits/b0d562ea484166194b10f7eeda2f5f11c337b2b1"}},{"name":"v1.4.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.4.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.4.0","commit":{"sha":"6f179b5cdb3d99932ea1a8ab1a9b4e1b840cee71","url":"https://api.github.com/repos/strapi/strapi/commits/6f179b5cdb3d99932ea1a8ab1a9b4e1b840cee71"}},{"name":"v1.3.1","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.3.1","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.3.1","commit":{"sha":"e205382ee9dba166569677842185c00d496b3c5e","url":"https://api.github.com/repos/strapi/strapi/commits/e205382ee9dba166569677842185c00d496b3c5e"}},{"name":"v1.3.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.3.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.3.0","commit":{"sha":"5181c5e994f610a89bbc7691c8855a2ebad64f08","url":"https://api.github.com/repos/strapi/strapi/commits/5181c5e994f610a89bbc7691c8855a2ebad64f08"}},{"name":"v1.2.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.2.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.2.0","commit":{"sha":"22f96e1719dd89731ace1cdbd7f956ad6e47751e","url":"https://api.github.com/repos/strapi/strapi/commits/22f96e1719dd89731ace1cdbd7f956ad6e47751e"}},{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.1.0","commit":{"sha":"72a85bcea9f12d653dd34214e6834ea134586dd8","url":"https://api.github.com/repos/strapi/strapi/commits/72a85bcea9f12d653dd34214e6834ea134586dd8"}},{"name":"v1.0.6","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.6","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.6","commit":{"sha":"736ea04e8cc78893cb44f17c0eb8c99e3e46b45b","url":"https://api.github.com/repos/strapi/strapi/commits/736ea04e8cc78893cb44f17c0eb8c99e3e46b45b"}},{"name":"v1.0.5","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.5","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.5","commit":{"sha":"94ddbc6881f46bc4fa867624d81cb48d241f4e67","url":"https://api.github.com/repos/strapi/strapi/commits/94ddbc6881f46bc4fa867624d81cb48d241f4e67"}},{"name":"v1.0.4","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.4","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.4","commit":{"sha":"ed51eb446219f01434d2b31a579d547534caccbb","url":"https://api.github.com/repos/strapi/strapi/commits/ed51eb446219f01434d2b31a579d547534caccbb"}},{"name":"v1.0.3","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.3","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.3","commit":{"sha":"a70470c065caa0f9356cf8d0b32c3247dd501278","url":"https://api.github.com/repos/strapi/strapi/commits/a70470c065caa0f9356cf8d0b32c3247dd501278"}},{"name":"v1.0.2","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.2","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.2","commit":{"sha":"0300c9588965ec0ef18e400555e2edf80a87b069","url":"https://api.github.com/repos/strapi/strapi/commits/0300c9588965ec0ef18e400555e2edf80a87b069"}},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.1","commit":{"sha":"7469182e5c6ce0445e2b7e7e3fcf8fef3f57ab53","url":"https://api.github.com/repos/strapi/strapi/commits/7469182e5c6ce0445e2b7e7e3fcf8fef3f57ab53"}},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/strapi/strapi/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/strapi/strapi/tarball/v1.0.0","commit":{"sha":"02597489f4117e5456977ff4bc0abe5aa90082e7","url":"https://api.github.com/repos/strapi/strapi/commits/02597489f4117e5456977ff4bc0abe5aa90082e7"}}]
+0
+

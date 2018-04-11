@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:23:09 GMT
+Etag: W/"f1c31fd4546cb3078423aa7b86fdfd73"
+Last-Modified: Wed, 11 Apr 2018 18:11:18 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C942:148A:1015F7:230CD5:5ACE528D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4968
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.098976
+X-Xss-Protection: 1; mode=block
+
+134f
+{"id":21737465,"name":"awesome","full_name":"sindresorhus/awesome","owner":{"login":"sindresorhus","id":170270,"avatar_url":"https://avatars1.githubusercontent.com/u/170270?v=4","gravatar_id":"","url":"https://api.github.com/users/sindresorhus","html_url":"https://github.com/sindresorhus","followers_url":"https://api.github.com/users/sindresorhus/followers","following_url":"https://api.github.com/users/sindresorhus/following{/other_user}","gists_url":"https://api.github.com/users/sindresorhus/gists{/gist_id}","starred_url":"https://api.github.com/users/sindresorhus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sindresorhus/subscriptions","organizations_url":"https://api.github.com/users/sindresorhus/orgs","repos_url":"https://api.github.com/users/sindresorhus/repos","events_url":"https://api.github.com/users/sindresorhus/events{/privacy}","received_events_url":"https://api.github.com/users/sindresorhus/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/sindresorhus/awesome","description":":sunglasses: Curated list of awesome lists","fork":false,"url":"https://api.github.com/repos/sindresorhus/awesome","forks_url":"https://api.github.com/repos/sindresorhus/awesome/forks","keys_url":"https://api.github.com/repos/sindresorhus/awesome/keys{/key_id}","collaborators_url":"https://api.github.com/repos/sindresorhus/awesome/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/sindresorhus/awesome/teams","hooks_url":"https://api.github.com/repos/sindresorhus/awesome/hooks","issue_events_url":"https://api.github.com/repos/sindresorhus/awesome/issues/events{/number}","events_url":"https://api.github.com/repos/sindresorhus/awesome/events","assignees_url":"https://api.github.com/repos/sindresorhus/awesome/assignees{/user}","branches_url":"https://api.github.com/repos/sindresorhus/awesome/branches{/branch}","tags_url":"https://api.github.com/repos/sindresorhus/awesome/tags","blobs_url":"https://api.github.com/repos/sindresorhus/awesome/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/sindresorhus/awesome/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/sindresorhus/awesome/git/refs{/sha}","trees_url":"https://api.github.com/repos/sindresorhus/awesome/git/trees{/sha}","statuses_url":"https://api.github.com/repos/sindresorhus/awesome/statuses/{sha}","languages_url":"https://api.github.com/repos/sindresorhus/awesome/languages","stargazers_url":"https://api.github.com/repos/sindresorhus/awesome/stargazers","contributors_url":"https://api.github.com/repos/sindresorhus/awesome/contributors","subscribers_url":"https://api.github.com/repos/sindresorhus/awesome/subscribers","subscription_url":"https://api.github.com/repos/sindresorhus/awesome/subscription","commits_url":"https://api.github.com/repos/sindresorhus/awesome/commits{/sha}","git_commits_url":"https://api.github.com/repos/sindresorhus/awesome/git/commits{/sha}","comments_url":"https://api.github.com/repos/sindresorhus/awesome/comments{/number}","issue_comment_url":"https://api.github.com/repos/sindresorhus/awesome/issues/comments{/number}","contents_url":"https://api.github.com/repos/sindresorhus/awesome/contents/{+path}","compare_url":"https://api.github.com/repos/sindresorhus/awesome/compare/{base}...{head}","merges_url":"https://api.github.com/repos/sindresorhus/awesome/merges","archive_url":"https://api.github.com/repos/sindresorhus/awesome/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/sindresorhus/awesome/downloads","issues_url":"https://api.github.com/repos/sindresorhus/awesome/issues{/number}","pulls_url":"https://api.github.com/repos/sindresorhus/awesome/pulls{/number}","milestones_url":"https://api.github.com/repos/sindresorhus/awesome/milestones{/number}","notifications_url":"https://api.github.com/repos/sindresorhus/awesome/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/sindresorhus/awesome/labels{/name}","releases_url":"https://api.github.com/repos/sindresorhus/awesome/releases{/id}","deployments_url":"https://api.github.com/repos/sindresorhus/awesome/deployments","created_at":"2014-07-11T13:42:37Z","updated_at":"2018-04-11T18:11:18Z","pushed_at":"2018-04-09T08:55:05Z","git_url":"git://github.com/sindresorhus/awesome.git","ssh_url":"git@github.com:sindresorhus/awesome.git","clone_url":"https://github.com/sindresorhus/awesome.git","svn_url":"https://github.com/sindresorhus/awesome","homepage":"","size":740,"stargazers_count":82661,"watchers_count":82661,"language":null,"has_issues":true,"has_projects":false,"has_downloads":true,"has_wiki":false,"has_pages":true,"forks_count":10855,"mirror_url":null,"archived":false,"open_issues_count":149,"license":null,"forks":10855,"open_issues":149,"watchers":82661,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":10855,"subscribers_count":5329}
+0
+

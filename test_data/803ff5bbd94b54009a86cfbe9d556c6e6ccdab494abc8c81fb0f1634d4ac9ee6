@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:23:13 GMT
+Etag: W/"ca2a888bab852a17460fbc6caec72547"
+Link: <https://api.github.com/user/3092978/followers?page=2>; rel="prev", <https://api.github.com/user/3092978/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C946:148A:1017DE:2310F0:5ACE5291
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4874
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.028961
+X-Xss-Protection: 1; mode=block
+
+a95
+[{"login":"lei40251","id":648155,"avatar_url":"https://avatars2.githubusercontent.com/u/648155?v=4","gravatar_id":"","url":"https://api.github.com/users/lei40251","html_url":"https://github.com/lei40251","followers_url":"https://api.github.com/users/lei40251/followers","following_url":"https://api.github.com/users/lei40251/following{/other_user}","gists_url":"https://api.github.com/users/lei40251/gists{/gist_id}","starred_url":"https://api.github.com/users/lei40251/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lei40251/subscriptions","organizations_url":"https://api.github.com/users/lei40251/orgs","repos_url":"https://api.github.com/users/lei40251/repos","events_url":"https://api.github.com/users/lei40251/events{/privacy}","received_events_url":"https://api.github.com/users/lei40251/received_events","type":"User","site_admin":false},{"login":"BrokenColor","id":20519859,"avatar_url":"https://avatars2.githubusercontent.com/u/20519859?v=4","gravatar_id":"","url":"https://api.github.com/users/BrokenColor","html_url":"https://github.com/BrokenColor","followers_url":"https://api.github.com/users/BrokenColor/followers","following_url":"https://api.github.com/users/BrokenColor/following{/other_user}","gists_url":"https://api.github.com/users/BrokenColor/gists{/gist_id}","starred_url":"https://api.github.com/users/BrokenColor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BrokenColor/subscriptions","organizations_url":"https://api.github.com/users/BrokenColor/orgs","repos_url":"https://api.github.com/users/BrokenColor/repos","events_url":"https://api.github.com/users/BrokenColor/events{/privacy}","received_events_url":"https://api.github.com/users/BrokenColor/received_events","type":"User","site_admin":false},{"login":"Nietzschecat","id":16161913,"avatar_url":"https://avatars0.githubusercontent.com/u/16161913?v=4","gravatar_id":"","url":"https://api.github.com/users/Nietzschecat","html_url":"https://github.com/Nietzschecat","followers_url":"https://api.github.com/users/Nietzschecat/followers","following_url":"https://api.github.com/users/Nietzschecat/following{/other_user}","gists_url":"https://api.github.com/users/Nietzschecat/gists{/gist_id}","starred_url":"https://api.github.com/users/Nietzschecat/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Nietzschecat/subscriptions","organizations_url":"https://api.github.com/users/Nietzschecat/orgs","repos_url":"https://api.github.com/users/Nietzschecat/repos","events_url":"https://api.github.com/users/Nietzschecat/events{/privacy}","received_events_url":"https://api.github.com/users/Nietzschecat/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:23:13 GMT
+Etag: W/"d7372f4ce850599da73d64ace02a0384"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C948:148C:158344:2C6670:5ACE5291
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4871
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.042909
+X-Xss-Protection: 1; mode=block
+
+a53
+[{"login":"Garbee","id":868301,"avatar_url":"https://avatars1.githubusercontent.com/u/868301?v=4","gravatar_id":"","url":"https://api.github.com/users/Garbee","html_url":"https://github.com/Garbee","followers_url":"https://api.github.com/users/Garbee/followers","following_url":"https://api.github.com/users/Garbee/following{/other_user}","gists_url":"https://api.github.com/users/Garbee/gists{/gist_id}","starred_url":"https://api.github.com/users/Garbee/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Garbee/subscriptions","organizations_url":"https://api.github.com/users/Garbee/orgs","repos_url":"https://api.github.com/users/Garbee/repos","events_url":"https://api.github.com/users/Garbee/events{/privacy}","received_events_url":"https://api.github.com/users/Garbee/received_events","type":"User","site_admin":false},{"login":"alma4rebi","id":9637475,"avatar_url":"https://avatars2.githubusercontent.com/u/9637475?v=4","gravatar_id":"","url":"https://api.github.com/users/alma4rebi","html_url":"https://github.com/alma4rebi","followers_url":"https://api.github.com/users/alma4rebi/followers","following_url":"https://api.github.com/users/alma4rebi/following{/other_user}","gists_url":"https://api.github.com/users/alma4rebi/gists{/gist_id}","starred_url":"https://api.github.com/users/alma4rebi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alma4rebi/subscriptions","organizations_url":"https://api.github.com/users/alma4rebi/orgs","repos_url":"https://api.github.com/users/alma4rebi/repos","events_url":"https://api.github.com/users/alma4rebi/events{/privacy}","received_events_url":"https://api.github.com/users/alma4rebi/received_events","type":"User","site_admin":false},{"login":"mitchmalone","id":532643,"avatar_url":"https://avatars3.githubusercontent.com/u/532643?v=4","gravatar_id":"","url":"https://api.github.com/users/mitchmalone","html_url":"https://github.com/mitchmalone","followers_url":"https://api.github.com/users/mitchmalone/followers","following_url":"https://api.github.com/users/mitchmalone/following{/other_user}","gists_url":"https://api.github.com/users/mitchmalone/gists{/gist_id}","starred_url":"https://api.github.com/users/mitchmalone/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mitchmalone/subscriptions","organizations_url":"https://api.github.com/users/mitchmalone/orgs","repos_url":"https://api.github.com/users/mitchmalone/repos","events_url":"https://api.github.com/users/mitchmalone/events{/privacy}","received_events_url":"https://api.github.com/users/mitchmalone/received_events","type":"User","site_admin":false}]
+0
+

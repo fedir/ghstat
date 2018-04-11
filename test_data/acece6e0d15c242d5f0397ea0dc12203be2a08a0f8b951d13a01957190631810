@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:23:13 GMT
+Etag: W/"754df4e9633b39892424cf5c9a8b037d"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C943:148B:129CEB:27DA39:5ACE5291
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4860
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.030760
+X-Xss-Protection: 1; mode=block
+
+ab5
+[{"login":"fabianmoronzirfas","id":315106,"avatar_url":"https://avatars3.githubusercontent.com/u/315106?v=4","gravatar_id":"","url":"https://api.github.com/users/fabianmoronzirfas","html_url":"https://github.com/fabianmoronzirfas","followers_url":"https://api.github.com/users/fabianmoronzirfas/followers","following_url":"https://api.github.com/users/fabianmoronzirfas/following{/other_user}","gists_url":"https://api.github.com/users/fabianmoronzirfas/gists{/gist_id}","starred_url":"https://api.github.com/users/fabianmoronzirfas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fabianmoronzirfas/subscriptions","organizations_url":"https://api.github.com/users/fabianmoronzirfas/orgs","repos_url":"https://api.github.com/users/fabianmoronzirfas/repos","events_url":"https://api.github.com/users/fabianmoronzirfas/events{/privacy}","received_events_url":"https://api.github.com/users/fabianmoronzirfas/received_events","type":"User","site_admin":false},{"login":"neutyp","id":1312538,"avatar_url":"https://avatars2.githubusercontent.com/u/1312538?v=4","gravatar_id":"","url":"https://api.github.com/users/neutyp","html_url":"https://github.com/neutyp","followers_url":"https://api.github.com/users/neutyp/followers","following_url":"https://api.github.com/users/neutyp/following{/other_user}","gists_url":"https://api.github.com/users/neutyp/gists{/gist_id}","starred_url":"https://api.github.com/users/neutyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/neutyp/subscriptions","organizations_url":"https://api.github.com/users/neutyp/orgs","repos_url":"https://api.github.com/users/neutyp/repos","events_url":"https://api.github.com/users/neutyp/events{/privacy}","received_events_url":"https://api.github.com/users/neutyp/received_events","type":"User","site_admin":false},{"login":"huntercaron","id":4625978,"avatar_url":"https://avatars2.githubusercontent.com/u/4625978?v=4","gravatar_id":"","url":"https://api.github.com/users/huntercaron","html_url":"https://github.com/huntercaron","followers_url":"https://api.github.com/users/huntercaron/followers","following_url":"https://api.github.com/users/huntercaron/following{/other_user}","gists_url":"https://api.github.com/users/huntercaron/gists{/gist_id}","starred_url":"https://api.github.com/users/huntercaron/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/huntercaron/subscriptions","organizations_url":"https://api.github.com/users/huntercaron/orgs","repos_url":"https://api.github.com/users/huntercaron/repos","events_url":"https://api.github.com/users/huntercaron/events{/privacy}","received_events_url":"https://api.github.com/users/huntercaron/received_events","type":"User","site_admin":false}]
+0
+
