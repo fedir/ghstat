@@ -1,4 +1,2 @@
 #!/bin/bash
-./ghstat -r laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,nova-framework/framework -f stats/php_frameworks.csv
-
-
+./ghstat -r laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,nova-framework/framework,cakephp/cakephp,pradosoft/prado,phalcon/cphalcon,nette/nette,PHPixie/Project,slimphp/Slim,leocavalcante/siler -f stats/php_frameworks.csv
