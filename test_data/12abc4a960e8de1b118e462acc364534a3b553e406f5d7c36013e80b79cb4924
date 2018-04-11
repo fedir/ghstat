@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:04:27 GMT
+Etag: W/"592d5530c353e397ad3bed958f1799eb"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C873:148A:DFCFC:1E8093:5ACE4E2B
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 1
+X-Ratelimit-Reset: 1523473464
+X-Runtime-Rack: 0.043320
+X-Xss-Protection: 1; mode=block
+
+6cb
+[{"login":"ockie77","id":37890484,"avatar_url":"https://avatars2.githubusercontent.com/u/37890484?v=4","gravatar_id":"","url":"https://api.github.com/users/ockie77","html_url":"https://github.com/ockie77","followers_url":"https://api.github.com/users/ockie77/followers","following_url":"https://api.github.com/users/ockie77/following{/other_user}","gists_url":"https://api.github.com/users/ockie77/gists{/gist_id}","starred_url":"https://api.github.com/users/ockie77/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ockie77/subscriptions","organizations_url":"https://api.github.com/users/ockie77/orgs","repos_url":"https://api.github.com/users/ockie77/repos","events_url":"https://api.github.com/users/ockie77/events{/privacy}","received_events_url":"https://api.github.com/users/ockie77/received_events","type":"User","site_admin":false},{"login":"xuantain","id":8766500,"avatar_url":"https://avatars1.githubusercontent.com/u/8766500?v=4","gravatar_id":"","url":"https://api.github.com/users/xuantain","html_url":"https://github.com/xuantain","followers_url":"https://api.github.com/users/xuantain/followers","following_url":"https://api.github.com/users/xuantain/following{/other_user}","gists_url":"https://api.github.com/users/xuantain/gists{/gist_id}","starred_url":"https://api.github.com/users/xuantain/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xuantain/subscriptions","organizations_url":"https://api.github.com/users/xuantain/orgs","repos_url":"https://api.github.com/users/xuantain/repos","events_url":"https://api.github.com/users/xuantain/events{/privacy}","received_events_url":"https://api.github.com/users/xuantain/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:06:04 GMT
+Etag: W/"5fefc683332907ecc9382acd4ffb3d40"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C8E5:148B:108398:234802:5ACE4E8C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4962
+X-Ratelimit-Reset: 1523470379
+X-Runtime-Rack: 0.075734
+X-Xss-Protection: 1; mode=block
+
+697
+[{"login":"beck","id":154988,"avatar_url":"https://avatars3.githubusercontent.com/u/154988?v=4","gravatar_id":"","url":"https://api.github.com/users/beck","html_url":"https://github.com/beck","followers_url":"https://api.github.com/users/beck/followers","following_url":"https://api.github.com/users/beck/following{/other_user}","gists_url":"https://api.github.com/users/beck/gists{/gist_id}","starred_url":"https://api.github.com/users/beck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beck/subscriptions","organizations_url":"https://api.github.com/users/beck/orgs","repos_url":"https://api.github.com/users/beck/repos","events_url":"https://api.github.com/users/beck/events{/privacy}","received_events_url":"https://api.github.com/users/beck/received_events","type":"User","site_admin":false},{"login":"chcolor","id":9345838,"avatar_url":"https://avatars1.githubusercontent.com/u/9345838?v=4","gravatar_id":"","url":"https://api.github.com/users/chcolor","html_url":"https://github.com/chcolor","followers_url":"https://api.github.com/users/chcolor/followers","following_url":"https://api.github.com/users/chcolor/following{/other_user}","gists_url":"https://api.github.com/users/chcolor/gists{/gist_id}","starred_url":"https://api.github.com/users/chcolor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chcolor/subscriptions","organizations_url":"https://api.github.com/users/chcolor/orgs","repos_url":"https://api.github.com/users/chcolor/repos","events_url":"https://api.github.com/users/chcolor/events{/privacy}","received_events_url":"https://api.github.com/users/chcolor/received_events","type":"User","site_admin":false}]
+0
+

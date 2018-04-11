@@ -2,7 +2,8 @@
 yesodweb/yesod,snapframework/snap-core,agrafix/Spock,transient-haskell/axiom,myfreeweb/magicbane,positiondev/fn,\
 leafo/lapis,sailorproject/sailor,keplerproject/orbit,luvit/luvit,Fizzadar/Luapress,kernelsauce/turbo,mongrel2/Tir,appwilldev/moochine,\
 playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,\
-angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,riot/riot,\
+angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,\
+expressjs/express,hexojs/hexo,hyperapp/hyperapp,MithrilJS/mithril.js,totaljs/framework,enyojs/enyo,microjs/microjs.com,nuxt/nuxt.js,riot/riotriot,\
 laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,\
 bottlepy/bottle,plotly/dash,django/django,pallets/flask,Pylons/pyramid,channelcat/sanic,tornadoweb/tornado,web2py/web2py,TurboGears/tg2,\
 camping/camping,soveran/cuba,patriciomacadden/hobbit,hanami/hanami,ruby-hyperloop/hyper-react,padrino/padrino-framework,pakyow/pakyow,rack-app/rack-app,ramaze/ramaze,jeremyevans/roda,rails/rails,wardrop/Scorched,sinatra/sinatra,voltrb/volt,\

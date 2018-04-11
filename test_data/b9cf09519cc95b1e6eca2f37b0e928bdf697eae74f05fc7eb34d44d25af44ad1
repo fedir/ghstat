@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:06:04 GMT
+Etag: W/"86022c711c1bbd90bcf84bc8e0bd14c2"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C8E7:148C:130245:27392F:5ACE4E8C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4969
+X-Ratelimit-Reset: 1523470379
+X-Runtime-Rack: 0.047936
+X-Xss-Protection: 1; mode=block
+
+aa3
+[{"login":"cosmolee821","id":20842156,"avatar_url":"https://avatars1.githubusercontent.com/u/20842156?v=4","gravatar_id":"","url":"https://api.github.com/users/cosmolee821","html_url":"https://github.com/cosmolee821","followers_url":"https://api.github.com/users/cosmolee821/followers","following_url":"https://api.github.com/users/cosmolee821/following{/other_user}","gists_url":"https://api.github.com/users/cosmolee821/gists{/gist_id}","starred_url":"https://api.github.com/users/cosmolee821/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cosmolee821/subscriptions","organizations_url":"https://api.github.com/users/cosmolee821/orgs","repos_url":"https://api.github.com/users/cosmolee821/repos","events_url":"https://api.github.com/users/cosmolee821/events{/privacy}","received_events_url":"https://api.github.com/users/cosmolee821/received_events","type":"User","site_admin":false},{"login":"lyquocnam","id":8347826,"avatar_url":"https://avatars0.githubusercontent.com/u/8347826?v=4","gravatar_id":"","url":"https://api.github.com/users/lyquocnam","html_url":"https://github.com/lyquocnam","followers_url":"https://api.github.com/users/lyquocnam/followers","following_url":"https://api.github.com/users/lyquocnam/following{/other_user}","gists_url":"https://api.github.com/users/lyquocnam/gists{/gist_id}","starred_url":"https://api.github.com/users/lyquocnam/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lyquocnam/subscriptions","organizations_url":"https://api.github.com/users/lyquocnam/orgs","repos_url":"https://api.github.com/users/lyquocnam/repos","events_url":"https://api.github.com/users/lyquocnam/events{/privacy}","received_events_url":"https://api.github.com/users/lyquocnam/received_events","type":"User","site_admin":false},{"login":"jameskrauser","id":16457544,"avatar_url":"https://avatars1.githubusercontent.com/u/16457544?v=4","gravatar_id":"","url":"https://api.github.com/users/jameskrauser","html_url":"https://github.com/jameskrauser","followers_url":"https://api.github.com/users/jameskrauser/followers","following_url":"https://api.github.com/users/jameskrauser/following{/other_user}","gists_url":"https://api.github.com/users/jameskrauser/gists{/gist_id}","starred_url":"https://api.github.com/users/jameskrauser/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jameskrauser/subscriptions","organizations_url":"https://api.github.com/users/jameskrauser/orgs","repos_url":"https://api.github.com/users/jameskrauser/repos","events_url":"https://api.github.com/users/jameskrauser/events{/privacy}","received_events_url":"https://api.github.com/users/jameskrauser/received_events","type":"User","site_admin":false}]
+0
+

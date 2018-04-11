@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:06:05 GMT
+Etag: W/"ab18b2732f886b0ee65218d4aa9491de"
+Last-Modified: Wed, 11 Apr 2018 16:55:32 GMT
+Link: <https://api.github.com/repositories/71995937/tags?page=3>; rel="prev", <https://api.github.com/repositories/71995937/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C8E6:1489:C40DA:1B2DAA:5ACE4E8D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4943
+X-Ratelimit-Reset: 1523470379
+X-Runtime-Rack: 0.069342
+X-Xss-Protection: 1; mode=block
+
+516
+[{"name":"v0.2.2","zipball_url":"https://api.github.com/repos/nuxt/nuxt.js/zipball/v0.2.2","tarball_url":"https://api.github.com/repos/nuxt/nuxt.js/tarball/v0.2.2","commit":{"sha":"923b211a929392e7bb77e3e9326655229397ca13","url":"https://api.github.com/repos/nuxt/nuxt.js/commits/923b211a929392e7bb77e3e9326655229397ca13"}},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/nuxt/nuxt.js/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/nuxt/nuxt.js/tarball/v0.2.1","commit":{"sha":"876054ed48764ef11278c27d1884d94c3153b05d","url":"https://api.github.com/repos/nuxt/nuxt.js/commits/876054ed48764ef11278c27d1884d94c3153b05d"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/nuxt/nuxt.js/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/nuxt/nuxt.js/tarball/v0.2.0","commit":{"sha":"9ebbb14eabd73ed64871d0ee59fafaad914e95f2","url":"https://api.github.com/repos/nuxt/nuxt.js/commits/9ebbb14eabd73ed64871d0ee59fafaad914e95f2"}},{"name":"1.0.0-rc3","zipball_url":"https://api.github.com/repos/nuxt/nuxt.js/zipball/1.0.0-rc3","tarball_url":"https://api.github.com/repos/nuxt/nuxt.js/tarball/1.0.0-rc3","commit":{"sha":"8563c0f05fca617eb296544ac1f84f96cf470c5f","url":"https://api.github.com/repos/nuxt/nuxt.js/commits/8563c0f05fca617eb296544ac1f84f96cf470c5f"}}]
+0
+

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:04:26 GMT
+Etag: W/"84ccbf94e0312f2edd2531905e8ac539"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C86E:148C:12C437:26B929:5ACE4E2A
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 21
+X-Ratelimit-Reset: 1523473464
+X-Runtime-Rack: 0.028161
+X-Xss-Protection: 1; mode=block
+
+a5d
+[{"login":"benjamn","id":5750,"avatar_url":"https://avatars0.githubusercontent.com/u/5750?v=4","gravatar_id":"","url":"https://api.github.com/users/benjamn","html_url":"https://github.com/benjamn","followers_url":"https://api.github.com/users/benjamn/followers","following_url":"https://api.github.com/users/benjamn/following{/other_user}","gists_url":"https://api.github.com/users/benjamn/gists{/gist_id}","starred_url":"https://api.github.com/users/benjamn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/benjamn/subscriptions","organizations_url":"https://api.github.com/users/benjamn/orgs","repos_url":"https://api.github.com/users/benjamn/repos","events_url":"https://api.github.com/users/benjamn/events{/privacy}","received_events_url":"https://api.github.com/users/benjamn/received_events","type":"User","site_admin":false},{"login":"PriyankGahtori","id":4761426,"avatar_url":"https://avatars0.githubusercontent.com/u/4761426?v=4","gravatar_id":"","url":"https://api.github.com/users/PriyankGahtori","html_url":"https://github.com/PriyankGahtori","followers_url":"https://api.github.com/users/PriyankGahtori/followers","following_url":"https://api.github.com/users/PriyankGahtori/following{/other_user}","gists_url":"https://api.github.com/users/PriyankGahtori/gists{/gist_id}","starred_url":"https://api.github.com/users/PriyankGahtori/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PriyankGahtori/subscriptions","organizations_url":"https://api.github.com/users/PriyankGahtori/orgs","repos_url":"https://api.github.com/users/PriyankGahtori/repos","events_url":"https://api.github.com/users/PriyankGahtori/events{/privacy}","received_events_url":"https://api.github.com/users/PriyankGahtori/received_events","type":"User","site_admin":false},{"login":"kyo504","id":3175096,"avatar_url":"https://avatars1.githubusercontent.com/u/3175096?v=4","gravatar_id":"","url":"https://api.github.com/users/kyo504","html_url":"https://github.com/kyo504","followers_url":"https://api.github.com/users/kyo504/followers","following_url":"https://api.github.com/users/kyo504/following{/other_user}","gists_url":"https://api.github.com/users/kyo504/gists{/gist_id}","starred_url":"https://api.github.com/users/kyo504/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kyo504/subscriptions","organizations_url":"https://api.github.com/users/kyo504/orgs","repos_url":"https://api.github.com/users/kyo504/repos","events_url":"https://api.github.com/users/kyo504/events{/privacy}","received_events_url":"https://api.github.com/users/kyo504/received_events","type":"User","site_admin":false}]
+0
+
