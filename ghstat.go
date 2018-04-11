@@ -46,7 +46,7 @@ func main() {
 		os.Exit(0)
 	}
 	if *repositoriesKeysManual != "" {
-		repositoriesKeys = strings.Split(*repositoriesKeysManual, ",")
+		repositoriesKeys = uniqSlice(strings.Split(*repositoriesKeysManual, ","))
 	} else {
 		repositoriesKeys = []string{
 			"astaxie/beego",
@@ -60,6 +60,7 @@ func main() {
 			"zenazn/goji",
 		}
 	}
+
 	csvFilePath := ""
 	if *resultFileSavePath != "" {
 		csvFilePath = *resultFileSavePath
@@ -273,4 +274,18 @@ func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
 			log.Fatal("Cannot write to file", err)
 		}
 	}
+}
+
+func uniqSlice(s []string) []string {
+	unique := make(map[string]bool, len(s))
+	us := make([]string, len(unique))
+	for _, elem := range s {
+		if len(elem) != 0 {
+			if !unique[elem] {
+				us = append(us, elem)
+				unique[elem] = true
+			}
+		}
+	}
+	return us
 }
