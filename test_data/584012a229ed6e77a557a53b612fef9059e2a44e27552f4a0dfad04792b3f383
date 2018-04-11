@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:35 GMT
+Etag: W/"f591e6c65f263232845eb1abe5084163"
+Last-Modified: Wed, 11 Apr 2018 13:47:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA6F:148A:139407:2AB2CF:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4076
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.052502
+X-Xss-Protection: 1; mode=block
+
+cf9
+[{"name":"v2.0.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v2.0.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v2.0.0","commit":{"sha":"848130ea98b952bb60e60ea26f922bf3676f36d6","url":"https://api.github.com/repos/adamdruppe/arsd/commits/848130ea98b952bb60e60ea26f922bf3676f36d6"}},{"name":"v1.4.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.4.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.4.0","commit":{"sha":"848130ea98b952bb60e60ea26f922bf3676f36d6","url":"https://api.github.com/repos/adamdruppe/arsd/commits/848130ea98b952bb60e60ea26f922bf3676f36d6"}},{"name":"v1.3.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.3.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.3.0","commit":{"sha":"d44de6f22b61814b3831d08fb0cb43422c97a350","url":"https://api.github.com/repos/adamdruppe/arsd/commits/d44de6f22b61814b3831d08fb0cb43422c97a350"}},{"name":"v1.2.3","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.2.3","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.2.3","commit":{"sha":"dd94cd691b4dee861718bd2709c94fe80ad980a5","url":"https://api.github.com/repos/adamdruppe/arsd/commits/dd94cd691b4dee861718bd2709c94fe80ad980a5"}},{"name":"v1.2.2","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.2.2","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.2.2","commit":{"sha":"28e958773075b9ddf669c062b348c122e592bfef","url":"https://api.github.com/repos/adamdruppe/arsd/commits/28e958773075b9ddf669c062b348c122e592bfef"}},{"name":"v1.2.1","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.2.1","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.2.1","commit":{"sha":"63b3eebe7196c79909f0bdcef06c861b695fa6b8","url":"https://api.github.com/repos/adamdruppe/arsd/commits/63b3eebe7196c79909f0bdcef06c861b695fa6b8"}},{"name":"v1.2.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.2.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.2.0","commit":{"sha":"7ddf54f0307a26e6899a533a6f25277b059d03bc","url":"https://api.github.com/repos/adamdruppe/arsd/commits/7ddf54f0307a26e6899a533a6f25277b059d03bc"}},{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.1.0","commit":{"sha":"0e2017e83ac494b8c403970de87901cdfa799e59","url":"https://api.github.com/repos/adamdruppe/arsd/commits/0e2017e83ac494b8c403970de87901cdfa799e59"}},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.0.1","commit":{"sha":"df903147f19fb7b88b8f4c49bb40aa720120d07e","url":"https://api.github.com/repos/adamdruppe/arsd/commits/df903147f19fb7b88b8f4c49bb40aa720120d07e"}},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/adamdruppe/arsd/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/adamdruppe/arsd/tarball/v1.0.0","commit":{"sha":"8df1459a120c174f7eb10e0bea8e3446642968b6","url":"https://api.github.com/repos/adamdruppe/arsd/commits/8df1459a120c174f7eb10e0bea8e3446642968b6"}}]
+0
+

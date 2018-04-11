@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:30 GMT
+Etag: W/"79af2989a7097f8960c4207c8759d0cc"
+Last-Modified: Wed, 11 Apr 2018 13:47:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA24:1489:10D3CF:2530CD:5ACE5A5D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4496
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.054619
+X-Xss-Protection: 1; mode=block
+
+1378
+{"id":2052937,"name":"arsd","full_name":"adamdruppe/arsd","owner":{"login":"adamdruppe","id":600799,"avatar_url":"https://avatars3.githubusercontent.com/u/600799?v=4","gravatar_id":"","url":"https://api.github.com/users/adamdruppe","html_url":"https://github.com/adamdruppe","followers_url":"https://api.github.com/users/adamdruppe/followers","following_url":"https://api.github.com/users/adamdruppe/following{/other_user}","gists_url":"https://api.github.com/users/adamdruppe/gists{/gist_id}","starred_url":"https://api.github.com/users/adamdruppe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamdruppe/subscriptions","organizations_url":"https://api.github.com/users/adamdruppe/orgs","repos_url":"https://api.github.com/users/adamdruppe/repos","events_url":"https://api.github.com/users/adamdruppe/events{/privacy}","received_events_url":"https://api.github.com/users/adamdruppe/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/adamdruppe/arsd","description":"This is a collection of modules that I've released over the years. Most of them stand alone, or have just one or two dependencies in here, so you don't have to download this whole repo. You may find some ddoc here:http://arsdnet.net/ddoc/ or you can always ask me for help. ","fork":false,"url":"https://api.github.com/repos/adamdruppe/arsd","forks_url":"https://api.github.com/repos/adamdruppe/arsd/forks","keys_url":"https://api.github.com/repos/adamdruppe/arsd/keys{/key_id}","collaborators_url":"https://api.github.com/repos/adamdruppe/arsd/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/adamdruppe/arsd/teams","hooks_url":"https://api.github.com/repos/adamdruppe/arsd/hooks","issue_events_url":"https://api.github.com/repos/adamdruppe/arsd/issues/events{/number}","events_url":"https://api.github.com/repos/adamdruppe/arsd/events","assignees_url":"https://api.github.com/repos/adamdruppe/arsd/assignees{/user}","branches_url":"https://api.github.com/repos/adamdruppe/arsd/branches{/branch}","tags_url":"https://api.github.com/repos/adamdruppe/arsd/tags","blobs_url":"https://api.github.com/repos/adamdruppe/arsd/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/adamdruppe/arsd/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/adamdruppe/arsd/git/refs{/sha}","trees_url":"https://api.github.com/repos/adamdruppe/arsd/git/trees{/sha}","statuses_url":"https://api.github.com/repos/adamdruppe/arsd/statuses/{sha}","languages_url":"https://api.github.com/repos/adamdruppe/arsd/languages","stargazers_url":"https://api.github.com/repos/adamdruppe/arsd/stargazers","contributors_url":"https://api.github.com/repos/adamdruppe/arsd/contributors","subscribers_url":"https://api.github.com/repos/adamdruppe/arsd/subscribers","subscription_url":"https://api.github.com/repos/adamdruppe/arsd/subscription","commits_url":"https://api.github.com/repos/adamdruppe/arsd/commits{/sha}","git_commits_url":"https://api.github.com/repos/adamdruppe/arsd/git/commits{/sha}","comments_url":"https://api.github.com/repos/adamdruppe/arsd/comments{/number}","issue_comment_url":"https://api.github.com/repos/adamdruppe/arsd/issues/comments{/number}","contents_url":"https://api.github.com/repos/adamdruppe/arsd/contents/{+path}","compare_url":"https://api.github.com/repos/adamdruppe/arsd/compare/{base}...{head}","merges_url":"https://api.github.com/repos/adamdruppe/arsd/merges","archive_url":"https://api.github.com/repos/adamdruppe/arsd/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/adamdruppe/arsd/downloads","issues_url":"https://api.github.com/repos/adamdruppe/arsd/issues{/number}","pulls_url":"https://api.github.com/repos/adamdruppe/arsd/pulls{/number}","milestones_url":"https://api.github.com/repos/adamdruppe/arsd/milestones{/number}","notifications_url":"https://api.github.com/repos/adamdruppe/arsd/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/adamdruppe/arsd/labels{/name}","releases_url":"https://api.github.com/repos/adamdruppe/arsd/releases{/id}","deployments_url":"https://api.github.com/repos/adamdruppe/arsd/deployments","created_at":"2011-07-15T12:31:45Z","updated_at":"2018-04-11T13:47:35Z","pushed_at":"2018-04-11T13:47:33Z","git_url":"git://github.com/adamdruppe/arsd.git","ssh_url":"git@github.com:adamdruppe/arsd.git","clone_url":"https://github.com/adamdruppe/arsd.git","svn_url":"https://github.com/adamdruppe/arsd","homepage":"http://dpldocs.info/","size":5141,"stargazers_count":327,"watchers_count":327,"language":"D","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":64,"mirror_url":null,"archived":false,"open_issues_count":35,"license":{"key":"other","name":"Other","spdx_id":null,"url":null},"forks":64,"open_issues":35,"watchers":327,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":64,"subscribers_count":33}
+0
+

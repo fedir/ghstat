@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:35 GMT
+Etag: W/"cf89e6630c34931da9337325baa01c2a"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA71:148C:1A7CF5:3699CE:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4034
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.083554
+X-Xss-Protection: 1; mode=block
+
+da9
+[{"login":"tannerbohn","id":4765824,"avatar_url":"https://avatars2.githubusercontent.com/u/4765824?v=4","gravatar_id":"","url":"https://api.github.com/users/tannerbohn","html_url":"https://github.com/tannerbohn","followers_url":"https://api.github.com/users/tannerbohn/followers","following_url":"https://api.github.com/users/tannerbohn/following{/other_user}","gists_url":"https://api.github.com/users/tannerbohn/gists{/gist_id}","starred_url":"https://api.github.com/users/tannerbohn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tannerbohn/subscriptions","organizations_url":"https://api.github.com/users/tannerbohn/orgs","repos_url":"https://api.github.com/users/tannerbohn/repos","events_url":"https://api.github.com/users/tannerbohn/events{/privacy}","received_events_url":"https://api.github.com/users/tannerbohn/received_events","type":"User","site_admin":false},{"login":"matxpg","id":6456330,"avatar_url":"https://avatars1.githubusercontent.com/u/6456330?v=4","gravatar_id":"","url":"https://api.github.com/users/matxpg","html_url":"https://github.com/matxpg","followers_url":"https://api.github.com/users/matxpg/followers","following_url":"https://api.github.com/users/matxpg/following{/other_user}","gists_url":"https://api.github.com/users/matxpg/gists{/gist_id}","starred_url":"https://api.github.com/users/matxpg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matxpg/subscriptions","organizations_url":"https://api.github.com/users/matxpg/orgs","repos_url":"https://api.github.com/users/matxpg/repos","events_url":"https://api.github.com/users/matxpg/events{/privacy}","received_events_url":"https://api.github.com/users/matxpg/received_events","type":"User","site_admin":false},{"login":"naturegeak","id":20097892,"avatar_url":"https://avatars2.githubusercontent.com/u/20097892?v=4","gravatar_id":"","url":"https://api.github.com/users/naturegeak","html_url":"https://github.com/naturegeak","followers_url":"https://api.github.com/users/naturegeak/followers","following_url":"https://api.github.com/users/naturegeak/following{/other_user}","gists_url":"https://api.github.com/users/naturegeak/gists{/gist_id}","starred_url":"https://api.github.com/users/naturegeak/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/naturegeak/subscriptions","organizations_url":"https://api.github.com/users/naturegeak/orgs","repos_url":"https://api.github.com/users/naturegeak/repos","events_url":"https://api.github.com/users/naturegeak/events{/privacy}","received_events_url":"https://api.github.com/users/naturegeak/received_events","type":"User","site_admin":false},{"login":"nfultz","id":418638,"avatar_url":"https://avatars2.githubusercontent.com/u/418638?v=4","gravatar_id":"","url":"https://api.github.com/users/nfultz","html_url":"https://github.com/nfultz","followers_url":"https://api.github.com/users/nfultz/followers","following_url":"https://api.github.com/users/nfultz/following{/other_user}","gists_url":"https://api.github.com/users/nfultz/gists{/gist_id}","starred_url":"https://api.github.com/users/nfultz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nfultz/subscriptions","organizations_url":"https://api.github.com/users/nfultz/orgs","repos_url":"https://api.github.com/users/nfultz/repos","events_url":"https://api.github.com/users/nfultz/events{/privacy}","received_events_url":"https://api.github.com/users/nfultz/received_events","type":"User","site_admin":false}]
+0
+

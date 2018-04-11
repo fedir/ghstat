@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:38 GMT
+Etag: W/"38c659e8d68c066ec9097e17a15b0d79"
+Last-Modified: Fri, 06 Apr 2018 07:48:13 GMT
+Link: <https://api.github.com/repositories/674411/contributors?page=2>; rel="prev", <https://api.github.com/repositories/674411/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CACD:148C:1A7E95:369D3C:5ACE5A66
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3918
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.052502
+X-Xss-Protection: 1; mode=block
+
+34b
+[{"login":"soro","id":115642,"avatar_url":"https://avatars2.githubusercontent.com/u/115642?v=4","gravatar_id":"","url":"https://api.github.com/users/soro","html_url":"https://github.com/soro","followers_url":"https://api.github.com/users/soro/followers","following_url":"https://api.github.com/users/soro/following{/other_user}","gists_url":"https://api.github.com/users/soro/gists{/gist_id}","starred_url":"https://api.github.com/users/soro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soro/subscriptions","organizations_url":"https://api.github.com/users/soro/orgs","repos_url":"https://api.github.com/users/soro/repos","events_url":"https://api.github.com/users/soro/events{/privacy}","received_events_url":"https://api.github.com/users/soro/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:35 GMT
+Etag: W/"ea2d1463eff521418694818bcf608ecd"
+Last-Modified: Tue, 02 Jan 2018 00:29:50 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA6C:148C:1A7CB0:369963:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4066
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.051786
+X-Xss-Protection: 1; mode=block
+
+3f7
+[{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.1.0","commit":{"sha":"2d5db716188355874091c829586972f70551950e","url":"https://api.github.com/repos/AgilionApps/relax/commits/2d5db716188355874091c829586972f70551950e"}},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.2","commit":{"sha":"2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702","url":"https://api.github.com/repos/AgilionApps/relax/commits/2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702"}},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.1","commit":{"sha":"d004994d660954952c555661140009e9baf04768","url":"https://api.github.com/repos/AgilionApps/relax/commits/d004994d660954952c555661140009e9baf04768"}}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:35 GMT
+Etag: W/"800ace0ec7c8955e23564526ecb3e6a2"
+Last-Modified: Mon, 05 Feb 2018 23:12:47 GMT
+Link: <https://api.github.com/repositories/27994833/tags?page=1>; rel="prev", <https://api.github.com/repositories/27994833/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA7A:148C:1A7CB5:36996E:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4064
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.049550
+X-Xss-Protection: 1; mode=block
+
+159
+[{"name":"build-0.0.63","zipball_url":"https://api.github.com/repos/jean79/yested/zipball/build-0.0.63","tarball_url":"https://api.github.com/repos/jean79/yested/tarball/build-0.0.63","commit":{"sha":"1fdf114c09886536ea1b8aea4a1e75591af24f09","url":"https://api.github.com/repos/jean79/yested/commits/1fdf114c09886536ea1b8aea4a1e75591af24f09"}}]
+0
+

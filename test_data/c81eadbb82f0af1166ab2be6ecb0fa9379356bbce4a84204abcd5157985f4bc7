@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:34 GMT
+Etag: W/"7908642dd2a38f7163592ccc9706cab7"
+Last-Modified: Fri, 23 Mar 2018 07:55:04 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA81:148C:1A7C1A:369831:5ACE5A62
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4141
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.055554
+X-Xss-Protection: 1; mode=block
+
+838
+[{"name":"v1.2.1","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v1.2.1","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v1.2.1","commit":{"sha":"b8007313255b4311a5ba226e0b3827364118f43d","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/b8007313255b4311a5ba226e0b3827364118f43d"}},{"name":"v1.2.0","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v1.2.0","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v1.2.0","commit":{"sha":"4f3b4ef0b82d72fc2386160fcd491866e25e2a3b","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/4f3b4ef0b82d72fc2386160fcd491866e25e2a3b"}},{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v1.1.0","commit":{"sha":"7f459b6e9662e3cbb2a6f8d7207c23369ec0f934","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/7f459b6e9662e3cbb2a6f8d7207c23369ec0f934"}},{"name":"v.1.0.1","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v.1.0.1","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v.1.0.1","commit":{"sha":"336b9ec2412ee25cea0d23113866b3171d8b0948","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/336b9ec2412ee25cea0d23113866b3171d8b0948"}},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v1.0.1","commit":{"sha":"336b9ec2412ee25cea0d23113866b3171d8b0948","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/336b9ec2412ee25cea0d23113866b3171d8b0948"}},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/AntonFagerberg/rackla/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/AntonFagerberg/rackla/tarball/v1.0.0","commit":{"sha":"1256748d49e51b8488327f26e57919bd92737ec3","url":"https://api.github.com/repos/AntonFagerberg/rackla/commits/1256748d49e51b8488327f26e57919bd92737ec3"}}]
+0
+

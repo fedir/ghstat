@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:30 GMT
+Etag: W/"eb13d2d9977b5decc795337a73c9e5d6"
+Last-Modified: Wed, 14 Mar 2018 15:06:16 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA37:1489:10D3CE:2530D4:5ACE5A5D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4498
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.053539
+X-Xss-Protection: 1; mode=block
+
+1153
+{"id":74243588,"name":"kog","full_name":"danneu/kog","owner":{"login":"danneu","id":529580,"avatar_url":"https://avatars0.githubusercontent.com/u/529580?v=4","gravatar_id":"","url":"https://api.github.com/users/danneu","html_url":"https://github.com/danneu","followers_url":"https://api.github.com/users/danneu/followers","following_url":"https://api.github.com/users/danneu/following{/other_user}","gists_url":"https://api.github.com/users/danneu/gists{/gist_id}","starred_url":"https://api.github.com/users/danneu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danneu/subscriptions","organizations_url":"https://api.github.com/users/danneu/orgs","repos_url":"https://api.github.com/users/danneu/repos","events_url":"https://api.github.com/users/danneu/events{/privacy}","received_events_url":"https://api.github.com/users/danneu/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/danneu/kog","description":"🌶 A simple Kotlin web framework inspired by Clojure's Ring.","fork":false,"url":"https://api.github.com/repos/danneu/kog","forks_url":"https://api.github.com/repos/danneu/kog/forks","keys_url":"https://api.github.com/repos/danneu/kog/keys{/key_id}","collaborators_url":"https://api.github.com/repos/danneu/kog/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/danneu/kog/teams","hooks_url":"https://api.github.com/repos/danneu/kog/hooks","issue_events_url":"https://api.github.com/repos/danneu/kog/issues/events{/number}","events_url":"https://api.github.com/repos/danneu/kog/events","assignees_url":"https://api.github.com/repos/danneu/kog/assignees{/user}","branches_url":"https://api.github.com/repos/danneu/kog/branches{/branch}","tags_url":"https://api.github.com/repos/danneu/kog/tags","blobs_url":"https://api.github.com/repos/danneu/kog/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/danneu/kog/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/danneu/kog/git/refs{/sha}","trees_url":"https://api.github.com/repos/danneu/kog/git/trees{/sha}","statuses_url":"https://api.github.com/repos/danneu/kog/statuses/{sha}","languages_url":"https://api.github.com/repos/danneu/kog/languages","stargazers_url":"https://api.github.com/repos/danneu/kog/stargazers","contributors_url":"https://api.github.com/repos/danneu/kog/contributors","subscribers_url":"https://api.github.com/repos/danneu/kog/subscribers","subscription_url":"https://api.github.com/repos/danneu/kog/subscription","commits_url":"https://api.github.com/repos/danneu/kog/commits{/sha}","git_commits_url":"https://api.github.com/repos/danneu/kog/git/commits{/sha}","comments_url":"https://api.github.com/repos/danneu/kog/comments{/number}","issue_comment_url":"https://api.github.com/repos/danneu/kog/issues/comments{/number}","contents_url":"https://api.github.com/repos/danneu/kog/contents/{+path}","compare_url":"https://api.github.com/repos/danneu/kog/compare/{base}...{head}","merges_url":"https://api.github.com/repos/danneu/kog/merges","archive_url":"https://api.github.com/repos/danneu/kog/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/danneu/kog/downloads","issues_url":"https://api.github.com/repos/danneu/kog/issues{/number}","pulls_url":"https://api.github.com/repos/danneu/kog/pulls{/number}","milestones_url":"https://api.github.com/repos/danneu/kog/milestones{/number}","notifications_url":"https://api.github.com/repos/danneu/kog/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/danneu/kog/labels{/name}","releases_url":"https://api.github.com/repos/danneu/kog/releases{/id}","deployments_url":"https://api.github.com/repos/danneu/kog/deployments","created_at":"2016-11-20T00:19:09Z","updated_at":"2018-03-14T15:06:16Z","pushed_at":"2017-08-06T10:38:41Z","git_url":"git://github.com/danneu/kog.git","ssh_url":"git@github.com:danneu/kog.git","clone_url":"https://github.com/danneu/kog.git","svn_url":"https://github.com/danneu/kog","homepage":"","size":422,"stargazers_count":32,"watchers_count":32,"language":"Kotlin","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":false,"has_pages":false,"forks_count":3,"mirror_url":null,"archived":false,"open_issues_count":12,"license":null,"forks":3,"open_issues":12,"watchers":32,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":3,"subscribers_count":4}
+0
+

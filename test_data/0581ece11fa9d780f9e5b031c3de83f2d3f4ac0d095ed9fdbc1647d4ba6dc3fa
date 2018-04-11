@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:32 GMT
+Etag: W/"7d37fe9b52ca928be9e51fd6d2801def"
+Last-Modified: Wed, 14 Mar 2018 15:06:16 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA28:1489:10D470:25323F:5ACE5A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4355
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.049487
+X-Xss-Protection: 1; mode=block
+
+6bd
+[{"login":"danneu","id":529580,"avatar_url":"https://avatars0.githubusercontent.com/u/529580?v=4","gravatar_id":"","url":"https://api.github.com/users/danneu","html_url":"https://github.com/danneu","followers_url":"https://api.github.com/users/danneu/followers","following_url":"https://api.github.com/users/danneu/following{/other_user}","gists_url":"https://api.github.com/users/danneu/gists{/gist_id}","starred_url":"https://api.github.com/users/danneu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danneu/subscriptions","organizations_url":"https://api.github.com/users/danneu/orgs","repos_url":"https://api.github.com/users/danneu/repos","events_url":"https://api.github.com/users/danneu/events{/privacy}","received_events_url":"https://api.github.com/users/danneu/received_events","type":"User","site_admin":false,"contributions":222},{"login":"tipsy","id":1521451,"avatar_url":"https://avatars3.githubusercontent.com/u/1521451?v=4","gravatar_id":"","url":"https://api.github.com/users/tipsy","html_url":"https://github.com/tipsy","followers_url":"https://api.github.com/users/tipsy/followers","following_url":"https://api.github.com/users/tipsy/following{/other_user}","gists_url":"https://api.github.com/users/tipsy/gists{/gist_id}","starred_url":"https://api.github.com/users/tipsy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tipsy/subscriptions","organizations_url":"https://api.github.com/users/tipsy/orgs","repos_url":"https://api.github.com/users/tipsy/repos","events_url":"https://api.github.com/users/tipsy/events{/privacy}","received_events_url":"https://api.github.com/users/tipsy/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

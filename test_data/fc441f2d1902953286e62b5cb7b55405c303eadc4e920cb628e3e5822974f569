@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:36 GMT
+Etag: W/"e91feda8f5fdd16b11187ff8dc625707"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA84:148C:1A7D15:369A07:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4030
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.039691
+X-Xss-Protection: 1; mode=block
+
+1003
+[{"total":111,"weeks":[{"w":1469318400,"a":772,"d":24,"c":2},{"w":1469923200,"a":679,"d":503,"c":6},{"w":1470528000,"a":126,"d":13,"c":2},{"w":1471132800,"a":554,"d":213,"c":5},{"w":1471737600,"a":809,"d":797,"c":5},{"w":1472342400,"a":535,"d":387,"c":4},{"w":1472947200,"a":248,"d":59,"c":3},{"w":1473552000,"a":219,"d":22,"c":4},{"w":1474156800,"a":754,"d":233,"c":6},{"w":1474761600,"a":1100,"d":667,"c":17},{"w":1475366400,"a":2624,"d":2934,"c":8},{"w":1475971200,"a":0,"d":0,"c":0},{"w":1476576000,"a":0,"d":0,"c":0},{"w":1477180800,"a":58,"d":34,"c":3},{"w":1477785600,"a":63,"d":43,"c":6},{"w":1478390400,"a":2,"d":2,"c":1},{"w":1478995200,"a":0,"d":0,"c":0},{"w":1479600000,"a":493,"d":679,"c":2},{"w":1480204800,"a":51,"d":43,"c":1},{"w":1480809600,"a":64,"d":40,"c":2},{"w":1481414400,"a":316,"d":318,"c":2},{"w":1482019200,"a":404,"d":291,"c":5},{"w":1482624000,"a":452,"d":168,"c":2},{"w":1483228800,"a":3,"d":3,"c":2},{"w":1483833600,"a":0,"d":0,"c":0},{"w":1484438400,"a":0,"d":0,"c":0},{"w":1485043200,"a":0,"d":0,"c":0},{"w":1485648000,"a":2,"d":2,"c":1},{"w":1486252800,"a":0,"d":0,"c":0},{"w":1486857600,"a":0,"d":0,"c":0},{"w":1487462400,"a":0,"d":0,"c":0},{"w":1488067200,"a":0,"d":0,"c":0},{"w":1488672000,"a":4,"d":2,"c":1},{"w":1489276800,"a":0,"d":0,"c":0},{"w":1489881600,"a":1,"d":1,"c":1},{"w":1490486400,"a":0,"d":0,"c":0},{"w":1491091200,"a":0,"d":0,"c":0},{"w":1491696000,"a":0,"d":0,"c":0},{"w":1492300800,"a":0,"d":0,"c":0},{"w":1492905600,"a":0,"d":0,"c":0},{"w":1493510400,"a":0,"d":0,"c":0},{"w":1494115200,"a":0,"d":0,"c":0},{"w":1494720000,"a":0,"d":0,"c":0},{"w":1495324800,"a":0,"d":0,"c":0},{"w":1495929600,"a":0,"d":0,"c":0},{"w":1496534400,"a":0,"d":0,"c":0},{"w":1497139200,"a":0,"d":0,"c":0},{"w":1497744000,"a":0,"d":0,"c":0},{"w":1498348800,"a":0,"d":0,"c":0},{"w":1498953600,"a":0,"d":0,"c":0},{"w":1499558400,"a":138,"d":111,"c":1},{"w":1500163200,"a":5,"d":5,"c":3},{"w":1500768000,"a":0,"d":0,"c":0},{"w":1501372800,"a":0,"d":0,"c":0},{"w":1501977600,"a":0,"d":0,"c":0},{"w":1502582400,"a":0,"d":0,"c":0},{"w":1503187200,"a":25,"d":31,"c":5},{"w":1503792000,"a":0,"d":0,"c":0},{"w":1504396800,"a":26,"d":23,"c":10},{"w":1505001600,"a":0,"d":0,"c":0},{"w":1505606400,"a":0,"d":0,"c":0},{"w":1506211200,"a":0,"d":0,"c":0},{"w":1506816000,"a":0,"d":0,"c":0},{"w":1507420800,"a":0,"d":0,"c":0},{"w":1508025600,"a":0,"d":0,"c":0},{"w":1508630400,"a":22,"d":21,"c":1},{"w":1509235200,"a":0,"d":0,"c":0},{"w":1509840000,"a":0,"d":0,"c":0},{"w":1510444800,"a":0,"d":0,"c":0},{"w":1511049600,"a":0,"d":0,"c":0},{"w":1511654400,"a":0,"d":0,"c":0},{"w":1512259200,"a":0,"d":0,"c":0},{"w":1512864000,"a":0,"d":0,"c":0},{"w":1513468800,"a":0,"d":0,"c":0},{"w":1514073600,"a":0,"d":0,"c":0},{"w":1514678400,"a":0,"d":0,"c":0},{"w":1515283200,"a":0,"d":0,"c":0},{"w":1515888000,"a":0,"d":0,"c":0},{"w":1516492800,"a":0,"d":0,"c":0},{"w":1517097600,"a":0,"d":0,"c":0},{"w":1517702400,"a":0,"d":0,"c":0},{"w":1518307200,"a":0,"d":0,"c":0},{"w":1518912000,"a":0,"d":0,"c":0},{"w":1519516800,"a":0,"d":0,"c":0},{"w":1520121600,"a":0,"d":0,"c":0},{"w":1520726400,"a":0,"d":0,"c":0},{"w":1521331200,"a":0,"d":0,"c":0},{"w":1521936000,"a":0,"d":0,"c":0},{"w":1522540800,"a":0,"d":0,"c":0},{"w":1523145600,"a":0,"d":0,"c":0}],"author":{"login":"maxmc","id":136468,"avatar_url":"https://avatars0.githubusercontent.com/u/136468?v=4","gravatar_id":"","url":"https://api.github.com/users/maxmc","html_url":"https://github.com/maxmc","followers_url":"https://api.github.com/users/maxmc/followers","following_url":"https://api.github.com/users/maxmc/following{/other_user}","gists_url":"https://api.github.com/users/maxmc/gists{/gist_id}","starred_url":"https://api.github.com/users/maxmc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/maxmc/subscriptions","organizations_url":"https://api.github.com/users/maxmc/orgs","repos_url":"https://api.github.com/users/maxmc/repos","events_url":"https://api.github.com/users/maxmc/events{/privacy}","received_events_url":"https://api.github.com/users/maxmc/received_events","type":"User","site_admin":false}}]
+0
+

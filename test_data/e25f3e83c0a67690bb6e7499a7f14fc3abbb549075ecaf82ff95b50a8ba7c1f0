@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"544485bf786cca26d764b4580b11765f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA66:148B:16B1ED:30BB19:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4239
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.040824
+X-Xss-Protection: 1; mode=block
+
+d71
+[{"login":"chrisjdavis","id":867449,"avatar_url":"https://avatars0.githubusercontent.com/u/867449?v=4","gravatar_id":"","url":"https://api.github.com/users/chrisjdavis","html_url":"https://github.com/chrisjdavis","followers_url":"https://api.github.com/users/chrisjdavis/followers","following_url":"https://api.github.com/users/chrisjdavis/following{/other_user}","gists_url":"https://api.github.com/users/chrisjdavis/gists{/gist_id}","starred_url":"https://api.github.com/users/chrisjdavis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chrisjdavis/subscriptions","organizations_url":"https://api.github.com/users/chrisjdavis/orgs","repos_url":"https://api.github.com/users/chrisjdavis/repos","events_url":"https://api.github.com/users/chrisjdavis/events{/privacy}","received_events_url":"https://api.github.com/users/chrisjdavis/received_events","type":"User","site_admin":false},{"login":"hraban","id":137852,"avatar_url":"https://avatars1.githubusercontent.com/u/137852?v=4","gravatar_id":"","url":"https://api.github.com/users/hraban","html_url":"https://github.com/hraban","followers_url":"https://api.github.com/users/hraban/followers","following_url":"https://api.github.com/users/hraban/following{/other_user}","gists_url":"https://api.github.com/users/hraban/gists{/gist_id}","starred_url":"https://api.github.com/users/hraban/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hraban/subscriptions","organizations_url":"https://api.github.com/users/hraban/orgs","repos_url":"https://api.github.com/users/hraban/repos","events_url":"https://api.github.com/users/hraban/events{/privacy}","received_events_url":"https://api.github.com/users/hraban/received_events","type":"User","site_admin":false},{"login":"jpswain","id":380027,"avatar_url":"https://avatars3.githubusercontent.com/u/380027?v=4","gravatar_id":"","url":"https://api.github.com/users/jpswain","html_url":"https://github.com/jpswain","followers_url":"https://api.github.com/users/jpswain/followers","following_url":"https://api.github.com/users/jpswain/following{/other_user}","gists_url":"https://api.github.com/users/jpswain/gists{/gist_id}","starred_url":"https://api.github.com/users/jpswain/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jpswain/subscriptions","organizations_url":"https://api.github.com/users/jpswain/orgs","repos_url":"https://api.github.com/users/jpswain/repos","events_url":"https://api.github.com/users/jpswain/events{/privacy}","received_events_url":"https://api.github.com/users/jpswain/received_events","type":"User","site_admin":false},{"login":"muub","id":262801,"avatar_url":"https://avatars2.githubusercontent.com/u/262801?v=4","gravatar_id":"","url":"https://api.github.com/users/muub","html_url":"https://github.com/muub","followers_url":"https://api.github.com/users/muub/followers","following_url":"https://api.github.com/users/muub/following{/other_user}","gists_url":"https://api.github.com/users/muub/gists{/gist_id}","starred_url":"https://api.github.com/users/muub/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muub/subscriptions","organizations_url":"https://api.github.com/users/muub/orgs","repos_url":"https://api.github.com/users/muub/repos","events_url":"https://api.github.com/users/muub/events{/privacy}","received_events_url":"https://api.github.com/users/muub/received_events","type":"User","site_admin":false}]
+0
+

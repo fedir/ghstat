@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:37 GMT
+Etag: W/"72216c1bdfea58f1d5db06543ad01431"
+Last-Modified: Sat, 07 Apr 2018 10:02:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CACC:148B:16B3A1:30BF30:5ACE5A64
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3970
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.062492
+X-Xss-Protection: 1; mode=block
+
+a91
+[{"name":"v0.6.1","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.6.1","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.6.1","commit":{"sha":"acd667d443cdf91d1653b29e1008e2dfa4ecdb79","url":"https://api.github.com/repos/hexedpackets/trot/commits/acd667d443cdf91d1653b29e1008e2dfa4ecdb79"}},{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.6.0","commit":{"sha":"ee6529285d042f5a13b07197bda329a47f11ff2a","url":"https://api.github.com/repos/hexedpackets/trot/commits/ee6529285d042f5a13b07197bda329a47f11ff2a"}},{"name":"v0.5.3","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.5.3","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.5.3","commit":{"sha":"299027ec29ba7840a27f4eecf2b95a2bf45a73de","url":"https://api.github.com/repos/hexedpackets/trot/commits/299027ec29ba7840a27f4eecf2b95a2bf45a73de"}},{"name":"v0.5.2","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.5.2","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.5.2","commit":{"sha":"116fa485411884bd4a3e777082c149dafe20b919","url":"https://api.github.com/repos/hexedpackets/trot/commits/116fa485411884bd4a3e777082c149dafe20b919"}},{"name":"v0.5.1","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.5.1","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.5.1","commit":{"sha":"c5f7cd20a762dce27a83a3e7e72208637b6d3aa6","url":"https://api.github.com/repos/hexedpackets/trot/commits/c5f7cd20a762dce27a83a3e7e72208637b6d3aa6"}},{"name":"v0.5.0","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.5.0","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.5.0","commit":{"sha":"58985c60465597c02b7c02f59745c48566f38bd7","url":"https://api.github.com/repos/hexedpackets/trot/commits/58985c60465597c02b7c02f59745c48566f38bd7"}},{"name":"v0.4.0","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.4.0","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.4.0","commit":{"sha":"9233052eb5ff2cef3fa6be7502783d6ef7b1b26f","url":"https://api.github.com/repos/hexedpackets/trot/commits/9233052eb5ff2cef3fa6be7502783d6ef7b1b26f"}},{"name":"v0.3.0","zipball_url":"https://api.github.com/repos/hexedpackets/trot/zipball/v0.3.0","tarball_url":"https://api.github.com/repos/hexedpackets/trot/tarball/v0.3.0","commit":{"sha":"95618c077c1da3f2674fb6fa4855a14c8e6df17a","url":"https://api.github.com/repos/hexedpackets/trot/commits/95618c077c1da3f2674fb6fa4855a14c8e6df17a"}}]
+0
+

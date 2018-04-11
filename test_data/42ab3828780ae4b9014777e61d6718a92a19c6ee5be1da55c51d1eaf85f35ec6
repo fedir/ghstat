@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:32 GMT
+Etag: W/"9d8f05f46d12b903b82c7c81c84f23d5"
+Link: <https://api.github.com/user/601530/followers?page=21>; rel="prev", <https://api.github.com/user/601530/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA62:148C:1A7A4F:3694D1:5ACE5A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4340
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.056960
+X-Xss-Protection: 1; mode=block
+
+6c1
+[{"login":"C-Dao","id":24296922,"avatar_url":"https://avatars0.githubusercontent.com/u/24296922?v=4","gravatar_id":"","url":"https://api.github.com/users/C-Dao","html_url":"https://github.com/C-Dao","followers_url":"https://api.github.com/users/C-Dao/followers","following_url":"https://api.github.com/users/C-Dao/following{/other_user}","gists_url":"https://api.github.com/users/C-Dao/gists{/gist_id}","starred_url":"https://api.github.com/users/C-Dao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/C-Dao/subscriptions","organizations_url":"https://api.github.com/users/C-Dao/orgs","repos_url":"https://api.github.com/users/C-Dao/repos","events_url":"https://api.github.com/users/C-Dao/events{/privacy}","received_events_url":"https://api.github.com/users/C-Dao/received_events","type":"User","site_admin":false},{"login":"Pinletrot","id":20688585,"avatar_url":"https://avatars3.githubusercontent.com/u/20688585?v=4","gravatar_id":"","url":"https://api.github.com/users/Pinletrot","html_url":"https://github.com/Pinletrot","followers_url":"https://api.github.com/users/Pinletrot/followers","following_url":"https://api.github.com/users/Pinletrot/following{/other_user}","gists_url":"https://api.github.com/users/Pinletrot/gists{/gist_id}","starred_url":"https://api.github.com/users/Pinletrot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Pinletrot/subscriptions","organizations_url":"https://api.github.com/users/Pinletrot/orgs","repos_url":"https://api.github.com/users/Pinletrot/repos","events_url":"https://api.github.com/users/Pinletrot/events{/privacy}","received_events_url":"https://api.github.com/users/Pinletrot/received_events","type":"User","site_admin":false}]
+0
+

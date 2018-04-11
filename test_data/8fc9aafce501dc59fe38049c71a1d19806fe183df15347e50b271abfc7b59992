@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"c4179bfc83cea0118601687a276c7e64"
+Last-Modified: Wed, 11 Apr 2018 09:09:16 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA36:148C:1A7AC0:3695B8:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4292
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.066455
+X-Xss-Protection: 1; mode=block
+
+3ba
+[{"login":"hypercube1024","id":854268,"avatar_url":"https://avatars3.githubusercontent.com/u/854268?v=4","gravatar_id":"","url":"https://api.github.com/users/hypercube1024","html_url":"https://github.com/hypercube1024","followers_url":"https://api.github.com/users/hypercube1024/followers","following_url":"https://api.github.com/users/hypercube1024/following{/other_user}","gists_url":"https://api.github.com/users/hypercube1024/gists{/gist_id}","starred_url":"https://api.github.com/users/hypercube1024/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hypercube1024/subscriptions","organizations_url":"https://api.github.com/users/hypercube1024/orgs","repos_url":"https://api.github.com/users/hypercube1024/repos","events_url":"https://api.github.com/users/hypercube1024/events{/privacy}","received_events_url":"https://api.github.com/users/hypercube1024/received_events","type":"User","site_admin":false,"contributions":1988}]
+0
+

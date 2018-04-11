@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:34 GMT
+Etag: W/"60aae6c9fc0e96057413a753ba07c410"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA28:1489:10D4DE:253367:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4218
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.036598
+X-Xss-Protection: 1; mode=block
+
+377
+[{"login":"PlumpMath","id":1218365,"avatar_url":"https://avatars0.githubusercontent.com/u/1218365?v=4","gravatar_id":"","url":"https://api.github.com/users/PlumpMath","html_url":"https://github.com/PlumpMath","followers_url":"https://api.github.com/users/PlumpMath/followers","following_url":"https://api.github.com/users/PlumpMath/following{/other_user}","gists_url":"https://api.github.com/users/PlumpMath/gists{/gist_id}","starred_url":"https://api.github.com/users/PlumpMath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PlumpMath/subscriptions","organizations_url":"https://api.github.com/users/PlumpMath/orgs","repos_url":"https://api.github.com/users/PlumpMath/repos","events_url":"https://api.github.com/users/PlumpMath/events{/privacy}","received_events_url":"https://api.github.com/users/PlumpMath/received_events","type":"User","site_admin":false}]
+0
+

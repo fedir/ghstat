@@ -1,4 +1,8 @@
 ./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,\
+huntlabs/hunt,vibe-d/vibe.d,adamdruppe/arsd,DiamondMVC/Diamond,\
+kittoframework/kitto,phoenixframework/phoenix,slogsdon/placid,AntonFagerberg/rackla,AgilionApps/relax,sugar-framework/sugar,hexedpackets/trot,\
+ktorio/ktor,TinyMission/kara,http4k/http4k,jean79/yested,wasabifx/wasabi,kohesive/kovert,danneu/kog,hypercube1024/firefly,\
+analogweb/analogweb-scala,mesosphere/chaos,tumblr/colossus,twitter/finatra,lift/framework,dvarelap/peregrine,splink/pagelets,nafg/reactive,scalatra/scalatra,skinny-framework/skinny-framework,suzaku-io/suzaku,unfiltered/unfiltered,xitrum-framework/xitrum-new,outr/youi,ThoughtWorksInc/Binding.scala,UdashFramework/udash-core,widok/widok,\
 yesodweb/yesod,snapframework/snap-core,agrafix/Spock,transient-haskell/axiom,myfreeweb/magicbane,positiondev/fn,\
 leafo/lapis,sailorproject/sailor,keplerproject/orbit,luvit/luvit,Fizzadar/Luapress,kernelsauce/turbo,mongrel2/Tir,appwilldev/moochine,\
 playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,\

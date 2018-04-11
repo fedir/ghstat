@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:38 GMT
+Etag: W/"268c972ffa67f11cb2baaf53b6a4788c"
+Last-Modified: Sat, 07 Apr 2018 06:56:19 GMT
+Link: <https://api.github.com/repositories/214710/contributors?page=3>; rel="prev", <https://api.github.com/repositories/214710/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAD8:148B:16B41F:30C046:5ACE5A66
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3920
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.060618
+X-Xss-Protection: 1; mode=block
+
+a4b
+[{"login":"nilskp","id":74843,"avatar_url":"https://avatars0.githubusercontent.com/u/74843?v=4","gravatar_id":"","url":"https://api.github.com/users/nilskp","html_url":"https://github.com/nilskp","followers_url":"https://api.github.com/users/nilskp/followers","following_url":"https://api.github.com/users/nilskp/following{/other_user}","gists_url":"https://api.github.com/users/nilskp/gists{/gist_id}","starred_url":"https://api.github.com/users/nilskp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nilskp/subscriptions","organizations_url":"https://api.github.com/users/nilskp/orgs","repos_url":"https://api.github.com/users/nilskp/repos","events_url":"https://api.github.com/users/nilskp/events{/privacy}","received_events_url":"https://api.github.com/users/nilskp/received_events","type":"User","site_admin":false,"contributions":1},{"login":"ledyba","id":391964,"avatar_url":"https://avatars3.githubusercontent.com/u/391964?v=4","gravatar_id":"","url":"https://api.github.com/users/ledyba","html_url":"https://github.com/ledyba","followers_url":"https://api.github.com/users/ledyba/followers","following_url":"https://api.github.com/users/ledyba/following{/other_user}","gists_url":"https://api.github.com/users/ledyba/gists{/gist_id}","starred_url":"https://api.github.com/users/ledyba/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ledyba/subscriptions","organizations_url":"https://api.github.com/users/ledyba/orgs","repos_url":"https://api.github.com/users/ledyba/repos","events_url":"https://api.github.com/users/ledyba/events{/privacy}","received_events_url":"https://api.github.com/users/ledyba/received_events","type":"User","site_admin":false,"contributions":1},{"login":"wlingxiao","id":5276935,"avatar_url":"https://avatars3.githubusercontent.com/u/5276935?v=4","gravatar_id":"","url":"https://api.github.com/users/wlingxiao","html_url":"https://github.com/wlingxiao","followers_url":"https://api.github.com/users/wlingxiao/followers","following_url":"https://api.github.com/users/wlingxiao/following{/other_user}","gists_url":"https://api.github.com/users/wlingxiao/gists{/gist_id}","starred_url":"https://api.github.com/users/wlingxiao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wlingxiao/subscriptions","organizations_url":"https://api.github.com/users/wlingxiao/orgs","repos_url":"https://api.github.com/users/wlingxiao/repos","events_url":"https://api.github.com/users/wlingxiao/events{/privacy}","received_events_url":"https://api.github.com/users/wlingxiao/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

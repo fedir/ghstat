@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"c936c6fdbfda25fe4c58a501d2bc1675"
+Last-Modified: Sat, 31 Mar 2018 08:47:07 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA5D:148C:1A7A8D:369541:5ACE5A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4315
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.063054
+X-Xss-Protection: 1; mode=block
+
+6d8
+[{"login":"slogsdon","id":647624,"avatar_url":"https://avatars0.githubusercontent.com/u/647624?v=4","gravatar_id":"","url":"https://api.github.com/users/slogsdon","html_url":"https://github.com/slogsdon","followers_url":"https://api.github.com/users/slogsdon/followers","following_url":"https://api.github.com/users/slogsdon/following{/other_user}","gists_url":"https://api.github.com/users/slogsdon/gists{/gist_id}","starred_url":"https://api.github.com/users/slogsdon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slogsdon/subscriptions","organizations_url":"https://api.github.com/users/slogsdon/orgs","repos_url":"https://api.github.com/users/slogsdon/repos","events_url":"https://api.github.com/users/slogsdon/events{/privacy}","received_events_url":"https://api.github.com/users/slogsdon/received_events","type":"User","site_admin":false,"contributions":71},{"login":"yrashk","id":452,"avatar_url":"https://avatars0.githubusercontent.com/u/452?v=4","gravatar_id":"","url":"https://api.github.com/users/yrashk","html_url":"https://github.com/yrashk","followers_url":"https://api.github.com/users/yrashk/followers","following_url":"https://api.github.com/users/yrashk/following{/other_user}","gists_url":"https://api.github.com/users/yrashk/gists{/gist_id}","starred_url":"https://api.github.com/users/yrashk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yrashk/subscriptions","organizations_url":"https://api.github.com/users/yrashk/orgs","repos_url":"https://api.github.com/users/yrashk/repos","events_url":"https://api.github.com/users/yrashk/events{/privacy}","received_events_url":"https://api.github.com/users/yrashk/received_events","type":"User","site_admin":false,"contributions":3}]
+0
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:34 GMT
+Etag: W/"a9eb5ebc4e1ad7f2e185df330e1a9144"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA6F:148A:13937D:2AB1C2:5ACE5A62
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4167
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.033828
+X-Xss-Protection: 1; mode=block
+
+a71
+[{"login":"soyelmnd","id":2678063,"avatar_url":"https://avatars0.githubusercontent.com/u/2678063?v=4","gravatar_id":"","url":"https://api.github.com/users/soyelmnd","html_url":"https://github.com/soyelmnd","followers_url":"https://api.github.com/users/soyelmnd/followers","following_url":"https://api.github.com/users/soyelmnd/following{/other_user}","gists_url":"https://api.github.com/users/soyelmnd/gists{/gist_id}","starred_url":"https://api.github.com/users/soyelmnd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soyelmnd/subscriptions","organizations_url":"https://api.github.com/users/soyelmnd/orgs","repos_url":"https://api.github.com/users/soyelmnd/repos","events_url":"https://api.github.com/users/soyelmnd/events{/privacy}","received_events_url":"https://api.github.com/users/soyelmnd/received_events","type":"User","site_admin":false},{"login":"hadoumil","id":13356749,"avatar_url":"https://avatars0.githubusercontent.com/u/13356749?v=4","gravatar_id":"","url":"https://api.github.com/users/hadoumil","html_url":"https://github.com/hadoumil","followers_url":"https://api.github.com/users/hadoumil/followers","following_url":"https://api.github.com/users/hadoumil/following{/other_user}","gists_url":"https://api.github.com/users/hadoumil/gists{/gist_id}","starred_url":"https://api.github.com/users/hadoumil/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hadoumil/subscriptions","organizations_url":"https://api.github.com/users/hadoumil/orgs","repos_url":"https://api.github.com/users/hadoumil/repos","events_url":"https://api.github.com/users/hadoumil/events{/privacy}","received_events_url":"https://api.github.com/users/hadoumil/received_events","type":"User","site_admin":false},{"login":"dalinhuang99","id":6508763,"avatar_url":"https://avatars2.githubusercontent.com/u/6508763?v=4","gravatar_id":"","url":"https://api.github.com/users/dalinhuang99","html_url":"https://github.com/dalinhuang99","followers_url":"https://api.github.com/users/dalinhuang99/followers","following_url":"https://api.github.com/users/dalinhuang99/following{/other_user}","gists_url":"https://api.github.com/users/dalinhuang99/gists{/gist_id}","starred_url":"https://api.github.com/users/dalinhuang99/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dalinhuang99/subscriptions","organizations_url":"https://api.github.com/users/dalinhuang99/orgs","repos_url":"https://api.github.com/users/dalinhuang99/repos","events_url":"https://api.github.com/users/dalinhuang99/events{/privacy}","received_events_url":"https://api.github.com/users/dalinhuang99/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:39 GMT
+Etag: W/"bdde8b565cbf09de35ef2af6767ec465"
+Last-Modified: Wed, 11 Apr 2018 16:01:06 GMT
+Link: <https://api.github.com/repositories/16072585/tags?page=2>; rel="prev", <https://api.github.com/repositories/16072585/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAC7:148C:1A7F57:369EA3:5ACE5A67
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3886
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.050688
+X-Xss-Protection: 1; mode=block
+
+436
+[{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.1","commit":{"sha":"422ecff35e84d81099ae79f5cd842e44fbc88d71","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/422ecff35e84d81099ae79f5cd842e44fbc88d71"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.0","commit":{"sha":"10ac0e1b435d8868b17e661c64143691d58a4232","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/10ac0e1b435d8868b17e661c64143691d58a4232"}},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.1.1","commit":{"sha":"041a3c65405997850af23a963b3fd1d7f0597a90","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/041a3c65405997850af23a963b3fd1d7f0597a90"}}]
+0
+

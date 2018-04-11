@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"97f920e6c6482fa5be9c9f51ff468334"
+Link: <https://api.github.com/user/41423/followers?page=1>; rel="prev", <https://api.github.com/user/41423/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA45:148B:16B19B:30BA57:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4295
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.037020
+X-Xss-Protection: 1; mode=block
+
+36b
+[{"login":"falconsw","id":6252528,"avatar_url":"https://avatars2.githubusercontent.com/u/6252528?v=4","gravatar_id":"","url":"https://api.github.com/users/falconsw","html_url":"https://github.com/falconsw","followers_url":"https://api.github.com/users/falconsw/followers","following_url":"https://api.github.com/users/falconsw/following{/other_user}","gists_url":"https://api.github.com/users/falconsw/gists{/gist_id}","starred_url":"https://api.github.com/users/falconsw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/falconsw/subscriptions","organizations_url":"https://api.github.com/users/falconsw/orgs","repos_url":"https://api.github.com/users/falconsw/repos","events_url":"https://api.github.com/users/falconsw/events{/privacy}","received_events_url":"https://api.github.com/users/falconsw/received_events","type":"User","site_admin":false}]
+0
+

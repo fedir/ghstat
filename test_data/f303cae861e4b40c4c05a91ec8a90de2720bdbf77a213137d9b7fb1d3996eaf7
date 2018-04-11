@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"641b9de7cace6e06fd019eff04ccac82"
+Last-Modified: Wed, 11 Apr 2018 09:09:16 GMT
+Link: <https://api.github.com/repositories/3458429/tags?page=1>; rel="prev", <https://api.github.com/repositories/3458429/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA36:148C:1A7B13:369657:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4259
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.033629
+X-Xss-Protection: 1; mode=block
+
+11bc
+[{"name":"firefly-3.0.3_release","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-3.0.3_release","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-3.0.3_release","commit":{"sha":"4dcaa7404d8d9e4cadaecbb48fa4a072e9f7d3f3","url":"https://api.github.com/repos/hypercube1024/firefly/commits/4dcaa7404d8d9e4cadaecbb48fa4a072e9f7d3f3"}},{"name":"firefly-3.0.2_release","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-3.0.2_release","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-3.0.2_release","commit":{"sha":"0192dcf6e0e3f49fc153056fc68a8d62916ce4b0","url":"https://api.github.com/repos/hypercube1024/firefly/commits/0192dcf6e0e3f49fc153056fc68a8d62916ce4b0"}},{"name":"firefly-2.0_08","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_08","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_08","commit":{"sha":"70d6f4d927af7c0db9e5c7379f87c0e0f79e86dc","url":"https://api.github.com/repos/hypercube1024/firefly/commits/70d6f4d927af7c0db9e5c7379f87c0e0f79e86dc"}},{"name":"firefly-2.0_06","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_06","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_06","commit":{"sha":"e5c6b07d9677c4123ab98133d0ae26d5bcee5286","url":"https://api.github.com/repos/hypercube1024/firefly/commits/e5c6b07d9677c4123ab98133d0ae26d5bcee5286"}},{"name":"firefly-2.0_05","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_05","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_05","commit":{"sha":"fb7a3a126ae51c28217ca95f1d80601754908ca5","url":"https://api.github.com/repos/hypercube1024/firefly/commits/fb7a3a126ae51c28217ca95f1d80601754908ca5"}},{"name":"firefly-2.0_03","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_03","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_03","commit":{"sha":"afece03e15a93b6bdce86f586bec14c1ca997745","url":"https://api.github.com/repos/hypercube1024/firefly/commits/afece03e15a93b6bdce86f586bec14c1ca997745"}},{"name":"firefly-2.0_02","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_02","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_02","commit":{"sha":"a43c0eae1fa6f2edef367946174d47638ff7521f","url":"https://api.github.com/repos/hypercube1024/firefly/commits/a43c0eae1fa6f2edef367946174d47638ff7521f"}},{"name":"firefly-2.0_01","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_01","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_01","commit":{"sha":"f6284165eb85abdcf120e6b3371717be7fd70a37","url":"https://api.github.com/repos/hypercube1024/firefly/commits/f6284165eb85abdcf120e6b3371717be7fd70a37"}},{"name":"firefly-2.0_final","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-2.0_final","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-2.0_final","commit":{"sha":"0a87698ce012a9532772cd89018a0f93cbad8ad3","url":"https://api.github.com/repos/hypercube1024/firefly/commits/0a87698ce012a9532772cd89018a0f93cbad8ad3"}},{"name":"firefly-1.2_03","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-1.2_03","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-1.2_03","commit":{"sha":"72a5927f4bf5016f0076609e59ab5a055e791964","url":"https://api.github.com/repos/hypercube1024/firefly/commits/72a5927f4bf5016f0076609e59ab5a055e791964"}},{"name":"firefly-1.2_02","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-1.2_02","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-1.2_02","commit":{"sha":"54b8badc28f39e28c37e56e1bb400366fb13a7e7","url":"https://api.github.com/repos/hypercube1024/firefly/commits/54b8badc28f39e28c37e56e1bb400366fb13a7e7"}},{"name":"firefly-1.2_01","zipball_url":"https://api.github.com/repos/hypercube1024/firefly/zipball/firefly-1.2_01","tarball_url":"https://api.github.com/repos/hypercube1024/firefly/tarball/firefly-1.2_01","commit":{"sha":"b712162bc478c81d84595c0482d826bd04a42d0f","url":"https://api.github.com/repos/hypercube1024/firefly/commits/b712162bc478c81d84595c0482d826bd04a42d0f"}}]
+0
+

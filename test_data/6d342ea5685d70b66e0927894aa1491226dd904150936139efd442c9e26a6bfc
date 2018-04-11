@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:36 GMT
+Etag: W/"9a3ca237b288d7d6b5031f9ae4e0427f"
+Last-Modified: Wed, 04 Apr 2018 01:20:33 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA88:148C:1A7D3F:369A5B:5ACE5A64
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3989
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.050326
+X-Xss-Protection: 1; mode=block
+
+147
+[{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.0","commit":{"sha":"cd0cd6a88915158671352102d89be5ccf8418c4a","url":"https://api.github.com/repos/nafg/reactive/commits/cd0cd6a88915158671352102d89be5ccf8418c4a"}}]
+0
+

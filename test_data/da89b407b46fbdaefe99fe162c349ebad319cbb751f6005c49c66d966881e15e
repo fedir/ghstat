@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:34 GMT
+Etag: W/"82d48dfaf7abe10cf5858573846923d3"
+Link: <https://api.github.com/user/5511591/followers?page=2>; rel="prev", <https://api.github.com/user/5511591/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA42:148C:1A7C0C:36981D:5ACE5A62
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4152
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.043405
+X-Xss-Protection: 1; mode=block
+
+11b5
+[{"login":"WillyLima","id":35221201,"avatar_url":"https://avatars2.githubusercontent.com/u/35221201?v=4","gravatar_id":"","url":"https://api.github.com/users/WillyLima","html_url":"https://github.com/WillyLima","followers_url":"https://api.github.com/users/WillyLima/followers","following_url":"https://api.github.com/users/WillyLima/following{/other_user}","gists_url":"https://api.github.com/users/WillyLima/gists{/gist_id}","starred_url":"https://api.github.com/users/WillyLima/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/WillyLima/subscriptions","organizations_url":"https://api.github.com/users/WillyLima/orgs","repos_url":"https://api.github.com/users/WillyLima/repos","events_url":"https://api.github.com/users/WillyLima/events{/privacy}","received_events_url":"https://api.github.com/users/WillyLima/received_events","type":"User","site_admin":false},{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false},{"login":"NozomiIto","id":4276719,"avatar_url":"https://avatars0.githubusercontent.com/u/4276719?v=4","gravatar_id":"","url":"https://api.github.com/users/NozomiIto","html_url":"https://github.com/NozomiIto","followers_url":"https://api.github.com/users/NozomiIto/followers","following_url":"https://api.github.com/users/NozomiIto/following{/other_user}","gists_url":"https://api.github.com/users/NozomiIto/gists{/gist_id}","starred_url":"https://api.github.com/users/NozomiIto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NozomiIto/subscriptions","organizations_url":"https://api.github.com/users/NozomiIto/orgs","repos_url":"https://api.github.com/users/NozomiIto/repos","events_url":"https://api.github.com/users/NozomiIto/events{/privacy}","received_events_url":"https://api.github.com/users/NozomiIto/received_events","type":"User","site_admin":false},{"login":"NateAHL123","id":34324326,"avatar_url":"https://avatars3.githubusercontent.com/u/34324326?v=4","gravatar_id":"","url":"https://api.github.com/users/NateAHL123","html_url":"https://github.com/NateAHL123","followers_url":"https://api.github.com/users/NateAHL123/followers","following_url":"https://api.github.com/users/NateAHL123/following{/other_user}","gists_url":"https://api.github.com/users/NateAHL123/gists{/gist_id}","starred_url":"https://api.github.com/users/NateAHL123/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NateAHL123/subscriptions","organizations_url":"https://api.github.com/users/NateAHL123/orgs","repos_url":"https://api.github.com/users/NateAHL123/repos","events_url":"https://api.github.com/users/NateAHL123/events{/privacy}","received_events_url":"https://api.github.com/users/NateAHL123/received_events","type":"User","site_admin":false},{"login":"Saifalip","id":36480468,"avatar_url":"https://avatars2.githubusercontent.com/u/36480468?v=4","gravatar_id":"","url":"https://api.github.com/users/Saifalip","html_url":"https://github.com/Saifalip","followers_url":"https://api.github.com/users/Saifalip/followers","following_url":"https://api.github.com/users/Saifalip/following{/other_user}","gists_url":"https://api.github.com/users/Saifalip/gists{/gist_id}","starred_url":"https://api.github.com/users/Saifalip/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Saifalip/subscriptions","organizations_url":"https://api.github.com/users/Saifalip/orgs","repos_url":"https://api.github.com/users/Saifalip/repos","events_url":"https://api.github.com/users/Saifalip/events{/privacy}","received_events_url":"https://api.github.com/users/Saifalip/received_events","type":"User","site_admin":false}]
+0
+

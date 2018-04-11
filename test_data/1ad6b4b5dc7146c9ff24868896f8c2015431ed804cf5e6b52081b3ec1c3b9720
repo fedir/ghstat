@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:35 GMT
+Etag: W/"86c9ebef0a3b822192ab042e6c596936"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA51:148C:1A7CB0:36995F:5ACE5A63
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4073
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.032137
+X-Xss-Protection: 1; mode=block
+
+10e3
+[{"login":"nagise","id":785649,"avatar_url":"https://avatars3.githubusercontent.com/u/785649?v=4","gravatar_id":"","url":"https://api.github.com/users/nagise","html_url":"https://github.com/nagise","followers_url":"https://api.github.com/users/nagise/followers","following_url":"https://api.github.com/users/nagise/following{/other_user}","gists_url":"https://api.github.com/users/nagise/gists{/gist_id}","starred_url":"https://api.github.com/users/nagise/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nagise/subscriptions","organizations_url":"https://api.github.com/users/nagise/orgs","repos_url":"https://api.github.com/users/nagise/repos","events_url":"https://api.github.com/users/nagise/events{/privacy}","received_events_url":"https://api.github.com/users/nagise/received_events","type":"User","site_admin":false},{"login":"yukimori","id":1590363,"avatar_url":"https://avatars0.githubusercontent.com/u/1590363?v=4","gravatar_id":"","url":"https://api.github.com/users/yukimori","html_url":"https://github.com/yukimori","followers_url":"https://api.github.com/users/yukimori/followers","following_url":"https://api.github.com/users/yukimori/following{/other_user}","gists_url":"https://api.github.com/users/yukimori/gists{/gist_id}","starred_url":"https://api.github.com/users/yukimori/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yukimori/subscriptions","organizations_url":"https://api.github.com/users/yukimori/orgs","repos_url":"https://api.github.com/users/yukimori/repos","events_url":"https://api.github.com/users/yukimori/events{/privacy}","received_events_url":"https://api.github.com/users/yukimori/received_events","type":"User","site_admin":false},{"login":"akihyro","id":7358375,"avatar_url":"https://avatars0.githubusercontent.com/u/7358375?v=4","gravatar_id":"","url":"https://api.github.com/users/akihyro","html_url":"https://github.com/akihyro","followers_url":"https://api.github.com/users/akihyro/followers","following_url":"https://api.github.com/users/akihyro/following{/other_user}","gists_url":"https://api.github.com/users/akihyro/gists{/gist_id}","starred_url":"https://api.github.com/users/akihyro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/akihyro/subscriptions","organizations_url":"https://api.github.com/users/akihyro/orgs","repos_url":"https://api.github.com/users/akihyro/repos","events_url":"https://api.github.com/users/akihyro/events{/privacy}","received_events_url":"https://api.github.com/users/akihyro/received_events","type":"User","site_admin":false},{"login":"furutsuki","id":12613337,"avatar_url":"https://avatars2.githubusercontent.com/u/12613337?v=4","gravatar_id":"","url":"https://api.github.com/users/furutsuki","html_url":"https://github.com/furutsuki","followers_url":"https://api.github.com/users/furutsuki/followers","following_url":"https://api.github.com/users/furutsuki/following{/other_user}","gists_url":"https://api.github.com/users/furutsuki/gists{/gist_id}","starred_url":"https://api.github.com/users/furutsuki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/furutsuki/subscriptions","organizations_url":"https://api.github.com/users/furutsuki/orgs","repos_url":"https://api.github.com/users/furutsuki/repos","events_url":"https://api.github.com/users/furutsuki/events{/privacy}","received_events_url":"https://api.github.com/users/furutsuki/received_events","type":"User","site_admin":false},{"login":"ryunix","id":7754313,"avatar_url":"https://avatars0.githubusercontent.com/u/7754313?v=4","gravatar_id":"","url":"https://api.github.com/users/ryunix","html_url":"https://github.com/ryunix","followers_url":"https://api.github.com/users/ryunix/followers","following_url":"https://api.github.com/users/ryunix/following{/other_user}","gists_url":"https://api.github.com/users/ryunix/gists{/gist_id}","starred_url":"https://api.github.com/users/ryunix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ryunix/subscriptions","organizations_url":"https://api.github.com/users/ryunix/orgs","repos_url":"https://api.github.com/users/ryunix/repos","events_url":"https://api.github.com/users/ryunix/events{/privacy}","received_events_url":"https://api.github.com/users/ryunix/received_events","type":"User","site_admin":false}]
+0
+

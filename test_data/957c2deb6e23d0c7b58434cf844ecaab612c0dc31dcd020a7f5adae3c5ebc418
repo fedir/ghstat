@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:34 GMT
+Etag: W/"da7fe7d80a47ad6e5aa154970b0f5689"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA2E:148C:1A7B94:36971E:5ACE5A62
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4207
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.041342
+X-Xss-Protection: 1; mode=block
+
+721
+[{"login":"RazakMohammed","id":24680634,"avatar_url":"https://avatars2.githubusercontent.com/u/24680634?v=4","gravatar_id":"","url":"https://api.github.com/users/RazakMohammed","html_url":"https://github.com/RazakMohammed","followers_url":"https://api.github.com/users/RazakMohammed/followers","following_url":"https://api.github.com/users/RazakMohammed/following{/other_user}","gists_url":"https://api.github.com/users/RazakMohammed/gists{/gist_id}","starred_url":"https://api.github.com/users/RazakMohammed/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/RazakMohammed/subscriptions","organizations_url":"https://api.github.com/users/RazakMohammed/orgs","repos_url":"https://api.github.com/users/RazakMohammed/repos","events_url":"https://api.github.com/users/RazakMohammed/events{/privacy}","received_events_url":"https://api.github.com/users/RazakMohammed/received_events","type":"User","site_admin":false},{"login":"ariel17ml","id":29380763,"avatar_url":"https://avatars2.githubusercontent.com/u/29380763?v=4","gravatar_id":"","url":"https://api.github.com/users/ariel17ml","html_url":"https://github.com/ariel17ml","followers_url":"https://api.github.com/users/ariel17ml/followers","following_url":"https://api.github.com/users/ariel17ml/following{/other_user}","gists_url":"https://api.github.com/users/ariel17ml/gists{/gist_id}","starred_url":"https://api.github.com/users/ariel17ml/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ariel17ml/subscriptions","organizations_url":"https://api.github.com/users/ariel17ml/orgs","repos_url":"https://api.github.com/users/ariel17ml/repos","events_url":"https://api.github.com/users/ariel17ml/events{/privacy}","received_events_url":"https://api.github.com/users/ariel17ml/received_events","type":"User","site_admin":false}]
+0
+

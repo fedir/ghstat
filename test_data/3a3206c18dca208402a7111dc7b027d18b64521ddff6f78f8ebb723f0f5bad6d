@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:32 GMT
+Etag: W/"d495459f59677de257d1d89536d37cc0"
+Last-Modified: Mon, 12 Mar 2018 08:13:04 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA65:148A:13929E:2AAFF8:5ACE5A60
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4324
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.043595
+X-Xss-Protection: 1; mode=block
+
+3f7
+[{"name":"1.2.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.2.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.2.0","commit":{"sha":"b04d2e75960656529d59b05b9e3f45e2b42c1084","url":"https://api.github.com/repos/dvarelap/peregrine/commits/b04d2e75960656529d59b05b9e3f45e2b42c1084"}},{"name":"1.0.1","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.1","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.1","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"}},{"name":"1.0.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.0","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"}}]
+0
+

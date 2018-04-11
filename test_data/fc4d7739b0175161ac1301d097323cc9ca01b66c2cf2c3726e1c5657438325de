@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 11 Apr 2018 18:56:33 GMT
+Etag: W/"361be22335b95763ccb7d1cd11ccee33"
+Last-Modified: Sat, 31 Mar 2018 08:47:07 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA5D:148C:1A7AB4:3695A2:5ACE5A61
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4298
+X-Ratelimit-Reset: 1523473991
+X-Runtime-Rack: 0.044173
+X-Xss-Protection: 1; mode=block
+
+531
+[{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.2.0","commit":{"sha":"105ddde4e8680afbc127cabb9ed51fababc374a1","url":"https://api.github.com/repos/slogsdon/placid/commits/105ddde4e8680afbc127cabb9ed51fababc374a1"}},{"name":"v0.1.2","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.2","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.2","commit":{"sha":"a250c852570e1d9dac151785a82fb819b78b10a3","url":"https://api.github.com/repos/slogsdon/placid/commits/a250c852570e1d9dac151785a82fb819b78b10a3"}},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.1","commit":{"sha":"412bb232fcd6b33a31018c448c7f89cb81937d35","url":"https://api.github.com/repos/slogsdon/placid/commits/412bb232fcd6b33a31018c448c7f89cb81937d35"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.0","commit":{"sha":"aa05b99b112583a4f80d6d834613a169beb5b425","url":"https://api.github.com/repos/slogsdon/placid/commits/aa05b99b112583a4f80d6d834613a169beb5b425"}}]
+0
+

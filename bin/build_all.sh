@@ -1,5 +1,9 @@
 # web frameworks
 bash bin/go_frameworks.sh
+bash bin/kotlin_frameworks.sh
+bash bin/scala_frameworks.sh
+bash bin/d_frameworks.sh
+bash bin/elixir_frameworks.sh
 bash bin/python_frameworks.sh
 bash bin/ruby_frameworks.sh
 bash bin/clojure_frameworks.sh
