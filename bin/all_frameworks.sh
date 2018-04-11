@@ -4,7 +4,7 @@ leafo/lapis,sailorproject/sailor,keplerproject/orbit,luvit/luvit,Fizzadar/Luapre
 playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,\
 angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,\
 expressjs/express,hexojs/hexo,hyperapp/hyperapp,MithrilJS/mithril.js,totaljs/framework,enyojs/enyo,microjs/microjs.com,nuxt/nuxt.js,riot/riot,\
-laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,\
+laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,nova-framework/framework,cakephp/cakephp,pradosoft/prado,phalcon/cphalcon,nette/nette,PHPixie/Project,slimphp/Slim,leocavalcante/siler,\
 bottlepy/bottle,plotly/dash,django/django,pallets/flask,Pylons/pyramid,channelcat/sanic,tornadoweb/tornado,web2py/web2py,TurboGears/tg2,\
 camping/camping,soveran/cuba,patriciomacadden/hobbit,hanami/hanami,ruby-hyperloop/hyper-react,padrino/padrino-framework,pakyow/pakyow,rack-app/rack-app,ramaze/ramaze,jeremyevans/roda,rails/rails,wardrop/Scorched,sinatra/sinatra,voltrb/volt,\
 SergioBenitez/rocket,iron/iron,actix/actix-web,gotham-rs/gotham,nickel-org/nickel.rs,Ogeon/rustful,rustless/rustless,tomaka/rouille,sappworks/sapper,mehcode/shio-rs,\
