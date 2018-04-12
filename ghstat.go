@@ -48,7 +48,7 @@ func main() {
 	if *repositoriesKeysManual != "" {
 		repositoriesKeys = uniqSlice(strings.Split(*repositoriesKeysManual, ","))
 	} else {
-		repositoriesKeys = []string{
+		repositoriesKeys = uniqSlice([]string{
 			"astaxie/beego",
 			"gohugoio/hugo",
 			"gin-gonic/gin",
@@ -58,7 +58,7 @@ func main() {
 			"go-chi/chi",
 			"kataras/iris",
 			"zenazn/goji",
-		}
+		})
 	}
 
 	csvFilePath := ""
