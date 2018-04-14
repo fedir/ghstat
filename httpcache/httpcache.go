@@ -81,7 +81,7 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 	r := bufio.NewReader(bytes.NewReader(fullResp))
 	resp, err := http.ReadResponse(r, nil)
 	if err != nil {
-		panic(err)
+		log.Printf("%v\n%s", err, fullResp)
 	}
 	body, err := ioutil.ReadAll(resp.Body)
 	linkHeader := resp.Header.Get("Link")

@@ -136,6 +136,9 @@ func getJSONResponse(linkHeader string, tmpFolder string, debug bool) []byte {
 	compRegExLastURL := regexp.MustCompile(regexpLastPageURL)
 	matchLastURL := compRegExLastURL.FindStringSubmatch(linkHeader)
 	fullResp := httpcache.MakeCachedHTTPRequest(matchLastURL[1], tmpFolder, debug)
-	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	jsonResponse, _, err := httpcache.ReadResp(fullResp)
+	if err != nil {
+		log.Fatalf("%s", linkHeader)
+	}
 	return jsonResponse
 }
