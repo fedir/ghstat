@@ -13,6 +13,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"reflect"
 	"strings"
 	"time"
 
@@ -23,40 +24,41 @@ import (
 
 // Repository structure with selcted data keys for JSON processing
 type Repository struct {
-	name                                string    `header:"Name"`
-	url                                 string    `header:"URL"`
-	author                              string    `header:"Author"`
-	language                            string    `header:"Language"`
-	license                             string    `header:"License"`
-	authorsFollowers                    int       `header:"Author's followers"`
-	top10ContributorsFollowers          int       `header:"Top 10 contributors followers"`
-	createdAt                           time.Time `header:"Created at"`
-	age                                 int       `header:"Age in days"`
-	totalCommits                        int       `header:"Total commits"`
-	totalAdditions                      int       `header:"Total additions"`
-	totalDeletions                      int       `header:"Total deletions"`
-	totalCodeChanges                    int       `header:"Total code changes"`
-	lastCommitDate                      time.Time `header:"Last commit date"`
-	commitsByDay                        float64   `header:"Commits/day"`
-	mediCommitSize                      float64   `header:"Medium commit size"`
-	totalTags                           int       `header:"Total releases"`
-	watchers                            int       `header:"Stargazers"`
-	forks                               int       `header:"Forks"`
-	contributors                        int       `header:"Contributors"`
-	activeForkersPercentage             float64   `header:"Active forkers, %"`
-	openIssues                          int       `header:"Open issues"`
-	totalIssues                         int       `header:"Total issues"`
-	issueDay                            float64   `header:"Issue/day"`
-	closedIssuesPercentage              float64   `header:"Closed issues, %"`
-	placementPopularity                 int       `header:"Placement by popularity"`
-	placementAge                        int       `header:"Placement by age"`
-	placementTotalCommits               int       `header:"Placement by total commits"`
-	placementTotalTags                  int       `header:"Placement by total tags"`
-	placementTop10ContributorsFollowers int       `header:"Placement by top 10 contributors followers"`
-	placementClosedIssuesPercentage     int       `header:"Placement by closed issues percentage"`
-	placementCommitsByDay               int       `header:"Placement by commits/day"`
-	placementActiveForkersColumn        int       `header:"Placement by active forkers column"`
-	placeOverall                        int       `header:"Placement overall"`
+	Name                                string    `header:"Name"`
+	URL                                 string    `header:"URL"`
+	Author                              string    `header:"Author"`
+	Language                            string    `header:"Language"`
+	License                             string    `header:"License"`
+	AuthorsFollowers                    int       `header:"Author's followers"`
+	Top10ContributorsFollowers          int       `header:"Top 10 contributors followers"`
+	CreatedAt                           time.Time `header:"Created at"`
+	Age                                 int       `header:"Age in days"`
+	TotalCommits                        int       `header:"Total commits"`
+	TotalAdditions                      int       `header:"Total additions"`
+	TotalDeletions                      int       `header:"Total deletions"`
+	TotalCodeChanges                    int       `header:"Total code changes"`
+	LastCommitDate                      time.Time `header:"Last commit date"`
+	CommitsByDay                        float64   `header:"Commits/day"`
+	MediCommitSize                      int       `header:"Medium commit size"`
+	TotalTags                           int       `header:"Total releases"`
+	Watchers                            int       `header:"Stargazers"`
+	Forks                               int       `header:"Forks"`
+	Contributors                        int       `header:"Contributors"`
+	ActiveForkersPercentage             float64   `header:"Active forkers, %"`
+	OpenIssues                          int       `header:"Open issues"`
+	ClosedIssues                        int       `header:"Closed issues"`
+	TotalIssues                         int       `header:"Total issues"`
+	IssueByDay                          float64   `header:"Issue/day"`
+	ClosedIssuesPercentage              float64   `header:"Closed issues, %"`
+	PlacementPopularity                 int       `header:"Placement by popularity"`
+	PlacementAge                        int       `header:"Placement by age"`
+	PlacementTotalCommits               int       `header:"Placement by total commits"`
+	PlacementTotalTags                  int       `header:"Placement by total tags"`
+	PlacementTop10ContributorsFollowers int       `header:"Placement by top 10 contributors followers"`
+	PlacementClosedIssuesPercentage     int       `header:"Placement by closed issues percentage"`
+	PlacementCommitsByDay               int       `header:"Placement by commits by day"`
+	PlacementActiveForkersColumn        int       `header:"Placement by active forkers column"`
+	PlacementOverall                    int       `header:"Placement overall"`
 }
 
 func main() {
@@ -106,129 +108,140 @@ func main() {
 	} else {
 		csvFilePath = "result.csv"
 	}
-	var ghData = [][]string{}
-	headers := []string{
-		"Name",
-		"URL",
-		"Author",
-		"Language",
-		"License",
-		"Author's followers",
-		"Top 10 contributors followers",
-		"Created at",
-		"Age in days",
-		"Total commits",
-		"Total additions",
-		"Total deletions",
-		"Total code changes",
-		"Last commit date",
-		"Commits/day",
-		"Medium commit size",
-		"Total releases",
-		"Stargazers",
-		"Forks",
-		"Contributors",
-		"Active forkers, %",
-		"Open issues",
-		"Total issues",
-		"Issue/day",
-		"Closed issues, %",
-		"Place",
-	}
-	ghDataColumnIndexes := map[string]int{
-		"nameColumn":                       0,
-		"urlColumn":                        1,
-		"authorColumn":                     2,
-		"languageColumn":                   3,
-		"licenseColumn":                    4,
-		"authorsFollowersColumn":           5,
-		"top10ContributorsFollowersColumn": 6,
-		"ageColumn":                        8,
-		"totalCommitsColumn":               9,
-		"totalAdditionsColumn":             10,
-		"totalDeletionsColumn":             11,
-		"totalCodeChangesColumn":           12,
-		"lastCommitDateColumn":             13,
-		"commitsByDayColumn":               14,
-		"mediCommitSizeColumn":             15,
-		"totalTagsColumn":                  16,
-		"stargazersColumn":                 17,
-		"activeForkersColumn":              20,
-		"issuesByDayColumn":                23,
-		"closedIssuesPercentageColumn":     24,
-		"totalPointsColumnIndex":           25,
-	}
-	dataChan := make(chan []string, len(repositoriesKeys))
+	var ghData = []Repository{}
+
+	dataChan := make(chan Repository, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
-		go fillRepositoryStatistics(rKey, *tmpFolder, *debug, dataChan)
+		go repositoryData(rKey, *tmpFolder, *debug, dataChan)
 	}
 	for range repositoriesKeys {
 		ghData = append(ghData, <-dataChan)
 	}
-	greetings := rateGhData(ghData, ghDataColumnIndexes)
-	fmt.Println(greetings)
-	writeCsv(csvFilePath, headers, ghData)
+	rateAndPrintGreetings(ghData)
+	writeCSVStatistics(ghData, csvFilePath)
 }
 
-func fillRepositoryStatistics(rKey string, tmpFolder string, debug bool, dataChan chan []string) {
+func rateAndPrintGreetings(ghData []Repository) {
+	greetings := rateGhData(ghData)
+	fmt.Println(greetings)
+}
+
+func writeCSVStatistics(ghData []Repository, csvFilePath string) {
+	var csvData [][]string
+	csvData = append(csvData, headersFromStructTags())
+	for _, r := range ghData {
+		csvData = append(csvData, formatRepositoryDataForCSV(r))
+	}
+	writeCsv(csvFilePath, csvData)
+}
+
+func formatRepositoryDataForCSV(r Repository) []string {
+	ghProjectData := []string{
+		r.Name,
+		fmt.Sprintf("%s", r.URL),
+		fmt.Sprintf("%s", r.Author),
+		fmt.Sprintf("%s", r.Language),
+		fmt.Sprintf("%s", r.License),
+		fmt.Sprintf("%d", r.AuthorsFollowers),
+		fmt.Sprintf("%d", r.Top10ContributorsFollowers),
+		fmt.Sprintf("%d/%02d", r.CreatedAt.Year(), r.CreatedAt.Month()),
+		fmt.Sprintf("%d", r.Age),
+		fmt.Sprintf("%d", r.TotalCommits),
+		fmt.Sprintf("%d", r.TotalAdditions),
+		fmt.Sprintf("%d", r.TotalDeletions),
+		fmt.Sprintf("%d", r.TotalCodeChanges),
+		fmt.Sprintf(r.LastCommitDate.Format("2006-01-02 15:04:05")),
+		fmt.Sprintf("%.4f", r.CommitsByDay),
+		fmt.Sprintf("%d", r.MediCommitSize),
+		fmt.Sprintf("%d", r.TotalTags),
+		fmt.Sprintf("%d", r.Watchers),
+		fmt.Sprintf("%d", r.Forks),
+		fmt.Sprintf("%d", r.Contributors),
+		fmt.Sprintf("%.2f", r.ActiveForkersPercentage),
+		fmt.Sprintf("%d", r.OpenIssues),
+		fmt.Sprintf("%d", r.TotalIssues),
+		fmt.Sprintf("%.4f", r.IssueByDay),
+		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
+		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
+		fmt.Sprintf("%d", r.PlacementPopularity),
+		fmt.Sprintf("%d", r.PlacementAge),
+		fmt.Sprintf("%d", r.PlacementTotalCommits),
+		fmt.Sprintf("%d", r.PlacementTotalTags),
+		fmt.Sprintf("%d", r.PlacementTop10ContributorsFollowers),
+		fmt.Sprintf("%d", r.PlacementClosedIssuesPercentage),
+		fmt.Sprintf("%d", r.PlacementCommitsByDay),
+		fmt.Sprintf("%d", r.PlacementActiveForkersColumn),
+		fmt.Sprintf("%d", r.PlacementOverall),
+	}
+	return ghProjectData
+}
+
+func headersFromStructTags() []string {
+	r := new(Repository)
+	return r.reflectRepositoryHeaders()
+}
+
+func (f *Repository) reflectRepositoryHeaders() []string {
+	var headers []string
+	val := reflect.ValueOf(f).Elem()
+	for i := 0; i < val.NumField(); i++ {
+		headers = append(headers, val.Type().Field(i).Tag.Get("header"))
+	}
+	return headers
+}
+
+func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository) {
+
+	r := new(Repository)
+
 	repositoryData := github.GetRepositoryStatistics(rKey, tmpFolder, debug)
-	repositoryAge := int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
-	authorLogin, lastCommitDate := github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
-	authorFollowers := 0
-	if authorLogin != "" {
-		authorFollowers = github.GetUserFollowers(authorLogin, tmpFolder, debug)
+
+	r.Name = repositoryData.FullName
+	r.URL = fmt.Sprintf("https://github.com/%s", r.Name)
+	r.Language = repositoryData.Language
+	r.CreatedAt = repositoryData.CreatedAt
+	r.Age = int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
+	r.Watchers = repositoryData.Watchers
+	r.Forks = repositoryData.Forks
+	r.OpenIssues = repositoryData.OpenIssues
+	r.License = "[Unknown]"
+	if repositoryData.License.SPDXID != "" {
+		r.License = repositoryData.License.SPDXID
+	}
+	r.Author = "[Unknown]"
+
+	r.Author,
+		r.LastCommitDate = github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
+
+	r.AuthorsFollowers = 0
+	if r.Author != "" {
+		r.AuthorsFollowers = github.GetUserFollowers(r.Author, tmpFolder, debug)
+	} else {
+		r.Author = "[Account removed]"
 	}
 
-	closedIssues := 0
+	r.ClosedIssues = 0
 	if repositoryData.HasIssues {
-		closedIssues = github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
+		r.ClosedIssues = github.GetRepositoryClosedIssues(rKey, tmpFolder, debug)
 	}
-	topContributorsFollowers, totalContributors := github.GetRepositoryContributors(rKey, tmpFolder, debug)
-	totalTags := github.GetRepositoryTagsNumber(rKey, tmpFolder, debug)
-	activeForkersPercentage := github.GetActiveForkersPercentage(totalContributors, repositoryData.Forks)
-	issueByDay := github.GetIssueByDay(closedIssues+repositoryData.OpenIssues, repositoryAge)
-	closedIssuesPercentage := github.GetClosedIssuesPercentage(repositoryData.OpenIssues, int(closedIssues))
+	r.TotalIssues = r.OpenIssues + r.ClosedIssues
+	r.Top10ContributorsFollowers,
+		r.Contributors = github.GetRepositoryContributors(rKey, tmpFolder, debug)
+	r.TotalTags = github.GetRepositoryTagsNumber(rKey, tmpFolder, debug)
+	r.ActiveForkersPercentage = github.GetActiveForkersPercentage(r.Contributors, r.Forks)
+	r.IssueByDay = github.GetIssueByDay(r.ClosedIssues+r.OpenIssues, r.Age)
+	r.ClosedIssuesPercentage = github.GetClosedIssuesPercentage(repositoryData.OpenIssues, int(r.ClosedIssues))
+
 	contributionStatistics := github.GetContributionStatistics(rKey, tmpFolder, debug)
-	commitsByDay := github.GetCommitsByDay(contributionStatistics.TotalCommits, repositoryAge)
-	ghProjectData := []string{
-		repositoryData.FullName,
-		fmt.Sprintf("https://github.com/%s", repositoryData.FullName),
-		fmt.Sprintf("%s", func(a string) string {
-			if a == "" {
-				a = "[Account removed]"
-			}
-			return a
-		}(authorLogin)),
-		fmt.Sprintf("%s", repositoryData.Language),
-		fmt.Sprintf("%s", func(l string) string {
-			if l == "" {
-				l = "[Unknown]"
-			}
-			return l
-		}(repositoryData.License.SPDXID)),
-		fmt.Sprintf("%d", authorFollowers),
-		fmt.Sprintf("%d", topContributorsFollowers),
-		fmt.Sprintf("%d/%02d", repositoryData.CreatedAt.Year(), repositoryData.CreatedAt.Month()),
-		fmt.Sprintf("%d", repositoryAge),
-		fmt.Sprintf("%d", contributionStatistics.TotalCommits),
-		fmt.Sprintf("%d", contributionStatistics.TotalAdditions),
-		fmt.Sprintf("%d", contributionStatistics.TotalDeletions),
-		fmt.Sprintf("%d", contributionStatistics.TotalCodeChanges),
-		fmt.Sprintf(lastCommitDate.Format("2006-01-02 15:04:05")),
-		fmt.Sprintf("%.4f", commitsByDay),
-		fmt.Sprintf("%d", contributionStatistics.MediumCommitSize),
-		fmt.Sprintf("%d", totalTags),
-		fmt.Sprintf("%d", repositoryData.Watchers),
-		fmt.Sprintf("%d", repositoryData.Forks),
-		fmt.Sprintf("%d", totalContributors),
-		fmt.Sprintf("%.2f", activeForkersPercentage),
-		fmt.Sprintf("%d", repositoryData.OpenIssues),
-		fmt.Sprintf("%d", closedIssues+repositoryData.OpenIssues),
-		fmt.Sprintf("%.4f", issueByDay),
-		fmt.Sprintf("%.2f", closedIssuesPercentage),
-		"0",
-	}
-	dataChan <- ghProjectData
+	r.TotalCommits = contributionStatistics.TotalCommits
+	r.TotalAdditions = contributionStatistics.TotalAdditions
+	r.TotalDeletions = contributionStatistics.TotalDeletions
+	r.TotalCodeChanges = contributionStatistics.TotalCodeChanges
+	r.MediCommitSize = contributionStatistics.MediumCommitSize
+
+	r.CommitsByDay = github.GetCommitsByDay(contributionStatistics.TotalCommits, r.Age)
+
+	dataChan <- *r
 }
 
 func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
@@ -295,7 +308,7 @@ func checkAndPrintRateLimit() {
 	fmt.Printf("Rate: %d/%d (reset in %d minutes)\n", rateLimits.Rate.Remaining, rateLimits.Rate.Limit, timing.GetRelativeTime(rateLimits.Rate.Reset))
 }
 
-func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
+func writeCsv(csvFilePath string, csvData [][]string) {
 	file, err := os.Create(csvFilePath)
 	if err != nil {
 		log.Fatal("Cannot create file", err)
@@ -303,11 +316,7 @@ func writeCsv(csvFilePath string, headers []string, ghData [][]string) {
 	defer file.Close()
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
-	err = writer.Write(headers)
-	if err != nil {
-		log.Fatal("Cannot write to file", err)
-	}
-	for _, value := range ghData {
+	for _, value := range csvData {
 		err := writer.Write(value)
 		if err != nil {
 			log.Fatal("Cannot write to file", err)
