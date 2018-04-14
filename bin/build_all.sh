@@ -19,5 +19,6 @@ bash bin/php_frameworks.sh
 bash bin/all_frameworks.sh
 # cms
 bash bin/all_cms.sh
+bash bin/js_cms.sh
 bash bin/php_cms.sh
 bash bin/java_cms.sh

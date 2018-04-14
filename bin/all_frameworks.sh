@@ -1,3 +1,5 @@
+echo "### Cross-language frameworks rating"
+echo ""
 ./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,go-macaron/macaron,\
 huntlabs/hunt,vibe-d/vibe.d,adamdruppe/arsd,DiamondMVC/Diamond,\
 kittoframework/kitto,phoenixframework/phoenix,slogsdon/placid,AntonFagerberg/rackla,AgilionApps/relax,sugar-framework/sugar,hexedpackets/trot,\
@@ -16,3 +18,5 @@ tsujigiri/axiom,ChicagoBoss/ChicagoBoss,ninenines/cowboy,kivra/giallo,mochi/moch
 civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,\
 ipkn/crow,cutelyst/cutelyst,oktal/pistache,jlaine/qdjango,treefrogframework/treefrog-framework\
  -f stats/all_frameworks.csv
+ echo "[Detailed cross-language frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)"
+ echo ""
