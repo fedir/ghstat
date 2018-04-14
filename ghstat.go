@@ -58,6 +58,7 @@ func main() {
 			"go-chi/chi",
 			"kataras/iris",
 			"zenazn/goji",
+			"go-macaron/macaron",
 		})
 	}
 

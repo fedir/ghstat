@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 07:35:12 GMT
+Etag: W/"d6b8e32a61c1be4dc5d90cd9c46aeb83"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9A9:148C:1DFD800:3D048F9:5AD1AF2F
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 46
+X-Ratelimit-Reset: 1523694908
+X-Runtime-Rack: 0.022951
+X-Xss-Protection: 1; mode=block
+
+6dd
+[{"login":"andreynering","id":7011819,"avatar_url":"https://avatars2.githubusercontent.com/u/7011819?v=4","gravatar_id":"","url":"https://api.github.com/users/andreynering","html_url":"https://github.com/andreynering","followers_url":"https://api.github.com/users/andreynering/followers","following_url":"https://api.github.com/users/andreynering/following{/other_user}","gists_url":"https://api.github.com/users/andreynering/gists{/gist_id}","starred_url":"https://api.github.com/users/andreynering/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andreynering/subscriptions","organizations_url":"https://api.github.com/users/andreynering/orgs","repos_url":"https://api.github.com/users/andreynering/repos","events_url":"https://api.github.com/users/andreynering/events{/privacy}","received_events_url":"https://api.github.com/users/andreynering/received_events","type":"User","site_admin":false},{"login":"lunny","id":81045,"avatar_url":"https://avatars2.githubusercontent.com/u/81045?v=4","gravatar_id":"","url":"https://api.github.com/users/lunny","html_url":"https://github.com/lunny","followers_url":"https://api.github.com/users/lunny/followers","following_url":"https://api.github.com/users/lunny/following{/other_user}","gists_url":"https://api.github.com/users/lunny/gists{/gist_id}","starred_url":"https://api.github.com/users/lunny/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lunny/subscriptions","organizations_url":"https://api.github.com/users/lunny/orgs","repos_url":"https://api.github.com/users/lunny/repos","events_url":"https://api.github.com/users/lunny/events{/privacy}","received_events_url":"https://api.github.com/users/lunny/received_events","type":"User","site_admin":false}]
+0
+
