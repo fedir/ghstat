@@ -6,20 +6,15 @@
 package main
 
 import (
-	"encoding/csv"
-	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
 	"os"
 	"path/filepath"
-	"reflect"
 	"strings"
 	"time"
 
 	"github.com/fedir/ghstat/github"
-	"github.com/fedir/ghstat/httpcache"
-	"github.com/fedir/ghstat/timing"
 )
 
 // Repository structure with selcted data keys for JSON processing
@@ -78,11 +73,7 @@ func main() {
 		os.Exit(0)
 	}
 	if *rateLimitCheck {
-		checkAndPrintRateLimit()
-		os.Exit(0)
-	}
-	if *rateLimitCheck {
-		checkAndPrintRateLimit()
+		github.CheckAndPrintRateLimit()
 		os.Exit(0)
 	}
 	if *repositoriesKeysManual != "" {
@@ -119,75 +110,6 @@ func main() {
 	}
 	rateAndPrintGreetings(ghData)
 	writeCSVStatistics(ghData, csvFilePath)
-}
-
-func rateAndPrintGreetings(ghData []Repository) {
-	greetings := rateGhData(ghData)
-	fmt.Println(greetings)
-}
-
-func writeCSVStatistics(ghData []Repository, csvFilePath string) {
-	var csvData [][]string
-	csvData = append(csvData, headersFromStructTags())
-	for _, r := range ghData {
-		csvData = append(csvData, formatRepositoryDataForCSV(r))
-	}
-	writeCsv(csvFilePath, csvData)
-}
-
-func formatRepositoryDataForCSV(r Repository) []string {
-	ghProjectData := []string{
-		r.Name,
-		fmt.Sprintf("%s", r.URL),
-		fmt.Sprintf("%s", r.Author),
-		fmt.Sprintf("%s", r.Language),
-		fmt.Sprintf("%s", r.License),
-		fmt.Sprintf("%d", r.AuthorsFollowers),
-		fmt.Sprintf("%d", r.Top10ContributorsFollowers),
-		fmt.Sprintf("%d/%02d", r.CreatedAt.Year(), r.CreatedAt.Month()),
-		fmt.Sprintf("%d", r.Age),
-		fmt.Sprintf("%d", r.TotalCommits),
-		fmt.Sprintf("%d", r.TotalAdditions),
-		fmt.Sprintf("%d", r.TotalDeletions),
-		fmt.Sprintf("%d", r.TotalCodeChanges),
-		fmt.Sprintf(r.LastCommitDate.Format("2006-01-02 15:04:05")),
-		fmt.Sprintf("%.4f", r.CommitsByDay),
-		fmt.Sprintf("%d", r.MediCommitSize),
-		fmt.Sprintf("%d", r.TotalTags),
-		fmt.Sprintf("%d", r.Watchers),
-		fmt.Sprintf("%d", r.Forks),
-		fmt.Sprintf("%d", r.Contributors),
-		fmt.Sprintf("%.2f", r.ActiveForkersPercentage),
-		fmt.Sprintf("%d", r.OpenIssues),
-		fmt.Sprintf("%d", r.TotalIssues),
-		fmt.Sprintf("%.4f", r.IssueByDay),
-		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
-		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
-		fmt.Sprintf("%d", r.PlacementPopularity),
-		fmt.Sprintf("%d", r.PlacementAge),
-		fmt.Sprintf("%d", r.PlacementTotalCommits),
-		fmt.Sprintf("%d", r.PlacementTotalTags),
-		fmt.Sprintf("%d", r.PlacementTop10ContributorsFollowers),
-		fmt.Sprintf("%d", r.PlacementClosedIssuesPercentage),
-		fmt.Sprintf("%d", r.PlacementCommitsByDay),
-		fmt.Sprintf("%d", r.PlacementActiveForkersColumn),
-		fmt.Sprintf("%d", r.PlacementOverall),
-	}
-	return ghProjectData
-}
-
-func headersFromStructTags() []string {
-	r := new(Repository)
-	return r.reflectRepositoryHeaders()
-}
-
-func (f *Repository) reflectRepositoryHeaders() []string {
-	var headers []string
-	val := reflect.ValueOf(f).Elem()
-	for i := 0; i < val.NumField(); i++ {
-		headers = append(headers, val.Type().Field(i).Tag.Get("header"))
-	}
-	return headers
 }
 
 func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository) {
@@ -267,61 +189,6 @@ func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
 		}
 	}
 	return nil
-}
-
-func checkAndPrintRateLimit() {
-	type RateLimits struct {
-		Resources struct {
-			Core struct {
-				Limit     int `json:"limit"`
-				Remaining int `json:"remaining"`
-				Reset     int `json:"reset"`
-			} `json:"core"`
-			Search struct {
-				Limit     int `json:"limit"`
-				Remaining int `json:"remaining"`
-				Reset     int `json:"reset"`
-			} `json:"search"`
-			GraphQL struct {
-				Limit     int `json:"limit"`
-				Remaining int `json:"remaining"`
-				Reset     int `json:"reset"`
-			} `json:"graphql"`
-		} `json:"resources"`
-		Rate struct {
-			Limit     int `json:"limit"`
-			Remaining int `json:"remaining"`
-			Reset     int `json:"reset"`
-		} `json:"rate"`
-	}
-	url := "https://api.github.com/rate_limit"
-	resp, statusCode, err := httpcache.MakeHTTPRequest(url)
-	if err != nil {
-		log.Fatalf("Error during checking rate limit : %d %v#", statusCode, err)
-	}
-	jsonResponse, _, _ := httpcache.ReadResp(resp)
-	rateLimits := RateLimits{}
-	json.Unmarshal(jsonResponse, &rateLimits)
-	fmt.Printf("Core: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Core.Remaining, rateLimits.Resources.Core.Limit, timing.GetRelativeTime(rateLimits.Resources.Core.Reset))
-	fmt.Printf("Search: %d/%d (reset in %d minutes)\n", rateLimits.Resources.Search.Remaining, rateLimits.Resources.Search.Limit, timing.GetRelativeTime(rateLimits.Resources.Search.Reset))
-	fmt.Printf("GraphQL: %d/%d (reset in %d minutes)\n", rateLimits.Resources.GraphQL.Remaining, rateLimits.Resources.GraphQL.Limit, timing.GetRelativeTime(rateLimits.Resources.GraphQL.Reset))
-	fmt.Printf("Rate: %d/%d (reset in %d minutes)\n", rateLimits.Rate.Remaining, rateLimits.Rate.Limit, timing.GetRelativeTime(rateLimits.Rate.Reset))
-}
-
-func writeCsv(csvFilePath string, csvData [][]string) {
-	file, err := os.Create(csvFilePath)
-	if err != nil {
-		log.Fatal("Cannot create file", err)
-	}
-	defer file.Close()
-	writer := csv.NewWriter(file)
-	defer writer.Flush()
-	for _, value := range csvData {
-		err := writer.Write(value)
-		if err != nil {
-			log.Fatal("Cannot write to file", err)
-		}
-	}
 }
 
 func uniqSlice(s []string) []string {
