@@ -29,7 +29,7 @@ func rateGhData(ghData [][]string, columnsIndexes map[string]int) string {
 	// Add points by number of tags (more tags is better)
 	sorting.SortSliceByColumnIndexIntDesc(ghData, columnsIndexes["totalTagsColumn"])
 	greetings += fmt.Sprintf("* The project with more tags is `%s`\n", ghData[0][0])
-	addPoints(ghData, columnsIndexes["totalCommitsColumn"], columnsIndexes["totalPointsColumnIndex"])
+	addPoints(ghData, columnsIndexes["totalTagsColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by Top10 contributors followers
 	sorting.SortSliceByColumnIndexIntDesc(ghData, columnsIndexes["top10ContributorsFollowersColumn"])
 	greetings += fmt.Sprintf("* The project made by most notable top contributors is `%s`\n", ghData[0][0])
@@ -41,7 +41,7 @@ func rateGhData(ghData [][]string, columnsIndexes map[string]int) string {
 	// Add points by commits by day (more commits shows good healthy community)
 	sorting.SortSliceByColumnIndexFloatDesc(ghData, columnsIndexes["commitsByDayColumn"])
 	greetings += fmt.Sprintf("* The project with more commits by day is `%s`\n", ghData[0][0])
-	addPoints(ghData, columnsIndexes["activeForkersColumn"], columnsIndexes["totalPointsColumnIndex"])
+	addPoints(ghData, columnsIndexes["commitsByDayColumn"], columnsIndexes["totalPointsColumnIndex"])
 	// Add points by active forkers (more active forkers shows good open source spirit of the community)
 	sorting.SortSliceByColumnIndexFloatDesc(ghData, columnsIndexes["activeForkersColumn"])
 	greetings += fmt.Sprintf("* The project with the most active community is `%s`\n", ghData[0][0])
