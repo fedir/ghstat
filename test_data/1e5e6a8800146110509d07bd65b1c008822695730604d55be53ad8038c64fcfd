@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 07:35:12 GMT
+Etag: W/"fb8a39fce5717546e3a8880434065749"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9A9:148C:1DFD80B:3D04915:5AD1AF30
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 45
+X-Ratelimit-Reset: 1523694908
+X-Runtime-Rack: 0.036864
+X-Xss-Protection: 1; mode=block
+
+6cd
+[{"login":"theMomax","id":21169289,"avatar_url":"https://avatars1.githubusercontent.com/u/21169289?v=4","gravatar_id":"","url":"https://api.github.com/users/theMomax","html_url":"https://github.com/theMomax","followers_url":"https://api.github.com/users/theMomax/followers","following_url":"https://api.github.com/users/theMomax/following{/other_user}","gists_url":"https://api.github.com/users/theMomax/gists{/gist_id}","starred_url":"https://api.github.com/users/theMomax/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/theMomax/subscriptions","organizations_url":"https://api.github.com/users/theMomax/orgs","repos_url":"https://api.github.com/users/theMomax/repos","events_url":"https://api.github.com/users/theMomax/events{/privacy}","received_events_url":"https://api.github.com/users/theMomax/received_events","type":"User","site_admin":false},{"login":"TomBom4","id":10871450,"avatar_url":"https://avatars0.githubusercontent.com/u/10871450?v=4","gravatar_id":"","url":"https://api.github.com/users/TomBom4","html_url":"https://github.com/TomBom4","followers_url":"https://api.github.com/users/TomBom4/followers","following_url":"https://api.github.com/users/TomBom4/following{/other_user}","gists_url":"https://api.github.com/users/TomBom4/gists{/gist_id}","starred_url":"https://api.github.com/users/TomBom4/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TomBom4/subscriptions","organizations_url":"https://api.github.com/users/TomBom4/orgs","repos_url":"https://api.github.com/users/TomBom4/repos","events_url":"https://api.github.com/users/TomBom4/events{/privacy}","received_events_url":"https://api.github.com/users/TomBom4/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,4 +1,4 @@
-./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,\
+./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,go-macaron/macaron,\
 huntlabs/hunt,vibe-d/vibe.d,adamdruppe/arsd,DiamondMVC/Diamond,\
 kittoframework/kitto,phoenixframework/phoenix,slogsdon/placid,AntonFagerberg/rackla,AgilionApps/relax,sugar-framework/sugar,hexedpackets/trot,\
 ktorio/ktor,TinyMission/kara,http4k/http4k,jean79/yested,wasabifx/wasabi,kohesive/kovert,danneu/kog,hypercube1024/firefly,\

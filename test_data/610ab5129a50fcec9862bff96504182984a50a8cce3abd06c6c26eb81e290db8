@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 07:35:09 GMT
+Etag: W/"06253ece111484ef6faa9bf6fd492a95"
+Link: <https://api.github.com/user/2946214/followers?page=195>; rel="prev", <https://api.github.com/user/2946214/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C9A9:148C:1DFD6ED:3D046F3:5AD1AF2D
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 55
+X-Ratelimit-Reset: 1523694908
+X-Runtime-Rack: 0.255404
+X-Xss-Protection: 1; mode=block
+
+6fb
+[{"login":"shichen35","id":6081467,"avatar_url":"https://avatars0.githubusercontent.com/u/6081467?v=4","gravatar_id":"","url":"https://api.github.com/users/shichen35","html_url":"https://github.com/shichen35","followers_url":"https://api.github.com/users/shichen35/followers","following_url":"https://api.github.com/users/shichen35/following{/other_user}","gists_url":"https://api.github.com/users/shichen35/gists{/gist_id}","starred_url":"https://api.github.com/users/shichen35/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shichen35/subscriptions","organizations_url":"https://api.github.com/users/shichen35/orgs","repos_url":"https://api.github.com/users/shichen35/repos","events_url":"https://api.github.com/users/shichen35/events{/privacy}","received_events_url":"https://api.github.com/users/shichen35/received_events","type":"User","site_admin":false},{"login":"FanPingggg","id":31161700,"avatar_url":"https://avatars0.githubusercontent.com/u/31161700?v=4","gravatar_id":"","url":"https://api.github.com/users/FanPingggg","html_url":"https://github.com/FanPingggg","followers_url":"https://api.github.com/users/FanPingggg/followers","following_url":"https://api.github.com/users/FanPingggg/following{/other_user}","gists_url":"https://api.github.com/users/FanPingggg/gists{/gist_id}","starred_url":"https://api.github.com/users/FanPingggg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FanPingggg/subscriptions","organizations_url":"https://api.github.com/users/FanPingggg/orgs","repos_url":"https://api.github.com/users/FanPingggg/repos","events_url":"https://api.github.com/users/FanPingggg/events{/privacy}","received_events_url":"https://api.github.com/users/FanPingggg/received_events","type":"User","site_admin":false}]
+0
+
