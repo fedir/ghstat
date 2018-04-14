@@ -24,13 +24,13 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The most popular project is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementPopularity = ghData[i].PlacementPopularity + i
+		ghData[i].PlacementPopularity = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
 	greetings += fmt.Sprintf("* The newest project is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementAge = ghData[i].PlacementAge + i
+		ghData[i].PlacementAge = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -40,7 +40,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project with more commits is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementTotalCommits = ghData[i].PlacementTotalCommits + i
+		ghData[i].PlacementTotalCommits = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -50,7 +50,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project with more tags is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementTotalTags = ghData[i].PlacementTotalTags + i
+		ghData[i].PlacementTotalTags = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -60,7 +60,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project made by most notable top contributors is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementTop10ContributorsFollowers = ghData[i].PlacementTop10ContributorsFollowers + i
+		ghData[i].PlacementTop10ContributorsFollowers = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -70,7 +70,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project with best errors resolving rate is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementClosedIssuesPercentage = ghData[i].PlacementClosedIssuesPercentage + i
+		ghData[i].PlacementClosedIssuesPercentage = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -80,7 +80,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project with more commits by day is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementCommitsByDay = ghData[i].PlacementCommitsByDay + i
+		ghData[i].PlacementCommitsByDay = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -90,7 +90,7 @@ func rateGhData(ghData []Repository) string {
 	})
 	greetings += fmt.Sprintf("* The project with the most active community is `%s`\n", ghData[0].Name)
 	for i := range ghData {
-		ghData[i].PlacementActiveForkersColumn = ghData[i].PlacementActiveForkersColumn + i
+		ghData[i].PlacementActiveForkersColumn = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
@@ -99,6 +99,9 @@ func rateGhData(ghData []Repository) string {
 		return ghData[i].PlacementOverall < ghData[j].PlacementOverall
 	})
 	greetings += fmt.Sprintf("* The best project (taking in account placements in all competitions) is `%s`\n", ghData[0].Name)
+	for i := range ghData {
+		ghData[i].PlacementOverall = i + 1
+	}
 
 	return greetings
 }
