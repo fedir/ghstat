@@ -1,4 +1,4 @@
-echo "### Cross-language frameworks rating"
+echo "## Cross-language frameworks rating"
 echo ""
 ./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,go-macaron/macaron,\
 huntlabs/hunt,vibe-d/vibe.d,adamdruppe/arsd,DiamondMVC/Diamond,\

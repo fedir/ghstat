@@ -1,4 +1,4 @@
-echo "### Cross-language CMS rating"
+echo "## Cross-language CMS rating"
 echo ""
 ./ghstat -r \
 dotCMS/core,alkacon/opencms-core,gentics/mesh,Softmotions/ncms,liferay/liferay-portal,\

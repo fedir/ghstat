@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "### JS frameworks statistics rating"
+echo "## JS frameworks statistics rating"
 echo ""
 ./ghstat -r angular/angular,facebook/react,vuejs/vue,\
 jquery/jquery,emberjs/ember.js,jashkenas/backbone,\

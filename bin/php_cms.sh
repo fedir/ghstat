@@ -1,4 +1,4 @@
-echo "### PHP CMS frameworks statistics rating"
+echo "## PHP CMS frameworks statistics rating"
 echo ""
 ./ghstat -r Victoire/victoire,backbee/backbee-php,bolt/bolt,concrete5/concrete5,contao/core,\
 forkcms/forkcms,getgrav/grav,joomla/joomla-cms,octobercms/october,pagekit/pagekit,redkite-labs/RedKiteCms,roadiz/roadiz,sulu/sulu-standard,\
