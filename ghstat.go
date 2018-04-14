@@ -21,6 +21,44 @@ import (
 	"github.com/fedir/ghstat/timing"
 )
 
+// Repository structure with selcted data keys for JSON processing
+type Repository struct {
+	name                                string    `header:"Name"`
+	url                                 string    `header:"URL"`
+	author                              string    `header:"Author"`
+	language                            string    `header:"Language"`
+	license                             string    `header:"License"`
+	authorsFollowers                    int       `header:"Author's followers"`
+	top10ContributorsFollowers          int       `header:"Top 10 contributors followers"`
+	createdAt                           time.Time `header:"Created at"`
+	age                                 int       `header:"Age in days"`
+	totalCommits                        int       `header:"Total commits"`
+	totalAdditions                      int       `header:"Total additions"`
+	totalDeletions                      int       `header:"Total deletions"`
+	totalCodeChanges                    int       `header:"Total code changes"`
+	lastCommitDate                      time.Time `header:"Last commit date"`
+	commitsByDay                        float64   `header:"Commits/day"`
+	mediCommitSize                      float64   `header:"Medium commit size"`
+	totalTags                           int       `header:"Total releases"`
+	watchers                            int       `header:"Stargazers"`
+	forks                               int       `header:"Forks"`
+	contributors                        int       `header:"Contributors"`
+	activeForkersPercentage             float64   `header:"Active forkers, %"`
+	openIssues                          int       `header:"Open issues"`
+	totalIssues                         int       `header:"Total issues"`
+	issueDay                            float64   `header:"Issue/day"`
+	closedIssuesPercentage              float64   `header:"Closed issues, %"`
+	placementPopularity                 int       `header:"Placement by popularity"`
+	placementAge                        int       `header:"Placement by age"`
+	placementTotalCommits               int       `header:"Placement by total commits"`
+	placementTotalTags                  int       `header:"Placement by total tags"`
+	placementTop10ContributorsFollowers int       `header:"Placement by top 10 contributors followers"`
+	placementClosedIssuesPercentage     int       `header:"Placement by closed issues percentage"`
+	placementCommitsByDay               int       `header:"Placement by commits/day"`
+	placementActiveForkersColumn        int       `header:"Placement by active forkers column"`
+	placeOverall                        int       `header:"Placement overall"`
+}
+
 func main() {
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
