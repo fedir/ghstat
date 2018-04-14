@@ -9,8 +9,34 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"reflect"
 )
+
+func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
+	d, err := os.Open(tmpFolderPath)
+	if err != nil {
+		log.Fatalf("Could not open %s", tmpFolderPath)
+	}
+	defer d.Close()
+	names, err := d.Readdirnames(-1)
+	if err != nil {
+		log.Fatalf("Could not read from %s", tmpFolderPath)
+	}
+	for _, name := range names {
+		fp := filepath.Join(tmpFolderPath, name)
+		if dryRun {
+			fmt.Printf("Deleted %s\n", fp)
+		} else {
+			err = os.RemoveAll(fp)
+			if err != nil {
+				log.Fatalf("Could not remove %s", fp)
+			}
+			fmt.Printf("Deleted %s\n", fp)
+		}
+	}
+	return nil
+}
 
 func writeCSVStatistics(ghData []Repository, csvFilePath string) {
 	var csvData [][]string
