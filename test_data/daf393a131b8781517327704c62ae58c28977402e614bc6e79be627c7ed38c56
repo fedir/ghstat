@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 08 Apr 2018 22:36:54 GMT
+Date: Sat, 14 Apr 2018 20:19:38 GMT
 Link: <https://api.github.com/search/issues?q=repo%3ATurboGears%2Ftg2+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3ATurboGears%2Ftg2+type%3Aissue+state%3Aclosed&page=3>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC6F:54B8:F3AB9F:21C5545:5ACA9985
+X-Github-Request-Id: C972:148B:1BBE9FD:3C737B6:5AD2625A
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 16
-X-Ratelimit-Reset: 1523227064
-X-Runtime-Rack: 0.287041
+X-Ratelimit-Remaining: 11
+X-Ratelimit-Reset: 1523737215
+X-Runtime-Rack: 0.319073
 X-Xss-Protection: 1; mode=block
 
 8000

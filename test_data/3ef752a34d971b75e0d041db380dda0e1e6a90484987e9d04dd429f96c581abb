@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Mon, 09 Apr 2018 00:16:03 GMT
-Etag: W/"07d898a28dec0026fff8bde015ee3a7b"
+Date: Sat, 14 Apr 2018 20:20:25 GMT
+Etag: W/"8a9930415cc7d1b9b7a42c5f73a1a959"
 Link: <https://api.github.com/user/1447245/followers?page=1>; rel="prev", <https://api.github.com/user/1447245/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D794:54B9:14DF3B3:29FA1AB:5ACAB0C3
+X-Github-Request-Id: CC5F:148C:22B9F3C:46A5A4C:5AD26289
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4778
-X-Ratelimit-Reset: 1523235841
-X-Runtime-Rack: 0.028745
+X-Ratelimit-Remaining: 1592
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.031491
 X-Xss-Protection: 1; mode=block
 
-6b3
-[{"login":"sleexyz","id":1505617,"avatar_url":"https://avatars0.githubusercontent.com/u/1505617?v=4","gravatar_id":"","url":"https://api.github.com/users/sleexyz","html_url":"https://github.com/sleexyz","followers_url":"https://api.github.com/users/sleexyz/followers","following_url":"https://api.github.com/users/sleexyz/following{/other_user}","gists_url":"https://api.github.com/users/sleexyz/gists{/gist_id}","starred_url":"https://api.github.com/users/sleexyz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sleexyz/subscriptions","organizations_url":"https://api.github.com/users/sleexyz/orgs","repos_url":"https://api.github.com/users/sleexyz/repos","events_url":"https://api.github.com/users/sleexyz/events{/privacy}","received_events_url":"https://api.github.com/users/sleexyz/received_events","type":"User","site_admin":false},{"login":"Lispre","id":14808551,"avatar_url":"https://avatars0.githubusercontent.com/u/14808551?v=4","gravatar_id":"","url":"https://api.github.com/users/Lispre","html_url":"https://github.com/Lispre","followers_url":"https://api.github.com/users/Lispre/followers","following_url":"https://api.github.com/users/Lispre/following{/other_user}","gists_url":"https://api.github.com/users/Lispre/gists{/gist_id}","starred_url":"https://api.github.com/users/Lispre/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lispre/subscriptions","organizations_url":"https://api.github.com/users/Lispre/orgs","repos_url":"https://api.github.com/users/Lispre/repos","events_url":"https://api.github.com/users/Lispre/events{/privacy}","received_events_url":"https://api.github.com/users/Lispre/received_events","type":"User","site_admin":false}]
+a65
+[{"login":"sleexyz","id":1505617,"avatar_url":"https://avatars0.githubusercontent.com/u/1505617?v=4","gravatar_id":"","url":"https://api.github.com/users/sleexyz","html_url":"https://github.com/sleexyz","followers_url":"https://api.github.com/users/sleexyz/followers","following_url":"https://api.github.com/users/sleexyz/following{/other_user}","gists_url":"https://api.github.com/users/sleexyz/gists{/gist_id}","starred_url":"https://api.github.com/users/sleexyz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sleexyz/subscriptions","organizations_url":"https://api.github.com/users/sleexyz/orgs","repos_url":"https://api.github.com/users/sleexyz/repos","events_url":"https://api.github.com/users/sleexyz/events{/privacy}","received_events_url":"https://api.github.com/users/sleexyz/received_events","type":"User","site_admin":false},{"login":"Lispre","id":14808551,"avatar_url":"https://avatars0.githubusercontent.com/u/14808551?v=4","gravatar_id":"","url":"https://api.github.com/users/Lispre","html_url":"https://github.com/Lispre","followers_url":"https://api.github.com/users/Lispre/followers","following_url":"https://api.github.com/users/Lispre/following{/other_user}","gists_url":"https://api.github.com/users/Lispre/gists{/gist_id}","starred_url":"https://api.github.com/users/Lispre/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lispre/subscriptions","organizations_url":"https://api.github.com/users/Lispre/orgs","repos_url":"https://api.github.com/users/Lispre/repos","events_url":"https://api.github.com/users/Lispre/events{/privacy}","received_events_url":"https://api.github.com/users/Lispre/received_events","type":"User","site_admin":false},{"login":"wellington1993","id":6920053,"avatar_url":"https://avatars3.githubusercontent.com/u/6920053?v=4","gravatar_id":"","url":"https://api.github.com/users/wellington1993","html_url":"https://github.com/wellington1993","followers_url":"https://api.github.com/users/wellington1993/followers","following_url":"https://api.github.com/users/wellington1993/following{/other_user}","gists_url":"https://api.github.com/users/wellington1993/gists{/gist_id}","starred_url":"https://api.github.com/users/wellington1993/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wellington1993/subscriptions","organizations_url":"https://api.github.com/users/wellington1993/orgs","repos_url":"https://api.github.com/users/wellington1993/repos","events_url":"https://api.github.com/users/wellington1993/events{/privacy}","received_events_url":"https://api.github.com/users/wellington1993/received_events","type":"User","site_admin":false}]
 0
 

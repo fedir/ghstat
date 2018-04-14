@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:38:03 GMT
+Etag: W/"961dcfa6fd5c282812c8375e68f0f786"
+Link: <https://api.github.com/user/3018/followers?page=17>; rel="prev", <https://api.github.com/user/3018/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D398:148C:22D575E:46DF28A:5AD266AA
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4627
+X-Ratelimit-Reset: 1523741872
+X-Runtime-Rack: 0.049793
+X-Xss-Protection: 1; mode=block
+
+ad3
+[{"login":"taddeimania","id":1627744,"avatar_url":"https://avatars3.githubusercontent.com/u/1627744?v=4","gravatar_id":"","url":"https://api.github.com/users/taddeimania","html_url":"https://github.com/taddeimania","followers_url":"https://api.github.com/users/taddeimania/followers","following_url":"https://api.github.com/users/taddeimania/following{/other_user}","gists_url":"https://api.github.com/users/taddeimania/gists{/gist_id}","starred_url":"https://api.github.com/users/taddeimania/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/taddeimania/subscriptions","organizations_url":"https://api.github.com/users/taddeimania/orgs","repos_url":"https://api.github.com/users/taddeimania/repos","events_url":"https://api.github.com/users/taddeimania/events{/privacy}","received_events_url":"https://api.github.com/users/taddeimania/received_events","type":"User","site_admin":false},{"login":"toltarisa","id":38230661,"avatar_url":"https://avatars2.githubusercontent.com/u/38230661?v=4","gravatar_id":"","url":"https://api.github.com/users/toltarisa","html_url":"https://github.com/toltarisa","followers_url":"https://api.github.com/users/toltarisa/followers","following_url":"https://api.github.com/users/toltarisa/following{/other_user}","gists_url":"https://api.github.com/users/toltarisa/gists{/gist_id}","starred_url":"https://api.github.com/users/toltarisa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/toltarisa/subscriptions","organizations_url":"https://api.github.com/users/toltarisa/orgs","repos_url":"https://api.github.com/users/toltarisa/repos","events_url":"https://api.github.com/users/toltarisa/events{/privacy}","received_events_url":"https://api.github.com/users/toltarisa/received_events","type":"User","site_admin":false},{"login":"kelliott-idplans","id":38299150,"avatar_url":"https://avatars3.githubusercontent.com/u/38299150?v=4","gravatar_id":"","url":"https://api.github.com/users/kelliott-idplans","html_url":"https://github.com/kelliott-idplans","followers_url":"https://api.github.com/users/kelliott-idplans/followers","following_url":"https://api.github.com/users/kelliott-idplans/following{/other_user}","gists_url":"https://api.github.com/users/kelliott-idplans/gists{/gist_id}","starred_url":"https://api.github.com/users/kelliott-idplans/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kelliott-idplans/subscriptions","organizations_url":"https://api.github.com/users/kelliott-idplans/orgs","repos_url":"https://api.github.com/users/kelliott-idplans/repos","events_url":"https://api.github.com/users/kelliott-idplans/events{/privacy}","received_events_url":"https://api.github.com/users/kelliott-idplans/received_events","type":"User","site_admin":false}]
+0
+

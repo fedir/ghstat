@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:38:08 GMT
+Etag: W/"a6696ea43d24bd13104fee50650f3c21"
+Link: <https://api.github.com/user/194960/followers?page=17>; rel="prev", <https://api.github.com/user/194960/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D3AD:148A:1509A14:2FF2CEA:5AD266AF
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4503
+X-Ratelimit-Reset: 1523741872
+X-Runtime-Rack: 0.044751
+X-Xss-Protection: 1; mode=block
+
+a67
+[{"login":"tomaskarlik","id":15874672,"avatar_url":"https://avatars0.githubusercontent.com/u/15874672?v=4","gravatar_id":"","url":"https://api.github.com/users/tomaskarlik","html_url":"https://github.com/tomaskarlik","followers_url":"https://api.github.com/users/tomaskarlik/followers","following_url":"https://api.github.com/users/tomaskarlik/following{/other_user}","gists_url":"https://api.github.com/users/tomaskarlik/gists{/gist_id}","starred_url":"https://api.github.com/users/tomaskarlik/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tomaskarlik/subscriptions","organizations_url":"https://api.github.com/users/tomaskarlik/orgs","repos_url":"https://api.github.com/users/tomaskarlik/repos","events_url":"https://api.github.com/users/tomaskarlik/events{/privacy}","received_events_url":"https://api.github.com/users/tomaskarlik/received_events","type":"User","site_admin":false},{"login":"milankyncl","id":9209120,"avatar_url":"https://avatars3.githubusercontent.com/u/9209120?v=4","gravatar_id":"","url":"https://api.github.com/users/milankyncl","html_url":"https://github.com/milankyncl","followers_url":"https://api.github.com/users/milankyncl/followers","following_url":"https://api.github.com/users/milankyncl/following{/other_user}","gists_url":"https://api.github.com/users/milankyncl/gists{/gist_id}","starred_url":"https://api.github.com/users/milankyncl/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/milankyncl/subscriptions","organizations_url":"https://api.github.com/users/milankyncl/orgs","repos_url":"https://api.github.com/users/milankyncl/repos","events_url":"https://api.github.com/users/milankyncl/events{/privacy}","received_events_url":"https://api.github.com/users/milankyncl/received_events","type":"User","site_admin":false},{"login":"tomat1","id":13833953,"avatar_url":"https://avatars0.githubusercontent.com/u/13833953?v=4","gravatar_id":"","url":"https://api.github.com/users/tomat1","html_url":"https://github.com/tomat1","followers_url":"https://api.github.com/users/tomat1/followers","following_url":"https://api.github.com/users/tomat1/following{/other_user}","gists_url":"https://api.github.com/users/tomat1/gists{/gist_id}","starred_url":"https://api.github.com/users/tomat1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tomat1/subscriptions","organizations_url":"https://api.github.com/users/tomat1/orgs","repos_url":"https://api.github.com/users/tomat1/repos","events_url":"https://api.github.com/users/tomat1/events{/privacy}","received_events_url":"https://api.github.com/users/tomat1/received_events","type":"User","site_admin":false}]
+0
+

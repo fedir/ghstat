@@ -5,20 +5,22 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:04:26 GMT
+Date: Sat, 14 Apr 2018 20:37:59 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Ahexojs%2Fhexo+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Ahexojs%2Fhexo+type%3Aissue+state%3Aclosed&page=34>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C878:148C:12C404:26B8C9:5ACE4E29
-X-Ratelimit-Limit: 10
-X-Ratelimit-Remaining: 4
-X-Ratelimit-Reset: 1523469925
-X-Runtime-Rack: 0.597483
+X-Github-Request-Id: D362:148B:1BD4DF0:3CA4FDC:5AD266A6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 20
+X-Ratelimit-Reset: 1523738339
+X-Runtime-Rack: 0.294148
 X-Xss-Protection: 1; mode=block
 
 8000

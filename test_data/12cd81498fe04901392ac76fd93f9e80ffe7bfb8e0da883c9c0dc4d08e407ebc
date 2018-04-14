@@ -2,26 +2,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
-Cache-Control: public, max-age=60, s-maxage=60
+Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:04:25 GMT
-Etag: W/"ac2dc2f903017d6d2e3aae92b7c39a70"
+Date: Sat, 14 Apr 2018 20:18:51 GMT
+Etag: W/"3c2c4880603ccbc3b7b0e32fec1cbb71"
 Last-Modified: Sun, 19 Nov 2017 15:05:30 GMT
 Link: <https://api.github.com/repositories/1680336/commits?page=2>; rel="next", <https://api.github.com/repositories/1680336/commits?page=66>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-Vary: Accept
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C872:148B:104C70:22D0C0:5ACE4E28
-X-Ratelimit-Limit: 60
-X-Ratelimit-Remaining: 43
-X-Ratelimit-Reset: 1523473464
-X-Runtime-Rack: 0.192599
+X-Github-Request-Id: C65A:148A:14FA5AC:2FCE23C:5AD2622B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3243
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.171364
 X-Xss-Protection: 1; mode=block
 
 8000

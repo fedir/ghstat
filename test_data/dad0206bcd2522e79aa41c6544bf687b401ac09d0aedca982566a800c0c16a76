@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 08 Apr 2018 22:38:44 GMT
+Date: Sat, 14 Apr 2018 20:39:54 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Aforkcms%2Fforkcms+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Aforkcms%2Fforkcms+type%3Aissue+state%3Aclosed&page=24>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CEC0:54B6:58E0F6:E3A3A6:5ACA99F4
+X-Github-Request-Id: D473:148C:22D8037:46E4AC8:5AD26719
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 20
-X-Ratelimit-Reset: 1523227184
-X-Runtime-Rack: 0.370020
+X-Ratelimit-Remaining: 17
+X-Ratelimit-Reset: 1523738442
+X-Runtime-Rack: 0.342262
 X-Xss-Protection: 1; mode=block
 
 8000

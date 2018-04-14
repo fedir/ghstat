@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:20:42 GMT
+Etag: W/"c56358431dc42386d8dd05ea91475241"
+Last-Modified: Thu, 30 Oct 2014 16:27:44 GMT
+Link: <https://api.github.com/repositories/25979437/commits?page=1>; rel="first", <https://api.github.com/repositories/25979437/commits?page=42>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CC76:148A:14FBEEF:2FD20BA:5AD2629A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1424
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.043402
+X-Xss-Protection: 1; mode=block
+
+aca
+[{"sha":"6c113f5a9432dac1fd509d81470cae86317862ee","commit":{"author":{"name":"Decebal Suiu","email":"decebal.suiu@gmail.com","date":"2014-10-30T16:27:44Z"},"committer":{"name":"Decebal Suiu","email":"decebal.suiu@gmail.com","date":"2014-10-30T16:27:44Z"},"message":"initial commit","tree":{"sha":"888eba3ad8d709061b76249ea710c3e8eea2c841","url":"https://api.github.com/repos/pippo-java/pippo/git/trees/888eba3ad8d709061b76249ea710c3e8eea2c841"},"url":"https://api.github.com/repos/pippo-java/pippo/git/commits/6c113f5a9432dac1fd509d81470cae86317862ee","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/pippo-java/pippo/commits/6c113f5a9432dac1fd509d81470cae86317862ee","html_url":"https://github.com/pippo-java/pippo/commit/6c113f5a9432dac1fd509d81470cae86317862ee","comments_url":"https://api.github.com/repos/pippo-java/pippo/commits/6c113f5a9432dac1fd509d81470cae86317862ee/comments","author":{"login":"decebals","id":1248311,"avatar_url":"https://avatars3.githubusercontent.com/u/1248311?v=4","gravatar_id":"","url":"https://api.github.com/users/decebals","html_url":"https://github.com/decebals","followers_url":"https://api.github.com/users/decebals/followers","following_url":"https://api.github.com/users/decebals/following{/other_user}","gists_url":"https://api.github.com/users/decebals/gists{/gist_id}","starred_url":"https://api.github.com/users/decebals/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/decebals/subscriptions","organizations_url":"https://api.github.com/users/decebals/orgs","repos_url":"https://api.github.com/users/decebals/repos","events_url":"https://api.github.com/users/decebals/events{/privacy}","received_events_url":"https://api.github.com/users/decebals/received_events","type":"User","site_admin":false},"committer":{"login":"decebals","id":1248311,"avatar_url":"https://avatars3.githubusercontent.com/u/1248311?v=4","gravatar_id":"","url":"https://api.github.com/users/decebals","html_url":"https://github.com/decebals","followers_url":"https://api.github.com/users/decebals/followers","following_url":"https://api.github.com/users/decebals/following{/other_user}","gists_url":"https://api.github.com/users/decebals/gists{/gist_id}","starred_url":"https://api.github.com/users/decebals/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/decebals/subscriptions","organizations_url":"https://api.github.com/users/decebals/orgs","repos_url":"https://api.github.com/users/decebals/repos","events_url":"https://api.github.com/users/decebals/events{/privacy}","received_events_url":"https://api.github.com/users/decebals/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

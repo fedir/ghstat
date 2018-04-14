@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Mon, 09 Apr 2018 00:16:01 GMT
-Etag: W/"12ed4cb7caae0610d2d0a2a2a441c1d9"
+Date: Sat, 14 Apr 2018 20:20:23 GMT
+Etag: W/"de77fd0878313e6bc126779794f82815"
 Link: <https://api.github.com/user/994978/followers?page=1>; rel="prev", <https://api.github.com/user/994978/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D78E:54B8:FAB849:22C0E7E:5ACAB0C1
+X-Github-Request-Id: CC5C:148B:1BBFB42:3C75E2C:5AD26287
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4853
-X-Ratelimit-Reset: 1523235841
-X-Runtime-Rack: 0.038752
+X-Ratelimit-Remaining: 1683
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.045713
 X-Xss-Protection: 1; mode=block
 
-68f
-[{"login":"krk","id":1447853,"avatar_url":"https://avatars0.githubusercontent.com/u/1447853?v=4","gravatar_id":"","url":"https://api.github.com/users/krk","html_url":"https://github.com/krk","followers_url":"https://api.github.com/users/krk/followers","following_url":"https://api.github.com/users/krk/following{/other_user}","gists_url":"https://api.github.com/users/krk/gists{/gist_id}","starred_url":"https://api.github.com/users/krk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/krk/subscriptions","organizations_url":"https://api.github.com/users/krk/orgs","repos_url":"https://api.github.com/users/krk/repos","events_url":"https://api.github.com/users/krk/events{/privacy}","received_events_url":"https://api.github.com/users/krk/received_events","type":"User","site_admin":false},{"login":"Mewdawn","id":13510397,"avatar_url":"https://avatars0.githubusercontent.com/u/13510397?v=4","gravatar_id":"","url":"https://api.github.com/users/Mewdawn","html_url":"https://github.com/Mewdawn","followers_url":"https://api.github.com/users/Mewdawn/followers","following_url":"https://api.github.com/users/Mewdawn/following{/other_user}","gists_url":"https://api.github.com/users/Mewdawn/gists{/gist_id}","starred_url":"https://api.github.com/users/Mewdawn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mewdawn/subscriptions","organizations_url":"https://api.github.com/users/Mewdawn/orgs","repos_url":"https://api.github.com/users/Mewdawn/repos","events_url":"https://api.github.com/users/Mewdawn/events{/privacy}","received_events_url":"https://api.github.com/users/Mewdawn/received_events","type":"User","site_admin":false}]
+9df
+[{"login":"krk","id":1447853,"avatar_url":"https://avatars0.githubusercontent.com/u/1447853?v=4","gravatar_id":"","url":"https://api.github.com/users/krk","html_url":"https://github.com/krk","followers_url":"https://api.github.com/users/krk/followers","following_url":"https://api.github.com/users/krk/following{/other_user}","gists_url":"https://api.github.com/users/krk/gists{/gist_id}","starred_url":"https://api.github.com/users/krk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/krk/subscriptions","organizations_url":"https://api.github.com/users/krk/orgs","repos_url":"https://api.github.com/users/krk/repos","events_url":"https://api.github.com/users/krk/events{/privacy}","received_events_url":"https://api.github.com/users/krk/received_events","type":"User","site_admin":false},{"login":"Mewdawn","id":13510397,"avatar_url":"https://avatars0.githubusercontent.com/u/13510397?v=4","gravatar_id":"","url":"https://api.github.com/users/Mewdawn","html_url":"https://github.com/Mewdawn","followers_url":"https://api.github.com/users/Mewdawn/followers","following_url":"https://api.github.com/users/Mewdawn/following{/other_user}","gists_url":"https://api.github.com/users/Mewdawn/gists{/gist_id}","starred_url":"https://api.github.com/users/Mewdawn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mewdawn/subscriptions","organizations_url":"https://api.github.com/users/Mewdawn/orgs","repos_url":"https://api.github.com/users/Mewdawn/repos","events_url":"https://api.github.com/users/Mewdawn/events{/privacy}","received_events_url":"https://api.github.com/users/Mewdawn/received_events","type":"User","site_admin":false},{"login":"duksis","id":222101,"avatar_url":"https://avatars1.githubusercontent.com/u/222101?v=4","gravatar_id":"","url":"https://api.github.com/users/duksis","html_url":"https://github.com/duksis","followers_url":"https://api.github.com/users/duksis/followers","following_url":"https://api.github.com/users/duksis/following{/other_user}","gists_url":"https://api.github.com/users/duksis/gists{/gist_id}","starred_url":"https://api.github.com/users/duksis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/duksis/subscriptions","organizations_url":"https://api.github.com/users/duksis/orgs","repos_url":"https://api.github.com/users/duksis/repos","events_url":"https://api.github.com/users/duksis/events{/privacy}","received_events_url":"https://api.github.com/users/duksis/received_events","type":"User","site_admin":false}]
 0
 

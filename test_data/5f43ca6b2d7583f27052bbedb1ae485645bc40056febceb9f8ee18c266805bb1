@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 08 Apr 2018 22:38:10 GMT
+Date: Sat, 14 Apr 2018 20:20:29 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Acivetweb%2Fcivetweb+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Acivetweb%2Fcivetweb+type%3Aissue+state%3Aclosed&page=11>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDBA:54B9:144C3C0:28CE629:5ACA99D1
+X-Github-Request-Id: CC65:148C:22BA086:46A5CF2:5AD2628C
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 7
-X-Ratelimit-Reset: 1523227124
-X-Runtime-Rack: 0.331002
+X-Ratelimit-Remaining: 9
+X-Ratelimit-Reset: 1523737274
+X-Runtime-Rack: 0.331151
 X-Xss-Protection: 1; mode=block
 
 8000

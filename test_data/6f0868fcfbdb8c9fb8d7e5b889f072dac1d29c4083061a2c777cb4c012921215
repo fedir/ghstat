@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:23:12 GMT
+Date: Sat, 14 Apr 2018 20:50:28 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Asindresorhus%2Fawesome+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Asindresorhus%2Fawesome+type%3Aissue+state%3Aclosed&page=5>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C942:148A:10173A:230F81:5ACE528F
+X-Github-Request-Id: D5A5:148C:22E7D57:4706833:5AD26993
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
 X-Ratelimit-Remaining: 23
-X-Ratelimit-Reset: 1523471050
-X-Runtime-Rack: 0.479073
+X-Ratelimit-Reset: 1523739085
+X-Runtime-Rack: 0.304907
 X-Xss-Protection: 1; mode=block
 
 8000

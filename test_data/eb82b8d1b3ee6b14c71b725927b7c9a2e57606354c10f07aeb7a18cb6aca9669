@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 08 Apr 2018 22:36:55 GMT
-Etag: W/"322ad13d3673207f1055a68af2f1eae3"
+Date: Sat, 14 Apr 2018 20:19:39 GMT
+Etag: W/"7f9d8b3e48710d078d2af531eda2bdd3"
 Link: <https://api.github.com/user/418747/followers?page=1>; rel="prev", <https://api.github.com/user/418747/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC76:54B9:144A25F:28CA631:5ACA9987
+X-Github-Request-Id: C96F:148B:1BBEA6C:3C73894:5AD2625B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4707
-X-Ratelimit-Reset: 1523230246
-X-Runtime-Rack: 0.026942
+X-Ratelimit-Remaining: 2443
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.040330
 X-Xss-Protection: 1; mode=block
 
-6f9
-[{"login":"ucsdmath","id":12222464,"avatar_url":"https://avatars2.githubusercontent.com/u/12222464?v=4","gravatar_id":"","url":"https://api.github.com/users/ucsdmath","html_url":"https://github.com/ucsdmath","followers_url":"https://api.github.com/users/ucsdmath/followers","following_url":"https://api.github.com/users/ucsdmath/following{/other_user}","gists_url":"https://api.github.com/users/ucsdmath/gists{/gist_id}","starred_url":"https://api.github.com/users/ucsdmath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ucsdmath/subscriptions","organizations_url":"https://api.github.com/users/ucsdmath/orgs","repos_url":"https://api.github.com/users/ucsdmath/repos","events_url":"https://api.github.com/users/ucsdmath/events{/privacy}","received_events_url":"https://api.github.com/users/ucsdmath/received_events","type":"User","site_admin":false},{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false}]
+a87
+[{"login":"ucsdmath","id":12222464,"avatar_url":"https://avatars2.githubusercontent.com/u/12222464?v=4","gravatar_id":"","url":"https://api.github.com/users/ucsdmath","html_url":"https://github.com/ucsdmath","followers_url":"https://api.github.com/users/ucsdmath/followers","following_url":"https://api.github.com/users/ucsdmath/following{/other_user}","gists_url":"https://api.github.com/users/ucsdmath/gists{/gist_id}","starred_url":"https://api.github.com/users/ucsdmath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ucsdmath/subscriptions","organizations_url":"https://api.github.com/users/ucsdmath/orgs","repos_url":"https://api.github.com/users/ucsdmath/repos","events_url":"https://api.github.com/users/ucsdmath/events{/privacy}","received_events_url":"https://api.github.com/users/ucsdmath/received_events","type":"User","site_admin":false},{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false},{"login":"tachyonlabs","id":2389786,"avatar_url":"https://avatars1.githubusercontent.com/u/2389786?v=4","gravatar_id":"","url":"https://api.github.com/users/tachyonlabs","html_url":"https://github.com/tachyonlabs","followers_url":"https://api.github.com/users/tachyonlabs/followers","following_url":"https://api.github.com/users/tachyonlabs/following{/other_user}","gists_url":"https://api.github.com/users/tachyonlabs/gists{/gist_id}","starred_url":"https://api.github.com/users/tachyonlabs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tachyonlabs/subscriptions","organizations_url":"https://api.github.com/users/tachyonlabs/orgs","repos_url":"https://api.github.com/users/tachyonlabs/repos","events_url":"https://api.github.com/users/tachyonlabs/events{/privacy}","received_events_url":"https://api.github.com/users/tachyonlabs/received_events","type":"User","site_admin":false}]
 0
 

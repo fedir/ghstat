@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 08 Apr 2018 22:38:01 GMT
+Date: Sat, 14 Apr 2018 20:20:14 GMT
 Etag: W/"f7835552c47fba2267b4a22a97c63a27"
 Link: <https://api.github.com/user/1081754/followers?page=2>; rel="next", <https://api.github.com/user/1081754/followers?page=2>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
@@ -17,12 +17,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD94:54B9:144BF86:28CDDE2:5ACA99C8
+X-Github-Request-Id: CC3F:1489:100F403:2529C92:5AD2627E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3789
-X-Ratelimit-Reset: 1523230246
-X-Runtime-Rack: 0.069259
+X-Ratelimit-Remaining: 1871
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.068083
 X-Xss-Protection: 1; mode=block
 
 66c1

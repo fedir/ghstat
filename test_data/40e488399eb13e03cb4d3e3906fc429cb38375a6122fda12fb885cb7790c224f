@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:56:33 GMT
-Etag: W/"469fba88a98acd8a72cf1191f460f976"
+Date: Sat, 14 Apr 2018 20:19:32 GMT
+Etag: W/"3ceefa2f54bcb60081c4c72751d7b74e"
 Link: <https://api.github.com/user/68146/followers?page=1>; rel="prev", <https://api.github.com/user/68146/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA40:148C:1A7B2B:369674:5ACE5A61
+X-Github-Request-Id: C964:148C:22B83D6:46A2356:5AD26253
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4250
-X-Ratelimit-Reset: 1523473991
-X-Runtime-Rack: 0.034290
+X-Ratelimit-Remaining: 2572
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.034825
 X-Xss-Protection: 1; mode=block
 
-361
-[{"login":"anuprab","id":15178374,"avatar_url":"https://avatars2.githubusercontent.com/u/15178374?v=4","gravatar_id":"","url":"https://api.github.com/users/anuprab","html_url":"https://github.com/anuprab","followers_url":"https://api.github.com/users/anuprab/followers","following_url":"https://api.github.com/users/anuprab/following{/other_user}","gists_url":"https://api.github.com/users/anuprab/gists{/gist_id}","starred_url":"https://api.github.com/users/anuprab/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anuprab/subscriptions","organizations_url":"https://api.github.com/users/anuprab/orgs","repos_url":"https://api.github.com/users/anuprab/repos","events_url":"https://api.github.com/users/anuprab/events{/privacy}","received_events_url":"https://api.github.com/users/anuprab/received_events","type":"User","site_admin":false}]
+6d9
+[{"login":"anuprab","id":15178374,"avatar_url":"https://avatars2.githubusercontent.com/u/15178374?v=4","gravatar_id":"","url":"https://api.github.com/users/anuprab","html_url":"https://github.com/anuprab","followers_url":"https://api.github.com/users/anuprab/followers","following_url":"https://api.github.com/users/anuprab/following{/other_user}","gists_url":"https://api.github.com/users/anuprab/gists{/gist_id}","starred_url":"https://api.github.com/users/anuprab/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anuprab/subscriptions","organizations_url":"https://api.github.com/users/anuprab/orgs","repos_url":"https://api.github.com/users/anuprab/repos","events_url":"https://api.github.com/users/anuprab/events{/privacy}","received_events_url":"https://api.github.com/users/anuprab/received_events","type":"User","site_admin":false},{"login":"paullucas","id":15203140,"avatar_url":"https://avatars1.githubusercontent.com/u/15203140?v=4","gravatar_id":"","url":"https://api.github.com/users/paullucas","html_url":"https://github.com/paullucas","followers_url":"https://api.github.com/users/paullucas/followers","following_url":"https://api.github.com/users/paullucas/following{/other_user}","gists_url":"https://api.github.com/users/paullucas/gists{/gist_id}","starred_url":"https://api.github.com/users/paullucas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paullucas/subscriptions","organizations_url":"https://api.github.com/users/paullucas/orgs","repos_url":"https://api.github.com/users/paullucas/repos","events_url":"https://api.github.com/users/paullucas/events{/privacy}","received_events_url":"https://api.github.com/users/paullucas/received_events","type":"User","site_admin":false}]
 0
 

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:23:14 GMT
-Etag: W/"27567b4ff27966205fefee0a5fee9d00"
-Last-Modified: Wed, 11 Apr 2018 18:01:51 GMT
+Date: Sat, 14 Apr 2018 20:50:29 GMT
+Etag: W/"8d63d3691ae81daea80ab0c38f694b11"
+Last-Modified: Fri, 13 Apr 2018 22:55:50 GMT
 Link: <https://api.github.com/repositories/8100370/tags?page=24>; rel="prev", <https://api.github.com/repositories/8100370/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C944:148B:129D63:27DB19:5ACE5292
+X-Github-Request-Id: D5A7:148C:22E7DD2:470694D:5AD26995
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4840
-X-Ratelimit-Reset: 1523473991
-X-Runtime-Rack: 0.115505
+X-Ratelimit-Remaining: 3326
+X-Ratelimit-Reset: 1523741872
+X-Runtime-Rack: 0.093563
 X-Xss-Protection: 1; mode=block
 
-165
-[{"name":"0.1.1","zipball_url":"https://api.github.com/repos/apostrophecms/apostrophe/zipball/0.1.1","tarball_url":"https://api.github.com/repos/apostrophecms/apostrophe/tarball/0.1.1","commit":{"sha":"c795b191c3ce1789c81dcd7acb64eb2c926f6839","url":"https://api.github.com/repos/apostrophecms/apostrophe/commits/c795b191c3ce1789c81dcd7acb64eb2c926f6839"}}]
+2c9
+[{"name":"0.1.2","zipball_url":"https://api.github.com/repos/apostrophecms/apostrophe/zipball/0.1.2","tarball_url":"https://api.github.com/repos/apostrophecms/apostrophe/tarball/0.1.2","commit":{"sha":"23e671b5aa69f790902cc611a9ce2f018a9a1cb1","url":"https://api.github.com/repos/apostrophecms/apostrophe/commits/23e671b5aa69f790902cc611a9ce2f018a9a1cb1"}},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/apostrophecms/apostrophe/zipball/0.1.1","tarball_url":"https://api.github.com/repos/apostrophecms/apostrophe/tarball/0.1.1","commit":{"sha":"c795b191c3ce1789c81dcd7acb64eb2c926f6839","url":"https://api.github.com/repos/apostrophecms/apostrophe/commits/c795b191c3ce1789c81dcd7acb64eb2c926f6839"}}]
 0
 

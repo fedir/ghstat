@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:18:30 GMT
+Etag: W/"4432066e876bcefb39675878da9d6a48"
+Link: <https://api.github.com/user/46553/followers?page=39>; rel="prev", <https://api.github.com/user/46553/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C59B:148C:22B6427:469E634:5AD26215
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3788
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.083330
+X-Xss-Protection: 1; mode=block
+
+a73
+[{"login":"BuckyBoy6399","id":35184001,"avatar_url":"https://avatars2.githubusercontent.com/u/35184001?v=4","gravatar_id":"","url":"https://api.github.com/users/BuckyBoy6399","html_url":"https://github.com/BuckyBoy6399","followers_url":"https://api.github.com/users/BuckyBoy6399/followers","following_url":"https://api.github.com/users/BuckyBoy6399/following{/other_user}","gists_url":"https://api.github.com/users/BuckyBoy6399/gists{/gist_id}","starred_url":"https://api.github.com/users/BuckyBoy6399/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BuckyBoy6399/subscriptions","organizations_url":"https://api.github.com/users/BuckyBoy6399/orgs","repos_url":"https://api.github.com/users/BuckyBoy6399/repos","events_url":"https://api.github.com/users/BuckyBoy6399/events{/privacy}","received_events_url":"https://api.github.com/users/BuckyBoy6399/received_events","type":"User","site_admin":false},{"login":"jalips","id":6939509,"avatar_url":"https://avatars2.githubusercontent.com/u/6939509?v=4","gravatar_id":"","url":"https://api.github.com/users/jalips","html_url":"https://github.com/jalips","followers_url":"https://api.github.com/users/jalips/followers","following_url":"https://api.github.com/users/jalips/following{/other_user}","gists_url":"https://api.github.com/users/jalips/gists{/gist_id}","starred_url":"https://api.github.com/users/jalips/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jalips/subscriptions","organizations_url":"https://api.github.com/users/jalips/orgs","repos_url":"https://api.github.com/users/jalips/repos","events_url":"https://api.github.com/users/jalips/events{/privacy}","received_events_url":"https://api.github.com/users/jalips/received_events","type":"User","site_admin":false},{"login":"yasharoraa","id":31825838,"avatar_url":"https://avatars2.githubusercontent.com/u/31825838?v=4","gravatar_id":"","url":"https://api.github.com/users/yasharoraa","html_url":"https://github.com/yasharoraa","followers_url":"https://api.github.com/users/yasharoraa/followers","following_url":"https://api.github.com/users/yasharoraa/following{/other_user}","gists_url":"https://api.github.com/users/yasharoraa/gists{/gist_id}","starred_url":"https://api.github.com/users/yasharoraa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yasharoraa/subscriptions","organizations_url":"https://api.github.com/users/yasharoraa/orgs","repos_url":"https://api.github.com/users/yasharoraa/repos","events_url":"https://api.github.com/users/yasharoraa/events{/privacy}","received_events_url":"https://api.github.com/users/yasharoraa/received_events","type":"User","site_admin":false}]
+0
+

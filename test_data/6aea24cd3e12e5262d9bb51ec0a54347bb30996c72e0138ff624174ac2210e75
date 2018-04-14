@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Wed, 11 Apr 2018 18:56:36 GMT
-Etag: W/"2d0c20d5d6229b477d9863d2575e6e08"
+Date: Sat, 14 Apr 2018 20:19:16 GMT
+Etag: W/"f63273eac1d954f98fb39d2f44a9bcfd"
 Link: <https://api.github.com/user/691602/followers?page=1>; rel="prev", <https://api.github.com/user/691602/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CABB:1489:10D5B2:25354D:5ACE5A64
+X-Github-Request-Id: C939:148C:22B7C32:46A14A6:5AD26244
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3992
-X-Ratelimit-Reset: 1523473991
-X-Runtime-Rack: 0.057420
+X-Ratelimit-Remaining: 2792
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.030137
 X-Xss-Protection: 1; mode=block
 
-72d
-[{"login":"AlexxNica","id":14338588,"avatar_url":"https://avatars1.githubusercontent.com/u/14338588?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexxNica","html_url":"https://github.com/AlexxNica","followers_url":"https://api.github.com/users/AlexxNica/followers","following_url":"https://api.github.com/users/AlexxNica/following{/other_user}","gists_url":"https://api.github.com/users/AlexxNica/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexxNica/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexxNica/subscriptions","organizations_url":"https://api.github.com/users/AlexxNica/orgs","repos_url":"https://api.github.com/users/AlexxNica/repos","events_url":"https://api.github.com/users/AlexxNica/events{/privacy}","received_events_url":"https://api.github.com/users/AlexxNica/received_events","type":"User","site_admin":false},{"login":"KodiMadhavarao","id":13887725,"avatar_url":"https://avatars2.githubusercontent.com/u/13887725?v=4","gravatar_id":"","url":"https://api.github.com/users/KodiMadhavarao","html_url":"https://github.com/KodiMadhavarao","followers_url":"https://api.github.com/users/KodiMadhavarao/followers","following_url":"https://api.github.com/users/KodiMadhavarao/following{/other_user}","gists_url":"https://api.github.com/users/KodiMadhavarao/gists{/gist_id}","starred_url":"https://api.github.com/users/KodiMadhavarao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KodiMadhavarao/subscriptions","organizations_url":"https://api.github.com/users/KodiMadhavarao/orgs","repos_url":"https://api.github.com/users/KodiMadhavarao/repos","events_url":"https://api.github.com/users/KodiMadhavarao/events{/privacy}","received_events_url":"https://api.github.com/users/KodiMadhavarao/received_events","type":"User","site_admin":false}]
+3b5
+[{"login":"KodiMadhavarao","id":13887725,"avatar_url":"https://avatars2.githubusercontent.com/u/13887725?v=4","gravatar_id":"","url":"https://api.github.com/users/KodiMadhavarao","html_url":"https://github.com/KodiMadhavarao","followers_url":"https://api.github.com/users/KodiMadhavarao/followers","following_url":"https://api.github.com/users/KodiMadhavarao/following{/other_user}","gists_url":"https://api.github.com/users/KodiMadhavarao/gists{/gist_id}","starred_url":"https://api.github.com/users/KodiMadhavarao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KodiMadhavarao/subscriptions","organizations_url":"https://api.github.com/users/KodiMadhavarao/orgs","repos_url":"https://api.github.com/users/KodiMadhavarao/repos","events_url":"https://api.github.com/users/KodiMadhavarao/events{/privacy}","received_events_url":"https://api.github.com/users/KodiMadhavarao/received_events","type":"User","site_admin":false}]
 0
 

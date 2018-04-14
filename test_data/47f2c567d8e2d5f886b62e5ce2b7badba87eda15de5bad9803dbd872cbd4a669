@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:19:38 GMT
+Etag: W/"dbfa97fc1e4e6ca5cefdb2a05cab0fd9"
+Link: <https://api.github.com/user/474989/followers?page=8>; rel="prev", <https://api.github.com/user/474989/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C96D:148C:22B868B:46A2902:5AD26259
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2486
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.036438
+X-Xss-Protection: 1; mode=block
+
+709
+[{"login":"kekewind","id":35584605,"avatar_url":"https://avatars2.githubusercontent.com/u/35584605?v=4","gravatar_id":"","url":"https://api.github.com/users/kekewind","html_url":"https://github.com/kekewind","followers_url":"https://api.github.com/users/kekewind/followers","following_url":"https://api.github.com/users/kekewind/following{/other_user}","gists_url":"https://api.github.com/users/kekewind/gists{/gist_id}","starred_url":"https://api.github.com/users/kekewind/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kekewind/subscriptions","organizations_url":"https://api.github.com/users/kekewind/orgs","repos_url":"https://api.github.com/users/kekewind/repos","events_url":"https://api.github.com/users/kekewind/events{/privacy}","received_events_url":"https://api.github.com/users/kekewind/received_events","type":"User","site_admin":false},{"login":"leonardfrank","id":16343927,"avatar_url":"https://avatars0.githubusercontent.com/u/16343927?v=4","gravatar_id":"","url":"https://api.github.com/users/leonardfrank","html_url":"https://github.com/leonardfrank","followers_url":"https://api.github.com/users/leonardfrank/followers","following_url":"https://api.github.com/users/leonardfrank/following{/other_user}","gists_url":"https://api.github.com/users/leonardfrank/gists{/gist_id}","starred_url":"https://api.github.com/users/leonardfrank/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leonardfrank/subscriptions","organizations_url":"https://api.github.com/users/leonardfrank/orgs","repos_url":"https://api.github.com/users/leonardfrank/repos","events_url":"https://api.github.com/users/leonardfrank/events{/privacy}","received_events_url":"https://api.github.com/users/leonardfrank/received_events","type":"User","site_admin":false}]
+0
+

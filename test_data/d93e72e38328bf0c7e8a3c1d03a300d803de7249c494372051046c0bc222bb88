@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:18:58 GMT
+Etag: W/"f98c31def3839189b7bf71f838df3713"
+Last-Modified: Mon, 03 Apr 2006 01:29:15 GMT
+Link: <https://api.github.com/repositories/317887/commits?page=1>; rel="first", <https://api.github.com/repositories/317887/commits?page=8664>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C786:148C:22B715D:469FFFA:5AD26232
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2987
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.040420
+X-Xss-Protection: 1; mode=block
+
+c20
+[{"sha":"75eed344d9557fd9b02984ff7f05b34a789c6ee9","commit":{"author":{"name":"Brian Chan","email":"brian.chan@liferay.com","date":"2006-04-03T01:29:15Z"},"committer":{"name":"Brian Chan","email":"brian.chan@liferay.com","date":"2006-04-03T01:29:15Z"},"message":"Use trunk, branches, tag dir structure to follow best practices\n\ngit-svn-id: svn://svn.liferay.com/repos/public/portal/trunk@86 05bdf26c-840f-0410-9ced-eb539d925f36","tree":{"sha":"4b825dc642cb6eb9a060e54bf8d69288fbee4904","url":"https://api.github.com/repos/liferay/liferay-portal/git/trees/4b825dc642cb6eb9a060e54bf8d69288fbee4904"},"url":"https://api.github.com/repos/liferay/liferay-portal/git/commits/75eed344d9557fd9b02984ff7f05b34a789c6ee9","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/liferay/liferay-portal/commits/75eed344d9557fd9b02984ff7f05b34a789c6ee9","html_url":"https://github.com/liferay/liferay-portal/commit/75eed344d9557fd9b02984ff7f05b34a789c6ee9","comments_url":"https://api.github.com/repos/liferay/liferay-portal/commits/75eed344d9557fd9b02984ff7f05b34a789c6ee9/comments","author":{"login":"brianchandotcom","id":282080,"avatar_url":"https://avatars2.githubusercontent.com/u/282080?v=4","gravatar_id":"","url":"https://api.github.com/users/brianchandotcom","html_url":"https://github.com/brianchandotcom","followers_url":"https://api.github.com/users/brianchandotcom/followers","following_url":"https://api.github.com/users/brianchandotcom/following{/other_user}","gists_url":"https://api.github.com/users/brianchandotcom/gists{/gist_id}","starred_url":"https://api.github.com/users/brianchandotcom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianchandotcom/subscriptions","organizations_url":"https://api.github.com/users/brianchandotcom/orgs","repos_url":"https://api.github.com/users/brianchandotcom/repos","events_url":"https://api.github.com/users/brianchandotcom/events{/privacy}","received_events_url":"https://api.github.com/users/brianchandotcom/received_events","type":"User","site_admin":false},"committer":{"login":"brianchandotcom","id":282080,"avatar_url":"https://avatars2.githubusercontent.com/u/282080?v=4","gravatar_id":"","url":"https://api.github.com/users/brianchandotcom","html_url":"https://github.com/brianchandotcom","followers_url":"https://api.github.com/users/brianchandotcom/followers","following_url":"https://api.github.com/users/brianchandotcom/following{/other_user}","gists_url":"https://api.github.com/users/brianchandotcom/gists{/gist_id}","starred_url":"https://api.github.com/users/brianchandotcom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianchandotcom/subscriptions","organizations_url":"https://api.github.com/users/brianchandotcom/orgs","repos_url":"https://api.github.com/users/brianchandotcom/repos","events_url":"https://api.github.com/users/brianchandotcom/events{/privacy}","received_events_url":"https://api.github.com/users/brianchandotcom/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

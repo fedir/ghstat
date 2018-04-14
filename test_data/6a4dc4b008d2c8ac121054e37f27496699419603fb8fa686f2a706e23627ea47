@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:22:56 GMT
+Etag: W/"10b109b08b3bb6e454ab3d048f80c7dc"
+Link: <https://api.github.com/user/8350653/followers?page=10>; rel="prev", <https://api.github.com/user/8350653/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D1F4:148B:1BC317C:3C7D5A6:5AD26320
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 40
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.046751
+X-Xss-Protection: 1; mode=block
+
+dc3
+[{"login":"kerraway","id":5738688,"avatar_url":"https://avatars2.githubusercontent.com/u/5738688?v=4","gravatar_id":"","url":"https://api.github.com/users/kerraway","html_url":"https://github.com/kerraway","followers_url":"https://api.github.com/users/kerraway/followers","following_url":"https://api.github.com/users/kerraway/following{/other_user}","gists_url":"https://api.github.com/users/kerraway/gists{/gist_id}","starred_url":"https://api.github.com/users/kerraway/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kerraway/subscriptions","organizations_url":"https://api.github.com/users/kerraway/orgs","repos_url":"https://api.github.com/users/kerraway/repos","events_url":"https://api.github.com/users/kerraway/events{/privacy}","received_events_url":"https://api.github.com/users/kerraway/received_events","type":"User","site_admin":false},{"login":"aillamsun","id":8295963,"avatar_url":"https://avatars2.githubusercontent.com/u/8295963?v=4","gravatar_id":"","url":"https://api.github.com/users/aillamsun","html_url":"https://github.com/aillamsun","followers_url":"https://api.github.com/users/aillamsun/followers","following_url":"https://api.github.com/users/aillamsun/following{/other_user}","gists_url":"https://api.github.com/users/aillamsun/gists{/gist_id}","starred_url":"https://api.github.com/users/aillamsun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aillamsun/subscriptions","organizations_url":"https://api.github.com/users/aillamsun/orgs","repos_url":"https://api.github.com/users/aillamsun/repos","events_url":"https://api.github.com/users/aillamsun/events{/privacy}","received_events_url":"https://api.github.com/users/aillamsun/received_events","type":"User","site_admin":false},{"login":"shihty5","id":1712117,"avatar_url":"https://avatars1.githubusercontent.com/u/1712117?v=4","gravatar_id":"","url":"https://api.github.com/users/shihty5","html_url":"https://github.com/shihty5","followers_url":"https://api.github.com/users/shihty5/followers","following_url":"https://api.github.com/users/shihty5/following{/other_user}","gists_url":"https://api.github.com/users/shihty5/gists{/gist_id}","starred_url":"https://api.github.com/users/shihty5/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shihty5/subscriptions","organizations_url":"https://api.github.com/users/shihty5/orgs","repos_url":"https://api.github.com/users/shihty5/repos","events_url":"https://api.github.com/users/shihty5/events{/privacy}","received_events_url":"https://api.github.com/users/shihty5/received_events","type":"User","site_admin":false},{"login":"buckarooch","id":22466533,"avatar_url":"https://avatars0.githubusercontent.com/u/22466533?v=4","gravatar_id":"","url":"https://api.github.com/users/buckarooch","html_url":"https://github.com/buckarooch","followers_url":"https://api.github.com/users/buckarooch/followers","following_url":"https://api.github.com/users/buckarooch/following{/other_user}","gists_url":"https://api.github.com/users/buckarooch/gists{/gist_id}","starred_url":"https://api.github.com/users/buckarooch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/buckarooch/subscriptions","organizations_url":"https://api.github.com/users/buckarooch/orgs","repos_url":"https://api.github.com/users/buckarooch/repos","events_url":"https://api.github.com/users/buckarooch/events{/privacy}","received_events_url":"https://api.github.com/users/buckarooch/received_events","type":"User","site_admin":false}]
+0
+

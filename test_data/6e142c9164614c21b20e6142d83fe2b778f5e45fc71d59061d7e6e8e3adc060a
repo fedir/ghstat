@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Apr 2018 20:18:13 GMT
+Etag: W/"a9110bbf95d1a21447510281eced12d1"
+Link: <https://api.github.com/user/173412/followers?page=158>; rel="prev", <https://api.github.com/user/173412/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C570:148B:1BBCD7E:3C6F59D:5AD26204
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4060
+X-Ratelimit-Reset: 1523737806
+X-Runtime-Rack: 0.150484
+X-Xss-Protection: 1; mode=block
+
+6bb
+[{"login":"millerrs","id":5420715,"avatar_url":"https://avatars2.githubusercontent.com/u/5420715?v=4","gravatar_id":"","url":"https://api.github.com/users/millerrs","html_url":"https://github.com/millerrs","followers_url":"https://api.github.com/users/millerrs/followers","following_url":"https://api.github.com/users/millerrs/following{/other_user}","gists_url":"https://api.github.com/users/millerrs/gists{/gist_id}","starred_url":"https://api.github.com/users/millerrs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/millerrs/subscriptions","organizations_url":"https://api.github.com/users/millerrs/orgs","repos_url":"https://api.github.com/users/millerrs/repos","events_url":"https://api.github.com/users/millerrs/events{/privacy}","received_events_url":"https://api.github.com/users/millerrs/received_events","type":"User","site_admin":false},{"login":"cjimti","id":356698,"avatar_url":"https://avatars3.githubusercontent.com/u/356698?v=4","gravatar_id":"","url":"https://api.github.com/users/cjimti","html_url":"https://github.com/cjimti","followers_url":"https://api.github.com/users/cjimti/followers","following_url":"https://api.github.com/users/cjimti/following{/other_user}","gists_url":"https://api.github.com/users/cjimti/gists{/gist_id}","starred_url":"https://api.github.com/users/cjimti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjimti/subscriptions","organizations_url":"https://api.github.com/users/cjimti/orgs","repos_url":"https://api.github.com/users/cjimti/repos","events_url":"https://api.github.com/users/cjimti/events{/privacy}","received_events_url":"https://api.github.com/users/cjimti/received_events","type":"User","site_admin":false}]
+0
+
