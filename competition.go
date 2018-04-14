@@ -9,6 +9,11 @@ import (
 	"sort"
 )
 
+func rateAndPrintGreetings(ghData []Repository) {
+	greetings := rateGhData(ghData)
+	fmt.Println(greetings)
+}
+
 func rateGhData(ghData []Repository) string {
 
 	greetings := ""
