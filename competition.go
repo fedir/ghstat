@@ -28,6 +28,10 @@ func rateGhData(ghData []Repository) string {
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
+	// Add points by age (newest is better)
+	sort.Slice(ghData[:], func(i, j int) bool {
+		return ghData[i].Age < ghData[j].Age
+	})
 	greetings += fmt.Sprintf("* The newest project is `%s`\n", ghData[0].Name)
 	for i := range ghData {
 		ghData[i].PlacementAge = i + 1
