@@ -1,6 +1,9 @@
-# web frameworks
+echo "# Frameworks and CMS ratings"
+echo ""
+
 bash bin/go_frameworks.sh
 bash bin/kotlin_frameworks.sh
+bash bin/crystal_frameworks.sh
 bash bin/scala_frameworks.sh
 bash bin/d_frameworks.sh
 bash bin/elixir_frameworks.sh
@@ -13,7 +16,9 @@ bash bin/lua_frameworks.sh
 bash bin/rust_frameworks.sh
 bash bin/c_frameworks.sh
 bash bin/cpp_frameworks.sh
+bash bin/lisp_frameworks.sh
 bash bin/java_frameworks.sh
+bash bin/groovy_frameworks.sh
 bash bin/js_frameworks.sh
 bash bin/php_frameworks.sh
 bash bin/all_frameworks.sh
