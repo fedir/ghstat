@@ -28,6 +28,20 @@
 
 [Detailed Kotlin frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/kotlin_frameworks.csv)
 
+## Crystal frameworks statistics rating
+
+* The most popular project is `kemalcr/kemal`
+* The newest project is `spider-gazelle/spider-gazelle`
+* The project with more commits is `amberframework/amber`
+* The project with more tags is `kemalcr/kemal`
+* The project made by most notable top contributors is `kemalcr/kemal`
+* The project with best errors resolving rate is `kemalcr/kemal`
+* The project with more commits by day is `amberframework/amber`
+* The project with the most active community is `vladfaust/prism`
+* The best project (taking in account placements in all competitions) is `amberframework/amber`
+
+[Detailed Crystal frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/crystal_frameworks.csv)
+
 ## Scala frameworks statistics rating
 
 * The most popular project is `scalatra/scalatra`
@@ -196,19 +210,47 @@
 
 [Detailed C++ frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/cpp_frameworks.csv)
 
+## Lisp frameworks statistics rating
+
+* The most popular project is `fukamachi/caveman`
+* The newest project is `eudoxia0/lucerne`
+* The project with more commits is `Shirakumo/radiance`
+* The project with more tags is `fukamachi/caveman`
+* The project made by most notable top contributors is `fukamachi/caveman`
+* The project with best errors resolving rate is `Shirakumo/radiance`
+* The project with more commits by day is `Shirakumo/radiance`
+* The project with the most active community is `Shirakumo/radiance`
+* The best project (taking in account placements in all competitions) is `Shirakumo/radiance`
+
+[Detailed Lisp frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/lisp_frameworks.csv)
+
 ## Java frameworks statistics rating
 
-* The most popular project is `netty/netty`
+* The most popular project is `spring-projects/spring-framework`
 * The newest project is `bootique/bootique`
 * The project with more commits is `vaadin/framework`
 * The project with more tags is `vaadin/framework`
-* The project made by most notable top contributors is `netty/netty`
-* The project with best errors resolving rate is `grails/grails-core`
+* The project made by most notable top contributors is `spring-projects/spring-framework`
+* The project with best errors resolving rate is `jooby-project/jooby`
 * The project with more commits by day is `vaadin/framework`
 * The project with the most active community is `ratpack/ratpack`
-* The best project (taking in account placements in all competitions) is `grails/grails-core`
+* The best project (taking in account placements in all competitions) is `netty/netty`
 
 [Detailed Java frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
+
+## Groovy frameworks statistics rating
+
+* The most popular project is `grails/grails-core`
+* The newest project is `javaConductor/gserv`
+* The project with more commits is `grails/grails-core`
+* The project with more tags is `grails/grails-core`
+* The project made by most notable top contributors is `grails/grails-core`
+* The project with best errors resolving rate is `grails/grails-core`
+* The project with more commits by day is `grails/grails-core`
+* The project with the most active community is `kdabir/glide`
+* The best project (taking in account placements in all competitions) is `grails/grails-core`
+
+[Detailed Groovy frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/groovy_frameworks.csv)
 
 ## JS frameworks statistics rating
 
@@ -241,7 +283,7 @@
 ## Cross-language frameworks rating
 
 * The most popular project is `facebook/react`
-* The newest project is `DiamondMVC/Diamond`
+* The newest project is `spider-gazelle/spider-gazelle`
 * The project with more commits is `rails/rails`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
