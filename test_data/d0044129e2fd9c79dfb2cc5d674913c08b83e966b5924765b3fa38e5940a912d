@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:07 GMT
+Etag: W/"b6dad4627086c8082723365318de0c38"
+Link: <https://api.github.com/user/124580/followers?page=4>; rel="prev", <https://api.github.com/user/124580/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A4:148C:29108D2:5348B30:5AD35943
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4794
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.041094
+X-Xss-Protection: 1; mode=block
+
+a95
+[{"login":"jimmymixer","id":17856353,"avatar_url":"https://avatars2.githubusercontent.com/u/17856353?v=4","gravatar_id":"","url":"https://api.github.com/users/jimmymixer","html_url":"https://github.com/jimmymixer","followers_url":"https://api.github.com/users/jimmymixer/followers","following_url":"https://api.github.com/users/jimmymixer/following{/other_user}","gists_url":"https://api.github.com/users/jimmymixer/gists{/gist_id}","starred_url":"https://api.github.com/users/jimmymixer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jimmymixer/subscriptions","organizations_url":"https://api.github.com/users/jimmymixer/orgs","repos_url":"https://api.github.com/users/jimmymixer/repos","events_url":"https://api.github.com/users/jimmymixer/events{/privacy}","received_events_url":"https://api.github.com/users/jimmymixer/received_events","type":"User","site_admin":false},{"login":"JoshCrosby","id":468221,"avatar_url":"https://avatars0.githubusercontent.com/u/468221?v=4","gravatar_id":"","url":"https://api.github.com/users/JoshCrosby","html_url":"https://github.com/JoshCrosby","followers_url":"https://api.github.com/users/JoshCrosby/followers","following_url":"https://api.github.com/users/JoshCrosby/following{/other_user}","gists_url":"https://api.github.com/users/JoshCrosby/gists{/gist_id}","starred_url":"https://api.github.com/users/JoshCrosby/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JoshCrosby/subscriptions","organizations_url":"https://api.github.com/users/JoshCrosby/orgs","repos_url":"https://api.github.com/users/JoshCrosby/repos","events_url":"https://api.github.com/users/JoshCrosby/events{/privacy}","received_events_url":"https://api.github.com/users/JoshCrosby/received_events","type":"User","site_admin":false},{"login":"laceykesler","id":19961666,"avatar_url":"https://avatars3.githubusercontent.com/u/19961666?v=4","gravatar_id":"","url":"https://api.github.com/users/laceykesler","html_url":"https://github.com/laceykesler","followers_url":"https://api.github.com/users/laceykesler/followers","following_url":"https://api.github.com/users/laceykesler/following{/other_user}","gists_url":"https://api.github.com/users/laceykesler/gists{/gist_id}","starred_url":"https://api.github.com/users/laceykesler/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/laceykesler/subscriptions","organizations_url":"https://api.github.com/users/laceykesler/orgs","repos_url":"https://api.github.com/users/laceykesler/repos","events_url":"https://api.github.com/users/laceykesler/events{/privacy}","received_events_url":"https://api.github.com/users/laceykesler/received_events","type":"User","site_admin":false}]
+0
+

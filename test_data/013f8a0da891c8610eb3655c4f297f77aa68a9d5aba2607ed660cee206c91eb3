@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:05 GMT
+Etag: W/"bbea5ca0c96ac834bf23d1d3bc483047"
+Last-Modified: Sat, 14 Apr 2018 11:28:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A1:148C:29107F6:534898A:5AD35941
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4814
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.092865
+X-Xss-Protection: 1; mode=block
+
+738
+[{"login":"samueleaton","id":9119269,"avatar_url":"https://avatars1.githubusercontent.com/u/9119269?v=4","gravatar_id":"","url":"https://api.github.com/users/samueleaton","html_url":"https://github.com/samueleaton","followers_url":"https://api.github.com/users/samueleaton/followers","following_url":"https://api.github.com/users/samueleaton/following{/other_user}","gists_url":"https://api.github.com/users/samueleaton/gists{/gist_id}","starred_url":"https://api.github.com/users/samueleaton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samueleaton/subscriptions","organizations_url":"https://api.github.com/users/samueleaton/orgs","repos_url":"https://api.github.com/users/samueleaton/repos","events_url":"https://api.github.com/users/samueleaton/events{/privacy}","received_events_url":"https://api.github.com/users/samueleaton/received_events","type":"User","site_admin":false,"contributions":43},{"login":"unreadable","id":20789657,"avatar_url":"https://avatars0.githubusercontent.com/u/20789657?v=4","gravatar_id":"","url":"https://api.github.com/users/unreadable","html_url":"https://github.com/unreadable","followers_url":"https://api.github.com/users/unreadable/followers","following_url":"https://api.github.com/users/unreadable/following{/other_user}","gists_url":"https://api.github.com/users/unreadable/gists{/gist_id}","starred_url":"https://api.github.com/users/unreadable/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/unreadable/subscriptions","organizations_url":"https://api.github.com/users/unreadable/orgs","repos_url":"https://api.github.com/users/unreadable/repos","events_url":"https://api.github.com/users/unreadable/events{/privacy}","received_events_url":"https://api.github.com/users/unreadable/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

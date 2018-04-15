@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:05 GMT
+Etag: W/"9422804d2290852f8cad8291665ca577"
+Last-Modified: Thu, 08 Mar 2018 14:08:49 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A3:1489:11B70A7:29790A2:5AD35941
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4820
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.046979
+X-Xss-Protection: 1; mode=block
+
+6cb
+[{"login":"jasonl99","id":1554969,"avatar_url":"https://avatars1.githubusercontent.com/u/1554969?v=4","gravatar_id":"","url":"https://api.github.com/users/jasonl99","html_url":"https://github.com/jasonl99","followers_url":"https://api.github.com/users/jasonl99/followers","following_url":"https://api.github.com/users/jasonl99/following{/other_user}","gists_url":"https://api.github.com/users/jasonl99/gists{/gist_id}","starred_url":"https://api.github.com/users/jasonl99/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jasonl99/subscriptions","organizations_url":"https://api.github.com/users/jasonl99/orgs","repos_url":"https://api.github.com/users/jasonl99/repos","events_url":"https://api.github.com/users/jasonl99/events{/privacy}","received_events_url":"https://api.github.com/users/jasonl99/received_events","type":"User","site_admin":false,"contributions":104},{"login":"TPei","id":4004343,"avatar_url":"https://avatars0.githubusercontent.com/u/4004343?v=4","gravatar_id":"","url":"https://api.github.com/users/TPei","html_url":"https://github.com/TPei","followers_url":"https://api.github.com/users/TPei/followers","following_url":"https://api.github.com/users/TPei/following{/other_user}","gists_url":"https://api.github.com/users/TPei/gists{/gist_id}","starred_url":"https://api.github.com/users/TPei/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TPei/subscriptions","organizations_url":"https://api.github.com/users/TPei/orgs","repos_url":"https://api.github.com/users/TPei/repos","events_url":"https://api.github.com/users/TPei/events{/privacy}","received_events_url":"https://api.github.com/users/TPei/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

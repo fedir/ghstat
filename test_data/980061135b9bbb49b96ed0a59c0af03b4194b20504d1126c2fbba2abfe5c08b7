@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:03 GMT
+Etag: W/"a356bdfc4bed8f10a0808bebeb389da2"
+Last-Modified: Sat, 14 Apr 2018 11:28:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A3:1489:11B704D:2978FDB:5AD3593F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4847
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.063876
+X-Xss-Protection: 1; mode=block
+
+12ea
+{"id":86869687,"name":"raze","full_name":"samueleaton/raze","owner":{"login":"samueleaton","id":9119269,"avatar_url":"https://avatars1.githubusercontent.com/u/9119269?v=4","gravatar_id":"","url":"https://api.github.com/users/samueleaton","html_url":"https://github.com/samueleaton","followers_url":"https://api.github.com/users/samueleaton/followers","following_url":"https://api.github.com/users/samueleaton/following{/other_user}","gists_url":"https://api.github.com/users/samueleaton/gists{/gist_id}","starred_url":"https://api.github.com/users/samueleaton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samueleaton/subscriptions","organizations_url":"https://api.github.com/users/samueleaton/orgs","repos_url":"https://api.github.com/users/samueleaton/repos","events_url":"https://api.github.com/users/samueleaton/events{/privacy}","received_events_url":"https://api.github.com/users/samueleaton/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/samueleaton/raze","description":"Modular, light web framework for Crystal","fork":false,"url":"https://api.github.com/repos/samueleaton/raze","forks_url":"https://api.github.com/repos/samueleaton/raze/forks","keys_url":"https://api.github.com/repos/samueleaton/raze/keys{/key_id}","collaborators_url":"https://api.github.com/repos/samueleaton/raze/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/samueleaton/raze/teams","hooks_url":"https://api.github.com/repos/samueleaton/raze/hooks","issue_events_url":"https://api.github.com/repos/samueleaton/raze/issues/events{/number}","events_url":"https://api.github.com/repos/samueleaton/raze/events","assignees_url":"https://api.github.com/repos/samueleaton/raze/assignees{/user}","branches_url":"https://api.github.com/repos/samueleaton/raze/branches{/branch}","tags_url":"https://api.github.com/repos/samueleaton/raze/tags","blobs_url":"https://api.github.com/repos/samueleaton/raze/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/samueleaton/raze/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/samueleaton/raze/git/refs{/sha}","trees_url":"https://api.github.com/repos/samueleaton/raze/git/trees{/sha}","statuses_url":"https://api.github.com/repos/samueleaton/raze/statuses/{sha}","languages_url":"https://api.github.com/repos/samueleaton/raze/languages","stargazers_url":"https://api.github.com/repos/samueleaton/raze/stargazers","contributors_url":"https://api.github.com/repos/samueleaton/raze/contributors","subscribers_url":"https://api.github.com/repos/samueleaton/raze/subscribers","subscription_url":"https://api.github.com/repos/samueleaton/raze/subscription","commits_url":"https://api.github.com/repos/samueleaton/raze/commits{/sha}","git_commits_url":"https://api.github.com/repos/samueleaton/raze/git/commits{/sha}","comments_url":"https://api.github.com/repos/samueleaton/raze/comments{/number}","issue_comment_url":"https://api.github.com/repos/samueleaton/raze/issues/comments{/number}","contents_url":"https://api.github.com/repos/samueleaton/raze/contents/{+path}","compare_url":"https://api.github.com/repos/samueleaton/raze/compare/{base}...{head}","merges_url":"https://api.github.com/repos/samueleaton/raze/merges","archive_url":"https://api.github.com/repos/samueleaton/raze/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/samueleaton/raze/downloads","issues_url":"https://api.github.com/repos/samueleaton/raze/issues{/number}","pulls_url":"https://api.github.com/repos/samueleaton/raze/pulls{/number}","milestones_url":"https://api.github.com/repos/samueleaton/raze/milestones{/number}","notifications_url":"https://api.github.com/repos/samueleaton/raze/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/samueleaton/raze/labels{/name}","releases_url":"https://api.github.com/repos/samueleaton/raze/releases{/id}","deployments_url":"https://api.github.com/repos/samueleaton/raze/deployments","created_at":"2017-04-01T00:11:00Z","updated_at":"2018-04-14T11:28:27Z","pushed_at":"2018-04-13T19:58:18Z","git_url":"git://github.com/samueleaton/raze.git","ssh_url":"git@github.com:samueleaton/raze.git","clone_url":"https://github.com/samueleaton/raze.git","svn_url":"https://github.com/samueleaton/raze","homepage":"https://razecr.com/","size":3951,"stargazers_count":98,"watchers_count":98,"language":"Crystal","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":5,"mirror_url":null,"archived":false,"open_issues_count":6,"license":{"key":"mit","name":"MIT License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":5,"open_issues":6,"watchers":98,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":5,"subscribers_count":8}
+0
+

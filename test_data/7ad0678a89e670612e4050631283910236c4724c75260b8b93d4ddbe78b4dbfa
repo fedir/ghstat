@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:46:46 GMT
+Etag: W/"3c49c5dec052ff8569294f8bb0189e97"
+Last-Modified: Sun, 15 Apr 2018 12:43:52 GMT
+Link: <https://api.github.com/repositories/1148753/tags?page=4>; rel="prev", <https://api.github.com/repositories/1148753/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D96F:1489:11B3C84:29714FC:5AD357C6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4891
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.047968
+X-Xss-Protection: 1; mode=block
+
+621
+[{"name":"v3.0.0.M4","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M4","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M4","commit":{"sha":"153c3c43830d52288ee0519ec1bd542884783185","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/153c3c43830d52288ee0519ec1bd542884783185"}},{"name":"v3.0.0.M3","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M3","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M3","commit":{"sha":"379fdcb27b082499cdbddcf3adc5df2d794149cd","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/379fdcb27b082499cdbddcf3adc5df2d794149cd"}},{"name":"v3.0.0.M2","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M2","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M2","commit":{"sha":"f19d66007935eb8c81dac276ac56ff13bf8515c2","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/f19d66007935eb8c81dac276ac56ff13bf8515c2"}},{"name":"v3.0.0.M1","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M1","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M1","commit":{"sha":"dfcbc6f659b20d4f30929122ed3d2e28aa76360f","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/dfcbc6f659b20d4f30929122ed3d2e28aa76360f"}}]
+0
+

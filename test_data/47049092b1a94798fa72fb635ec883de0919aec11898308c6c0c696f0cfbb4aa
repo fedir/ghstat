@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:34:42 GMT
+Etag: W/"8f18c4d2bd974acd12d94e9284a5f2e7"
+Last-Modified: Sat, 28 Oct 2017 14:19:53 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8DF:148B:203E870:4695F13:5AD354F1
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4997
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.054820
+X-Xss-Protection: 1; mode=block
+
+129c
+{"id":4692835,"name":"hh-web","full_name":"hargettp/hh-web","owner":{"login":"hargettp","id":385400,"avatar_url":"https://avatars3.githubusercontent.com/u/385400?v=4","gravatar_id":"","url":"https://api.github.com/users/hargettp","html_url":"https://github.com/hargettp","followers_url":"https://api.github.com/users/hargettp/followers","following_url":"https://api.github.com/users/hargettp/following{/other_user}","gists_url":"https://api.github.com/users/hargettp/gists{/gist_id}","starred_url":"https://api.github.com/users/hargettp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hargettp/subscriptions","organizations_url":"https://api.github.com/users/hargettp/orgs","repos_url":"https://api.github.com/users/hargettp/repos","events_url":"https://api.github.com/users/hargettp/events{/privacy}","received_events_url":"https://api.github.com/users/hargettp/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/hargettp/hh-web","description":"Framework for building modern web applications in Lisp","fork":false,"url":"https://api.github.com/repos/hargettp/hh-web","forks_url":"https://api.github.com/repos/hargettp/hh-web/forks","keys_url":"https://api.github.com/repos/hargettp/hh-web/keys{/key_id}","collaborators_url":"https://api.github.com/repos/hargettp/hh-web/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/hargettp/hh-web/teams","hooks_url":"https://api.github.com/repos/hargettp/hh-web/hooks","issue_events_url":"https://api.github.com/repos/hargettp/hh-web/issues/events{/number}","events_url":"https://api.github.com/repos/hargettp/hh-web/events","assignees_url":"https://api.github.com/repos/hargettp/hh-web/assignees{/user}","branches_url":"https://api.github.com/repos/hargettp/hh-web/branches{/branch}","tags_url":"https://api.github.com/repos/hargettp/hh-web/tags","blobs_url":"https://api.github.com/repos/hargettp/hh-web/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/hargettp/hh-web/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/hargettp/hh-web/git/refs{/sha}","trees_url":"https://api.github.com/repos/hargettp/hh-web/git/trees{/sha}","statuses_url":"https://api.github.com/repos/hargettp/hh-web/statuses/{sha}","languages_url":"https://api.github.com/repos/hargettp/hh-web/languages","stargazers_url":"https://api.github.com/repos/hargettp/hh-web/stargazers","contributors_url":"https://api.github.com/repos/hargettp/hh-web/contributors","subscribers_url":"https://api.github.com/repos/hargettp/hh-web/subscribers","subscription_url":"https://api.github.com/repos/hargettp/hh-web/subscription","commits_url":"https://api.github.com/repos/hargettp/hh-web/commits{/sha}","git_commits_url":"https://api.github.com/repos/hargettp/hh-web/git/commits{/sha}","comments_url":"https://api.github.com/repos/hargettp/hh-web/comments{/number}","issue_comment_url":"https://api.github.com/repos/hargettp/hh-web/issues/comments{/number}","contents_url":"https://api.github.com/repos/hargettp/hh-web/contents/{+path}","compare_url":"https://api.github.com/repos/hargettp/hh-web/compare/{base}...{head}","merges_url":"https://api.github.com/repos/hargettp/hh-web/merges","archive_url":"https://api.github.com/repos/hargettp/hh-web/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/hargettp/hh-web/downloads","issues_url":"https://api.github.com/repos/hargettp/hh-web/issues{/number}","pulls_url":"https://api.github.com/repos/hargettp/hh-web/pulls{/number}","milestones_url":"https://api.github.com/repos/hargettp/hh-web/milestones{/number}","notifications_url":"https://api.github.com/repos/hargettp/hh-web/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/hargettp/hh-web/labels{/name}","releases_url":"https://api.github.com/repos/hargettp/hh-web/releases{/id}","deployments_url":"https://api.github.com/repos/hargettp/hh-web/deployments","created_at":"2012-06-17T15:49:02Z","updated_at":"2017-10-28T14:19:53Z","pushed_at":"2014-10-15T11:31:06Z","git_url":"git://github.com/hargettp/hh-web.git","ssh_url":"git@github.com:hargettp/hh-web.git","clone_url":"https://github.com/hargettp/hh-web.git","svn_url":"https://github.com/hargettp/hh-web","homepage":null,"size":1440,"stargazers_count":33,"watchers_count":33,"language":"Common Lisp","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":3,"mirror_url":null,"archived":false,"open_issues_count":3,"license":{"key":"mit","name":"MIT License","spdx_id":"MIT","url":"https://api.github.com/licenses/mit"},"forks":3,"open_issues":3,"watchers":33,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":3,"subscribers_count":11}
+0
+

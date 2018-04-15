@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:34:43 GMT
+Etag: W/"5d5f57b49fce85911238df737c540775"
+Last-Modified: Mon, 09 Apr 2018 08:49:10 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E3:148B:203E8C4:4695FF8:5AD354F3
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4970
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.047764
+X-Xss-Protection: 1; mode=block
+
+70e
+[{"login":"joaotavora","id":387011,"avatar_url":"https://avatars0.githubusercontent.com/u/387011?v=4","gravatar_id":"","url":"https://api.github.com/users/joaotavora","html_url":"https://github.com/joaotavora","followers_url":"https://api.github.com/users/joaotavora/followers","following_url":"https://api.github.com/users/joaotavora/following{/other_user}","gists_url":"https://api.github.com/users/joaotavora/gists{/gist_id}","starred_url":"https://api.github.com/users/joaotavora/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joaotavora/subscriptions","organizations_url":"https://api.github.com/users/joaotavora/orgs","repos_url":"https://api.github.com/users/joaotavora/repos","events_url":"https://api.github.com/users/joaotavora/events{/privacy}","received_events_url":"https://api.github.com/users/joaotavora/received_events","type":"User","site_admin":false,"contributions":83},{"login":"hijarian","id":967464,"avatar_url":"https://avatars0.githubusercontent.com/u/967464?v=4","gravatar_id":"","url":"https://api.github.com/users/hijarian","html_url":"https://github.com/hijarian","followers_url":"https://api.github.com/users/hijarian/followers","following_url":"https://api.github.com/users/hijarian/following{/other_user}","gists_url":"https://api.github.com/users/hijarian/gists{/gist_id}","starred_url":"https://api.github.com/users/hijarian/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hijarian/subscriptions","organizations_url":"https://api.github.com/users/hijarian/orgs","repos_url":"https://api.github.com/users/hijarian/repos","events_url":"https://api.github.com/users/hijarian/events{/privacy}","received_events_url":"https://api.github.com/users/hijarian/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

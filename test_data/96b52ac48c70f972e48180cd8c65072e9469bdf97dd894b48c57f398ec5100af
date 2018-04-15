@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:47:46 GMT
+Etag: W/"fadd0adc9bedeccd76c45d34af7cdefc"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D977:148B:204D142:46B7BF3:5AD35801
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4871
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.034852
+X-Xss-Protection: 1; mode=block
+
+6bf
+[{"login":"KevinHock","id":3076393,"avatar_url":"https://avatars1.githubusercontent.com/u/3076393?v=4","gravatar_id":"","url":"https://api.github.com/users/KevinHock","html_url":"https://github.com/KevinHock","followers_url":"https://api.github.com/users/KevinHock/followers","following_url":"https://api.github.com/users/KevinHock/following{/other_user}","gists_url":"https://api.github.com/users/KevinHock/gists{/gist_id}","starred_url":"https://api.github.com/users/KevinHock/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KevinHock/subscriptions","organizations_url":"https://api.github.com/users/KevinHock/orgs","repos_url":"https://api.github.com/users/KevinHock/repos","events_url":"https://api.github.com/users/KevinHock/events{/privacy}","received_events_url":"https://api.github.com/users/KevinHock/received_events","type":"User","site_admin":false},{"login":"gwmor","id":14077676,"avatar_url":"https://avatars3.githubusercontent.com/u/14077676?v=4","gravatar_id":"","url":"https://api.github.com/users/gwmor","html_url":"https://github.com/gwmor","followers_url":"https://api.github.com/users/gwmor/followers","following_url":"https://api.github.com/users/gwmor/following{/other_user}","gists_url":"https://api.github.com/users/gwmor/gists{/gist_id}","starred_url":"https://api.github.com/users/gwmor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gwmor/subscriptions","organizations_url":"https://api.github.com/users/gwmor/orgs","repos_url":"https://api.github.com/users/gwmor/repos","events_url":"https://api.github.com/users/gwmor/events{/privacy}","received_events_url":"https://api.github.com/users/gwmor/received_events","type":"User","site_admin":false}]
+0
+

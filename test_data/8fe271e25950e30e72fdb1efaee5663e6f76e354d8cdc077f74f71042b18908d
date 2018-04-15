@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:34:46 GMT
+Etag: W/"da59556e43216b165d392c4aacfc0a08"
+Last-Modified: Thu, 12 Apr 2018 12:28:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E3:148B:203E994:46961BA:5AD354F6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4925
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.056442
+X-Xss-Protection: 1; mode=block
+
+ffd
+[{"name":"12.06.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.06.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.06.0","commit":{"sha":"962952d8f633f82aa925db8ae3f5cbeab508b17a","url":"https://api.github.com/repos/fukamachi/caveman/commits/962952d8f633f82aa925db8ae3f5cbeab508b17a"}},{"name":"12.04.1","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.04.1","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.04.1","commit":{"sha":"e23b2fe2506232c7db8f71071e69a677e756c661","url":"https://api.github.com/repos/fukamachi/caveman/commits/e23b2fe2506232c7db8f71071e69a677e756c661"}},{"name":"12.04.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.04.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.04.0","commit":{"sha":"ebc876e7e328a1a8a7b829aa3b1c04f16bcaa355","url":"https://api.github.com/repos/fukamachi/caveman/commits/ebc876e7e328a1a8a7b829aa3b1c04f16bcaa355"}},{"name":"12.03.1","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.03.1","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.03.1","commit":{"sha":"4048233b9594a987086da0e5378db1e2b8433924","url":"https://api.github.com/repos/fukamachi/caveman/commits/4048233b9594a987086da0e5378db1e2b8433924"}},{"name":"12.03.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.03.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.03.0","commit":{"sha":"25b4a234e67d37d0796945b8c3ed9d2a01539695","url":"https://api.github.com/repos/fukamachi/caveman/commits/25b4a234e67d37d0796945b8c3ed9d2a01539695"}},{"name":"12.02.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.02.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.02.0","commit":{"sha":"d7c3f998003298377936a15e152a8c8ff9f7fc99","url":"https://api.github.com/repos/fukamachi/caveman/commits/d7c3f998003298377936a15e152a8c8ff9f7fc99"}},{"name":"12.01.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/12.01.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/12.01.0","commit":{"sha":"bd2f95569ac78f20b10a4a13addee96a20c27eb5","url":"https://api.github.com/repos/fukamachi/caveman/commits/bd2f95569ac78f20b10a4a13addee96a20c27eb5"}},{"name":"11.11.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/11.11.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/11.11.0","commit":{"sha":"b8bab170cb991f826ac40adcff469121777f8f00","url":"https://api.github.com/repos/fukamachi/caveman/commits/b8bab170cb991f826ac40adcff469121777f8f00"}},{"name":"11.10.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/11.10.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/11.10.0","commit":{"sha":"eea212e0f34fe47960989d93ce64ce7423ccb40f","url":"https://api.github.com/repos/fukamachi/caveman/commits/eea212e0f34fe47960989d93ce64ce7423ccb40f"}},{"name":"11.09.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/11.09.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/11.09.0","commit":{"sha":"df4c55aac103e44681e79b352b105bbf3b97bf1b","url":"https://api.github.com/repos/fukamachi/caveman/commits/df4c55aac103e44681e79b352b105bbf3b97bf1b"}},{"name":"11.08.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/11.08.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/11.08.0","commit":{"sha":"bd215a91d35b1931e0a43c0c5b01420964cb6cde","url":"https://api.github.com/repos/fukamachi/caveman/commits/bd215a91d35b1931e0a43c0c5b01420964cb6cde"}},{"name":"11.07.0","zipball_url":"https://api.github.com/repos/fukamachi/caveman/zipball/11.07.0","tarball_url":"https://api.github.com/repos/fukamachi/caveman/tarball/11.07.0","commit":{"sha":"26bf606f85be8884e630ef187c2bb12843a8550f","url":"https://api.github.com/repos/fukamachi/caveman/commits/26bf606f85be8884e630ef187c2bb12843a8550f"}}]
+0
+

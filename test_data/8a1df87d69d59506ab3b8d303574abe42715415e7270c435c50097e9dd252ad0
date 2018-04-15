@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:10 GMT
+Etag: W/"c5722fab602eb030a5c71d76f108930a"
+Last-Modified: Fri, 13 Apr 2018 21:27:36 GMT
+Link: <https://api.github.com/repositories/78238350/tags?page=1>; rel="prev", <https://api.github.com/repositories/78238350/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A2:148B:2053805:46C6776:5AD35946
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4758
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.041337
+X-Xss-Protection: 1; mode=block
+
+2b7
+[{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.1","commit":{"sha":"0eea55410222f97baf702fd559b075da0fc44643","url":"https://api.github.com/repos/luckyframework/lucky/commits/0eea55410222f97baf702fd559b075da0fc44643"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.0","commit":{"sha":"cfa27e38c13600dedf850f48f7467211a411ccbe","url":"https://api.github.com/repos/luckyframework/lucky/commits/cfa27e38c13600dedf850f48f7467211a411ccbe"}}]
+0
+

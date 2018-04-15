@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:47:46 GMT
+Etag: W/"64f4e0cfb62171d3f5997493e57f751d"
+Last-Modified: Thu, 15 Feb 2018 03:27:26 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D976:148A:17CCDF2:36D3A45:5AD35801
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4869
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.056960
+X-Xss-Protection: 1; mode=block
+
+f23
+[{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/v1.1.0","commit":{"sha":"5e9012c2dce5d51d03cf96accb3abeece0164140","url":"https://api.github.com/repos/javaConductor/gserv/commits/5e9012c2dce5d51d03cf96accb3abeece0164140"}},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/v1.0.0","commit":{"sha":"1a037905456d3c5e706b96f5a15ad145c908f236","url":"https://api.github.com/repos/javaConductor/gserv/commits/1a037905456d3c5e706b96f5a15ad145c908f236"}},{"name":"Beta0.0.1","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta0.0.1","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta0.0.1","commit":{"sha":"a2d9361f2f6eddc3dabc518c40c61291d501d701","url":"https://api.github.com/repos/javaConductor/gserv/commits/a2d9361f2f6eddc3dabc518c40c61291d501d701"}},{"name":"Beta-0.9.9","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.9","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.9","commit":{"sha":"1b57e98791582e606a48b066974a69b10f20583b","url":"https://api.github.com/repos/javaConductor/gserv/commits/1b57e98791582e606a48b066974a69b10f20583b"}},{"name":"Beta-0.9.8","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.8","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.8","commit":{"sha":"ddbe8017fb72cbc39ef881262eaaab50696a3a6c","url":"https://api.github.com/repos/javaConductor/gserv/commits/ddbe8017fb72cbc39ef881262eaaab50696a3a6c"}},{"name":"Beta-0.9.7","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.7","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.7","commit":{"sha":"f2d7225e39d3f4db5c007af78b6c3d491993f896","url":"https://api.github.com/repos/javaConductor/gserv/commits/f2d7225e39d3f4db5c007af78b6c3d491993f896"}},{"name":"Beta-0.9.5","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.5","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.5","commit":{"sha":"92ba02f6fcd987dd0a05a5bbad74272a50f746b6","url":"https://api.github.com/repos/javaConductor/gserv/commits/92ba02f6fcd987dd0a05a5bbad74272a50f746b6"}},{"name":"Beta-0.9.3","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.3","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.3","commit":{"sha":"5021e16ce37c3b985de33303f606441f5618d6bd","url":"https://api.github.com/repos/javaConductor/gserv/commits/5021e16ce37c3b985de33303f606441f5618d6bd"}},{"name":"Beta-0.9.2","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.2","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.2","commit":{"sha":"ccfe4c7edb8de8e867131527875943abd1c9814a","url":"https://api.github.com/repos/javaConductor/gserv/commits/ccfe4c7edb8de8e867131527875943abd1c9814a"}},{"name":"Beta-0.9.1","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/Beta-0.9.1","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/Beta-0.9.1","commit":{"sha":"bfcd9543a93ab319a4e4a2148b700ae544a79320","url":"https://api.github.com/repos/javaConductor/gserv/commits/bfcd9543a93ab319a4e4a2148b700ae544a79320"}},{"name":"0.9.6","zipball_url":"https://api.github.com/repos/javaConductor/gserv/zipball/0.9.6","tarball_url":"https://api.github.com/repos/javaConductor/gserv/tarball/0.9.6","commit":{"sha":"730ce019bd029d7eb1ec6aaaea92d63a349bc9d6","url":"https://api.github.com/repos/javaConductor/gserv/commits/730ce019bd029d7eb1ec6aaaea92d63a349bc9d6"}}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:05 GMT
+Etag: W/"aa3dacf93bd9e64d3a4e5d08a706a2b3"
+Last-Modified: Sat, 31 Mar 2018 04:49:09 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A1:148C:291078A:53488C0:5AD35941
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4831
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.037292
+X-Xss-Protection: 1; mode=block
+
+36f
+[{"login":"stakach","id":368013,"avatar_url":"https://avatars2.githubusercontent.com/u/368013?v=4","gravatar_id":"","url":"https://api.github.com/users/stakach","html_url":"https://github.com/stakach","followers_url":"https://api.github.com/users/stakach/followers","following_url":"https://api.github.com/users/stakach/following{/other_user}","gists_url":"https://api.github.com/users/stakach/gists{/gist_id}","starred_url":"https://api.github.com/users/stakach/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stakach/subscriptions","organizations_url":"https://api.github.com/users/stakach/orgs","repos_url":"https://api.github.com/users/stakach/repos","events_url":"https://api.github.com/users/stakach/events{/privacy}","received_events_url":"https://api.github.com/users/stakach/received_events","type":"User","site_admin":false,"contributions":3}]
+0
+

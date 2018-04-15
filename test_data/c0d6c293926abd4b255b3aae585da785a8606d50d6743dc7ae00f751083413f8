@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 15 Apr 2018 13:53:06 GMT
+Etag: W/"28ca762336a10ceafc1c852dc83ab3d6"
+Last-Modified: Sat, 14 Apr 2018 11:28:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D9A1:148C:2910831:53489EC:5AD35942
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4808
+X-Ratelimit-Reset: 1523802882
+X-Runtime-Rack: 0.035577
+X-Xss-Protection: 1; mode=block
+
+53a
+[{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/samueleaton/raze/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/samueleaton/raze/tarball/v0.2.1","commit":{"sha":"13898a60e1652d897206aa2078df547cb4ebd9ba","url":"https://api.github.com/repos/samueleaton/raze/commits/13898a60e1652d897206aa2078df547cb4ebd9ba"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/samueleaton/raze/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/samueleaton/raze/tarball/v0.2.0","commit":{"sha":"0c79397429947cf76adf95b07eae8ccdcd1d7074","url":"https://api.github.com/repos/samueleaton/raze/commits/0c79397429947cf76adf95b07eae8ccdcd1d7074"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/samueleaton/raze/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/samueleaton/raze/tarball/v0.1.0","commit":{"sha":"1675d6b487cb11b85e93c970929d9970546b9145","url":"https://api.github.com/repos/samueleaton/raze/commits/1675d6b487cb11b85e93c970929d9970546b9145"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/samueleaton/raze/zipball/0.1.0","tarball_url":"https://api.github.com/repos/samueleaton/raze/tarball/0.1.0","commit":{"sha":"1675d6b487cb11b85e93c970929d9970546b9145","url":"https://api.github.com/repos/samueleaton/raze/commits/1675d6b487cb11b85e93c970929d9970546b9145"}}]
+0
+
