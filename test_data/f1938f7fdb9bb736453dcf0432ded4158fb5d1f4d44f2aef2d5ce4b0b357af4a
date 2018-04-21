@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 21 Apr 2018 14:37:39 GMT
+Etag: W/"ae700a92535274604df250d0a5edc4bf"
+Last-Modified: Sat, 21 Apr 2018 10:32:29 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8FC:3706:3A9FC0D:7547DA6:5ADB4CB3
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4988
+X-Ratelimit-Reset: 1524325059
+X-Runtime-Rack: 0.056619
+X-Xss-Protection: 1; mode=block
+
+6f5
+[{"login":"roberto-ieru","id":16293687,"avatar_url":"https://avatars2.githubusercontent.com/u/16293687?v=4","gravatar_id":"","url":"https://api.github.com/users/roberto-ieru","html_url":"https://github.com/roberto-ieru","followers_url":"https://api.github.com/users/roberto-ieru/followers","following_url":"https://api.github.com/users/roberto-ieru/following{/other_user}","gists_url":"https://api.github.com/users/roberto-ieru/gists{/gist_id}","starred_url":"https://api.github.com/users/roberto-ieru/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/roberto-ieru/subscriptions","organizations_url":"https://api.github.com/users/roberto-ieru/orgs","repos_url":"https://api.github.com/users/roberto-ieru/repos","events_url":"https://api.github.com/users/roberto-ieru/events{/privacy}","received_events_url":"https://api.github.com/users/roberto-ieru/received_events","type":"User","site_admin":false,"contributions":4810},{"login":"lhf","id":24273900,"avatar_url":"https://avatars1.githubusercontent.com/u/24273900?v=4","gravatar_id":"","url":"https://api.github.com/users/lhf","html_url":"https://github.com/lhf","followers_url":"https://api.github.com/users/lhf/followers","following_url":"https://api.github.com/users/lhf/following{/other_user}","gists_url":"https://api.github.com/users/lhf/gists{/gist_id}","starred_url":"https://api.github.com/users/lhf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lhf/subscriptions","organizations_url":"https://api.github.com/users/lhf/orgs","repos_url":"https://api.github.com/users/lhf/repos","events_url":"https://api.github.com/users/lhf/events{/privacy}","received_events_url":"https://api.github.com/users/lhf/received_events","type":"User","site_admin":false,"contributions":28}]
+0
+

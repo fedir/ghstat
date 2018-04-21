@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 21 Apr 2018 14:37:40 GMT
+Etag: W/"0b475d46e8ec6a99a55f2adfc87c5f23"
+Last-Modified: Sat, 21 Apr 2018 10:32:29 GMT
+Link: <https://api.github.com/repositories/5805256/tags?page=1>; rel="prev", <https://api.github.com/repositories/5805256/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8FC:3706:3A9FC7E:7547E65:5ADB4CB4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4975
+X-Ratelimit-Reset: 1524325059
+X-Runtime-Rack: 0.031210
+X-Xss-Protection: 1; mode=block
+
+c00
+[{"name":"v2_5_1","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_5_1","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_5_1","commit":{"sha":"42359b8b133906fb06ecafa7f853519c818616e3","url":"https://api.github.com/repos/lua/lua/commits/42359b8b133906fb06ecafa7f853519c818616e3"}},{"name":"v2_5","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_5","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_5","commit":{"sha":"dbfe28e1995d6ecd73b5048e71d72c7e1e7d5462","url":"https://api.github.com/repos/lua/lua/commits/dbfe28e1995d6ecd73b5048e71d72c7e1e7d5462"}},{"name":"v2_5_Beta","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_5_Beta","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_5_Beta","commit":{"sha":"fd379b38f7e4be161f0e362745854a2f7f4b5d07","url":"https://api.github.com/repos/lua/lua/commits/fd379b38f7e4be161f0e362745854a2f7f4b5d07"}},{"name":"v2_4","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_4","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_4","commit":{"sha":"a7ca46405d71ec970361cf0fd55244f22b171fd7","url":"https://api.github.com/repos/lua/lua/commits/a7ca46405d71ec970361cf0fd55244f22b171fd7"}},{"name":"v2_4_Beta","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_4_Beta","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_4_Beta","commit":{"sha":"ce23901f0445ad62f20a445a0f6f53d928d81666","url":"https://api.github.com/repos/lua/lua/commits/ce23901f0445ad62f20a445a0f6f53d928d81666"}},{"name":"v2_3_Beta","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_3_Beta","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_3_Beta","commit":{"sha":"05caf09a36cadaab401bc9a24e29e2cd6e4126d4","url":"https://api.github.com/repos/lua/lua/commits/05caf09a36cadaab401bc9a24e29e2cd6e4126d4"}},{"name":"v2_2","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_2","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_2","commit":{"sha":"f188e1000ba939dd58de2e8bdfa49db2e8db571c","url":"https://api.github.com/repos/lua/lua/commits/f188e1000ba939dd58de2e8bdfa49db2e8db571c"}},{"name":"v2_1","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v2_1","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v2_1","commit":{"sha":"0761c4c03603b437516d6dd0e83e250c55dcbe5e","url":"https://api.github.com/repos/lua/lua/commits/0761c4c03603b437516d6dd0e83e250c55dcbe5e"}},{"name":"v1_2","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v1_2","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v1_2","commit":{"sha":"6625296c8f498e09e502748092d1e203a6c6cc56","url":"https://api.github.com/repos/lua/lua/commits/6625296c8f498e09e502748092d1e203a6c6cc56"}},{"name":"v1_0","zipball_url":"https://api.github.com/repos/lua/lua/zipball/v1_0","tarball_url":"https://api.github.com/repos/lua/lua/tarball/v1_0","commit":{"sha":"b9dde086db57ee6664ec1aedbec04c54857f9250","url":"https://api.github.com/repos/lua/lua/commits/b9dde086db57ee6664ec1aedbec04c54857f9250"}}]
+0
+
