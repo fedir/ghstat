@@ -47,6 +47,7 @@ func main() {
 			"kataras/iris",
 			"zenazn/goji",
 			"go-macaron/macaron",
+			"go-aah/aah",
 		})
 	}
 
