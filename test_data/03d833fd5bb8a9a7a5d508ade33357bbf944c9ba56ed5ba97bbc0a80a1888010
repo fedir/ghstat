@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 21 Apr 2018 07:30:50 GMT
+Etag: W/"24e9c3b45754e8b55d190a9b126517b8"
+Last-Modified: Fri, 20 Apr 2018 13:40:37 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD87:3705:2BC7CA6:5ED8DA1:5ADAE8A9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4826
+X-Ratelimit-Reset: 1524299059
+X-Runtime-Rack: 0.104148
+X-Xss-Protection: 1; mode=block
+
+a85
+[{"login":"HerikLyma","id":11809323,"avatar_url":"https://avatars2.githubusercontent.com/u/11809323?v=4","gravatar_id":"","url":"https://api.github.com/users/HerikLyma","html_url":"https://github.com/HerikLyma","followers_url":"https://api.github.com/users/HerikLyma/followers","following_url":"https://api.github.com/users/HerikLyma/following{/other_user}","gists_url":"https://api.github.com/users/HerikLyma/gists{/gist_id}","starred_url":"https://api.github.com/users/HerikLyma/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HerikLyma/subscriptions","organizations_url":"https://api.github.com/users/HerikLyma/orgs","repos_url":"https://api.github.com/users/HerikLyma/repos","events_url":"https://api.github.com/users/HerikLyma/events{/privacy}","received_events_url":"https://api.github.com/users/HerikLyma/received_events","type":"User","site_admin":false,"contributions":158},{"login":"camilaruby","id":8561112,"avatar_url":"https://avatars3.githubusercontent.com/u/8561112?v=4","gravatar_id":"","url":"https://api.github.com/users/camilaruby","html_url":"https://github.com/camilaruby","followers_url":"https://api.github.com/users/camilaruby/followers","following_url":"https://api.github.com/users/camilaruby/following{/other_user}","gists_url":"https://api.github.com/users/camilaruby/gists{/gist_id}","starred_url":"https://api.github.com/users/camilaruby/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/camilaruby/subscriptions","organizations_url":"https://api.github.com/users/camilaruby/orgs","repos_url":"https://api.github.com/users/camilaruby/repos","events_url":"https://api.github.com/users/camilaruby/events{/privacy}","received_events_url":"https://api.github.com/users/camilaruby/received_events","type":"User","site_admin":false,"contributions":8},{"login":"jsfdez","id":1779119,"avatar_url":"https://avatars0.githubusercontent.com/u/1779119?v=4","gravatar_id":"","url":"https://api.github.com/users/jsfdez","html_url":"https://github.com/jsfdez","followers_url":"https://api.github.com/users/jsfdez/followers","following_url":"https://api.github.com/users/jsfdez/following{/other_user}","gists_url":"https://api.github.com/users/jsfdez/gists{/gist_id}","starred_url":"https://api.github.com/users/jsfdez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jsfdez/subscriptions","organizations_url":"https://api.github.com/users/jsfdez/orgs","repos_url":"https://api.github.com/users/jsfdez/repos","events_url":"https://api.github.com/users/jsfdez/events{/privacy}","received_events_url":"https://api.github.com/users/jsfdez/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

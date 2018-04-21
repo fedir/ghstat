@@ -15,7 +15,7 @@ bottlepy/bottle,plotly/dash,django/django,pallets/flask,Pylons/pyramid,channelca
 camping/camping,soveran/cuba,patriciomacadden/hobbit,hanami/hanami,ruby-hyperloop/hyper-react,padrino/padrino-framework,pakyow/pakyow,rack-app/rack-app,ramaze/ramaze,jeremyevans/roda,rails/rails,wardrop/Scorched,sinatra/sinatra,voltrb/volt,\
 SergioBenitez/rocket,iron/iron,actix/actix-web,gotham-rs/gotham,nickel-org/nickel.rs,Ogeon/rustful,rustless/rustless,tomaka/rouille,sappworks/sapper,mehcode/shio-rs,\
 tsujigiri/axiom,ChicagoBoss/ChicagoBoss,ninenines/cowboy,kivra/giallo,mochi/mochiweb,synrc/n2o,synrc/rest,nitrogen/nitrogen,zotonic/zotonic,nova-framework/framework,\
-civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,\
+civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,HerikLyma/CPPWebFramework,\
 amberframework/amber,kemalcr/kemal,jasonl99/lattice-core,luckyframework/lucky,vladfaust/prism,samueleaton/raze,spider-gazelle/spider-gazelle,\
 gaelyk/gaelyk,kdabir/glide,javaConductor/gserv,grails/grails-core,\
 fukamachi/caveman,hargettp/hh-web,fukamachi/ningle,Shirakumo/radiance,eudoxia0/lucerne,joaotavora/snooze,\
