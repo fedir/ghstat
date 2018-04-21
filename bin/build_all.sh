@@ -22,6 +22,7 @@ bash bin/groovy_frameworks.sh
 bash bin/js_frameworks.sh
 bash bin/php_frameworks.sh
 bash bin/all_frameworks.sh
+bash bin/langs.sh
 # cms
 bash bin/all_cms.sh
 bash bin/js_cms.sh
