@@ -25,11 +25,11 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	r.Watchers = repositoryData.Watchers
 	r.Forks = repositoryData.Forks
 	r.OpenIssues = repositoryData.OpenIssues
-	r.License = "[Unknown]"
+	r.License = "[Custom license]"
 	if repositoryData.License.SPDXID != "" {
 		r.License = repositoryData.License.SPDXID
 	}
-	r.Author = "[Unknown]"
+	r.Author = "[No GitHub account detected]"
 
 	r.Author,
 		r.LastCommitDate = github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
