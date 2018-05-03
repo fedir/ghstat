@@ -16,7 +16,7 @@ camping/camping,soveran/cuba,patriciomacadden/hobbit,hanami/hanami,ruby-hyperloo
 SergioBenitez/rocket,iron/iron,actix/actix-web,gotham-rs/gotham,nickel-org/nickel.rs,Ogeon/rustful,rustless/rustless,tomaka/rouille,sappworks/sapper,mehcode/shio-rs,\
 tsujigiri/axiom,ChicagoBoss/ChicagoBoss,ninenines/cowboy,kivra/giallo,mochi/mochiweb,synrc/n2o,synrc/rest,nitrogen/nitrogen,zotonic/zotonic,nova-framework/framework,\
 civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,HerikLyma/CPPWebFramework,\
-amberframework/amber,kemalcr/kemal,jasonl99/lattice-core,luckyframework/lucky,vladfaust/prism,samueleaton/raze,spider-gazelle/spider-gazelle,\
+amberframework/amber,kemalcr/kemal,jasonl99/lattice-core,luckyframework/lucky,vladfaust/prism,samueleaton/raze,spider-gazelle/spider-gazelle,amethyst-framework/amethyst,\
 gaelyk/gaelyk,kdabir/glide,javaConductor/gserv,grails/grails-core,\
 fukamachi/caveman,hargettp/hh-web,fukamachi/ningle,Shirakumo/radiance,eudoxia0/lucerne,joaotavora/snooze,\
 ipkn/crow,cutelyst/cutelyst,oktal/pistache,jlaine/qdjango,treefrogframework/treefrog-framework\
