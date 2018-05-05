@@ -64,6 +64,7 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	r.TotalDeletions = contributionStatistics.TotalDeletions
 	r.TotalCodeChanges = contributionStatistics.TotalCodeChanges
 	r.AverageContributionPeriod = contributionStatistics.AverageContributionPeriod
+	r.ReturningContributors = contributionStatistics.ReturningContributors
 	r.MediCommitSize = contributionStatistics.MediumCommitSize
 
 	r.CommitsByDay = github.GetCommitsByDay(contributionStatistics.TotalCommits, r.Age)

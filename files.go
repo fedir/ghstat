@@ -74,6 +74,7 @@ func formatRepositoryDataForCSV(r Repository) []string {
 		fmt.Sprintf("%d", r.Forks),
 		fmt.Sprintf("%d", r.Contributors),
 		fmt.Sprintf("%.2f", r.ActiveForkersPercentage),
+		fmt.Sprintf("%d", r.ReturningContributors),
 		fmt.Sprintf("%d", r.OpenIssues),
 		fmt.Sprintf("%d", r.ClosedIssues),
 		fmt.Sprintf("%d", r.TotalIssues),

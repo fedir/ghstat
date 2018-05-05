@@ -33,6 +33,7 @@ type Repository struct {
 	Forks                               int       `header:"Forks"`
 	Contributors                        int       `header:"Contributors"`
 	ActiveForkersPercentage             float64   `header:"Active forkers(%)"`
+	ReturningContributors               int       `header:"Returning contributors (more than 4 weeks)"`
 	OpenIssues                          int       `header:"Open issues"`
 	ClosedIssues                        int       `header:"Closed issues"`
 	TotalIssues                         int       `header:"Total issues"`

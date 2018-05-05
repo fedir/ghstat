@@ -33,6 +33,7 @@ type ContributionStatistics struct {
 	TotalCodeChanges          int
 	MediumCommitSize          int
 	AverageContributionPeriod int
+	ReturningContributors     int
 }
 
 // GetContributionStatistics gets detailsed statistics about contributors of the repository
@@ -43,6 +44,7 @@ func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) Con
 	cs := extractContributionStatisticsFromJSON(jsonResponse, debug)
 	if debug {
 		fmt.Printf("ACP for %s: %d days\n", repoKey, cs.AverageContributionPeriod)
+		fmt.Printf("RC for %s: %d\n", repoKey, cs.ReturningContributors)
 	}
 	return cs
 }
@@ -79,6 +81,7 @@ func extractContributionStatisticsFromJSON(jsonResponse []byte, debug bool) Cont
 	}
 	cs.MediumCommitSize = calculateMediumCommitSize(cs.TotalCommits, cs.TotalCodeChanges)
 	cs.AverageContributionPeriod = calculateAverageContributionPeriod(contributionStatistics, debug)
+	cs.ReturningContributors = calculateReturningContributors(contributionStatistics, debug)
 	return cs
 }
 
@@ -121,4 +124,27 @@ func calculateAverageContributionPeriod(cs []StatsContributor, debug bool) int {
 	}
 	acp = int(float64(totalAcp) / float64(nContirbutors))
 	return acp
+}
+
+func calculateReturningContributors(cs []StatsContributor, debug bool) int {
+	rc := 0
+	for _, c := range cs {
+		contributions := 0
+		for _, cw := range c.Weeks {
+			if cw.Additions > 0 || cw.Commits > 0 || cw.Deletions > 0 {
+				contributions++
+			}
+		}
+		if contributions > 4 {
+			rc++
+			if debug {
+				fmt.Printf("%s is returning contributor and has %d weeks of contribution\n", c.Author, contributions)
+			}
+		} else {
+			if debug {
+				fmt.Printf("%s is onetime contributor and has %d week(s) of contribution\n", c.Author, contributions)
+			}
+		}
+	}
+	return rc
 }

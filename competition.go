@@ -102,7 +102,17 @@ func rateGhData(ghData []Repository) string {
 	sort.Slice(ghData[:], func(i, j int) bool {
 		return ghData[i].ActiveForkersPercentage > ghData[j].ActiveForkersPercentage
 	})
-	greetings += fmt.Sprintf("* The project with the most active community is `%s`\n", ghData[0].Name)
+	greetings += fmt.Sprintf("* The project with the most active number of forkers is `%s`\n", ghData[0].Name)
+	for i := range ghData {
+		ghData[i].PlacementActiveForkersColumn = i + 1
+		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
+	}
+
+	// Add points by returning contributors (more returning contributors shows good open source spirit of the community)
+	sort.Slice(ghData[:], func(i, j int) bool {
+		return ghData[i].ReturningContributors > ghData[j].ReturningContributors
+	})
+	greetings += fmt.Sprintf("* The project with biggest number of returning contributors is `%s`\n", ghData[0].Name)
 	for i := range ghData {
 		ghData[i].PlacementActiveForkersColumn = i + 1
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
