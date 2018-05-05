@@ -3,7 +3,7 @@
 ## Go frameworks statistics rating
 
 * The most popular project is `gohugoio/hugo`
-* The newest project is `kataras/iris`
+* The newest project is `go-aah/aah`
 * The project with more commits is `gohugoio/hugo`
 * The project with more tags is `labstack/echo`
 * The project made by most notable top contributors is `astaxie/beego`
@@ -185,11 +185,11 @@
 ## C frameworks statistics rating
 
 * The most popular project is `lpereira/lwan`
-* The newest project is `civetweb/civetweb`
+* The newest project is `HerikLyma/CPPWebFramework`
 * The project with more commits is `civetweb/civetweb`
 * The project with more tags is `emweb/wt`
 * The project made by most notable top contributors is `lpereira/lwan`
-* The project with best errors resolving rate is `jorisvink/kore`
+* The project with best errors resolving rate is `HerikLyma/CPPWebFramework`
 * The project with more commits by day is `civetweb/civetweb`
 * The project with the most active community is `civetweb/civetweb`
 * The best project (taking in account placements in all competitions) is `civetweb/civetweb`
@@ -287,12 +287,26 @@
 * The project with more commits is `rails/rails`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
-* The project with best errors resolving rate is `jeremyevans/roda`
+* The project with best errors resolving rate is `totaljs/framework`
 * The project with more commits by day is `rails/rails`
-* The project with the most active community is `analogweb/analogweb-scala`
+* The project with the most active community is `vladfaust/prism`
 * The best project (taking in account placements in all competitions) is `phoenixframework/phoenix`
 
 [Detailed cross-language frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
+
+## Programming languages rating
+
+* The most popular project is `golang/go`
+* The newest project is `python/cpython`
+* The project with more commits is `python/cpython`
+* The project with more tags is `ruby/ruby`
+* The project made by most notable top contributors is `golang/go`
+* The project with best errors resolving rate is `golang/go`
+* The project with more commits by day is `python/cpython`
+* The project with the most active community is `dlang/dmd`
+* The best project (taking in account placements in all competitions) is `golang/go`
+
+[Detailed programming languages statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/langs.csv)
 
 ## Cross-language CMS rating
 
