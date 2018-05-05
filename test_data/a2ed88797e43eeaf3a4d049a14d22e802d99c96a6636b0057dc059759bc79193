@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:33 GMT
+Etag: W/"4832668a7004ddd962104adc53434553"
+Last-Modified: Fri, 27 Apr 2018 21:48:40 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAA6:3BFF:2B5AAF4:5712B69:5AED044D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4962
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.037426
+X-Xss-Protection: 1; mode=block
+
+4e2
+{"login":"darkfrog26","id":877534,"avatar_url":"https://avatars2.githubusercontent.com/u/877534?v=4","gravatar_id":"","url":"https://api.github.com/users/darkfrog26","html_url":"https://github.com/darkfrog26","followers_url":"https://api.github.com/users/darkfrog26/followers","following_url":"https://api.github.com/users/darkfrog26/following{/other_user}","gists_url":"https://api.github.com/users/darkfrog26/gists{/gist_id}","starred_url":"https://api.github.com/users/darkfrog26/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/darkfrog26/subscriptions","organizations_url":"https://api.github.com/users/darkfrog26/orgs","repos_url":"https://api.github.com/users/darkfrog26/repos","events_url":"https://api.github.com/users/darkfrog26/events{/privacy}","received_events_url":"https://api.github.com/users/darkfrog26/received_events","type":"User","site_admin":false,"name":"Matt Hicks","company":"OUTR Technologies","blog":"http://www.matthicks.com","location":"Norman, Oklahoma","email":"matt@outr.com","hireable":true,"bio":"I'm not reinventing the wheel, I'm building space ships!","public_repos":2,"public_gists":83,"followers":43,"following":6,"created_at":"2011-06-26T23:30:29Z","updated_at":"2018-04-27T21:48:40Z"}
+0
+

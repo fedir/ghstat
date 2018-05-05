@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:40 GMT
+Etag: W/"b44e89cff6999a8e797ddedc74fbbfdf"
+Last-Modified: Fri, 06 Apr 2018 18:32:56 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAEF:3BFF:2B5AE25:5713224:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4906
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.043553
+X-Xss-Protection: 1; mode=block
+
+436
+{"login":"Ogeon","id":225229,"avatar_url":"https://avatars3.githubusercontent.com/u/225229?v=4","gravatar_id":"","url":"https://api.github.com/users/Ogeon","html_url":"https://github.com/Ogeon","followers_url":"https://api.github.com/users/Ogeon/followers","following_url":"https://api.github.com/users/Ogeon/following{/other_user}","gists_url":"https://api.github.com/users/Ogeon/gists{/gist_id}","starred_url":"https://api.github.com/users/Ogeon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ogeon/subscriptions","organizations_url":"https://api.github.com/users/Ogeon/orgs","repos_url":"https://api.github.com/users/Ogeon/repos","events_url":"https://api.github.com/users/Ogeon/events{/privacy}","received_events_url":"https://api.github.com/users/Ogeon/received_events","type":"User","site_admin":false,"name":"Erik Hedvall","company":null,"blog":"","location":"Sweden","email":null,"hireable":null,"bio":null,"public_repos":28,"public_gists":5,"followers":33,"following":6,"created_at":"2010-03-18T10:48:35Z","updated_at":"2018-04-06T18:32:56Z"}
+0
+

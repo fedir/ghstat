@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:42 GMT
+Etag: W/"d802107c3de83387040d2363a2fc90a0"
+Last-Modified: Tue, 10 Apr 2018 10:49:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB06:3BFF:2B5AF4D:5713446:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4889
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.040817
+X-Xss-Protection: 1; mode=block
+
+49d
+{"login":"fukamachi","id":90570,"avatar_url":"https://avatars2.githubusercontent.com/u/90570?v=4","gravatar_id":"","url":"https://api.github.com/users/fukamachi","html_url":"https://github.com/fukamachi","followers_url":"https://api.github.com/users/fukamachi/followers","following_url":"https://api.github.com/users/fukamachi/following{/other_user}","gists_url":"https://api.github.com/users/fukamachi/gists{/gist_id}","starred_url":"https://api.github.com/users/fukamachi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fukamachi/subscriptions","organizations_url":"https://api.github.com/users/fukamachi/orgs","repos_url":"https://api.github.com/users/fukamachi/repos","events_url":"https://api.github.com/users/fukamachi/events{/privacy}","received_events_url":"https://api.github.com/users/fukamachi/received_events","type":"User","site_admin":false,"name":"Eitaro Fukamachi","company":"Pocket Change, K.K.","blog":"http://8arrow.org","location":"Japan","email":"e.arrows@gmail.com","hireable":null,"bio":null,"public_repos":146,"public_gists":48,"followers":740,"following":60,"created_at":"2009-06-01T06:27:02Z","updated_at":"2018-04-10T10:49:27Z"}
+0
+

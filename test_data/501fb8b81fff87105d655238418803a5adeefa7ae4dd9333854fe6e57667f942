@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:41 GMT
+Etag: W/"03bc7930a2be6523aab805ec0b0dade1"
+Last-Modified: Fri, 13 Apr 2018 08:04:45 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAFA:3BFF:2B5AE8C:57132EB:5AED0454
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4897
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.043553
+X-Xss-Protection: 1; mode=block
+
+4cf
+{"login":"davidmoreno","id":322746,"avatar_url":"https://avatars3.githubusercontent.com/u/322746?v=4","gravatar_id":"","url":"https://api.github.com/users/davidmoreno","html_url":"https://github.com/davidmoreno","followers_url":"https://api.github.com/users/davidmoreno/followers","following_url":"https://api.github.com/users/davidmoreno/following{/other_user}","gists_url":"https://api.github.com/users/davidmoreno/gists{/gist_id}","starred_url":"https://api.github.com/users/davidmoreno/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/davidmoreno/subscriptions","organizations_url":"https://api.github.com/users/davidmoreno/orgs","repos_url":"https://api.github.com/users/davidmoreno/repos","events_url":"https://api.github.com/users/davidmoreno/events{/privacy}","received_events_url":"https://api.github.com/users/davidmoreno/received_events","type":"User","site_admin":false,"name":"David Moreno Montero","company":"Coralbits","blog":"http://www.coralbits.com","location":"Madrid (Spain) and London(UK)","email":"dmoreno@coralbits.com","hireable":null,"bio":null,"public_repos":21,"public_gists":2,"followers":62,"following":4,"created_at":"2010-07-04T22:07:55Z","updated_at":"2018-04-13T08:04:45Z"}
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:05:38 GMT
+Etag: W/"5efeb0814e37acc1b48d12a37f7040e1"
+Last-Modified: Fri, 04 May 2018 14:21:49 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA3E:3BFF:2B53201:5704603:5AED0361
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4999
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.040061
+X-Xss-Protection: 1; mode=block
+
+539
+{"login":"kataras","id":22900943,"avatar_url":"https://avatars1.githubusercontent.com/u/22900943?v=4","gravatar_id":"","url":"https://api.github.com/users/kataras","html_url":"https://github.com/kataras","followers_url":"https://api.github.com/users/kataras/followers","following_url":"https://api.github.com/users/kataras/following{/other_user}","gists_url":"https://api.github.com/users/kataras/gists{/gist_id}","starred_url":"https://api.github.com/users/kataras/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kataras/subscriptions","organizations_url":"https://api.github.com/users/kataras/orgs","repos_url":"https://api.github.com/users/kataras/repos","events_url":"https://api.github.com/users/kataras/events{/privacy}","received_events_url":"https://api.github.com/users/kataras/received_events","type":"User","site_admin":false,"name":"Gerasimos (Makis) Maropoulos","company":"Landoop","blog":"https://twitter.com/makismaropoulos","location":"Greece","email":"kataras2006@hotmail.com","hireable":null,"bio":"Author of dozens Go packages, including the beloved Iris Web Framework. Writer at medium.com, dev.to, dzone.com. I'm reachable, ask me for advice anytime.","public_repos":46,"public_gists":25,"followers":256,"following":0,"created_at":"2016-10-18T01:46:06Z","updated_at":"2018-05-04T14:21:49Z"}
+0
+

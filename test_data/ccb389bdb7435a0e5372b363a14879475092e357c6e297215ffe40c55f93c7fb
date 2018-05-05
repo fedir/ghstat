@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:32 GMT
+Etag: W/"abd5f5bf2567fc9298b6141228ec5d13"
+Last-Modified: Tue, 20 Feb 2018 08:02:39 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA87:3BFF:2B5AA4E:5712A12:5AED044B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4987
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.046389
+X-Xss-Protection: 1; mode=block
+
+4b0
+{"login":"s4nchez","id":29394,"avatar_url":"https://avatars2.githubusercontent.com/u/29394?v=4","gravatar_id":"","url":"https://api.github.com/users/s4nchez","html_url":"https://github.com/s4nchez","followers_url":"https://api.github.com/users/s4nchez/followers","following_url":"https://api.github.com/users/s4nchez/following{/other_user}","gists_url":"https://api.github.com/users/s4nchez/gists{/gist_id}","starred_url":"https://api.github.com/users/s4nchez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s4nchez/subscriptions","organizations_url":"https://api.github.com/users/s4nchez/orgs","repos_url":"https://api.github.com/users/s4nchez/repos","events_url":"https://api.github.com/users/s4nchez/events{/privacy}","received_events_url":"https://api.github.com/users/s4nchez/received_events","type":"User","site_admin":false,"name":"Ivan Sanchez","company":"@http4k","blog":"www.isanchez.net","location":"London, UK","email":null,"hireable":null,"bio":"Mostly building @http4k (Kotlin) and helping teams deliver better software.","public_repos":33,"public_gists":11,"followers":27,"following":16,"created_at":"2008-10-16T23:42:03Z","updated_at":"2018-02-20T08:02:39Z"}
+0
+

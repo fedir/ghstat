@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:42 GMT
+Etag: W/"09de28438591d4d40a166b9166c9fc82"
+Last-Modified: Thu, 22 Mar 2018 05:19:21 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB03:3BFF:2B5AF4D:5713444:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4891
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.043445
+X-Xss-Protection: 1; mode=block
+
+48c
+{"login":"joaotavora","id":387011,"avatar_url":"https://avatars0.githubusercontent.com/u/387011?v=4","gravatar_id":"","url":"https://api.github.com/users/joaotavora","html_url":"https://github.com/joaotavora","followers_url":"https://api.github.com/users/joaotavora/followers","following_url":"https://api.github.com/users/joaotavora/following{/other_user}","gists_url":"https://api.github.com/users/joaotavora/gists{/gist_id}","starred_url":"https://api.github.com/users/joaotavora/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joaotavora/subscriptions","organizations_url":"https://api.github.com/users/joaotavora/orgs","repos_url":"https://api.github.com/users/joaotavora/repos","events_url":"https://api.github.com/users/joaotavora/events{/privacy}","received_events_url":"https://api.github.com/users/joaotavora/received_events","type":"User","site_admin":false,"name":"João Távora","company":null,"blog":"http://joaotavora.com","location":"Portugal","email":null,"hireable":null,"bio":null,"public_repos":81,"public_gists":6,"followers":191,"following":46,"created_at":"2010-09-03T21:48:27Z","updated_at":"2018-03-22T05:19:21Z"}
+0
+

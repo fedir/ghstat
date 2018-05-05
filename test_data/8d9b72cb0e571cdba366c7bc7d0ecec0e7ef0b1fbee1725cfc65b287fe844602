@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"91319586122fec9ee884be73b732956a"
+Last-Modified: Sun, 08 Apr 2018 15:57:19 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB5F:3BFD:16EB684:35936DE:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4815
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.043064
+X-Xss-Protection: 1; mode=block
+
+540
+{"login":"kdambekalns","id":95873,"avatar_url":"https://avatars2.githubusercontent.com/u/95873?v=4","gravatar_id":"","url":"https://api.github.com/users/kdambekalns","html_url":"https://github.com/kdambekalns","followers_url":"https://api.github.com/users/kdambekalns/followers","following_url":"https://api.github.com/users/kdambekalns/following{/other_user}","gists_url":"https://api.github.com/users/kdambekalns/gists{/gist_id}","starred_url":"https://api.github.com/users/kdambekalns/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kdambekalns/subscriptions","organizations_url":"https://api.github.com/users/kdambekalns/orgs","repos_url":"https://api.github.com/users/kdambekalns/repos","events_url":"https://api.github.com/users/kdambekalns/events{/privacy}","received_events_url":"https://api.github.com/users/kdambekalns/received_events","type":"User","site_admin":false,"name":"Karsten Dambekalns","company":"@Flownative GmbH","blog":"http://karsten.dambekalns.de/","location":"Lübeck, Germany","email":"karsten@dambekalns.de","hireable":null,"bio":"Part of the @neos community, clean code enthusiast, climber, father of three, husband of one. Trying to be a nice guy.","public_repos":105,"public_gists":26,"followers":65,"following":2,"created_at":"2009-06-16T10:23:35Z","updated_at":"2018-04-08T15:57:19Z"}
+0
+

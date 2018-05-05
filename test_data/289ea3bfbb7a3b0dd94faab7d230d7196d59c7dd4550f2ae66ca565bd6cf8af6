@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:43 GMT
+Etag: W/"0ab08a080a1be834907c152b0608747f"
+Last-Modified: Wed, 02 May 2018 01:52:26 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB12:3BFF:2B5AFA2:57134FC:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4879
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.036805
+X-Xss-Protection: 1; mode=block
+
+48d
+{"login":"trustin","id":173918,"avatar_url":"https://avatars0.githubusercontent.com/u/173918?v=4","gravatar_id":"","url":"https://api.github.com/users/trustin","html_url":"https://github.com/trustin","followers_url":"https://api.github.com/users/trustin/followers","following_url":"https://api.github.com/users/trustin/following{/other_user}","gists_url":"https://api.github.com/users/trustin/gists{/gist_id}","starred_url":"https://api.github.com/users/trustin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/trustin/subscriptions","organizations_url":"https://api.github.com/users/trustin/orgs","repos_url":"https://api.github.com/users/trustin/repos","events_url":"https://api.github.com/users/trustin/events{/privacy}","received_events_url":"https://api.github.com/users/trustin/received_events","type":"User","site_admin":false,"name":"Trustin Lee","company":"@line @netty","blog":"http://t.motd.kr/","location":"South Korea","email":"t@motd.kr","hireable":null,"bio":"the best is yet to come","public_repos":30,"public_gists":44,"followers":1076,"following":12,"created_at":"2009-12-30T00:30:26Z","updated_at":"2018-05-02T01:52:26Z"}
+0
+

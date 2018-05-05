@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:43 GMT
+Etag: W/"6a569ef7f05943b829a511e20849750c"
+Last-Modified: Fri, 16 Feb 2018 04:40:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB0A:3BFC:2182F07:493F28A:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4886
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.034031
+X-Xss-Protection: 1; mode=block
+
+44f
+{"login":"jojule","id":644969,"avatar_url":"https://avatars1.githubusercontent.com/u/644969?v=4","gravatar_id":"","url":"https://api.github.com/users/jojule","html_url":"https://github.com/jojule","followers_url":"https://api.github.com/users/jojule/followers","following_url":"https://api.github.com/users/jojule/following{/other_user}","gists_url":"https://api.github.com/users/jojule/gists{/gist_id}","starred_url":"https://api.github.com/users/jojule/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jojule/subscriptions","organizations_url":"https://api.github.com/users/jojule/orgs","repos_url":"https://api.github.com/users/jojule/repos","events_url":"https://api.github.com/users/jojule/events{/privacy}","received_events_url":"https://api.github.com/users/jojule/received_events","type":"User","site_admin":false,"name":"Joonas Lehtinen","company":"Vaadin","blog":"vaadin.com","location":null,"email":null,"hireable":null,"bio":null,"public_repos":27,"public_gists":1,"followers":54,"following":0,"created_at":"2011-03-01T15:15:30Z","updated_at":"2018-02-16T04:40:54Z"}
+0
+

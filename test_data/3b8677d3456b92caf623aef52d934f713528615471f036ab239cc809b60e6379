@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:43 GMT
+Etag: W/"3337baa01602a4ebaafd648d99602867"
+Last-Modified: Thu, 03 May 2018 08:02:06 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB0F:3BFF:2B5AFA0:57134FB:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4883
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.040283
+X-Xss-Protection: 1; mode=block
+
+46f
+{"login":"andrus","id":42668,"avatar_url":"https://avatars1.githubusercontent.com/u/42668?v=4","gravatar_id":"","url":"https://api.github.com/users/andrus","html_url":"https://github.com/andrus","followers_url":"https://api.github.com/users/andrus/followers","following_url":"https://api.github.com/users/andrus/following{/other_user}","gists_url":"https://api.github.com/users/andrus/gists{/gist_id}","starred_url":"https://api.github.com/users/andrus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrus/subscriptions","organizations_url":"https://api.github.com/users/andrus/orgs","repos_url":"https://api.github.com/users/andrus/repos","events_url":"https://api.github.com/users/andrus/events{/privacy}","received_events_url":"https://api.github.com/users/andrus/received_events","type":"User","site_admin":false,"name":"Andrus Adamchik","company":"ObjectStyle","blog":"https://objectstyle.com","location":"Twitter: @andrus_a","email":null,"hireable":null,"bio":null,"public_repos":31,"public_gists":5,"followers":50,"following":7,"created_at":"2008-12-25T20:26:58Z","updated_at":"2018-05-03T08:02:06Z"}
+0
+

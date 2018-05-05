@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:38 GMT
+Etag: W/"97ec56a809079c1253139b3e1c8b92d9"
+Last-Modified: Thu, 05 Apr 2018 01:20:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAD9:3BFF:2B5AD40:5713041:5AED0451
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4923
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.035947
+X-Xss-Protection: 1; mode=block
+
+4b7
+{"login":"mdempsky","id":38349,"avatar_url":"https://avatars0.githubusercontent.com/u/38349?v=4","gravatar_id":"","url":"https://api.github.com/users/mdempsky","html_url":"https://github.com/mdempsky","followers_url":"https://api.github.com/users/mdempsky/followers","following_url":"https://api.github.com/users/mdempsky/following{/other_user}","gists_url":"https://api.github.com/users/mdempsky/gists{/gist_id}","starred_url":"https://api.github.com/users/mdempsky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mdempsky/subscriptions","organizations_url":"https://api.github.com/users/mdempsky/orgs","repos_url":"https://api.github.com/users/mdempsky/repos","events_url":"https://api.github.com/users/mdempsky/events{/privacy}","received_events_url":"https://api.github.com/users/mdempsky/received_events","type":"User","site_admin":false,"name":"Matthew Dempsky","company":"Google","blog":"","location":"San Francisco, CA","email":"matthew@dempsky.org","hireable":null,"bio":"I eat plants and write Go.\r\n\r\nhttp://thesavemovement.org/","public_repos":33,"public_gists":9,"followers":167,"following":1,"created_at":"2008-12-04T19:27:14Z","updated_at":"2018-04-05T01:20:46Z"}
+0
+

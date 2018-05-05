@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:36 GMT
+Etag: W/"a455fc0a30c2814c74b89f8b6f0e3ed5"
+Last-Modified: Mon, 16 Apr 2018 15:31:07 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CACA:3BFF:2B5AC9C:5712ECE:5AED0450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4933
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.042063
+X-Xss-Protection: 1; mode=block
+
+49c
+{"login":"zetachang","id":839973,"avatar_url":"https://avatars2.githubusercontent.com/u/839973?v=4","gravatar_id":"","url":"https://api.github.com/users/zetachang","html_url":"https://github.com/zetachang","followers_url":"https://api.github.com/users/zetachang/followers","following_url":"https://api.github.com/users/zetachang/following{/other_user}","gists_url":"https://api.github.com/users/zetachang/gists{/gist_id}","starred_url":"https://api.github.com/users/zetachang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zetachang/subscriptions","organizations_url":"https://api.github.com/users/zetachang/orgs","repos_url":"https://api.github.com/users/zetachang/repos","events_url":"https://api.github.com/users/zetachang/events{/privacy}","received_events_url":"https://api.github.com/users/zetachang/received_events","type":"User","site_admin":false,"name":"David Chang","company":null,"blog":"twitter.com/zetachang","location":"Taipei, Taiwan","email":null,"hireable":null,"bio":"Software Engineer @Paktor","public_repos":61,"public_gists":15,"followers":118,"following":88,"created_at":"2011-06-09T13:24:20Z","updated_at":"2018-04-16T15:31:07Z"}
+0
+

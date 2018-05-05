@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:38 GMT
+Etag: W/"6ae7b60567ef4220192cd013a30262fd"
+Last-Modified: Wed, 24 Jan 2018 14:23:29 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAE0:3BFB:10DF8F0:277720F:5AED0452
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4917
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.040156
+X-Xss-Protection: 1; mode=block
+
+495
+{"login":"myfreeweb","id":208340,"avatar_url":"https://avatars0.githubusercontent.com/u/208340?v=4","gravatar_id":"","url":"https://api.github.com/users/myfreeweb","html_url":"https://github.com/myfreeweb","followers_url":"https://api.github.com/users/myfreeweb/followers","following_url":"https://api.github.com/users/myfreeweb/following{/other_user}","gists_url":"https://api.github.com/users/myfreeweb/gists{/gist_id}","starred_url":"https://api.github.com/users/myfreeweb/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/myfreeweb/subscriptions","organizations_url":"https://api.github.com/users/myfreeweb/orgs","repos_url":"https://api.github.com/users/myfreeweb/repos","events_url":"https://api.github.com/users/myfreeweb/events{/privacy}","received_events_url":"https://api.github.com/users/myfreeweb/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"https://unrelenting.technology/","location":null,"email":"greg@unrelenting.technology","hireable":null,"bio":null,"public_repos":254,"public_gists":47,"followers":226,"following":771,"created_at":"2010-02-22T12:26:20Z","updated_at":"2018-01-24T14:23:29Z"}
+0
+

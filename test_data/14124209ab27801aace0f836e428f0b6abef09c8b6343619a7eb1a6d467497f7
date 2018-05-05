@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:49 GMT
+Etag: W/"958382e5b84c5c21c8a4ff4cb4921d1a"
+Last-Modified: Wed, 28 Feb 2018 21:34:39 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB36:3BFC:21830FD:493F737:5AED045D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4849
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.039126
+X-Xss-Protection: 1; mode=block
+
+4bc
+{"login":"gvanrossum","id":2894642,"avatar_url":"https://avatars3.githubusercontent.com/u/2894642?v=4","gravatar_id":"","url":"https://api.github.com/users/gvanrossum","html_url":"https://github.com/gvanrossum","followers_url":"https://api.github.com/users/gvanrossum/followers","following_url":"https://api.github.com/users/gvanrossum/following{/other_user}","gists_url":"https://api.github.com/users/gvanrossum/gists{/gist_id}","starred_url":"https://api.github.com/users/gvanrossum/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gvanrossum/subscriptions","organizations_url":"https://api.github.com/users/gvanrossum/orgs","repos_url":"https://api.github.com/users/gvanrossum/repos","events_url":"https://api.github.com/users/gvanrossum/events{/privacy}","received_events_url":"https://api.github.com/users/gvanrossum/received_events","type":"User","site_admin":false,"name":"Guido van Rossum","company":"Dropbox, Inc.","blog":"http://python.org/~guido/","location":"San Francisco Bay Area","email":"guido@python.org","hireable":null,"bio":null,"public_repos":14,"public_gists":9,"followers":4992,"following":0,"created_at":"2012-11-26T18:46:40Z","updated_at":"2018-02-28T21:34:39Z"}
+0
+

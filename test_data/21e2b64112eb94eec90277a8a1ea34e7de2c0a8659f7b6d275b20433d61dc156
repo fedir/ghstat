@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:40 GMT
+Etag: W/"fe209ef8576c780aeeed604d87f5df1e"
+Last-Modified: Wed, 02 May 2018 14:57:12 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAEE:3BFC:2182E35:493F04E:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4907
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.045436
+X-Xss-Protection: 1; mode=block
+
+4fb
+{"login":"s-panferov","id":198327,"avatar_url":"https://avatars1.githubusercontent.com/u/198327?v=4","gravatar_id":"","url":"https://api.github.com/users/s-panferov","html_url":"https://github.com/s-panferov","followers_url":"https://api.github.com/users/s-panferov/followers","following_url":"https://api.github.com/users/s-panferov/following{/other_user}","gists_url":"https://api.github.com/users/s-panferov/gists{/gist_id}","starred_url":"https://api.github.com/users/s-panferov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-panferov/subscriptions","organizations_url":"https://api.github.com/users/s-panferov/orgs","repos_url":"https://api.github.com/users/s-panferov/repos","events_url":"https://api.github.com/users/s-panferov/events{/privacy}","received_events_url":"https://api.github.com/users/s-panferov/received_events","type":"User","site_admin":false,"name":"Stanislav Panferov","company":"RevJet","blog":"https://www.linkedin.com/in/stanislavpanferov","location":"San Francisco Bay area","email":"fnight.m@gmail.com","hireable":true,"bio":"Senior Full Stack developer, Tech Lead, Architect","public_repos":97,"public_gists":24,"followers":107,"following":24,"created_at":"2010-02-06T11:37:07Z","updated_at":"2018-05-02T14:57:12Z"}
+0
+

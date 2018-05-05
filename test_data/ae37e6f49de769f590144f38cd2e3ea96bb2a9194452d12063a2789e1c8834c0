@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:33 GMT
+Etag: W/"6438de65e8f06f62bfef8f1f13af57d6"
+Last-Modified: Wed, 14 Mar 2018 04:09:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA9D:3BFD:16EB3D0:3592F2B:5AED044D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4973
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.039219
+X-Xss-Protection: 1; mode=block
+
+460
+{"login":"Starzu","id":817407,"avatar_url":"https://avatars2.githubusercontent.com/u/817407?v=4","gravatar_id":"","url":"https://api.github.com/users/Starzu","html_url":"https://github.com/Starzu","followers_url":"https://api.github.com/users/Starzu/followers","following_url":"https://api.github.com/users/Starzu/following{/other_user}","gists_url":"https://api.github.com/users/Starzu/gists{/gist_id}","starred_url":"https://api.github.com/users/Starzu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Starzu/subscriptions","organizations_url":"https://api.github.com/users/Starzu/orgs","repos_url":"https://api.github.com/users/Starzu/repos","events_url":"https://api.github.com/users/Starzu/events{/privacy}","received_events_url":"https://api.github.com/users/Starzu/received_events","type":"User","site_admin":false,"name":"Mateusz Starzec","company":"AVSystem","blog":"","location":"Kraków","email":"m.starzec@avsystem.com","hireable":null,"bio":null,"public_repos":16,"public_gists":0,"followers":13,"following":2,"created_at":"2011-05-29T18:38:11Z","updated_at":"2018-03-14T04:09:43Z"}
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:36 GMT
+Etag: W/"b03066e242ae7af97df1e7948e5e786a"
+Last-Modified: Thu, 23 Nov 2017 23:55:01 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CACB:3BFC:2182D2A:493EDA9:5AED0450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4936
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.037874
+X-Xss-Protection: 1; mode=block
+
+507
+{"login":"patriciomacadden","id":321978,"avatar_url":"https://avatars2.githubusercontent.com/u/321978?v=4","gravatar_id":"","url":"https://api.github.com/users/patriciomacadden","html_url":"https://github.com/patriciomacadden","followers_url":"https://api.github.com/users/patriciomacadden/followers","following_url":"https://api.github.com/users/patriciomacadden/following{/other_user}","gists_url":"https://api.github.com/users/patriciomacadden/gists{/gist_id}","starred_url":"https://api.github.com/users/patriciomacadden/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patriciomacadden/subscriptions","organizations_url":"https://api.github.com/users/patriciomacadden/orgs","repos_url":"https://api.github.com/users/patriciomacadden/repos","events_url":"https://api.github.com/users/patriciomacadden/events{/privacy}","received_events_url":"https://api.github.com/users/patriciomacadden/received_events","type":"User","site_admin":false,"name":"Patricio Mac Adden","company":null,"blog":"http://about.me/patriciomacadden","location":"La Plata, Argentina","email":"patriciomacadden@gmail.com","hireable":true,"bio":null,"public_repos":72,"public_gists":1,"followers":82,"following":194,"created_at":"2010-07-03T16:26:45Z","updated_at":"2017-11-23T23:55:01Z"}
+0
+

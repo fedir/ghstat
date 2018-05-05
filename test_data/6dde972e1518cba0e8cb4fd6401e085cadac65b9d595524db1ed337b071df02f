@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:40 GMT
+Etag: W/"952e2364c3ebb177b44278ceafcc7f8b"
+Last-Modified: Sun, 08 Apr 2018 19:33:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAF0:3BFC:2182E36:493F04F:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4909
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.032020
+X-Xss-Protection: 1; mode=block
+
+4a1
+{"login":"cburgdorf","id":521109,"avatar_url":"https://avatars2.githubusercontent.com/u/521109?v=4","gravatar_id":"","url":"https://api.github.com/users/cburgdorf","html_url":"https://github.com/cburgdorf","followers_url":"https://api.github.com/users/cburgdorf/followers","following_url":"https://api.github.com/users/cburgdorf/following{/other_user}","gists_url":"https://api.github.com/users/cburgdorf/gists{/gist_id}","starred_url":"https://api.github.com/users/cburgdorf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cburgdorf/subscriptions","organizations_url":"https://api.github.com/users/cburgdorf/orgs","repos_url":"https://api.github.com/users/cburgdorf/repos","events_url":"https://api.github.com/users/cburgdorf/events{/privacy}","received_events_url":"https://api.github.com/users/cburgdorf/received_events","type":"User","site_admin":false,"name":"Christoph Burgdorf","company":"thoughtram GmbH","blog":"http://blog.thoughtram.io","location":"Hannover / Germany","email":null,"hireable":null,"bio":null,"public_repos":88,"public_gists":38,"followers":313,"following":45,"created_at":"2010-12-13T13:14:55Z","updated_at":"2018-04-08T19:33:35Z"}
+0
+

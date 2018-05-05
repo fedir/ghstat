@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:05:38 GMT
+Etag: W/"f4a835232873e7a01c0c17d3c1d836ad"
+Last-Modified: Fri, 04 May 2018 15:30:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA45:3BFF:2B53203:5704609:5AED0361
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4993
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.038123
+X-Xss-Protection: 1; mode=block
+
+442
+{"login":"robfig","id":536325,"avatar_url":"https://avatars3.githubusercontent.com/u/536325?v=4","gravatar_id":"","url":"https://api.github.com/users/robfig","html_url":"https://github.com/robfig","followers_url":"https://api.github.com/users/robfig/followers","following_url":"https://api.github.com/users/robfig/following{/other_user}","gists_url":"https://api.github.com/users/robfig/gists{/gist_id}","starred_url":"https://api.github.com/users/robfig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/robfig/subscriptions","organizations_url":"https://api.github.com/users/robfig/orgs","repos_url":"https://api.github.com/users/robfig/repos","events_url":"https://api.github.com/users/robfig/events{/privacy}","received_events_url":"https://api.github.com/users/robfig/received_events","type":"User","site_admin":false,"name":"Rob Figueiredo","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":56,"public_gists":10,"followers":402,"following":7,"created_at":"2010-12-25T16:00:52Z","updated_at":"2018-05-04T15:30:27Z"}
+0
+

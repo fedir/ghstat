@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:45 GMT
+Etag: W/"c3c86efa5916255901cdb075cdfb33f2"
+Last-Modified: Tue, 17 Apr 2018 16:52:48 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB2E:3BFF:2B5B0EF:57137A0:5AED0459
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4859
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.036199
+X-Xss-Protection: 1; mode=block
+
+4cf
+{"login":"taylorotwell","id":463230,"avatar_url":"https://avatars3.githubusercontent.com/u/463230?v=4","gravatar_id":"","url":"https://api.github.com/users/taylorotwell","html_url":"https://github.com/taylorotwell","followers_url":"https://api.github.com/users/taylorotwell/followers","following_url":"https://api.github.com/users/taylorotwell/following{/other_user}","gists_url":"https://api.github.com/users/taylorotwell/gists{/gist_id}","starred_url":"https://api.github.com/users/taylorotwell/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/taylorotwell/subscriptions","organizations_url":"https://api.github.com/users/taylorotwell/orgs","repos_url":"https://api.github.com/users/taylorotwell/repos","events_url":"https://api.github.com/users/taylorotwell/events{/privacy}","received_events_url":"https://api.github.com/users/taylorotwell/received_events","type":"User","site_admin":false,"name":"Taylor Otwell","company":"Laravel","blog":"http://laravel.com","location":"Little Rock, AR","email":"taylor@laravel.com","hireable":null,"bio":"Creator of @laravel.","public_repos":6,"public_gists":9,"followers":12339,"following":0,"created_at":"2010-11-01T20:15:30Z","updated_at":"2018-04-17T16:52:48Z"}
+0
+

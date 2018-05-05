@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:33 GMT
+Etag: W/"bea9dccfbe8a5cabc725cb1b61556b82"
+Last-Modified: Fri, 26 Feb 2016 23:01:25 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA9C:3BFF:2B5AAF1:5712B65:5AED044D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4961
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.070699
+X-Xss-Protection: 1; mode=block
+
+495
+{"login":"snowgooseyk","id":205096,"avatar_url":"https://avatars2.githubusercontent.com/u/205096?v=4","gravatar_id":"","url":"https://api.github.com/users/snowgooseyk","html_url":"https://github.com/snowgooseyk","followers_url":"https://api.github.com/users/snowgooseyk/followers","following_url":"https://api.github.com/users/snowgooseyk/following{/other_user}","gists_url":"https://api.github.com/users/snowgooseyk/gists{/gist_id}","starred_url":"https://api.github.com/users/snowgooseyk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/snowgooseyk/subscriptions","organizations_url":"https://api.github.com/users/snowgooseyk/orgs","repos_url":"https://api.github.com/users/snowgooseyk/repos","events_url":"https://api.github.com/users/snowgooseyk/events{/privacy}","received_events_url":"https://api.github.com/users/snowgooseyk/received_events","type":"User","site_admin":false,"name":"snowgooseyk","company":null,"blog":"","location":"Tokyo, Japan","email":"snowgoose.yk@gmail.com","hireable":null,"bio":null,"public_repos":3,"public_gists":1,"followers":2,"following":0,"created_at":"2010-02-17T05:56:10Z","updated_at":"2016-02-26T23:01:25Z"}
+0
+

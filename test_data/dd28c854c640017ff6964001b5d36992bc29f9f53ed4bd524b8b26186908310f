@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"c582e483d11b173c8e460281a399f623"
+Last-Modified: Mon, 09 Apr 2018 07:31:06 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB59:3BFF:2B5B2A6:5713B91:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4844
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.033022
+X-Xss-Protection: 1; mode=block
+
+479
+{"login":"lunika","id":767834,"avatar_url":"https://avatars0.githubusercontent.com/u/767834?v=4","gravatar_id":"","url":"https://api.github.com/users/lunika","html_url":"https://github.com/lunika","followers_url":"https://api.github.com/users/lunika/followers","following_url":"https://api.github.com/users/lunika/following{/other_user}","gists_url":"https://api.github.com/users/lunika/gists{/gist_id}","starred_url":"https://api.github.com/users/lunika/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lunika/subscriptions","organizations_url":"https://api.github.com/users/lunika/orgs","repos_url":"https://api.github.com/users/lunika/repos","events_url":"https://api.github.com/users/lunika/events{/privacy}","received_events_url":"https://api.github.com/users/lunika/received_events","type":"User","site_admin":false,"name":"Manuel Raynaud","company":"Pagaio","blog":"http://raynaud.io","location":"France, Clermont-ferrand","email":"manu@raynaud.io","hireable":null,"bio":null,"public_repos":71,"public_gists":2,"followers":67,"following":23,"created_at":"2011-05-04T13:12:19Z","updated_at":"2018-04-09T07:31:06Z"}
+0
+

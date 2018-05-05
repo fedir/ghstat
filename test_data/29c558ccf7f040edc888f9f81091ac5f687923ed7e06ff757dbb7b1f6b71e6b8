@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:38 GMT
+Etag: W/"66a93fffcc8896e3aaac01d5f84b31aa"
+Last-Modified: Thu, 03 May 2018 09:30:21 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CADD:3BFD:16EB49F:35931A7:5AED0452
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4916
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.050827
+X-Xss-Protection: 1; mode=block
+
+49a
+{"login":"agrafix","id":1106569,"avatar_url":"https://avatars1.githubusercontent.com/u/1106569?v=4","gravatar_id":"","url":"https://api.github.com/users/agrafix","html_url":"https://github.com/agrafix","followers_url":"https://api.github.com/users/agrafix/followers","following_url":"https://api.github.com/users/agrafix/following{/other_user}","gists_url":"https://api.github.com/users/agrafix/gists{/gist_id}","starred_url":"https://api.github.com/users/agrafix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agrafix/subscriptions","organizations_url":"https://api.github.com/users/agrafix/orgs","repos_url":"https://api.github.com/users/agrafix/repos","events_url":"https://api.github.com/users/agrafix/events{/privacy}","received_events_url":"https://api.github.com/users/agrafix/received_events","type":"User","site_admin":false,"name":"Alexander Thiemann","company":"@stripe","blog":"https://www.athiemann.net","location":"San Francisco","email":"mail@athiemann.net","hireable":null,"bio":"Haskell Hacker","public_repos":129,"public_gists":11,"followers":124,"following":2,"created_at":"2011-10-06T03:44:42Z","updated_at":"2018-05-03T09:30:21Z"}
+0
+

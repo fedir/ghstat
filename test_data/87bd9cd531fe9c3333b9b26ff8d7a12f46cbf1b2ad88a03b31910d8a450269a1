@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:41 GMT
+Etag: W/"553926f9558347e80b7d6c929193a314"
+Last-Modified: Fri, 04 May 2018 10:51:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAF8:3BFF:2B5AE8A:57132EA:5AED0454
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4900
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.034708
+X-Xss-Protection: 1; mode=block
+
+46f
+{"login":"jorisvink","id":1258619,"avatar_url":"https://avatars2.githubusercontent.com/u/1258619?v=4","gravatar_id":"","url":"https://api.github.com/users/jorisvink","html_url":"https://github.com/jorisvink","followers_url":"https://api.github.com/users/jorisvink/followers","following_url":"https://api.github.com/users/jorisvink/following{/other_user}","gists_url":"https://api.github.com/users/jorisvink/gists{/gist_id}","starred_url":"https://api.github.com/users/jorisvink/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jorisvink/subscriptions","organizations_url":"https://api.github.com/users/jorisvink/orgs","repos_url":"https://api.github.com/users/jorisvink/repos","events_url":"https://api.github.com/users/jorisvink/events{/privacy}","received_events_url":"https://api.github.com/users/jorisvink/received_events","type":"User","site_admin":false,"name":"Joris Vink","company":null,"blog":"","location":null,"email":"joris@coders.se","hireable":null,"bio":null,"public_repos":2,"public_gists":0,"followers":109,"following":1,"created_at":"2011-12-12T21:06:37Z","updated_at":"2018-05-04T10:51:27Z"}
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"97c25c2da833b0aef1bd96388abcfb3e"
+Last-Modified: Thu, 15 Mar 2018 12:40:32 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB4F:3BFD:16EB681:35936DA:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4833
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.040983
+X-Xss-Protection: 1; mode=block
+
+4d3
+{"login":"spacemonkey","id":93724,"avatar_url":"https://avatars3.githubusercontent.com/u/93724?v=4","gravatar_id":"","url":"https://api.github.com/users/spacemonkey","html_url":"https://github.com/spacemonkey","followers_url":"https://api.github.com/users/spacemonkey/followers","following_url":"https://api.github.com/users/spacemonkey/following{/other_user}","gists_url":"https://api.github.com/users/spacemonkey/gists{/gist_id}","starred_url":"https://api.github.com/users/spacemonkey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/spacemonkey/subscriptions","organizations_url":"https://api.github.com/users/spacemonkey/orgs","repos_url":"https://api.github.com/users/spacemonkey/repos","events_url":"https://api.github.com/users/spacemonkey/events{/privacy}","received_events_url":"https://api.github.com/users/spacemonkey/received_events","type":"User","site_admin":false,"name":"Mitch Pirtle","company":"Spacemonkeylabs, LLC","blog":"www.spacemonkeylabs.com","location":"McLean, Virginia, United States","email":null,"hireable":null,"bio":"Make no sudden moves.","public_repos":20,"public_gists":11,"followers":68,"following":71,"created_at":"2009-06-09T20:30:10Z","updated_at":"2018-03-15T12:40:32Z"}
+0
+

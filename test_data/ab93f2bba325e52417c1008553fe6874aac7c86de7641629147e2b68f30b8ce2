@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:45 GMT
+Etag: W/"ff6a0ec3bbf3e6067c76826184d638d1"
+Last-Modified: Mon, 30 Apr 2018 06:51:22 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB2C:3BFC:2182FEC:493F4B6:5AED0459
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4858
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.038169
+X-Xss-Protection: 1; mode=block
+
+510
+{"login":"daveismyname","id":1018170,"avatar_url":"https://avatars1.githubusercontent.com/u/1018170?v=4","gravatar_id":"","url":"https://api.github.com/users/daveismyname","html_url":"https://github.com/daveismyname","followers_url":"https://api.github.com/users/daveismyname/followers","following_url":"https://api.github.com/users/daveismyname/following{/other_user}","gists_url":"https://api.github.com/users/daveismyname/gists{/gist_id}","starred_url":"https://api.github.com/users/daveismyname/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/daveismyname/subscriptions","organizations_url":"https://api.github.com/users/daveismyname/orgs","repos_url":"https://api.github.com/users/daveismyname/repos","events_url":"https://api.github.com/users/daveismyname/events{/privacy}","received_events_url":"https://api.github.com/users/daveismyname/received_events","type":"User","site_admin":false,"name":"David Carr","company":"The One Point","blog":"http://daveismyname.blog","location":"Hull, UK","email":"dave@daveismyname.com","hireable":true,"bio":"Blogger at http://daveismyname.blog, Lead developer http://theonepoint.co.uk.","public_repos":50,"public_gists":14,"followers":187,"following":30,"created_at":"2011-08-31T23:33:26Z","updated_at":"2018-04-30T06:51:22Z"}
+0
+

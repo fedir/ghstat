@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:43 GMT
+Etag: W/"11ca43859b6513b0b29a83c38fd62cb8"
+Last-Modified: Tue, 01 May 2018 22:46:22 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB0B:3BFF:2B5AFA0:57134F9:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4887
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.037421
+X-Xss-Protection: 1; mode=block
+
+467
+{"login":"Vossy","id":55391,"avatar_url":"https://avatars0.githubusercontent.com/u/55391?v=4","gravatar_id":"","url":"https://api.github.com/users/Vossy","html_url":"https://github.com/Vossy","followers_url":"https://api.github.com/users/Vossy/followers","following_url":"https://api.github.com/users/Vossy/following{/other_user}","gists_url":"https://api.github.com/users/Vossy/gists{/gist_id}","starred_url":"https://api.github.com/users/Vossy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Vossy/subscriptions","organizations_url":"https://api.github.com/users/Vossy/orgs","repos_url":"https://api.github.com/users/Vossy/repos","events_url":"https://api.github.com/users/Vossy/events{/privacy}","received_events_url":"https://api.github.com/users/Vossy/received_events","type":"User","site_admin":false,"name":"Justin Voss","company":null,"blog":"http://justinvoss.com/","location":"Santa Clara, CA","email":"justin@bleedingwolf.com","hireable":null,"bio":null,"public_repos":3,"public_gists":13,"followers":16,"following":5,"created_at":"2009-02-17T23:27:16Z","updated_at":"2018-05-01T22:46:22Z"}
+0
+

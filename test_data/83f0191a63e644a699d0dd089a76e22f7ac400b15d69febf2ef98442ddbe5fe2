@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:41 GMT
+Etag: W/"3ab08047989284705af4d6e3f6fa81ab"
+Last-Modified: Sun, 08 Apr 2018 17:44:57 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAF6:3BFF:2B5AE8B:57132E9:5AED0454
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4899
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.033952
+X-Xss-Protection: 1; mode=block
+
+48e
+{"login":"lpereira","id":15001,"avatar_url":"https://avatars1.githubusercontent.com/u/15001?v=4","gravatar_id":"","url":"https://api.github.com/users/lpereira","html_url":"https://github.com/lpereira","followers_url":"https://api.github.com/users/lpereira/followers","following_url":"https://api.github.com/users/lpereira/following{/other_user}","gists_url":"https://api.github.com/users/lpereira/gists{/gist_id}","starred_url":"https://api.github.com/users/lpereira/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lpereira/subscriptions","organizations_url":"https://api.github.com/users/lpereira/orgs","repos_url":"https://api.github.com/users/lpereira/repos","events_url":"https://api.github.com/users/lpereira/events{/privacy}","received_events_url":"https://api.github.com/users/lpereira/received_events","type":"User","site_admin":false,"name":"Leandro A. F. Pereira","company":"@intel (OTC)","blog":"https://tia.mat.br","location":"USA","email":"leandro@hardinfo.org","hireable":null,"bio":null,"public_repos":47,"public_gists":32,"followers":357,"following":4,"created_at":"2008-06-25T14:25:41Z","updated_at":"2018-04-08T17:44:57Z"}
+0
+

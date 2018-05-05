@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:40 GMT
+Etag: W/"cbb754b70cb873a81a5ddd99cd3b03a5"
+Last-Modified: Sat, 28 Apr 2018 20:56:58 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAEC:3BFF:2B5AE23:5713221:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4908
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.046792
+X-Xss-Protection: 1; mode=block
+
+47c
+{"login":"fafhrd91","id":598990,"avatar_url":"https://avatars2.githubusercontent.com/u/598990?v=4","gravatar_id":"","url":"https://api.github.com/users/fafhrd91","html_url":"https://github.com/fafhrd91","followers_url":"https://api.github.com/users/fafhrd91/followers","following_url":"https://api.github.com/users/fafhrd91/following{/other_user}","gists_url":"https://api.github.com/users/fafhrd91/gists{/gist_id}","starred_url":"https://api.github.com/users/fafhrd91/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fafhrd91/subscriptions","organizations_url":"https://api.github.com/users/fafhrd91/orgs","repos_url":"https://api.github.com/users/fafhrd91/repos","events_url":"https://api.github.com/users/fafhrd91/events{/privacy}","received_events_url":"https://api.github.com/users/fafhrd91/received_events","type":"User","site_admin":false,"name":"Nikolay Kim","company":"Microsoft","blog":"","location":"San Francisco, US","email":"fafhrd91@gmail.com","hireable":true,"bio":null,"public_repos":13,"public_gists":3,"followers":128,"following":2,"created_at":"2011-02-03T17:35:54Z","updated_at":"2018-04-28T20:56:58Z"}
+0
+

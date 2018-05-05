@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:33 GMT
+Etag: W/"509ab52afef1b5b5a25bd6ed267a08e0"
+Last-Modified: Tue, 24 Apr 2018 14:20:05 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA9B:3BFF:2B5AAF0:5712B5F:5AED044D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4975
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.039751
+X-Xss-Protection: 1; mode=block
+
+497
+{"login":"CaptPhunkosis","id":41423,"avatar_url":"https://avatars0.githubusercontent.com/u/41423?v=4","gravatar_id":"","url":"https://api.github.com/users/CaptPhunkosis","html_url":"https://github.com/CaptPhunkosis","followers_url":"https://api.github.com/users/CaptPhunkosis/followers","following_url":"https://api.github.com/users/CaptPhunkosis/following{/other_user}","gists_url":"https://api.github.com/users/CaptPhunkosis/gists{/gist_id}","starred_url":"https://api.github.com/users/CaptPhunkosis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CaptPhunkosis/subscriptions","organizations_url":"https://api.github.com/users/CaptPhunkosis/orgs","repos_url":"https://api.github.com/users/CaptPhunkosis/repos","events_url":"https://api.github.com/users/CaptPhunkosis/events{/privacy}","received_events_url":"https://api.github.com/users/CaptPhunkosis/received_events","type":"User","site_admin":false,"name":"CaptPhunkosis","company":null,"blog":"","location":"New York","email":null,"hireable":null,"bio":null,"public_repos":15,"public_gists":0,"followers":31,"following":9,"created_at":"2008-12-19T00:42:55Z","updated_at":"2018-04-24T14:20:05Z"}
+0
+

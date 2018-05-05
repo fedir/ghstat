@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:39 GMT
+Etag: W/"5f4aa6d61295f7973df9b85da9bf827c"
+Last-Modified: Sat, 28 Apr 2018 17:25:22 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAE6:3BFC:2182DFB:493EFC6:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4912
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.042865
+X-Xss-Protection: 1; mode=block
+
+466
+{"login":"Etiene","id":1516418,"avatar_url":"https://avatars0.githubusercontent.com/u/1516418?v=4","gravatar_id":"","url":"https://api.github.com/users/Etiene","html_url":"https://github.com/Etiene","followers_url":"https://api.github.com/users/Etiene/followers","following_url":"https://api.github.com/users/Etiene/following{/other_user}","gists_url":"https://api.github.com/users/Etiene/gists{/gist_id}","starred_url":"https://api.github.com/users/Etiene/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Etiene/subscriptions","organizations_url":"https://api.github.com/users/Etiene/orgs","repos_url":"https://api.github.com/users/Etiene/repos","events_url":"https://api.github.com/users/Etiene/events{/privacy}","received_events_url":"https://api.github.com/users/Etiene/received_events","type":"User","site_admin":false,"name":"Etiene Dalcol","company":null,"blog":"http://etiene.net","location":"London, UK","email":null,"hireable":true,"bio":"Chaotic good","public_repos":52,"public_gists":0,"followers":255,"following":51,"created_at":"2012-03-08T14:21:05Z","updated_at":"2018-04-28T17:25:22Z"}
+0
+

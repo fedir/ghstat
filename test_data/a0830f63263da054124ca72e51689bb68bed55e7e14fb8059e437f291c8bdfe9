@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:44 GMT
+Etag: W/"653a3d7d5ffc933390b957a5af53f2d9"
+Last-Modified: Tue, 20 Mar 2018 15:37:42 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB28:3BFF:2B5B086:57136BC:5AED0458
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4862
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.043740
+X-Xss-Protection: 1; mode=block
+
+47d
+{"login":"lhorie","id":1637573,"avatar_url":"https://avatars3.githubusercontent.com/u/1637573?v=4","gravatar_id":"","url":"https://api.github.com/users/lhorie","html_url":"https://github.com/lhorie","followers_url":"https://api.github.com/users/lhorie/followers","following_url":"https://api.github.com/users/lhorie/following{/other_user}","gists_url":"https://api.github.com/users/lhorie/gists{/gist_id}","starred_url":"https://api.github.com/users/lhorie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lhorie/subscriptions","organizations_url":"https://api.github.com/users/lhorie/orgs","repos_url":"https://api.github.com/users/lhorie/repos","events_url":"https://api.github.com/users/lhorie/events{/privacy}","received_events_url":"https://api.github.com/users/lhorie/received_events","type":"User","site_admin":false,"name":"Leo Horie","company":"Uber","blog":"mithril.js.org","location":"San Francisco","email":"leohorie@hotmail.com","hireable":null,"bio":"Author of MithrilJS","public_repos":66,"public_gists":13,"followers":429,"following":0,"created_at":"2012-04-12T17:33:42Z","updated_at":"2018-03-20T15:37:42Z"}
+0
+

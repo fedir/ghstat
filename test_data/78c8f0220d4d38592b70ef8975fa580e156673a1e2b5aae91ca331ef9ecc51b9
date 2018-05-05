@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:32 GMT
+Etag: W/"d6136541acc0c306da4ceda140878423"
+Last-Modified: Fri, 26 Jan 2018 18:01:16 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CA85:3BFF:2B5AA4F:5712A10:5AED044B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4988
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.041385
+X-Xss-Protection: 1; mode=block
+
+4b6
+{"login":"hhariri","id":108107,"avatar_url":"https://avatars0.githubusercontent.com/u/108107?v=4","gravatar_id":"","url":"https://api.github.com/users/hhariri","html_url":"https://github.com/hhariri","followers_url":"https://api.github.com/users/hhariri/followers","following_url":"https://api.github.com/users/hhariri/following{/other_user}","gists_url":"https://api.github.com/users/hhariri/gists{/gist_id}","starred_url":"https://api.github.com/users/hhariri/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hhariri/subscriptions","organizations_url":"https://api.github.com/users/hhariri/orgs","repos_url":"https://api.github.com/users/hhariri/repos","events_url":"https://api.github.com/users/hhariri/events{/privacy}","received_events_url":"https://api.github.com/users/hhariri/received_events","type":"User","site_admin":false,"name":"Hadi Hariri","company":"JetBrains","blog":"http://hadihariri.com","location":"Spain","email":null,"hireable":null,"bio":"Developer. Speaker. Host of @talkingkotlin. Developer Advocacy at JetBrains. ","public_repos":97,"public_gists":105,"followers":911,"following":0,"created_at":"2009-07-23T21:29:57Z","updated_at":"2018-01-26T18:01:16Z"}
+0
+

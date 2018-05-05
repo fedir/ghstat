@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:34 GMT
+Etag: W/"c5f2b607a6ceb2103e65c55512e5157b"
+Last-Modified: Tue, 24 Apr 2018 09:08:59 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAB1:3BFC:2182C84:493EC3F:5AED044E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4952
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.042778
+X-Xss-Protection: 1; mode=block
+
+4a2
+{"login":"Zorbash","id":645514,"avatar_url":"https://avatars2.githubusercontent.com/u/645514?v=4","gravatar_id":"","url":"https://api.github.com/users/Zorbash","html_url":"https://github.com/Zorbash","followers_url":"https://api.github.com/users/Zorbash/followers","following_url":"https://api.github.com/users/Zorbash/following{/other_user}","gists_url":"https://api.github.com/users/Zorbash/gists{/gist_id}","starred_url":"https://api.github.com/users/Zorbash/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Zorbash/subscriptions","organizations_url":"https://api.github.com/users/Zorbash/orgs","repos_url":"https://api.github.com/users/Zorbash/repos","events_url":"https://api.github.com/users/Zorbash/events{/privacy}","received_events_url":"https://api.github.com/users/Zorbash/received_events","type":"User","site_admin":false,"name":"Dimitrios Zorbas","company":"QuiqUpLTD","blog":"https://zorbash.com","location":"London, UK","email":"dimitrisplusplus@gmail.com","hireable":true,"bio":"Brave sourcerer @QuiqUpLTD","public_repos":65,"public_gists":57,"followers":73,"following":26,"created_at":"2011-03-01T19:59:23Z","updated_at":"2018-04-24T09:08:59Z"}
+0
+

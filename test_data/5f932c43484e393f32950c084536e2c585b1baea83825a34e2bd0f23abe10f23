@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:36 GMT
+Etag: W/"0ec70f63b827e9457e5e4dc9a2b18cf9"
+Last-Modified: Wed, 02 May 2018 21:44:38 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAC2:3BFD:16EB452:35930AC:5AED0450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4942
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.035548
+X-Xss-Protection: 1; mode=block
+
+4b4
+{"login":"ryanstout","id":42336,"avatar_url":"https://avatars0.githubusercontent.com/u/42336?v=4","gravatar_id":"","url":"https://api.github.com/users/ryanstout","html_url":"https://github.com/ryanstout","followers_url":"https://api.github.com/users/ryanstout/followers","following_url":"https://api.github.com/users/ryanstout/following{/other_user}","gists_url":"https://api.github.com/users/ryanstout/gists{/gist_id}","starred_url":"https://api.github.com/users/ryanstout/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ryanstout/subscriptions","organizations_url":"https://api.github.com/users/ryanstout/orgs","repos_url":"https://api.github.com/users/ryanstout/repos","events_url":"https://api.github.com/users/ryanstout/events{/privacy}","received_events_url":"https://api.github.com/users/ryanstout/received_events","type":"User","site_admin":false,"name":"Ryan Stout","company":"Agile Productions LLC","blog":"http://www.agileproductions.com/","location":"Bozeman, MT","email":"ryan@agileproductions.com","hireable":true,"bio":null,"public_repos":73,"public_gists":18,"followers":185,"following":38,"created_at":"2008-12-23T17:34:59Z","updated_at":"2018-05-02T21:44:38Z"}
+0
+

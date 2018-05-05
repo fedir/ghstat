@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:36 GMT
+Etag: W/"92d73678c06d56522975e968716100c6"
+Last-Modified: Fri, 30 Mar 2018 16:17:37 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAC8:3BFB:10DF891:2777160:5AED0450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4931
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.063169
+X-Xss-Protection: 1; mode=block
+
+4b1
+{"login":"bryanp","id":18920,"avatar_url":"https://avatars0.githubusercontent.com/u/18920?v=4","gravatar_id":"","url":"https://api.github.com/users/bryanp","html_url":"https://github.com/bryanp","followers_url":"https://api.github.com/users/bryanp/followers","following_url":"https://api.github.com/users/bryanp/following{/other_user}","gists_url":"https://api.github.com/users/bryanp/gists{/gist_id}","starred_url":"https://api.github.com/users/bryanp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bryanp/subscriptions","organizations_url":"https://api.github.com/users/bryanp/orgs","repos_url":"https://api.github.com/users/bryanp/repos","events_url":"https://api.github.com/users/bryanp/events{/privacy}","received_events_url":"https://api.github.com/users/bryanp/received_events","type":"User","site_admin":false,"name":"Bryan Powell","company":"@metabahn ","blog":"http://bryanp.org","location":"Bellingham, WA","email":"bryan@bryanp.org","hireable":null,"bio":"I design and build for the web. Created @pakyow. Founded @metabahn.","public_repos":22,"public_gists":42,"followers":49,"following":0,"created_at":"2008-07-30T05:08:44Z","updated_at":"2018-03-30T16:17:37Z"}
+0
+

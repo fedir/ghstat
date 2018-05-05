@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:40 GMT
+Etag: W/"2a77c1a43c0088aa5a3b30f9bfa63758"
+Last-Modified: Tue, 17 Apr 2018 02:07:23 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAED:3BFD:16EB4D6:3593236:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4910
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.046292
+X-Xss-Protection: 1; mode=block
+
+471
+{"login":"reem","id":4745181,"avatar_url":"https://avatars1.githubusercontent.com/u/4745181?v=4","gravatar_id":"","url":"https://api.github.com/users/reem","html_url":"https://github.com/reem","followers_url":"https://api.github.com/users/reem/followers","following_url":"https://api.github.com/users/reem/following{/other_user}","gists_url":"https://api.github.com/users/reem/gists{/gist_id}","starred_url":"https://api.github.com/users/reem/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/reem/subscriptions","organizations_url":"https://api.github.com/users/reem/orgs","repos_url":"https://api.github.com/users/reem/repos","events_url":"https://api.github.com/users/reem/events{/privacy}","received_events_url":"https://api.github.com/users/reem/received_events","type":"User","site_admin":false,"name":"Jonathan Reem","company":"@udacity ","blog":"https://medium.com/@jreem/","location":"San Francisco, CA","email":"jonathan.reem@gmail.com","hireable":null,"bio":null,"public_repos":275,"public_gists":36,"followers":544,"following":7,"created_at":"2013-06-20T05:19:00Z","updated_at":"2018-04-17T02:07:23Z"}
+0
+

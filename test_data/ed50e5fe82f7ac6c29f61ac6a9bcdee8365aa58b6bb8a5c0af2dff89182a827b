@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:42 GMT
+Etag: W/"6f10e751eb256df1fda07719a29d8cde"
+Last-Modified: Tue, 01 May 2018 17:43:28 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB02:3BFF:2B5AF4D:5713443:5AED0456
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4892
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.039154
+X-Xss-Protection: 1; mode=block
+
+4a4
+{"login":"Shinmera","id":4833204,"avatar_url":"https://avatars2.githubusercontent.com/u/4833204?v=4","gravatar_id":"","url":"https://api.github.com/users/Shinmera","html_url":"https://github.com/Shinmera","followers_url":"https://api.github.com/users/Shinmera/followers","following_url":"https://api.github.com/users/Shinmera/following{/other_user}","gists_url":"https://api.github.com/users/Shinmera/gists{/gist_id}","starred_url":"https://api.github.com/users/Shinmera/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Shinmera/subscriptions","organizations_url":"https://api.github.com/users/Shinmera/orgs","repos_url":"https://api.github.com/users/Shinmera/repos","events_url":"https://api.github.com/users/Shinmera/events{/privacy}","received_events_url":"https://api.github.com/users/Shinmera/received_events","type":"User","site_admin":false,"name":"Nicolas Hafner","company":"@Shirakumo ","blog":"http://shinmera.com","location":"Zürich, Switzerland","email":"shinmera@tymoon.eu","hireable":null,"bio":"I'm terrible","public_repos":142,"public_gists":1,"followers":214,"following":4,"created_at":"2013-06-26T10:02:05Z","updated_at":"2018-05-01T17:43:28Z"}
+0
+

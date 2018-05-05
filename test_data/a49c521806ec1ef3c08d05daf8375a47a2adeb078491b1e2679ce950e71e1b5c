@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"f5759a953892dc336ca4e6970de809c4"
+Last-Modified: Mon, 14 Aug 2017 19:40:40 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB53:3BFB:10DFB2A:2777633:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4832
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.032149
+X-Xss-Protection: 1; mode=block
+
+4df
+{"login":"ryancramerdesign","id":328272,"avatar_url":"https://avatars2.githubusercontent.com/u/328272?v=4","gravatar_id":"","url":"https://api.github.com/users/ryancramerdesign","html_url":"https://github.com/ryancramerdesign","followers_url":"https://api.github.com/users/ryancramerdesign/followers","following_url":"https://api.github.com/users/ryancramerdesign/following{/other_user}","gists_url":"https://api.github.com/users/ryancramerdesign/gists{/gist_id}","starred_url":"https://api.github.com/users/ryancramerdesign/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ryancramerdesign/subscriptions","organizations_url":"https://api.github.com/users/ryancramerdesign/orgs","repos_url":"https://api.github.com/users/ryancramerdesign/repos","events_url":"https://api.github.com/users/ryancramerdesign/events{/privacy}","received_events_url":"https://api.github.com/users/ryancramerdesign/received_events","type":"User","site_admin":false,"name":"Ryan Cramer","company":"ProcessWire","blog":"http://processwire.com","location":"Atlanta, GA","email":null,"hireable":null,"bio":null,"public_repos":60,"public_gists":0,"followers":185,"following":19,"created_at":"2010-07-10T14:37:45Z","updated_at":"2017-08-14T19:40:40Z"}
+0
+

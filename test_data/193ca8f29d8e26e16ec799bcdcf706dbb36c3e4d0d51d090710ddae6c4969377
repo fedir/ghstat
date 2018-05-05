@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"9e84eb07a67e1852d2610c61fdd2b096"
+Last-Modified: Sat, 28 Apr 2018 18:48:57 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB40:3BFC:2183162:493F81D:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4818
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.053440
+X-Xss-Protection: 1; mode=block
+
+536
+{"login":"leofeyer","id":1192057,"avatar_url":"https://avatars0.githubusercontent.com/u/1192057?v=4","gravatar_id":"","url":"https://api.github.com/users/leofeyer","html_url":"https://github.com/leofeyer","followers_url":"https://api.github.com/users/leofeyer/followers","following_url":"https://api.github.com/users/leofeyer/following{/other_user}","gists_url":"https://api.github.com/users/leofeyer/gists{/gist_id}","starred_url":"https://api.github.com/users/leofeyer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leofeyer/subscriptions","organizations_url":"https://api.github.com/users/leofeyer/orgs","repos_url":"https://api.github.com/users/leofeyer/repos","events_url":"https://api.github.com/users/leofeyer/events{/privacy}","received_events_url":"https://api.github.com/users/leofeyer/received_events","type":"User","site_admin":false,"name":"Leo Feyer","company":"Feyer Media GmbH & Co. KG","blog":"https://hostingwerk.de","location":"Wuppertal, Germany","email":"github@contao.org","hireable":null,"bio":"Server admin at day, coder at night. Mostly working on @contao together with the guys from @terminal42, @1up-lab, @ausi and some other great people.","public_repos":20,"public_gists":10,"followers":173,"following":21,"created_at":"2011-11-13T18:12:25Z","updated_at":"2018-04-28T18:48:57Z"}
+0
+

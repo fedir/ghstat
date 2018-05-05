@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:50 GMT
+Etag: W/"686d3c95c502f320b1988caf624baca0"
+Last-Modified: Wed, 02 May 2018 13:47:50 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB3D:3BFF:2B5B2A4:5713B8D:5AED045E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4846
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.044441
+X-Xss-Protection: 1; mode=block
+
+47e
+{"login":"Jotschi","id":326605,"avatar_url":"https://avatars3.githubusercontent.com/u/326605?v=4","gravatar_id":"","url":"https://api.github.com/users/Jotschi","html_url":"https://github.com/Jotschi","followers_url":"https://api.github.com/users/Jotschi/followers","following_url":"https://api.github.com/users/Jotschi/following{/other_user}","gists_url":"https://api.github.com/users/Jotschi/gists{/gist_id}","starred_url":"https://api.github.com/users/Jotschi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jotschi/subscriptions","organizations_url":"https://api.github.com/users/Jotschi/orgs","repos_url":"https://api.github.com/users/Jotschi/repos","events_url":"https://api.github.com/users/Jotschi/events{/privacy}","received_events_url":"https://api.github.com/users/Jotschi/received_events","type":"User","site_admin":false,"name":"Johannes Schüth","company":"@gentics","blog":"www.jotschi.de","location":"Vienna","email":null,"hireable":null,"bio":"Graph evangelist @gentics","public_repos":65,"public_gists":41,"followers":22,"following":8,"created_at":"2010-07-08T16:41:19Z","updated_at":"2018-05-02T13:47:50Z"}
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:35 GMT
+Etag: W/"9ff4f10a0ce28b2222d34c9cc6c23cc8"
+Last-Modified: Fri, 20 Apr 2018 15:11:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CABE:3BFC:2182CC9:493ECE6:5AED044F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4945
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.039234
+X-Xss-Protection: 1; mode=block
+
+4a2
+{"login":"chriddyp","id":1280389,"avatar_url":"https://avatars3.githubusercontent.com/u/1280389?v=4","gravatar_id":"","url":"https://api.github.com/users/chriddyp","html_url":"https://github.com/chriddyp","followers_url":"https://api.github.com/users/chriddyp/followers","following_url":"https://api.github.com/users/chriddyp/following{/other_user}","gists_url":"https://api.github.com/users/chriddyp/gists{/gist_id}","starred_url":"https://api.github.com/users/chriddyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chriddyp/subscriptions","organizations_url":"https://api.github.com/users/chriddyp/orgs","repos_url":"https://api.github.com/users/chriddyp/repos","events_url":"https://api.github.com/users/chriddyp/events{/privacy}","received_events_url":"https://api.github.com/users/chriddyp/received_events","type":"User","site_admin":false,"name":"Chris Parmer","company":"Plotly","blog":"https://plot.ly","location":"Montréal","email":"chris@plot.ly","hireable":null,"bio":"Cofounder of Plotly, Author of Dash","public_repos":73,"public_gists":107,"followers":240,"following":27,"created_at":"2011-12-22T16:17:50Z","updated_at":"2018-04-20T15:11:46Z"}
+0
+

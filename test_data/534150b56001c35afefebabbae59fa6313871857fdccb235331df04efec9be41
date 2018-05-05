@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:39 GMT
+Etag: W/"25e8cf1c6e620042ad7a60a6ff4c8419"
+Last-Modified: Wed, 25 Apr 2018 23:50:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAE8:3BFD:16EB4BC:35931F0:5AED0453
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4911
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.038817
+X-Xss-Protection: 1; mode=block
+
+45c
+{"login":"KDr2","id":78738,"avatar_url":"https://avatars3.githubusercontent.com/u/78738?v=4","gravatar_id":"","url":"https://api.github.com/users/KDr2","html_url":"https://github.com/KDr2","followers_url":"https://api.github.com/users/KDr2/followers","following_url":"https://api.github.com/users/KDr2/following{/other_user}","gists_url":"https://api.github.com/users/KDr2/gists{/gist_id}","starred_url":"https://api.github.com/users/KDr2/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KDr2/subscriptions","organizations_url":"https://api.github.com/users/KDr2/orgs","repos_url":"https://api.github.com/users/KDr2/repos","events_url":"https://api.github.com/users/KDr2/events{/privacy}","received_events_url":"https://api.github.com/users/KDr2/received_events","type":"User","site_admin":false,"name":"ZHUO QL","company":null,"blog":"http://kdr2.com","location":"XI'AN, Shaanxi, China","email":null,"hireable":true,"bio":"(eq today (car (cdr life)))","public_repos":17,"public_gists":1,"followers":121,"following":28,"created_at":"2009-04-28T12:08:52Z","updated_at":"2018-04-25T23:50:54Z"}
+0
+

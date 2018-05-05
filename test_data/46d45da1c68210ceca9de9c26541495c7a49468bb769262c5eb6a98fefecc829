@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 01:09:36 GMT
+Etag: W/"dab9ed0bd2e6fe13506993c1d9306f4e"
+Last-Modified: Fri, 20 Apr 2018 05:21:41 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAC4:3BFD:16EB452:35930AD:5AED0450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4934
+X-Ratelimit-Reset: 1525485938
+X-Runtime-Rack: 0.065294
+X-Xss-Protection: 1; mode=block
+
+474
+{"login":"adamluzsi","id":2897081,"avatar_url":"https://avatars1.githubusercontent.com/u/2897081?v=4","gravatar_id":"","url":"https://api.github.com/users/adamluzsi","html_url":"https://github.com/adamluzsi","followers_url":"https://api.github.com/users/adamluzsi/followers","following_url":"https://api.github.com/users/adamluzsi/following{/other_user}","gists_url":"https://api.github.com/users/adamluzsi/gists{/gist_id}","starred_url":"https://api.github.com/users/adamluzsi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamluzsi/subscriptions","organizations_url":"https://api.github.com/users/adamluzsi/orgs","repos_url":"https://api.github.com/users/adamluzsi/repos","events_url":"https://api.github.com/users/adamluzsi/events{/privacy}","received_events_url":"https://api.github.com/users/adamluzsi/received_events","type":"User","site_admin":false,"name":"Adam Luzsi","company":null,"blog":"","location":"Switzerland","email":null,"hireable":null,"bio":"@rack-app","public_repos":70,"public_gists":31,"followers":28,"following":83,"created_at":"2012-11-27T00:48:13Z","updated_at":"2018-04-20T05:21:41Z"}
+0
+
