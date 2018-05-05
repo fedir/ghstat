@@ -71,9 +71,9 @@ func formatRepositoryDataForCSV(r Repository) []string {
 		fmt.Sprintf("%d", r.Contributors),
 		fmt.Sprintf("%.2f", r.ActiveForkersPercentage),
 		fmt.Sprintf("%d", r.OpenIssues),
+		fmt.Sprintf("%d", r.ClosedIssues),
 		fmt.Sprintf("%d", r.TotalIssues),
 		fmt.Sprintf("%.4f", r.IssueByDay),
-		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
 		fmt.Sprintf("%.2f", r.ClosedIssuesPercentage),
 		fmt.Sprintf("%d", r.PlacementPopularity),
 		fmt.Sprintf("%d", r.PlacementAge),
@@ -102,7 +102,7 @@ func (f *Repository) reflectRepositoryHeaders() []string {
 	return headers
 }
 
-func writeCsv(csvFilePath string, csvData [][]string) {
+func writeCsv(csvFilePath string, ghDataCSV [][]string) {
 	file, err := os.Create(csvFilePath)
 	if err != nil {
 		log.Fatal("Cannot create file", err)
@@ -110,7 +110,7 @@ func writeCsv(csvFilePath string, csvData [][]string) {
 	defer file.Close()
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
-	for _, value := range csvData {
+	for _, value := range ghDataCSV {
 		err := writer.Write(value)
 		if err != nil {
 			log.Fatal("Cannot write to file", err)

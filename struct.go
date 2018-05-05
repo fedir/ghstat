@@ -28,12 +28,12 @@ type Repository struct {
 	Watchers                            int       `header:"Stargazers"`
 	Forks                               int       `header:"Forks"`
 	Contributors                        int       `header:"Contributors"`
-	ActiveForkersPercentage             float64   `header:"Active forkers, %"`
+	ActiveForkersPercentage             float64   `header:"Active forkers(%)"`
 	OpenIssues                          int       `header:"Open issues"`
 	ClosedIssues                        int       `header:"Closed issues"`
 	TotalIssues                         int       `header:"Total issues"`
 	IssueByDay                          float64   `header:"Issue/day"`
-	ClosedIssuesPercentage              float64   `header:"Closed issues, %"`
+	ClosedIssuesPercentage              float64   `header:"Closed issues(%)"`
 	PlacementPopularity                 int       `header:"Placement by popularity"`
 	PlacementAge                        int       `header:"Placement by age"`
 	PlacementTotalCommits               int       `header:"Placement by total commits"`
