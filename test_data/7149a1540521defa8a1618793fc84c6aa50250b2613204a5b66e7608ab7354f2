@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Length: 13
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 02:18:53 GMT
+Etag: "b231901ad7501a58add2bff4ba5b3b3a"
+Last-Modified: Mon, 15 Jan 2018 12:50:24 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D258:3BFF:2BD114C:58107E8:5AED148D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4812
+X-Ratelimit-Reset: 1525490313
+X-Runtime-Rack: 0.035722
+X-Xss-Protection: 1; mode=block
+
+{"PHP":64909}

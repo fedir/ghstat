@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Length: 17
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 02:18:34 GMT
+Etag: "fec82ff3a55c3bf6d2ef9baa705b6e89"
+Last-Modified: Wed, 02 May 2018 15:32:19 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D183:3BFC:21DE88F:4A0DC2E:5AED147A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4984
+X-Ratelimit-Reset: 1525490313
+X-Runtime-Rack: 0.032278
+X-Xss-Protection: 1; mode=block
+
+{"Crystal":50637}

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 05 May 2018 02:18:53 GMT
+Etag: W/"306123ad7cb575ac11ede82588282af9"
+Last-Modified: Sat, 05 May 2018 00:02:07 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D276:3BFC:21DEFC3:4A0EB88:5AED148D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4780
+X-Ratelimit-Reset: 1525490313
+X-Runtime-Rack: 0.031838
+X-Xss-Protection: 1; mode=block
+
+ef
+{"Java":32182225,"JavaScript":4131517,"HTML":1306944,"Python":689912,"CSS":486470,"FreeMarker":282099,"Scala":60533,"Shell":57881,"Batchfile":32415,"Groovy":15350,"Lex":10065,"Lua":8317,"PHP":2866,"Makefile":1159,"PLpgSQL":866,"Smarty":41}
+0
+
