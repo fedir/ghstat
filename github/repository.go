@@ -9,6 +9,7 @@ import (
 	"log"
 	"regexp"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/fedir/ghstat/httpcache"
@@ -51,6 +52,39 @@ func GetRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repo
 		repositoryStatistics.OpenIssues = 0
 	}
 	return repositoryStatistics
+}
+
+// GetRepositoryLanguages gets repository language statistics
+func GetRepositoryLanguages(RepoKey string, tmpFolder string, debug bool) (string, int) {
+
+	url := "https://api.github.com/repos/" + RepoKey + "/languages"
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+
+	jsonMap := make(map[string]interface{})
+	err := json.Unmarshal([]byte(jsonResponse), &jsonMap)
+	if err != nil {
+		log.Fatal(err)
+	}
+	languages := repositoryListOfLanguages(jsonMap)
+	totalSize := repositoryTotalSize(jsonMap)
+
+	return languages, totalSize
+}
+
+func repositoryListOfLanguages(m map[string]interface{}) string {
+	keys := make([]string, 0, len(m))
+	for k := range m {
+		keys = append(keys, k)
+	}
+	return strings.Join(keys, ",")
+}
+func repositoryTotalSize(m map[string]interface{}) int {
+	totalSize := 0
+	for _, v := range m {
+		totalSize = totalSize + int(v.(float64))
+	}
+	return totalSize
 }
 
 func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {

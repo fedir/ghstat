@@ -12,7 +12,9 @@ type Repository struct {
 	URL                                 string    `header:"URL"`
 	Author                              string    `header:"Author"`
 	AuthorLocation                      string    `header:"Author's location"`
-	Language                            string    `header:"Language"`
+	MainLanguage                        string    `header:"Main language"`
+	AllLanguages                        string    `header:"All used languages"`
+	TotalCodeSize                       int       `header:"Total code size"`
 	License                             string    `header:"License"`
 	AuthorsFollowers                    int       `header:"Author's followers"`
 	Top10ContributorsFollowers          int       `header:"Top 10 contributors followers"`
