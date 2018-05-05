@@ -5,6 +5,7 @@
 * The most popular project is `gohugoio/hugo`
 * The newest project is `go-aah/aah`
 * The project with more commits is `gohugoio/hugo`
+* The project with biggest average contribution period is `go-aah/aah`
 * The project with more tags is `labstack/echo`
 * The project made by most notable top contributors is `astaxie/beego`
 * The project with best errors resolving rate is `kataras/iris`
@@ -19,12 +20,13 @@
 * The most popular project is `ktorio/ktor`
 * The newest project is `http4k/http4k`
 * The project with more commits is `http4k/http4k`
+* The project with biggest average contribution period is `hypercube1024/firefly`
 * The project with more tags is `ktorio/ktor`
 * The project made by most notable top contributors is `TinyMission/kara`
 * The project with best errors resolving rate is `hypercube1024/firefly`
 * The project with more commits by day is `http4k/http4k`
 * The project with the most active community is `danneu/kog`
-* The best project (taking in account placements in all competitions) is `http4k/http4k`
+* The best project (taking in account placements in all competitions) is `ktorio/ktor`
 
 [Detailed Kotlin frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/kotlin_frameworks.csv)
 
@@ -33,6 +35,7 @@
 * The most popular project is `kemalcr/kemal`
 * The newest project is `spider-gazelle/spider-gazelle`
 * The project with more commits is `amberframework/amber`
+* The project with biggest average contribution period is `samueleaton/raze`
 * The project with more tags is `kemalcr/kemal`
 * The project made by most notable top contributors is `kemalcr/kemal`
 * The project with best errors resolving rate is `kemalcr/kemal`
@@ -47,6 +50,7 @@
 * The most popular project is `scalatra/scalatra`
 * The newest project is `suzaku-io/suzaku`
 * The project with more commits is `lift/framework`
+* The project with biggest average contribution period is `xitrum-framework/xitrum-new`
 * The project with more tags is `skinny-framework/skinny-framework`
 * The project made by most notable top contributors is `scalatra/scalatra`
 * The project with best errors resolving rate is `tumblr/colossus`
@@ -61,6 +65,7 @@
 * The most popular project is `vibe-d/vibe.d`
 * The newest project is `DiamondMVC/Diamond`
 * The project with more commits is `vibe-d/vibe.d`
+* The project with biggest average contribution period is `vibe-d/vibe.d`
 * The project with more tags is `vibe-d/vibe.d`
 * The project made by most notable top contributors is `vibe-d/vibe.d`
 * The project with best errors resolving rate is `huntlabs/hunt`
@@ -75,6 +80,7 @@
 * The most popular project is `phoenixframework/phoenix`
 * The newest project is `kittoframework/kitto`
 * The project with more commits is `phoenixframework/phoenix`
+* The project with biggest average contribution period is `slogsdon/placid`
 * The project with more tags is `phoenixframework/phoenix`
 * The project made by most notable top contributors is `phoenixframework/phoenix`
 * The project with best errors resolving rate is `AntonFagerberg/rackla`
@@ -89,6 +95,7 @@
 * The most popular project is `pallets/flask`
 * The newest project is `channelcat/sanic`
 * The project with more commits is `django/django`
+* The project with biggest average contribution period is `django/django`
 * The project with more tags is `django/django`
 * The project made by most notable top contributors is `pallets/flask`
 * The project with best errors resolving rate is `pallets/flask`
@@ -103,12 +110,13 @@
 * The most popular project is `rails/rails`
 * The newest project is `ruby-hyperloop/hyper-react`
 * The project with more commits is `rails/rails`
+* The project with biggest average contribution period is `rails/rails`
 * The project with more tags is `rails/rails`
 * The project made by most notable top contributors is `rails/rails`
 * The project with best errors resolving rate is `jeremyevans/roda`
 * The project with more commits by day is `rails/rails`
 * The project with the most active community is `Ramaze/ramaze`
-* The best project (taking in account placements in all competitions) is `padrino/padrino-framework`
+* The best project (taking in account placements in all competitions) is `rails/rails`
 
 [Detailed Ruby frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/ruby_frameworks.csv)
 
@@ -117,6 +125,7 @@
 * The most popular project is `weavejester/compojure`
 * The newest project is `fulcrologic/fulcro`
 * The project with more commits is `fulcrologic/fulcro`
+* The project with biggest average contribution period is `hoplon/hoplon`
 * The project with more tags is `juxt/yada`
 * The project made by most notable top contributors is `fulcrologic/fulcro`
 * The project with best errors resolving rate is `fulcrologic/fulcro`
@@ -131,6 +140,7 @@
 * The most popular project is `ninenines/cowboy`
 * The newest project is `synrc/rest`
 * The project with more commits is `zotonic/zotonic`
+* The project with biggest average contribution period is `synrc/rest`
 * The project with more tags is `zotonic/zotonic`
 * The project made by most notable top contributors is `mochi/mochiweb`
 * The project with best errors resolving rate is `kivra/giallo`
@@ -145,6 +155,7 @@
 * The most popular project is `yesodweb/yesod`
 * The newest project is `myfreeweb/magicbane`
 * The project with more commits is `yesodweb/yesod`
+* The project with biggest average contribution period is `yesodweb/yesod`
 * The project with more tags is `yesodweb/yesod`
 * The project made by most notable top contributors is `yesodweb/yesod`
 * The project with best errors resolving rate is `snapframework/snap-core`
@@ -159,6 +170,7 @@
 * The most popular project is `luvit/luvit`
 * The newest project is `sailorproject/sailor`
 * The project with more commits is `luvit/luvit`
+* The project with biggest average contribution period is `keplerproject/orbit`
 * The project with more tags is `luvit/luvit`
 * The project made by most notable top contributors is `luvit/luvit`
 * The project with best errors resolving rate is `appwilldev/moochine`
@@ -173,6 +185,7 @@
 * The most popular project is `iron/iron`
 * The newest project is `actix/actix-web`
 * The project with more commits is `actix/actix-web`
+* The project with biggest average contribution period is `sappworks/sapper`
 * The project with more tags is `SergioBenitez/Rocket`
 * The project made by most notable top contributors is `iron/iron`
 * The project with best errors resolving rate is `Ogeon/rustful`
@@ -187,6 +200,7 @@
 * The most popular project is `lpereira/lwan`
 * The newest project is `HerikLyma/CPPWebFramework`
 * The project with more commits is `civetweb/civetweb`
+* The project with biggest average contribution period is `HerikLyma/CPPWebFramework`
 * The project with more tags is `emweb/wt`
 * The project made by most notable top contributors is `lpereira/lwan`
 * The project with best errors resolving rate is `HerikLyma/CPPWebFramework`
@@ -201,6 +215,7 @@
 * The most popular project is `ipkn/crow`
 * The newest project is `oktal/pistache`
 * The project with more commits is `cutelyst/cutelyst`
+* The project with biggest average contribution period is `cutelyst/cutelyst`
 * The project with more tags is `cutelyst/cutelyst`
 * The project made by most notable top contributors is `treefrogframework/treefrog-framework`
 * The project with best errors resolving rate is `cutelyst/cutelyst`
@@ -215,6 +230,7 @@
 * The most popular project is `fukamachi/caveman`
 * The newest project is `eudoxia0/lucerne`
 * The project with more commits is `Shirakumo/radiance`
+* The project with biggest average contribution period is `joaotavora/snooze`
 * The project with more tags is `fukamachi/caveman`
 * The project made by most notable top contributors is `fukamachi/caveman`
 * The project with best errors resolving rate is `Shirakumo/radiance`
@@ -229,12 +245,13 @@
 * The most popular project is `spring-projects/spring-framework`
 * The newest project is `bootique/bootique`
 * The project with more commits is `vaadin/framework`
+* The project with biggest average contribution period is `vaadin/framework`
 * The project with more tags is `vaadin/framework`
 * The project made by most notable top contributors is `spring-projects/spring-framework`
 * The project with best errors resolving rate is `jooby-project/jooby`
 * The project with more commits by day is `vaadin/framework`
 * The project with the most active community is `ratpack/ratpack`
-* The best project (taking in account placements in all competitions) is `netty/netty`
+* The best project (taking in account placements in all competitions) is `vaadin/framework`
 
 [Detailed Java frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/java_frameworks.csv)
 
@@ -243,6 +260,7 @@
 * The most popular project is `grails/grails-core`
 * The newest project is `javaConductor/gserv`
 * The project with more commits is `grails/grails-core`
+* The project with biggest average contribution period is `javaConductor/gserv`
 * The project with more tags is `grails/grails-core`
 * The project made by most notable top contributors is `grails/grails-core`
 * The project with best errors resolving rate is `grails/grails-core`
@@ -257,6 +275,7 @@
 * The most popular project is `facebook/react`
 * The newest project is `hyperapp/hyperapp`
 * The project with more commits is `meteor/meteor`
+* The project with biggest average contribution period is `emberjs/ember.js`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
 * The project with best errors resolving rate is `totaljs/framework`
@@ -271,6 +290,7 @@
 * The most popular project is `symfony/symfony`
 * The newest project is `leocavalcante/siler`
 * The project with more commits is `cakephp/cakephp`
+* The project with biggest average contribution period is `symfony/symfony`
 * The project with more tags is `nova-framework/framework`
 * The project made by most notable top contributors is `laravel/framework`
 * The project with best errors resolving rate is `nova-framework/framework`
@@ -285,12 +305,13 @@
 * The most popular project is `facebook/react`
 * The newest project is `spider-gazelle/spider-gazelle`
 * The project with more commits is `rails/rails`
+* The project with biggest average contribution period is `hypercube1024/firefly`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
 * The project with best errors resolving rate is `totaljs/framework`
 * The project with more commits by day is `rails/rails`
 * The project with the most active community is `vladfaust/prism`
-* The best project (taking in account placements in all competitions) is `phoenixframework/phoenix`
+* The best project (taking in account placements in all competitions) is `laravel/framework`
 
 [Detailed cross-language frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)
 
@@ -299,6 +320,7 @@
 * The most popular project is `golang/go`
 * The newest project is `python/cpython`
 * The project with more commits is `python/cpython`
+* The project with biggest average contribution period is `lua/lua`
 * The project with more tags is `ruby/ruby`
 * The project made by most notable top contributors is `golang/go`
 * The project with best errors resolving rate is `golang/go`
@@ -313,12 +335,13 @@
 * The most popular project is `keystonejs/keystone`
 * The newest project is `gentics/mesh`
 * The project with more commits is `liferay/liferay-portal`
+* The project with biggest average contribution period is `liferay/liferay-portal`
 * The project with more tags is `apostrophecms/apostrophe`
 * The project made by most notable top contributors is `sulu/sulu-standard`
 * The project with best errors resolving rate is `TypiCMS/Base`
 * The project with more commits by day is `liferay/liferay-portal`
 * The project with the most active community is `Softmotions/ncms`
-* The best project (taking in account placements in all competitions) is `bolt/bolt`
+* The best project (taking in account placements in all competitions) is `joomla/joomla-cms`
 
 [Detailed cross-language CMS statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/all_cms.csv)
 
@@ -327,6 +350,7 @@
 * The most popular project is `keystonejs/keystone`
 * The newest project is `strapi/strapi`
 * The project with more commits is `directus/directus`
+* The project with biggest average contribution period is `apostrophecms/apostrophe`
 * The project with more tags is `apostrophecms/apostrophe`
 * The project made by most notable top contributors is `keystonejs/keystone`
 * The project with best errors resolving rate is `directus/directus`
@@ -341,12 +365,13 @@
 * The most popular project is `WordPress/WordPress`
 * The newest project is `processwire/processwire`
 * The project with more commits is `drupal/drupal`
+* The project with biggest average contribution period is `spip/SPIP`
 * The project with more tags is `TYPO3/TYPO3.CMS`
 * The project made by most notable top contributors is `sulu/sulu-standard`
 * The project with best errors resolving rate is `TypiCMS/Base`
 * The project with more commits by day is `concrete5/concrete5`
 * The project with the most active community is `spip/SPIP`
-* The best project (taking in account placements in all competitions) is `bolt/bolt`
+* The best project (taking in account placements in all competitions) is `joomla/joomla-cms`
 
 [Detailed PHP CMS statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/php_cms.csv)
 
@@ -355,11 +380,12 @@
 * The most popular project is `liferay/liferay-portal`
 * The newest project is `gentics/mesh`
 * The project with more commits is `liferay/liferay-portal`
+* The project with biggest average contribution period is `liferay/liferay-portal`
 * The project with more tags is `nuxeo/nuxeo`
 * The project made by most notable top contributors is `liferay/liferay-portal`
 * The project with best errors resolving rate is `Softmotions/ncms`
 * The project with more commits by day is `liferay/liferay-portal`
 * The project with the most active community is `Softmotions/ncms`
-* The best project (taking in account placements in all competitions) is `gentics/mesh`
+* The best project (taking in account placements in all competitions) is `liferay/liferay-portal`
 
 [Detailed Java CMS statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/java_cms.csv)
