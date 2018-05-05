@@ -37,8 +37,11 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	r.AuthorsFollowers = 0
 	if r.Author != "" {
 		r.AuthorsFollowers = github.GetUserFollowers(r.Author, tmpFolder, debug)
+		authorData := github.GetUserData(r.Author, tmpFolder, debug)
+		r.AuthorLocation = authorData.Location
 	} else {
 		r.Author = "[Account removed]"
+		r.AuthorLocation = "-"
 	}
 
 	r.ClosedIssues = 0

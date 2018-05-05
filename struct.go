@@ -11,6 +11,7 @@ type Repository struct {
 	Name                                string    `header:"Name"`
 	URL                                 string    `header:"URL"`
 	Author                              string    `header:"Author"`
+	AuthorLocation                      string    `header:"Author's location"`
 	Language                            string    `header:"Language"`
 	License                             string    `header:"License"`
 	AuthorsFollowers                    int       `header:"Author's followers"`

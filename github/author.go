@@ -6,6 +6,7 @@ package github
 
 import (
 	"encoding/json"
+	"log"
 	"regexp"
 	"strconv"
 	"time"
@@ -26,6 +27,15 @@ type Commit struct {
 			Date  time.Time `json:"date"`
 		} `json:"author"`
 	} `json:"commit"`
+}
+
+// User structure with selcted data keys for JSON processing
+type User struct {
+	Login     string    `json:"login"`
+	Name      string    `json:"name"`
+	Location  string    `json:"location"`
+	Email     string    `json:"email"`
+	CreatedAt time.Time `json:"created_at"`
 }
 
 // GetRepositoryCommitsData gets information about commits of a repository.
@@ -96,6 +106,19 @@ func GetUserFollowers(username string, tmpFolder string, debug bool) int {
 		total = (lastPage-1)*30 + itemsNumberOnLastPage
 	}
 	return total
+}
+
+// GetUserData gets information about followers of a user
+func GetUserData(username string, tmpFolder string, debug bool) *User {
+	url := "https://api.github.com/users/" + username
+	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
+	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
+	result := &User{}
+	err := json.Unmarshal([]byte(jsonResponse), result)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return result
 }
 
 func getItemsNumberOnLastPage(linkHeader string, tmpFolder string, debug bool) int {
