@@ -6,6 +6,7 @@ package github
 
 import (
 	"encoding/json"
+	"fmt"
 
 	"github.com/fedir/ghstat/httpcache"
 )
@@ -26,11 +27,12 @@ type StatsContributor struct {
 
 // ContributionStatistics contains multiple statistics about contribution into the repository
 type ContributionStatistics struct {
-	TotalCommits     int
-	TotalAdditions   int
-	TotalDeletions   int
-	TotalCodeChanges int
-	MediumCommitSize int
+	TotalCommits              int
+	TotalAdditions            int
+	TotalDeletions            int
+	TotalCodeChanges          int
+	MediumCommitSize          int
+	AverageContributionPeriod int
 }
 
 // GetContributionStatistics gets detailsed statistics about contributors of the repository
@@ -38,7 +40,10 @@ func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) Con
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
-	cs := extractContributionStatisticsFromJSON(jsonResponse)
+	cs := extractContributionStatisticsFromJSON(jsonResponse, debug)
+	if debug {
+		fmt.Printf("ACP for %s: %d days\n", repoKey, cs.AverageContributionPeriod)
+	}
 	return cs
 }
 
@@ -55,7 +60,7 @@ func GetCommitsByDay(totalCommits int, repositoryAge int) float64 {
 	return commitsByDay
 }
 
-func extractContributionStatisticsFromJSON(jsonResponse []byte) ContributionStatistics {
+func extractContributionStatisticsFromJSON(jsonResponse []byte, debug bool) ContributionStatistics {
 	var cs ContributionStatistics
 	cs.TotalCommits = 0
 	cs.TotalAdditions = 0
@@ -73,9 +78,47 @@ func extractContributionStatisticsFromJSON(jsonResponse []byte) ContributionStat
 		}
 	}
 	cs.MediumCommitSize = calculateMediumCommitSize(cs.TotalCommits, cs.TotalCodeChanges)
+	cs.AverageContributionPeriod = calculateAverageContributionPeriod(contributionStatistics, debug)
 	return cs
 }
 
 func calculateMediumCommitSize(totalCommits int, totalCodeChanges int) int {
 	return int(float64(totalCodeChanges) / float64(totalCommits))
+}
+
+func calculateAverageContributionPeriod(cs []StatsContributor, debug bool) int {
+	type contributorContibutionPeriod struct {
+		first  int
+		last   int
+		period int
+	}
+	acp := 0
+	totalAcp := 0
+	nContirbutors := len(cs)
+	for _, c := range cs {
+		ccp := contributorContibutionPeriod{
+			first:  0,
+			last:   0,
+			period: 0,
+		}
+		for _, cw := range c.Weeks {
+			if cw.Additions > 0 || cw.Commits > 0 || cw.Deletions > 0 {
+				if ccp.first == 0 {
+					ccp.first = cw.Week
+				} else if cw.Week < ccp.first {
+					ccp.first = cw.Week
+				}
+				if cw.Week > ccp.last {
+					ccp.last = cw.Week
+				}
+			}
+		}
+		ccp.period = (ccp.last - ccp.first) / 86400
+		totalAcp += ccp.period
+		if debug {
+			fmt.Printf("%s, %d, %d, %d\n", c.Author, ccp.first, ccp.last, ccp.period)
+		}
+	}
+	acp = int(float64(totalAcp) / float64(nContirbutors))
+	return acp
 }

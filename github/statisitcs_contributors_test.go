@@ -58,13 +58,14 @@ var contributionStatisticsJSONResponse = `
 `
 
 func TestContributionStatisticsJSONResponseData(t *testing.T) {
-	contributionStatistics := extractContributionStatisticsFromJSON([]byte(contributionStatisticsJSONResponse))
+	contributionStatistics := extractContributionStatisticsFromJSON([]byte(contributionStatisticsJSONResponse), false)
 	contributionStatisticsExpected := ContributionStatistics{
-		TotalCommits:     5,
-		TotalAdditions:   110,
-		TotalDeletions:   10,
-		TotalCodeChanges: 120,
-		MediumCommitSize: 24,
+		TotalCommits:              5,
+		TotalAdditions:            110,
+		TotalDeletions:            10,
+		TotalCodeChanges:          120,
+		MediumCommitSize:          24,
+		AverageContributionPeriod: 7,
 	}
 	if !reflect.DeepEqual(contributionStatistics, contributionStatisticsExpected) {
 		fmt.Println(contributionStatistics)

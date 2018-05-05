@@ -26,6 +26,7 @@ type Repository struct {
 	TotalCodeChanges                    int       `header:"Total code changes"`
 	LastCommitDate                      time.Time `header:"Last commit date"`
 	CommitsByDay                        float64   `header:"Commits/day"`
+	AverageContributionPeriod           int       `header:"Average contribution period by contributor, days"`
 	MediCommitSize                      int       `header:"Medium commit size"`
 	TotalTags                           int       `header:"Total releases"`
 	Watchers                            int       `header:"Stargazers"`

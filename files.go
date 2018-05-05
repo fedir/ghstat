@@ -67,6 +67,7 @@ func formatRepositoryDataForCSV(r Repository) []string {
 		fmt.Sprintf("%d", r.TotalCodeChanges),
 		fmt.Sprintf(r.LastCommitDate.Format("2006-01-02 15:04:05")),
 		fmt.Sprintf("%.4f", r.CommitsByDay),
+		fmt.Sprintf("%d", r.AverageContributionPeriod),
 		fmt.Sprintf("%d", r.MediCommitSize),
 		fmt.Sprintf("%d", r.TotalTags),
 		fmt.Sprintf("%d", r.Watchers),

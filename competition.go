@@ -48,6 +48,16 @@ func rateGhData(ghData []Repository) string {
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
+	// Add points by average contribution in days (longer is better)
+	sort.Slice(ghData[:], func(i, j int) bool {
+		return ghData[i].AverageContributionPeriod > ghData[j].AverageContributionPeriod
+	})
+	greetings += fmt.Sprintf("* The project with biggest average contribution period is `%s`\n", ghData[0].Name)
+	for i := range ghData {
+		ghData[i].PlacementTotalCommits = i + 1
+		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
+	}
+
 	// Add points by number of tags (more tags is better)
 	sort.Slice(ghData[:], func(i, j int) bool {
 		return ghData[i].TotalTags > ghData[j].TotalTags
