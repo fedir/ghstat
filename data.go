@@ -31,17 +31,18 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	}
 	r.Author = "[No GitHub account detected]"
 
-	r.Author,
-		r.LastCommitDate = github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
+	r.Author, r.LastCommitDate = github.GetRepositoryCommitsData(rKey, tmpFolder, debug)
 
 	r.AuthorsFollowers = 0
+	r.AuthorLocation = "[Unknown]"
 	if r.Author != "" {
 		r.AuthorsFollowers = github.GetUserFollowers(r.Author, tmpFolder, debug)
 		authorData := github.GetUserData(r.Author, tmpFolder, debug)
-		r.AuthorLocation = authorData.Location
+		if authorData.Location != "" {
+			r.AuthorLocation = authorData.Location
+		}
 	} else {
 		r.Author = "[Account removed]"
-		r.AuthorLocation = "-"
 	}
 
 	r.ClosedIssues = 0
