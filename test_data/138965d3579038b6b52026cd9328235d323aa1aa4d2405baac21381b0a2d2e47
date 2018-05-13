@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:57:59 GMT
+Etag: W/"4d0fe9782a74c6fd63b3f1ac94fbf372"
+Link: <https://api.github.com/user/2730833/followers?page=5>; rel="prev", <https://api.github.com/user/2730833/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DA10:4F42:4552D91:8BA6C9C:5AF84467
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4866
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.036202
+X-Xss-Protection: 1; mode=block
+
+381
+[{"login":"renancouto","id":230893,"avatar_url":"https://avatars0.githubusercontent.com/u/230893?v=4","gravatar_id":"","url":"https://api.github.com/users/renancouto","html_url":"https://github.com/renancouto","followers_url":"https://api.github.com/users/renancouto/followers","following_url":"https://api.github.com/users/renancouto/following{/other_user}","gists_url":"https://api.github.com/users/renancouto/gists{/gist_id}","starred_url":"https://api.github.com/users/renancouto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/renancouto/subscriptions","organizations_url":"https://api.github.com/users/renancouto/orgs","repos_url":"https://api.github.com/users/renancouto/repos","events_url":"https://api.github.com/users/renancouto/events{/privacy}","received_events_url":"https://api.github.com/users/renancouto/received_events","type":"User","site_admin":false}]
+0
+

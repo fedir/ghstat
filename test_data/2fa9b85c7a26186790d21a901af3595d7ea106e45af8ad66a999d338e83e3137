@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:01:20 GMT
+Etag: W/"7286dba27a51a2b193881188c8c54456"
+Link: <https://api.github.com/user/499/followers?page=11>; rel="prev", <https://api.github.com/user/499/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CDF8:4F41:3598B21:750B45E:5AF83720
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2437
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.042736
+X-Xss-Protection: 1; mode=block
+
+375
+[{"login":"shireeshj","id":276377,"avatar_url":"https://avatars1.githubusercontent.com/u/276377?v=4","gravatar_id":"","url":"https://api.github.com/users/shireeshj","html_url":"https://github.com/shireeshj","followers_url":"https://api.github.com/users/shireeshj/followers","following_url":"https://api.github.com/users/shireeshj/following{/other_user}","gists_url":"https://api.github.com/users/shireeshj/gists{/gist_id}","starred_url":"https://api.github.com/users/shireeshj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shireeshj/subscriptions","organizations_url":"https://api.github.com/users/shireeshj/orgs","repos_url":"https://api.github.com/users/shireeshj/repos","events_url":"https://api.github.com/users/shireeshj/events{/privacy}","received_events_url":"https://api.github.com/users/shireeshj/received_events","type":"User","site_admin":false}]
+0
+

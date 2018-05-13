@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:06:46 GMT
+Etag: W/"7ee203dfc23278fa5a324fc9e4548b8f"
+Link: <https://api.github.com/user/49415/followers?page=25>; rel="prev", <https://api.github.com/user/49415/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFC9:4F42:44E9F5C:8AD8E46:5AF83866
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1722
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.059259
+X-Xss-Protection: 1; mode=block
+
+e27
+[{"login":"Felipe-Wisniewski","id":26966409,"avatar_url":"https://avatars1.githubusercontent.com/u/26966409?v=4","gravatar_id":"","url":"https://api.github.com/users/Felipe-Wisniewski","html_url":"https://github.com/Felipe-Wisniewski","followers_url":"https://api.github.com/users/Felipe-Wisniewski/followers","following_url":"https://api.github.com/users/Felipe-Wisniewski/following{/other_user}","gists_url":"https://api.github.com/users/Felipe-Wisniewski/gists{/gist_id}","starred_url":"https://api.github.com/users/Felipe-Wisniewski/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Felipe-Wisniewski/subscriptions","organizations_url":"https://api.github.com/users/Felipe-Wisniewski/orgs","repos_url":"https://api.github.com/users/Felipe-Wisniewski/repos","events_url":"https://api.github.com/users/Felipe-Wisniewski/events{/privacy}","received_events_url":"https://api.github.com/users/Felipe-Wisniewski/received_events","type":"User","site_admin":false},{"login":"furuhama","id":28420688,"avatar_url":"https://avatars0.githubusercontent.com/u/28420688?v=4","gravatar_id":"","url":"https://api.github.com/users/furuhama","html_url":"https://github.com/furuhama","followers_url":"https://api.github.com/users/furuhama/followers","following_url":"https://api.github.com/users/furuhama/following{/other_user}","gists_url":"https://api.github.com/users/furuhama/gists{/gist_id}","starred_url":"https://api.github.com/users/furuhama/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/furuhama/subscriptions","organizations_url":"https://api.github.com/users/furuhama/orgs","repos_url":"https://api.github.com/users/furuhama/repos","events_url":"https://api.github.com/users/furuhama/events{/privacy}","received_events_url":"https://api.github.com/users/furuhama/received_events","type":"User","site_admin":false},{"login":"ibnuda","id":8169908,"avatar_url":"https://avatars3.githubusercontent.com/u/8169908?v=4","gravatar_id":"","url":"https://api.github.com/users/ibnuda","html_url":"https://github.com/ibnuda","followers_url":"https://api.github.com/users/ibnuda/followers","following_url":"https://api.github.com/users/ibnuda/following{/other_user}","gists_url":"https://api.github.com/users/ibnuda/gists{/gist_id}","starred_url":"https://api.github.com/users/ibnuda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ibnuda/subscriptions","organizations_url":"https://api.github.com/users/ibnuda/orgs","repos_url":"https://api.github.com/users/ibnuda/repos","events_url":"https://api.github.com/users/ibnuda/events{/privacy}","received_events_url":"https://api.github.com/users/ibnuda/received_events","type":"User","site_admin":false},{"login":"matt-snider","id":11810057,"avatar_url":"https://avatars3.githubusercontent.com/u/11810057?v=4","gravatar_id":"","url":"https://api.github.com/users/matt-snider","html_url":"https://github.com/matt-snider","followers_url":"https://api.github.com/users/matt-snider/followers","following_url":"https://api.github.com/users/matt-snider/following{/other_user}","gists_url":"https://api.github.com/users/matt-snider/gists{/gist_id}","starred_url":"https://api.github.com/users/matt-snider/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matt-snider/subscriptions","organizations_url":"https://api.github.com/users/matt-snider/orgs","repos_url":"https://api.github.com/users/matt-snider/repos","events_url":"https://api.github.com/users/matt-snider/events{/privacy}","received_events_url":"https://api.github.com/users/matt-snider/received_events","type":"User","site_admin":false}]
+0
+

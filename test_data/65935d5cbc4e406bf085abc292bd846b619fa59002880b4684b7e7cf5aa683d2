@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:39 GMT
+Etag: W/"d9bac371b4a942611683397395dd355c"
+Link: <https://api.github.com/user/157858/followers?page=19>; rel="prev", <https://api.github.com/user/157858/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D20F:4F41:35AC292:753C551:5AF83A7B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 429
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.055556
+X-Xss-Protection: 1; mode=block
+
+e11
+[{"login":"lioyd93","id":26183228,"avatar_url":"https://avatars2.githubusercontent.com/u/26183228?v=4","gravatar_id":"","url":"https://api.github.com/users/lioyd93","html_url":"https://github.com/lioyd93","followers_url":"https://api.github.com/users/lioyd93/followers","following_url":"https://api.github.com/users/lioyd93/following{/other_user}","gists_url":"https://api.github.com/users/lioyd93/gists{/gist_id}","starred_url":"https://api.github.com/users/lioyd93/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lioyd93/subscriptions","organizations_url":"https://api.github.com/users/lioyd93/orgs","repos_url":"https://api.github.com/users/lioyd93/repos","events_url":"https://api.github.com/users/lioyd93/events{/privacy}","received_events_url":"https://api.github.com/users/lioyd93/received_events","type":"User","site_admin":false},{"login":"haveanote","id":10027587,"avatar_url":"https://avatars2.githubusercontent.com/u/10027587?v=4","gravatar_id":"","url":"https://api.github.com/users/haveanote","html_url":"https://github.com/haveanote","followers_url":"https://api.github.com/users/haveanote/followers","following_url":"https://api.github.com/users/haveanote/following{/other_user}","gists_url":"https://api.github.com/users/haveanote/gists{/gist_id}","starred_url":"https://api.github.com/users/haveanote/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/haveanote/subscriptions","organizations_url":"https://api.github.com/users/haveanote/orgs","repos_url":"https://api.github.com/users/haveanote/repos","events_url":"https://api.github.com/users/haveanote/events{/privacy}","received_events_url":"https://api.github.com/users/haveanote/received_events","type":"User","site_admin":false},{"login":"giovanigchaves","id":38399117,"avatar_url":"https://avatars3.githubusercontent.com/u/38399117?v=4","gravatar_id":"","url":"https://api.github.com/users/giovanigchaves","html_url":"https://github.com/giovanigchaves","followers_url":"https://api.github.com/users/giovanigchaves/followers","following_url":"https://api.github.com/users/giovanigchaves/following{/other_user}","gists_url":"https://api.github.com/users/giovanigchaves/gists{/gist_id}","starred_url":"https://api.github.com/users/giovanigchaves/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/giovanigchaves/subscriptions","organizations_url":"https://api.github.com/users/giovanigchaves/orgs","repos_url":"https://api.github.com/users/giovanigchaves/repos","events_url":"https://api.github.com/users/giovanigchaves/events{/privacy}","received_events_url":"https://api.github.com/users/giovanigchaves/received_events","type":"User","site_admin":false},{"login":"GeassCoder","id":13051609,"avatar_url":"https://avatars0.githubusercontent.com/u/13051609?v=4","gravatar_id":"","url":"https://api.github.com/users/GeassCoder","html_url":"https://github.com/GeassCoder","followers_url":"https://api.github.com/users/GeassCoder/followers","following_url":"https://api.github.com/users/GeassCoder/following{/other_user}","gists_url":"https://api.github.com/users/GeassCoder/gists{/gist_id}","starred_url":"https://api.github.com/users/GeassCoder/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GeassCoder/subscriptions","organizations_url":"https://api.github.com/users/GeassCoder/orgs","repos_url":"https://api.github.com/users/GeassCoder/repos","events_url":"https://api.github.com/users/GeassCoder/events{/privacy}","received_events_url":"https://api.github.com/users/GeassCoder/received_events","type":"User","site_admin":false}]
+0
+

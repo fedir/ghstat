@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:05:38 GMT
-Etag: W/"40434ceb587a477d859960d6ea3b82a6"
-Last-Modified: Fri, 13 Apr 2018 18:51:36 GMT
+Date: Sun, 13 May 2018 12:57:39 GMT
+Etag: W/"25aeded6809d88bc97383821bc0f5986"
+Last-Modified: Mon, 07 May 2018 18:51:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA3C:3BFC:217E5DF:49339F0:5AED0361
+X-Github-Request-Id: CAD3:4F42:44D62AC:8AB01AA:5AF83643
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4999
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.043531
+X-Ratelimit-Remaining: 4934
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.033083
 X-Xss-Protection: 1; mode=block
 
 526
-{"login":"markbates","id":3528,"avatar_url":"https://avatars3.githubusercontent.com/u/3528?v=4","gravatar_id":"","url":"https://api.github.com/users/markbates","html_url":"https://github.com/markbates","followers_url":"https://api.github.com/users/markbates/followers","following_url":"https://api.github.com/users/markbates/following{/other_user}","gists_url":"https://api.github.com/users/markbates/gists{/gist_id}","starred_url":"https://api.github.com/users/markbates/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/markbates/subscriptions","organizations_url":"https://api.github.com/users/markbates/orgs","repos_url":"https://api.github.com/users/markbates/repos","events_url":"https://api.github.com/users/markbates/events{/privacy}","received_events_url":"https://api.github.com/users/markbates/received_events","type":"User","site_admin":false,"name":"Mark Bates","company":"Meta42 Labs, LLC","blog":"http://www.metabates.com","location":"Boston, MA","email":"mark+github@markbates.com","hireable":null,"bio":"Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies.","public_repos":90,"public_gists":122,"followers":610,"following":0,"created_at":"2008-03-21T15:55:40Z","updated_at":"2018-04-13T18:51:36Z"}
+{"login":"markbates","id":3528,"avatar_url":"https://avatars3.githubusercontent.com/u/3528?v=4","gravatar_id":"","url":"https://api.github.com/users/markbates","html_url":"https://github.com/markbates","followers_url":"https://api.github.com/users/markbates/followers","following_url":"https://api.github.com/users/markbates/following{/other_user}","gists_url":"https://api.github.com/users/markbates/gists{/gist_id}","starred_url":"https://api.github.com/users/markbates/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/markbates/subscriptions","organizations_url":"https://api.github.com/users/markbates/orgs","repos_url":"https://api.github.com/users/markbates/repos","events_url":"https://api.github.com/users/markbates/events{/privacy}","received_events_url":"https://api.github.com/users/markbates/received_events","type":"User","site_admin":false,"name":"Mark Bates","company":"Meta42 Labs, LLC","blog":"http://www.metabates.com","location":"Boston, MA","email":"mark+github@markbates.com","hireable":null,"bio":"Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies.","public_repos":90,"public_gists":122,"followers":621,"following":0,"created_at":"2008-03-21T15:55:40Z","updated_at":"2018-05-07T18:51:11Z"}
 0
 

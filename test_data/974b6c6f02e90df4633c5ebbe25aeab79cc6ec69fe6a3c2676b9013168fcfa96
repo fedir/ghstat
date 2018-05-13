@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:33 GMT
-Etag: W/"7b8e68fc4487b0c46d886bb789514cf9"
-Last-Modified: Sat, 27 Jan 2018 08:08:40 GMT
+Date: Sun, 13 May 2018 12:58:52 GMT
+Etag: W/"9683880839d8c1925dbf3d139243e06e"
+Last-Modified: Mon, 07 May 2018 06:37:15 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA9E:3BFF:2B5AAF0:5712B64:5AED044D
+X-Github-Request-Id: CB1D:4F40:25F8899:5723C34:5AF8368C
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4968
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.054457
+X-Ratelimit-Remaining: 4357
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.032968
 X-Xss-Protection: 1; mode=block
 
 4b4
-{"login":"seratch","id":19658,"avatar_url":"https://avatars2.githubusercontent.com/u/19658?v=4","gravatar_id":"","url":"https://api.github.com/users/seratch","html_url":"https://github.com/seratch","followers_url":"https://api.github.com/users/seratch/followers","following_url":"https://api.github.com/users/seratch/following{/other_user}","gists_url":"https://api.github.com/users/seratch/gists{/gist_id}","starred_url":"https://api.github.com/users/seratch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/seratch/subscriptions","organizations_url":"https://api.github.com/users/seratch/orgs","repos_url":"https://api.github.com/users/seratch/repos","events_url":"https://api.github.com/users/seratch/events{/privacy}","received_events_url":"https://api.github.com/users/seratch/received_events","type":"User","site_admin":false,"name":"Kaz Sera","company":"Good Flow Technologies","blog":"","location":"Tokyo, Japan","email":"seratch@gmail.com","hireable":true,"bio":"Creator of @scalikejdbc and @skinny-framework, Scala enthusiast.","public_repos":130,"public_gists":138,"followers":316,"following":93,"created_at":"2008-08-05T16:11:57Z","updated_at":"2018-01-27T08:08:40Z"}
+{"login":"seratch","id":19658,"avatar_url":"https://avatars2.githubusercontent.com/u/19658?v=4","gravatar_id":"","url":"https://api.github.com/users/seratch","html_url":"https://github.com/seratch","followers_url":"https://api.github.com/users/seratch/followers","following_url":"https://api.github.com/users/seratch/following{/other_user}","gists_url":"https://api.github.com/users/seratch/gists{/gist_id}","starred_url":"https://api.github.com/users/seratch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/seratch/subscriptions","organizations_url":"https://api.github.com/users/seratch/orgs","repos_url":"https://api.github.com/users/seratch/repos","events_url":"https://api.github.com/users/seratch/events{/privacy}","received_events_url":"https://api.github.com/users/seratch/received_events","type":"User","site_admin":false,"name":"Kaz Sera","company":"@smartnews @good-flow ","blog":"","location":"Tokyo, Japan","email":"seratch@gmail.com","hireable":true,"bio":"Creator of @scalikejdbc and @skinny-framework, Scala enthusiast.","public_repos":130,"public_gists":138,"followers":318,"following":93,"created_at":"2008-08-05T16:11:57Z","updated_at":"2018-05-07T06:37:15Z"}
 0
 

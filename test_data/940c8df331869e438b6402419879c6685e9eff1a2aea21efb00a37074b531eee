@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:32 GMT
-Etag: W/"982ca8d5db7ecaeae6b2753a496af186"
+Date: Sun, 13 May 2018 12:58:44 GMT
+Etag: W/"9ef28b2a0763c9d8428832208e6ea8eb"
 Last-Modified: Thu, 03 May 2018 11:39:14 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA95:3BFC:2182BC8:493EA7E:5AED044C
+X-Github-Request-Id: CB09:4F3F:1A8F583:3F5A05B:5AF83684
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4976
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.058047
+X-Ratelimit-Remaining: 4567
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.032016
 X-Xss-Protection: 1; mode=block
 
 49c
-{"login":"vladfaust","id":7955682,"avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false,"name":"Vlad Faust","company":null,"blog":"https://vladfaust.com","location":"Moscow","email":"mail@vladfaust.com","hireable":null,"bio":"Show me your code.","public_repos":56,"public_gists":8,"followers":17,"following":13,"created_at":"2014-06-22T10:20:40Z","updated_at":"2018-05-03T11:39:14Z"}
+{"login":"vladfaust","id":7955682,"avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false,"name":"Vlad Faust","company":null,"blog":"https://vladfaust.com","location":"Moscow","email":"mail@vladfaust.com","hireable":null,"bio":"Show me your code.","public_repos":58,"public_gists":8,"followers":17,"following":13,"created_at":"2014-06-22T10:20:40Z","updated_at":"2018-05-03T11:39:14Z"}
 0
 

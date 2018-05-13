@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:37 GMT
-Etag: W/"5b3091ff928e21210af51617a2232975"
+Date: Sun, 13 May 2018 13:01:33 GMT
+Etag: W/"222779c9ddf5c9e8299a50d5de0d3557"
 Last-Modified: Fri, 03 Nov 2017 16:15:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAD3:3BFC:2182D7C:493EE6F:5AED0451
+X-Github-Request-Id: CE23:4F40:25FB67D:572B1DB:5AF8372D
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4926
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.037214
+X-Ratelimit-Remaining: 2209
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038179
 X-Xss-Protection: 1; mode=block
 
 46c
-{"login":"micha","id":15934,"avatar_url":"https://avatars0.githubusercontent.com/u/15934?v=4","gravatar_id":"","url":"https://api.github.com/users/micha","html_url":"https://github.com/micha","followers_url":"https://api.github.com/users/micha/followers","following_url":"https://api.github.com/users/micha/following{/other_user}","gists_url":"https://api.github.com/users/micha/gists{/gist_id}","starred_url":"https://api.github.com/users/micha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/micha/subscriptions","organizations_url":"https://api.github.com/users/micha/orgs","repos_url":"https://api.github.com/users/micha/repos","events_url":"https://api.github.com/users/micha/events{/privacy}","received_events_url":"https://api.github.com/users/micha/received_events","type":"User","site_admin":false,"name":"Micha Niskin","company":"@adzerk-oss ","blog":"http://micha.github.com/","location":"USA","email":"micha.niskin@gmail.com","hireable":null,"bio":null,"public_repos":113,"public_gists":189,"followers":172,"following":11,"created_at":"2008-07-03T16:51:53Z","updated_at":"2017-11-03T16:15:13Z"}
+{"login":"micha","id":15934,"avatar_url":"https://avatars0.githubusercontent.com/u/15934?v=4","gravatar_id":"","url":"https://api.github.com/users/micha","html_url":"https://github.com/micha","followers_url":"https://api.github.com/users/micha/followers","following_url":"https://api.github.com/users/micha/following{/other_user}","gists_url":"https://api.github.com/users/micha/gists{/gist_id}","starred_url":"https://api.github.com/users/micha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/micha/subscriptions","organizations_url":"https://api.github.com/users/micha/orgs","repos_url":"https://api.github.com/users/micha/repos","events_url":"https://api.github.com/users/micha/events{/privacy}","received_events_url":"https://api.github.com/users/micha/received_events","type":"User","site_admin":false,"name":"Micha Niskin","company":"@adzerk-oss ","blog":"http://micha.github.com/","location":"USA","email":"micha.niskin@gmail.com","hireable":null,"bio":null,"public_repos":113,"public_gists":189,"followers":174,"following":11,"created_at":"2008-07-03T16:51:53Z","updated_at":"2017-11-03T16:15:13Z"}
 0
 

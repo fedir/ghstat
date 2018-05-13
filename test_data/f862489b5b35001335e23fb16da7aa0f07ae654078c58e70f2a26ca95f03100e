@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:38:01 GMT
-Etag: W/"28f7b978da0f446980872a38a7b33447"
+Date: Sun, 13 May 2018 13:15:39 GMT
+Etag: W/"928f1525fbc9a22ae590293d2a06558a"
 Link: <https://api.github.com/user/544400/followers?page=2>; rel="prev", <https://api.github.com/user/544400/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D36F:148B:1BD4EF6:3CA522C:5AD266A9
+X-Github-Request-Id: D1F0:4F40:2608E60:574CE3C:5AF83A7B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4734
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.046159
+X-Ratelimit-Remaining: 392
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.043041
 X-Xss-Protection: 1; mode=block
 
-765
-[{"login":"chungchi300","id":5248427,"avatar_url":"https://avatars1.githubusercontent.com/u/5248427?v=4","gravatar_id":"","url":"https://api.github.com/users/chungchi300","html_url":"https://github.com/chungchi300","followers_url":"https://api.github.com/users/chungchi300/followers","following_url":"https://api.github.com/users/chungchi300/following{/other_user}","gists_url":"https://api.github.com/users/chungchi300/gists{/gist_id}","starred_url":"https://api.github.com/users/chungchi300/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chungchi300/subscriptions","organizations_url":"https://api.github.com/users/chungchi300/orgs","repos_url":"https://api.github.com/users/chungchi300/repos","events_url":"https://api.github.com/users/chungchi300/events{/privacy}","received_events_url":"https://api.github.com/users/chungchi300/received_events","type":"User","site_admin":false},{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false}]
+acd
+[{"login":"chungchi300","id":5248427,"avatar_url":"https://avatars1.githubusercontent.com/u/5248427?v=4","gravatar_id":"","url":"https://api.github.com/users/chungchi300","html_url":"https://github.com/chungchi300","followers_url":"https://api.github.com/users/chungchi300/followers","following_url":"https://api.github.com/users/chungchi300/following{/other_user}","gists_url":"https://api.github.com/users/chungchi300/gists{/gist_id}","starred_url":"https://api.github.com/users/chungchi300/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chungchi300/subscriptions","organizations_url":"https://api.github.com/users/chungchi300/orgs","repos_url":"https://api.github.com/users/chungchi300/repos","events_url":"https://api.github.com/users/chungchi300/events{/privacy}","received_events_url":"https://api.github.com/users/chungchi300/received_events","type":"User","site_admin":false},{"login":"johnlenonmaghanoy","id":9315686,"avatar_url":"https://avatars1.githubusercontent.com/u/9315686?v=4","gravatar_id":"","url":"https://api.github.com/users/johnlenonmaghanoy","html_url":"https://github.com/johnlenonmaghanoy","followers_url":"https://api.github.com/users/johnlenonmaghanoy/followers","following_url":"https://api.github.com/users/johnlenonmaghanoy/following{/other_user}","gists_url":"https://api.github.com/users/johnlenonmaghanoy/gists{/gist_id}","starred_url":"https://api.github.com/users/johnlenonmaghanoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnlenonmaghanoy/subscriptions","organizations_url":"https://api.github.com/users/johnlenonmaghanoy/orgs","repos_url":"https://api.github.com/users/johnlenonmaghanoy/repos","events_url":"https://api.github.com/users/johnlenonmaghanoy/events{/privacy}","received_events_url":"https://api.github.com/users/johnlenonmaghanoy/received_events","type":"User","site_admin":false},{"login":"swederik","id":607793,"avatar_url":"https://avatars3.githubusercontent.com/u/607793?v=4","gravatar_id":"","url":"https://api.github.com/users/swederik","html_url":"https://github.com/swederik","followers_url":"https://api.github.com/users/swederik/followers","following_url":"https://api.github.com/users/swederik/following{/other_user}","gists_url":"https://api.github.com/users/swederik/gists{/gist_id}","starred_url":"https://api.github.com/users/swederik/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/swederik/subscriptions","organizations_url":"https://api.github.com/users/swederik/orgs","repos_url":"https://api.github.com/users/swederik/repos","events_url":"https://api.github.com/users/swederik/events{/privacy}","received_events_url":"https://api.github.com/users/swederik/received_events","type":"User","site_admin":false}]
 0
 

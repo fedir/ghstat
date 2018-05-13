@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:59:26 GMT
+Etag: W/"e075e8ceaa0c945b0d8b6330ffcb4c0d"
+Last-Modified: Mon, 07 Mar 2016 19:28:04 GMT
+Link: <https://api.github.com/repositories/54168759/commits?page=1>; rel="first", <https://api.github.com/repositories/54168759/commits?page=33>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CBE2:4F42:44DA56B:8AB8413:5AF836AE
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3721
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.062194
+X-Xss-Protection: 1; mode=block
+
+ba3
+[{"sha":"967fcd26b2a21457224509aecb074004075cddc1","commit":{"author":{"name":"Sergio Benitez","email":"sbenitez@mit.edu","date":"2016-03-07T19:28:04Z"},"committer":{"name":"Sergio Benitez","email":"sbenitez@mit.edu","date":"2016-03-07T19:28:04Z"},"message":"Initial commit. Checking for method and path arguments in route. Not storing the info anywhere yet.","tree":{"sha":"0d0589b713f1df6c38ff114c2871288a874e1d54","url":"https://api.github.com/repos/SergioBenitez/Rocket/git/trees/0d0589b713f1df6c38ff114c2871288a874e1d54"},"url":"https://api.github.com/repos/SergioBenitez/Rocket/git/commits/967fcd26b2a21457224509aecb074004075cddc1","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/967fcd26b2a21457224509aecb074004075cddc1","html_url":"https://github.com/SergioBenitez/Rocket/commit/967fcd26b2a21457224509aecb074004075cddc1","comments_url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/967fcd26b2a21457224509aecb074004075cddc1/comments","author":{"login":"SergioBenitez","id":1480321,"avatar_url":"https://avatars3.githubusercontent.com/u/1480321?v=4","gravatar_id":"","url":"https://api.github.com/users/SergioBenitez","html_url":"https://github.com/SergioBenitez","followers_url":"https://api.github.com/users/SergioBenitez/followers","following_url":"https://api.github.com/users/SergioBenitez/following{/other_user}","gists_url":"https://api.github.com/users/SergioBenitez/gists{/gist_id}","starred_url":"https://api.github.com/users/SergioBenitez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SergioBenitez/subscriptions","organizations_url":"https://api.github.com/users/SergioBenitez/orgs","repos_url":"https://api.github.com/users/SergioBenitez/repos","events_url":"https://api.github.com/users/SergioBenitez/events{/privacy}","received_events_url":"https://api.github.com/users/SergioBenitez/received_events","type":"User","site_admin":false},"committer":{"login":"SergioBenitez","id":1480321,"avatar_url":"https://avatars3.githubusercontent.com/u/1480321?v=4","gravatar_id":"","url":"https://api.github.com/users/SergioBenitez","html_url":"https://github.com/SergioBenitez","followers_url":"https://api.github.com/users/SergioBenitez/followers","following_url":"https://api.github.com/users/SergioBenitez/following{/other_user}","gists_url":"https://api.github.com/users/SergioBenitez/gists{/gist_id}","starred_url":"https://api.github.com/users/SergioBenitez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SergioBenitez/subscriptions","organizations_url":"https://api.github.com/users/SergioBenitez/orgs","repos_url":"https://api.github.com/users/SergioBenitez/repos","events_url":"https://api.github.com/users/SergioBenitez/events{/privacy}","received_events_url":"https://api.github.com/users/SergioBenitez/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

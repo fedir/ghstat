@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:40 GMT
+Etag: W/"5712cb0a0f6b823e2dcda08b71db3248"
+Last-Modified: Sun, 13 May 2018 12:28:34 GMT
+Link: <https://api.github.com/repositories/5923215/contributors?page=4>; rel="prev", <https://api.github.com/repositories/5923215/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D231:4F40:2608EC5:574CF25:5AF83A7C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 306
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.057654
+X-Xss-Protection: 1; mode=block
+
+6d5
+[{"login":"zoubin","id":2097644,"avatar_url":"https://avatars0.githubusercontent.com/u/2097644?v=4","gravatar_id":"","url":"https://api.github.com/users/zoubin","html_url":"https://github.com/zoubin","followers_url":"https://api.github.com/users/zoubin/followers","following_url":"https://api.github.com/users/zoubin/following{/other_user}","gists_url":"https://api.github.com/users/zoubin/gists{/gist_id}","starred_url":"https://api.github.com/users/zoubin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zoubin/subscriptions","organizations_url":"https://api.github.com/users/zoubin/orgs","repos_url":"https://api.github.com/users/zoubin/repos","events_url":"https://api.github.com/users/zoubin/events{/privacy}","received_events_url":"https://api.github.com/users/zoubin/received_events","type":"User","site_admin":false,"contributions":1},{"login":"restran","id":2862915,"avatar_url":"https://avatars3.githubusercontent.com/u/2862915?v=4","gravatar_id":"","url":"https://api.github.com/users/restran","html_url":"https://github.com/restran","followers_url":"https://api.github.com/users/restran/followers","following_url":"https://api.github.com/users/restran/following{/other_user}","gists_url":"https://api.github.com/users/restran/gists{/gist_id}","starred_url":"https://api.github.com/users/restran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/restran/subscriptions","organizations_url":"https://api.github.com/users/restran/orgs","repos_url":"https://api.github.com/users/restran/repos","events_url":"https://api.github.com/users/restran/events{/privacy}","received_events_url":"https://api.github.com/users/restran/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:43 GMT
-Etag: W/"5e45c491b9ab7f37c182613703433be5"
+Date: Sun, 13 May 2018 13:08:14 GMT
+Etag: W/"7d5256f0aff2d390562e3ed794832858"
 Last-Modified: Sat, 24 Feb 2018 22:12:04 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB0C:3BFD:16EB562:35933C0:5AED0456
+X-Github-Request-Id: D09A:4F42:44ED2FB:8ADF901:5AF838BE
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4882
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.032978
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.031432
 X-Xss-Protection: 1; mode=block
 
 556
-{"login":"guillaumebort","id":94658,"avatar_url":"https://avatars3.githubusercontent.com/u/94658?v=4","gravatar_id":"","url":"https://api.github.com/users/guillaumebort","html_url":"https://github.com/guillaumebort","followers_url":"https://api.github.com/users/guillaumebort/followers","following_url":"https://api.github.com/users/guillaumebort/following{/other_user}","gists_url":"https://api.github.com/users/guillaumebort/gists{/gist_id}","starred_url":"https://api.github.com/users/guillaumebort/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/guillaumebort/subscriptions","organizations_url":"https://api.github.com/users/guillaumebort/orgs","repos_url":"https://api.github.com/users/guillaumebort/repos","events_url":"https://api.github.com/users/guillaumebort/events{/privacy}","received_events_url":"https://api.github.com/users/guillaumebort/received_events","type":"User","site_admin":false,"name":"Guillaume Bort","company":"Criteo","blog":"http://guillaume.bort.fr","location":"Paris","email":"guillaume.bort@gmail.com","hireable":null,"bio":"Creator of @playframework - Previously @Inria, @zengularity, @lightbend, @prismicio - Now working on the petabytes of analytics data at @Criteo","public_repos":22,"public_gists":37,"followers":480,"following":0,"created_at":"2009-06-12T09:46:51Z","updated_at":"2018-02-24T22:12:04Z"}
+{"login":"guillaumebort","id":94658,"avatar_url":"https://avatars3.githubusercontent.com/u/94658?v=4","gravatar_id":"","url":"https://api.github.com/users/guillaumebort","html_url":"https://github.com/guillaumebort","followers_url":"https://api.github.com/users/guillaumebort/followers","following_url":"https://api.github.com/users/guillaumebort/following{/other_user}","gists_url":"https://api.github.com/users/guillaumebort/gists{/gist_id}","starred_url":"https://api.github.com/users/guillaumebort/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/guillaumebort/subscriptions","organizations_url":"https://api.github.com/users/guillaumebort/orgs","repos_url":"https://api.github.com/users/guillaumebort/repos","events_url":"https://api.github.com/users/guillaumebort/events{/privacy}","received_events_url":"https://api.github.com/users/guillaumebort/received_events","type":"User","site_admin":false,"name":"Guillaume Bort","company":"Criteo","blog":"http://guillaume.bort.fr","location":"Paris","email":"guillaume.bort@gmail.com","hireable":null,"bio":"Creator of @playframework - Previously @Inria, @zengularity, @lightbend, @prismicio - Now working on the petabytes of analytics data at @Criteo","public_repos":22,"public_gists":37,"followers":479,"following":0,"created_at":"2009-06-12T09:46:51Z","updated_at":"2018-02-24T22:12:04Z"}
 0
 

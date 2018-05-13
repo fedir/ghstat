@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:18:15 GMT
-Etag: W/"02960d9fed8adf59edaee37a91a9e742"
+Date: Sun, 13 May 2018 12:57:42 GMT
+Etag: W/"903a8c20f9fd24a79aa83411b15f89c5"
 Link: <https://api.github.com/user/5436722/followers?page=1>; rel="prev", <https://api.github.com/user/5436722/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C58D:148C:22B5D87:469D956:5AD26207
+X-Github-Request-Id: CAE4:4F42:44D64C9:8AB05A3:5AF83646
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3948
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.038170
+X-Ratelimit-Remaining: 4793
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.029697
 X-Xss-Protection: 1; mode=block
 
-735
-[{"login":"theodesp","id":328805,"avatar_url":"https://avatars0.githubusercontent.com/u/328805?v=4","gravatar_id":"","url":"https://api.github.com/users/theodesp","html_url":"https://github.com/theodesp","followers_url":"https://api.github.com/users/theodesp/followers","following_url":"https://api.github.com/users/theodesp/following{/other_user}","gists_url":"https://api.github.com/users/theodesp/gists{/gist_id}","starred_url":"https://api.github.com/users/theodesp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/theodesp/subscriptions","organizations_url":"https://api.github.com/users/theodesp/orgs","repos_url":"https://api.github.com/users/theodesp/repos","events_url":"https://api.github.com/users/theodesp/events{/privacy}","received_events_url":"https://api.github.com/users/theodesp/received_events","type":"User","site_admin":false},{"login":"indrajithbandara","id":22976806,"avatar_url":"https://avatars1.githubusercontent.com/u/22976806?v=4","gravatar_id":"","url":"https://api.github.com/users/indrajithbandara","html_url":"https://github.com/indrajithbandara","followers_url":"https://api.github.com/users/indrajithbandara/followers","following_url":"https://api.github.com/users/indrajithbandara/following{/other_user}","gists_url":"https://api.github.com/users/indrajithbandara/gists{/gist_id}","starred_url":"https://api.github.com/users/indrajithbandara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indrajithbandara/subscriptions","organizations_url":"https://api.github.com/users/indrajithbandara/orgs","repos_url":"https://api.github.com/users/indrajithbandara/repos","events_url":"https://api.github.com/users/indrajithbandara/events{/privacy}","received_events_url":"https://api.github.com/users/indrajithbandara/received_events","type":"User","site_admin":false}]
+a95
+[{"login":"theodesp","id":328805,"avatar_url":"https://avatars0.githubusercontent.com/u/328805?v=4","gravatar_id":"","url":"https://api.github.com/users/theodesp","html_url":"https://github.com/theodesp","followers_url":"https://api.github.com/users/theodesp/followers","following_url":"https://api.github.com/users/theodesp/following{/other_user}","gists_url":"https://api.github.com/users/theodesp/gists{/gist_id}","starred_url":"https://api.github.com/users/theodesp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/theodesp/subscriptions","organizations_url":"https://api.github.com/users/theodesp/orgs","repos_url":"https://api.github.com/users/theodesp/repos","events_url":"https://api.github.com/users/theodesp/events{/privacy}","received_events_url":"https://api.github.com/users/theodesp/received_events","type":"User","site_admin":false},{"login":"indrajithbandara","id":22976806,"avatar_url":"https://avatars1.githubusercontent.com/u/22976806?v=4","gravatar_id":"","url":"https://api.github.com/users/indrajithbandara","html_url":"https://github.com/indrajithbandara","followers_url":"https://api.github.com/users/indrajithbandara/followers","following_url":"https://api.github.com/users/indrajithbandara/following{/other_user}","gists_url":"https://api.github.com/users/indrajithbandara/gists{/gist_id}","starred_url":"https://api.github.com/users/indrajithbandara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indrajithbandara/subscriptions","organizations_url":"https://api.github.com/users/indrajithbandara/orgs","repos_url":"https://api.github.com/users/indrajithbandara/repos","events_url":"https://api.github.com/users/indrajithbandara/events{/privacy}","received_events_url":"https://api.github.com/users/indrajithbandara/received_events","type":"User","site_admin":false},{"login":"tonyz21","id":27968805,"avatar_url":"https://avatars2.githubusercontent.com/u/27968805?v=4","gravatar_id":"","url":"https://api.github.com/users/tonyz21","html_url":"https://github.com/tonyz21","followers_url":"https://api.github.com/users/tonyz21/followers","following_url":"https://api.github.com/users/tonyz21/following{/other_user}","gists_url":"https://api.github.com/users/tonyz21/gists{/gist_id}","starred_url":"https://api.github.com/users/tonyz21/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tonyz21/subscriptions","organizations_url":"https://api.github.com/users/tonyz21/orgs","repos_url":"https://api.github.com/users/tonyz21/repos","events_url":"https://api.github.com/users/tonyz21/events{/privacy}","received_events_url":"https://api.github.com/users/tonyz21/received_events","type":"User","site_admin":false}]
 0
 

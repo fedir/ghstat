@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:39:46 GMT
-Etag: W/"21ea52b3afd4c2a9157e2084b33f02d4"
+Date: Sun, 13 May 2018 13:57:50 GMT
+Etag: W/"03cdcb0f2ecfbeaec3e27e63cbe26980"
 Link: <https://api.github.com/user/566016/followers?page=10>; rel="prev", <https://api.github.com/user/566016/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D43A:148C:22D7DD1:46E4568:5AD26712
+X-Github-Request-Id: D9E8:4F41:35E2637:75C07C1:5AF8445E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4254
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.032591
+X-Ratelimit-Remaining: 4988
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.043665
 X-Xss-Protection: 1; mode=block
 
-39d
-[{"login":"InduprasadSR","id":12188140,"avatar_url":"https://avatars3.githubusercontent.com/u/12188140?v=4","gravatar_id":"","url":"https://api.github.com/users/InduprasadSR","html_url":"https://github.com/InduprasadSR","followers_url":"https://api.github.com/users/InduprasadSR/followers","following_url":"https://api.github.com/users/InduprasadSR/following{/other_user}","gists_url":"https://api.github.com/users/InduprasadSR/gists{/gist_id}","starred_url":"https://api.github.com/users/InduprasadSR/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/InduprasadSR/subscriptions","organizations_url":"https://api.github.com/users/InduprasadSR/orgs","repos_url":"https://api.github.com/users/InduprasadSR/repos","events_url":"https://api.github.com/users/InduprasadSR/events{/privacy}","received_events_url":"https://api.github.com/users/InduprasadSR/received_events","type":"User","site_admin":false}]
+aa1
+[{"login":"InduprasadSR","id":12188140,"avatar_url":"https://avatars3.githubusercontent.com/u/12188140?v=4","gravatar_id":"","url":"https://api.github.com/users/InduprasadSR","html_url":"https://github.com/InduprasadSR","followers_url":"https://api.github.com/users/InduprasadSR/followers","following_url":"https://api.github.com/users/InduprasadSR/following{/other_user}","gists_url":"https://api.github.com/users/InduprasadSR/gists{/gist_id}","starred_url":"https://api.github.com/users/InduprasadSR/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/InduprasadSR/subscriptions","organizations_url":"https://api.github.com/users/InduprasadSR/orgs","repos_url":"https://api.github.com/users/InduprasadSR/repos","events_url":"https://api.github.com/users/InduprasadSR/events{/privacy}","received_events_url":"https://api.github.com/users/InduprasadSR/received_events","type":"User","site_admin":false},{"login":"ajsb85","id":663460,"avatar_url":"https://avatars3.githubusercontent.com/u/663460?v=4","gravatar_id":"","url":"https://api.github.com/users/ajsb85","html_url":"https://github.com/ajsb85","followers_url":"https://api.github.com/users/ajsb85/followers","following_url":"https://api.github.com/users/ajsb85/following{/other_user}","gists_url":"https://api.github.com/users/ajsb85/gists{/gist_id}","starred_url":"https://api.github.com/users/ajsb85/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ajsb85/subscriptions","organizations_url":"https://api.github.com/users/ajsb85/orgs","repos_url":"https://api.github.com/users/ajsb85/repos","events_url":"https://api.github.com/users/ajsb85/events{/privacy}","received_events_url":"https://api.github.com/users/ajsb85/received_events","type":"User","site_admin":false},{"login":"vuongxuongminh","id":38932626,"avatar_url":"https://avatars2.githubusercontent.com/u/38932626?v=4","gravatar_id":"","url":"https://api.github.com/users/vuongxuongminh","html_url":"https://github.com/vuongxuongminh","followers_url":"https://api.github.com/users/vuongxuongminh/followers","following_url":"https://api.github.com/users/vuongxuongminh/following{/other_user}","gists_url":"https://api.github.com/users/vuongxuongminh/gists{/gist_id}","starred_url":"https://api.github.com/users/vuongxuongminh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vuongxuongminh/subscriptions","organizations_url":"https://api.github.com/users/vuongxuongminh/orgs","repos_url":"https://api.github.com/users/vuongxuongminh/repos","events_url":"https://api.github.com/users/vuongxuongminh/events{/privacy}","received_events_url":"https://api.github.com/users/vuongxuongminh/received_events","type":"User","site_admin":false}]
 0
 

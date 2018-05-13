@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:38:05 GMT
-Etag: W/"2fe56381301404853055e821d594b6a3"
-Last-Modified: Sat, 14 Apr 2018 20:02:19 GMT
+Date: Sun, 13 May 2018 13:15:44 GMT
+Etag: W/"8aedf83384e453af3a5cae328031a728"
+Last-Modified: Sun, 13 May 2018 13:15:13 GMT
 Link: <https://api.github.com/repositories/10270250/contributors?page=15>; rel="prev", <https://api.github.com/repositories/10270250/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D398:148C:22D58F0:46DF5AA:5AD266AD
+X-Github-Request-Id: D240:4F42:44FD5EB:8AFFB60:5AF83A7E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4515
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.132154
+X-Ratelimit-Remaining: 217
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.096440
 X-Xss-Protection: 1; mode=block
 
-ddf
-[{"login":"benjaffe","id":573204,"avatar_url":"https://avatars0.githubusercontent.com/u/573204?v=4","gravatar_id":"","url":"https://api.github.com/users/benjaffe","html_url":"https://github.com/benjaffe","followers_url":"https://api.github.com/users/benjaffe/followers","following_url":"https://api.github.com/users/benjaffe/following{/other_user}","gists_url":"https://api.github.com/users/benjaffe/gists{/gist_id}","starred_url":"https://api.github.com/users/benjaffe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/benjaffe/subscriptions","organizations_url":"https://api.github.com/users/benjaffe/orgs","repos_url":"https://api.github.com/users/benjaffe/repos","events_url":"https://api.github.com/users/benjaffe/events{/privacy}","received_events_url":"https://api.github.com/users/benjaffe/received_events","type":"User","site_admin":false,"contributions":1},{"login":"bmeurer","id":815988,"avatar_url":"https://avatars3.githubusercontent.com/u/815988?v=4","gravatar_id":"","url":"https://api.github.com/users/bmeurer","html_url":"https://github.com/bmeurer","followers_url":"https://api.github.com/users/bmeurer/followers","following_url":"https://api.github.com/users/bmeurer/following{/other_user}","gists_url":"https://api.github.com/users/bmeurer/gists{/gist_id}","starred_url":"https://api.github.com/users/bmeurer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bmeurer/subscriptions","organizations_url":"https://api.github.com/users/bmeurer/orgs","repos_url":"https://api.github.com/users/bmeurer/repos","events_url":"https://api.github.com/users/bmeurer/events{/privacy}","received_events_url":"https://api.github.com/users/bmeurer/received_events","type":"User","site_admin":false,"contributions":1},{"login":"benkeen","id":512116,"avatar_url":"https://avatars0.githubusercontent.com/u/512116?v=4","gravatar_id":"","url":"https://api.github.com/users/benkeen","html_url":"https://github.com/benkeen","followers_url":"https://api.github.com/users/benkeen/followers","following_url":"https://api.github.com/users/benkeen/following{/other_user}","gists_url":"https://api.github.com/users/benkeen/gists{/gist_id}","starred_url":"https://api.github.com/users/benkeen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/benkeen/subscriptions","organizations_url":"https://api.github.com/users/benkeen/orgs","repos_url":"https://api.github.com/users/benkeen/repos","events_url":"https://api.github.com/users/benkeen/events{/privacy}","received_events_url":"https://api.github.com/users/benkeen/received_events","type":"User","site_admin":false,"contributions":1},{"login":"benleiken","id":1434562,"avatar_url":"https://avatars0.githubusercontent.com/u/1434562?v=4","gravatar_id":"","url":"https://api.github.com/users/benleiken","html_url":"https://github.com/benleiken","followers_url":"https://api.github.com/users/benleiken/followers","following_url":"https://api.github.com/users/benleiken/following{/other_user}","gists_url":"https://api.github.com/users/benleiken/gists{/gist_id}","starred_url":"https://api.github.com/users/benleiken/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/benleiken/subscriptions","organizations_url":"https://api.github.com/users/benleiken/orgs","repos_url":"https://api.github.com/users/benleiken/repos","events_url":"https://api.github.com/users/benleiken/events{/privacy}","received_events_url":"https://api.github.com/users/benleiken/received_events","type":"User","site_admin":false,"contributions":1}]
+6ed
+[{"login":"rivertam","id":4165105,"avatar_url":"https://avatars1.githubusercontent.com/u/4165105?v=4","gravatar_id":"","url":"https://api.github.com/users/rivertam","html_url":"https://github.com/rivertam","followers_url":"https://api.github.com/users/rivertam/followers","following_url":"https://api.github.com/users/rivertam/following{/other_user}","gists_url":"https://api.github.com/users/rivertam/gists{/gist_id}","starred_url":"https://api.github.com/users/rivertam/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rivertam/subscriptions","organizations_url":"https://api.github.com/users/rivertam/orgs","repos_url":"https://api.github.com/users/rivertam/repos","events_url":"https://api.github.com/users/rivertam/events{/privacy}","received_events_url":"https://api.github.com/users/rivertam/received_events","type":"User","site_admin":false,"contributions":1},{"login":"bbrooks","id":3484010,"avatar_url":"https://avatars3.githubusercontent.com/u/3484010?v=4","gravatar_id":"","url":"https://api.github.com/users/bbrooks","html_url":"https://github.com/bbrooks","followers_url":"https://api.github.com/users/bbrooks/followers","following_url":"https://api.github.com/users/bbrooks/following{/other_user}","gists_url":"https://api.github.com/users/bbrooks/gists{/gist_id}","starred_url":"https://api.github.com/users/bbrooks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bbrooks/subscriptions","organizations_url":"https://api.github.com/users/bbrooks/orgs","repos_url":"https://api.github.com/users/bbrooks/repos","events_url":"https://api.github.com/users/bbrooks/events{/privacy}","received_events_url":"https://api.github.com/users/bbrooks/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

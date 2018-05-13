@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:51 GMT
+Etag: W/"79f0ea58684415f94e73e8b11d953c70"
+Link: <https://api.github.com/user/170745/followers?page=7>; rel="prev", <https://api.github.com/user/170745/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D25F:4F40:2609119:574D558:5AF83A86
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 40
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.042131
+X-Xss-Protection: 1; mode=block
+
+72b
+[{"login":"xiaodong6","id":29500761,"avatar_url":"https://avatars1.githubusercontent.com/u/29500761?v=4","gravatar_id":"","url":"https://api.github.com/users/xiaodong6","html_url":"https://github.com/xiaodong6","followers_url":"https://api.github.com/users/xiaodong6/followers","following_url":"https://api.github.com/users/xiaodong6/following{/other_user}","gists_url":"https://api.github.com/users/xiaodong6/gists{/gist_id}","starred_url":"https://api.github.com/users/xiaodong6/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xiaodong6/subscriptions","organizations_url":"https://api.github.com/users/xiaodong6/orgs","repos_url":"https://api.github.com/users/xiaodong6/repos","events_url":"https://api.github.com/users/xiaodong6/events{/privacy}","received_events_url":"https://api.github.com/users/xiaodong6/received_events","type":"User","site_admin":false},{"login":"carltondickson","id":1442885,"avatar_url":"https://avatars2.githubusercontent.com/u/1442885?v=4","gravatar_id":"","url":"https://api.github.com/users/carltondickson","html_url":"https://github.com/carltondickson","followers_url":"https://api.github.com/users/carltondickson/followers","following_url":"https://api.github.com/users/carltondickson/following{/other_user}","gists_url":"https://api.github.com/users/carltondickson/gists{/gist_id}","starred_url":"https://api.github.com/users/carltondickson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/carltondickson/subscriptions","organizations_url":"https://api.github.com/users/carltondickson/orgs","repos_url":"https://api.github.com/users/carltondickson/repos","events_url":"https://api.github.com/users/carltondickson/events{/privacy}","received_events_url":"https://api.github.com/users/carltondickson/received_events","type":"User","site_admin":false}]
+0
+

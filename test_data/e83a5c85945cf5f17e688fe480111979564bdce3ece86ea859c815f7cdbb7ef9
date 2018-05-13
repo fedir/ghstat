@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:08:27 GMT
+Etag: W/"73058d3ba82105e1741bd05302ea945e"
+Link: <https://api.github.com/user/19075/followers?page=9>; rel="prev", <https://api.github.com/user/19075/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D0AF:4F42:44ED957:8AE0678:5AF838CB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 752
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038177
+X-Xss-Protection: 1; mode=block
+
+729
+[{"login":"richardflint","id":1304364,"avatar_url":"https://avatars2.githubusercontent.com/u/1304364?v=4","gravatar_id":"","url":"https://api.github.com/users/richardflint","html_url":"https://github.com/richardflint","followers_url":"https://api.github.com/users/richardflint/followers","following_url":"https://api.github.com/users/richardflint/following{/other_user}","gists_url":"https://api.github.com/users/richardflint/gists{/gist_id}","starred_url":"https://api.github.com/users/richardflint/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richardflint/subscriptions","organizations_url":"https://api.github.com/users/richardflint/orgs","repos_url":"https://api.github.com/users/richardflint/repos","events_url":"https://api.github.com/users/richardflint/events{/privacy}","received_events_url":"https://api.github.com/users/richardflint/received_events","type":"User","site_admin":false},{"login":"neildmorris","id":8901939,"avatar_url":"https://avatars2.githubusercontent.com/u/8901939?v=4","gravatar_id":"","url":"https://api.github.com/users/neildmorris","html_url":"https://github.com/neildmorris","followers_url":"https://api.github.com/users/neildmorris/followers","following_url":"https://api.github.com/users/neildmorris/following{/other_user}","gists_url":"https://api.github.com/users/neildmorris/gists{/gist_id}","starred_url":"https://api.github.com/users/neildmorris/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/neildmorris/subscriptions","organizations_url":"https://api.github.com/users/neildmorris/orgs","repos_url":"https://api.github.com/users/neildmorris/repos","events_url":"https://api.github.com/users/neildmorris/events{/privacy}","received_events_url":"https://api.github.com/users/neildmorris/received_events","type":"User","site_admin":false}]
+0
+

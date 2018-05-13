@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 15 Apr 2018 13:53:08 GMT
-Etag: W/"32ecafee9e6ae082119b2bca7d64efa9"
+Date: Sun, 13 May 2018 12:58:47 GMT
+Etag: W/"ab64cba211a4cb13739ec9f054c447be"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D9A4:148C:2910944:5348BEF:5AD35944
+X-Github-Request-Id: CB0E:4F40:25F8747:5723909:5AF83687
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4780
-X-Ratelimit-Reset: 1523802882
-X-Runtime-Rack: 0.033203
+X-Ratelimit-Remaining: 4493
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.068480
 X-Xss-Protection: 1; mode=block
 
-766
-[{"total":41,"weeks":[{"w":1508025600,"a":1520,"d":0,"c":1},{"w":1508630400,"a":0,"d":0,"c":0},{"w":1509235200,"a":322,"d":65,"c":3},{"w":1509840000,"a":0,"d":0,"c":0},{"w":1510444800,"a":146,"d":56,"c":7},{"w":1511049600,"a":58,"d":1,"c":1},{"w":1511654400,"a":40,"d":8,"c":3},{"w":1512259200,"a":232,"d":221,"c":3},{"w":1512864000,"a":0,"d":0,"c":0},{"w":1513468800,"a":2127,"d":1768,"c":8},{"w":1514073600,"a":180,"d":179,"c":10},{"w":1514678400,"a":448,"d":546,"c":5},{"w":1515283200,"a":0,"d":0,"c":0},{"w":1515888000,"a":0,"d":0,"c":0},{"w":1516492800,"a":0,"d":0,"c":0},{"w":1517097600,"a":0,"d":0,"c":0},{"w":1517702400,"a":0,"d":0,"c":0},{"w":1518307200,"a":0,"d":0,"c":0},{"w":1518912000,"a":0,"d":0,"c":0},{"w":1519516800,"a":0,"d":0,"c":0},{"w":1520121600,"a":0,"d":0,"c":0},{"w":1520726400,"a":0,"d":0,"c":0},{"w":1521331200,"a":0,"d":0,"c":0},{"w":1521936000,"a":0,"d":0,"c":0},{"w":1522540800,"a":0,"d":0,"c":0},{"w":1523145600,"a":0,"d":0,"c":0},{"w":1523750400,"a":0,"d":0,"c":0}],"author":{"login":"vladfaust","id":7955682,"avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false}}]
+7fb
+[{"total":67,"weeks":[{"w":1508025600,"a":1520,"d":0,"c":1},{"w":1508630400,"a":0,"d":0,"c":0},{"w":1509235200,"a":322,"d":65,"c":3},{"w":1509840000,"a":0,"d":0,"c":0},{"w":1510444800,"a":146,"d":56,"c":7},{"w":1511049600,"a":58,"d":1,"c":1},{"w":1511654400,"a":40,"d":8,"c":3},{"w":1512259200,"a":232,"d":221,"c":3},{"w":1512864000,"a":0,"d":0,"c":0},{"w":1513468800,"a":2127,"d":1768,"c":8},{"w":1514073600,"a":180,"d":179,"c":10},{"w":1514678400,"a":448,"d":546,"c":5},{"w":1515283200,"a":0,"d":0,"c":0},{"w":1515888000,"a":0,"d":0,"c":0},{"w":1516492800,"a":0,"d":0,"c":0},{"w":1517097600,"a":0,"d":0,"c":0},{"w":1517702400,"a":0,"d":0,"c":0},{"w":1518307200,"a":0,"d":0,"c":0},{"w":1518912000,"a":0,"d":0,"c":0},{"w":1519516800,"a":0,"d":0,"c":0},{"w":1520121600,"a":0,"d":0,"c":0},{"w":1520726400,"a":0,"d":0,"c":0},{"w":1521331200,"a":0,"d":0,"c":0},{"w":1521936000,"a":0,"d":0,"c":0},{"w":1522540800,"a":0,"d":0,"c":0},{"w":1523145600,"a":0,"d":0,"c":0},{"w":1523750400,"a":0,"d":0,"c":0},{"w":1524355200,"a":44,"d":51,"c":7},{"w":1524960000,"a":0,"d":0,"c":0},{"w":1525564800,"a":1972,"d":1211,"c":19},{"w":1526169600,"a":0,"d":0,"c":0}],"author":{"login":"vladfaust","id":7955682,"avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false}}]
 0
 

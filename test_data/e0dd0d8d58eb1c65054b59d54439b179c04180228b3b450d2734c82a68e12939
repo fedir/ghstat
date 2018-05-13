@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:41 GMT
+Etag: W/"77dabd23a7a7fd55feb2256cd3979d02"
+Last-Modified: Sun, 13 May 2018 08:02:19 GMT
+Link: <https://api.github.com/repositories/1801829/tags?page=10>; rel="prev", <https://api.github.com/repositories/1801829/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D22A:4F42:44FD4B0:8AFF981:5AF83A7D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 281
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.086041
+X-Xss-Protection: 1; mode=block
+
+594
+[{"name":"sc-v2.0.beta.3","zipball_url":"https://api.github.com/repos/emberjs/ember.js/zipball/sc-v2.0.beta.3","tarball_url":"https://api.github.com/repos/emberjs/ember.js/tarball/sc-v2.0.beta.3","commit":{"sha":"2f043247cfae6243561054e42ba040dffe8f27dd","url":"https://api.github.com/repos/emberjs/ember.js/commits/2f043247cfae6243561054e42ba040dffe8f27dd"}},{"name":"sc-v2.0.beta.2","zipball_url":"https://api.github.com/repos/emberjs/ember.js/zipball/sc-v2.0.beta.2","tarball_url":"https://api.github.com/repos/emberjs/ember.js/tarball/sc-v2.0.beta.2","commit":{"sha":"88d3e498fcac74b878df5fc9ed6a83d90e02dfde","url":"https://api.github.com/repos/emberjs/ember.js/commits/88d3e498fcac74b878df5fc9ed6a83d90e02dfde"}},{"name":"sc-v2.0.beta.1","zipball_url":"https://api.github.com/repos/emberjs/ember.js/zipball/sc-v2.0.beta.1","tarball_url":"https://api.github.com/repos/emberjs/ember.js/tarball/sc-v2.0.beta.1","commit":{"sha":"a1564cd5a554f14f451c83671e3084be0cf54e16","url":"https://api.github.com/repos/emberjs/ember.js/commits/a1564cd5a554f14f451c83671e3084be0cf54e16"}},{"name":"release-2-8","zipball_url":"https://api.github.com/repos/emberjs/ember.js/zipball/release-2-8","tarball_url":"https://api.github.com/repos/emberjs/ember.js/tarball/release-2-8","commit":{"sha":"62d9ba28ac24d461039664f44aba7cc1d79e6a5d","url":"https://api.github.com/repos/emberjs/ember.js/commits/62d9ba28ac24d461039664f44aba7cc1d79e6a5d"}}]
+0
+

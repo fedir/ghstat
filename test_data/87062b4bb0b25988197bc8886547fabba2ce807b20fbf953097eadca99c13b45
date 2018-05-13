@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:34 GMT
-Etag: W/"f828c0ef6d9876cdfd32165b1cfe8f4c"
-Last-Modified: Tue, 01 May 2018 19:56:20 GMT
+Date: Sun, 13 May 2018 13:00:58 GMT
+Etag: W/"c3999dad36bb59c20ba4354f98c79fb6"
+Last-Modified: Wed, 09 May 2018 12:17:17 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAB3:3BFC:2182C82:493EC3D:5AED044E
+X-Github-Request-Id: CDCA:4F41:359827E:7509E21:5AF8370A
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4950
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.056001
+X-Ratelimit-Remaining: 2800
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.040464
 X-Xss-Protection: 1; mode=block
 
 4ba
-{"login":"slogsdon","id":647624,"avatar_url":"https://avatars0.githubusercontent.com/u/647624?v=4","gravatar_id":"","url":"https://api.github.com/users/slogsdon","html_url":"https://github.com/slogsdon","followers_url":"https://api.github.com/users/slogsdon/followers","following_url":"https://api.github.com/users/slogsdon/following{/other_user}","gists_url":"https://api.github.com/users/slogsdon/gists{/gist_id}","starred_url":"https://api.github.com/users/slogsdon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slogsdon/subscriptions","organizations_url":"https://api.github.com/users/slogsdon/orgs","repos_url":"https://api.github.com/users/slogsdon/repos","events_url":"https://api.github.com/users/slogsdon/events{/privacy}","received_events_url":"https://api.github.com/users/slogsdon/received_events","type":"User","site_admin":false,"name":"Shane Logsdon","company":"Heartland (@hps)","blog":"https://shane.logsdon.io","location":"Louisville, KY, USA","email":null,"hireable":null,"bio":"Polyglot developer who likes to build things","public_repos":110,"public_gists":14,"followers":95,"following":7,"created_at":"2011-03-02T19:45:49Z","updated_at":"2018-05-01T19:56:20Z"}
+{"login":"slogsdon","id":647624,"avatar_url":"https://avatars0.githubusercontent.com/u/647624?v=4","gravatar_id":"","url":"https://api.github.com/users/slogsdon","html_url":"https://github.com/slogsdon","followers_url":"https://api.github.com/users/slogsdon/followers","following_url":"https://api.github.com/users/slogsdon/following{/other_user}","gists_url":"https://api.github.com/users/slogsdon/gists{/gist_id}","starred_url":"https://api.github.com/users/slogsdon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slogsdon/subscriptions","organizations_url":"https://api.github.com/users/slogsdon/orgs","repos_url":"https://api.github.com/users/slogsdon/repos","events_url":"https://api.github.com/users/slogsdon/events{/privacy}","received_events_url":"https://api.github.com/users/slogsdon/received_events","type":"User","site_admin":false,"name":"Shane Logsdon","company":"Heartland (@hps)","blog":"https://shane.logsdon.io","location":"Louisville, KY, USA","email":null,"hireable":null,"bio":"Polyglot developer who likes to build things","public_repos":111,"public_gists":14,"followers":94,"following":7,"created_at":"2011-03-02T19:45:49Z","updated_at":"2018-05-09T12:17:17Z"}
 0
 

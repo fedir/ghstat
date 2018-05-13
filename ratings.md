@@ -6,7 +6,7 @@
 * The newest project is `go-aah/aah`
 * The project with more commits is `gohugoio/hugo`
 * The project with biggest average contribution period is `go-aah/aah`
-* The project with more tags is `labstack/echo`
+* The project with more tags is `gohugoio/hugo`
 * The project made by most notable top contributors is `astaxie/beego`
 * The project with best errors resolving rate is `kataras/iris`
 * The project with more commits by day is `gohugoio/hugo`
@@ -37,7 +37,7 @@
 * The most popular project is `kemalcr/kemal`
 * The newest project is `spider-gazelle/spider-gazelle`
 * The project with more commits is `amberframework/amber`
-* The project with biggest average contribution period is `samueleaton/raze`
+* The project with biggest average contribution period is `vladfaust/prism`
 * The project with more tags is `kemalcr/kemal`
 * The project made by most notable top contributors is `kemalcr/kemal`
 * The project with best errors resolving rate is `kemalcr/kemal`
@@ -139,7 +139,7 @@
 * The project with best errors resolving rate is `fulcrologic/fulcro`
 * The project with more commits by day is `fulcrologic/fulcro`
 * The project with the most active number of forkers is `fulcrologic/fulcro`
-* The project with biggest number of returning contributors is `fulcrologic/fulcro`
+* The project with biggest number of returning contributors is `pedestal/pedestal`
 * The best project (taking in account placements in all competitions) is `fulcrologic/fulcro`
 
 [Detailed Clojure frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/clojure_frameworks.csv)
@@ -231,7 +231,7 @@
 * The project with more commits is `cutelyst/cutelyst`
 * The project with biggest average contribution period is `cutelyst/cutelyst`
 * The project with more tags is `cutelyst/cutelyst`
-* The project made by most notable top contributors is `treefrogframework/treefrog-framework`
+* The project made by most notable top contributors is `ipkn/crow`
 * The project with best errors resolving rate is `cutelyst/cutelyst`
 * The project with more commits by day is `cutelyst/cutelyst`
 * The project with the most active number of forkers is `cutelyst/cutelyst`
@@ -250,8 +250,8 @@
 * The project made by most notable top contributors is `fukamachi/caveman`
 * The project with best errors resolving rate is `Shirakumo/radiance`
 * The project with more commits by day is `Shirakumo/radiance`
-* The project with the most active number of forkers is `Shirakumo/radiance`
-* The project with biggest number of returning contributors is `Shirakumo/radiance`
+* The project with the most active number of forkers is `hargettp/hh-web`
+* The project with biggest number of returning contributors is `hargettp/hh-web`
 * The best project (taking in account placements in all competitions) is `Shirakumo/radiance`
 
 [Detailed Lisp frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/lisp_frameworks.csv)
@@ -314,7 +314,7 @@
 * The project made by most notable top contributors is `laravel/framework`
 * The project with best errors resolving rate is `nova-framework/framework`
 * The project with more commits by day is `cakephp/cakephp`
-* The project with the most active number of forkers is `leocavalcante/siler`
+* The project with the most active number of forkers is `nette/nette`
 * The project with biggest number of returning contributors is `symfony/symfony`
 * The best project (taking in account placements in all competitions) is `laravel/framework`
 
@@ -328,7 +328,7 @@
 * The project with biggest average contribution period is `hypercube1024/firefly`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
-* The project with best errors resolving rate is `totaljs/framework`
+* The project with best errors resolving rate is `HerikLyma/CPPWebFramework`
 * The project with more commits by day is `rails/rails`
 * The project with the most active number of forkers is `vladfaust/prism`
 * The project with biggest number of returning contributors is `rails/rails`
@@ -408,7 +408,7 @@
 * The project with biggest average contribution period is `liferay/liferay-portal`
 * The project with more tags is `nuxeo/nuxeo`
 * The project made by most notable top contributors is `liferay/liferay-portal`
-* The project with best errors resolving rate is `Softmotions/ncms`
+* The project with best errors resolving rate is `alkacon/opencms-core`
 * The project with more commits by day is `liferay/liferay-portal`
 * The project with the most active number of forkers is `Softmotions/ncms`
 * The project with biggest number of returning contributors is `liferay/liferay-portal`

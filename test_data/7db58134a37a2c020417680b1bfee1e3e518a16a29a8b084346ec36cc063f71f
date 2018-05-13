@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:01:20 GMT
+Etag: W/"c37bd3120478fe94fd17e81d4e9d774d"
+Link: <https://api.github.com/user/1388608/followers?page=8>; rel="prev", <https://api.github.com/user/1388608/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CDFA:4F42:44DEF7B:8AC164A:5AF83720
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2440
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038145
+X-Xss-Protection: 1; mode=block
+
+6ef
+[{"login":"simsketch","id":3129129,"avatar_url":"https://avatars3.githubusercontent.com/u/3129129?v=4","gravatar_id":"","url":"https://api.github.com/users/simsketch","html_url":"https://github.com/simsketch","followers_url":"https://api.github.com/users/simsketch/followers","following_url":"https://api.github.com/users/simsketch/following{/other_user}","gists_url":"https://api.github.com/users/simsketch/gists{/gist_id}","starred_url":"https://api.github.com/users/simsketch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/simsketch/subscriptions","organizations_url":"https://api.github.com/users/simsketch/orgs","repos_url":"https://api.github.com/users/simsketch/repos","events_url":"https://api.github.com/users/simsketch/events{/privacy}","received_events_url":"https://api.github.com/users/simsketch/received_events","type":"User","site_admin":false},{"login":"Huang9495","id":26674689,"avatar_url":"https://avatars2.githubusercontent.com/u/26674689?v=4","gravatar_id":"","url":"https://api.github.com/users/Huang9495","html_url":"https://github.com/Huang9495","followers_url":"https://api.github.com/users/Huang9495/followers","following_url":"https://api.github.com/users/Huang9495/following{/other_user}","gists_url":"https://api.github.com/users/Huang9495/gists{/gist_id}","starred_url":"https://api.github.com/users/Huang9495/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Huang9495/subscriptions","organizations_url":"https://api.github.com/users/Huang9495/orgs","repos_url":"https://api.github.com/users/Huang9495/repos","events_url":"https://api.github.com/users/Huang9495/events{/privacy}","received_events_url":"https://api.github.com/users/Huang9495/received_events","type":"User","site_admin":false}]
+0
+

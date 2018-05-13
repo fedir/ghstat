@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:58:01 GMT
+Etag: W/"a9f170b810066ac35db87e92c6d7464c"
+Link: <https://api.github.com/user/5550462/followers?page=2>; rel="prev", <https://api.github.com/user/5550462/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DA81:4F41:35E2AD5:75C1299:5AF84469
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4649
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.039465
+X-Xss-Protection: 1; mode=block
+
+33d
+[{"login":"vdmk","id":16530310,"avatar_url":"https://avatars1.githubusercontent.com/u/16530310?v=4","gravatar_id":"","url":"https://api.github.com/users/vdmk","html_url":"https://github.com/vdmk","followers_url":"https://api.github.com/users/vdmk/followers","following_url":"https://api.github.com/users/vdmk/following{/other_user}","gists_url":"https://api.github.com/users/vdmk/gists{/gist_id}","starred_url":"https://api.github.com/users/vdmk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vdmk/subscriptions","organizations_url":"https://api.github.com/users/vdmk/orgs","repos_url":"https://api.github.com/users/vdmk/repos","events_url":"https://api.github.com/users/vdmk/events{/privacy}","received_events_url":"https://api.github.com/users/vdmk/received_events","type":"User","site_admin":false}]
+0
+

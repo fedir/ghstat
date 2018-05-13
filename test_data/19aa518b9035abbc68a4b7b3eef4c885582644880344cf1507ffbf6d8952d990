@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:22:31 GMT
-Etag: W/"38ed4ee8cbc3c9113b17c7d2b7148a80"
+Date: Sun, 13 May 2018 13:03:25 GMT
+Etag: W/"750a45f720aed92c6cb3eeb072e50bd5"
 Link: <https://api.github.com/user/2090/followers?page=10>; rel="prev", <https://api.github.com/user/2090/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D1CA:148C:22BD970:46AD225:5AD26307
+X-Github-Request-Id: CF89:4F42:44E324E:8ACA4B5:5AF8379D
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 422
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.035506
+X-Ratelimit-Remaining: 2025
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.034307
 X-Xss-Protection: 1; mode=block
 
-369
-[{"login":"rcullito","id":909156,"avatar_url":"https://avatars1.githubusercontent.com/u/909156?v=4","gravatar_id":"","url":"https://api.github.com/users/rcullito","html_url":"https://github.com/rcullito","followers_url":"https://api.github.com/users/rcullito/followers","following_url":"https://api.github.com/users/rcullito/following{/other_user}","gists_url":"https://api.github.com/users/rcullito/gists{/gist_id}","starred_url":"https://api.github.com/users/rcullito/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rcullito/subscriptions","organizations_url":"https://api.github.com/users/rcullito/orgs","repos_url":"https://api.github.com/users/rcullito/repos","events_url":"https://api.github.com/users/rcullito/events{/privacy}","received_events_url":"https://api.github.com/users/rcullito/received_events","type":"User","site_admin":false}]
+6e1
+[{"login":"rcullito","id":909156,"avatar_url":"https://avatars1.githubusercontent.com/u/909156?v=4","gravatar_id":"","url":"https://api.github.com/users/rcullito","html_url":"https://github.com/rcullito","followers_url":"https://api.github.com/users/rcullito/followers","following_url":"https://api.github.com/users/rcullito/following{/other_user}","gists_url":"https://api.github.com/users/rcullito/gists{/gist_id}","starred_url":"https://api.github.com/users/rcullito/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rcullito/subscriptions","organizations_url":"https://api.github.com/users/rcullito/orgs","repos_url":"https://api.github.com/users/rcullito/repos","events_url":"https://api.github.com/users/rcullito/events{/privacy}","received_events_url":"https://api.github.com/users/rcullito/received_events","type":"User","site_admin":false},{"login":"brianbegy","id":17928652,"avatar_url":"https://avatars0.githubusercontent.com/u/17928652?v=4","gravatar_id":"","url":"https://api.github.com/users/brianbegy","html_url":"https://github.com/brianbegy","followers_url":"https://api.github.com/users/brianbegy/followers","following_url":"https://api.github.com/users/brianbegy/following{/other_user}","gists_url":"https://api.github.com/users/brianbegy/gists{/gist_id}","starred_url":"https://api.github.com/users/brianbegy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianbegy/subscriptions","organizations_url":"https://api.github.com/users/brianbegy/orgs","repos_url":"https://api.github.com/users/brianbegy/repos","events_url":"https://api.github.com/users/brianbegy/events{/privacy}","received_events_url":"https://api.github.com/users/brianbegy/received_events","type":"User","site_admin":false}]
 0
 

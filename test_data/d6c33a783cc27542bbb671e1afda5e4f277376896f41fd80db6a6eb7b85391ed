@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:19:31 GMT
-Etag: W/"45fd8466639dda522eec5a3019848141"
+Date: Sun, 13 May 2018 13:00:59 GMT
+Etag: W/"a8ec88cfb2a3630aedd0041bf3ae70b1"
 Link: <https://api.github.com/user/68001/followers?page=1>; rel="prev", <https://api.github.com/user/68001/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C965:148C:22B83A1:46A22F4:5AD26253
+X-Github-Request-Id: CDC5:4F41:35982A2:7509E7F:5AF8370A
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2586
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.033976
+X-Ratelimit-Remaining: 2791
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038383
 X-Xss-Protection: 1; mode=block
 
-703
-[{"login":"PatrickNgare","id":6449244,"avatar_url":"https://avatars2.githubusercontent.com/u/6449244?v=4","gravatar_id":"","url":"https://api.github.com/users/PatrickNgare","html_url":"https://github.com/PatrickNgare","followers_url":"https://api.github.com/users/PatrickNgare/followers","following_url":"https://api.github.com/users/PatrickNgare/following{/other_user}","gists_url":"https://api.github.com/users/PatrickNgare/gists{/gist_id}","starred_url":"https://api.github.com/users/PatrickNgare/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PatrickNgare/subscriptions","organizations_url":"https://api.github.com/users/PatrickNgare/orgs","repos_url":"https://api.github.com/users/PatrickNgare/repos","events_url":"https://api.github.com/users/PatrickNgare/events{/privacy}","received_events_url":"https://api.github.com/users/PatrickNgare/received_events","type":"User","site_admin":false},{"login":"nelsonic","id":194400,"avatar_url":"https://avatars3.githubusercontent.com/u/194400?v=4","gravatar_id":"","url":"https://api.github.com/users/nelsonic","html_url":"https://github.com/nelsonic","followers_url":"https://api.github.com/users/nelsonic/followers","following_url":"https://api.github.com/users/nelsonic/following{/other_user}","gists_url":"https://api.github.com/users/nelsonic/gists{/gist_id}","starred_url":"https://api.github.com/users/nelsonic/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nelsonic/subscriptions","organizations_url":"https://api.github.com/users/nelsonic/orgs","repos_url":"https://api.github.com/users/nelsonic/repos","events_url":"https://api.github.com/users/nelsonic/events{/privacy}","received_events_url":"https://api.github.com/users/nelsonic/received_events","type":"User","site_admin":false}]
+6d3
+[{"login":"nelsonic","id":194400,"avatar_url":"https://avatars3.githubusercontent.com/u/194400?v=4","gravatar_id":"","url":"https://api.github.com/users/nelsonic","html_url":"https://github.com/nelsonic","followers_url":"https://api.github.com/users/nelsonic/followers","following_url":"https://api.github.com/users/nelsonic/following{/other_user}","gists_url":"https://api.github.com/users/nelsonic/gists{/gist_id}","starred_url":"https://api.github.com/users/nelsonic/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nelsonic/subscriptions","organizations_url":"https://api.github.com/users/nelsonic/orgs","repos_url":"https://api.github.com/users/nelsonic/repos","events_url":"https://api.github.com/users/nelsonic/events{/privacy}","received_events_url":"https://api.github.com/users/nelsonic/received_events","type":"User","site_admin":false},{"login":"kenvilar","id":2937299,"avatar_url":"https://avatars0.githubusercontent.com/u/2937299?v=4","gravatar_id":"","url":"https://api.github.com/users/kenvilar","html_url":"https://github.com/kenvilar","followers_url":"https://api.github.com/users/kenvilar/followers","following_url":"https://api.github.com/users/kenvilar/following{/other_user}","gists_url":"https://api.github.com/users/kenvilar/gists{/gist_id}","starred_url":"https://api.github.com/users/kenvilar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kenvilar/subscriptions","organizations_url":"https://api.github.com/users/kenvilar/orgs","repos_url":"https://api.github.com/users/kenvilar/repos","events_url":"https://api.github.com/users/kenvilar/events{/privacy}","received_events_url":"https://api.github.com/users/kenvilar/received_events","type":"User","site_admin":false}]
 0
 

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:58:44 GMT
+Etag: W/"2ee4cba6c289625f6c6cd8332562b752"
+Last-Modified: Fri, 06 Jan 2017 21:01:00 GMT
+Link: <https://api.github.com/repositories/78238350/commits?page=1>; rel="first", <https://api.github.com/repositories/78238350/commits?page=13>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB08:4F41:3594C6A:7501700:5AF83683
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4577
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.062809
+X-Xss-Protection: 1; mode=block
+
+b06
+[{"sha":"ca7347902488029833d135a45d94f92a9addcc88","commit":{"author":{"name":"Paul Smith","email":"paulcsmith0218@gmail.com","date":"2017-01-06T21:01:00Z"},"committer":{"name":"Paul Smith","email":"paulcsmith0218@gmail.com","date":"2017-01-06T21:01:00Z"},"message":"Initial commit","tree":{"sha":"93af67479f05ea9693479abe4dda95565a97d4e6","url":"https://api.github.com/repos/luckyframework/lucky/git/trees/93af67479f05ea9693479abe4dda95565a97d4e6"},"url":"https://api.github.com/repos/luckyframework/lucky/git/commits/ca7347902488029833d135a45d94f92a9addcc88","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/luckyframework/lucky/commits/ca7347902488029833d135a45d94f92a9addcc88","html_url":"https://github.com/luckyframework/lucky/commit/ca7347902488029833d135a45d94f92a9addcc88","comments_url":"https://api.github.com/repos/luckyframework/lucky/commits/ca7347902488029833d135a45d94f92a9addcc88/comments","author":{"login":"paulcsmith","id":22394,"avatar_url":"https://avatars0.githubusercontent.com/u/22394?v=4","gravatar_id":"","url":"https://api.github.com/users/paulcsmith","html_url":"https://github.com/paulcsmith","followers_url":"https://api.github.com/users/paulcsmith/followers","following_url":"https://api.github.com/users/paulcsmith/following{/other_user}","gists_url":"https://api.github.com/users/paulcsmith/gists{/gist_id}","starred_url":"https://api.github.com/users/paulcsmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulcsmith/subscriptions","organizations_url":"https://api.github.com/users/paulcsmith/orgs","repos_url":"https://api.github.com/users/paulcsmith/repos","events_url":"https://api.github.com/users/paulcsmith/events{/privacy}","received_events_url":"https://api.github.com/users/paulcsmith/received_events","type":"User","site_admin":false},"committer":{"login":"paulcsmith","id":22394,"avatar_url":"https://avatars0.githubusercontent.com/u/22394?v=4","gravatar_id":"","url":"https://api.github.com/users/paulcsmith","html_url":"https://github.com/paulcsmith","followers_url":"https://api.github.com/users/paulcsmith/followers","following_url":"https://api.github.com/users/paulcsmith/following{/other_user}","gists_url":"https://api.github.com/users/paulcsmith/gists{/gist_id}","starred_url":"https://api.github.com/users/paulcsmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulcsmith/subscriptions","organizations_url":"https://api.github.com/users/paulcsmith/orgs","repos_url":"https://api.github.com/users/paulcsmith/repos","events_url":"https://api.github.com/users/paulcsmith/events{/privacy}","received_events_url":"https://api.github.com/users/paulcsmith/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

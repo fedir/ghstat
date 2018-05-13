@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:49 GMT
+Etag: W/"d44923e09353c918957cad89c2ea1478"
+Link: <https://api.github.com/user/47294/followers?page=62>; rel="prev", <https://api.github.com/user/47294/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D254:4F41:35AC5FF:753CDF0:5AF83A85
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 119
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.090532
+X-Xss-Protection: 1; mode=block
+
+72d
+[{"login":"MopningStars","id":32542672,"avatar_url":"https://avatars2.githubusercontent.com/u/32542672?v=4","gravatar_id":"","url":"https://api.github.com/users/MopningStars","html_url":"https://github.com/MopningStars","followers_url":"https://api.github.com/users/MopningStars/followers","following_url":"https://api.github.com/users/MopningStars/following{/other_user}","gists_url":"https://api.github.com/users/MopningStars/gists{/gist_id}","starred_url":"https://api.github.com/users/MopningStars/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MopningStars/subscriptions","organizations_url":"https://api.github.com/users/MopningStars/orgs","repos_url":"https://api.github.com/users/MopningStars/repos","events_url":"https://api.github.com/users/MopningStars/events{/privacy}","received_events_url":"https://api.github.com/users/MopningStars/received_events","type":"User","site_admin":false},{"login":"muitosefala","id":16143791,"avatar_url":"https://avatars3.githubusercontent.com/u/16143791?v=4","gravatar_id":"","url":"https://api.github.com/users/muitosefala","html_url":"https://github.com/muitosefala","followers_url":"https://api.github.com/users/muitosefala/followers","following_url":"https://api.github.com/users/muitosefala/following{/other_user}","gists_url":"https://api.github.com/users/muitosefala/gists{/gist_id}","starred_url":"https://api.github.com/users/muitosefala/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muitosefala/subscriptions","organizations_url":"https://api.github.com/users/muitosefala/orgs","repos_url":"https://api.github.com/users/muitosefala/repos","events_url":"https://api.github.com/users/muitosefala/events{/privacy}","received_events_url":"https://api.github.com/users/muitosefala/received_events","type":"User","site_admin":false}]
+0
+

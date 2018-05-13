@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:00:07 GMT
+Etag: W/"741678a3bcde4f97c1da24b27a0b00ec"
+Link: <https://api.github.com/user/882397/followers?page=12>; rel="prev", <https://api.github.com/user/882397/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD60:4F42:44DC238:8ABBB07:5AF836D7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2834
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.050385
+X-Xss-Protection: 1; mode=block
+
+dff
+[{"login":"JeyKeu","id":642353,"avatar_url":"https://avatars3.githubusercontent.com/u/642353?v=4","gravatar_id":"","url":"https://api.github.com/users/JeyKeu","html_url":"https://github.com/JeyKeu","followers_url":"https://api.github.com/users/JeyKeu/followers","following_url":"https://api.github.com/users/JeyKeu/following{/other_user}","gists_url":"https://api.github.com/users/JeyKeu/gists{/gist_id}","starred_url":"https://api.github.com/users/JeyKeu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JeyKeu/subscriptions","organizations_url":"https://api.github.com/users/JeyKeu/orgs","repos_url":"https://api.github.com/users/JeyKeu/repos","events_url":"https://api.github.com/users/JeyKeu/events{/privacy}","received_events_url":"https://api.github.com/users/JeyKeu/received_events","type":"User","site_admin":false},{"login":"MaryUshenina","id":1484657,"avatar_url":"https://avatars2.githubusercontent.com/u/1484657?v=4","gravatar_id":"","url":"https://api.github.com/users/MaryUshenina","html_url":"https://github.com/MaryUshenina","followers_url":"https://api.github.com/users/MaryUshenina/followers","following_url":"https://api.github.com/users/MaryUshenina/following{/other_user}","gists_url":"https://api.github.com/users/MaryUshenina/gists{/gist_id}","starred_url":"https://api.github.com/users/MaryUshenina/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MaryUshenina/subscriptions","organizations_url":"https://api.github.com/users/MaryUshenina/orgs","repos_url":"https://api.github.com/users/MaryUshenina/repos","events_url":"https://api.github.com/users/MaryUshenina/events{/privacy}","received_events_url":"https://api.github.com/users/MaryUshenina/received_events","type":"User","site_admin":false},{"login":"acuevas920516","id":22688028,"avatar_url":"https://avatars2.githubusercontent.com/u/22688028?v=4","gravatar_id":"","url":"https://api.github.com/users/acuevas920516","html_url":"https://github.com/acuevas920516","followers_url":"https://api.github.com/users/acuevas920516/followers","following_url":"https://api.github.com/users/acuevas920516/following{/other_user}","gists_url":"https://api.github.com/users/acuevas920516/gists{/gist_id}","starred_url":"https://api.github.com/users/acuevas920516/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/acuevas920516/subscriptions","organizations_url":"https://api.github.com/users/acuevas920516/orgs","repos_url":"https://api.github.com/users/acuevas920516/repos","events_url":"https://api.github.com/users/acuevas920516/events{/privacy}","received_events_url":"https://api.github.com/users/acuevas920516/received_events","type":"User","site_admin":false},{"login":"mim-soft","id":28053704,"avatar_url":"https://avatars0.githubusercontent.com/u/28053704?v=4","gravatar_id":"","url":"https://api.github.com/users/mim-soft","html_url":"https://github.com/mim-soft","followers_url":"https://api.github.com/users/mim-soft/followers","following_url":"https://api.github.com/users/mim-soft/following{/other_user}","gists_url":"https://api.github.com/users/mim-soft/gists{/gist_id}","starred_url":"https://api.github.com/users/mim-soft/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mim-soft/subscriptions","organizations_url":"https://api.github.com/users/mim-soft/orgs","repos_url":"https://api.github.com/users/mim-soft/repos","events_url":"https://api.github.com/users/mim-soft/events{/privacy}","received_events_url":"https://api.github.com/users/mim-soft/received_events","type":"User","site_admin":false}]
+0
+

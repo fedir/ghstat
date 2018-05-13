@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:06:59 GMT
+Etag: W/"d715e84481e2996b2ad1fba0a02e4418"
+Link: <https://api.github.com/user/920155/followers?page=2>; rel="prev", <https://api.github.com/user/920155/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFD9:4F40:2600D1C:57385B9:5AF83873
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1518
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.041804
+X-Xss-Protection: 1; mode=block
+
+df1
+[{"login":"KevinHock","id":3076393,"avatar_url":"https://avatars1.githubusercontent.com/u/3076393?v=4","gravatar_id":"","url":"https://api.github.com/users/KevinHock","html_url":"https://github.com/KevinHock","followers_url":"https://api.github.com/users/KevinHock/followers","following_url":"https://api.github.com/users/KevinHock/following{/other_user}","gists_url":"https://api.github.com/users/KevinHock/gists{/gist_id}","starred_url":"https://api.github.com/users/KevinHock/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KevinHock/subscriptions","organizations_url":"https://api.github.com/users/KevinHock/orgs","repos_url":"https://api.github.com/users/KevinHock/repos","events_url":"https://api.github.com/users/KevinHock/events{/privacy}","received_events_url":"https://api.github.com/users/KevinHock/received_events","type":"User","site_admin":false},{"login":"wellington1993","id":6920053,"avatar_url":"https://avatars3.githubusercontent.com/u/6920053?v=4","gravatar_id":"","url":"https://api.github.com/users/wellington1993","html_url":"https://github.com/wellington1993","followers_url":"https://api.github.com/users/wellington1993/followers","following_url":"https://api.github.com/users/wellington1993/following{/other_user}","gists_url":"https://api.github.com/users/wellington1993/gists{/gist_id}","starred_url":"https://api.github.com/users/wellington1993/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wellington1993/subscriptions","organizations_url":"https://api.github.com/users/wellington1993/orgs","repos_url":"https://api.github.com/users/wellington1993/repos","events_url":"https://api.github.com/users/wellington1993/events{/privacy}","received_events_url":"https://api.github.com/users/wellington1993/received_events","type":"User","site_admin":false},{"login":"whuben","id":9390100,"avatar_url":"https://avatars2.githubusercontent.com/u/9390100?v=4","gravatar_id":"","url":"https://api.github.com/users/whuben","html_url":"https://github.com/whuben","followers_url":"https://api.github.com/users/whuben/followers","following_url":"https://api.github.com/users/whuben/following{/other_user}","gists_url":"https://api.github.com/users/whuben/gists{/gist_id}","starred_url":"https://api.github.com/users/whuben/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/whuben/subscriptions","organizations_url":"https://api.github.com/users/whuben/orgs","repos_url":"https://api.github.com/users/whuben/repos","events_url":"https://api.github.com/users/whuben/events{/privacy}","received_events_url":"https://api.github.com/users/whuben/received_events","type":"User","site_admin":false},{"login":"samparsky","id":8148384,"avatar_url":"https://avatars1.githubusercontent.com/u/8148384?v=4","gravatar_id":"","url":"https://api.github.com/users/samparsky","html_url":"https://github.com/samparsky","followers_url":"https://api.github.com/users/samparsky/followers","following_url":"https://api.github.com/users/samparsky/following{/other_user}","gists_url":"https://api.github.com/users/samparsky/gists{/gist_id}","starred_url":"https://api.github.com/users/samparsky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samparsky/subscriptions","organizations_url":"https://api.github.com/users/samparsky/orgs","repos_url":"https://api.github.com/users/samparsky/repos","events_url":"https://api.github.com/users/samparsky/events{/privacy}","received_events_url":"https://api.github.com/users/samparsky/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:43 GMT
-Etag: W/"4ca4ec2e692169f89251b528e45c603c"
-Last-Modified: Wed, 02 May 2018 16:05:03 GMT
+Date: Sun, 13 May 2018 12:59:35 GMT
+Etag: W/"5c45bd3f49803cd70691c4ce378ef131"
+Last-Modified: Tue, 08 May 2018 15:46:17 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB11:3BFC:2182F07:493F28B:5AED0456
+X-Github-Request-Id: CC09:4F41:3595F86:750487C:5AF836B6
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4885
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.032127
+X-Ratelimit-Remaining: 3562
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038711
 X-Xss-Protection: 1; mode=block
 
 45a
-{"login":"nebhale","id":60754,"avatar_url":"https://avatars1.githubusercontent.com/u/60754?v=4","gravatar_id":"","url":"https://api.github.com/users/nebhale","html_url":"https://github.com/nebhale","followers_url":"https://api.github.com/users/nebhale/followers","following_url":"https://api.github.com/users/nebhale/following{/other_user}","gists_url":"https://api.github.com/users/nebhale/gists{/gist_id}","starred_url":"https://api.github.com/users/nebhale/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebhale/subscriptions","organizations_url":"https://api.github.com/users/nebhale/orgs","repos_url":"https://api.github.com/users/nebhale/repos","events_url":"https://api.github.com/users/nebhale/events{/privacy}","received_events_url":"https://api.github.com/users/nebhale/received_events","type":"User","site_admin":false,"name":"Ben Hale","company":null,"blog":"","location":"San Francisco, CA, USA","email":null,"hireable":null,"bio":null,"public_repos":68,"public_gists":47,"followers":301,"following":0,"created_at":"2009-03-06T12:53:09Z","updated_at":"2018-05-02T16:05:03Z"}
+{"login":"nebhale","id":60754,"avatar_url":"https://avatars1.githubusercontent.com/u/60754?v=4","gravatar_id":"","url":"https://api.github.com/users/nebhale","html_url":"https://github.com/nebhale","followers_url":"https://api.github.com/users/nebhale/followers","following_url":"https://api.github.com/users/nebhale/following{/other_user}","gists_url":"https://api.github.com/users/nebhale/gists{/gist_id}","starred_url":"https://api.github.com/users/nebhale/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebhale/subscriptions","organizations_url":"https://api.github.com/users/nebhale/orgs","repos_url":"https://api.github.com/users/nebhale/repos","events_url":"https://api.github.com/users/nebhale/events{/privacy}","received_events_url":"https://api.github.com/users/nebhale/received_events","type":"User","site_admin":false,"name":"Ben Hale","company":null,"blog":"","location":"San Francisco, CA, USA","email":null,"hireable":null,"bio":null,"public_repos":69,"public_gists":49,"followers":301,"following":0,"created_at":"2009-03-06T12:53:09Z","updated_at":"2018-05-08T15:46:17Z"}
 0
 

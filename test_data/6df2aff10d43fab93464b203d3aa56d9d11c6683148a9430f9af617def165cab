@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:35 GMT
-Etag: W/"b9df1b60803f0c2ad7df09af0a90e02a"
-Last-Modified: Wed, 18 Apr 2018 18:13:19 GMT
+Date: Sun, 13 May 2018 13:01:07 GMT
+Etag: W/"17eff4ded9afab9077275688f815808d"
+Last-Modified: Fri, 11 May 2018 21:42:33 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CABB:3BFF:2B5AC30:5712DC9:5AED044F
+X-Github-Request-Id: CDE2:4F42:44DE761:8AC0653:5AF83713
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4948
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.038328
+X-Ratelimit-Remaining: 2673
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.033371
 X-Xss-Protection: 1; mode=block
 
 4a5
-{"login":"jacobian","id":21148,"avatar_url":"https://avatars1.githubusercontent.com/u/21148?v=4","gravatar_id":"","url":"https://api.github.com/users/jacobian","html_url":"https://github.com/jacobian","followers_url":"https://api.github.com/users/jacobian/followers","following_url":"https://api.github.com/users/jacobian/following{/other_user}","gists_url":"https://api.github.com/users/jacobian/gists{/gist_id}","starred_url":"https://api.github.com/users/jacobian/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jacobian/subscriptions","organizations_url":"https://api.github.com/users/jacobian/orgs","repos_url":"https://api.github.com/users/jacobian/repos","events_url":"https://api.github.com/users/jacobian/events{/privacy}","received_events_url":"https://api.github.com/users/jacobian/received_events","type":"User","site_admin":false,"name":"Jacob Kaplan-Moss","company":"18F (work) + personal projects","blog":"http://jacobian.org/","location":"Davis, CA","email":"jacob@jacobian.org","hireable":null,"bio":null,"public_repos":35,"public_gists":132,"followers":2244,"following":22,"created_at":"2008-08-19T15:20:56Z","updated_at":"2018-04-18T18:13:19Z"}
+{"login":"jacobian","id":21148,"avatar_url":"https://avatars1.githubusercontent.com/u/21148?v=4","gravatar_id":"","url":"https://api.github.com/users/jacobian","html_url":"https://github.com/jacobian","followers_url":"https://api.github.com/users/jacobian/followers","following_url":"https://api.github.com/users/jacobian/following{/other_user}","gists_url":"https://api.github.com/users/jacobian/gists{/gist_id}","starred_url":"https://api.github.com/users/jacobian/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jacobian/subscriptions","organizations_url":"https://api.github.com/users/jacobian/orgs","repos_url":"https://api.github.com/users/jacobian/repos","events_url":"https://api.github.com/users/jacobian/events{/privacy}","received_events_url":"https://api.github.com/users/jacobian/received_events","type":"User","site_admin":false,"name":"Jacob Kaplan-Moss","company":"18F (work) + personal projects","blog":"http://jacobian.org/","location":"Davis, CA","email":"jacob@jacobian.org","hireable":null,"bio":null,"public_repos":35,"public_gists":132,"followers":2244,"following":22,"created_at":"2008-08-19T15:20:56Z","updated_at":"2018-05-11T21:42:33Z"}
 0
 

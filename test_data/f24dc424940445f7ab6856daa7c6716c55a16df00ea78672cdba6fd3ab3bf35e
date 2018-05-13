@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:39:59 GMT
-Etag: W/"3d910b6c1a57b29a55904bb5f7c8fd7a"
-Last-Modified: Thu, 12 Apr 2018 16:10:30 GMT
+Date: Sun, 13 May 2018 13:58:05 GMT
+Etag: W/"5b71f56b2481d19af4fa80ec8b795bd5"
+Last-Modified: Tue, 08 May 2018 20:02:30 GMT
 Link: <https://api.github.com/repositories/40964014/tags?page=6>; rel="prev", <https://api.github.com/repositories/40964014/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D469:148B:1BD70DB:3CAA032:5AD2671F
+X-Github-Request-Id: DAF8:4F42:4553379:8BA7729:5AF8446D
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3659
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.058573
+X-Ratelimit-Remaining: 4279
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.072589
 X-Xss-Protection: 1; mode=block
 
-4ab
-[{"name":"1.0.0-alpha2","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha2","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha2","commit":{"sha":"00381ade427258948fb9e85ff8ca6e46151f99c7","url":"https://api.github.com/repos/neos/neos-development-collection/commits/00381ade427258948fb9e85ff8ca6e46151f99c7"}},{"name":"1.0.0-alpha1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha1","commit":{"sha":"6e57d7b82d3c76327494e8c054b8d40056d4c748","url":"https://api.github.com/repos/neos/neos-development-collection/commits/6e57d7b82d3c76327494e8c054b8d40056d4c748"}},{"name":"1.0.0-RC1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-RC1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-RC1","commit":{"sha":"b3041e2c360801cc9bd1b14056ecbd3c7d84efdb","url":"https://api.github.com/repos/neos/neos-development-collection/commits/b3041e2c360801cc9bd1b14056ecbd3c7d84efdb"}}]
+aef
+[{"name":"1.0.0-alpha6","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha6","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha6","commit":{"sha":"cd6f1558306fd079ecd0cb5c839057871958e4ca","url":"https://api.github.com/repos/neos/neos-development-collection/commits/cd6f1558306fd079ecd0cb5c839057871958e4ca"}},{"name":"1.0.0-alpha5","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha5","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha5","commit":{"sha":"a394b79696252412bd733c0405d0e81235fcfdff","url":"https://api.github.com/repos/neos/neos-development-collection/commits/a394b79696252412bd733c0405d0e81235fcfdff"}},{"name":"1.0.0-alpha4","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha4","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha4","commit":{"sha":"c1efd7399eb37a30b53546d6bb3a490491b6ee11","url":"https://api.github.com/repos/neos/neos-development-collection/commits/c1efd7399eb37a30b53546d6bb3a490491b6ee11"}},{"name":"1.0.0-alpha3","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha3","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha3","commit":{"sha":"bfadef863576e574fd41bedc312205b478f0b7eb","url":"https://api.github.com/repos/neos/neos-development-collection/commits/bfadef863576e574fd41bedc312205b478f0b7eb"}},{"name":"1.0.0-alpha2","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha2","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha2","commit":{"sha":"00381ade427258948fb9e85ff8ca6e46151f99c7","url":"https://api.github.com/repos/neos/neos-development-collection/commits/00381ade427258948fb9e85ff8ca6e46151f99c7"}},{"name":"1.0.0-alpha1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha1","commit":{"sha":"6e57d7b82d3c76327494e8c054b8d40056d4c748","url":"https://api.github.com/repos/neos/neos-development-collection/commits/6e57d7b82d3c76327494e8c054b8d40056d4c748"}},{"name":"1.0.0-RC1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-RC1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-RC1","commit":{"sha":"b3041e2c360801cc9bd1b14056ecbd3c7d84efdb","url":"https://api.github.com/repos/neos/neos-development-collection/commits/b3041e2c360801cc9bd1b14056ecbd3c7d84efdb"}}]
 0
 

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:22:33 GMT
-Etag: W/"1a7ab430f4d81344d1eaa59fd798061f"
-Last-Modified: Thu, 12 Apr 2018 16:49:51 GMT
+Date: Sun, 13 May 2018 13:03:28 GMT
+Etag: W/"72a9bb2798bec942d8b5373bf81cbd9b"
+Last-Modified: Sat, 12 May 2018 10:03:10 GMT
 Link: <https://api.github.com/repositories/13677/tags?page=2>; rel="prev", <https://api.github.com/repositories/13677/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D1D9:148C:22BDAAC:46AD4AB:5AD26309
+X-Github-Request-Id: CF94:4F42:44E33B4:8ACA7A7:5AF8379F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 334
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.037082
+X-Ratelimit-Remaining: 1929
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.041913
 X-Xss-Protection: 1; mode=block
 
-15c
-[{"name":"0.1.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.1.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.1.0","commit":{"sha":"793369f3d51bbe53516d7228f61c173fc36f6586","url":"https://api.github.com/repos/weavejester/compojure/commits/793369f3d51bbe53516d7228f61c173fc36f6586"}}]
+2b7
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.2.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.2.0","commit":{"sha":"3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8","url":"https://api.github.com/repos/weavejester/compojure/commits/3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.1.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.1.0","commit":{"sha":"793369f3d51bbe53516d7228f61c173fc36f6586","url":"https://api.github.com/repos/weavejester/compojure/commits/793369f3d51bbe53516d7228f61c173fc36f6586"}}]
 0
 

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:39:44 GMT
-Etag: W/"322ad13d3673207f1055a68af2f1eae3"
+Date: Sun, 13 May 2018 13:15:50 GMT
+Etag: W/"98662526b4e8f457c07c1b0ca3b18e62"
 Link: <https://api.github.com/user/313117/followers?page=1>; rel="prev", <https://api.github.com/user/313117/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D436:148C:22D7D05:46E43C0:5AD26710
+X-Github-Request-Id: D25B:4F42:44FD947:8B0032E:5AF83A86
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4331
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.032743
+X-Ratelimit-Remaining: 71
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.036736
 X-Xss-Protection: 1; mode=block
 
-6f9
-[{"login":"ucsdmath","id":12222464,"avatar_url":"https://avatars2.githubusercontent.com/u/12222464?v=4","gravatar_id":"","url":"https://api.github.com/users/ucsdmath","html_url":"https://github.com/ucsdmath","followers_url":"https://api.github.com/users/ucsdmath/followers","following_url":"https://api.github.com/users/ucsdmath/following{/other_user}","gists_url":"https://api.github.com/users/ucsdmath/gists{/gist_id}","starred_url":"https://api.github.com/users/ucsdmath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ucsdmath/subscriptions","organizations_url":"https://api.github.com/users/ucsdmath/orgs","repos_url":"https://api.github.com/users/ucsdmath/repos","events_url":"https://api.github.com/users/ucsdmath/events{/privacy}","received_events_url":"https://api.github.com/users/ucsdmath/received_events","type":"User","site_admin":false},{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false}]
+38d
+[{"login":"heathdutton","id":302215,"avatar_url":"https://avatars1.githubusercontent.com/u/302215?v=4","gravatar_id":"","url":"https://api.github.com/users/heathdutton","html_url":"https://github.com/heathdutton","followers_url":"https://api.github.com/users/heathdutton/followers","following_url":"https://api.github.com/users/heathdutton/following{/other_user}","gists_url":"https://api.github.com/users/heathdutton/gists{/gist_id}","starred_url":"https://api.github.com/users/heathdutton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heathdutton/subscriptions","organizations_url":"https://api.github.com/users/heathdutton/orgs","repos_url":"https://api.github.com/users/heathdutton/repos","events_url":"https://api.github.com/users/heathdutton/events{/privacy}","received_events_url":"https://api.github.com/users/heathdutton/received_events","type":"User","site_admin":false}]
 0
 

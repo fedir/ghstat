@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:01:24 GMT
+Etag: W/"ab74b10117fe07d1cd5d93672abe6b63"
+Link: <https://api.github.com/user/47542/followers?page=7>; rel="prev", <https://api.github.com/user/47542/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE03:4F41:3598CE0:750B8A8:5AF83724
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2279
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.037200
+X-Xss-Protection: 1; mode=block
+
+6c1
+[{"login":"nottxy","id":16054136,"avatar_url":"https://avatars3.githubusercontent.com/u/16054136?v=4","gravatar_id":"","url":"https://api.github.com/users/nottxy","html_url":"https://github.com/nottxy","followers_url":"https://api.github.com/users/nottxy/followers","following_url":"https://api.github.com/users/nottxy/following{/other_user}","gists_url":"https://api.github.com/users/nottxy/gists{/gist_id}","starred_url":"https://api.github.com/users/nottxy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nottxy/subscriptions","organizations_url":"https://api.github.com/users/nottxy/orgs","repos_url":"https://api.github.com/users/nottxy/repos","events_url":"https://api.github.com/users/nottxy/events{/privacy}","received_events_url":"https://api.github.com/users/nottxy/received_events","type":"User","site_admin":false},{"login":"adityac8","id":19192257,"avatar_url":"https://avatars0.githubusercontent.com/u/19192257?v=4","gravatar_id":"","url":"https://api.github.com/users/adityac8","html_url":"https://github.com/adityac8","followers_url":"https://api.github.com/users/adityac8/followers","following_url":"https://api.github.com/users/adityac8/following{/other_user}","gists_url":"https://api.github.com/users/adityac8/gists{/gist_id}","starred_url":"https://api.github.com/users/adityac8/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adityac8/subscriptions","organizations_url":"https://api.github.com/users/adityac8/orgs","repos_url":"https://api.github.com/users/adityac8/repos","events_url":"https://api.github.com/users/adityac8/events{/privacy}","received_events_url":"https://api.github.com/users/adityac8/received_events","type":"User","site_admin":false}]
+0
+

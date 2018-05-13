@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 15 Apr 2018 13:53:10 GMT
-Etag: W/"c5722fab602eb030a5c71d76f108930a"
-Last-Modified: Fri, 13 Apr 2018 21:27:36 GMT
+Date: Sun, 13 May 2018 12:58:48 GMT
+Etag: W/"4b7d8c8f3b281ed733bada435e92bce6"
+Last-Modified: Sun, 13 May 2018 10:52:32 GMT
 Link: <https://api.github.com/repositories/78238350/tags?page=1>; rel="prev", <https://api.github.com/repositories/78238350/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D9A2:148B:2053805:46C6776:5AD35946
+X-Github-Request-Id: CB1A:4F41:3594DD1:7501AB2:5AF83688
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4758
-X-Ratelimit-Reset: 1523802882
-X-Runtime-Rack: 0.041337
+X-Ratelimit-Remaining: 4476
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.040596
 X-Xss-Protection: 1; mode=block
 
-2b7
-[{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.1","commit":{"sha":"0eea55410222f97baf702fd559b075da0fc44643","url":"https://api.github.com/repos/luckyframework/lucky/commits/0eea55410222f97baf702fd559b075da0fc44643"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.0","commit":{"sha":"cfa27e38c13600dedf850f48f7467211a411ccbe","url":"https://api.github.com/repos/luckyframework/lucky/commits/cfa27e38c13600dedf850f48f7467211a411ccbe"}}]
+6c8
+[{"name":"v0.2.4","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.4","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.4","commit":{"sha":"db6c0b117c9d3dedbef5e2ce65965e920cf0e064","url":"https://api.github.com/repos/luckyframework/lucky/commits/db6c0b117c9d3dedbef5e2ce65965e920cf0e064"}},{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.3","commit":{"sha":"c170094dce6dac40ec546269cdf2981dd1cb3686","url":"https://api.github.com/repos/luckyframework/lucky/commits/c170094dce6dac40ec546269cdf2981dd1cb3686"}},{"name":"v0.2.2","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.2","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.2","commit":{"sha":"1087dd0a7fae502efab31e92fab436ef822f5116","url":"https://api.github.com/repos/luckyframework/lucky/commits/1087dd0a7fae502efab31e92fab436ef822f5116"}},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.1","commit":{"sha":"0eea55410222f97baf702fd559b075da0fc44643","url":"https://api.github.com/repos/luckyframework/lucky/commits/0eea55410222f97baf702fd559b075da0fc44643"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/luckyframework/lucky/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/luckyframework/lucky/tarball/v0.2.0","commit":{"sha":"cfa27e38c13600dedf850f48f7467211a411ccbe","url":"https://api.github.com/repos/luckyframework/lucky/commits/cfa27e38c13600dedf850f48f7467211a411ccbe"}}]
 0
 

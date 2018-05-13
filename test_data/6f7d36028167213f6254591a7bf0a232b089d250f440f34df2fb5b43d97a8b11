@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:36 GMT
-Etag: W/"a455fc0a30c2814c74b89f8b6f0e3ed5"
-Last-Modified: Mon, 16 Apr 2018 15:31:07 GMT
+Date: Sun, 13 May 2018 12:59:18 GMT
+Etag: W/"e4e0522abf47f9c3c7549bb8992b75cc"
+Last-Modified: Mon, 07 May 2018 05:22:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CACA:3BFF:2B5AC9C:5712ECE:5AED0450
+X-Github-Request-Id: CB8C:4F41:3595940:75038A5:5AF836A6
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4933
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.042063
+X-Ratelimit-Remaining: 3897
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.031111
 X-Xss-Protection: 1; mode=block
 
 49c
-{"login":"zetachang","id":839973,"avatar_url":"https://avatars2.githubusercontent.com/u/839973?v=4","gravatar_id":"","url":"https://api.github.com/users/zetachang","html_url":"https://github.com/zetachang","followers_url":"https://api.github.com/users/zetachang/followers","following_url":"https://api.github.com/users/zetachang/following{/other_user}","gists_url":"https://api.github.com/users/zetachang/gists{/gist_id}","starred_url":"https://api.github.com/users/zetachang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zetachang/subscriptions","organizations_url":"https://api.github.com/users/zetachang/orgs","repos_url":"https://api.github.com/users/zetachang/repos","events_url":"https://api.github.com/users/zetachang/events{/privacy}","received_events_url":"https://api.github.com/users/zetachang/received_events","type":"User","site_admin":false,"name":"David Chang","company":null,"blog":"twitter.com/zetachang","location":"Taipei, Taiwan","email":null,"hireable":null,"bio":"Software Engineer @Paktor","public_repos":61,"public_gists":15,"followers":118,"following":88,"created_at":"2011-06-09T13:24:20Z","updated_at":"2018-04-16T15:31:07Z"}
+{"login":"zetachang","id":839973,"avatar_url":"https://avatars2.githubusercontent.com/u/839973?v=4","gravatar_id":"","url":"https://api.github.com/users/zetachang","html_url":"https://github.com/zetachang","followers_url":"https://api.github.com/users/zetachang/followers","following_url":"https://api.github.com/users/zetachang/following{/other_user}","gists_url":"https://api.github.com/users/zetachang/gists{/gist_id}","starred_url":"https://api.github.com/users/zetachang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zetachang/subscriptions","organizations_url":"https://api.github.com/users/zetachang/orgs","repos_url":"https://api.github.com/users/zetachang/repos","events_url":"https://api.github.com/users/zetachang/events{/privacy}","received_events_url":"https://api.github.com/users/zetachang/received_events","type":"User","site_admin":false,"name":"David Chang","company":null,"blog":"twitter.com/zetachang","location":"Taipei, Taiwan","email":null,"hireable":null,"bio":"Software Engineer @Paktor","public_repos":61,"public_gists":15,"followers":119,"following":88,"created_at":"2011-06-09T13:24:20Z","updated_at":"2018-05-07T05:22:11Z"}
 0
 

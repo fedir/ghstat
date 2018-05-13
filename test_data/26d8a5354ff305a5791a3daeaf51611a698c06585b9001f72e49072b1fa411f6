@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:08:26 GMT
+Etag: W/"ed35e49a148c3781b996b6e7e021cf13"
+Link: <https://api.github.com/user/440872/followers?page=12>; rel="prev", <https://api.github.com/user/440872/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D0B1:4F41:35A2CD4:75241CB:5AF838CA
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 767
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.046387
+X-Xss-Protection: 1; mode=block
+
+da3
+[{"login":"obeunda","id":1080543,"avatar_url":"https://avatars2.githubusercontent.com/u/1080543?v=4","gravatar_id":"","url":"https://api.github.com/users/obeunda","html_url":"https://github.com/obeunda","followers_url":"https://api.github.com/users/obeunda/followers","following_url":"https://api.github.com/users/obeunda/following{/other_user}","gists_url":"https://api.github.com/users/obeunda/gists{/gist_id}","starred_url":"https://api.github.com/users/obeunda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/obeunda/subscriptions","organizations_url":"https://api.github.com/users/obeunda/orgs","repos_url":"https://api.github.com/users/obeunda/repos","events_url":"https://api.github.com/users/obeunda/events{/privacy}","received_events_url":"https://api.github.com/users/obeunda/received_events","type":"User","site_admin":false},{"login":"Modaoshi","id":16631868,"avatar_url":"https://avatars3.githubusercontent.com/u/16631868?v=4","gravatar_id":"","url":"https://api.github.com/users/Modaoshi","html_url":"https://github.com/Modaoshi","followers_url":"https://api.github.com/users/Modaoshi/followers","following_url":"https://api.github.com/users/Modaoshi/following{/other_user}","gists_url":"https://api.github.com/users/Modaoshi/gists{/gist_id}","starred_url":"https://api.github.com/users/Modaoshi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Modaoshi/subscriptions","organizations_url":"https://api.github.com/users/Modaoshi/orgs","repos_url":"https://api.github.com/users/Modaoshi/repos","events_url":"https://api.github.com/users/Modaoshi/events{/privacy}","received_events_url":"https://api.github.com/users/Modaoshi/received_events","type":"User","site_admin":false},{"login":"ehudon","id":17802570,"avatar_url":"https://avatars2.githubusercontent.com/u/17802570?v=4","gravatar_id":"","url":"https://api.github.com/users/ehudon","html_url":"https://github.com/ehudon","followers_url":"https://api.github.com/users/ehudon/followers","following_url":"https://api.github.com/users/ehudon/following{/other_user}","gists_url":"https://api.github.com/users/ehudon/gists{/gist_id}","starred_url":"https://api.github.com/users/ehudon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ehudon/subscriptions","organizations_url":"https://api.github.com/users/ehudon/orgs","repos_url":"https://api.github.com/users/ehudon/repos","events_url":"https://api.github.com/users/ehudon/events{/privacy}","received_events_url":"https://api.github.com/users/ehudon/received_events","type":"User","site_admin":false},{"login":"cycle-chen","id":15362724,"avatar_url":"https://avatars0.githubusercontent.com/u/15362724?v=4","gravatar_id":"","url":"https://api.github.com/users/cycle-chen","html_url":"https://github.com/cycle-chen","followers_url":"https://api.github.com/users/cycle-chen/followers","following_url":"https://api.github.com/users/cycle-chen/following{/other_user}","gists_url":"https://api.github.com/users/cycle-chen/gists{/gist_id}","starred_url":"https://api.github.com/users/cycle-chen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cycle-chen/subscriptions","organizations_url":"https://api.github.com/users/cycle-chen/orgs","repos_url":"https://api.github.com/users/cycle-chen/repos","events_url":"https://api.github.com/users/cycle-chen/events{/privacy}","received_events_url":"https://api.github.com/users/cycle-chen/received_events","type":"User","site_admin":false}]
+0
+

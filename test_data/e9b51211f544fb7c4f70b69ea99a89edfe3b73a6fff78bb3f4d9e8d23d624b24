@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:22:56 GMT
-Etag: W/"125d9999a96b96a5df003822e266273c"
+Date: Sun, 13 May 2018 13:08:17 GMT
+Etag: W/"ff45e91459b9a3368c8d089de0bc5b14"
 Link: <https://api.github.com/user/11868120/followers?page=2>; rel="prev", <https://api.github.com/user/11868120/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D1F9:148C:22BE2F1:46AE6F7:5AD26320
+X-Github-Request-Id: D09F:4F40:26024D1:573BC45:5AF838C0
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 53
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.025924
+X-Ratelimit-Remaining: 916
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.035255
 X-Xss-Protection: 1; mode=block
 
-39b
-[{"login":"udithaindika","id":1488876,"avatar_url":"https://avatars3.githubusercontent.com/u/1488876?v=4","gravatar_id":"","url":"https://api.github.com/users/udithaindika","html_url":"https://github.com/udithaindika","followers_url":"https://api.github.com/users/udithaindika/followers","following_url":"https://api.github.com/users/udithaindika/following{/other_user}","gists_url":"https://api.github.com/users/udithaindika/gists{/gist_id}","starred_url":"https://api.github.com/users/udithaindika/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udithaindika/subscriptions","organizations_url":"https://api.github.com/users/udithaindika/orgs","repos_url":"https://api.github.com/users/udithaindika/repos","events_url":"https://api.github.com/users/udithaindika/events{/privacy}","received_events_url":"https://api.github.com/users/udithaindika/received_events","type":"User","site_admin":false}]
+a7b
+[{"login":"udithaindika","id":1488876,"avatar_url":"https://avatars3.githubusercontent.com/u/1488876?v=4","gravatar_id":"","url":"https://api.github.com/users/udithaindika","html_url":"https://github.com/udithaindika","followers_url":"https://api.github.com/users/udithaindika/followers","following_url":"https://api.github.com/users/udithaindika/following{/other_user}","gists_url":"https://api.github.com/users/udithaindika/gists{/gist_id}","starred_url":"https://api.github.com/users/udithaindika/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udithaindika/subscriptions","organizations_url":"https://api.github.com/users/udithaindika/orgs","repos_url":"https://api.github.com/users/udithaindika/repos","events_url":"https://api.github.com/users/udithaindika/events{/privacy}","received_events_url":"https://api.github.com/users/udithaindika/received_events","type":"User","site_admin":false},{"login":"gulbinas","id":3935101,"avatar_url":"https://avatars1.githubusercontent.com/u/3935101?v=4","gravatar_id":"","url":"https://api.github.com/users/gulbinas","html_url":"https://github.com/gulbinas","followers_url":"https://api.github.com/users/gulbinas/followers","following_url":"https://api.github.com/users/gulbinas/following{/other_user}","gists_url":"https://api.github.com/users/gulbinas/gists{/gist_id}","starred_url":"https://api.github.com/users/gulbinas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gulbinas/subscriptions","organizations_url":"https://api.github.com/users/gulbinas/orgs","repos_url":"https://api.github.com/users/gulbinas/repos","events_url":"https://api.github.com/users/gulbinas/events{/privacy}","received_events_url":"https://api.github.com/users/gulbinas/received_events","type":"User","site_admin":false},{"login":"EduardoCM","id":7989565,"avatar_url":"https://avatars3.githubusercontent.com/u/7989565?v=4","gravatar_id":"","url":"https://api.github.com/users/EduardoCM","html_url":"https://github.com/EduardoCM","followers_url":"https://api.github.com/users/EduardoCM/followers","following_url":"https://api.github.com/users/EduardoCM/following{/other_user}","gists_url":"https://api.github.com/users/EduardoCM/gists{/gist_id}","starred_url":"https://api.github.com/users/EduardoCM/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/EduardoCM/subscriptions","organizations_url":"https://api.github.com/users/EduardoCM/orgs","repos_url":"https://api.github.com/users/EduardoCM/repos","events_url":"https://api.github.com/users/EduardoCM/events{/privacy}","received_events_url":"https://api.github.com/users/EduardoCM/received_events","type":"User","site_admin":false}]
 0
 

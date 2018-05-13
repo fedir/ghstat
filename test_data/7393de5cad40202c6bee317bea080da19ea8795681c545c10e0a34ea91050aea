@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:59:48 GMT
+Etag: W/"7273ce8d57e8dd01d56a0d1bc107e6cf"
+Link: <https://api.github.com/user/2510034/followers?page=16>; rel="prev", <https://api.github.com/user/2510034/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CCF1:4F42:44DB2D5:8AB9CF0:5AF836C3
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3210
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.050212
+X-Xss-Protection: 1; mode=block
+
+a33
+[{"login":"seldomhappy","id":5372428,"avatar_url":"https://avatars3.githubusercontent.com/u/5372428?v=4","gravatar_id":"","url":"https://api.github.com/users/seldomhappy","html_url":"https://github.com/seldomhappy","followers_url":"https://api.github.com/users/seldomhappy/followers","following_url":"https://api.github.com/users/seldomhappy/following{/other_user}","gists_url":"https://api.github.com/users/seldomhappy/gists{/gist_id}","starred_url":"https://api.github.com/users/seldomhappy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/seldomhappy/subscriptions","organizations_url":"https://api.github.com/users/seldomhappy/orgs","repos_url":"https://api.github.com/users/seldomhappy/repos","events_url":"https://api.github.com/users/seldomhappy/events{/privacy}","received_events_url":"https://api.github.com/users/seldomhappy/received_events","type":"User","site_admin":false},{"login":"kojiDev","id":17692121,"avatar_url":"https://avatars2.githubusercontent.com/u/17692121?v=4","gravatar_id":"","url":"https://api.github.com/users/kojiDev","html_url":"https://github.com/kojiDev","followers_url":"https://api.github.com/users/kojiDev/followers","following_url":"https://api.github.com/users/kojiDev/following{/other_user}","gists_url":"https://api.github.com/users/kojiDev/gists{/gist_id}","starred_url":"https://api.github.com/users/kojiDev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kojiDev/subscriptions","organizations_url":"https://api.github.com/users/kojiDev/orgs","repos_url":"https://api.github.com/users/kojiDev/repos","events_url":"https://api.github.com/users/kojiDev/events{/privacy}","received_events_url":"https://api.github.com/users/kojiDev/received_events","type":"User","site_admin":false},{"login":"latik","id":301773,"avatar_url":"https://avatars0.githubusercontent.com/u/301773?v=4","gravatar_id":"","url":"https://api.github.com/users/latik","html_url":"https://github.com/latik","followers_url":"https://api.github.com/users/latik/followers","following_url":"https://api.github.com/users/latik/following{/other_user}","gists_url":"https://api.github.com/users/latik/gists{/gist_id}","starred_url":"https://api.github.com/users/latik/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/latik/subscriptions","organizations_url":"https://api.github.com/users/latik/orgs","repos_url":"https://api.github.com/users/latik/repos","events_url":"https://api.github.com/users/latik/events{/privacy}","received_events_url":"https://api.github.com/users/latik/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:58:36 GMT
+Etag: W/"249264dd73ac025fc6522f106457157b"
+Link: <https://api.github.com/user/256431/followers?page=3>; rel="prev", <https://api.github.com/user/256431/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAFD:4F42:44D8530:8AB453D:5AF8367C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4655
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.030935
+X-Xss-Protection: 1; mode=block
+
+ae9
+[{"login":"eda-ricercatore","id":18295279,"avatar_url":"https://avatars0.githubusercontent.com/u/18295279?v=4","gravatar_id":"","url":"https://api.github.com/users/eda-ricercatore","html_url":"https://github.com/eda-ricercatore","followers_url":"https://api.github.com/users/eda-ricercatore/followers","following_url":"https://api.github.com/users/eda-ricercatore/following{/other_user}","gists_url":"https://api.github.com/users/eda-ricercatore/gists{/gist_id}","starred_url":"https://api.github.com/users/eda-ricercatore/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eda-ricercatore/subscriptions","organizations_url":"https://api.github.com/users/eda-ricercatore/orgs","repos_url":"https://api.github.com/users/eda-ricercatore/repos","events_url":"https://api.github.com/users/eda-ricercatore/events{/privacy}","received_events_url":"https://api.github.com/users/eda-ricercatore/received_events","type":"User","site_admin":false},{"login":"TomIsYourName","id":2391305,"avatar_url":"https://avatars1.githubusercontent.com/u/2391305?v=4","gravatar_id":"","url":"https://api.github.com/users/TomIsYourName","html_url":"https://github.com/TomIsYourName","followers_url":"https://api.github.com/users/TomIsYourName/followers","following_url":"https://api.github.com/users/TomIsYourName/following{/other_user}","gists_url":"https://api.github.com/users/TomIsYourName/gists{/gist_id}","starred_url":"https://api.github.com/users/TomIsYourName/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TomIsYourName/subscriptions","organizations_url":"https://api.github.com/users/TomIsYourName/orgs","repos_url":"https://api.github.com/users/TomIsYourName/repos","events_url":"https://api.github.com/users/TomIsYourName/events{/privacy}","received_events_url":"https://api.github.com/users/TomIsYourName/received_events","type":"User","site_admin":false},{"login":"bijeshtank","id":3941930,"avatar_url":"https://avatars3.githubusercontent.com/u/3941930?v=4","gravatar_id":"","url":"https://api.github.com/users/bijeshtank","html_url":"https://github.com/bijeshtank","followers_url":"https://api.github.com/users/bijeshtank/followers","following_url":"https://api.github.com/users/bijeshtank/following{/other_user}","gists_url":"https://api.github.com/users/bijeshtank/gists{/gist_id}","starred_url":"https://api.github.com/users/bijeshtank/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bijeshtank/subscriptions","organizations_url":"https://api.github.com/users/bijeshtank/orgs","repos_url":"https://api.github.com/users/bijeshtank/repos","events_url":"https://api.github.com/users/bijeshtank/events{/privacy}","received_events_url":"https://api.github.com/users/bijeshtank/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:19:46 GMT
+Date: Sun, 13 May 2018 13:01:19 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Acamping%2Fcamping+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Acamping%2Fcamping+type%3Aissue+state%3Aclosed&page=2>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C97F:148C:22B8A45:46A3081:5AD26262
+X-Github-Request-Id: CDFA:4F42:44DEE43:8AC13C1:5AF8371E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 4
-X-Ratelimit-Reset: 1523737215
-X-Runtime-Rack: 0.276899
+X-Ratelimit-Remaining: 8
+X-Ratelimit-Reset: 1526216518
+X-Runtime-Rack: 0.501317
 X-Xss-Protection: 1; mode=block
 
 8000

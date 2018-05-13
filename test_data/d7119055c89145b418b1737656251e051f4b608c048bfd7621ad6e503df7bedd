@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:20:25 GMT
-Etag: W/"7db8beb67e4a64b8e3aa076e8527ed8b"
-Last-Modified: Sat, 14 Apr 2018 18:10:17 GMT
+Date: Sun, 13 May 2018 13:07:09 GMT
+Etag: W/"858cb70d53237d48ea92893b36a30dfe"
+Last-Modified: Sun, 13 May 2018 12:24:07 GMT
 Link: <https://api.github.com/repositories/54168759/tags?page=1>; rel="prev", <https://api.github.com/repositories/54168759/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC57:148C:22B9F32:46A5A35:5AD26289
+X-Github-Request-Id: CFEC:4F42:44EADBA:8ADABDF:5AF8387D
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1597
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.045924
+X-Ratelimit-Remaining: 1363
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.032252
 X-Xss-Protection: 1; mode=block
 
-56d
-[{"name":"v0.0.9","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.9","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.9","commit":{"sha":"1c4e0350d90e26cff9f2cc5b8a450f4d8904d125","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/1c4e0350d90e26cff9f2cc5b8a450f4d8904d125"}},{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.8","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.8","commit":{"sha":"21e26c32c0323fa67d3dd4196b38efb18eb20115","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/21e26c32c0323fa67d3dd4196b38efb18eb20115"}},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.6","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.6","commit":{"sha":"bb9faeb34482370db1e12873567caa5a52894ebd","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/bb9faeb34482370db1e12873567caa5a52894ebd"}},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.5","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.5","commit":{"sha":"3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d"}}]
+829
+[{"name":"v0.0.11","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.11","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.11","commit":{"sha":"5fca86c84f72ad60d260ce6ea9cca32fb394405b","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/5fca86c84f72ad60d260ce6ea9cca32fb394405b"}},{"name":"v0.0.10","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.10","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.10","commit":{"sha":"463df9d1dfcfd54195311d9573749affeb31ea5a","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/463df9d1dfcfd54195311d9573749affeb31ea5a"}},{"name":"v0.0.9","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.9","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.9","commit":{"sha":"1c4e0350d90e26cff9f2cc5b8a450f4d8904d125","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/1c4e0350d90e26cff9f2cc5b8a450f4d8904d125"}},{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.8","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.8","commit":{"sha":"21e26c32c0323fa67d3dd4196b38efb18eb20115","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/21e26c32c0323fa67d3dd4196b38efb18eb20115"}},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.6","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.6","commit":{"sha":"bb9faeb34482370db1e12873567caa5a52894ebd","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/bb9faeb34482370db1e12873567caa5a52894ebd"}},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/SergioBenitez/Rocket/zipball/v0.0.5","tarball_url":"https://api.github.com/repos/SergioBenitez/Rocket/tarball/v0.0.5","commit":{"sha":"3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d","url":"https://api.github.com/repos/SergioBenitez/Rocket/commits/3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d"}}]
 0
 

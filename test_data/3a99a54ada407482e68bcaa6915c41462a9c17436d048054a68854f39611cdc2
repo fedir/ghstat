@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:33 GMT
-Etag: W/"1fe155c6d73ed54e482a617b1b8d451b"
-Last-Modified: Tue, 13 Mar 2018 00:13:42 GMT
+Date: Sun, 13 May 2018 12:58:52 GMT
+Etag: W/"f49888813af56d60de75eef06435bc09"
+Last-Modified: Sat, 05 May 2018 05:06:22 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAA3:3BFD:16EB3D1:3592F2D:5AED044D
+X-Github-Request-Id: CB27:4F40:25F888E:5723C25:5AF8368C
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4966
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.041797
+X-Ratelimit-Remaining: 4363
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.036404
 X-Xss-Protection: 1; mode=block
 
 49b
-{"login":"ngocdaothanh","id":10095,"avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"name":"Ngoc Dao","company":null,"blog":"","location":"Sydney","email":"ngocdaothanh@gmail.com","hireable":null,"bio":null,"public_repos":92,"public_gists":21,"followers":246,"following":68,"created_at":"2008-05-12T21:58:49Z","updated_at":"2018-03-13T00:13:42Z"}
+{"login":"ngocdaothanh","id":10095,"avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"name":"Ngoc Dao","company":null,"blog":"","location":"Sydney","email":"ngocdaothanh@gmail.com","hireable":null,"bio":null,"public_repos":92,"public_gists":21,"followers":247,"following":68,"created_at":"2008-05-12T21:58:49Z","updated_at":"2018-05-05T05:06:22Z"}
 0
 

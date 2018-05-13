@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:39:56 GMT
-Etag: W/"d4556106b5321466e2971008927982dc"
+Date: Sun, 13 May 2018 13:58:03 GMT
+Etag: W/"c281815f11868aadf96265bd05fad350"
 Link: <https://api.github.com/user/2071331/followers?page=1>; rel="prev", <https://api.github.com/user/2071331/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D4A1:148B:1BD6FE2:3CA9E25:5AD2671C
+X-Github-Request-Id: DA27:4F42:455317D:8BA73AF:5AF8446B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3855
-X-Ratelimit-Reset: 1523741872
-X-Runtime-Rack: 0.035697
+X-Ratelimit-Remaining: 4473
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.031853
 X-Xss-Protection: 1; mode=block
 
-391
-[{"login":"naomiHauret","id":15010369,"avatar_url":"https://avatars3.githubusercontent.com/u/15010369?v=4","gravatar_id":"","url":"https://api.github.com/users/naomiHauret","html_url":"https://github.com/naomiHauret","followers_url":"https://api.github.com/users/naomiHauret/followers","following_url":"https://api.github.com/users/naomiHauret/following{/other_user}","gists_url":"https://api.github.com/users/naomiHauret/gists{/gist_id}","starred_url":"https://api.github.com/users/naomiHauret/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/naomiHauret/subscriptions","organizations_url":"https://api.github.com/users/naomiHauret/orgs","repos_url":"https://api.github.com/users/naomiHauret/repos","events_url":"https://api.github.com/users/naomiHauret/events{/privacy}","received_events_url":"https://api.github.com/users/naomiHauret/received_events","type":"User","site_admin":false}]
+aad
+[{"login":"naomiHauret","id":15010369,"avatar_url":"https://avatars3.githubusercontent.com/u/15010369?v=4","gravatar_id":"","url":"https://api.github.com/users/naomiHauret","html_url":"https://github.com/naomiHauret","followers_url":"https://api.github.com/users/naomiHauret/followers","following_url":"https://api.github.com/users/naomiHauret/following{/other_user}","gists_url":"https://api.github.com/users/naomiHauret/gists{/gist_id}","starred_url":"https://api.github.com/users/naomiHauret/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/naomiHauret/subscriptions","organizations_url":"https://api.github.com/users/naomiHauret/orgs","repos_url":"https://api.github.com/users/naomiHauret/repos","events_url":"https://api.github.com/users/naomiHauret/events{/privacy}","received_events_url":"https://api.github.com/users/naomiHauret/received_events","type":"User","site_admin":false},{"login":"Matteo-Peronnet","id":2752742,"avatar_url":"https://avatars1.githubusercontent.com/u/2752742?v=4","gravatar_id":"","url":"https://api.github.com/users/Matteo-Peronnet","html_url":"https://github.com/Matteo-Peronnet","followers_url":"https://api.github.com/users/Matteo-Peronnet/followers","following_url":"https://api.github.com/users/Matteo-Peronnet/following{/other_user}","gists_url":"https://api.github.com/users/Matteo-Peronnet/gists{/gist_id}","starred_url":"https://api.github.com/users/Matteo-Peronnet/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Matteo-Peronnet/subscriptions","organizations_url":"https://api.github.com/users/Matteo-Peronnet/orgs","repos_url":"https://api.github.com/users/Matteo-Peronnet/repos","events_url":"https://api.github.com/users/Matteo-Peronnet/events{/privacy}","received_events_url":"https://api.github.com/users/Matteo-Peronnet/received_events","type":"User","site_admin":false},{"login":"thcolin","id":9131757,"avatar_url":"https://avatars2.githubusercontent.com/u/9131757?v=4","gravatar_id":"","url":"https://api.github.com/users/thcolin","html_url":"https://github.com/thcolin","followers_url":"https://api.github.com/users/thcolin/followers","following_url":"https://api.github.com/users/thcolin/following{/other_user}","gists_url":"https://api.github.com/users/thcolin/gists{/gist_id}","starred_url":"https://api.github.com/users/thcolin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thcolin/subscriptions","organizations_url":"https://api.github.com/users/thcolin/orgs","repos_url":"https://api.github.com/users/thcolin/repos","events_url":"https://api.github.com/users/thcolin/events{/privacy}","received_events_url":"https://api.github.com/users/thcolin/received_events","type":"User","site_admin":false}]
 0
 

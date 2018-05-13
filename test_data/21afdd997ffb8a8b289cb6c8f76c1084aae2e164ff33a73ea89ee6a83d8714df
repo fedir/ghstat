@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:22:22 GMT
-Etag: W/"72f831d8dee108d94cbf9fd98c2aaad4"
+Date: Sun, 13 May 2018 13:01:22 GMT
+Etag: W/"7ad3aae5cc04013509cf6cc8c3aac9c2"
 Link: <https://api.github.com/user/632942/followers?page=1>; rel="prev", <https://api.github.com/user/632942/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D1B9:148C:22BD595:46ACAAE:5AD262FE
+X-Github-Request-Id: CE0E:4F40:25FB309:572A8F7:5AF83722
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 566
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.038846
+X-Ratelimit-Remaining: 2358
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.031477
 X-Xss-Protection: 1; mode=block
 
-369
-[{"login":"danguita","id":126392,"avatar_url":"https://avatars1.githubusercontent.com/u/126392?v=4","gravatar_id":"","url":"https://api.github.com/users/danguita","html_url":"https://github.com/danguita","followers_url":"https://api.github.com/users/danguita/followers","following_url":"https://api.github.com/users/danguita/following{/other_user}","gists_url":"https://api.github.com/users/danguita/gists{/gist_id}","starred_url":"https://api.github.com/users/danguita/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danguita/subscriptions","organizations_url":"https://api.github.com/users/danguita/orgs","repos_url":"https://api.github.com/users/danguita/repos","events_url":"https://api.github.com/users/danguita/events{/privacy}","received_events_url":"https://api.github.com/users/danguita/received_events","type":"User","site_admin":false}]
+6ab
+[{"login":"danguita","id":126392,"avatar_url":"https://avatars1.githubusercontent.com/u/126392?v=4","gravatar_id":"","url":"https://api.github.com/users/danguita","html_url":"https://github.com/danguita","followers_url":"https://api.github.com/users/danguita/followers","following_url":"https://api.github.com/users/danguita/following{/other_user}","gists_url":"https://api.github.com/users/danguita/gists{/gist_id}","starred_url":"https://api.github.com/users/danguita/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danguita/subscriptions","organizations_url":"https://api.github.com/users/danguita/orgs","repos_url":"https://api.github.com/users/danguita/repos","events_url":"https://api.github.com/users/danguita/events{/privacy}","received_events_url":"https://api.github.com/users/danguita/received_events","type":"User","site_admin":false},{"login":"dalpo","id":56606,"avatar_url":"https://avatars0.githubusercontent.com/u/56606?v=4","gravatar_id":"","url":"https://api.github.com/users/dalpo","html_url":"https://github.com/dalpo","followers_url":"https://api.github.com/users/dalpo/followers","following_url":"https://api.github.com/users/dalpo/following{/other_user}","gists_url":"https://api.github.com/users/dalpo/gists{/gist_id}","starred_url":"https://api.github.com/users/dalpo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dalpo/subscriptions","organizations_url":"https://api.github.com/users/dalpo/orgs","repos_url":"https://api.github.com/users/dalpo/repos","events_url":"https://api.github.com/users/dalpo/events{/privacy}","received_events_url":"https://api.github.com/users/dalpo/received_events","type":"User","site_admin":false}]
 0
 

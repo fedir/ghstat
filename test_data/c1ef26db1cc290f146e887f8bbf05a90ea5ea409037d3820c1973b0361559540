@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:58:05 GMT
+Etag: W/"07cc2076cd7433c5179d1c4c2f1be908"
+Last-Modified: Sun, 13 May 2018 09:19:48 GMT
+Link: <https://api.github.com/repositories/43441403/contributors?page=2>; rel="prev", <https://api.github.com/repositories/43441403/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DB1A:4F42:45533F1:8BA780C:5AF8446D
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4221
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.065834
+X-Xss-Protection: 1; mode=block
+
+adf
+[{"login":"jdollar","id":5238576,"avatar_url":"https://avatars3.githubusercontent.com/u/5238576?v=4","gravatar_id":"","url":"https://api.github.com/users/jdollar","html_url":"https://github.com/jdollar","followers_url":"https://api.github.com/users/jdollar/followers","following_url":"https://api.github.com/users/jdollar/following{/other_user}","gists_url":"https://api.github.com/users/jdollar/gists{/gist_id}","starred_url":"https://api.github.com/users/jdollar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdollar/subscriptions","organizations_url":"https://api.github.com/users/jdollar/orgs","repos_url":"https://api.github.com/users/jdollar/repos","events_url":"https://api.github.com/users/jdollar/events{/privacy}","received_events_url":"https://api.github.com/users/jdollar/received_events","type":"User","site_admin":false,"contributions":1},{"login":"thomas-j-moffett","id":5032421,"avatar_url":"https://avatars1.githubusercontent.com/u/5032421?v=4","gravatar_id":"","url":"https://api.github.com/users/thomas-j-moffett","html_url":"https://github.com/thomas-j-moffett","followers_url":"https://api.github.com/users/thomas-j-moffett/followers","following_url":"https://api.github.com/users/thomas-j-moffett/following{/other_user}","gists_url":"https://api.github.com/users/thomas-j-moffett/gists{/gist_id}","starred_url":"https://api.github.com/users/thomas-j-moffett/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thomas-j-moffett/subscriptions","organizations_url":"https://api.github.com/users/thomas-j-moffett/orgs","repos_url":"https://api.github.com/users/thomas-j-moffett/repos","events_url":"https://api.github.com/users/thomas-j-moffett/events{/privacy}","received_events_url":"https://api.github.com/users/thomas-j-moffett/received_events","type":"User","site_admin":false,"contributions":1},{"login":"nyl-auster","id":335495,"avatar_url":"https://avatars2.githubusercontent.com/u/335495?v=4","gravatar_id":"","url":"https://api.github.com/users/nyl-auster","html_url":"https://github.com/nyl-auster","followers_url":"https://api.github.com/users/nyl-auster/followers","following_url":"https://api.github.com/users/nyl-auster/following{/other_user}","gists_url":"https://api.github.com/users/nyl-auster/gists{/gist_id}","starred_url":"https://api.github.com/users/nyl-auster/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nyl-auster/subscriptions","organizations_url":"https://api.github.com/users/nyl-auster/orgs","repos_url":"https://api.github.com/users/nyl-auster/repos","events_url":"https://api.github.com/users/nyl-auster/events{/privacy}","received_events_url":"https://api.github.com/users/nyl-auster/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

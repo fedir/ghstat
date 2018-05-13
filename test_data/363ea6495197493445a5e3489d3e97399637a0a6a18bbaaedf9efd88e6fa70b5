@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:58:56 GMT
+Etag: W/"5ece5582bf95b0f436da29b984f37439"
+Link: <https://api.github.com/user/914805/followers?page=4>; rel="prev", <https://api.github.com/user/914805/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB45:4F40:25F89B1:5723F03:5AF83690
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4172
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.042482
+X-Xss-Protection: 1; mode=block
+
+dbf
+[{"login":"ccl0326","id":904084,"avatar_url":"https://avatars2.githubusercontent.com/u/904084?v=4","gravatar_id":"","url":"https://api.github.com/users/ccl0326","html_url":"https://github.com/ccl0326","followers_url":"https://api.github.com/users/ccl0326/followers","following_url":"https://api.github.com/users/ccl0326/following{/other_user}","gists_url":"https://api.github.com/users/ccl0326/gists{/gist_id}","starred_url":"https://api.github.com/users/ccl0326/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ccl0326/subscriptions","organizations_url":"https://api.github.com/users/ccl0326/orgs","repos_url":"https://api.github.com/users/ccl0326/repos","events_url":"https://api.github.com/users/ccl0326/events{/privacy}","received_events_url":"https://api.github.com/users/ccl0326/received_events","type":"User","site_admin":false},{"login":"AlexBaitov","id":4568053,"avatar_url":"https://avatars1.githubusercontent.com/u/4568053?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexBaitov","html_url":"https://github.com/AlexBaitov","followers_url":"https://api.github.com/users/AlexBaitov/followers","following_url":"https://api.github.com/users/AlexBaitov/following{/other_user}","gists_url":"https://api.github.com/users/AlexBaitov/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexBaitov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexBaitov/subscriptions","organizations_url":"https://api.github.com/users/AlexBaitov/orgs","repos_url":"https://api.github.com/users/AlexBaitov/repos","events_url":"https://api.github.com/users/AlexBaitov/events{/privacy}","received_events_url":"https://api.github.com/users/AlexBaitov/received_events","type":"User","site_admin":false},{"login":"ryanchanwo","id":4828793,"avatar_url":"https://avatars0.githubusercontent.com/u/4828793?v=4","gravatar_id":"","url":"https://api.github.com/users/ryanchanwo","html_url":"https://github.com/ryanchanwo","followers_url":"https://api.github.com/users/ryanchanwo/followers","following_url":"https://api.github.com/users/ryanchanwo/following{/other_user}","gists_url":"https://api.github.com/users/ryanchanwo/gists{/gist_id}","starred_url":"https://api.github.com/users/ryanchanwo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ryanchanwo/subscriptions","organizations_url":"https://api.github.com/users/ryanchanwo/orgs","repos_url":"https://api.github.com/users/ryanchanwo/repos","events_url":"https://api.github.com/users/ryanchanwo/events{/privacy}","received_events_url":"https://api.github.com/users/ryanchanwo/received_events","type":"User","site_admin":false},{"login":"AlexITC","id":4218436,"avatar_url":"https://avatars3.githubusercontent.com/u/4218436?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexITC","html_url":"https://github.com/AlexITC","followers_url":"https://api.github.com/users/AlexITC/followers","following_url":"https://api.github.com/users/AlexITC/following{/other_user}","gists_url":"https://api.github.com/users/AlexITC/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexITC/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexITC/subscriptions","organizations_url":"https://api.github.com/users/AlexITC/orgs","repos_url":"https://api.github.com/users/AlexITC/repos","events_url":"https://api.github.com/users/AlexITC/events{/privacy}","received_events_url":"https://api.github.com/users/AlexITC/received_events","type":"User","site_admin":false}]
+0
+

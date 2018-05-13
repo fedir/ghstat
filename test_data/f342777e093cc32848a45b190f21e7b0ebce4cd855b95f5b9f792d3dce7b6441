@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:58:04 GMT
+Etag: W/"7634beadb9dcc41b56ed663e28e9af16"
+Last-Modified: Thu, 26 Apr 2018 10:54:02 GMT
+Link: <https://api.github.com/repositories/3935748/tags?page=7>; rel="prev", <https://api.github.com/repositories/3935748/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DAEE:4F41:35E2C73:75C15EA:5AF8446B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4391
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.077056
+X-Xss-Protection: 1; mode=block
+
+2c3
+[{"name":"2.0.0-Beta02","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta02","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta02","commit":{"sha":"39c054c2e413a49bda52ccec0fe853e9fccdc216","url":"https://api.github.com/repos/exoplatform/ecms/commits/39c054c2e413a49bda52ccec0fe853e9fccdc216"}},{"name":"2.0.0-Beta01","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta01","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta01","commit":{"sha":"bc90826805dfcc4474bc0b32899f89f62211e03b","url":"https://api.github.com/repos/exoplatform/ecms/commits/bc90826805dfcc4474bc0b32899f89f62211e03b"}}]
+0
+

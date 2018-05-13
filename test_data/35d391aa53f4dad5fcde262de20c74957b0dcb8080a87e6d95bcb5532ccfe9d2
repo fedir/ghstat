@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:15:39 GMT
+Etag: W/"ede8977371251ab5162af6192ae390de"
+Link: <https://api.github.com/user/876694/followers?page=14>; rel="prev", <https://api.github.com/user/876694/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D1FB:4F42:44FD368:8AFF6E6:5AF83A7B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 425
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.049242
+X-Xss-Protection: 1; mode=block
+
+e29
+[{"login":"Kotorinyanya","id":30317664,"avatar_url":"https://avatars2.githubusercontent.com/u/30317664?v=4","gravatar_id":"","url":"https://api.github.com/users/Kotorinyanya","html_url":"https://github.com/Kotorinyanya","followers_url":"https://api.github.com/users/Kotorinyanya/followers","following_url":"https://api.github.com/users/Kotorinyanya/following{/other_user}","gists_url":"https://api.github.com/users/Kotorinyanya/gists{/gist_id}","starred_url":"https://api.github.com/users/Kotorinyanya/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Kotorinyanya/subscriptions","organizations_url":"https://api.github.com/users/Kotorinyanya/orgs","repos_url":"https://api.github.com/users/Kotorinyanya/repos","events_url":"https://api.github.com/users/Kotorinyanya/events{/privacy}","received_events_url":"https://api.github.com/users/Kotorinyanya/received_events","type":"User","site_admin":false},{"login":"yiran7324","id":30183249,"avatar_url":"https://avatars3.githubusercontent.com/u/30183249?v=4","gravatar_id":"","url":"https://api.github.com/users/yiran7324","html_url":"https://github.com/yiran7324","followers_url":"https://api.github.com/users/yiran7324/followers","following_url":"https://api.github.com/users/yiran7324/following{/other_user}","gists_url":"https://api.github.com/users/yiran7324/gists{/gist_id}","starred_url":"https://api.github.com/users/yiran7324/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yiran7324/subscriptions","organizations_url":"https://api.github.com/users/yiran7324/orgs","repos_url":"https://api.github.com/users/yiran7324/repos","events_url":"https://api.github.com/users/yiran7324/events{/privacy}","received_events_url":"https://api.github.com/users/yiran7324/received_events","type":"User","site_admin":false},{"login":"EDGsheryl","id":24578192,"avatar_url":"https://avatars1.githubusercontent.com/u/24578192?v=4","gravatar_id":"","url":"https://api.github.com/users/EDGsheryl","html_url":"https://github.com/EDGsheryl","followers_url":"https://api.github.com/users/EDGsheryl/followers","following_url":"https://api.github.com/users/EDGsheryl/following{/other_user}","gists_url":"https://api.github.com/users/EDGsheryl/gists{/gist_id}","starred_url":"https://api.github.com/users/EDGsheryl/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/EDGsheryl/subscriptions","organizations_url":"https://api.github.com/users/EDGsheryl/orgs","repos_url":"https://api.github.com/users/EDGsheryl/repos","events_url":"https://api.github.com/users/EDGsheryl/events{/privacy}","received_events_url":"https://api.github.com/users/EDGsheryl/received_events","type":"User","site_admin":false},{"login":"CormickKneey","id":28683577,"avatar_url":"https://avatars1.githubusercontent.com/u/28683577?v=4","gravatar_id":"","url":"https://api.github.com/users/CormickKneey","html_url":"https://github.com/CormickKneey","followers_url":"https://api.github.com/users/CormickKneey/followers","following_url":"https://api.github.com/users/CormickKneey/following{/other_user}","gists_url":"https://api.github.com/users/CormickKneey/gists{/gist_id}","starred_url":"https://api.github.com/users/CormickKneey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CormickKneey/subscriptions","organizations_url":"https://api.github.com/users/CormickKneey/orgs","repos_url":"https://api.github.com/users/CormickKneey/repos","events_url":"https://api.github.com/users/CormickKneey/events{/privacy}","received_events_url":"https://api.github.com/users/CormickKneey/received_events","type":"User","site_admin":false}]
+0
+

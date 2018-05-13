@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:58:03 GMT
+Etag: W/"d3e3a599fc4fd877bd8bba20ad43e788"
+Last-Modified: Fri, 11 May 2018 09:11:28 GMT
+Link: <https://api.github.com/repositories/25069680/contributors?page=1>; rel="prev", <https://api.github.com/repositories/25069680/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DA8B:4F42:45531E2:8BA7448:5AF8446B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4431
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.059273
+X-Xss-Protection: 1; mode=block
+
+6fb
+[{"login":"oimken","id":5130712,"avatar_url":"https://avatars1.githubusercontent.com/u/5130712?v=4","gravatar_id":"","url":"https://api.github.com/users/oimken","html_url":"https://github.com/oimken","followers_url":"https://api.github.com/users/oimken/followers","following_url":"https://api.github.com/users/oimken/following{/other_user}","gists_url":"https://api.github.com/users/oimken/gists{/gist_id}","starred_url":"https://api.github.com/users/oimken/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/oimken/subscriptions","organizations_url":"https://api.github.com/users/oimken/orgs","repos_url":"https://api.github.com/users/oimken/repos","events_url":"https://api.github.com/users/oimken/events{/privacy}","received_events_url":"https://api.github.com/users/oimken/received_events","type":"User","site_admin":false,"contributions":1},{"login":"superewald","id":34782055,"avatar_url":"https://avatars1.githubusercontent.com/u/34782055?v=4","gravatar_id":"","url":"https://api.github.com/users/superewald","html_url":"https://github.com/superewald","followers_url":"https://api.github.com/users/superewald/followers","following_url":"https://api.github.com/users/superewald/following{/other_user}","gists_url":"https://api.github.com/users/superewald/gists{/gist_id}","starred_url":"https://api.github.com/users/superewald/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/superewald/subscriptions","organizations_url":"https://api.github.com/users/superewald/orgs","repos_url":"https://api.github.com/users/superewald/repos","events_url":"https://api.github.com/users/superewald/events{/privacy}","received_events_url":"https://api.github.com/users/superewald/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

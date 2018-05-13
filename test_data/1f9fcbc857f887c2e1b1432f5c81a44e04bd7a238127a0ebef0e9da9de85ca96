@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:07:06 GMT
+Etag: W/"eaf2fa09f34d04257055d916d512d8ae"
+Link: <https://api.github.com/user/4745181/followers?page=18>; rel="prev", <https://api.github.com/user/4745181/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFE7:4F3F:1A948C1:3F678B4:5AF8387A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1481
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.044440
+X-Xss-Protection: 1; mode=block
+
+e4d
+[{"login":"eslamfaisal","id":33801510,"avatar_url":"https://avatars1.githubusercontent.com/u/33801510?v=4","gravatar_id":"","url":"https://api.github.com/users/eslamfaisal","html_url":"https://github.com/eslamfaisal","followers_url":"https://api.github.com/users/eslamfaisal/followers","following_url":"https://api.github.com/users/eslamfaisal/following{/other_user}","gists_url":"https://api.github.com/users/eslamfaisal/gists{/gist_id}","starred_url":"https://api.github.com/users/eslamfaisal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eslamfaisal/subscriptions","organizations_url":"https://api.github.com/users/eslamfaisal/orgs","repos_url":"https://api.github.com/users/eslamfaisal/repos","events_url":"https://api.github.com/users/eslamfaisal/events{/privacy}","received_events_url":"https://api.github.com/users/eslamfaisal/received_events","type":"User","site_admin":false},{"login":"tarsbirsingh","id":36604271,"avatar_url":"https://avatars3.githubusercontent.com/u/36604271?v=4","gravatar_id":"","url":"https://api.github.com/users/tarsbirsingh","html_url":"https://github.com/tarsbirsingh","followers_url":"https://api.github.com/users/tarsbirsingh/followers","following_url":"https://api.github.com/users/tarsbirsingh/following{/other_user}","gists_url":"https://api.github.com/users/tarsbirsingh/gists{/gist_id}","starred_url":"https://api.github.com/users/tarsbirsingh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tarsbirsingh/subscriptions","organizations_url":"https://api.github.com/users/tarsbirsingh/orgs","repos_url":"https://api.github.com/users/tarsbirsingh/repos","events_url":"https://api.github.com/users/tarsbirsingh/events{/privacy}","received_events_url":"https://api.github.com/users/tarsbirsingh/received_events","type":"User","site_admin":false},{"login":"pushpalroy","id":19844292,"avatar_url":"https://avatars1.githubusercontent.com/u/19844292?v=4","gravatar_id":"","url":"https://api.github.com/users/pushpalroy","html_url":"https://github.com/pushpalroy","followers_url":"https://api.github.com/users/pushpalroy/followers","following_url":"https://api.github.com/users/pushpalroy/following{/other_user}","gists_url":"https://api.github.com/users/pushpalroy/gists{/gist_id}","starred_url":"https://api.github.com/users/pushpalroy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pushpalroy/subscriptions","organizations_url":"https://api.github.com/users/pushpalroy/orgs","repos_url":"https://api.github.com/users/pushpalroy/repos","events_url":"https://api.github.com/users/pushpalroy/events{/privacy}","received_events_url":"https://api.github.com/users/pushpalroy/received_events","type":"User","site_admin":false},{"login":"eaglewarrior","id":18038147,"avatar_url":"https://avatars0.githubusercontent.com/u/18038147?v=4","gravatar_id":"","url":"https://api.github.com/users/eaglewarrior","html_url":"https://github.com/eaglewarrior","followers_url":"https://api.github.com/users/eaglewarrior/followers","following_url":"https://api.github.com/users/eaglewarrior/following{/other_user}","gists_url":"https://api.github.com/users/eaglewarrior/gists{/gist_id}","starred_url":"https://api.github.com/users/eaglewarrior/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eaglewarrior/subscriptions","organizations_url":"https://api.github.com/users/eaglewarrior/orgs","repos_url":"https://api.github.com/users/eaglewarrior/repos","events_url":"https://api.github.com/users/eaglewarrior/events{/privacy}","received_events_url":"https://api.github.com/users/eaglewarrior/received_events","type":"User","site_admin":false}]
+0
+

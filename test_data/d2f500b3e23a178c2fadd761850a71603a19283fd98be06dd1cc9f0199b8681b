@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:03:33 GMT
+Etag: W/"d8228f757dcc44332be0471f9164a8b3"
+Link: <https://api.github.com/user/141739/followers?page=16>; rel="prev", <https://api.github.com/user/141739/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA6:4F3F:1A92535:3F61E56:5AF837A4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1876
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.059386
+X-Xss-Protection: 1; mode=block
+
+379
+[{"login":"koolquark","id":33547591,"avatar_url":"https://avatars3.githubusercontent.com/u/33547591?v=4","gravatar_id":"","url":"https://api.github.com/users/koolquark","html_url":"https://github.com/koolquark","followers_url":"https://api.github.com/users/koolquark/followers","following_url":"https://api.github.com/users/koolquark/following{/other_user}","gists_url":"https://api.github.com/users/koolquark/gists{/gist_id}","starred_url":"https://api.github.com/users/koolquark/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/koolquark/subscriptions","organizations_url":"https://api.github.com/users/koolquark/orgs","repos_url":"https://api.github.com/users/koolquark/repos","events_url":"https://api.github.com/users/koolquark/events{/privacy}","received_events_url":"https://api.github.com/users/koolquark/received_events","type":"User","site_admin":false}]
+0
+

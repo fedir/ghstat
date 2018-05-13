@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:05:38 GMT
-Etag: W/"5f6703154f1d1832777e7237514ddbd0"
-Last-Modified: Wed, 11 Apr 2018 04:09:46 GMT
+Date: Sun, 13 May 2018 12:57:39 GMT
+Etag: W/"1a88ad4aadf1abd5b68c2030a7211a07"
+Last-Modified: Fri, 11 May 2018 04:09:44 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA43:3BFC:217E5DF:49339F5:5AED0361
+X-Github-Request-Id: CAD5:4F42:44D6290:8AB0174:5AF83642
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4992
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.046806
+X-Ratelimit-Remaining: 4937
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.035303
 X-Xss-Protection: 1; mode=block
 
 491
-{"login":"astaxie","id":233907,"avatar_url":"https://avatars3.githubusercontent.com/u/233907?v=4","gravatar_id":"","url":"https://api.github.com/users/astaxie","html_url":"https://github.com/astaxie","followers_url":"https://api.github.com/users/astaxie/followers","following_url":"https://api.github.com/users/astaxie/following{/other_user}","gists_url":"https://api.github.com/users/astaxie/gists{/gist_id}","starred_url":"https://api.github.com/users/astaxie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/astaxie/subscriptions","organizations_url":"https://api.github.com/users/astaxie/orgs","repos_url":"https://api.github.com/users/astaxie/repos","events_url":"https://api.github.com/users/astaxie/events{/privacy}","received_events_url":"https://api.github.com/users/astaxie/received_events","type":"User","site_admin":false,"name":"astaxie","company":"jimengIO","blog":"http://beego.me","location":"Shanghai, China","email":"xiemengjun@gmail.com","hireable":true,"bio":"Write the testable code","public_repos":71,"public_gists":9,"followers":9937,"following":17,"created_at":"2010-03-31T06:07:58Z","updated_at":"2018-04-11T04:09:46Z"}
+{"login":"astaxie","id":233907,"avatar_url":"https://avatars3.githubusercontent.com/u/233907?v=4","gravatar_id":"","url":"https://api.github.com/users/astaxie","html_url":"https://github.com/astaxie","followers_url":"https://api.github.com/users/astaxie/followers","following_url":"https://api.github.com/users/astaxie/following{/other_user}","gists_url":"https://api.github.com/users/astaxie/gists{/gist_id}","starred_url":"https://api.github.com/users/astaxie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/astaxie/subscriptions","organizations_url":"https://api.github.com/users/astaxie/orgs","repos_url":"https://api.github.com/users/astaxie/repos","events_url":"https://api.github.com/users/astaxie/events{/privacy}","received_events_url":"https://api.github.com/users/astaxie/received_events","type":"User","site_admin":false,"name":"astaxie","company":"jimengIO","blog":"http://beego.me","location":"Shanghai, China","email":"xiemengjun@gmail.com","hireable":true,"bio":"Write the testable code","public_repos":71,"public_gists":9,"followers":9992,"following":17,"created_at":"2010-03-31T06:07:58Z","updated_at":"2018-05-11T04:09:44Z"}
 0
 

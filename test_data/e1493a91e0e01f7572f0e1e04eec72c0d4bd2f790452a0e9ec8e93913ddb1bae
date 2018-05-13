@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:03:26 GMT
+Etag: W/"aa0ac7c3f55cbd1c8851c5771813c4c4"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF84:4F41:359BB66:75128E8:5AF8379E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1980
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.034452
+X-Xss-Protection: 1; mode=block
+
+adf
+[{"login":"brabeji","id":2237954,"avatar_url":"https://avatars3.githubusercontent.com/u/2237954?v=4","gravatar_id":"","url":"https://api.github.com/users/brabeji","html_url":"https://github.com/brabeji","followers_url":"https://api.github.com/users/brabeji/followers","following_url":"https://api.github.com/users/brabeji/following{/other_user}","gists_url":"https://api.github.com/users/brabeji/gists{/gist_id}","starred_url":"https://api.github.com/users/brabeji/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brabeji/subscriptions","organizations_url":"https://api.github.com/users/brabeji/orgs","repos_url":"https://api.github.com/users/brabeji/repos","events_url":"https://api.github.com/users/brabeji/events{/privacy}","received_events_url":"https://api.github.com/users/brabeji/received_events","type":"User","site_admin":false},{"login":"marekmp4","id":15924024,"avatar_url":"https://avatars0.githubusercontent.com/u/15924024?v=4","gravatar_id":"","url":"https://api.github.com/users/marekmp4","html_url":"https://github.com/marekmp4","followers_url":"https://api.github.com/users/marekmp4/followers","following_url":"https://api.github.com/users/marekmp4/following{/other_user}","gists_url":"https://api.github.com/users/marekmp4/gists{/gist_id}","starred_url":"https://api.github.com/users/marekmp4/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/marekmp4/subscriptions","organizations_url":"https://api.github.com/users/marekmp4/orgs","repos_url":"https://api.github.com/users/marekmp4/repos","events_url":"https://api.github.com/users/marekmp4/events{/privacy}","received_events_url":"https://api.github.com/users/marekmp4/received_events","type":"User","site_admin":false},{"login":"mariusz-jachimowicz-83","id":10278877,"avatar_url":"https://avatars1.githubusercontent.com/u/10278877?v=4","gravatar_id":"","url":"https://api.github.com/users/mariusz-jachimowicz-83","html_url":"https://github.com/mariusz-jachimowicz-83","followers_url":"https://api.github.com/users/mariusz-jachimowicz-83/followers","following_url":"https://api.github.com/users/mariusz-jachimowicz-83/following{/other_user}","gists_url":"https://api.github.com/users/mariusz-jachimowicz-83/gists{/gist_id}","starred_url":"https://api.github.com/users/mariusz-jachimowicz-83/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mariusz-jachimowicz-83/subscriptions","organizations_url":"https://api.github.com/users/mariusz-jachimowicz-83/orgs","repos_url":"https://api.github.com/users/mariusz-jachimowicz-83/repos","events_url":"https://api.github.com/users/mariusz-jachimowicz-83/events{/privacy}","received_events_url":"https://api.github.com/users/mariusz-jachimowicz-83/received_events","type":"User","site_admin":false}]
+0
+

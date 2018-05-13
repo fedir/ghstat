@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:22:33 GMT
-Etag: W/"473358ff0400c1c621c72adb6bab231f"
+Date: Sun, 13 May 2018 13:03:27 GMT
+Etag: W/"705d03873ead1c0b84d963aa27c5c2ed"
 Link: <https://api.github.com/user/29839/followers?page=1>; rel="prev", <https://api.github.com/user/29839/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D1C9:148B:1BC2967:3C7C569:5AD26309
+X-Github-Request-Id: CF8F:4F40:25FD1DD:572F905:5AF8379F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 349
-X-Ratelimit-Reset: 1523737806
-X-Runtime-Rack: 0.028873
+X-Ratelimit-Remaining: 1948
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038996
 X-Xss-Protection: 1; mode=block
 
-6dd
-[{"login":"nfultz","id":418638,"avatar_url":"https://avatars2.githubusercontent.com/u/418638?v=4","gravatar_id":"","url":"https://api.github.com/users/nfultz","html_url":"https://github.com/nfultz","followers_url":"https://api.github.com/users/nfultz/followers","following_url":"https://api.github.com/users/nfultz/following{/other_user}","gists_url":"https://api.github.com/users/nfultz/gists{/gist_id}","starred_url":"https://api.github.com/users/nfultz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nfultz/subscriptions","organizations_url":"https://api.github.com/users/nfultz/orgs","repos_url":"https://api.github.com/users/nfultz/repos","events_url":"https://api.github.com/users/nfultz/events{/privacy}","received_events_url":"https://api.github.com/users/nfultz/received_events","type":"User","site_admin":false},{"login":"Johnicholas","id":461830,"avatar_url":"https://avatars0.githubusercontent.com/u/461830?v=4","gravatar_id":"","url":"https://api.github.com/users/Johnicholas","html_url":"https://github.com/Johnicholas","followers_url":"https://api.github.com/users/Johnicholas/followers","following_url":"https://api.github.com/users/Johnicholas/following{/other_user}","gists_url":"https://api.github.com/users/Johnicholas/gists{/gist_id}","starred_url":"https://api.github.com/users/Johnicholas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Johnicholas/subscriptions","organizations_url":"https://api.github.com/users/Johnicholas/orgs","repos_url":"https://api.github.com/users/Johnicholas/repos","events_url":"https://api.github.com/users/Johnicholas/events{/privacy}","received_events_url":"https://api.github.com/users/Johnicholas/received_events","type":"User","site_admin":false}]
+d8d
+[{"login":"nfultz","id":418638,"avatar_url":"https://avatars2.githubusercontent.com/u/418638?v=4","gravatar_id":"","url":"https://api.github.com/users/nfultz","html_url":"https://github.com/nfultz","followers_url":"https://api.github.com/users/nfultz/followers","following_url":"https://api.github.com/users/nfultz/following{/other_user}","gists_url":"https://api.github.com/users/nfultz/gists{/gist_id}","starred_url":"https://api.github.com/users/nfultz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nfultz/subscriptions","organizations_url":"https://api.github.com/users/nfultz/orgs","repos_url":"https://api.github.com/users/nfultz/repos","events_url":"https://api.github.com/users/nfultz/events{/privacy}","received_events_url":"https://api.github.com/users/nfultz/received_events","type":"User","site_admin":false},{"login":"Johnicholas","id":461830,"avatar_url":"https://avatars0.githubusercontent.com/u/461830?v=4","gravatar_id":"","url":"https://api.github.com/users/Johnicholas","html_url":"https://github.com/Johnicholas","followers_url":"https://api.github.com/users/Johnicholas/followers","following_url":"https://api.github.com/users/Johnicholas/following{/other_user}","gists_url":"https://api.github.com/users/Johnicholas/gists{/gist_id}","starred_url":"https://api.github.com/users/Johnicholas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Johnicholas/subscriptions","organizations_url":"https://api.github.com/users/Johnicholas/orgs","repos_url":"https://api.github.com/users/Johnicholas/repos","events_url":"https://api.github.com/users/Johnicholas/events{/privacy}","received_events_url":"https://api.github.com/users/Johnicholas/received_events","type":"User","site_admin":false},{"login":"nrfm","id":239416,"avatar_url":"https://avatars2.githubusercontent.com/u/239416?v=4","gravatar_id":"","url":"https://api.github.com/users/nrfm","html_url":"https://github.com/nrfm","followers_url":"https://api.github.com/users/nrfm/followers","following_url":"https://api.github.com/users/nrfm/following{/other_user}","gists_url":"https://api.github.com/users/nrfm/gists{/gist_id}","starred_url":"https://api.github.com/users/nrfm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nrfm/subscriptions","organizations_url":"https://api.github.com/users/nrfm/orgs","repos_url":"https://api.github.com/users/nrfm/repos","events_url":"https://api.github.com/users/nrfm/events{/privacy}","received_events_url":"https://api.github.com/users/nrfm/received_events","type":"User","site_admin":false},{"login":"ChadoNihi","id":10571863,"avatar_url":"https://avatars2.githubusercontent.com/u/10571863?v=4","gravatar_id":"","url":"https://api.github.com/users/ChadoNihi","html_url":"https://github.com/ChadoNihi","followers_url":"https://api.github.com/users/ChadoNihi/followers","following_url":"https://api.github.com/users/ChadoNihi/following{/other_user}","gists_url":"https://api.github.com/users/ChadoNihi/gists{/gist_id}","starred_url":"https://api.github.com/users/ChadoNihi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChadoNihi/subscriptions","organizations_url":"https://api.github.com/users/ChadoNihi/orgs","repos_url":"https://api.github.com/users/ChadoNihi/repos","events_url":"https://api.github.com/users/ChadoNihi/events{/privacy}","received_events_url":"https://api.github.com/users/ChadoNihi/received_events","type":"User","site_admin":false}]
 0
 

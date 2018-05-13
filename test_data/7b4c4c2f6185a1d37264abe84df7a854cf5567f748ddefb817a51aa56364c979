@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:58:04 GMT
+Etag: W/"9a55bd43ed8b2adefa3fcc023d7f773e"
+Last-Modified: Fri, 27 Apr 2018 14:38:11 GMT
+Link: <https://api.github.com/repositories/26949287/tags?page=3>; rel="prev", <https://api.github.com/repositories/26949287/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: DB2D:4F3F:1AAF9C4:3FAF04B:5AF8446C
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4342
+X-Ratelimit-Reset: 1526223470
+X-Runtime-Rack: 0.053078
+X-Xss-Protection: 1; mode=block
+
+2d2
+[{"name":"orphans","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/orphans","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/orphans","commit":{"sha":"d1b9d0bf99d37129782c8dfefc6b044a30409e03","url":"https://api.github.com/repos/roadiz/roadiz/commits/d1b9d0bf99d37129782c8dfefc6b044a30409e03"}},{"name":"documents-explorer-input-fix","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/documents-explorer-input-fix","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/documents-explorer-input-fix","commit":{"sha":"249a1da8de3441ed7afba533fc3c6b04db1a7565","url":"https://api.github.com/repos/roadiz/roadiz/commits/249a1da8de3441ed7afba533fc3c6b04db1a7565"}}]
+0
+

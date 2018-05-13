@@ -5,7 +5,7 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: no-cache
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 14 Apr 2018 20:39:54 GMT
+Date: Sun, 13 May 2018 13:17:57 GMT
 Link: <https://api.github.com/search/issues?q=repo%3Abackbee%2Fbackbee-php+type%3Aissue+state%3Aclosed&page=2>; rel="next", <https://api.github.com/search/issues?q=repo%3Abackbee%2Fbackbee-php+type%3Aissue+state%3Aclosed&page=7>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -15,12 +15,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D472:148B:1BD6EEF:3CA9BEC:5AD2671A
+X-Github-Request-Id: D2C1:4F3F:1A9AFB9:3F78034:5AF83B04
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 30
-X-Ratelimit-Remaining: 10
-X-Ratelimit-Reset: 1523738442
-X-Runtime-Rack: 0.404281
+X-Ratelimit-Remaining: 12
+X-Ratelimit-Reset: 1526217537
+X-Runtime-Rack: 0.478518
 X-Xss-Protection: 1; mode=block
 
 8000

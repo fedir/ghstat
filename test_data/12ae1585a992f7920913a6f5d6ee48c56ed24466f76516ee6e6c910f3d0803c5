@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 13:08:15 GMT
+Etag: W/"ec12e1da493b5544e95cfb30df6aeae6"
+Link: <https://api.github.com/user/104798/followers?page=12>; rel="prev", <https://api.github.com/user/104798/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D09B:4F41:35A2921:75238C2:5AF838BF
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 983
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.043562
+X-Xss-Protection: 1; mode=block
+
+6e1
+[{"login":"aravindanck","id":1366101,"avatar_url":"https://avatars1.githubusercontent.com/u/1366101?v=4","gravatar_id":"","url":"https://api.github.com/users/aravindanck","html_url":"https://github.com/aravindanck","followers_url":"https://api.github.com/users/aravindanck/followers","following_url":"https://api.github.com/users/aravindanck/following{/other_user}","gists_url":"https://api.github.com/users/aravindanck/gists{/gist_id}","starred_url":"https://api.github.com/users/aravindanck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aravindanck/subscriptions","organizations_url":"https://api.github.com/users/aravindanck/orgs","repos_url":"https://api.github.com/users/aravindanck/repos","events_url":"https://api.github.com/users/aravindanck/events{/privacy}","received_events_url":"https://api.github.com/users/aravindanck/received_events","type":"User","site_admin":false},{"login":"bhemar","id":3889793,"avatar_url":"https://avatars3.githubusercontent.com/u/3889793?v=4","gravatar_id":"","url":"https://api.github.com/users/bhemar","html_url":"https://github.com/bhemar","followers_url":"https://api.github.com/users/bhemar/followers","following_url":"https://api.github.com/users/bhemar/following{/other_user}","gists_url":"https://api.github.com/users/bhemar/gists{/gist_id}","starred_url":"https://api.github.com/users/bhemar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bhemar/subscriptions","organizations_url":"https://api.github.com/users/bhemar/orgs","repos_url":"https://api.github.com/users/bhemar/repos","events_url":"https://api.github.com/users/bhemar/events{/privacy}","received_events_url":"https://api.github.com/users/bhemar/received_events","type":"User","site_admin":false}]
+0
+

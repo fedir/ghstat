@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 05 May 2018 01:09:42 GMT
-Etag: W/"3b19f22ec3e7ddae0795680b52b3d1fa"
-Last-Modified: Mon, 23 Apr 2018 18:17:14 GMT
+Date: Sun, 13 May 2018 12:59:32 GMT
+Etag: W/"f8b7811d885c0feebbfd55fa0f23f0b1"
+Last-Modified: Wed, 09 May 2018 17:22:59 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB04:3BFF:2B5AF4D:5713442:5AED0456
+X-Github-Request-Id: CC00:4F41:3595EAC:7504643:5AF836B4
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4893
-X-Ratelimit-Reset: 1525485938
-X-Runtime-Rack: 0.035882
+X-Ratelimit-Remaining: 3611
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.038386
 X-Xss-Protection: 1; mode=block
 
 482
-{"login":"hargettp","id":385400,"avatar_url":"https://avatars3.githubusercontent.com/u/385400?v=4","gravatar_id":"","url":"https://api.github.com/users/hargettp","html_url":"https://github.com/hargettp","followers_url":"https://api.github.com/users/hargettp/followers","following_url":"https://api.github.com/users/hargettp/following{/other_user}","gists_url":"https://api.github.com/users/hargettp/gists{/gist_id}","starred_url":"https://api.github.com/users/hargettp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hargettp/subscriptions","organizations_url":"https://api.github.com/users/hargettp/orgs","repos_url":"https://api.github.com/users/hargettp/repos","events_url":"https://api.github.com/users/hargettp/events{/privacy}","received_events_url":"https://api.github.com/users/hargettp/received_events","type":"User","site_admin":false,"name":"Phil Hargett","company":null,"blog":"https://twitter.com/hargettp","location":"San Francisco, CA","email":null,"hireable":null,"bio":null,"public_repos":17,"public_gists":1,"followers":18,"following":15,"created_at":"2010-09-02T16:21:44Z","updated_at":"2018-04-23T18:17:14Z"}
+{"login":"hargettp","id":385400,"avatar_url":"https://avatars3.githubusercontent.com/u/385400?v=4","gravatar_id":"","url":"https://api.github.com/users/hargettp","html_url":"https://github.com/hargettp","followers_url":"https://api.github.com/users/hargettp/followers","following_url":"https://api.github.com/users/hargettp/following{/other_user}","gists_url":"https://api.github.com/users/hargettp/gists{/gist_id}","starred_url":"https://api.github.com/users/hargettp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hargettp/subscriptions","organizations_url":"https://api.github.com/users/hargettp/orgs","repos_url":"https://api.github.com/users/hargettp/repos","events_url":"https://api.github.com/users/hargettp/events{/privacy}","received_events_url":"https://api.github.com/users/hargettp/received_events","type":"User","site_admin":false,"name":"Phil Hargett","company":null,"blog":"https://twitter.com/hargettp","location":"San Francisco, CA","email":null,"hireable":null,"bio":null,"public_repos":17,"public_gists":1,"followers":18,"following":15,"created_at":"2010-09-02T16:21:44Z","updated_at":"2018-05-09T17:22:59Z"}
 0
 

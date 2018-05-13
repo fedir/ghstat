@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 13 May 2018 12:57:38 GMT
+Etag: W/"30c4e0e0a163d2313009b593c5b1e73f"
+Link: <https://api.github.com/user/233907/followers?page=333>; rel="prev", <https://api.github.com/user/233907/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAD5:4F42:44D621C:8AB00AC:5AF83642
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4940
+X-Ratelimit-Reset: 1526219856
+X-Runtime-Rack: 0.489194
+X-Xss-Protection: 1; mode=block
+
+6bd
+[{"login":"Preshine","id":26505093,"avatar_url":"https://avatars0.githubusercontent.com/u/26505093?v=4","gravatar_id":"","url":"https://api.github.com/users/Preshine","html_url":"https://github.com/Preshine","followers_url":"https://api.github.com/users/Preshine/followers","following_url":"https://api.github.com/users/Preshine/following{/other_user}","gists_url":"https://api.github.com/users/Preshine/gists{/gist_id}","starred_url":"https://api.github.com/users/Preshine/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Preshine/subscriptions","organizations_url":"https://api.github.com/users/Preshine/orgs","repos_url":"https://api.github.com/users/Preshine/repos","events_url":"https://api.github.com/users/Preshine/events{/privacy}","received_events_url":"https://api.github.com/users/Preshine/received_events","type":"User","site_admin":false},{"login":"windbg","id":187355,"avatar_url":"https://avatars2.githubusercontent.com/u/187355?v=4","gravatar_id":"","url":"https://api.github.com/users/windbg","html_url":"https://github.com/windbg","followers_url":"https://api.github.com/users/windbg/followers","following_url":"https://api.github.com/users/windbg/following{/other_user}","gists_url":"https://api.github.com/users/windbg/gists{/gist_id}","starred_url":"https://api.github.com/users/windbg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/windbg/subscriptions","organizations_url":"https://api.github.com/users/windbg/orgs","repos_url":"https://api.github.com/users/windbg/repos","events_url":"https://api.github.com/users/windbg/events{/privacy}","received_events_url":"https://api.github.com/users/windbg/received_events","type":"User","site_admin":false}]
+0
+
