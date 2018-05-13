@@ -6,12 +6,15 @@ package main
 
 import (
 	"fmt"
+	"sync"
 	"time"
 
 	"github.com/fedir/ghstat/github"
 )
 
-func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository) {
+func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository, wg *sync.WaitGroup) {
+
+	defer wg.Done()
 
 	r := new(Repository)
 
@@ -43,7 +46,7 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 			r.AuthorLocation = authorData.Location
 		}
 	} else {
-		r.Author = "[Account removed]"
+		r.Author = "[Unknown account]"
 	}
 
 	r.ClosedIssues = 0

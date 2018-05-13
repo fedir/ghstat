@@ -9,6 +9,7 @@ import (
 	"flag"
 	"os"
 	"strings"
+	"sync"
 
 	"github.com/fedir/ghstat/github"
 )
@@ -58,14 +59,17 @@ func main() {
 		csvFilePath = "result.csv"
 	}
 	var ghData = []Repository{}
+	var wg sync.WaitGroup
+	wg.Add(len(repositoriesKeys))
 
 	dataChan := make(chan Repository, len(repositoriesKeys))
 	for _, rKey := range repositoriesKeys {
-		go repositoryData(rKey, *tmpFolder, *debug, dataChan)
+		go repositoryData(rKey, *tmpFolder, *debug, dataChan, &wg)
 	}
 	for range repositoriesKeys {
 		ghData = append(ghData, <-dataChan)
 	}
+	wg.Wait()
 	rateAndPrintGreetings(ghData)
 	writeCSVStatistics(ghData, csvFilePath)
 }
