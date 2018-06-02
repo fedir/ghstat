@@ -6,11 +6,9 @@ package github
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"regexp"
 	"strconv"
-	"strings"
 	"time"
 
 	"github.com/fedir/ghstat/httpcache"
@@ -67,27 +65,12 @@ func GetRepositoryLanguages(RepoKey string, tmpFolder string, debug bool) (strin
 	if err != nil {
 		log.Fatal(err)
 	}
-	languages := repositoryListOfLanguages(jsonMap)
+	languages := repositoryLanguagesBySize(jsonMap)
 	totalSize := repositoryTotalSize(jsonMap)
 
 	return languages, totalSize
 }
 
-func repositoryListOfLanguages(m map[string]interface{}) string {
-	languagesStats := make([]string, 0, len(m))
-	var totalBytes float64
-	// Count total bytes
-	for key := range m {
-		totalBytes = totalBytes + m[key].(float64)
-	}
-	// Count language percentage
-	for key := range m {
-		languagePercentage := m[key].(float64) / totalBytes * 100
-		languagesStats = append(languagesStats, fmt.Sprintf("%s(%.2f)", key, languagePercentage))
-	}
-	languagesStatsResult := strings.Join(languagesStats, ",")
-	return languagesStatsResult
-}
 func repositoryTotalSize(m map[string]interface{}) int {
 	totalSize := 0
 	for _, v := range m {
