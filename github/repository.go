@@ -6,6 +6,7 @@ package github
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"regexp"
 	"strconv"
@@ -73,11 +74,19 @@ func GetRepositoryLanguages(RepoKey string, tmpFolder string, debug bool) (strin
 }
 
 func repositoryListOfLanguages(m map[string]interface{}) string {
-	keys := make([]string, 0, len(m))
-	for k := range m {
-		keys = append(keys, k)
+	languagesStats := make([]string, 0, len(m))
+	var totalBytes float64
+	// Count total bytes
+	for key := range m {
+		totalBytes = totalBytes + m[key].(float64)
 	}
-	return strings.Join(keys, ",")
+	// Count language percentage
+	for key := range m {
+		languagePercentage := m[key].(float64) / totalBytes * 100
+		languagesStats = append(languagesStats, fmt.Sprintf("%s(%.2f)", key, languagePercentage))
+	}
+	languagesStatsResult := strings.Join(languagesStats, ",")
+	return languagesStatsResult
 }
 func repositoryTotalSize(m map[string]interface{}) int {
 	totalSize := 0
