@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:07 GMT
-Etag: W/"bf606578faa6f4809b0c3593a7f2044d"
-Last-Modified: Mon, 27 Apr 2015 21:28:43 GMT
+Date: Sat, 09 Jun 2018 08:07:03 GMT
+Etag: W/"a2cfac5804ffe056fa76eab82d941bfb"
+Last-Modified: Sun, 27 May 2018 06:44:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDDE:4F42:44DE723:8AC05D5:5AF83713
+X-Github-Request-Id: CAA3:57C6:2FE361E:64E8A8C:5B1B8AA6
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2679
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.042925
+X-Ratelimit-Remaining: 3359
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033151
 X-Xss-Protection: 1; mode=block
 
-55a
-{"login":"invalid-email-address","id":148100,"avatar_url":"https://avatars0.githubusercontent.com/u/148100?v=4","gravatar_id":"","url":"https://api.github.com/users/invalid-email-address","html_url":"https://github.com/invalid-email-address","followers_url":"https://api.github.com/users/invalid-email-address/followers","following_url":"https://api.github.com/users/invalid-email-address/following{/other_user}","gists_url":"https://api.github.com/users/invalid-email-address/gists{/gist_id}","starred_url":"https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/invalid-email-address/subscriptions","organizations_url":"https://api.github.com/users/invalid-email-address/orgs","repos_url":"https://api.github.com/users/invalid-email-address/repos","events_url":"https://api.github.com/users/invalid-email-address/events{/privacy}","received_events_url":"https://api.github.com/users/invalid-email-address/received_events","type":"User","site_admin":false,"name":"Check your git settings!","company":null,"blog":"https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user","location":null,"email":"support@github.com","hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":744,"following":0,"created_at":"2009-11-03T03:48:38Z","updated_at":"2015-04-27T21:28:43Z"}
+57b
+{"login":"invalid-email-address","id":148100,"node_id":"MDQ6VXNlcjE0ODEwMA==","avatar_url":"https://avatars0.githubusercontent.com/u/148100?v=4","gravatar_id":"","url":"https://api.github.com/users/invalid-email-address","html_url":"https://github.com/invalid-email-address","followers_url":"https://api.github.com/users/invalid-email-address/followers","following_url":"https://api.github.com/users/invalid-email-address/following{/other_user}","gists_url":"https://api.github.com/users/invalid-email-address/gists{/gist_id}","starred_url":"https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/invalid-email-address/subscriptions","organizations_url":"https://api.github.com/users/invalid-email-address/orgs","repos_url":"https://api.github.com/users/invalid-email-address/repos","events_url":"https://api.github.com/users/invalid-email-address/events{/privacy}","received_events_url":"https://api.github.com/users/invalid-email-address/received_events","type":"User","site_admin":false,"name":"Check your git settings!","company":null,"blog":"https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user","location":null,"email":"support@github.com","hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":745,"following":0,"created_at":"2009-11-03T03:48:38Z","updated_at":"2018-05-27T06:44:11Z"}
 0
 

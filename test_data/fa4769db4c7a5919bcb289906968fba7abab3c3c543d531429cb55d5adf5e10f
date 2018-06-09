@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:03:28 GMT
-Etag: W/"72a9bb2798bec942d8b5373bf81cbd9b"
-Last-Modified: Sat, 12 May 2018 10:03:10 GMT
+Date: Sat, 09 Jun 2018 08:08:05 GMT
+Etag: W/"040a649d3c865e4b985d2ed91e619aa4"
+Last-Modified: Fri, 08 Jun 2018 11:51:35 GMT
 Link: <https://api.github.com/repositories/13677/tags?page=2>; rel="prev", <https://api.github.com/repositories/13677/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CF94:4F42:44E33B4:8ACA7A7:5AF8379F
+X-Github-Request-Id: CB31:57C3:1EE2DA6:44F7160:5B1B8AE5
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1929
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.041913
+X-Ratelimit-Remaining: 2724
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.044923
 X-Xss-Protection: 1; mode=block
 
-2b7
-[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.2.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.2.0","commit":{"sha":"3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8","url":"https://api.github.com/repos/weavejester/compojure/commits/3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.1.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.1.0","commit":{"sha":"793369f3d51bbe53516d7228f61c173fc36f6586","url":"https://api.github.com/repos/weavejester/compojure/commits/793369f3d51bbe53516d7228f61c173fc36f6586"}}]
+301
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.2.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.2.0","commit":{"sha":"3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8","url":"https://api.github.com/repos/weavejester/compojure/commits/3f0b5a4b0247d5b95526b777bf3be17fc7ac86c8"},"node_id":"MDM6UmVmMTM2Nzc6MC4yLjA="},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/weavejester/compojure/zipball/0.1.0","tarball_url":"https://api.github.com/repos/weavejester/compojure/tarball/0.1.0","commit":{"sha":"793369f3d51bbe53516d7228f61c173fc36f6586","url":"https://api.github.com/repos/weavejester/compojure/commits/793369f3d51bbe53516d7228f61c173fc36f6586"},"node_id":"MDM6UmVmMTM2Nzc6MC4xLjA="}]
 0
 

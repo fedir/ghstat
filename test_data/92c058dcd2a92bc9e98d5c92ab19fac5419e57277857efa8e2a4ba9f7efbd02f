@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:22 GMT
-Etag: W/"0e11a5eb2314f8b5e768b315c93e8bcf"
+Date: Sat, 09 Jun 2018 08:07:25 GMT
+Etag: W/"59ad5fd56a94a1b960be9aed29244139"
 Link: <https://api.github.com/user/210667/followers?page=1>; rel="prev", <https://api.github.com/user/210667/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDFD:4F41:3598C12:750B6B8:5AF83722
+X-Github-Request-Id: CABA:57C5:372BF5C:719B730:5B1B8ABD
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2349
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.029954
+X-Ratelimit-Remaining: 2992
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033684
 X-Xss-Protection: 1; mode=block
 
-6e3
-[{"login":"arseniy96","id":17098852,"avatar_url":"https://avatars2.githubusercontent.com/u/17098852?v=4","gravatar_id":"","url":"https://api.github.com/users/arseniy96","html_url":"https://github.com/arseniy96","followers_url":"https://api.github.com/users/arseniy96/followers","following_url":"https://api.github.com/users/arseniy96/following{/other_user}","gists_url":"https://api.github.com/users/arseniy96/gists{/gist_id}","starred_url":"https://api.github.com/users/arseniy96/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/arseniy96/subscriptions","organizations_url":"https://api.github.com/users/arseniy96/orgs","repos_url":"https://api.github.com/users/arseniy96/repos","events_url":"https://api.github.com/users/arseniy96/events{/privacy}","received_events_url":"https://api.github.com/users/arseniy96/received_events","type":"User","site_admin":false},{"login":"barisizm","id":4252407,"avatar_url":"https://avatars1.githubusercontent.com/u/4252407?v=4","gravatar_id":"","url":"https://api.github.com/users/barisizm","html_url":"https://github.com/barisizm","followers_url":"https://api.github.com/users/barisizm/followers","following_url":"https://api.github.com/users/barisizm/following{/other_user}","gists_url":"https://api.github.com/users/barisizm/gists{/gist_id}","starred_url":"https://api.github.com/users/barisizm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/barisizm/subscriptions","organizations_url":"https://api.github.com/users/barisizm/orgs","repos_url":"https://api.github.com/users/barisizm/repos","events_url":"https://api.github.com/users/barisizm/events{/privacy}","received_events_url":"https://api.github.com/users/barisizm/received_events","type":"User","site_admin":false}]
+725
+[{"login":"arseniy96","id":17098852,"node_id":"MDQ6VXNlcjE3MDk4ODUy","avatar_url":"https://avatars2.githubusercontent.com/u/17098852?v=4","gravatar_id":"","url":"https://api.github.com/users/arseniy96","html_url":"https://github.com/arseniy96","followers_url":"https://api.github.com/users/arseniy96/followers","following_url":"https://api.github.com/users/arseniy96/following{/other_user}","gists_url":"https://api.github.com/users/arseniy96/gists{/gist_id}","starred_url":"https://api.github.com/users/arseniy96/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/arseniy96/subscriptions","organizations_url":"https://api.github.com/users/arseniy96/orgs","repos_url":"https://api.github.com/users/arseniy96/repos","events_url":"https://api.github.com/users/arseniy96/events{/privacy}","received_events_url":"https://api.github.com/users/arseniy96/received_events","type":"User","site_admin":false},{"login":"barisizm","id":4252407,"node_id":"MDQ6VXNlcjQyNTI0MDc=","avatar_url":"https://avatars1.githubusercontent.com/u/4252407?v=4","gravatar_id":"","url":"https://api.github.com/users/barisizm","html_url":"https://github.com/barisizm","followers_url":"https://api.github.com/users/barisizm/followers","following_url":"https://api.github.com/users/barisizm/following{/other_user}","gists_url":"https://api.github.com/users/barisizm/gists{/gist_id}","starred_url":"https://api.github.com/users/barisizm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/barisizm/subscriptions","organizations_url":"https://api.github.com/users/barisizm/orgs","repos_url":"https://api.github.com/users/barisizm/repos","events_url":"https://api.github.com/users/barisizm/events{/privacy}","received_events_url":"https://api.github.com/users/barisizm/received_events","type":"User","site_admin":false}]
 0
 

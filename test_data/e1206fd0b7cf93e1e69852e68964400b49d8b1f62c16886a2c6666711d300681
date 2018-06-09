@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:02 GMT
+Etag: W/"5b111ca7ac424a71e090b2e0992939f8"
+Link: <https://api.github.com/user/13017/followers?page=5>; rel="prev", <https://api.github.com/user/13017/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB2A:57C3:1EE2D28:44F6FC1:5B1B8AE2
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2827
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.042085
+X-Xss-Protection: 1; mode=block
+
+73f
+[{"login":"nwjsmith","id":1348,"node_id":"MDQ6VXNlcjEzNDg=","avatar_url":"https://avatars1.githubusercontent.com/u/1348?v=4","gravatar_id":"","url":"https://api.github.com/users/nwjsmith","html_url":"https://github.com/nwjsmith","followers_url":"https://api.github.com/users/nwjsmith/followers","following_url":"https://api.github.com/users/nwjsmith/following{/other_user}","gists_url":"https://api.github.com/users/nwjsmith/gists{/gist_id}","starred_url":"https://api.github.com/users/nwjsmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nwjsmith/subscriptions","organizations_url":"https://api.github.com/users/nwjsmith/orgs","repos_url":"https://api.github.com/users/nwjsmith/repos","events_url":"https://api.github.com/users/nwjsmith/events{/privacy}","received_events_url":"https://api.github.com/users/nwjsmith/received_events","type":"User","site_admin":false},{"login":"ivansviatenko","id":2972,"node_id":"MDQ6VXNlcjI5NzI=","avatar_url":"https://avatars3.githubusercontent.com/u/2972?v=4","gravatar_id":"","url":"https://api.github.com/users/ivansviatenko","html_url":"https://github.com/ivansviatenko","followers_url":"https://api.github.com/users/ivansviatenko/followers","following_url":"https://api.github.com/users/ivansviatenko/following{/other_user}","gists_url":"https://api.github.com/users/ivansviatenko/gists{/gist_id}","starred_url":"https://api.github.com/users/ivansviatenko/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ivansviatenko/subscriptions","organizations_url":"https://api.github.com/users/ivansviatenko/orgs","repos_url":"https://api.github.com/users/ivansviatenko/repos","events_url":"https://api.github.com/users/ivansviatenko/events{/privacy}","received_events_url":"https://api.github.com/users/ivansviatenko/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:04 GMT
-Etag: W/"7634beadb9dcc41b56ed663e28e9af16"
-Last-Modified: Thu, 26 Apr 2018 10:54:02 GMT
+Date: Sat, 09 Jun 2018 10:08:34 GMT
+Etag: W/"c395ec10894750cf4a45cd47f4119b27"
+Last-Modified: Thu, 07 Jun 2018 11:30:39 GMT
 Link: <https://api.github.com/repositories/3935748/tags?page=7>; rel="prev", <https://api.github.com/repositories/3935748/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DAEE:4F41:35E2C73:75C15EA:5AF8446B
+X-Github-Request-Id: D612:57C5:38263D0:736A985:5B1BA722
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4391
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.077056
+X-Ratelimit-Remaining: 4851
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.082046
 X-Xss-Protection: 1; mode=block
 
-2c3
-[{"name":"2.0.0-Beta02","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta02","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta02","commit":{"sha":"39c054c2e413a49bda52ccec0fe853e9fccdc216","url":"https://api.github.com/repos/exoplatform/ecms/commits/39c054c2e413a49bda52ccec0fe853e9fccdc216"}},{"name":"2.0.0-Beta01","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta01","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta01","commit":{"sha":"bc90826805dfcc4474bc0b32899f89f62211e03b","url":"https://api.github.com/repos/exoplatform/ecms/commits/bc90826805dfcc4474bc0b32899f89f62211e03b"}}]
+f50
+[{"name":"2.1.0-GA","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.1.0-GA","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.1.0-GA","commit":{"sha":"4d2d0eb9e527f7a1dde37c42a241c015f831485d","url":"https://api.github.com/repos/exoplatform/ecms/commits/4d2d0eb9e527f7a1dde37c42a241c015f831485d"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjEuMC1HQQ=="},{"name":"2.1.0-CR03","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.1.0-CR03","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.1.0-CR03","commit":{"sha":"8ecdd1a1b7182b43894a7c72b042f3a5d49d1508","url":"https://api.github.com/repos/exoplatform/ecms/commits/8ecdd1a1b7182b43894a7c72b042f3a5d49d1508"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjEuMC1DUjAz"},{"name":"2.1.0-CR02","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.1.0-CR02","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.1.0-CR02","commit":{"sha":"2565c74c423f503953e03a96fe8d6ead1bd2b082","url":"https://api.github.com/repos/exoplatform/ecms/commits/2565c74c423f503953e03a96fe8d6ead1bd2b082"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjEuMC1DUjAy"},{"name":"2.1.0-CR01","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.1.0-CR01","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.1.0-CR01","commit":{"sha":"9a185c904f854ec2b372cea26542b49121366e14","url":"https://api.github.com/repos/exoplatform/ecms/commits/9a185c904f854ec2b372cea26542b49121366e14"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjEuMC1DUjAx"},{"name":"2.0.1","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.1","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.1","commit":{"sha":"5c832de23da82cb0c32d4b8cd0c1229d5e15eea0","url":"https://api.github.com/repos/exoplatform/ecms/commits/5c832de23da82cb0c32d4b8cd0c1229d5e15eea0"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMQ=="},{"name":"2.0.0-GA","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-GA","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-GA","commit":{"sha":"12fb56e5bbbbd5362df82aa15280bd48a3a99e86","url":"https://api.github.com/repos/exoplatform/ecms/commits/12fb56e5bbbbd5362df82aa15280bd48a3a99e86"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMC1HQQ=="},{"name":"2.0.0-CR01","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-CR01","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-CR01","commit":{"sha":"15e69ff4067b0cfc9695e36d1b479202fc255f1f","url":"https://api.github.com/repos/exoplatform/ecms/commits/15e69ff4067b0cfc9695e36d1b479202fc255f1f"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMC1DUjAx"},{"name":"2.0.0-Beta03","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta03","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta03","commit":{"sha":"57498d3715de5f44c99b4f686fccc1044b6b00d8","url":"https://api.github.com/repos/exoplatform/ecms/commits/57498d3715de5f44c99b4f686fccc1044b6b00d8"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMC1CZXRhMDM="},{"name":"2.0.0-Beta02","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta02","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta02","commit":{"sha":"39c054c2e413a49bda52ccec0fe853e9fccdc216","url":"https://api.github.com/repos/exoplatform/ecms/commits/39c054c2e413a49bda52ccec0fe853e9fccdc216"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMC1CZXRhMDI="},{"name":"2.0.0-Beta01","zipball_url":"https://api.github.com/repos/exoplatform/ecms/zipball/2.0.0-Beta01","tarball_url":"https://api.github.com/repos/exoplatform/ecms/tarball/2.0.0-Beta01","commit":{"sha":"bc90826805dfcc4474bc0b32899f89f62211e03b","url":"https://api.github.com/repos/exoplatform/ecms/commits/bc90826805dfcc4474bc0b32899f89f62211e03b"},"node_id":"MDM6UmVmMzkzNTc0ODoyLjAuMC1CZXRhMDE="}]
 0
 

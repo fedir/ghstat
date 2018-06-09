@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:17 GMT
-Etag: W/"f1e4c4a48d5142534a97bbd27ae3902e"
+Date: Sat, 09 Jun 2018 08:10:17 GMT
+Etag: W/"00a477a5a1c1288b662be52f08216e26"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D09C:4F42:44ED43B:8ADFBF7:5AF838C1
+X-Github-Request-Id: CD21:57C5:3731AE7:71A5864:5B1B8B69
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 887
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.029623
+X-Ratelimit-Remaining: 1268
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033537
 X-Xss-Protection: 1; mode=block
 
-6eb
-[{"login":"joelxr","id":3206427,"avatar_url":"https://avatars0.githubusercontent.com/u/3206427?v=4","gravatar_id":"","url":"https://api.github.com/users/joelxr","html_url":"https://github.com/joelxr","followers_url":"https://api.github.com/users/joelxr/followers","following_url":"https://api.github.com/users/joelxr/following{/other_user}","gists_url":"https://api.github.com/users/joelxr/gists{/gist_id}","starred_url":"https://api.github.com/users/joelxr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joelxr/subscriptions","organizations_url":"https://api.github.com/users/joelxr/orgs","repos_url":"https://api.github.com/users/joelxr/repos","events_url":"https://api.github.com/users/joelxr/events{/privacy}","received_events_url":"https://api.github.com/users/joelxr/received_events","type":"User","site_admin":false},{"login":"filipeacacio","id":181404,"avatar_url":"https://avatars0.githubusercontent.com/u/181404?v=4","gravatar_id":"","url":"https://api.github.com/users/filipeacacio","html_url":"https://github.com/filipeacacio","followers_url":"https://api.github.com/users/filipeacacio/followers","following_url":"https://api.github.com/users/filipeacacio/following{/other_user}","gists_url":"https://api.github.com/users/filipeacacio/gists{/gist_id}","starred_url":"https://api.github.com/users/filipeacacio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/filipeacacio/subscriptions","organizations_url":"https://api.github.com/users/filipeacacio/orgs","repos_url":"https://api.github.com/users/filipeacacio/repos","events_url":"https://api.github.com/users/filipeacacio/events{/privacy}","received_events_url":"https://api.github.com/users/filipeacacio/received_events","type":"User","site_admin":false}]
+72d
+[{"login":"joelxr","id":3206427,"node_id":"MDQ6VXNlcjMyMDY0Mjc=","avatar_url":"https://avatars0.githubusercontent.com/u/3206427?v=4","gravatar_id":"","url":"https://api.github.com/users/joelxr","html_url":"https://github.com/joelxr","followers_url":"https://api.github.com/users/joelxr/followers","following_url":"https://api.github.com/users/joelxr/following{/other_user}","gists_url":"https://api.github.com/users/joelxr/gists{/gist_id}","starred_url":"https://api.github.com/users/joelxr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joelxr/subscriptions","organizations_url":"https://api.github.com/users/joelxr/orgs","repos_url":"https://api.github.com/users/joelxr/repos","events_url":"https://api.github.com/users/joelxr/events{/privacy}","received_events_url":"https://api.github.com/users/joelxr/received_events","type":"User","site_admin":false},{"login":"filipeacacio","id":181404,"node_id":"MDQ6VXNlcjE4MTQwNA==","avatar_url":"https://avatars0.githubusercontent.com/u/181404?v=4","gravatar_id":"","url":"https://api.github.com/users/filipeacacio","html_url":"https://github.com/filipeacacio","followers_url":"https://api.github.com/users/filipeacacio/followers","following_url":"https://api.github.com/users/filipeacacio/following{/other_user}","gists_url":"https://api.github.com/users/filipeacacio/gists{/gist_id}","starred_url":"https://api.github.com/users/filipeacacio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/filipeacacio/subscriptions","organizations_url":"https://api.github.com/users/filipeacacio/orgs","repos_url":"https://api.github.com/users/filipeacacio/repos","events_url":"https://api.github.com/users/filipeacacio/events{/privacy}","received_events_url":"https://api.github.com/users/filipeacacio/received_events","type":"User","site_admin":false}]
 0
 

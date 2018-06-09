@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:10 GMT
-Etag: W/"1cf1d64bb3cbf1ebd90439a9540137e6"
+Date: Sat, 09 Jun 2018 08:10:10 GMT
+Etag: W/"0a4a260f49c9388aef488eaedc0bd136"
 Link: <https://api.github.com/user/183505/followers?page=1>; rel="prev", <https://api.github.com/user/183505/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D08E:4F40:260231E:573B819:5AF838BA
+X-Github-Request-Id: CD0C:57C5:37316F9:71A5102:5B1B8B62
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1037
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.037139
+X-Ratelimit-Remaining: 1439
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033564
 X-Xss-Protection: 1; mode=block
 
-6fb
-[{"login":"IngvarTi","id":23458543,"avatar_url":"https://avatars3.githubusercontent.com/u/23458543?v=4","gravatar_id":"","url":"https://api.github.com/users/IngvarTi","html_url":"https://github.com/IngvarTi","followers_url":"https://api.github.com/users/IngvarTi/followers","following_url":"https://api.github.com/users/IngvarTi/following{/other_user}","gists_url":"https://api.github.com/users/IngvarTi/gists{/gist_id}","starred_url":"https://api.github.com/users/IngvarTi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IngvarTi/subscriptions","organizations_url":"https://api.github.com/users/IngvarTi/orgs","repos_url":"https://api.github.com/users/IngvarTi/repos","events_url":"https://api.github.com/users/IngvarTi/events{/privacy}","received_events_url":"https://api.github.com/users/IngvarTi/received_events","type":"User","site_admin":false},{"login":"macdavid313","id":3747082,"avatar_url":"https://avatars3.githubusercontent.com/u/3747082?v=4","gravatar_id":"","url":"https://api.github.com/users/macdavid313","html_url":"https://github.com/macdavid313","followers_url":"https://api.github.com/users/macdavid313/followers","following_url":"https://api.github.com/users/macdavid313/following{/other_user}","gists_url":"https://api.github.com/users/macdavid313/gists{/gist_id}","starred_url":"https://api.github.com/users/macdavid313/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/macdavid313/subscriptions","organizations_url":"https://api.github.com/users/macdavid313/orgs","repos_url":"https://api.github.com/users/macdavid313/repos","events_url":"https://api.github.com/users/macdavid313/events{/privacy}","received_events_url":"https://api.github.com/users/macdavid313/received_events","type":"User","site_admin":false}]
+73d
+[{"login":"IngvarTi","id":23458543,"node_id":"MDQ6VXNlcjIzNDU4NTQz","avatar_url":"https://avatars3.githubusercontent.com/u/23458543?v=4","gravatar_id":"","url":"https://api.github.com/users/IngvarTi","html_url":"https://github.com/IngvarTi","followers_url":"https://api.github.com/users/IngvarTi/followers","following_url":"https://api.github.com/users/IngvarTi/following{/other_user}","gists_url":"https://api.github.com/users/IngvarTi/gists{/gist_id}","starred_url":"https://api.github.com/users/IngvarTi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IngvarTi/subscriptions","organizations_url":"https://api.github.com/users/IngvarTi/orgs","repos_url":"https://api.github.com/users/IngvarTi/repos","events_url":"https://api.github.com/users/IngvarTi/events{/privacy}","received_events_url":"https://api.github.com/users/IngvarTi/received_events","type":"User","site_admin":false},{"login":"macdavid313","id":3747082,"node_id":"MDQ6VXNlcjM3NDcwODI=","avatar_url":"https://avatars3.githubusercontent.com/u/3747082?v=4","gravatar_id":"","url":"https://api.github.com/users/macdavid313","html_url":"https://github.com/macdavid313","followers_url":"https://api.github.com/users/macdavid313/followers","following_url":"https://api.github.com/users/macdavid313/following{/other_user}","gists_url":"https://api.github.com/users/macdavid313/gists{/gist_id}","starred_url":"https://api.github.com/users/macdavid313/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/macdavid313/subscriptions","organizations_url":"https://api.github.com/users/macdavid313/orgs","repos_url":"https://api.github.com/users/macdavid313/repos","events_url":"https://api.github.com/users/macdavid313/events{/privacy}","received_events_url":"https://api.github.com/users/macdavid313/received_events","type":"User","site_admin":false}]
 0
 

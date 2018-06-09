@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:36 GMT
+Etag: W/"dd3e88bcd7d2d02897e0b853c5bbd9a4"
+Last-Modified: Sat, 09 Jun 2018 07:38:28 GMT
+Link: <https://api.github.com/repositories/54168759/contributors?page=3>; rel="prev", <https://api.github.com/repositories/54168759/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB71:57C5:372E528:719F9E3:5B1B8B04
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2215
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.057316
+X-Xss-Protection: 1; mode=block
+
+3dc
+[{"login":"toddWannaCode","id":25398275,"node_id":"MDQ6VXNlcjI1Mzk4Mjc1","avatar_url":"https://avatars1.githubusercontent.com/u/25398275?v=4","gravatar_id":"","url":"https://api.github.com/users/toddWannaCode","html_url":"https://github.com/toddWannaCode","followers_url":"https://api.github.com/users/toddWannaCode/followers","following_url":"https://api.github.com/users/toddWannaCode/following{/other_user}","gists_url":"https://api.github.com/users/toddWannaCode/gists{/gist_id}","starred_url":"https://api.github.com/users/toddWannaCode/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/toddWannaCode/subscriptions","organizations_url":"https://api.github.com/users/toddWannaCode/orgs","repos_url":"https://api.github.com/users/toddWannaCode/repos","events_url":"https://api.github.com/users/toddWannaCode/events{/privacy}","received_events_url":"https://api.github.com/users/toddWannaCode/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

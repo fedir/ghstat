@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:52 GMT
-Etag: W/"602e7ba236da4c9b98400dcd06a8978d"
+Date: Sat, 09 Jun 2018 08:05:26 GMT
+Etag: W/"932b763ac6c98cd52a02d0548a58904c"
 Last-Modified: Thu, 28 Dec 2017 18:43:25 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB2B:4F40:25F889F:5723C41:5AF8368C
+X-Github-Request-Id: C8F2:57C5:3727A1F:7193850:5B1B8A46
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4353
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.038746
+X-Ratelimit-Remaining: 4364
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035611
 X-Xss-Protection: 1; mode=block
 
-48b
-{"login":"capotej","id":6135,"avatar_url":"https://avatars0.githubusercontent.com/u/6135?v=4","gravatar_id":"","url":"https://api.github.com/users/capotej","html_url":"https://github.com/capotej","followers_url":"https://api.github.com/users/capotej/followers","following_url":"https://api.github.com/users/capotej/following{/other_user}","gists_url":"https://api.github.com/users/capotej/gists{/gist_id}","starred_url":"https://api.github.com/users/capotej/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/capotej/subscriptions","organizations_url":"https://api.github.com/users/capotej/orgs","repos_url":"https://api.github.com/users/capotej/repos","events_url":"https://api.github.com/users/capotej/events{/privacy}","received_events_url":"https://api.github.com/users/capotej/received_events","type":"User","site_admin":false,"name":"Julio Capote","company":"@computology ","blog":"https://packagecloud.io","location":"New York City, NY","email":"jcapote@gmail.com","hireable":null,"bio":null,"public_repos":128,"public_gists":115,"followers":104,"following":12,"created_at":"2008-04-09T23:36:00Z","updated_at":"2017-12-28T18:43:25Z"}
+4a8
+{"login":"capotej","id":6135,"node_id":"MDQ6VXNlcjYxMzU=","avatar_url":"https://avatars0.githubusercontent.com/u/6135?v=4","gravatar_id":"","url":"https://api.github.com/users/capotej","html_url":"https://github.com/capotej","followers_url":"https://api.github.com/users/capotej/followers","following_url":"https://api.github.com/users/capotej/following{/other_user}","gists_url":"https://api.github.com/users/capotej/gists{/gist_id}","starred_url":"https://api.github.com/users/capotej/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/capotej/subscriptions","organizations_url":"https://api.github.com/users/capotej/orgs","repos_url":"https://api.github.com/users/capotej/repos","events_url":"https://api.github.com/users/capotej/events{/privacy}","received_events_url":"https://api.github.com/users/capotej/received_events","type":"User","site_admin":false,"name":"Julio Capote","company":"@computology ","blog":"https://packagecloud.io","location":"New York City, NY","email":"jcapote@gmail.com","hireable":null,"bio":null,"public_repos":128,"public_gists":115,"followers":105,"following":12,"created_at":"2008-04-09T23:36:00Z","updated_at":"2017-12-28T18:43:25Z"}
 0
 

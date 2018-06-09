@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:17 GMT
-Etag: W/"607ae8f3c0c8bcefb6f9078726dd6f24"
+Date: Sat, 09 Jun 2018 08:10:17 GMT
+Etag: W/"109715e06f8fb16e2ad3c9368b7b5812"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D096:4F41:35A29DA:7523A7B:5AF838C1
+X-Github-Request-Id: CD2F:57C3:1EE3B4E:44F99BA:5B1B8B69
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 892
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.041322
+X-Ratelimit-Remaining: 1272
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030752
 X-Xss-Protection: 1; mode=block
 
-399
-[{"login":"raphaelbauer","id":524072,"avatar_url":"https://avatars3.githubusercontent.com/u/524072?v=4","gravatar_id":"","url":"https://api.github.com/users/raphaelbauer","html_url":"https://github.com/raphaelbauer","followers_url":"https://api.github.com/users/raphaelbauer/followers","following_url":"https://api.github.com/users/raphaelbauer/following{/other_user}","gists_url":"https://api.github.com/users/raphaelbauer/gists{/gist_id}","starred_url":"https://api.github.com/users/raphaelbauer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/raphaelbauer/subscriptions","organizations_url":"https://api.github.com/users/raphaelbauer/orgs","repos_url":"https://api.github.com/users/raphaelbauer/repos","events_url":"https://api.github.com/users/raphaelbauer/events{/privacy}","received_events_url":"https://api.github.com/users/raphaelbauer/received_events","type":"User","site_admin":false}]
+3ba
+[{"login":"raphaelbauer","id":524072,"node_id":"MDQ6VXNlcjUyNDA3Mg==","avatar_url":"https://avatars3.githubusercontent.com/u/524072?v=4","gravatar_id":"","url":"https://api.github.com/users/raphaelbauer","html_url":"https://github.com/raphaelbauer","followers_url":"https://api.github.com/users/raphaelbauer/followers","following_url":"https://api.github.com/users/raphaelbauer/following{/other_user}","gists_url":"https://api.github.com/users/raphaelbauer/gists{/gist_id}","starred_url":"https://api.github.com/users/raphaelbauer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/raphaelbauer/subscriptions","organizations_url":"https://api.github.com/users/raphaelbauer/orgs","repos_url":"https://api.github.com/users/raphaelbauer/repos","events_url":"https://api.github.com/users/raphaelbauer/events{/privacy}","received_events_url":"https://api.github.com/users/raphaelbauer/received_events","type":"User","site_admin":false}]
 0
 

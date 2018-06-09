@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:23 GMT
+Date: Sat, 09 Jun 2018 08:05:39 GMT
 Etag: "fe3f08f207458dca20b4a2365136109c"
-Last-Modified: Tue, 08 May 2018 03:41:10 GMT
+Last-Modified: Mon, 21 May 2018 16:00:04 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,12 +17,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBC1:4F40:25F9187:57252E3:5AF836AA
+X-Github-Request-Id: C998:57C5:372816C:71945D5:5B1B8A53
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3810
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.026071
+X-Ratelimit-Remaining: 4083
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033916
 X-Xss-Protection: 1; mode=block
 
 {"Haskell":17302}

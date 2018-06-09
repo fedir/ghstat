@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:12:29 GMT
+Etag: W/"64c560f1e671e7aa5046779be363eaa0"
+Link: <https://api.github.com/user/157897/followers?page=21>; rel="prev", <https://api.github.com/user/157897/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CEED:57C5:3735CB4:71AD483:5B1B8BED
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 203
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.047643
+X-Xss-Protection: 1; mode=block
+
+e9b
+[{"login":"zhangpanrobot","id":3257670,"node_id":"MDQ6VXNlcjMyNTc2NzA=","avatar_url":"https://avatars3.githubusercontent.com/u/3257670?v=4","gravatar_id":"","url":"https://api.github.com/users/zhangpanrobot","html_url":"https://github.com/zhangpanrobot","followers_url":"https://api.github.com/users/zhangpanrobot/followers","following_url":"https://api.github.com/users/zhangpanrobot/following{/other_user}","gists_url":"https://api.github.com/users/zhangpanrobot/gists{/gist_id}","starred_url":"https://api.github.com/users/zhangpanrobot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zhangpanrobot/subscriptions","organizations_url":"https://api.github.com/users/zhangpanrobot/orgs","repos_url":"https://api.github.com/users/zhangpanrobot/repos","events_url":"https://api.github.com/users/zhangpanrobot/events{/privacy}","received_events_url":"https://api.github.com/users/zhangpanrobot/received_events","type":"User","site_admin":false},{"login":"wulalaya2py","id":19198165,"node_id":"MDQ6VXNlcjE5MTk4MTY1","avatar_url":"https://avatars3.githubusercontent.com/u/19198165?v=4","gravatar_id":"","url":"https://api.github.com/users/wulalaya2py","html_url":"https://github.com/wulalaya2py","followers_url":"https://api.github.com/users/wulalaya2py/followers","following_url":"https://api.github.com/users/wulalaya2py/following{/other_user}","gists_url":"https://api.github.com/users/wulalaya2py/gists{/gist_id}","starred_url":"https://api.github.com/users/wulalaya2py/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wulalaya2py/subscriptions","organizations_url":"https://api.github.com/users/wulalaya2py/orgs","repos_url":"https://api.github.com/users/wulalaya2py/repos","events_url":"https://api.github.com/users/wulalaya2py/events{/privacy}","received_events_url":"https://api.github.com/users/wulalaya2py/received_events","type":"User","site_admin":false},{"login":"sohangood12","id":38069745,"node_id":"MDQ6VXNlcjM4MDY5NzQ1","avatar_url":"https://avatars0.githubusercontent.com/u/38069745?v=4","gravatar_id":"","url":"https://api.github.com/users/sohangood12","html_url":"https://github.com/sohangood12","followers_url":"https://api.github.com/users/sohangood12/followers","following_url":"https://api.github.com/users/sohangood12/following{/other_user}","gists_url":"https://api.github.com/users/sohangood12/gists{/gist_id}","starred_url":"https://api.github.com/users/sohangood12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sohangood12/subscriptions","organizations_url":"https://api.github.com/users/sohangood12/orgs","repos_url":"https://api.github.com/users/sohangood12/repos","events_url":"https://api.github.com/users/sohangood12/events{/privacy}","received_events_url":"https://api.github.com/users/sohangood12/received_events","type":"User","site_admin":false},{"login":"howeih","id":261229,"node_id":"MDQ6VXNlcjI2MTIyOQ==","avatar_url":"https://avatars1.githubusercontent.com/u/261229?v=4","gravatar_id":"","url":"https://api.github.com/users/howeih","html_url":"https://github.com/howeih","followers_url":"https://api.github.com/users/howeih/followers","following_url":"https://api.github.com/users/howeih/following{/other_user}","gists_url":"https://api.github.com/users/howeih/gists{/gist_id}","starred_url":"https://api.github.com/users/howeih/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/howeih/subscriptions","organizations_url":"https://api.github.com/users/howeih/orgs","repos_url":"https://api.github.com/users/howeih/repos","events_url":"https://api.github.com/users/howeih/events{/privacy}","received_events_url":"https://api.github.com/users/howeih/received_events","type":"User","site_admin":false}]
+0
+

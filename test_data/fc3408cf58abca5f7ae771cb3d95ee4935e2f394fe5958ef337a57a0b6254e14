@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:17 GMT
+Etag: W/"6048bd5143cf6d789d5fbff93059dfb0"
+Link: <https://api.github.com/user/1478052/followers?page=15>; rel="prev", <https://api.github.com/user/1478052/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD1B:57C4:23BCA3A:50D7FB5:5B1B8B68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1313
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.055001
+X-Xss-Protection: 1; mode=block
+
+b1c
+[{"login":"SametHalifeoglu","id":35095068,"node_id":"MDQ6VXNlcjM1MDk1MDY4","avatar_url":"https://avatars1.githubusercontent.com/u/35095068?v=4","gravatar_id":"","url":"https://api.github.com/users/SametHalifeoglu","html_url":"https://github.com/SametHalifeoglu","followers_url":"https://api.github.com/users/SametHalifeoglu/followers","following_url":"https://api.github.com/users/SametHalifeoglu/following{/other_user}","gists_url":"https://api.github.com/users/SametHalifeoglu/gists{/gist_id}","starred_url":"https://api.github.com/users/SametHalifeoglu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SametHalifeoglu/subscriptions","organizations_url":"https://api.github.com/users/SametHalifeoglu/orgs","repos_url":"https://api.github.com/users/SametHalifeoglu/repos","events_url":"https://api.github.com/users/SametHalifeoglu/events{/privacy}","received_events_url":"https://api.github.com/users/SametHalifeoglu/received_events","type":"User","site_admin":false},{"login":"yulechen","id":3973126,"node_id":"MDQ6VXNlcjM5NzMxMjY=","avatar_url":"https://avatars1.githubusercontent.com/u/3973126?v=4","gravatar_id":"","url":"https://api.github.com/users/yulechen","html_url":"https://github.com/yulechen","followers_url":"https://api.github.com/users/yulechen/followers","following_url":"https://api.github.com/users/yulechen/following{/other_user}","gists_url":"https://api.github.com/users/yulechen/gists{/gist_id}","starred_url":"https://api.github.com/users/yulechen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yulechen/subscriptions","organizations_url":"https://api.github.com/users/yulechen/orgs","repos_url":"https://api.github.com/users/yulechen/repos","events_url":"https://api.github.com/users/yulechen/events{/privacy}","received_events_url":"https://api.github.com/users/yulechen/received_events","type":"User","site_admin":false},{"login":"fanqiaoling","id":7564944,"node_id":"MDQ6VXNlcjc1NjQ5NDQ=","avatar_url":"https://avatars1.githubusercontent.com/u/7564944?v=4","gravatar_id":"","url":"https://api.github.com/users/fanqiaoling","html_url":"https://github.com/fanqiaoling","followers_url":"https://api.github.com/users/fanqiaoling/followers","following_url":"https://api.github.com/users/fanqiaoling/following{/other_user}","gists_url":"https://api.github.com/users/fanqiaoling/gists{/gist_id}","starred_url":"https://api.github.com/users/fanqiaoling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fanqiaoling/subscriptions","organizations_url":"https://api.github.com/users/fanqiaoling/orgs","repos_url":"https://api.github.com/users/fanqiaoling/repos","events_url":"https://api.github.com/users/fanqiaoling/events{/privacy}","received_events_url":"https://api.github.com/users/fanqiaoling/received_events","type":"User","site_admin":false}]
+0
+

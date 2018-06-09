@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:57:59 GMT
-Etag: W/"98a1f145d5f565e0f7ed6aa9b5089384"
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"a6e50c837970a5d31f9be768c4b7b9c9"
 Last-Modified: Wed, 02 May 2018 03:17:37 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA02:4F42:4552DA7:8BA6CAE:5AF84467
+X-Github-Request-Id: D858:57C4:242D27D:51F7AAF:5B1BABEB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4854
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.031369
+X-Ratelimit-Remaining: 4753
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.040341
 X-Xss-Protection: 1; mode=block
 
-48e
-{"login":"daftspunk","id":1392869,"avatar_url":"https://avatars1.githubusercontent.com/u/1392869?v=4","gravatar_id":"","url":"https://api.github.com/users/daftspunk","html_url":"https://github.com/daftspunk","followers_url":"https://api.github.com/users/daftspunk/followers","following_url":"https://api.github.com/users/daftspunk/following{/other_user}","gists_url":"https://api.github.com/users/daftspunk/gists{/gist_id}","starred_url":"https://api.github.com/users/daftspunk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/daftspunk/subscriptions","organizations_url":"https://api.github.com/users/daftspunk/orgs","repos_url":"https://api.github.com/users/daftspunk/repos","events_url":"https://api.github.com/users/daftspunk/events{/privacy}","received_events_url":"https://api.github.com/users/daftspunk/received_events","type":"User","site_admin":false,"name":"Samuel Georges","company":null,"blog":"","location":"Canberra, Australia","email":null,"hireable":null,"bio":"@OctoberCMS Co-founder","public_repos":33,"public_gists":13,"followers":390,"following":69,"created_at":"2012-01-30T22:26:08Z","updated_at":"2018-05-02T03:17:37Z"}
+4af
+{"login":"daftspunk","id":1392869,"node_id":"MDQ6VXNlcjEzOTI4Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1392869?v=4","gravatar_id":"","url":"https://api.github.com/users/daftspunk","html_url":"https://github.com/daftspunk","followers_url":"https://api.github.com/users/daftspunk/followers","following_url":"https://api.github.com/users/daftspunk/following{/other_user}","gists_url":"https://api.github.com/users/daftspunk/gists{/gist_id}","starred_url":"https://api.github.com/users/daftspunk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/daftspunk/subscriptions","organizations_url":"https://api.github.com/users/daftspunk/orgs","repos_url":"https://api.github.com/users/daftspunk/repos","events_url":"https://api.github.com/users/daftspunk/events{/privacy}","received_events_url":"https://api.github.com/users/daftspunk/received_events","type":"User","site_admin":false,"name":"Samuel Georges","company":null,"blog":"","location":"Canberra, Australia","email":null,"hireable":null,"bio":"@OctoberCMS Co-founder","public_repos":34,"public_gists":13,"followers":391,"following":69,"created_at":"2012-01-30T22:26:08Z","updated_at":"2018-05-02T03:17:37Z"}
 0
 

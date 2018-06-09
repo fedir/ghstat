@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:11:19 GMT
+Etag: W/"1788fcbf2cc44c25c1499307a4d617d8"
+Link: <https://api.github.com/user/189796/followers?page=21>; rel="prev", <https://api.github.com/user/189796/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE60:57C4:23BD7CE:50D9FE0:5B1B8BA7
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 494
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.051848
+X-Xss-Protection: 1; mode=block
+
+ab4
+[{"login":"aBahrami13","id":29228883,"node_id":"MDQ6VXNlcjI5MjI4ODgz","avatar_url":"https://avatars2.githubusercontent.com/u/29228883?v=4","gravatar_id":"","url":"https://api.github.com/users/aBahrami13","html_url":"https://github.com/aBahrami13","followers_url":"https://api.github.com/users/aBahrami13/followers","following_url":"https://api.github.com/users/aBahrami13/following{/other_user}","gists_url":"https://api.github.com/users/aBahrami13/gists{/gist_id}","starred_url":"https://api.github.com/users/aBahrami13/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aBahrami13/subscriptions","organizations_url":"https://api.github.com/users/aBahrami13/orgs","repos_url":"https://api.github.com/users/aBahrami13/repos","events_url":"https://api.github.com/users/aBahrami13/events{/privacy}","received_events_url":"https://api.github.com/users/aBahrami13/received_events","type":"User","site_admin":false},{"login":"thinkwcz","id":14882003,"node_id":"MDQ6VXNlcjE0ODgyMDAz","avatar_url":"https://avatars0.githubusercontent.com/u/14882003?v=4","gravatar_id":"","url":"https://api.github.com/users/thinkwcz","html_url":"https://github.com/thinkwcz","followers_url":"https://api.github.com/users/thinkwcz/followers","following_url":"https://api.github.com/users/thinkwcz/following{/other_user}","gists_url":"https://api.github.com/users/thinkwcz/gists{/gist_id}","starred_url":"https://api.github.com/users/thinkwcz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thinkwcz/subscriptions","organizations_url":"https://api.github.com/users/thinkwcz/orgs","repos_url":"https://api.github.com/users/thinkwcz/repos","events_url":"https://api.github.com/users/thinkwcz/events{/privacy}","received_events_url":"https://api.github.com/users/thinkwcz/received_events","type":"User","site_admin":false},{"login":"OmoleOO","id":16974596,"node_id":"MDQ6VXNlcjE2OTc0NTk2","avatar_url":"https://avatars2.githubusercontent.com/u/16974596?v=4","gravatar_id":"","url":"https://api.github.com/users/OmoleOO","html_url":"https://github.com/OmoleOO","followers_url":"https://api.github.com/users/OmoleOO/followers","following_url":"https://api.github.com/users/OmoleOO/following{/other_user}","gists_url":"https://api.github.com/users/OmoleOO/gists{/gist_id}","starred_url":"https://api.github.com/users/OmoleOO/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/OmoleOO/subscriptions","organizations_url":"https://api.github.com/users/OmoleOO/orgs","repos_url":"https://api.github.com/users/OmoleOO/repos","events_url":"https://api.github.com/users/OmoleOO/events{/privacy}","received_events_url":"https://api.github.com/users/OmoleOO/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:11:00 GMT
+Etag: W/"e6727e60697b8eef77730c5d6bfeb8e6"
+Link: <https://api.github.com/user/4084277/followers?page=11>; rel="prev", <https://api.github.com/user/4084277/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE14:57C6:2FE7D36:64F3863:5B1B8B94
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 852
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.054807
+X-Xss-Protection: 1; mode=block
+
+749
+[{"login":"beratetik","id":16034888,"node_id":"MDQ6VXNlcjE2MDM0ODg4","avatar_url":"https://avatars0.githubusercontent.com/u/16034888?v=4","gravatar_id":"","url":"https://api.github.com/users/beratetik","html_url":"https://github.com/beratetik","followers_url":"https://api.github.com/users/beratetik/followers","following_url":"https://api.github.com/users/beratetik/following{/other_user}","gists_url":"https://api.github.com/users/beratetik/gists{/gist_id}","starred_url":"https://api.github.com/users/beratetik/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beratetik/subscriptions","organizations_url":"https://api.github.com/users/beratetik/orgs","repos_url":"https://api.github.com/users/beratetik/repos","events_url":"https://api.github.com/users/beratetik/events{/privacy}","received_events_url":"https://api.github.com/users/beratetik/received_events","type":"User","site_admin":false},{"login":"honzabilek4","id":7890555,"node_id":"MDQ6VXNlcjc4OTA1NTU=","avatar_url":"https://avatars3.githubusercontent.com/u/7890555?v=4","gravatar_id":"","url":"https://api.github.com/users/honzabilek4","html_url":"https://github.com/honzabilek4","followers_url":"https://api.github.com/users/honzabilek4/followers","following_url":"https://api.github.com/users/honzabilek4/following{/other_user}","gists_url":"https://api.github.com/users/honzabilek4/gists{/gist_id}","starred_url":"https://api.github.com/users/honzabilek4/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/honzabilek4/subscriptions","organizations_url":"https://api.github.com/users/honzabilek4/orgs","repos_url":"https://api.github.com/users/honzabilek4/repos","events_url":"https://api.github.com/users/honzabilek4/events{/privacy}","received_events_url":"https://api.github.com/users/honzabilek4/received_events","type":"User","site_admin":false}]
+0
+

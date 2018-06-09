@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:26 GMT
-Etag: W/"f190c34740e13b777fb48d2080c9e613"
-Last-Modified: Sun, 13 May 2018 06:33:14 GMT
+Date: Sat, 09 Jun 2018 08:05:43 GMT
+Etag: W/"44c8f4badbf3d25ee00932cdf22efa0b"
+Last-Modified: Sat, 09 Jun 2018 07:56:06 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBDA:4F3F:1A8FC02:3F5B1C1:5AF836AD
+X-Github-Request-Id: C9B0:57C5:3728388:7194998:5B1B8A57
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3741
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.029218
+X-Ratelimit-Remaining: 4014
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.039752
 X-Xss-Protection: 1; mode=block
 
 1f
-{"Rust":1192055,"Makefile":234}
+{"Rust":1231450,"Makefile":234}
 0
 

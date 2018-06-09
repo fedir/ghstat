@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:43 GMT
-Etag: W/"52e932e6e7f08f0028d6e28910692a8d"
-Last-Modified: Sun, 13 May 2018 12:22:09 GMT
+Date: Sat, 09 Jun 2018 08:05:13 GMT
+Etag: W/"b820a43713fe5738ecdbbb3aac42ae1e"
+Last-Modified: Sat, 09 Jun 2018 07:53:04 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB07:4F41:3594C43:75016A0:5AF83683
+X-Github-Request-Id: C8CD:57C4:23B8BC4:50CE10D:5B1B8A39
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4593
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.031403
+X-Ratelimit-Remaining: 4581
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.038558
 X-Xss-Protection: 1; mode=block
 
 4b
-{"Crystal":385994,"HTML":52508,"JavaScript":9898,"CSS":1483,"Makefile":829}
+{"Crystal":394972,"HTML":62306,"JavaScript":9898,"CSS":1839,"Makefile":829}
 0
 

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:00:59 GMT
-Etag: W/"361be22335b95763ccb7d1cd11ccee33"
-Last-Modified: Sat, 12 May 2018 17:43:29 GMT
+Date: Sat, 09 Jun 2018 08:06:55 GMT
+Etag: W/"486bcb816c0f0ae12ad0327d475850d6"
+Last-Modified: Tue, 22 May 2018 17:55:03 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDC8:4F42:44DE158:8ABFA4D:5AF8370B
+X-Github-Request-Id: CA90:57C5:372AD3A:71994B3:5B1B8A9F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2779
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039208
+X-Ratelimit-Remaining: 3475
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.024909
 X-Xss-Protection: 1; mode=block
 
-531
-[{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.2.0","commit":{"sha":"105ddde4e8680afbc127cabb9ed51fababc374a1","url":"https://api.github.com/repos/slogsdon/placid/commits/105ddde4e8680afbc127cabb9ed51fababc374a1"}},{"name":"v0.1.2","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.2","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.2","commit":{"sha":"a250c852570e1d9dac151785a82fb819b78b10a3","url":"https://api.github.com/repos/slogsdon/placid/commits/a250c852570e1d9dac151785a82fb819b78b10a3"}},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.1","commit":{"sha":"412bb232fcd6b33a31018c448c7f89cb81937d35","url":"https://api.github.com/repos/slogsdon/placid/commits/412bb232fcd6b33a31018c448c7f89cb81937d35"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.0","commit":{"sha":"aa05b99b112583a4f80d6d834613a169beb5b425","url":"https://api.github.com/repos/slogsdon/placid/commits/aa05b99b112583a4f80d6d834613a169beb5b425"}}]
+5d5
+[{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.2.0","commit":{"sha":"105ddde4e8680afbc127cabb9ed51fababc374a1","url":"https://api.github.com/repos/slogsdon/placid/commits/105ddde4e8680afbc127cabb9ed51fababc374a1"},"node_id":"MDM6UmVmMjM3NTE1Nzk6djAuMi4w"},{"name":"v0.1.2","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.2","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.2","commit":{"sha":"a250c852570e1d9dac151785a82fb819b78b10a3","url":"https://api.github.com/repos/slogsdon/placid/commits/a250c852570e1d9dac151785a82fb819b78b10a3"},"node_id":"MDM6UmVmMjM3NTE1Nzk6djAuMS4y"},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.1","commit":{"sha":"412bb232fcd6b33a31018c448c7f89cb81937d35","url":"https://api.github.com/repos/slogsdon/placid/commits/412bb232fcd6b33a31018c448c7f89cb81937d35"},"node_id":"MDM6UmVmMjM3NTE1Nzk6djAuMS4x"},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/slogsdon/placid/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/slogsdon/placid/tarball/v0.1.0","commit":{"sha":"aa05b99b112583a4f80d6d834613a169beb5b425","url":"https://api.github.com/repos/slogsdon/placid/commits/aa05b99b112583a4f80d6d834613a169beb5b425"},"node_id":"MDM6UmVmMjM3NTE1Nzk6djAuMS4w"}]
 0
 

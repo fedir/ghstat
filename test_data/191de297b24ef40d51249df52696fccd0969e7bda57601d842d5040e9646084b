@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:15:41 GMT
-Etag: W/"6ff1b0609a5c6976d1a427439905f105"
-Last-Modified: Sun, 13 May 2018 08:02:19 GMT
+Date: Sat, 09 Jun 2018 08:11:03 GMT
+Etag: W/"9f880fb1f7fc337a3f4ac0e79d94e541"
+Last-Modified: Sat, 09 Jun 2018 07:50:15 GMT
 Link: <https://api.github.com/repositories/1801829/contributors?page=12>; rel="prev", <https://api.github.com/repositories/1801829/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D236:4F3F:1A99A97:3F749D6:5AF83A7C
+X-Github-Request-Id: CE21:57C6:2FE7E9C:64F3B54:5B1B8B97
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 301
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.193197
+X-Ratelimit-Remaining: 683
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.095979
 X-Xss-Protection: 1; mode=block
 
-aa1
-[{"login":"AlexTraher","id":14136196,"avatar_url":"https://avatars1.githubusercontent.com/u/14136196?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexTraher","html_url":"https://github.com/AlexTraher","followers_url":"https://api.github.com/users/AlexTraher/followers","following_url":"https://api.github.com/users/AlexTraher/following{/other_user}","gists_url":"https://api.github.com/users/AlexTraher/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexTraher/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexTraher/subscriptions","organizations_url":"https://api.github.com/users/AlexTraher/orgs","repos_url":"https://api.github.com/users/AlexTraher/repos","events_url":"https://api.github.com/users/AlexTraher/events{/privacy}","received_events_url":"https://api.github.com/users/AlexTraher/received_events","type":"User","site_admin":false,"contributions":1},{"login":"regularfry","id":39277,"avatar_url":"https://avatars1.githubusercontent.com/u/39277?v=4","gravatar_id":"","url":"https://api.github.com/users/regularfry","html_url":"https://github.com/regularfry","followers_url":"https://api.github.com/users/regularfry/followers","following_url":"https://api.github.com/users/regularfry/following{/other_user}","gists_url":"https://api.github.com/users/regularfry/gists{/gist_id}","starred_url":"https://api.github.com/users/regularfry/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/regularfry/subscriptions","organizations_url":"https://api.github.com/users/regularfry/orgs","repos_url":"https://api.github.com/users/regularfry/repos","events_url":"https://api.github.com/users/regularfry/events{/privacy}","received_events_url":"https://api.github.com/users/regularfry/received_events","type":"User","site_admin":false,"contributions":1},{"login":"AlexKVal","id":847572,"avatar_url":"https://avatars1.githubusercontent.com/u/847572?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexKVal","html_url":"https://github.com/AlexKVal","followers_url":"https://api.github.com/users/AlexKVal/followers","following_url":"https://api.github.com/users/AlexKVal/following{/other_user}","gists_url":"https://api.github.com/users/AlexKVal/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexKVal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexKVal/subscriptions","organizations_url":"https://api.github.com/users/AlexKVal/orgs","repos_url":"https://api.github.com/users/AlexKVal/repos","events_url":"https://api.github.com/users/AlexKVal/events{/privacy}","received_events_url":"https://api.github.com/users/AlexKVal/received_events","type":"User","site_admin":false,"contributions":1}]
+ac6
+[{"login":"clbn","id":1071933,"node_id":"MDQ6VXNlcjEwNzE5MzM=","avatar_url":"https://avatars1.githubusercontent.com/u/1071933?v=4","gravatar_id":"","url":"https://api.github.com/users/clbn","html_url":"https://github.com/clbn","followers_url":"https://api.github.com/users/clbn/followers","following_url":"https://api.github.com/users/clbn/following{/other_user}","gists_url":"https://api.github.com/users/clbn/gists{/gist_id}","starred_url":"https://api.github.com/users/clbn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/clbn/subscriptions","organizations_url":"https://api.github.com/users/clbn/orgs","repos_url":"https://api.github.com/users/clbn/repos","events_url":"https://api.github.com/users/clbn/events{/privacy}","received_events_url":"https://api.github.com/users/clbn/received_events","type":"User","site_admin":false,"contributions":1},{"login":"SlexAxton","id":96554,"node_id":"MDQ6VXNlcjk2NTU0","avatar_url":"https://avatars2.githubusercontent.com/u/96554?v=4","gravatar_id":"","url":"https://api.github.com/users/SlexAxton","html_url":"https://github.com/SlexAxton","followers_url":"https://api.github.com/users/SlexAxton/followers","following_url":"https://api.github.com/users/SlexAxton/following{/other_user}","gists_url":"https://api.github.com/users/SlexAxton/gists{/gist_id}","starred_url":"https://api.github.com/users/SlexAxton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SlexAxton/subscriptions","organizations_url":"https://api.github.com/users/SlexAxton/orgs","repos_url":"https://api.github.com/users/SlexAxton/repos","events_url":"https://api.github.com/users/SlexAxton/events{/privacy}","received_events_url":"https://api.github.com/users/SlexAxton/received_events","type":"User","site_admin":false,"contributions":1},{"login":"AlexTraher","id":14136196,"node_id":"MDQ6VXNlcjE0MTM2MTk2","avatar_url":"https://avatars1.githubusercontent.com/u/14136196?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexTraher","html_url":"https://github.com/AlexTraher","followers_url":"https://api.github.com/users/AlexTraher/followers","following_url":"https://api.github.com/users/AlexTraher/following{/other_user}","gists_url":"https://api.github.com/users/AlexTraher/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexTraher/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexTraher/subscriptions","organizations_url":"https://api.github.com/users/AlexTraher/orgs","repos_url":"https://api.github.com/users/AlexTraher/repos","events_url":"https://api.github.com/users/AlexTraher/events{/privacy}","received_events_url":"https://api.github.com/users/AlexTraher/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

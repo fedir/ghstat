@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:04 GMT
-Etag: W/"aed9f8aab0ef4c13aa2eb6c6b339f1ea"
+Date: Sat, 09 Jun 2018 08:05:29 GMT
+Etag: W/"a9c3af6fd264478c234a7c08aef4d852"
 Last-Modified: Tue, 01 May 2018 21:30:14 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB5D:4F41:3595407:7502AEC:5AF83698
+X-Github-Request-Id: C938:57C4:23B8FE5:50CEA81:5B1B8A49
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4105
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.034221
+X-Ratelimit-Remaining: 4315
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041524
 X-Xss-Protection: 1; mode=block
 
-490
-{"login":"bausshf","id":19395682,"avatar_url":"https://avatars1.githubusercontent.com/u/19395682?v=4","gravatar_id":"","url":"https://api.github.com/users/bausshf","html_url":"https://github.com/bausshf","followers_url":"https://api.github.com/users/bausshf/followers","following_url":"https://api.github.com/users/bausshf/following{/other_user}","gists_url":"https://api.github.com/users/bausshf/gists{/gist_id}","starred_url":"https://api.github.com/users/bausshf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bausshf/subscriptions","organizations_url":"https://api.github.com/users/bausshf/orgs","repos_url":"https://api.github.com/users/bausshf/repos","events_url":"https://api.github.com/users/bausshf/events{/privacy}","received_events_url":"https://api.github.com/users/bausshf/received_events","type":"User","site_admin":false,"name":"Jacob Jensen","company":"Bleau","blog":"http://diamondmvc.org/","location":null,"email":"contact@diamondmvc.org","hireable":null,"bio":"Just a guy with a dream.","public_repos":28,"public_gists":0,"followers":3,"following":0,"created_at":"2016-05-16T19:49:12Z","updated_at":"2018-05-01T21:30:14Z"}
+4b1
+{"login":"bausshf","id":19395682,"node_id":"MDQ6VXNlcjE5Mzk1Njgy","avatar_url":"https://avatars1.githubusercontent.com/u/19395682?v=4","gravatar_id":"","url":"https://api.github.com/users/bausshf","html_url":"https://github.com/bausshf","followers_url":"https://api.github.com/users/bausshf/followers","following_url":"https://api.github.com/users/bausshf/following{/other_user}","gists_url":"https://api.github.com/users/bausshf/gists{/gist_id}","starred_url":"https://api.github.com/users/bausshf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bausshf/subscriptions","organizations_url":"https://api.github.com/users/bausshf/orgs","repos_url":"https://api.github.com/users/bausshf/repos","events_url":"https://api.github.com/users/bausshf/events{/privacy}","received_events_url":"https://api.github.com/users/bausshf/received_events","type":"User","site_admin":false,"name":"Jacob Jensen","company":"Bleau","blog":"http://diamondmvc.org/","location":null,"email":"contact@diamondmvc.org","hireable":null,"bio":"Just a guy with a dream.","public_repos":28,"public_gists":0,"followers":3,"following":0,"created_at":"2016-05-16T19:49:12Z","updated_at":"2018-05-01T21:30:14Z"}
 0
 

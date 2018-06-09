@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:33 GMT
-Etag: W/"957bca0f2006b0a352a5e4291358f81d"
-Last-Modified: Fri, 11 May 2018 19:05:46 GMT
+Date: Sat, 09 Jun 2018 08:08:43 GMT
+Etag: W/"c758d3290cfa47648434df2942cc9664"
+Last-Modified: Fri, 08 Jun 2018 16:29:02 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC07:4F42:44DA9BA:8AB8CC3:5AF836B5
+X-Github-Request-Id: CB9E:57C3:1EE319E:44F7C9D:5B1B8B0B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3580
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.034689
+X-Ratelimit-Remaining: 2146
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.034298
 X-Xss-Protection: 1; mode=block
 
 3c
-{"Java":1134799,"Groovy":7345,"HTML":6137,"FreeMarker":3656}
+{"Java":1140754,"Groovy":7345,"HTML":6137,"FreeMarker":3656}
 0
 

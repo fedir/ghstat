@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:57:59 GMT
-Etag: W/"3c9b3b8c049663a1ac7901ec796ca0b2"
-Last-Modified: Tue, 08 May 2018 17:13:59 GMT
+Date: Sat, 09 Jun 2018 10:29:02 GMT
+Etag: W/"c6896fc1e47ce4acf370a77d7ca6bf30"
+Last-Modified: Fri, 08 Jun 2018 04:10:08 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA1D:4F42:4552D1E:8BA6BF6:5AF84466
+X-Github-Request-Id: D867:57C3:1F2E1F0:45BC59F:5B1BABED
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4952
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.040860
+X-Ratelimit-Remaining: 4574
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.051184
 X-Xss-Protection: 1; mode=block
 
-50a
-{"login":"ambroisemaupate","id":380026,"avatar_url":"https://avatars3.githubusercontent.com/u/380026?v=4","gravatar_id":"","url":"https://api.github.com/users/ambroisemaupate","html_url":"https://github.com/ambroisemaupate","followers_url":"https://api.github.com/users/ambroisemaupate/followers","following_url":"https://api.github.com/users/ambroisemaupate/following{/other_user}","gists_url":"https://api.github.com/users/ambroisemaupate/gists{/gist_id}","starred_url":"https://api.github.com/users/ambroisemaupate/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ambroisemaupate/subscriptions","organizations_url":"https://api.github.com/users/ambroisemaupate/orgs","repos_url":"https://api.github.com/users/ambroisemaupate/repos","events_url":"https://api.github.com/users/ambroisemaupate/events{/privacy}","received_events_url":"https://api.github.com/users/ambroisemaupate/received_events","type":"User","site_admin":false,"name":"Ambroise Maupate","company":"REZO ZERO","blog":"http://www.rezo-zero.com","location":"Lyon, France","email":null,"hireable":null,"bio":"@rezozero and @roadiz co-founder and lead developer.","public_repos":26,"public_gists":4,"followers":43,"following":28,"created_at":"2010-08-29T20:43:48Z","updated_at":"2018-05-08T17:13:59Z"}
+52b
+{"login":"ambroisemaupate","id":380026,"node_id":"MDQ6VXNlcjM4MDAyNg==","avatar_url":"https://avatars3.githubusercontent.com/u/380026?v=4","gravatar_id":"","url":"https://api.github.com/users/ambroisemaupate","html_url":"https://github.com/ambroisemaupate","followers_url":"https://api.github.com/users/ambroisemaupate/followers","following_url":"https://api.github.com/users/ambroisemaupate/following{/other_user}","gists_url":"https://api.github.com/users/ambroisemaupate/gists{/gist_id}","starred_url":"https://api.github.com/users/ambroisemaupate/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ambroisemaupate/subscriptions","organizations_url":"https://api.github.com/users/ambroisemaupate/orgs","repos_url":"https://api.github.com/users/ambroisemaupate/repos","events_url":"https://api.github.com/users/ambroisemaupate/events{/privacy}","received_events_url":"https://api.github.com/users/ambroisemaupate/received_events","type":"User","site_admin":false,"name":"Ambroise Maupate","company":"REZO ZERO","blog":"http://www.rezo-zero.com","location":"Lyon, France","email":null,"hireable":null,"bio":"@rezozero and @roadiz co-founder and lead developer.","public_repos":26,"public_gists":4,"followers":44,"following":30,"created_at":"2010-08-29T20:43:48Z","updated_at":"2018-06-08T04:10:08Z"}
 0
 

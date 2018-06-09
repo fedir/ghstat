@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:16 GMT
+Etag: W/"5b4c553d5f0b20ab2142af324bd52744"
+Link: <https://api.github.com/user/439362/followers?page=37>; rel="prev", <https://api.github.com/user/439362/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD29:57C6:2FE7050:64F1A5E:5B1B8B68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1334
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.059303
+X-Xss-Protection: 1; mode=block
+
+6e7
+[{"login":"cmp-cc","id":5979185,"node_id":"MDQ6VXNlcjU5NzkxODU=","avatar_url":"https://avatars0.githubusercontent.com/u/5979185?v=4","gravatar_id":"","url":"https://api.github.com/users/cmp-cc","html_url":"https://github.com/cmp-cc","followers_url":"https://api.github.com/users/cmp-cc/followers","following_url":"https://api.github.com/users/cmp-cc/following{/other_user}","gists_url":"https://api.github.com/users/cmp-cc/gists{/gist_id}","starred_url":"https://api.github.com/users/cmp-cc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cmp-cc/subscriptions","organizations_url":"https://api.github.com/users/cmp-cc/orgs","repos_url":"https://api.github.com/users/cmp-cc/repos","events_url":"https://api.github.com/users/cmp-cc/events{/privacy}","received_events_url":"https://api.github.com/users/cmp-cc/received_events","type":"User","site_admin":false},{"login":"drmaas","id":3291796,"node_id":"MDQ6VXNlcjMyOTE3OTY=","avatar_url":"https://avatars0.githubusercontent.com/u/3291796?v=4","gravatar_id":"","url":"https://api.github.com/users/drmaas","html_url":"https://github.com/drmaas","followers_url":"https://api.github.com/users/drmaas/followers","following_url":"https://api.github.com/users/drmaas/following{/other_user}","gists_url":"https://api.github.com/users/drmaas/gists{/gist_id}","starred_url":"https://api.github.com/users/drmaas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/drmaas/subscriptions","organizations_url":"https://api.github.com/users/drmaas/orgs","repos_url":"https://api.github.com/users/drmaas/repos","events_url":"https://api.github.com/users/drmaas/events{/privacy}","received_events_url":"https://api.github.com/users/drmaas/received_events","type":"User","site_admin":false}]
+0
+

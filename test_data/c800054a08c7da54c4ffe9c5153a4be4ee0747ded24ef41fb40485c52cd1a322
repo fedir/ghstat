@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:01 GMT
-Etag: W/"a8762db5b3b5e09ab9d598bbcc9778a9"
+Date: Sat, 09 Jun 2018 10:29:03 GMT
+Etag: W/"59e1f6f7578b6af56337fdec54686e05"
 Link: <https://api.github.com/user/5082/followers?page=1>; rel="prev", <https://api.github.com/user/5082/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA27:4F42:4552F16:8BA6F7D:5AF84469
+X-Github-Request-Id: D87E:57C6:309F460:669BD9F:5B1BABEF
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4709
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.037367
+X-Ratelimit-Remaining: 4434
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.036943
 X-Xss-Protection: 1; mode=block
 
-35f
-[{"login":"gocanto","id":5246059,"avatar_url":"https://avatars1.githubusercontent.com/u/5246059?v=4","gravatar_id":"","url":"https://api.github.com/users/gocanto","html_url":"https://github.com/gocanto","followers_url":"https://api.github.com/users/gocanto/followers","following_url":"https://api.github.com/users/gocanto/following{/other_user}","gists_url":"https://api.github.com/users/gocanto/gists{/gist_id}","starred_url":"https://api.github.com/users/gocanto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gocanto/subscriptions","organizations_url":"https://api.github.com/users/gocanto/orgs","repos_url":"https://api.github.com/users/gocanto/repos","events_url":"https://api.github.com/users/gocanto/events{/privacy}","received_events_url":"https://api.github.com/users/gocanto/received_events","type":"User","site_admin":false}]
+380
+[{"login":"gocanto","id":5246059,"node_id":"MDQ6VXNlcjUyNDYwNTk=","avatar_url":"https://avatars1.githubusercontent.com/u/5246059?v=4","gravatar_id":"","url":"https://api.github.com/users/gocanto","html_url":"https://github.com/gocanto","followers_url":"https://api.github.com/users/gocanto/followers","following_url":"https://api.github.com/users/gocanto/following{/other_user}","gists_url":"https://api.github.com/users/gocanto/gists{/gist_id}","starred_url":"https://api.github.com/users/gocanto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gocanto/subscriptions","organizations_url":"https://api.github.com/users/gocanto/orgs","repos_url":"https://api.github.com/users/gocanto/repos","events_url":"https://api.github.com/users/gocanto/events{/privacy}","received_events_url":"https://api.github.com/users/gocanto/received_events","type":"User","site_admin":false}]
 0
 

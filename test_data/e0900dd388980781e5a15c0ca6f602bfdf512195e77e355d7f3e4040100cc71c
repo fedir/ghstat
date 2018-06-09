@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:00 GMT
-Etag: W/"3e240bfbd0a391903b732804a76227d5"
-Last-Modified: Thu, 12 Apr 2018 19:45:27 GMT
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"642974effba114ed6a9a1d63c8c9bd59"
+Last-Modified: Wed, 23 May 2018 20:46:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA13:4F42:4552DCF:8BA6CCF:5AF84467
+X-Github-Request-Id: D843:57C5:384E326:73B9F0C:5B1BABEB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4830
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.167234
+X-Ratelimit-Remaining: 4762
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.037282
 X-Xss-Protection: 1; mode=block
 
-472
-{"login":"aembler","id":527809,"avatar_url":"https://avatars2.githubusercontent.com/u/527809?v=4","gravatar_id":"","url":"https://api.github.com/users/aembler","html_url":"https://github.com/aembler","followers_url":"https://api.github.com/users/aembler/followers","following_url":"https://api.github.com/users/aembler/following{/other_user}","gists_url":"https://api.github.com/users/aembler/gists{/gist_id}","starred_url":"https://api.github.com/users/aembler/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aembler/subscriptions","organizations_url":"https://api.github.com/users/aembler/orgs","repos_url":"https://api.github.com/users/aembler/repos","events_url":"https://api.github.com/users/aembler/events{/privacy}","received_events_url":"https://api.github.com/users/aembler/received_events","type":"User","site_admin":false,"name":"Andrew Embler","company":"concrete5","blog":"http://andrewembler.com","location":"Portland, OR","email":null,"hireable":null,"bio":null,"public_repos":2,"public_gists":2,"followers":96,"following":0,"created_at":"2010-12-17T21:42:55Z","updated_at":"2018-04-12T19:45:27Z"}
+493
+{"login":"aembler","id":527809,"node_id":"MDQ6VXNlcjUyNzgwOQ==","avatar_url":"https://avatars2.githubusercontent.com/u/527809?v=4","gravatar_id":"","url":"https://api.github.com/users/aembler","html_url":"https://github.com/aembler","followers_url":"https://api.github.com/users/aembler/followers","following_url":"https://api.github.com/users/aembler/following{/other_user}","gists_url":"https://api.github.com/users/aembler/gists{/gist_id}","starred_url":"https://api.github.com/users/aembler/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aembler/subscriptions","organizations_url":"https://api.github.com/users/aembler/orgs","repos_url":"https://api.github.com/users/aembler/repos","events_url":"https://api.github.com/users/aembler/events{/privacy}","received_events_url":"https://api.github.com/users/aembler/received_events","type":"User","site_admin":false,"name":"Andrew Embler","company":"concrete5","blog":"http://andrewembler.com","location":"Portland, OR","email":null,"hireable":null,"bio":null,"public_repos":2,"public_gists":2,"followers":96,"following":0,"created_at":"2010-12-17T21:42:55Z","updated_at":"2018-05-23T20:46:13Z"}
 0
 

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:07 GMT
-Etag: W/"401375d15f84abc8c5d754cc819c18e7"
-Last-Modified: Wed, 09 May 2018 17:43:33 GMT
+Date: Sat, 09 Jun 2018 08:07:03 GMT
+Etag: W/"4404e8f26f02f321821af74f95eef0fe"
+Last-Modified: Fri, 01 Jun 2018 16:54:47 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDDC:4F41:35986AD:750A81A:5AF83713
+X-Github-Request-Id: CAA4:57C6:2FE361D:64E8A81:5B1B8AA6
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2681
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036398
+X-Ratelimit-Remaining: 3360
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033221
 X-Xss-Protection: 1; mode=block
 
-4a2
-{"login":"chriddyp","id":1280389,"avatar_url":"https://avatars3.githubusercontent.com/u/1280389?v=4","gravatar_id":"","url":"https://api.github.com/users/chriddyp","html_url":"https://github.com/chriddyp","followers_url":"https://api.github.com/users/chriddyp/followers","following_url":"https://api.github.com/users/chriddyp/following{/other_user}","gists_url":"https://api.github.com/users/chriddyp/gists{/gist_id}","starred_url":"https://api.github.com/users/chriddyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chriddyp/subscriptions","organizations_url":"https://api.github.com/users/chriddyp/orgs","repos_url":"https://api.github.com/users/chriddyp/repos","events_url":"https://api.github.com/users/chriddyp/events{/privacy}","received_events_url":"https://api.github.com/users/chriddyp/received_events","type":"User","site_admin":false,"name":"Chris Parmer","company":"Plotly","blog":"https://plot.ly","location":"Montréal","email":"chris@plot.ly","hireable":null,"bio":"Cofounder of Plotly, Author of Dash","public_repos":73,"public_gists":107,"followers":242,"following":27,"created_at":"2011-12-22T16:17:50Z","updated_at":"2018-05-09T17:43:33Z"}
+4c3
+{"login":"chriddyp","id":1280389,"node_id":"MDQ6VXNlcjEyODAzODk=","avatar_url":"https://avatars3.githubusercontent.com/u/1280389?v=4","gravatar_id":"","url":"https://api.github.com/users/chriddyp","html_url":"https://github.com/chriddyp","followers_url":"https://api.github.com/users/chriddyp/followers","following_url":"https://api.github.com/users/chriddyp/following{/other_user}","gists_url":"https://api.github.com/users/chriddyp/gists{/gist_id}","starred_url":"https://api.github.com/users/chriddyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chriddyp/subscriptions","organizations_url":"https://api.github.com/users/chriddyp/orgs","repos_url":"https://api.github.com/users/chriddyp/repos","events_url":"https://api.github.com/users/chriddyp/events{/privacy}","received_events_url":"https://api.github.com/users/chriddyp/received_events","type":"User","site_admin":false,"name":"Chris Parmer","company":"Plotly","blog":"https://plot.ly","location":"Montréal","email":"chris@plot.ly","hireable":null,"bio":"Cofounder of Plotly, Author of Dash","public_repos":73,"public_gists":107,"followers":253,"following":27,"created_at":"2011-12-22T16:17:50Z","updated_at":"2018-06-01T16:54:47Z"}
 0
 

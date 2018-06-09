@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:12:27 GMT
+Etag: W/"2139d809ff42e3bbfa3d0c658654e0f8"
+Link: <https://api.github.com/user/9558/followers?page=23>; rel="prev", <https://api.github.com/user/9558/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CEFF:57C4:23BE693:50DC384:5B1B8BEB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 271
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.044682
+X-Xss-Protection: 1; mode=block
+
+709
+[{"login":"wicky-info","id":8560064,"node_id":"MDQ6VXNlcjg1NjAwNjQ=","avatar_url":"https://avatars1.githubusercontent.com/u/8560064?v=4","gravatar_id":"","url":"https://api.github.com/users/wicky-info","html_url":"https://github.com/wicky-info","followers_url":"https://api.github.com/users/wicky-info/followers","following_url":"https://api.github.com/users/wicky-info/following{/other_user}","gists_url":"https://api.github.com/users/wicky-info/gists{/gist_id}","starred_url":"https://api.github.com/users/wicky-info/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wicky-info/subscriptions","organizations_url":"https://api.github.com/users/wicky-info/orgs","repos_url":"https://api.github.com/users/wicky-info/repos","events_url":"https://api.github.com/users/wicky-info/events{/privacy}","received_events_url":"https://api.github.com/users/wicky-info/received_events","type":"User","site_admin":false},{"login":"fatum","id":313161,"node_id":"MDQ6VXNlcjMxMzE2MQ==","avatar_url":"https://avatars1.githubusercontent.com/u/313161?v=4","gravatar_id":"","url":"https://api.github.com/users/fatum","html_url":"https://github.com/fatum","followers_url":"https://api.github.com/users/fatum/followers","following_url":"https://api.github.com/users/fatum/following{/other_user}","gists_url":"https://api.github.com/users/fatum/gists{/gist_id}","starred_url":"https://api.github.com/users/fatum/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fatum/subscriptions","organizations_url":"https://api.github.com/users/fatum/orgs","repos_url":"https://api.github.com/users/fatum/repos","events_url":"https://api.github.com/users/fatum/events{/privacy}","received_events_url":"https://api.github.com/users/fatum/received_events","type":"User","site_admin":false}]
+0
+

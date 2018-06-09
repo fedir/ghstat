@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:56 GMT
-Etag: W/"6e2c8f05785e1beedb2e1e8f71b1dcf2"
+Date: Sat, 09 Jun 2018 08:06:20 GMT
+Etag: W/"8ece841350759c0acc3679f91a9440d3"
 Link: <https://api.github.com/user/103936/followers?page=1>; rel="prev", <https://api.github.com/user/103936/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB33:4F42:44D9053:8AB5B3E:5AF83690
+X-Github-Request-Id: C9EC:57C5:3729ACA:7197364:5B1B8A7C
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4196
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.040249
+X-Ratelimit-Remaining: 3765
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032867
 X-Xss-Protection: 1; mode=block
 
-3a9
-[{"login":"geraldo-netto","id":20527108,"avatar_url":"https://avatars1.githubusercontent.com/u/20527108?v=4","gravatar_id":"","url":"https://api.github.com/users/geraldo-netto","html_url":"https://github.com/geraldo-netto","followers_url":"https://api.github.com/users/geraldo-netto/followers","following_url":"https://api.github.com/users/geraldo-netto/following{/other_user}","gists_url":"https://api.github.com/users/geraldo-netto/gists{/gist_id}","starred_url":"https://api.github.com/users/geraldo-netto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geraldo-netto/subscriptions","organizations_url":"https://api.github.com/users/geraldo-netto/orgs","repos_url":"https://api.github.com/users/geraldo-netto/repos","events_url":"https://api.github.com/users/geraldo-netto/events{/privacy}","received_events_url":"https://api.github.com/users/geraldo-netto/received_events","type":"User","site_admin":false}]
+74b
+[{"login":"geraldo-netto","id":20527108,"node_id":"MDQ6VXNlcjIwNTI3MTA4","avatar_url":"https://avatars1.githubusercontent.com/u/20527108?v=4","gravatar_id":"","url":"https://api.github.com/users/geraldo-netto","html_url":"https://github.com/geraldo-netto","followers_url":"https://api.github.com/users/geraldo-netto/followers","following_url":"https://api.github.com/users/geraldo-netto/following{/other_user}","gists_url":"https://api.github.com/users/geraldo-netto/gists{/gist_id}","starred_url":"https://api.github.com/users/geraldo-netto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geraldo-netto/subscriptions","organizations_url":"https://api.github.com/users/geraldo-netto/orgs","repos_url":"https://api.github.com/users/geraldo-netto/repos","events_url":"https://api.github.com/users/geraldo-netto/events{/privacy}","received_events_url":"https://api.github.com/users/geraldo-netto/received_events","type":"User","site_admin":false},{"login":"heydary","id":38706165,"node_id":"MDQ6VXNlcjM4NzA2MTY1","avatar_url":"https://avatars2.githubusercontent.com/u/38706165?v=4","gravatar_id":"","url":"https://api.github.com/users/heydary","html_url":"https://github.com/heydary","followers_url":"https://api.github.com/users/heydary/followers","following_url":"https://api.github.com/users/heydary/following{/other_user}","gists_url":"https://api.github.com/users/heydary/gists{/gist_id}","starred_url":"https://api.github.com/users/heydary/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/heydary/subscriptions","organizations_url":"https://api.github.com/users/heydary/orgs","repos_url":"https://api.github.com/users/heydary/repos","events_url":"https://api.github.com/users/heydary/events{/privacy}","received_events_url":"https://api.github.com/users/heydary/received_events","type":"User","site_admin":false}]
 0
 

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:05 GMT
+Etag: W/"91c07ea956af2642653a5069b338db36"
+Last-Modified: Tue, 05 Jun 2018 17:15:27 GMT
+Link: <https://api.github.com/repositories/28669611/tags?page=4>; rel="prev", <https://api.github.com/repositories/28669611/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB35:57C5:372D466:719DC97:5B1B8AE5
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2729
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.059091
+X-Xss-Protection: 1; mode=block
+
+2c1
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/juxt/yada/zipball/0.2.0","tarball_url":"https://api.github.com/repos/juxt/yada/tarball/0.2.0","commit":{"sha":"2aa1b4830616a944b2e58138113c3799a5335325","url":"https://api.github.com/repos/juxt/yada/commits/2aa1b4830616a944b2e58138113c3799a5335325"},"node_id":"MDM6UmVmMjg2Njk2MTE6MC4yLjA="},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/juxt/yada/zipball/0.1.0","tarball_url":"https://api.github.com/repos/juxt/yada/tarball/0.1.0","commit":{"sha":"66ea4a74fa96131389ced2c9842bb1fe64d618e1","url":"https://api.github.com/repos/juxt/yada/commits/66ea4a74fa96131389ced2c9842bb1fe64d618e1"},"node_id":"MDM6UmVmMjg2Njk2MTE6MC4xLjA="}]
+0
+

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:57:42 GMT
-Etag: W/"b23e18502ca2f49346226c1c1b3a9975"
+Date: Sat, 09 Jun 2018 08:04:47 GMT
+Etag: W/"4f20f3804ab4d13946f6d1b2d584e83b"
 Link: <https://api.github.com/user/2451004/followers?page=1>; rel="prev", <https://api.github.com/user/2451004/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAD2:4F41:359370E:74FDEDC:5AF83646
+X-Github-Request-Id: C8A5:57C6:2FE05FD:64E1678:5B1B8A1E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4794
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.033014
+X-Ratelimit-Remaining: 4808
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032070
 X-Xss-Protection: 1; mode=block
 
-6c9
-[{"login":"Bunlong","id":1308397,"avatar_url":"https://avatars0.githubusercontent.com/u/1308397?v=4","gravatar_id":"","url":"https://api.github.com/users/Bunlong","html_url":"https://github.com/Bunlong","followers_url":"https://api.github.com/users/Bunlong/followers","following_url":"https://api.github.com/users/Bunlong/following{/other_user}","gists_url":"https://api.github.com/users/Bunlong/gists{/gist_id}","starred_url":"https://api.github.com/users/Bunlong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bunlong/subscriptions","organizations_url":"https://api.github.com/users/Bunlong/orgs","repos_url":"https://api.github.com/users/Bunlong/repos","events_url":"https://api.github.com/users/Bunlong/events{/privacy}","received_events_url":"https://api.github.com/users/Bunlong/received_events","type":"User","site_admin":false},{"login":"philouxy","id":5294105,"avatar_url":"https://avatars1.githubusercontent.com/u/5294105?v=4","gravatar_id":"","url":"https://api.github.com/users/philouxy","html_url":"https://github.com/philouxy","followers_url":"https://api.github.com/users/philouxy/followers","following_url":"https://api.github.com/users/philouxy/following{/other_user}","gists_url":"https://api.github.com/users/philouxy/gists{/gist_id}","starred_url":"https://api.github.com/users/philouxy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/philouxy/subscriptions","organizations_url":"https://api.github.com/users/philouxy/orgs","repos_url":"https://api.github.com/users/philouxy/repos","events_url":"https://api.github.com/users/philouxy/events{/privacy}","received_events_url":"https://api.github.com/users/philouxy/received_events","type":"User","site_admin":false}]
+70b
+[{"login":"Bunlong","id":1308397,"node_id":"MDQ6VXNlcjEzMDgzOTc=","avatar_url":"https://avatars0.githubusercontent.com/u/1308397?v=4","gravatar_id":"","url":"https://api.github.com/users/Bunlong","html_url":"https://github.com/Bunlong","followers_url":"https://api.github.com/users/Bunlong/followers","following_url":"https://api.github.com/users/Bunlong/following{/other_user}","gists_url":"https://api.github.com/users/Bunlong/gists{/gist_id}","starred_url":"https://api.github.com/users/Bunlong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bunlong/subscriptions","organizations_url":"https://api.github.com/users/Bunlong/orgs","repos_url":"https://api.github.com/users/Bunlong/repos","events_url":"https://api.github.com/users/Bunlong/events{/privacy}","received_events_url":"https://api.github.com/users/Bunlong/received_events","type":"User","site_admin":false},{"login":"philouxy","id":5294105,"node_id":"MDQ6VXNlcjUyOTQxMDU=","avatar_url":"https://avatars1.githubusercontent.com/u/5294105?v=4","gravatar_id":"","url":"https://api.github.com/users/philouxy","html_url":"https://github.com/philouxy","followers_url":"https://api.github.com/users/philouxy/followers","following_url":"https://api.github.com/users/philouxy/following{/other_user}","gists_url":"https://api.github.com/users/philouxy/gists{/gist_id}","starred_url":"https://api.github.com/users/philouxy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/philouxy/subscriptions","organizations_url":"https://api.github.com/users/philouxy/orgs","repos_url":"https://api.github.com/users/philouxy/repos","events_url":"https://api.github.com/users/philouxy/events{/privacy}","received_events_url":"https://api.github.com/users/philouxy/received_events","type":"User","site_admin":false}]
 0
 

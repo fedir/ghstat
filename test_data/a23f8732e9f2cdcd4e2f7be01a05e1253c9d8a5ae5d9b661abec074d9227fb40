@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:55 GMT
-Etag: W/"b045439c5efe2d4794e00a191d3ddeae"
-Last-Modified: Thu, 10 May 2018 22:58:30 GMT
+Date: Sat, 09 Jun 2018 08:06:20 GMT
+Etag: W/"1dfcf36dfdaf09081e8b90371ab57957"
+Last-Modified: Fri, 08 Jun 2018 06:30:41 GMT
 Link: <https://api.github.com/repositories/52513178/tags?page=1>; rel="prev", <https://api.github.com/repositories/52513178/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB3F:4F41:3595026:750214D:5AF8368F
+X-Github-Request-Id: C9F7:57C4:23B9CF1:50D0985:5B1B8A7C
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4219
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.041977
+X-Ratelimit-Remaining: 3782
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030110
 X-Xss-Protection: 1; mode=block
 
-2db
-[{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/v0.1.0","commit":{"sha":"ab3682f9e88c68513629312c6662085d235929cb","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/ab3682f9e88c68513629312c6662085d235929cb"}},{"name":"0.7.0-M1","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/0.7.0-M1","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/0.7.0-M1","commit":{"sha":"1c281648a09cbae5aa99af09be030a59552223e9","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/1c281648a09cbae5aa99af09be030a59552223e9"}}]
+7ea
+[{"name":"v0.3.0","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/v0.3.0","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/v0.3.0","commit":{"sha":"b188318f2d7f0fe23b36972306e2b7f45db7f22b","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/b188318f2d7f0fe23b36972306e2b7f45db7f22b"},"node_id":"MDM6UmVmNTI1MTMxNzg6djAuMy4w"},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/v0.2.0","commit":{"sha":"821e4fb4acaae8ac96ec063c302834ab7cc7d957","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/821e4fb4acaae8ac96ec063c302834ab7cc7d957"},"node_id":"MDM6UmVmNTI1MTMxNzg6djAuMi4w"},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/v0.1.1","commit":{"sha":"f3bbbad90457eeeaea2848963ec41eae613ae85d","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/f3bbbad90457eeeaea2848963ec41eae613ae85d"},"node_id":"MDM6UmVmNTI1MTMxNzg6djAuMS4x"},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/v0.1.0","commit":{"sha":"ab3682f9e88c68513629312c6662085d235929cb","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/ab3682f9e88c68513629312c6662085d235929cb"},"node_id":"MDM6UmVmNTI1MTMxNzg6djAuMS4w"},{"name":"0.7.0-M1","zipball_url":"https://api.github.com/repos/UdashFramework/udash-core/zipball/0.7.0-M1","tarball_url":"https://api.github.com/repos/UdashFramework/udash-core/tarball/0.7.0-M1","commit":{"sha":"1c281648a09cbae5aa99af09be030a59552223e9","url":"https://api.github.com/repos/UdashFramework/udash-core/commits/1c281648a09cbae5aa99af09be030a59552223e9"},"node_id":"MDM6UmVmNTI1MTMxNzg6MC43LjAtTTE="}]
 0
 

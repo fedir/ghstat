@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:11:00 GMT
+Etag: W/"62dc055a9b4e4ee0f73138bb97808440"
+Link: <https://api.github.com/user/46725/followers?page=12>; rel="prev", <https://api.github.com/user/46725/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE27:57C6:2FE7CDF:64F37C2:5B1B8B94
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 898
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.061114
+X-Xss-Protection: 1; mode=block
+
+b02
+[{"login":"robertfoobar","id":1533054,"node_id":"MDQ6VXNlcjE1MzMwNTQ=","avatar_url":"https://avatars2.githubusercontent.com/u/1533054?v=4","gravatar_id":"","url":"https://api.github.com/users/robertfoobar","html_url":"https://github.com/robertfoobar","followers_url":"https://api.github.com/users/robertfoobar/followers","following_url":"https://api.github.com/users/robertfoobar/following{/other_user}","gists_url":"https://api.github.com/users/robertfoobar/gists{/gist_id}","starred_url":"https://api.github.com/users/robertfoobar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/robertfoobar/subscriptions","organizations_url":"https://api.github.com/users/robertfoobar/orgs","repos_url":"https://api.github.com/users/robertfoobar/repos","events_url":"https://api.github.com/users/robertfoobar/events{/privacy}","received_events_url":"https://api.github.com/users/robertfoobar/received_events","type":"User","site_admin":false},{"login":"emiljohansson","id":1788399,"node_id":"MDQ6VXNlcjE3ODgzOTk=","avatar_url":"https://avatars3.githubusercontent.com/u/1788399?v=4","gravatar_id":"","url":"https://api.github.com/users/emiljohansson","html_url":"https://github.com/emiljohansson","followers_url":"https://api.github.com/users/emiljohansson/followers","following_url":"https://api.github.com/users/emiljohansson/following{/other_user}","gists_url":"https://api.github.com/users/emiljohansson/gists{/gist_id}","starred_url":"https://api.github.com/users/emiljohansson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/emiljohansson/subscriptions","organizations_url":"https://api.github.com/users/emiljohansson/orgs","repos_url":"https://api.github.com/users/emiljohansson/repos","events_url":"https://api.github.com/users/emiljohansson/events{/privacy}","received_events_url":"https://api.github.com/users/emiljohansson/received_events","type":"User","site_admin":false},{"login":"flawyte","id":1585006,"node_id":"MDQ6VXNlcjE1ODUwMDY=","avatar_url":"https://avatars3.githubusercontent.com/u/1585006?v=4","gravatar_id":"","url":"https://api.github.com/users/flawyte","html_url":"https://github.com/flawyte","followers_url":"https://api.github.com/users/flawyte/followers","following_url":"https://api.github.com/users/flawyte/following{/other_user}","gists_url":"https://api.github.com/users/flawyte/gists{/gist_id}","starred_url":"https://api.github.com/users/flawyte/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/flawyte/subscriptions","organizations_url":"https://api.github.com/users/flawyte/orgs","repos_url":"https://api.github.com/users/flawyte/repos","events_url":"https://api.github.com/users/flawyte/events{/privacy}","received_events_url":"https://api.github.com/users/flawyte/received_events","type":"User","site_admin":false}]
+0
+

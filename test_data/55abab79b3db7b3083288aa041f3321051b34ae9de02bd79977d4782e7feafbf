@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:02 GMT
-Etag: W/"922bb38206921256b6e7f52057def098"
-Last-Modified: Thu, 03 May 2018 08:37:02 GMT
+Date: Sat, 09 Jun 2018 10:29:04 GMT
+Etag: W/"790e47901ab2e227264d6637d306e65c"
+Last-Modified: Thu, 07 Jun 2018 22:10:36 GMT
 Link: <https://api.github.com/repositories/8863081/contributors?page=2>; rel="prev", <https://api.github.com/repositories/8863081/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DAA5:4F3F:1AAF8F6:3FAEE51:5AF84469
+X-Github-Request-Id: D84C:57C6:309F4C3:669BEBE:5B1BABF0
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4569
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.093982
+X-Ratelimit-Remaining: 4343
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.053678
 X-Xss-Protection: 1; mode=block
 
-379
-[{"login":"shakaran","id":14254,"avatar_url":"https://avatars1.githubusercontent.com/u/14254?v=4","gravatar_id":"","url":"https://api.github.com/users/shakaran","html_url":"https://github.com/shakaran","followers_url":"https://api.github.com/users/shakaran/followers","following_url":"https://api.github.com/users/shakaran/following{/other_user}","gists_url":"https://api.github.com/users/shakaran/gists{/gist_id}","starred_url":"https://api.github.com/users/shakaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shakaran/subscriptions","organizations_url":"https://api.github.com/users/shakaran/orgs","repos_url":"https://api.github.com/users/shakaran/repos","events_url":"https://api.github.com/users/shakaran/events{/privacy}","received_events_url":"https://api.github.com/users/shakaran/received_events","type":"User","site_admin":false,"contributions":1}]
+396
+[{"login":"shakaran","id":14254,"node_id":"MDQ6VXNlcjE0MjU0","avatar_url":"https://avatars1.githubusercontent.com/u/14254?v=4","gravatar_id":"","url":"https://api.github.com/users/shakaran","html_url":"https://github.com/shakaran","followers_url":"https://api.github.com/users/shakaran/followers","following_url":"https://api.github.com/users/shakaran/following{/other_user}","gists_url":"https://api.github.com/users/shakaran/gists{/gist_id}","starred_url":"https://api.github.com/users/shakaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shakaran/subscriptions","organizations_url":"https://api.github.com/users/shakaran/orgs","repos_url":"https://api.github.com/users/shakaran/repos","events_url":"https://api.github.com/users/shakaran/events{/privacy}","received_events_url":"https://api.github.com/users/shakaran/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

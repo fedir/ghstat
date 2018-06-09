@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:59 GMT
+Etag: W/"7f165326f3b6934817d6694120c5c832"
+Link: <https://api.github.com/user/35996/followers?page=44>; rel="prev", <https://api.github.com/user/35996/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE1C:57C6:2FE7CBC:64F377B:5B1B8B93
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 930
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.075183
+X-Xss-Protection: 1; mode=block
+
+703
+[{"login":"peeoen","id":26850946,"node_id":"MDQ6VXNlcjI2ODUwOTQ2","avatar_url":"https://avatars2.githubusercontent.com/u/26850946?v=4","gravatar_id":"","url":"https://api.github.com/users/peeoen","html_url":"https://github.com/peeoen","followers_url":"https://api.github.com/users/peeoen/followers","following_url":"https://api.github.com/users/peeoen/following{/other_user}","gists_url":"https://api.github.com/users/peeoen/gists{/gist_id}","starred_url":"https://api.github.com/users/peeoen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/peeoen/subscriptions","organizations_url":"https://api.github.com/users/peeoen/orgs","repos_url":"https://api.github.com/users/peeoen/repos","events_url":"https://api.github.com/users/peeoen/events{/privacy}","received_events_url":"https://api.github.com/users/peeoen/received_events","type":"User","site_admin":false},{"login":"Battozxz","id":17403224,"node_id":"MDQ6VXNlcjE3NDAzMjI0","avatar_url":"https://avatars3.githubusercontent.com/u/17403224?v=4","gravatar_id":"","url":"https://api.github.com/users/Battozxz","html_url":"https://github.com/Battozxz","followers_url":"https://api.github.com/users/Battozxz/followers","following_url":"https://api.github.com/users/Battozxz/following{/other_user}","gists_url":"https://api.github.com/users/Battozxz/gists{/gist_id}","starred_url":"https://api.github.com/users/Battozxz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Battozxz/subscriptions","organizations_url":"https://api.github.com/users/Battozxz/orgs","repos_url":"https://api.github.com/users/Battozxz/repos","events_url":"https://api.github.com/users/Battozxz/events{/privacy}","received_events_url":"https://api.github.com/users/Battozxz/received_events","type":"User","site_admin":false}]
+0
+

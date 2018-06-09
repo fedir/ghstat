@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:04:46 GMT
+Etag: W/"5e77777f77f6e2e4df28ac0b5942aea8"
+Link: <https://api.github.com/user/7011819/followers?page=1>; rel="prev", <https://api.github.com/user/7011819/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C889:57C5:372603C:71909AC:5B1B8A1E
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4846
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.039828
+X-Xss-Protection: 1; mode=block
+
+711
+[{"login":"commonzhou","id":16068867,"node_id":"MDQ6VXNlcjE2MDY4ODY3","avatar_url":"https://avatars1.githubusercontent.com/u/16068867?v=4","gravatar_id":"","url":"https://api.github.com/users/commonzhou","html_url":"https://github.com/commonzhou","followers_url":"https://api.github.com/users/commonzhou/followers","following_url":"https://api.github.com/users/commonzhou/following{/other_user}","gists_url":"https://api.github.com/users/commonzhou/gists{/gist_id}","starred_url":"https://api.github.com/users/commonzhou/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/commonzhou/subscriptions","organizations_url":"https://api.github.com/users/commonzhou/orgs","repos_url":"https://api.github.com/users/commonzhou/repos","events_url":"https://api.github.com/users/commonzhou/events{/privacy}","received_events_url":"https://api.github.com/users/commonzhou/received_events","type":"User","site_admin":false},{"login":"montao","id":51189,"node_id":"MDQ6VXNlcjUxMTg5","avatar_url":"https://avatars3.githubusercontent.com/u/51189?v=4","gravatar_id":"","url":"https://api.github.com/users/montao","html_url":"https://github.com/montao","followers_url":"https://api.github.com/users/montao/followers","following_url":"https://api.github.com/users/montao/following{/other_user}","gists_url":"https://api.github.com/users/montao/gists{/gist_id}","starred_url":"https://api.github.com/users/montao/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/montao/subscriptions","organizations_url":"https://api.github.com/users/montao/orgs","repos_url":"https://api.github.com/users/montao/repos","events_url":"https://api.github.com/users/montao/events{/privacy}","received_events_url":"https://api.github.com/users/montao/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:39 GMT
-Etag: W/"dcf1472e0a87d7e031e4952c55dd5df5"
-Last-Modified: Sat, 12 May 2018 09:36:30 GMT
+Date: Sat, 09 Jun 2018 08:08:13 GMT
+Etag: W/"cf41a4cc1496fb0462b06232f8aeb2a0"
+Last-Modified: Fri, 08 Jun 2018 06:16:20 GMT
 Link: <https://api.github.com/repositories/325927/contributors?page=2>; rel="prev", <https://api.github.com/repositories/325927/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFBE:4F41:35A065A:751DE4D:5AF8385F
+X-Github-Request-Id: CB4F:57C5:372D892:719E3D0:5B1B8AED
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1789
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.053525
+X-Ratelimit-Remaining: 2606
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.054003
 X-Xss-Protection: 1; mode=block
 
-a65
-[{"login":"yannickg","id":711625,"avatar_url":"https://avatars2.githubusercontent.com/u/711625?v=4","gravatar_id":"","url":"https://api.github.com/users/yannickg","html_url":"https://github.com/yannickg","followers_url":"https://api.github.com/users/yannickg/followers","following_url":"https://api.github.com/users/yannickg/following{/other_user}","gists_url":"https://api.github.com/users/yannickg/gists{/gist_id}","starred_url":"https://api.github.com/users/yannickg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yannickg/subscriptions","organizations_url":"https://api.github.com/users/yannickg/orgs","repos_url":"https://api.github.com/users/yannickg/repos","events_url":"https://api.github.com/users/yannickg/events{/privacy}","received_events_url":"https://api.github.com/users/yannickg/received_events","type":"User","site_admin":false,"contributions":1},{"login":"samrose","id":115821,"avatar_url":"https://avatars2.githubusercontent.com/u/115821?v=4","gravatar_id":"","url":"https://api.github.com/users/samrose","html_url":"https://github.com/samrose","followers_url":"https://api.github.com/users/samrose/followers","following_url":"https://api.github.com/users/samrose/following{/other_user}","gists_url":"https://api.github.com/users/samrose/gists{/gist_id}","starred_url":"https://api.github.com/users/samrose/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samrose/subscriptions","organizations_url":"https://api.github.com/users/samrose/orgs","repos_url":"https://api.github.com/users/samrose/repos","events_url":"https://api.github.com/users/samrose/events{/privacy}","received_events_url":"https://api.github.com/users/samrose/received_events","type":"User","site_admin":false,"contributions":1},{"login":"uselessd","id":9701763,"avatar_url":"https://avatars2.githubusercontent.com/u/9701763?v=4","gravatar_id":"","url":"https://api.github.com/users/uselessd","html_url":"https://github.com/uselessd","followers_url":"https://api.github.com/users/uselessd/followers","following_url":"https://api.github.com/users/uselessd/following{/other_user}","gists_url":"https://api.github.com/users/uselessd/gists{/gist_id}","starred_url":"https://api.github.com/users/uselessd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/uselessd/subscriptions","organizations_url":"https://api.github.com/users/uselessd/orgs","repos_url":"https://api.github.com/users/uselessd/repos","events_url":"https://api.github.com/users/uselessd/events{/privacy}","received_events_url":"https://api.github.com/users/uselessd/received_events","type":"User","site_admin":false,"contributions":1}]
+ac8
+[{"login":"yannickg","id":711625,"node_id":"MDQ6VXNlcjcxMTYyNQ==","avatar_url":"https://avatars2.githubusercontent.com/u/711625?v=4","gravatar_id":"","url":"https://api.github.com/users/yannickg","html_url":"https://github.com/yannickg","followers_url":"https://api.github.com/users/yannickg/followers","following_url":"https://api.github.com/users/yannickg/following{/other_user}","gists_url":"https://api.github.com/users/yannickg/gists{/gist_id}","starred_url":"https://api.github.com/users/yannickg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yannickg/subscriptions","organizations_url":"https://api.github.com/users/yannickg/orgs","repos_url":"https://api.github.com/users/yannickg/repos","events_url":"https://api.github.com/users/yannickg/events{/privacy}","received_events_url":"https://api.github.com/users/yannickg/received_events","type":"User","site_admin":false,"contributions":1},{"login":"samrose","id":115821,"node_id":"MDQ6VXNlcjExNTgyMQ==","avatar_url":"https://avatars2.githubusercontent.com/u/115821?v=4","gravatar_id":"","url":"https://api.github.com/users/samrose","html_url":"https://github.com/samrose","followers_url":"https://api.github.com/users/samrose/followers","following_url":"https://api.github.com/users/samrose/following{/other_user}","gists_url":"https://api.github.com/users/samrose/gists{/gist_id}","starred_url":"https://api.github.com/users/samrose/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samrose/subscriptions","organizations_url":"https://api.github.com/users/samrose/orgs","repos_url":"https://api.github.com/users/samrose/repos","events_url":"https://api.github.com/users/samrose/events{/privacy}","received_events_url":"https://api.github.com/users/samrose/received_events","type":"User","site_admin":false,"contributions":1},{"login":"uselessd","id":9701763,"node_id":"MDQ6VXNlcjk3MDE3NjM=","avatar_url":"https://avatars2.githubusercontent.com/u/9701763?v=4","gravatar_id":"","url":"https://api.github.com/users/uselessd","html_url":"https://github.com/uselessd","followers_url":"https://api.github.com/users/uselessd/followers","following_url":"https://api.github.com/users/uselessd/following{/other_user}","gists_url":"https://api.github.com/users/uselessd/gists{/gist_id}","starred_url":"https://api.github.com/users/uselessd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/uselessd/subscriptions","organizations_url":"https://api.github.com/users/uselessd/orgs","repos_url":"https://api.github.com/users/uselessd/repos","events_url":"https://api.github.com/users/uselessd/events{/privacy}","received_events_url":"https://api.github.com/users/uselessd/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

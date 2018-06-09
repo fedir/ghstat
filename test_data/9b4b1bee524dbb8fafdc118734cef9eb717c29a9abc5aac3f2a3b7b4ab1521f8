@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:40 GMT
-Etag: W/"debac968a116272ee9fd586afb419111"
-Last-Modified: Mon, 30 Apr 2018 02:19:20 GMT
+Date: Sat, 09 Jun 2018 08:08:14 GMT
+Etag: W/"6b2f65c350be35bb4272a6600b0a6a71"
+Last-Modified: Fri, 08 Jun 2018 06:16:15 GMT
 Link: <https://api.github.com/repositories/1847706/contributors?page=2>; rel="prev", <https://api.github.com/repositories/1847706/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFBE:4F41:35A06BE:751DF08:5AF83860
+X-Github-Request-Id: CB51:57C6:2FE4EC3:64EC3CB:5B1B8AEE
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1766
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.044059
+X-Ratelimit-Remaining: 2580
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.064607
 X-Xss-Protection: 1; mode=block
 
-7bd
-[{"login":"sistema-correspondente","id":13875976,"avatar_url":"https://avatars0.githubusercontent.com/u/13875976?v=4","gravatar_id":"","url":"https://api.github.com/users/sistema-correspondente","html_url":"https://github.com/sistema-correspondente","followers_url":"https://api.github.com/users/sistema-correspondente/followers","following_url":"https://api.github.com/users/sistema-correspondente/following{/other_user}","gists_url":"https://api.github.com/users/sistema-correspondente/gists{/gist_id}","starred_url":"https://api.github.com/users/sistema-correspondente/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sistema-correspondente/subscriptions","organizations_url":"https://api.github.com/users/sistema-correspondente/orgs","repos_url":"https://api.github.com/users/sistema-correspondente/repos","events_url":"https://api.github.com/users/sistema-correspondente/events{/privacy}","received_events_url":"https://api.github.com/users/sistema-correspondente/received_events","type":"User","site_admin":false,"contributions":1},{"login":"tantemelki","id":26347298,"avatar_url":"https://avatars2.githubusercontent.com/u/26347298?v=4","gravatar_id":"","url":"https://api.github.com/users/tantemelki","html_url":"https://github.com/tantemelki","followers_url":"https://api.github.com/users/tantemelki/followers","following_url":"https://api.github.com/users/tantemelki/following{/other_user}","gists_url":"https://api.github.com/users/tantemelki/gists{/gist_id}","starred_url":"https://api.github.com/users/tantemelki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tantemelki/subscriptions","organizations_url":"https://api.github.com/users/tantemelki/orgs","repos_url":"https://api.github.com/users/tantemelki/repos","events_url":"https://api.github.com/users/tantemelki/events{/privacy}","received_events_url":"https://api.github.com/users/tantemelki/received_events","type":"User","site_admin":false,"contributions":1}]
+3b8
+[{"login":"tantemelki","id":26347298,"node_id":"MDQ6VXNlcjI2MzQ3Mjk4","avatar_url":"https://avatars2.githubusercontent.com/u/26347298?v=4","gravatar_id":"","url":"https://api.github.com/users/tantemelki","html_url":"https://github.com/tantemelki","followers_url":"https://api.github.com/users/tantemelki/followers","following_url":"https://api.github.com/users/tantemelki/following{/other_user}","gists_url":"https://api.github.com/users/tantemelki/gists{/gist_id}","starred_url":"https://api.github.com/users/tantemelki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tantemelki/subscriptions","organizations_url":"https://api.github.com/users/tantemelki/orgs","repos_url":"https://api.github.com/users/tantemelki/repos","events_url":"https://api.github.com/users/tantemelki/events{/privacy}","received_events_url":"https://api.github.com/users/tantemelki/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

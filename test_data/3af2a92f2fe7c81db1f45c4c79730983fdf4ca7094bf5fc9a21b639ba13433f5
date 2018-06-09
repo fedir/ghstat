@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:07:14 GMT
-Etag: W/"7c004bfed40a664d33b421ae4c0ca446"
-Last-Modified: Thu, 12 Apr 2018 12:08:29 GMT
+Date: Sat, 09 Jun 2018 08:09:55 GMT
+Etag: W/"9a5a5b6a083cdacc26a6010e7c76fb8b"
+Last-Modified: Wed, 30 May 2018 08:17:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFF7:4F40:2601244:5739184:5AF83882
+X-Github-Request-Id: CCE0:57C6:2FE6816:64F07B5:5B1B8B52
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1318
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.037203
+X-Ratelimit-Remaining: 1630
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.036812
 X-Xss-Protection: 1; mode=block
 
-48e
-{"login":"cpq","id":601816,"avatar_url":"https://avatars0.githubusercontent.com/u/601816?v=4","gravatar_id":"","url":"https://api.github.com/users/cpq","html_url":"https://github.com/cpq","followers_url":"https://api.github.com/users/cpq/followers","following_url":"https://api.github.com/users/cpq/following{/other_user}","gists_url":"https://api.github.com/users/cpq/gists{/gist_id}","starred_url":"https://api.github.com/users/cpq/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cpq/subscriptions","organizations_url":"https://api.github.com/users/cpq/orgs","repos_url":"https://api.github.com/users/cpq/repos","events_url":"https://api.github.com/users/cpq/events{/privacy}","received_events_url":"https://api.github.com/users/cpq/received_events","type":"User","site_admin":false,"name":"Sergey Lyubka","company":"Cesanta","blog":"https://mongoose-os.com","location":"Galway, Ireland","email":null,"hireable":null,"bio":"Now: CTO at Cesanta. Before: Engineering Manager at Google, CTO at NetFort","public_repos":9,"public_gists":31,"followers":170,"following":17,"created_at":"2011-02-05T11:30:08Z","updated_at":"2018-04-12T12:08:29Z"}
+4af
+{"login":"cpq","id":601816,"node_id":"MDQ6VXNlcjYwMTgxNg==","avatar_url":"https://avatars0.githubusercontent.com/u/601816?v=4","gravatar_id":"","url":"https://api.github.com/users/cpq","html_url":"https://github.com/cpq","followers_url":"https://api.github.com/users/cpq/followers","following_url":"https://api.github.com/users/cpq/following{/other_user}","gists_url":"https://api.github.com/users/cpq/gists{/gist_id}","starred_url":"https://api.github.com/users/cpq/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cpq/subscriptions","organizations_url":"https://api.github.com/users/cpq/orgs","repos_url":"https://api.github.com/users/cpq/repos","events_url":"https://api.github.com/users/cpq/events{/privacy}","received_events_url":"https://api.github.com/users/cpq/received_events","type":"User","site_admin":false,"name":"Sergey Lyubka","company":"Cesanta","blog":"https://mongoose-os.com","location":"Galway, Ireland","email":null,"hireable":null,"bio":"Now: CTO at Cesanta. Before: Engineering Manager at Google, CTO at NetFort","public_repos":8,"public_gists":31,"followers":172,"following":17,"created_at":"2011-02-05T11:30:08Z","updated_at":"2018-05-30T08:17:11Z"}
 0
 

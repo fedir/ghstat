@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:30 GMT
-Etag: W/"7138b5c8f597d00656b696d29066e253"
-Last-Modified: Sat, 12 May 2018 13:52:22 GMT
+Date: Sat, 09 Jun 2018 08:06:42 GMT
+Etag: W/"f08ecccfad9e0e366c737ebc755a8560"
+Last-Modified: Fri, 08 Jun 2018 18:35:36 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBED:4F41:3595DC8:7504421:5AF836B2
+X-Github-Request-Id: CA7A:57C5:372A5FD:719880E:5B1B8A92
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3652
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.028484
+X-Ratelimit-Remaining: 3539
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.027345
 X-Xss-Protection: 1; mode=block
 
 73
-{"C++":1442057,"JavaScript":493024,"QMake":27715,"C":14490,"Batchfile":13260,"HTML":9485,"CMake":8017,"Shell":3306}
+{"C++":1442597,"JavaScript":493024,"QMake":27804,"C":14490,"Batchfile":13268,"HTML":9485,"CMake":8541,"Shell":3306}
 0
 

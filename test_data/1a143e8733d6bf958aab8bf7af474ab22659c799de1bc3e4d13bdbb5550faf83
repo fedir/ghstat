@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:11:06 GMT
+Etag: W/"19fc7839940867800d50bfd3094205e0"
+Last-Modified: Sat, 09 Jun 2018 07:58:38 GMT
+Link: <https://api.github.com/repositories/10270250/tags?page=3>; rel="prev", <https://api.github.com/repositories/10270250/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE26:57C5:37332A6:71A84B8:5B1B8B9A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 618
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.095830
+X-Xss-Protection: 1; mode=block
+
+478
+[{"name":"16.0.0-beta.1","zipball_url":"https://api.github.com/repos/facebook/react/zipball/16.0.0-beta.1","tarball_url":"https://api.github.com/repos/facebook/react/tarball/16.0.0-beta.1","commit":{"sha":"834d2c69546502c858c1a72a321ffd7efe5a7fac","url":"https://api.github.com/repos/facebook/react/commits/834d2c69546502c858c1a72a321ffd7efe5a7fac"},"node_id":"MDM6UmVmMTAyNzAyNTA6MTYuMC4wLWJldGEuMQ=="},{"name":"15.3.2","zipball_url":"https://api.github.com/repos/facebook/react/zipball/15.3.2","tarball_url":"https://api.github.com/repos/facebook/react/tarball/15.3.2","commit":{"sha":"7dfd3948a9095f0253bfba60fed52895ffbf84bb","url":"https://api.github.com/repos/facebook/react/commits/7dfd3948a9095f0253bfba60fed52895ffbf84bb"},"node_id":"MDM6UmVmMTAyNzAyNTA6MTUuMy4y"},{"name":"15.3.1","zipball_url":"https://api.github.com/repos/facebook/react/zipball/15.3.1","tarball_url":"https://api.github.com/repos/facebook/react/tarball/15.3.1","commit":{"sha":"71264720050572b7bad24532ff39951f47d9296a","url":"https://api.github.com/repos/facebook/react/commits/71264720050572b7bad24532ff39951f47d9296a"},"node_id":"MDM6UmVmMTAyNzAyNTA6MTUuMy4x"}]
+0
+

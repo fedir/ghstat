@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:18 GMT
-Etag: W/"461a20b5a9adb7f95693ca096b9d7af2"
-Last-Modified: Wed, 02 May 2018 15:00:57 GMT
+Date: Sat, 09 Jun 2018 08:07:22 GMT
+Etag: W/"e195442744079a5d38dccbeb0f8dd596"
+Last-Modified: Mon, 04 Jun 2018 06:30:34 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDF1:4F40:25FB1C4:572A605:5AF8371D
+X-Github-Request-Id: CABA:57C5:372BDCE:719B42D:5B1B8ABA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2489
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.067637
+X-Ratelimit-Remaining: 3138
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032814
 X-Xss-Protection: 1; mode=block
 
-4b0
-{"login":"jodosha","id":5089,"avatar_url":"https://avatars1.githubusercontent.com/u/5089?v=4","gravatar_id":"","url":"https://api.github.com/users/jodosha","html_url":"https://github.com/jodosha","followers_url":"https://api.github.com/users/jodosha/followers","following_url":"https://api.github.com/users/jodosha/following{/other_user}","gists_url":"https://api.github.com/users/jodosha/gists{/gist_id}","starred_url":"https://api.github.com/users/jodosha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jodosha/subscriptions","organizations_url":"https://api.github.com/users/jodosha/orgs","repos_url":"https://api.github.com/users/jodosha/repos","events_url":"https://api.github.com/users/jodosha/events{/privacy}","received_events_url":"https://api.github.com/users/jodosha/received_events","type":"User","site_admin":false,"name":"Luca Guidi","company":"DNSimple","blog":"https://lucaguidi.com","location":"Rome, Italy","email":"me@lucaguidi.com","hireable":true,"bio":"Indie OSS developer, author of @hanami and @redis-store.","public_repos":116,"public_gists":129,"followers":558,"following":0,"created_at":"2008-04-04T16:17:38Z","updated_at":"2018-05-02T15:00:57Z"}
+4cd
+{"login":"jodosha","id":5089,"node_id":"MDQ6VXNlcjUwODk=","avatar_url":"https://avatars1.githubusercontent.com/u/5089?v=4","gravatar_id":"","url":"https://api.github.com/users/jodosha","html_url":"https://github.com/jodosha","followers_url":"https://api.github.com/users/jodosha/followers","following_url":"https://api.github.com/users/jodosha/following{/other_user}","gists_url":"https://api.github.com/users/jodosha/gists{/gist_id}","starred_url":"https://api.github.com/users/jodosha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jodosha/subscriptions","organizations_url":"https://api.github.com/users/jodosha/orgs","repos_url":"https://api.github.com/users/jodosha/repos","events_url":"https://api.github.com/users/jodosha/events{/privacy}","received_events_url":"https://api.github.com/users/jodosha/received_events","type":"User","site_admin":false,"name":"Luca Guidi","company":"DNSimple","blog":"https://lucaguidi.com","location":"Rome, Italy","email":"me@lucaguidi.com","hireable":true,"bio":"Indie OSS developer, author of @hanami and @redis-store.","public_repos":116,"public_gists":129,"followers":575,"following":0,"created_at":"2008-04-04T16:17:38Z","updated_at":"2018-06-04T06:30:34Z"}
 0
 

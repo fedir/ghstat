@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:52 GMT
-Etag: W/"ca7d61bf853be330cf62b454d25de2e8"
+Date: Sat, 09 Jun 2018 08:05:26 GMT
+Etag: W/"1934c220ed03419ea2e3ba4b4ba24842"
 Last-Modified: Mon, 14 Aug 2017 19:09:49 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB22:4F42:44D8E09:8AB571B:5AF8368C
+X-Github-Request-Id: C8E3:57C5:3727A3B:7193885:5B1B8A46
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
 X-Ratelimit-Remaining: 4354
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.031380
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041607
 X-Xss-Protection: 1; mode=block
 
-46b
-{"login":"n8han","id":102698,"avatar_url":"https://avatars3.githubusercontent.com/u/102698?v=4","gravatar_id":"","url":"https://api.github.com/users/n8han","html_url":"https://github.com/n8han","followers_url":"https://api.github.com/users/n8han/followers","following_url":"https://api.github.com/users/n8han/following{/other_user}","gists_url":"https://api.github.com/users/n8han/gists{/gist_id}","starred_url":"https://api.github.com/users/n8han/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/n8han/subscriptions","organizations_url":"https://api.github.com/users/n8han/orgs","repos_url":"https://api.github.com/users/n8han/repos","events_url":"https://api.github.com/users/n8han/events{/privacy}","received_events_url":"https://api.github.com/users/n8han/received_events","type":"User","site_admin":false,"name":"Nathan Hamblen","company":"Hopper","blog":"https://twitter.com/n8han","location":"Montreal","email":"nathan@technically.us","hireable":null,"bio":null,"public_repos":59,"public_gists":6,"followers":347,"following":7,"created_at":"2009-07-07T23:51:29Z","updated_at":"2017-08-14T19:09:49Z"}
+48c
+{"login":"n8han","id":102698,"node_id":"MDQ6VXNlcjEwMjY5OA==","avatar_url":"https://avatars3.githubusercontent.com/u/102698?v=4","gravatar_id":"","url":"https://api.github.com/users/n8han","html_url":"https://github.com/n8han","followers_url":"https://api.github.com/users/n8han/followers","following_url":"https://api.github.com/users/n8han/following{/other_user}","gists_url":"https://api.github.com/users/n8han/gists{/gist_id}","starred_url":"https://api.github.com/users/n8han/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/n8han/subscriptions","organizations_url":"https://api.github.com/users/n8han/orgs","repos_url":"https://api.github.com/users/n8han/repos","events_url":"https://api.github.com/users/n8han/events{/privacy}","received_events_url":"https://api.github.com/users/n8han/received_events","type":"User","site_admin":false,"name":"Nathan Hamblen","company":"Hopper","blog":"https://twitter.com/n8han","location":"Montreal","email":"nathan@technically.us","hireable":null,"bio":null,"public_repos":59,"public_gists":6,"followers":346,"following":7,"created_at":"2009-07-07T23:51:29Z","updated_at":"2017-08-14T19:09:49Z"}
 0
 

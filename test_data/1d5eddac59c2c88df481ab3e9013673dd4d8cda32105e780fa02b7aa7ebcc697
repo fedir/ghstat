@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:00:07 GMT
-Etag: W/"bf5e88b6e2ddd4dccfc477ac0f7326f5"
-Last-Modified: Thu, 10 May 2018 00:26:55 GMT
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"cb1d8814bcd80e0a731db1d579032cc6"
+Last-Modified: Thu, 07 Jun 2018 00:43:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD0E:4F42:44DC1FC:8ABB75D:5AF836D5
+X-Github-Request-Id: D857:57C5:384E33F:73B9F76:5B1BABEB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2860
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.041480
+X-Ratelimit-Remaining: 4750
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.039344
 X-Xss-Protection: 1; mode=block
 
-553
-{"login":"odirleiborgert","id":1898307,"avatar_url":"https://avatars0.githubusercontent.com/u/1898307?v=4","gravatar_id":"","url":"https://api.github.com/users/odirleiborgert","html_url":"https://github.com/odirleiborgert","followers_url":"https://api.github.com/users/odirleiborgert/followers","following_url":"https://api.github.com/users/odirleiborgert/following{/other_user}","gists_url":"https://api.github.com/users/odirleiborgert/gists{/gist_id}","starred_url":"https://api.github.com/users/odirleiborgert/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odirleiborgert/subscriptions","organizations_url":"https://api.github.com/users/odirleiborgert/orgs","repos_url":"https://api.github.com/users/odirleiborgert/repos","events_url":"https://api.github.com/users/odirleiborgert/events{/privacy}","received_events_url":"https://api.github.com/users/odirleiborgert/received_events","type":"User","site_admin":false,"name":"Odirlei Borgert","company":"Developer","blog":"www.odirleiborgert.com.br","location":"Jaraguá do Sul, SC - Brasil","email":"odirleiborgert@gmail.com","hireable":true,"bio":"Developer for 13 years, working with Node, PHP and JavaScript, always looking for new knowledge.","public_repos":78,"public_gists":21,"followers":30,"following":12,"created_at":"2012-06-27T12:03:15Z","updated_at":"2018-05-10T00:26:55Z"}
+574
+{"login":"odirleiborgert","id":1898307,"node_id":"MDQ6VXNlcjE4OTgzMDc=","avatar_url":"https://avatars0.githubusercontent.com/u/1898307?v=4","gravatar_id":"","url":"https://api.github.com/users/odirleiborgert","html_url":"https://github.com/odirleiborgert","followers_url":"https://api.github.com/users/odirleiborgert/followers","following_url":"https://api.github.com/users/odirleiborgert/following{/other_user}","gists_url":"https://api.github.com/users/odirleiborgert/gists{/gist_id}","starred_url":"https://api.github.com/users/odirleiborgert/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odirleiborgert/subscriptions","organizations_url":"https://api.github.com/users/odirleiborgert/orgs","repos_url":"https://api.github.com/users/odirleiborgert/repos","events_url":"https://api.github.com/users/odirleiborgert/events{/privacy}","received_events_url":"https://api.github.com/users/odirleiborgert/received_events","type":"User","site_admin":false,"name":"Odirlei Borgert","company":"Developer","blog":"www.odirleiborgert.com.br","location":"Jaraguá do Sul, SC - Brasil","email":"odirleiborgert@gmail.com","hireable":true,"bio":"Developer for 14 years, working with PHP, Node and JavaScript, always looking for new knowledge.","public_repos":80,"public_gists":23,"followers":30,"following":14,"created_at":"2012-06-27T12:03:15Z","updated_at":"2018-06-07T00:43:11Z"}
 0
 

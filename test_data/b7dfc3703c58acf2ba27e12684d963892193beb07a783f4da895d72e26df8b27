@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:02 GMT
-Etag: W/"233d368b80467f65dd9a82ada58d124b"
+Date: Sat, 09 Jun 2018 10:29:04 GMT
+Etag: W/"bc20a0999a261420b7558c0306f74c6d"
 Link: <https://api.github.com/user/395617/followers?page=1>; rel="prev", <https://api.github.com/user/395617/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DAA0:4F42:455308E:8BA7132:5AF84469
+X-Github-Request-Id: D8D9:57C4:242D425:51F7EB2:5B1BABF0
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4585
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.037636
+X-Ratelimit-Remaining: 4381
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.042478
 X-Xss-Protection: 1; mode=block
 
-6ed
-[{"login":"Bublatsch","id":37072897,"avatar_url":"https://avatars0.githubusercontent.com/u/37072897?v=4","gravatar_id":"","url":"https://api.github.com/users/Bublatsch","html_url":"https://github.com/Bublatsch","followers_url":"https://api.github.com/users/Bublatsch/followers","following_url":"https://api.github.com/users/Bublatsch/following{/other_user}","gists_url":"https://api.github.com/users/Bublatsch/gists{/gist_id}","starred_url":"https://api.github.com/users/Bublatsch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bublatsch/subscriptions","organizations_url":"https://api.github.com/users/Bublatsch/orgs","repos_url":"https://api.github.com/users/Bublatsch/repos","events_url":"https://api.github.com/users/Bublatsch/events{/privacy}","received_events_url":"https://api.github.com/users/Bublatsch/received_events","type":"User","site_admin":false},{"login":"beelaineo","id":222873,"avatar_url":"https://avatars2.githubusercontent.com/u/222873?v=4","gravatar_id":"","url":"https://api.github.com/users/beelaineo","html_url":"https://github.com/beelaineo","followers_url":"https://api.github.com/users/beelaineo/followers","following_url":"https://api.github.com/users/beelaineo/following{/other_user}","gists_url":"https://api.github.com/users/beelaineo/gists{/gist_id}","starred_url":"https://api.github.com/users/beelaineo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beelaineo/subscriptions","organizations_url":"https://api.github.com/users/beelaineo/orgs","repos_url":"https://api.github.com/users/beelaineo/repos","events_url":"https://api.github.com/users/beelaineo/events{/privacy}","received_events_url":"https://api.github.com/users/beelaineo/received_events","type":"User","site_admin":false}]
+72f
+[{"login":"Bublatsch","id":37072897,"node_id":"MDQ6VXNlcjM3MDcyODk3","avatar_url":"https://avatars0.githubusercontent.com/u/37072897?v=4","gravatar_id":"","url":"https://api.github.com/users/Bublatsch","html_url":"https://github.com/Bublatsch","followers_url":"https://api.github.com/users/Bublatsch/followers","following_url":"https://api.github.com/users/Bublatsch/following{/other_user}","gists_url":"https://api.github.com/users/Bublatsch/gists{/gist_id}","starred_url":"https://api.github.com/users/Bublatsch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bublatsch/subscriptions","organizations_url":"https://api.github.com/users/Bublatsch/orgs","repos_url":"https://api.github.com/users/Bublatsch/repos","events_url":"https://api.github.com/users/Bublatsch/events{/privacy}","received_events_url":"https://api.github.com/users/Bublatsch/received_events","type":"User","site_admin":false},{"login":"beelaineo","id":222873,"node_id":"MDQ6VXNlcjIyMjg3Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/222873?v=4","gravatar_id":"","url":"https://api.github.com/users/beelaineo","html_url":"https://github.com/beelaineo","followers_url":"https://api.github.com/users/beelaineo/followers","following_url":"https://api.github.com/users/beelaineo/following{/other_user}","gists_url":"https://api.github.com/users/beelaineo/gists{/gist_id}","starred_url":"https://api.github.com/users/beelaineo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beelaineo/subscriptions","organizations_url":"https://api.github.com/users/beelaineo/orgs","repos_url":"https://api.github.com/users/beelaineo/repos","events_url":"https://api.github.com/users/beelaineo/events{/privacy}","received_events_url":"https://api.github.com/users/beelaineo/received_events","type":"User","site_admin":false}]
 0
 

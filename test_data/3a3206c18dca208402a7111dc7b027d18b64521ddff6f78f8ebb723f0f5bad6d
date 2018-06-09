@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:54 GMT
-Etag: W/"d495459f59677de257d1d89536d37cc0"
+Date: Sat, 09 Jun 2018 08:06:18 GMT
+Etag: W/"ce8c9f81c8e65a58dd2f879ff6e0caa0"
 Last-Modified: Mon, 12 Mar 2018 08:13:04 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB2B:4F40:25F88F3:5723CD4:5AF8368D
+X-Github-Request-Id: C9D5:57C5:372992C:7197055:5B1B8A7A
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4328
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.032554
+X-Ratelimit-Remaining: 3911
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032173
 X-Xss-Protection: 1; mode=block
 
-3f7
-[{"name":"1.2.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.2.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.2.0","commit":{"sha":"b04d2e75960656529d59b05b9e3f45e2b42c1084","url":"https://api.github.com/repos/dvarelap/peregrine/commits/b04d2e75960656529d59b05b9e3f45e2b42c1084"}},{"name":"1.0.1","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.1","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.1","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"}},{"name":"1.0.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.0","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"}}]
+472
+[{"name":"1.2.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.2.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.2.0","commit":{"sha":"b04d2e75960656529d59b05b9e3f45e2b42c1084","url":"https://api.github.com/repos/dvarelap/peregrine/commits/b04d2e75960656529d59b05b9e3f45e2b42c1084"},"node_id":"MDM6UmVmMzU4NTM4OTk6MS4yLjA="},{"name":"1.0.1","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.1","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.1","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"},"node_id":"MDM6UmVmMzU4NTM4OTk6MS4wLjE="},{"name":"1.0.0","zipball_url":"https://api.github.com/repos/dvarelap/peregrine/zipball/1.0.0","tarball_url":"https://api.github.com/repos/dvarelap/peregrine/tarball/1.0.0","commit":{"sha":"5716b62dd18850963b3c9d4ea7155b35bd9f0f32","url":"https://api.github.com/repos/dvarelap/peregrine/commits/5716b62dd18850963b3c9d4ea7155b35bd9f0f32"},"node_id":"MDM6UmVmMzU4NTM4OTk6MS4wLjA="}]
 0
 

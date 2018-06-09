@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:00:07 GMT
-Etag: W/"fe1d8238227ee44ce4e23f0063de274a"
-Last-Modified: Tue, 08 May 2018 21:10:18 GMT
+Date: Sat, 09 Jun 2018 10:08:31 GMT
+Etag: W/"c19e4507a737d1f6d26cf79c9a837f2d"
+Last-Modified: Wed, 23 May 2018 11:08:59 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD3D:4F40:25F9E1B:5727333:5AF836D7
+X-Github-Request-Id: D619:57C6:3082DBD:665B046:5B1BA71E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2873
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.074389
+X-Ratelimit-Remaining: 4972
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.039525
 X-Xss-Protection: 1; mode=block
 
-515
-{"login":"adamansky","id":496683,"avatar_url":"https://avatars2.githubusercontent.com/u/496683?v=4","gravatar_id":"","url":"https://api.github.com/users/adamansky","html_url":"https://github.com/adamansky","followers_url":"https://api.github.com/users/adamansky/followers","following_url":"https://api.github.com/users/adamansky/following{/other_user}","gists_url":"https://api.github.com/users/adamansky/gists{/gist_id}","starred_url":"https://api.github.com/users/adamansky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamansky/subscriptions","organizations_url":"https://api.github.com/users/adamansky/orgs","repos_url":"https://api.github.com/users/adamansky/repos","events_url":"https://api.github.com/users/adamansky/events{/privacy}","received_events_url":"https://api.github.com/users/adamansky/received_events","type":"User","site_admin":false,"name":"Adamansky Anton","company":"Softmotions Ltd.","blog":"http://softmotions.com","location":"Novosibirsk","email":"adamansky@gmail.com","hireable":true,"bio":"https://linkedin.com/in/adamansky\r\n\r\nhttp://iowow.io\r\nhttp://foo.bet\r\nhttp://ejdb.org\r\nhttp://ncms.one\r\n","public_repos":1,"public_gists":0,"followers":10,"following":11,"created_at":"2010-11-25T15:55:09Z","updated_at":"2018-05-08T21:10:18Z"}
+536
+{"login":"adamansky","id":496683,"node_id":"MDQ6VXNlcjQ5NjY4Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/496683?v=4","gravatar_id":"","url":"https://api.github.com/users/adamansky","html_url":"https://github.com/adamansky","followers_url":"https://api.github.com/users/adamansky/followers","following_url":"https://api.github.com/users/adamansky/following{/other_user}","gists_url":"https://api.github.com/users/adamansky/gists{/gist_id}","starred_url":"https://api.github.com/users/adamansky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamansky/subscriptions","organizations_url":"https://api.github.com/users/adamansky/orgs","repos_url":"https://api.github.com/users/adamansky/repos","events_url":"https://api.github.com/users/adamansky/events{/privacy}","received_events_url":"https://api.github.com/users/adamansky/received_events","type":"User","site_admin":false,"name":"Adamansky Anton","company":"Softmotions Ltd.","blog":"http://softmotions.com","location":"Novosibirsk","email":"adamansky@gmail.com","hireable":true,"bio":"https://linkedin.com/in/adamansky\r\n\r\nhttp://iowow.io\r\nhttp://foo.bet\r\nhttp://ejdb.org\r\nhttp://ncms.one\r\n","public_repos":1,"public_gists":0,"followers":12,"following":12,"created_at":"2010-11-25T15:55:09Z","updated_at":"2018-05-23T11:08:59Z"}
 0
 

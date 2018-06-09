@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:57:59 GMT
-Etag: W/"10c2334fcd004a082f0e42f004bf0358"
-Last-Modified: Fri, 11 May 2018 04:09:43 GMT
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"72d991c9ad8778e91bf6cd1778fd9e91"
+Last-Modified: Mon, 04 Jun 2018 11:13:40 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA18:4F3F:1AAF7DF:3FAEC1B:5AF84466
+X-Github-Request-Id: D840:57C3:1F2E110:45BC3A4:5B1BABEA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4953
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.053725
+X-Ratelimit-Remaining: 4802
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.044109
 X-Xss-Protection: 1; mode=block
 
-514
-{"login":"Seldaek","id":183678,"avatar_url":"https://avatars1.githubusercontent.com/u/183678?v=4","gravatar_id":"","url":"https://api.github.com/users/Seldaek","html_url":"https://github.com/Seldaek","followers_url":"https://api.github.com/users/Seldaek/followers","following_url":"https://api.github.com/users/Seldaek/following{/other_user}","gists_url":"https://api.github.com/users/Seldaek/gists{/gist_id}","starred_url":"https://api.github.com/users/Seldaek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Seldaek/subscriptions","organizations_url":"https://api.github.com/users/Seldaek/orgs","repos_url":"https://api.github.com/users/Seldaek/repos","events_url":"https://api.github.com/users/Seldaek/events{/privacy}","received_events_url":"https://api.github.com/users/Seldaek/received_events","type":"User","site_admin":false,"name":"Jordi Boggiano","company":"Packagist","blog":"https://seld.be/","location":"Zürich, Zurich, Switzerland","email":"j.boggiano@seld.be","hireable":null,"bio":"Working on https://packagist.com and https://teamup.com - @composer lead - Wandering Belgian - OSS wishlist: https://seld.be/wishlist","public_repos":183,"public_gists":31,"followers":2820,"following":1,"created_at":"2010-01-16T18:28:47Z","updated_at":"2018-05-11T04:09:43Z"}
+535
+{"login":"Seldaek","id":183678,"node_id":"MDQ6VXNlcjE4MzY3OA==","avatar_url":"https://avatars1.githubusercontent.com/u/183678?v=4","gravatar_id":"","url":"https://api.github.com/users/Seldaek","html_url":"https://github.com/Seldaek","followers_url":"https://api.github.com/users/Seldaek/followers","following_url":"https://api.github.com/users/Seldaek/following{/other_user}","gists_url":"https://api.github.com/users/Seldaek/gists{/gist_id}","starred_url":"https://api.github.com/users/Seldaek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Seldaek/subscriptions","organizations_url":"https://api.github.com/users/Seldaek/orgs","repos_url":"https://api.github.com/users/Seldaek/repos","events_url":"https://api.github.com/users/Seldaek/events{/privacy}","received_events_url":"https://api.github.com/users/Seldaek/received_events","type":"User","site_admin":false,"name":"Jordi Boggiano","company":"Packagist","blog":"https://seld.be/","location":"Zürich, Zurich, Switzerland","email":"j.boggiano@seld.be","hireable":null,"bio":"Working on https://packagist.com and https://teamup.com - @composer lead - Wandering Belgian - OSS wishlist: https://seld.be/wishlist","public_repos":183,"public_gists":31,"followers":2844,"following":1,"created_at":"2010-01-16T18:28:47Z","updated_at":"2018-06-04T11:13:40Z"}
 0
 

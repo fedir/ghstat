@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:20 GMT
-Etag: W/"433462084e9d35713aa4fbcbb63450d5"
-Last-Modified: Wed, 25 Apr 2018 14:45:59 GMT
+Date: Sat, 09 Jun 2018 08:07:22 GMT
+Etag: W/"a5d48ad859331f1fdc58ec0932e3a66f"
+Last-Modified: Tue, 05 Jun 2018 00:23:36 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDF5:4F42:44DEF3F:8AC15D1:5AF8371F
+X-Github-Request-Id: CAC2:57C6:2FE3E68:64E9CC7:5B1B8ABA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2458
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.072590
+X-Ratelimit-Remaining: 3133
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041011
 X-Xss-Protection: 1; mode=block
 
-46b
-{"login":"manveru","id":3507,"avatar_url":"https://avatars1.githubusercontent.com/u/3507?v=4","gravatar_id":"","url":"https://api.github.com/users/manveru","html_url":"https://github.com/manveru","followers_url":"https://api.github.com/users/manveru/followers","following_url":"https://api.github.com/users/manveru/following{/other_user}","gists_url":"https://api.github.com/users/manveru/gists{/gist_id}","starred_url":"https://api.github.com/users/manveru/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manveru/subscriptions","organizations_url":"https://api.github.com/users/manveru/orgs","repos_url":"https://api.github.com/users/manveru/repos","events_url":"https://api.github.com/users/manveru/events{/privacy}","received_events_url":"https://api.github.com/users/manveru/received_events","type":"User","site_admin":false,"name":"Michael Fellinger","company":"@XING","blog":"","location":"Germany","email":"m.fellinger@gmail.com","hireable":null,"bio":null,"public_repos":141,"public_gists":170,"followers":220,"following":21,"created_at":"2008-03-21T08:26:10Z","updated_at":"2018-04-25T14:45:59Z"}
+488
+{"login":"manveru","id":3507,"node_id":"MDQ6VXNlcjM1MDc=","avatar_url":"https://avatars1.githubusercontent.com/u/3507?v=4","gravatar_id":"","url":"https://api.github.com/users/manveru","html_url":"https://github.com/manveru","followers_url":"https://api.github.com/users/manveru/followers","following_url":"https://api.github.com/users/manveru/following{/other_user}","gists_url":"https://api.github.com/users/manveru/gists{/gist_id}","starred_url":"https://api.github.com/users/manveru/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/manveru/subscriptions","organizations_url":"https://api.github.com/users/manveru/orgs","repos_url":"https://api.github.com/users/manveru/repos","events_url":"https://api.github.com/users/manveru/events{/privacy}","received_events_url":"https://api.github.com/users/manveru/received_events","type":"User","site_admin":false,"name":"Michael Fellinger","company":"@XING","blog":"","location":"Germany","email":"m.fellinger@gmail.com","hireable":null,"bio":null,"public_repos":142,"public_gists":177,"followers":219,"following":21,"created_at":"2008-03-21T08:26:10Z","updated_at":"2018-06-05T00:23:36Z"}
 0
 

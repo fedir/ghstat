@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:15:48 GMT
-Etag: W/"05ef2ecb9466d9ca48ce8273b21dc839"
+Date: Sat, 09 Jun 2018 08:11:18 GMT
+Etag: W/"fd1170358f52aebc485adede756d36e4"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D25A:4F41:35AC5AC:753CD29:5AF83A84
+X-Github-Request-Id: CE62:57C6:2FE846E:64F4822:5B1B8BA6
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 166
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.032017
+X-Ratelimit-Remaining: 557
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033680
 X-Xss-Protection: 1; mode=block
 
-6f9
-[{"login":"hyuni","id":1020028,"avatar_url":"https://avatars3.githubusercontent.com/u/1020028?v=4","gravatar_id":"","url":"https://api.github.com/users/hyuni","html_url":"https://github.com/hyuni","followers_url":"https://api.github.com/users/hyuni/followers","following_url":"https://api.github.com/users/hyuni/following{/other_user}","gists_url":"https://api.github.com/users/hyuni/gists{/gist_id}","starred_url":"https://api.github.com/users/hyuni/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hyuni/subscriptions","organizations_url":"https://api.github.com/users/hyuni/orgs","repos_url":"https://api.github.com/users/hyuni/repos","events_url":"https://api.github.com/users/hyuni/events{/privacy}","received_events_url":"https://api.github.com/users/hyuni/received_events","type":"User","site_admin":false},{"login":"wellington1993","id":6920053,"avatar_url":"https://avatars3.githubusercontent.com/u/6920053?v=4","gravatar_id":"","url":"https://api.github.com/users/wellington1993","html_url":"https://github.com/wellington1993","followers_url":"https://api.github.com/users/wellington1993/followers","following_url":"https://api.github.com/users/wellington1993/following{/other_user}","gists_url":"https://api.github.com/users/wellington1993/gists{/gist_id}","starred_url":"https://api.github.com/users/wellington1993/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wellington1993/subscriptions","organizations_url":"https://api.github.com/users/wellington1993/orgs","repos_url":"https://api.github.com/users/wellington1993/repos","events_url":"https://api.github.com/users/wellington1993/events{/privacy}","received_events_url":"https://api.github.com/users/wellington1993/received_events","type":"User","site_admin":false}]
+73b
+[{"login":"hyuni","id":1020028,"node_id":"MDQ6VXNlcjEwMjAwMjg=","avatar_url":"https://avatars3.githubusercontent.com/u/1020028?v=4","gravatar_id":"","url":"https://api.github.com/users/hyuni","html_url":"https://github.com/hyuni","followers_url":"https://api.github.com/users/hyuni/followers","following_url":"https://api.github.com/users/hyuni/following{/other_user}","gists_url":"https://api.github.com/users/hyuni/gists{/gist_id}","starred_url":"https://api.github.com/users/hyuni/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hyuni/subscriptions","organizations_url":"https://api.github.com/users/hyuni/orgs","repos_url":"https://api.github.com/users/hyuni/repos","events_url":"https://api.github.com/users/hyuni/events{/privacy}","received_events_url":"https://api.github.com/users/hyuni/received_events","type":"User","site_admin":false},{"login":"wellington1993","id":6920053,"node_id":"MDQ6VXNlcjY5MjAwNTM=","avatar_url":"https://avatars3.githubusercontent.com/u/6920053?v=4","gravatar_id":"","url":"https://api.github.com/users/wellington1993","html_url":"https://github.com/wellington1993","followers_url":"https://api.github.com/users/wellington1993/followers","following_url":"https://api.github.com/users/wellington1993/following{/other_user}","gists_url":"https://api.github.com/users/wellington1993/gists{/gist_id}","starred_url":"https://api.github.com/users/wellington1993/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wellington1993/subscriptions","organizations_url":"https://api.github.com/users/wellington1993/orgs","repos_url":"https://api.github.com/users/wellington1993/repos","events_url":"https://api.github.com/users/wellington1993/events{/privacy}","received_events_url":"https://api.github.com/users/wellington1993/received_events","type":"User","site_admin":false}]
 0
 

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:06 GMT
-Etag: W/"450e5c2c26e338c3c1f6e609d9d7a592"
+Date: Sat, 09 Jun 2018 08:06:28 GMT
+Etag: W/"7287c8e3177b4fe2f6e8721507df43b4"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB5C:4F3F:1A8F942:3F5AA4C:5AF8369A
+X-Github-Request-Id: CA0D:57C4:23B9E65:50D0D60:5B1B8A84
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4078
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.026851
+X-Ratelimit-Remaining: 3680
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033066
 X-Xss-Protection: 1; mode=block
 
-347
-[{"login":"viile","id":8098978,"avatar_url":"https://avatars2.githubusercontent.com/u/8098978?v=4","gravatar_id":"","url":"https://api.github.com/users/viile","html_url":"https://github.com/viile","followers_url":"https://api.github.com/users/viile/followers","following_url":"https://api.github.com/users/viile/following{/other_user}","gists_url":"https://api.github.com/users/viile/gists{/gist_id}","starred_url":"https://api.github.com/users/viile/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/viile/subscriptions","organizations_url":"https://api.github.com/users/viile/orgs","repos_url":"https://api.github.com/users/viile/repos","events_url":"https://api.github.com/users/viile/events{/privacy}","received_events_url":"https://api.github.com/users/viile/received_events","type":"User","site_admin":false}]
+368
+[{"login":"viile","id":8098978,"node_id":"MDQ6VXNlcjgwOTg5Nzg=","avatar_url":"https://avatars2.githubusercontent.com/u/8098978?v=4","gravatar_id":"","url":"https://api.github.com/users/viile","html_url":"https://github.com/viile","followers_url":"https://api.github.com/users/viile/followers","following_url":"https://api.github.com/users/viile/following{/other_user}","gists_url":"https://api.github.com/users/viile/gists{/gist_id}","starred_url":"https://api.github.com/users/viile/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/viile/subscriptions","organizations_url":"https://api.github.com/users/viile/orgs","repos_url":"https://api.github.com/users/viile/repos","events_url":"https://api.github.com/users/viile/events{/privacy}","received_events_url":"https://api.github.com/users/viile/received_events","type":"User","site_admin":false}]
 0
 

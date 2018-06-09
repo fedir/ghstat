@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:52 GMT
-Etag: W/"03f1377ac13c8350c7de3df5b27b7fe4"
-Last-Modified: Sun, 06 May 2018 18:28:14 GMT
+Date: Sat, 09 Jun 2018 08:05:27 GMT
+Etag: W/"6ca94c08b6a1f27a40df9f7104614d7c"
+Last-Modified: Mon, 04 Jun 2018 04:09:54 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB28:4F42:44D8DEC:8AB56D5:5AF8368C
+X-Github-Request-Id: C8F1:57C5:3727A64:71938C8:5B1B8A46
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4368
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.043572
+X-Ratelimit-Remaining: 4344
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.054711
 X-Xss-Protection: 1; mode=block
 
-47e
-{"login":"tindzk","id":196819,"avatar_url":"https://avatars2.githubusercontent.com/u/196819?v=4","gravatar_id":"","url":"https://api.github.com/users/tindzk","html_url":"https://github.com/tindzk","followers_url":"https://api.github.com/users/tindzk/followers","following_url":"https://api.github.com/users/tindzk/following{/other_user}","gists_url":"https://api.github.com/users/tindzk/gists{/gist_id}","starred_url":"https://api.github.com/users/tindzk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tindzk/subscriptions","organizations_url":"https://api.github.com/users/tindzk/orgs","repos_url":"https://api.github.com/users/tindzk/repos","events_url":"https://api.github.com/users/tindzk/events{/privacy}","received_events_url":"https://api.github.com/users/tindzk/received_events","type":"User","site_admin":false,"name":"Tim Nieradzik","company":"@oradian ","blog":"http://nieradzik.me/","location":null,"email":"tim@nieradzik.me","hireable":true,"bio":"NLP and FP Enthusiast","public_repos":91,"public_gists":15,"followers":71,"following":110,"created_at":"2010-02-04T16:01:44Z","updated_at":"2018-05-06T18:28:14Z"}
+49f
+{"login":"tindzk","id":196819,"node_id":"MDQ6VXNlcjE5NjgxOQ==","avatar_url":"https://avatars2.githubusercontent.com/u/196819?v=4","gravatar_id":"","url":"https://api.github.com/users/tindzk","html_url":"https://github.com/tindzk","followers_url":"https://api.github.com/users/tindzk/followers","following_url":"https://api.github.com/users/tindzk/following{/other_user}","gists_url":"https://api.github.com/users/tindzk/gists{/gist_id}","starred_url":"https://api.github.com/users/tindzk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tindzk/subscriptions","organizations_url":"https://api.github.com/users/tindzk/orgs","repos_url":"https://api.github.com/users/tindzk/repos","events_url":"https://api.github.com/users/tindzk/events{/privacy}","received_events_url":"https://api.github.com/users/tindzk/received_events","type":"User","site_admin":false,"name":"Tim Nieradzik","company":"@oradian ","blog":"http://nieradzik.me/","location":null,"email":"tim@nieradzik.me","hireable":true,"bio":"NLP and FP Enthusiast","public_repos":93,"public_gists":15,"followers":71,"following":111,"created_at":"2010-02-04T16:01:44Z","updated_at":"2018-06-04T04:09:54Z"}
 0
 

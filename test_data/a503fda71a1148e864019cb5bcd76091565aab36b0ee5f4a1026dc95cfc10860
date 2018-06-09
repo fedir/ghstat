@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:21 GMT
-Etag: W/"66253d840300f8f30807f787e5c97776"
-Last-Modified: Tue, 08 May 2018 01:01:33 GMT
+Date: Sat, 09 Jun 2018 08:07:22 GMT
+Etag: W/"0755504d58ac4e97287284acaab87217"
+Last-Modified: Thu, 24 May 2018 09:30:43 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CE00:4F42:44DF06B:8AC1805:5AF83721
+X-Github-Request-Id: CAC1:57C6:2FE3E73:64E9CE6:5B1B8ABA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2386
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.037858
+X-Ratelimit-Remaining: 3127
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030947
 X-Xss-Protection: 1; mode=block
 
-468
-{"login":"dhh","id":2741,"avatar_url":"https://avatars0.githubusercontent.com/u/2741?v=4","gravatar_id":"","url":"https://api.github.com/users/dhh","html_url":"https://github.com/dhh","followers_url":"https://api.github.com/users/dhh/followers","following_url":"https://api.github.com/users/dhh/following{/other_user}","gists_url":"https://api.github.com/users/dhh/gists{/gist_id}","starred_url":"https://api.github.com/users/dhh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dhh/subscriptions","organizations_url":"https://api.github.com/users/dhh/orgs","repos_url":"https://api.github.com/users/dhh/repos","events_url":"https://api.github.com/users/dhh/events{/privacy}","received_events_url":"https://api.github.com/users/dhh/received_events","type":"User","site_admin":false,"name":"David Heinemeier Hansson","company":"Basecamp","blog":"http://david.heinemeierhansson.com","location":"Chicago, USA","email":"david@basecamp.com","hireable":null,"bio":null,"public_repos":21,"public_gists":48,"followers":11731,"following":0,"created_at":"2008-03-10T17:53:51Z","updated_at":"2018-05-08T01:01:33Z"}
+485
+{"login":"dhh","id":2741,"node_id":"MDQ6VXNlcjI3NDE=","avatar_url":"https://avatars0.githubusercontent.com/u/2741?v=4","gravatar_id":"","url":"https://api.github.com/users/dhh","html_url":"https://github.com/dhh","followers_url":"https://api.github.com/users/dhh/followers","following_url":"https://api.github.com/users/dhh/following{/other_user}","gists_url":"https://api.github.com/users/dhh/gists{/gist_id}","starred_url":"https://api.github.com/users/dhh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dhh/subscriptions","organizations_url":"https://api.github.com/users/dhh/orgs","repos_url":"https://api.github.com/users/dhh/repos","events_url":"https://api.github.com/users/dhh/events{/privacy}","received_events_url":"https://api.github.com/users/dhh/received_events","type":"User","site_admin":false,"name":"David Heinemeier Hansson","company":"Basecamp","blog":"http://david.heinemeierhansson.com","location":"Chicago, USA","email":"david@basecamp.com","hireable":null,"bio":null,"public_repos":21,"public_gists":48,"followers":11851,"following":0,"created_at":"2008-03-10T17:53:51Z","updated_at":"2018-05-24T09:30:43Z"}
 0
 

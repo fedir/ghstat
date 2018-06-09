@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:04:44 GMT
+Etag: W/"f45c0982d927d2926662f3b9a595bef1"
+Link: <https://api.github.com/user/233907/followers?page=340>; rel="prev", <https://api.github.com/user/233907/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C896:57C6:2FE04F4:64E1419:5B1B8A1B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4920
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.456162
+X-Xss-Protection: 1; mode=block
+
+b1c
+[{"login":"ChrisDDDDD","id":37368974,"node_id":"MDQ6VXNlcjM3MzY4OTc0","avatar_url":"https://avatars0.githubusercontent.com/u/37368974?v=4","gravatar_id":"","url":"https://api.github.com/users/ChrisDDDDD","html_url":"https://github.com/ChrisDDDDD","followers_url":"https://api.github.com/users/ChrisDDDDD/followers","following_url":"https://api.github.com/users/ChrisDDDDD/following{/other_user}","gists_url":"https://api.github.com/users/ChrisDDDDD/gists{/gist_id}","starred_url":"https://api.github.com/users/ChrisDDDDD/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChrisDDDDD/subscriptions","organizations_url":"https://api.github.com/users/ChrisDDDDD/orgs","repos_url":"https://api.github.com/users/ChrisDDDDD/repos","events_url":"https://api.github.com/users/ChrisDDDDD/events{/privacy}","received_events_url":"https://api.github.com/users/ChrisDDDDD/received_events","type":"User","site_admin":false},{"login":"wangchuanchuan","id":6179293,"node_id":"MDQ6VXNlcjYxNzkyOTM=","avatar_url":"https://avatars1.githubusercontent.com/u/6179293?v=4","gravatar_id":"","url":"https://api.github.com/users/wangchuanchuan","html_url":"https://github.com/wangchuanchuan","followers_url":"https://api.github.com/users/wangchuanchuan/followers","following_url":"https://api.github.com/users/wangchuanchuan/following{/other_user}","gists_url":"https://api.github.com/users/wangchuanchuan/gists{/gist_id}","starred_url":"https://api.github.com/users/wangchuanchuan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wangchuanchuan/subscriptions","organizations_url":"https://api.github.com/users/wangchuanchuan/orgs","repos_url":"https://api.github.com/users/wangchuanchuan/repos","events_url":"https://api.github.com/users/wangchuanchuan/events{/privacy}","received_events_url":"https://api.github.com/users/wangchuanchuan/received_events","type":"User","site_admin":false},{"login":"yb123speed","id":9018559,"node_id":"MDQ6VXNlcjkwMTg1NTk=","avatar_url":"https://avatars1.githubusercontent.com/u/9018559?v=4","gravatar_id":"","url":"https://api.github.com/users/yb123speed","html_url":"https://github.com/yb123speed","followers_url":"https://api.github.com/users/yb123speed/followers","following_url":"https://api.github.com/users/yb123speed/following{/other_user}","gists_url":"https://api.github.com/users/yb123speed/gists{/gist_id}","starred_url":"https://api.github.com/users/yb123speed/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yb123speed/subscriptions","organizations_url":"https://api.github.com/users/yb123speed/orgs","repos_url":"https://api.github.com/users/yb123speed/repos","events_url":"https://api.github.com/users/yb123speed/events{/privacy}","received_events_url":"https://api.github.com/users/yb123speed/received_events","type":"User","site_admin":false}]
+0
+

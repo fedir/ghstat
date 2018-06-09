@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:34 GMT
-Etag: W/"277c2b994a1a191f0805cde095fcd0e0"
-Last-Modified: Sun, 08 Apr 2018 13:55:54 GMT
+Date: Sat, 09 Jun 2018 08:05:06 GMT
+Etag: W/"666f7a43008a564d2559f37a7e69fce0"
+Last-Modified: Sun, 20 May 2018 14:09:42 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAFF:4F40:25F84C0:5723211:5AF8367A
+X-Github-Request-Id: C8C1:57C5:3726C6D:7192007:5B1B8A31
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4692
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039619
+X-Ratelimit-Remaining: 4705
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.055398
 X-Xss-Protection: 1; mode=block
 
-48c
-{"login":"ajselvig","id":455594,"avatar_url":"https://avatars1.githubusercontent.com/u/455594?v=4","gravatar_id":"","url":"https://api.github.com/users/ajselvig","html_url":"https://github.com/ajselvig","followers_url":"https://api.github.com/users/ajselvig/followers","following_url":"https://api.github.com/users/ajselvig/following{/other_user}","gists_url":"https://api.github.com/users/ajselvig/gists{/gist_id}","starred_url":"https://api.github.com/users/ajselvig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ajselvig/subscriptions","organizations_url":"https://api.github.com/users/ajselvig/orgs","repos_url":"https://api.github.com/users/ajselvig/repos","events_url":"https://api.github.com/users/ajselvig/events{/privacy}","received_events_url":"https://api.github.com/users/ajselvig/received_events","type":"User","site_admin":false,"name":"Andy Selvig","company":"Plunkett's Pest Control","blog":"clypboard.com","location":"Eagan, MN","email":"ajselvig@gmail.com","hireable":null,"bio":null,"public_repos":6,"public_gists":0,"followers":3,"following":0,"created_at":"2010-10-27T00:51:09Z","updated_at":"2018-04-08T13:55:54Z"}
+4ad
+{"login":"ajselvig","id":455594,"node_id":"MDQ6VXNlcjQ1NTU5NA==","avatar_url":"https://avatars1.githubusercontent.com/u/455594?v=4","gravatar_id":"","url":"https://api.github.com/users/ajselvig","html_url":"https://github.com/ajselvig","followers_url":"https://api.github.com/users/ajselvig/followers","following_url":"https://api.github.com/users/ajselvig/following{/other_user}","gists_url":"https://api.github.com/users/ajselvig/gists{/gist_id}","starred_url":"https://api.github.com/users/ajselvig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ajselvig/subscriptions","organizations_url":"https://api.github.com/users/ajselvig/orgs","repos_url":"https://api.github.com/users/ajselvig/repos","events_url":"https://api.github.com/users/ajselvig/events{/privacy}","received_events_url":"https://api.github.com/users/ajselvig/received_events","type":"User","site_admin":false,"name":"Andy Selvig","company":"Plunkett's Pest Control","blog":"clypboard.com","location":"Eagan, MN","email":"ajselvig@gmail.com","hireable":null,"bio":null,"public_repos":6,"public_gists":0,"followers":3,"following":0,"created_at":"2010-10-27T00:51:09Z","updated_at":"2018-05-20T14:09:42Z"}
 0
 

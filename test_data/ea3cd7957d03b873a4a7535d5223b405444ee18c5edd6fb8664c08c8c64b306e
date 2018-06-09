@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:08 GMT
-Etag: W/"157f086154b97f262597a6606a2a68cc"
-Last-Modified: Tue, 10 Apr 2018 10:49:27 GMT
+Date: Sat, 09 Jun 2018 08:10:08 GMT
+Etag: W/"ff122c1d68a5d71b87d35137028a4578"
+Last-Modified: Wed, 23 May 2018 04:07:53 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D092:4F42:44ECFB9:8ADF24E:5AF838B8
+X-Github-Request-Id: CD0F:57C6:2FE6DC0:64F144A:5B1B8B60
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1069
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036496
+X-Ratelimit-Remaining: 1468
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.047000
 X-Xss-Protection: 1; mode=block
 
-49d
-{"login":"fukamachi","id":90570,"avatar_url":"https://avatars2.githubusercontent.com/u/90570?v=4","gravatar_id":"","url":"https://api.github.com/users/fukamachi","html_url":"https://github.com/fukamachi","followers_url":"https://api.github.com/users/fukamachi/followers","following_url":"https://api.github.com/users/fukamachi/following{/other_user}","gists_url":"https://api.github.com/users/fukamachi/gists{/gist_id}","starred_url":"https://api.github.com/users/fukamachi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fukamachi/subscriptions","organizations_url":"https://api.github.com/users/fukamachi/orgs","repos_url":"https://api.github.com/users/fukamachi/repos","events_url":"https://api.github.com/users/fukamachi/events{/privacy}","received_events_url":"https://api.github.com/users/fukamachi/received_events","type":"User","site_admin":false,"name":"Eitaro Fukamachi","company":"Pocket Change, K.K.","blog":"http://8arrow.org","location":"Japan","email":"e.arrows@gmail.com","hireable":null,"bio":null,"public_repos":146,"public_gists":48,"followers":746,"following":60,"created_at":"2009-06-01T06:27:02Z","updated_at":"2018-04-10T10:49:27Z"}
+4ba
+{"login":"fukamachi","id":90570,"node_id":"MDQ6VXNlcjkwNTcw","avatar_url":"https://avatars2.githubusercontent.com/u/90570?v=4","gravatar_id":"","url":"https://api.github.com/users/fukamachi","html_url":"https://github.com/fukamachi","followers_url":"https://api.github.com/users/fukamachi/followers","following_url":"https://api.github.com/users/fukamachi/following{/other_user}","gists_url":"https://api.github.com/users/fukamachi/gists{/gist_id}","starred_url":"https://api.github.com/users/fukamachi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fukamachi/subscriptions","organizations_url":"https://api.github.com/users/fukamachi/orgs","repos_url":"https://api.github.com/users/fukamachi/repos","events_url":"https://api.github.com/users/fukamachi/events{/privacy}","received_events_url":"https://api.github.com/users/fukamachi/received_events","type":"User","site_admin":false,"name":"Eitaro Fukamachi","company":"Pocket Change, K.K.","blog":"http://8arrow.org","location":"Japan","email":"e.arrows@gmail.com","hireable":null,"bio":null,"public_repos":148,"public_gists":48,"followers":753,"following":60,"created_at":"2009-06-01T06:27:02Z","updated_at":"2018-05-23T04:07:53Z"}
 0
 

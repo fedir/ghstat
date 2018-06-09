@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:04:43 GMT
+Etag: W/"2731a92518df5ac4fedfc058bf067ba0"
+Last-Modified: Tue, 22 May 2018 17:57:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C88F:57C6:2FE04EA:64E13DE:5B1B8A1B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4928
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.045073
+X-Xss-Protection: 1; mode=block
+
+4f0
+{"login":"pkieltyka","id":18831,"node_id":"MDQ6VXNlcjE4ODMx","avatar_url":"https://avatars1.githubusercontent.com/u/18831?v=4","gravatar_id":"","url":"https://api.github.com/users/pkieltyka","html_url":"https://github.com/pkieltyka","followers_url":"https://api.github.com/users/pkieltyka/followers","following_url":"https://api.github.com/users/pkieltyka/following{/other_user}","gists_url":"https://api.github.com/users/pkieltyka/gists{/gist_id}","starred_url":"https://api.github.com/users/pkieltyka/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pkieltyka/subscriptions","organizations_url":"https://api.github.com/users/pkieltyka/orgs","repos_url":"https://api.github.com/users/pkieltyka/repos","events_url":"https://api.github.com/users/pkieltyka/events{/privacy}","received_events_url":"https://api.github.com/users/pkieltyka/received_events","type":"User","site_admin":false,"name":"Peter Kieltyka","company":"Horizon Blockchain Games","blog":"https://HorizonGames.net","location":"Toronto, Canada","email":null,"hireable":null,"bio":"Lover of open source, code, music, art and good food","public_repos":74,"public_gists":132,"followers":165,"following":82,"created_at":"2008-07-29T14:52:19Z","updated_at":"2018-05-22T17:57:43Z"}
+0
+

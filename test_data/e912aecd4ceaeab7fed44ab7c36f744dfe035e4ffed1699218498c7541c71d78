@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:51 GMT
-Etag: W/"9e5a4440dff62d830f133c63b0cf4ca2"
-Last-Modified: Tue, 08 May 2018 13:00:26 GMT
+Date: Sat, 09 Jun 2018 08:05:24 GMT
+Etag: W/"6922998d5f604a2ce11ba27d63eb342b"
+Last-Modified: Tue, 29 May 2018 07:58:49 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB1D:4F40:25F8830:5723B64:5AF8368B
+X-Github-Request-Id: C8ED:57C4:23B8E9C:50CE7BA:5B1B8A44
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4433
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.026945
+X-Ratelimit-Remaining: 4426
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.031627
 X-Xss-Protection: 1; mode=block
 
 8d
-{"Scala":1501103,"JavaScript":549638,"HTML":24601,"Shell":20664,"Java":14613,"Batchfile":13948,"FreeMarker":913,"CoffeeScript":758,"CSS":622}
+{"Scala":1501109,"JavaScript":549638,"HTML":24601,"Shell":20664,"Java":14613,"Batchfile":13948,"FreeMarker":913,"CoffeeScript":758,"CSS":622}
 0
 

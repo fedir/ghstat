@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:37 GMT
-Etag: W/"3ab08047989284705af4d6e3f6fa81ab"
-Last-Modified: Sun, 08 Apr 2018 17:44:57 GMT
+Date: Sat, 09 Jun 2018 08:09:55 GMT
+Etag: W/"60882992940da737d9a2c1338f292b30"
+Last-Modified: Tue, 15 May 2018 23:35:33 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CE55:4F42:44DFA19:8AC2C06:5AF83731
+X-Github-Request-Id: CCE2:57C5:3730D45:71A3F75:5B1B8B52
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2180
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.030723
+X-Ratelimit-Remaining: 1628
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.045201
 X-Xss-Protection: 1; mode=block
 
-48e
-{"login":"lpereira","id":15001,"avatar_url":"https://avatars1.githubusercontent.com/u/15001?v=4","gravatar_id":"","url":"https://api.github.com/users/lpereira","html_url":"https://github.com/lpereira","followers_url":"https://api.github.com/users/lpereira/followers","following_url":"https://api.github.com/users/lpereira/following{/other_user}","gists_url":"https://api.github.com/users/lpereira/gists{/gist_id}","starred_url":"https://api.github.com/users/lpereira/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lpereira/subscriptions","organizations_url":"https://api.github.com/users/lpereira/orgs","repos_url":"https://api.github.com/users/lpereira/repos","events_url":"https://api.github.com/users/lpereira/events{/privacy}","received_events_url":"https://api.github.com/users/lpereira/received_events","type":"User","site_admin":false,"name":"Leandro A. F. Pereira","company":"@intel (OTC)","blog":"https://tia.mat.br","location":"USA","email":"leandro@hardinfo.org","hireable":null,"bio":null,"public_repos":47,"public_gists":32,"followers":357,"following":4,"created_at":"2008-06-25T14:25:41Z","updated_at":"2018-04-08T17:44:57Z"}
+4ae
+{"login":"lpereira","id":15001,"node_id":"MDQ6VXNlcjE1MDAx","avatar_url":"https://avatars1.githubusercontent.com/u/15001?v=4","gravatar_id":"","url":"https://api.github.com/users/lpereira","html_url":"https://github.com/lpereira","followers_url":"https://api.github.com/users/lpereira/followers","following_url":"https://api.github.com/users/lpereira/following{/other_user}","gists_url":"https://api.github.com/users/lpereira/gists{/gist_id}","starred_url":"https://api.github.com/users/lpereira/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lpereira/subscriptions","organizations_url":"https://api.github.com/users/lpereira/orgs","repos_url":"https://api.github.com/users/lpereira/repos","events_url":"https://api.github.com/users/lpereira/events{/privacy}","received_events_url":"https://api.github.com/users/lpereira/received_events","type":"User","site_admin":false,"name":"Leandro A. F. Pereira","company":"@intel (@01org)","blog":"https://tia.mat.br","location":"USA","email":"leandro@hardinfo.org","hireable":null,"bio":null,"public_repos":48,"public_gists":33,"followers":363,"following":4,"created_at":"2008-06-25T14:25:41Z","updated_at":"2018-05-15T23:35:33Z"}
 0
 

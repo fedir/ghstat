@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:12:27 GMT
+Etag: W/"7cf9a80323dbcbb5a0967b2abf260a77"
+Link: <https://api.github.com/user/2788811/followers?page=3>; rel="prev", <https://api.github.com/user/2788811/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CEE6:57C5:3735B88:71AD279:5B1B8BEB
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 280
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.040580
+X-Xss-Protection: 1; mode=block
+
+717
+[{"login":"wontruefree","id":1045155,"node_id":"MDQ6VXNlcjEwNDUxNTU=","avatar_url":"https://avatars0.githubusercontent.com/u/1045155?v=4","gravatar_id":"","url":"https://api.github.com/users/wontruefree","html_url":"https://github.com/wontruefree","followers_url":"https://api.github.com/users/wontruefree/followers","following_url":"https://api.github.com/users/wontruefree/following{/other_user}","gists_url":"https://api.github.com/users/wontruefree/gists{/gist_id}","starred_url":"https://api.github.com/users/wontruefree/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wontruefree/subscriptions","organizations_url":"https://api.github.com/users/wontruefree/orgs","repos_url":"https://api.github.com/users/wontruefree/repos","events_url":"https://api.github.com/users/wontruefree/events{/privacy}","received_events_url":"https://api.github.com/users/wontruefree/received_events","type":"User","site_admin":false},{"login":"S-YOU","id":1001175,"node_id":"MDQ6VXNlcjEwMDExNzU=","avatar_url":"https://avatars1.githubusercontent.com/u/1001175?v=4","gravatar_id":"","url":"https://api.github.com/users/S-YOU","html_url":"https://github.com/S-YOU","followers_url":"https://api.github.com/users/S-YOU/followers","following_url":"https://api.github.com/users/S-YOU/following{/other_user}","gists_url":"https://api.github.com/users/S-YOU/gists{/gist_id}","starred_url":"https://api.github.com/users/S-YOU/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/S-YOU/subscriptions","organizations_url":"https://api.github.com/users/S-YOU/orgs","repos_url":"https://api.github.com/users/S-YOU/repos","events_url":"https://api.github.com/users/S-YOU/events{/privacy}","received_events_url":"https://api.github.com/users/S-YOU/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:03 GMT
-Etag: W/"8d20500053f7dc25a1cb30c621dc5610"
+Date: Sat, 09 Jun 2018 08:10:03 GMT
+Etag: W/"90d2d022058b6fd0e59b9f591e070b7f"
 Link: <https://api.github.com/user/4143617/followers?page=3>; rel="prev", <https://api.github.com/user/4143617/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D089:4F41:35A24CE:7522DC1:5AF838B3
+X-Github-Request-Id: CD02:57C4:23BC660:50D7713:5B1B8B5B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1104
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.032214
+X-Ratelimit-Remaining: 1511
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041844
 X-Xss-Protection: 1; mode=block
 
-3a7
-[{"login":"femiagbabiaka","id":5712318,"avatar_url":"https://avatars3.githubusercontent.com/u/5712318?v=4","gravatar_id":"","url":"https://api.github.com/users/femiagbabiaka","html_url":"https://github.com/femiagbabiaka","followers_url":"https://api.github.com/users/femiagbabiaka/followers","following_url":"https://api.github.com/users/femiagbabiaka/following{/other_user}","gists_url":"https://api.github.com/users/femiagbabiaka/gists{/gist_id}","starred_url":"https://api.github.com/users/femiagbabiaka/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/femiagbabiaka/subscriptions","organizations_url":"https://api.github.com/users/femiagbabiaka/orgs","repos_url":"https://api.github.com/users/femiagbabiaka/repos","events_url":"https://api.github.com/users/femiagbabiaka/events{/privacy}","received_events_url":"https://api.github.com/users/femiagbabiaka/received_events","type":"User","site_admin":false}]
+79d
+[{"login":"CyndiSummers","id":4053594,"node_id":"MDQ6VXNlcjQwNTM1OTQ=","avatar_url":"https://avatars2.githubusercontent.com/u/4053594?v=4","gravatar_id":"","url":"https://api.github.com/users/CyndiSummers","html_url":"https://github.com/CyndiSummers","followers_url":"https://api.github.com/users/CyndiSummers/followers","following_url":"https://api.github.com/users/CyndiSummers/following{/other_user}","gists_url":"https://api.github.com/users/CyndiSummers/gists{/gist_id}","starred_url":"https://api.github.com/users/CyndiSummers/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CyndiSummers/subscriptions","organizations_url":"https://api.github.com/users/CyndiSummers/orgs","repos_url":"https://api.github.com/users/CyndiSummers/repos","events_url":"https://api.github.com/users/CyndiSummers/events{/privacy}","received_events_url":"https://api.github.com/users/CyndiSummers/received_events","type":"User","site_admin":false},{"login":"michaelsherwood","id":22369492,"node_id":"MDQ6VXNlcjIyMzY5NDky","avatar_url":"https://avatars3.githubusercontent.com/u/22369492?v=4","gravatar_id":"","url":"https://api.github.com/users/michaelsherwood","html_url":"https://github.com/michaelsherwood","followers_url":"https://api.github.com/users/michaelsherwood/followers","following_url":"https://api.github.com/users/michaelsherwood/following{/other_user}","gists_url":"https://api.github.com/users/michaelsherwood/gists{/gist_id}","starred_url":"https://api.github.com/users/michaelsherwood/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/michaelsherwood/subscriptions","organizations_url":"https://api.github.com/users/michaelsherwood/orgs","repos_url":"https://api.github.com/users/michaelsherwood/repos","events_url":"https://api.github.com/users/michaelsherwood/events{/privacy}","received_events_url":"https://api.github.com/users/michaelsherwood/received_events","type":"User","site_admin":false}]
 0
 

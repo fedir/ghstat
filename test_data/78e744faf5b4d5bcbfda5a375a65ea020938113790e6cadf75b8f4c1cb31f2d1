@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:55 GMT
-Etag: W/"42c22c327f472df0fea10ef79aa9d011"
+Date: Sat, 09 Jun 2018 08:06:19 GMT
+Etag: W/"473677972c6122e84e0567cf687ba3dc"
 Link: <https://api.github.com/user/78159/followers?page=1>; rel="prev", <https://api.github.com/user/78159/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB23:4F42:44D8FC3:8AB5A3C:5AF8368F
+X-Github-Request-Id: C9EC:57C5:3729A53:7197298:5B1B8A7B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4239
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.031620
+X-Ratelimit-Remaining: 3811
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035348
 X-Xss-Protection: 1; mode=block
 
-35f
-[{"login":"bcherny","id":1761758,"avatar_url":"https://avatars2.githubusercontent.com/u/1761758?v=4","gravatar_id":"","url":"https://api.github.com/users/bcherny","html_url":"https://github.com/bcherny","followers_url":"https://api.github.com/users/bcherny/followers","following_url":"https://api.github.com/users/bcherny/following{/other_user}","gists_url":"https://api.github.com/users/bcherny/gists{/gist_id}","starred_url":"https://api.github.com/users/bcherny/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bcherny/subscriptions","organizations_url":"https://api.github.com/users/bcherny/orgs","repos_url":"https://api.github.com/users/bcherny/repos","events_url":"https://api.github.com/users/bcherny/events{/privacy}","received_events_url":"https://api.github.com/users/bcherny/received_events","type":"User","site_admin":false}]
+733
+[{"login":"bcherny","id":1761758,"node_id":"MDQ6VXNlcjE3NjE3NTg=","avatar_url":"https://avatars2.githubusercontent.com/u/1761758?v=4","gravatar_id":"","url":"https://api.github.com/users/bcherny","html_url":"https://github.com/bcherny","followers_url":"https://api.github.com/users/bcherny/followers","following_url":"https://api.github.com/users/bcherny/following{/other_user}","gists_url":"https://api.github.com/users/bcherny/gists{/gist_id}","starred_url":"https://api.github.com/users/bcherny/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bcherny/subscriptions","organizations_url":"https://api.github.com/users/bcherny/orgs","repos_url":"https://api.github.com/users/bcherny/repos","events_url":"https://api.github.com/users/bcherny/events{/privacy}","received_events_url":"https://api.github.com/users/bcherny/received_events","type":"User","site_admin":false},{"login":"philsturgeon","id":67381,"node_id":"MDQ6VXNlcjY3Mzgx","avatar_url":"https://avatars1.githubusercontent.com/u/67381?v=4","gravatar_id":"","url":"https://api.github.com/users/philsturgeon","html_url":"https://github.com/philsturgeon","followers_url":"https://api.github.com/users/philsturgeon/followers","following_url":"https://api.github.com/users/philsturgeon/following{/other_user}","gists_url":"https://api.github.com/users/philsturgeon/gists{/gist_id}","starred_url":"https://api.github.com/users/philsturgeon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/philsturgeon/subscriptions","organizations_url":"https://api.github.com/users/philsturgeon/orgs","repos_url":"https://api.github.com/users/philsturgeon/repos","events_url":"https://api.github.com/users/philsturgeon/events{/privacy}","received_events_url":"https://api.github.com/users/philsturgeon/received_events","type":"User","site_admin":false}]
 0
 

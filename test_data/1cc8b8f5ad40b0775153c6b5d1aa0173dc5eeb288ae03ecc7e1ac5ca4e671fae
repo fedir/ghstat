@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:23 GMT
-Etag: W/"08d35bca4f2ab5b4d70689bb5771c61e"
-Last-Modified: Mon, 07 May 2018 10:11:19 GMT
+Date: Sat, 09 Jun 2018 08:07:26 GMT
+Etag: W/"6ad5cb1a379e066b46c9971240d294c1"
+Last-Modified: Sat, 02 Jun 2018 16:18:08 GMT
 Link: <https://api.github.com/repositories/60797210/tags?page=1>; rel="prev", <https://api.github.com/repositories/60797210/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CE0B:4F42:44DF1B6:8AC1A8E:5AF83723
+X-Github-Request-Id: CABA:57C5:372C004:719B860:5B1B8ABE
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2309
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.026764
+X-Ratelimit-Remaining: 2951
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032730
 X-Xss-Protection: 1; mode=block
 
-2db
-[{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.2","commit":{"sha":"bfcb4eb832d1842c8319a3c9e8e38327755a8136","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/bfcb4eb832d1842c8319a3c9e8e38327755a8136"}},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.1","commit":{"sha":"9200d46154728b8329167bf81ee782dd38cc8845","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/9200d46154728b8329167bf81ee782dd38cc8845"}}]
+32d
+[{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.2","commit":{"sha":"bfcb4eb832d1842c8319a3c9e8e38327755a8136","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/bfcb4eb832d1842c8319a3c9e8e38327755a8136"},"node_id":"MDM6UmVmNjA3OTcyMTA6djAuMC4y"},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.1","commit":{"sha":"9200d46154728b8329167bf81ee782dd38cc8845","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/9200d46154728b8329167bf81ee782dd38cc8845"},"node_id":"MDM6UmVmNjA3OTcyMTA6djAuMC4x"}]
 0
 

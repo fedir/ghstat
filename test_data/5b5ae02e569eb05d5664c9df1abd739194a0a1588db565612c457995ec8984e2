@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:55 GMT
-Etag: W/"34f2af802b4f7b32df9d9a30d2666190"
-Last-Modified: Sat, 28 Apr 2018 02:43:59 GMT
+Date: Sat, 09 Jun 2018 08:06:20 GMT
+Etag: W/"21d9369281a3342bea6ed9634c587035"
+Last-Modified: Tue, 05 Jun 2018 23:08:03 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB33:4F42:44D9005:8AB5AA7:5AF8368F
+X-Github-Request-Id: C9FA:57C3:1EE1FDC:44F4BB4:5B1B8A7B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4217
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.032583
+X-Ratelimit-Remaining: 3804
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035271
 X-Xss-Protection: 1; mode=block
 
-141
-[{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/widok/widok/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/widok/widok/tarball/v0.2.3","commit":{"sha":"3fe3876c26d107f2de9d13599ac0bc9d3ccb85af","url":"https://api.github.com/repos/widok/widok/commits/3fe3876c26d107f2de9d13599ac0bc9d3ccb85af"}}]
+16a
+[{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/widok/widok/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/widok/widok/tarball/v0.2.3","commit":{"sha":"3fe3876c26d107f2de9d13599ac0bc9d3ccb85af","url":"https://api.github.com/repos/widok/widok/commits/3fe3876c26d107f2de9d13599ac0bc9d3ccb85af"},"node_id":"MDM6UmVmMjQ3NTY3MTc6djAuMi4z"}]
 0
 

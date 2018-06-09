@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:20 GMT
-Etag: W/"4edcb79157d2f8ab10200513114a2063"
+Date: Sat, 09 Jun 2018 08:07:24 GMT
+Etag: W/"6685ead536ec17140edd0551dae97c1f"
 Link: <https://api.github.com/user/378214/followers?page=3>; rel="prev", <https://api.github.com/user/378214/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDF3:4F41:3598B22:750B464:5AF83720
+X-Github-Request-Id: CAD8:57C4:23BA9C1:50D2C5D:5B1B8ABB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2436
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.035515
+X-Ratelimit-Remaining: 3071
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032133
 X-Xss-Protection: 1; mode=block
 
-74d
-[{"login":"ortegacmanuel","id":413133,"avatar_url":"https://avatars3.githubusercontent.com/u/413133?v=4","gravatar_id":"","url":"https://api.github.com/users/ortegacmanuel","html_url":"https://github.com/ortegacmanuel","followers_url":"https://api.github.com/users/ortegacmanuel/followers","following_url":"https://api.github.com/users/ortegacmanuel/following{/other_user}","gists_url":"https://api.github.com/users/ortegacmanuel/gists{/gist_id}","starred_url":"https://api.github.com/users/ortegacmanuel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ortegacmanuel/subscriptions","organizations_url":"https://api.github.com/users/ortegacmanuel/orgs","repos_url":"https://api.github.com/users/ortegacmanuel/repos","events_url":"https://api.github.com/users/ortegacmanuel/events{/privacy}","received_events_url":"https://api.github.com/users/ortegacmanuel/received_events","type":"User","site_admin":false},{"login":"HandsomeMedia","id":14863500,"avatar_url":"https://avatars3.githubusercontent.com/u/14863500?v=4","gravatar_id":"","url":"https://api.github.com/users/HandsomeMedia","html_url":"https://github.com/HandsomeMedia","followers_url":"https://api.github.com/users/HandsomeMedia/followers","following_url":"https://api.github.com/users/HandsomeMedia/following{/other_user}","gists_url":"https://api.github.com/users/HandsomeMedia/gists{/gist_id}","starred_url":"https://api.github.com/users/HandsomeMedia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HandsomeMedia/subscriptions","organizations_url":"https://api.github.com/users/HandsomeMedia/orgs","repos_url":"https://api.github.com/users/HandsomeMedia/repos","events_url":"https://api.github.com/users/HandsomeMedia/events{/privacy}","received_events_url":"https://api.github.com/users/HandsomeMedia/received_events","type":"User","site_admin":false}]
+747
+[{"login":"HandsomeMedia","id":14863500,"node_id":"MDQ6VXNlcjE0ODYzNTAw","avatar_url":"https://avatars3.githubusercontent.com/u/14863500?v=4","gravatar_id":"","url":"https://api.github.com/users/HandsomeMedia","html_url":"https://github.com/HandsomeMedia","followers_url":"https://api.github.com/users/HandsomeMedia/followers","following_url":"https://api.github.com/users/HandsomeMedia/following{/other_user}","gists_url":"https://api.github.com/users/HandsomeMedia/gists{/gist_id}","starred_url":"https://api.github.com/users/HandsomeMedia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HandsomeMedia/subscriptions","organizations_url":"https://api.github.com/users/HandsomeMedia/orgs","repos_url":"https://api.github.com/users/HandsomeMedia/repos","events_url":"https://api.github.com/users/HandsomeMedia/events{/privacy}","received_events_url":"https://api.github.com/users/HandsomeMedia/received_events","type":"User","site_admin":false},{"login":"wkoszek","id":483344,"node_id":"MDQ6VXNlcjQ4MzM0NA==","avatar_url":"https://avatars1.githubusercontent.com/u/483344?v=4","gravatar_id":"","url":"https://api.github.com/users/wkoszek","html_url":"https://github.com/wkoszek","followers_url":"https://api.github.com/users/wkoszek/followers","following_url":"https://api.github.com/users/wkoszek/following{/other_user}","gists_url":"https://api.github.com/users/wkoszek/gists{/gist_id}","starred_url":"https://api.github.com/users/wkoszek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wkoszek/subscriptions","organizations_url":"https://api.github.com/users/wkoszek/orgs","repos_url":"https://api.github.com/users/wkoszek/repos","events_url":"https://api.github.com/users/wkoszek/events{/privacy}","received_events_url":"https://api.github.com/users/wkoszek/received_events","type":"User","site_admin":false}]
 0
 

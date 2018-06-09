@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:49 GMT
-Etag: W/"ecda239fe6626b3a8bae25a4793bd9e2"
-Last-Modified: Sun, 13 May 2018 12:15:17 GMT
+Date: Sat, 09 Jun 2018 08:05:20 GMT
+Etag: W/"5e6c92748a80775ec72c708999e07863"
+Last-Modified: Fri, 08 Jun 2018 10:06:11 GMT
 Link: <https://api.github.com/repositories/44826364/tags?page=1>; rel="prev", <https://api.github.com/repositories/44826364/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB13:4F42:44D8C5B:8AB53C9:5AF83689
+X-Github-Request-Id: C8DE:57C6:2FE1289:64E3518:5B1B8A40
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4467
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.045971
+X-Ratelimit-Remaining: 4461
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.043984
 X-Xss-Protection: 1; mode=block
 
-a25
-[{"name":"v0.8.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.8.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.8.0","commit":{"sha":"3b4cdd5323666b3f44367d1f2dbc73f77387e230","url":"https://api.github.com/repos/kemalcr/kemal/commits/3b4cdd5323666b3f44367d1f2dbc73f77387e230"}},{"name":"v0.7.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.7.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.7.0","commit":{"sha":"68d23c2678cf2d862a48ccc3a0b6228ceed33096","url":"https://api.github.com/repos/kemalcr/kemal/commits/68d23c2678cf2d862a48ccc3a0b6228ceed33096"}},{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.6.0","commit":{"sha":"7ad319c70dd05963dc1e1dd5f32745499ea5d5a8","url":"https://api.github.com/repos/kemalcr/kemal/commits/7ad319c70dd05963dc1e1dd5f32745499ea5d5a8"}},{"name":"v0.5.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.5.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.5.0","commit":{"sha":"15d776d11437a6569220d189d57a79dad8677451","url":"https://api.github.com/repos/kemalcr/kemal/commits/15d776d11437a6569220d189d57a79dad8677451"}},{"name":"0.4.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.4.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.4.0","commit":{"sha":"d50d305e996d3e654baea167b6c7295a91d7c5ed","url":"https://api.github.com/repos/kemalcr/kemal/commits/d50d305e996d3e654baea167b6c7295a91d7c5ed"}},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.3.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.3.0","commit":{"sha":"5c979427078644625d9f8a86368306cbe7499ad0","url":"https://api.github.com/repos/kemalcr/kemal/commits/5c979427078644625d9f8a86368306cbe7499ad0"}},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.2.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.2.0","commit":{"sha":"9cb3cafa62f40bea5b7b23ac4619acfc7986359b","url":"https://api.github.com/repos/kemalcr/kemal/commits/9cb3cafa62f40bea5b7b23ac4619acfc7986359b"}},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.1.1","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.1.1","commit":{"sha":"cb36a38488548262f5a717318b09e8f0af0ca1e1","url":"https://api.github.com/repos/kemalcr/kemal/commits/cb36a38488548262f5a717318b09e8f0af0ca1e1"}}]
+b6d
+[{"name":"v0.8.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.8.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.8.0","commit":{"sha":"3b4cdd5323666b3f44367d1f2dbc73f77387e230","url":"https://api.github.com/repos/kemalcr/kemal/commits/3b4cdd5323666b3f44367d1f2dbc73f77387e230"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6djAuOC4w"},{"name":"v0.7.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.7.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.7.0","commit":{"sha":"68d23c2678cf2d862a48ccc3a0b6228ceed33096","url":"https://api.github.com/repos/kemalcr/kemal/commits/68d23c2678cf2d862a48ccc3a0b6228ceed33096"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6djAuNy4w"},{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.6.0","commit":{"sha":"7ad319c70dd05963dc1e1dd5f32745499ea5d5a8","url":"https://api.github.com/repos/kemalcr/kemal/commits/7ad319c70dd05963dc1e1dd5f32745499ea5d5a8"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6djAuNi4w"},{"name":"v0.5.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/v0.5.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/v0.5.0","commit":{"sha":"15d776d11437a6569220d189d57a79dad8677451","url":"https://api.github.com/repos/kemalcr/kemal/commits/15d776d11437a6569220d189d57a79dad8677451"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6djAuNS4w"},{"name":"0.4.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.4.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.4.0","commit":{"sha":"d50d305e996d3e654baea167b6c7295a91d7c5ed","url":"https://api.github.com/repos/kemalcr/kemal/commits/d50d305e996d3e654baea167b6c7295a91d7c5ed"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6MC40LjA="},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.3.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.3.0","commit":{"sha":"5c979427078644625d9f8a86368306cbe7499ad0","url":"https://api.github.com/repos/kemalcr/kemal/commits/5c979427078644625d9f8a86368306cbe7499ad0"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6MC4zLjA="},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.2.0","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.2.0","commit":{"sha":"9cb3cafa62f40bea5b7b23ac4619acfc7986359b","url":"https://api.github.com/repos/kemalcr/kemal/commits/9cb3cafa62f40bea5b7b23ac4619acfc7986359b"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6MC4yLjA="},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/kemalcr/kemal/zipball/0.1.1","tarball_url":"https://api.github.com/repos/kemalcr/kemal/tarball/0.1.1","commit":{"sha":"cb36a38488548262f5a717318b09e8f0af0ca1e1","url":"https://api.github.com/repos/kemalcr/kemal/commits/cb36a38488548262f5a717318b09e8f0af0ca1e1"},"node_id":"MDM6UmVmNDQ4MjYzNjQ6MC4xLjE="}]
 0
 

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:20 GMT
-Etag: W/"425d32ecfbda276f3accfca61b473e7c"
+Date: Sat, 09 Jun 2018 08:07:23 GMT
+Etag: W/"39623d10898d38f3b0fd0764720884d1"
 Link: <https://api.github.com/user/63146/followers?page=1>; rel="prev", <https://api.github.com/user/63146/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDF4:4F42:44DEF6B:8AC1620:5AF83720
+X-Github-Request-Id: CABA:57C5:372BE65:719B54E:5B1B8ABB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2445
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039909
+X-Ratelimit-Remaining: 3096
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035527
 X-Xss-Protection: 1; mode=block
 
-a5b
-[{"login":"vmvwebworks","id":13985339,"avatar_url":"https://avatars2.githubusercontent.com/u/13985339?v=4","gravatar_id":"","url":"https://api.github.com/users/vmvwebworks","html_url":"https://github.com/vmvwebworks","followers_url":"https://api.github.com/users/vmvwebworks/followers","following_url":"https://api.github.com/users/vmvwebworks/following{/other_user}","gists_url":"https://api.github.com/users/vmvwebworks/gists{/gist_id}","starred_url":"https://api.github.com/users/vmvwebworks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vmvwebworks/subscriptions","organizations_url":"https://api.github.com/users/vmvwebworks/orgs","repos_url":"https://api.github.com/users/vmvwebworks/repos","events_url":"https://api.github.com/users/vmvwebworks/events{/privacy}","received_events_url":"https://api.github.com/users/vmvwebworks/received_events","type":"User","site_admin":false},{"login":"Donnadieu","id":22755987,"avatar_url":"https://avatars2.githubusercontent.com/u/22755987?v=4","gravatar_id":"","url":"https://api.github.com/users/Donnadieu","html_url":"https://github.com/Donnadieu","followers_url":"https://api.github.com/users/Donnadieu/followers","following_url":"https://api.github.com/users/Donnadieu/following{/other_user}","gists_url":"https://api.github.com/users/Donnadieu/gists{/gist_id}","starred_url":"https://api.github.com/users/Donnadieu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Donnadieu/subscriptions","organizations_url":"https://api.github.com/users/Donnadieu/orgs","repos_url":"https://api.github.com/users/Donnadieu/repos","events_url":"https://api.github.com/users/Donnadieu/events{/privacy}","received_events_url":"https://api.github.com/users/Donnadieu/received_events","type":"User","site_admin":false},{"login":"cassar","id":4644609,"avatar_url":"https://avatars3.githubusercontent.com/u/4644609?v=4","gravatar_id":"","url":"https://api.github.com/users/cassar","html_url":"https://github.com/cassar","followers_url":"https://api.github.com/users/cassar/followers","following_url":"https://api.github.com/users/cassar/following{/other_user}","gists_url":"https://api.github.com/users/cassar/gists{/gist_id}","starred_url":"https://api.github.com/users/cassar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cassar/subscriptions","organizations_url":"https://api.github.com/users/cassar/orgs","repos_url":"https://api.github.com/users/cassar/repos","events_url":"https://api.github.com/users/cassar/events{/privacy}","received_events_url":"https://api.github.com/users/cassar/received_events","type":"User","site_admin":false}]
+abe
+[{"login":"vmvwebworks","id":13985339,"node_id":"MDQ6VXNlcjEzOTg1MzM5","avatar_url":"https://avatars2.githubusercontent.com/u/13985339?v=4","gravatar_id":"","url":"https://api.github.com/users/vmvwebworks","html_url":"https://github.com/vmvwebworks","followers_url":"https://api.github.com/users/vmvwebworks/followers","following_url":"https://api.github.com/users/vmvwebworks/following{/other_user}","gists_url":"https://api.github.com/users/vmvwebworks/gists{/gist_id}","starred_url":"https://api.github.com/users/vmvwebworks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vmvwebworks/subscriptions","organizations_url":"https://api.github.com/users/vmvwebworks/orgs","repos_url":"https://api.github.com/users/vmvwebworks/repos","events_url":"https://api.github.com/users/vmvwebworks/events{/privacy}","received_events_url":"https://api.github.com/users/vmvwebworks/received_events","type":"User","site_admin":false},{"login":"Donnadieu","id":22755987,"node_id":"MDQ6VXNlcjIyNzU1OTg3","avatar_url":"https://avatars2.githubusercontent.com/u/22755987?v=4","gravatar_id":"","url":"https://api.github.com/users/Donnadieu","html_url":"https://github.com/Donnadieu","followers_url":"https://api.github.com/users/Donnadieu/followers","following_url":"https://api.github.com/users/Donnadieu/following{/other_user}","gists_url":"https://api.github.com/users/Donnadieu/gists{/gist_id}","starred_url":"https://api.github.com/users/Donnadieu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Donnadieu/subscriptions","organizations_url":"https://api.github.com/users/Donnadieu/orgs","repos_url":"https://api.github.com/users/Donnadieu/repos","events_url":"https://api.github.com/users/Donnadieu/events{/privacy}","received_events_url":"https://api.github.com/users/Donnadieu/received_events","type":"User","site_admin":false},{"login":"cassar","id":4644609,"node_id":"MDQ6VXNlcjQ2NDQ2MDk=","avatar_url":"https://avatars3.githubusercontent.com/u/4644609?v=4","gravatar_id":"","url":"https://api.github.com/users/cassar","html_url":"https://github.com/cassar","followers_url":"https://api.github.com/users/cassar/followers","following_url":"https://api.github.com/users/cassar/following{/other_user}","gists_url":"https://api.github.com/users/cassar/gists{/gist_id}","starred_url":"https://api.github.com/users/cassar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cassar/subscriptions","organizations_url":"https://api.github.com/users/cassar/orgs","repos_url":"https://api.github.com/users/cassar/repos","events_url":"https://api.github.com/users/cassar/events{/privacy}","received_events_url":"https://api.github.com/users/cassar/received_events","type":"User","site_admin":false}]
 0
 

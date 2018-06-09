@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 10:08:31 GMT
+Etag: W/"15544da44beddf1e0ec416e229ad867b"
+Link: <https://api.github.com/user/282080/followers?page=44>; rel="prev", <https://api.github.com/user/282080/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D61B:57C5:3826233:736A68E:5B1BA71F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4956
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.086488
+X-Xss-Protection: 1; mode=block
+
+af8
+[{"login":"petersen-rex","id":655766,"node_id":"MDQ6VXNlcjY1NTc2Ng==","avatar_url":"https://avatars0.githubusercontent.com/u/655766?v=4","gravatar_id":"","url":"https://api.github.com/users/petersen-rex","html_url":"https://github.com/petersen-rex","followers_url":"https://api.github.com/users/petersen-rex/followers","following_url":"https://api.github.com/users/petersen-rex/following{/other_user}","gists_url":"https://api.github.com/users/petersen-rex/gists{/gist_id}","starred_url":"https://api.github.com/users/petersen-rex/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/petersen-rex/subscriptions","organizations_url":"https://api.github.com/users/petersen-rex/orgs","repos_url":"https://api.github.com/users/petersen-rex/repos","events_url":"https://api.github.com/users/petersen-rex/events{/privacy}","received_events_url":"https://api.github.com/users/petersen-rex/received_events","type":"User","site_admin":false},{"login":"wapio","id":15364161,"node_id":"MDQ6VXNlcjE1MzY0MTYx","avatar_url":"https://avatars3.githubusercontent.com/u/15364161?v=4","gravatar_id":"","url":"https://api.github.com/users/wapio","html_url":"https://github.com/wapio","followers_url":"https://api.github.com/users/wapio/followers","following_url":"https://api.github.com/users/wapio/following{/other_user}","gists_url":"https://api.github.com/users/wapio/gists{/gist_id}","starred_url":"https://api.github.com/users/wapio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wapio/subscriptions","organizations_url":"https://api.github.com/users/wapio/orgs","repos_url":"https://api.github.com/users/wapio/repos","events_url":"https://api.github.com/users/wapio/events{/privacy}","received_events_url":"https://api.github.com/users/wapio/received_events","type":"User","site_admin":false},{"login":"andressalinero","id":39957849,"node_id":"MDQ6VXNlcjM5OTU3ODQ5","avatar_url":"https://avatars1.githubusercontent.com/u/39957849?v=4","gravatar_id":"","url":"https://api.github.com/users/andressalinero","html_url":"https://github.com/andressalinero","followers_url":"https://api.github.com/users/andressalinero/followers","following_url":"https://api.github.com/users/andressalinero/following{/other_user}","gists_url":"https://api.github.com/users/andressalinero/gists{/gist_id}","starred_url":"https://api.github.com/users/andressalinero/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andressalinero/subscriptions","organizations_url":"https://api.github.com/users/andressalinero/orgs","repos_url":"https://api.github.com/users/andressalinero/repos","events_url":"https://api.github.com/users/andressalinero/events{/privacy}","received_events_url":"https://api.github.com/users/andressalinero/received_events","type":"User","site_admin":false}]
+0
+

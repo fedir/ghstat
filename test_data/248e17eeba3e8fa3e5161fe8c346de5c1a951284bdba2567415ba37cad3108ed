@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:47 GMT
-Etag: W/"f2f9f2fdbbea713bca86786fc77c5e7b"
+Date: Sat, 09 Jun 2018 08:08:21 GMT
+Etag: W/"8f08a8042fd8dfe79c3871a1a8bcb9b4"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFCC:4F42:44E9FB6:8AD8F03:5AF83866
+X-Github-Request-Id: CB57:57C6:2FE50D1:64EC93E:5B1B8AF5
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1702
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.138840
+X-Ratelimit-Remaining: 2511
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033555
 X-Xss-Protection: 1; mode=block
 
-77d
-[{"login":"TheWizardTower","id":1865118,"avatar_url":"https://avatars1.githubusercontent.com/u/1865118?v=4","gravatar_id":"","url":"https://api.github.com/users/TheWizardTower","html_url":"https://github.com/TheWizardTower","followers_url":"https://api.github.com/users/TheWizardTower/followers","following_url":"https://api.github.com/users/TheWizardTower/following{/other_user}","gists_url":"https://api.github.com/users/TheWizardTower/gists{/gist_id}","starred_url":"https://api.github.com/users/TheWizardTower/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TheWizardTower/subscriptions","organizations_url":"https://api.github.com/users/TheWizardTower/orgs","repos_url":"https://api.github.com/users/TheWizardTower/repos","events_url":"https://api.github.com/users/TheWizardTower/events{/privacy}","received_events_url":"https://api.github.com/users/TheWizardTower/received_events","type":"User","site_admin":false},{"login":"linearregression","id":3011346,"avatar_url":"https://avatars0.githubusercontent.com/u/3011346?v=4","gravatar_id":"","url":"https://api.github.com/users/linearregression","html_url":"https://github.com/linearregression","followers_url":"https://api.github.com/users/linearregression/followers","following_url":"https://api.github.com/users/linearregression/following{/other_user}","gists_url":"https://api.github.com/users/linearregression/gists{/gist_id}","starred_url":"https://api.github.com/users/linearregression/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linearregression/subscriptions","organizations_url":"https://api.github.com/users/linearregression/orgs","repos_url":"https://api.github.com/users/linearregression/repos","events_url":"https://api.github.com/users/linearregression/events{/privacy}","received_events_url":"https://api.github.com/users/linearregression/received_events","type":"User","site_admin":false}]
+7bf
+[{"login":"TheWizardTower","id":1865118,"node_id":"MDQ6VXNlcjE4NjUxMTg=","avatar_url":"https://avatars1.githubusercontent.com/u/1865118?v=4","gravatar_id":"","url":"https://api.github.com/users/TheWizardTower","html_url":"https://github.com/TheWizardTower","followers_url":"https://api.github.com/users/TheWizardTower/followers","following_url":"https://api.github.com/users/TheWizardTower/following{/other_user}","gists_url":"https://api.github.com/users/TheWizardTower/gists{/gist_id}","starred_url":"https://api.github.com/users/TheWizardTower/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TheWizardTower/subscriptions","organizations_url":"https://api.github.com/users/TheWizardTower/orgs","repos_url":"https://api.github.com/users/TheWizardTower/repos","events_url":"https://api.github.com/users/TheWizardTower/events{/privacy}","received_events_url":"https://api.github.com/users/TheWizardTower/received_events","type":"User","site_admin":false},{"login":"linearregression","id":3011346,"node_id":"MDQ6VXNlcjMwMTEzNDY=","avatar_url":"https://avatars0.githubusercontent.com/u/3011346?v=4","gravatar_id":"","url":"https://api.github.com/users/linearregression","html_url":"https://github.com/linearregression","followers_url":"https://api.github.com/users/linearregression/followers","following_url":"https://api.github.com/users/linearregression/following{/other_user}","gists_url":"https://api.github.com/users/linearregression/gists{/gist_id}","starred_url":"https://api.github.com/users/linearregression/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/linearregression/subscriptions","organizations_url":"https://api.github.com/users/linearregression/orgs","repos_url":"https://api.github.com/users/linearregression/repos","events_url":"https://api.github.com/users/linearregression/events{/privacy}","received_events_url":"https://api.github.com/users/linearregression/received_events","type":"User","site_admin":false}]
 0
 

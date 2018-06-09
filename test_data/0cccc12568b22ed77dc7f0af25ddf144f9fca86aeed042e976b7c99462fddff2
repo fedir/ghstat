@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:07:09 GMT
-Etag: W/"ea4091af9fcbc9c3cd5a9d6861744027"
+Date: Sat, 09 Jun 2018 08:08:36 GMT
+Etag: W/"8b9ca5f2d50e1268782cc687d611e2bc"
 Link: <https://api.github.com/user/1349891/followers?page=1>; rel="prev", <https://api.github.com/user/1349891/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFEB:4F42:44EADA6:8ADABB9:5AF8387D
+X-Github-Request-Id: CB73:57C6:2FE54F5:64ED3C5:5B1B8B04
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1368
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.033345
+X-Ratelimit-Remaining: 2219
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.034126
 X-Xss-Protection: 1; mode=block
 
-391
-[{"login":"opengiineer","id":32831059,"avatar_url":"https://avatars0.githubusercontent.com/u/32831059?v=4","gravatar_id":"","url":"https://api.github.com/users/opengiineer","html_url":"https://github.com/opengiineer","followers_url":"https://api.github.com/users/opengiineer/followers","following_url":"https://api.github.com/users/opengiineer/following{/other_user}","gists_url":"https://api.github.com/users/opengiineer/gists{/gist_id}","starred_url":"https://api.github.com/users/opengiineer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/opengiineer/subscriptions","organizations_url":"https://api.github.com/users/opengiineer/orgs","repos_url":"https://api.github.com/users/opengiineer/repos","events_url":"https://api.github.com/users/opengiineer/events{/privacy}","received_events_url":"https://api.github.com/users/opengiineer/received_events","type":"User","site_admin":false}]
+74b
+[{"login":"opengiineer","id":32831059,"node_id":"MDQ6VXNlcjMyODMxMDU5","avatar_url":"https://avatars0.githubusercontent.com/u/32831059?v=4","gravatar_id":"","url":"https://api.github.com/users/opengiineer","html_url":"https://github.com/opengiineer","followers_url":"https://api.github.com/users/opengiineer/followers","following_url":"https://api.github.com/users/opengiineer/following{/other_user}","gists_url":"https://api.github.com/users/opengiineer/gists{/gist_id}","starred_url":"https://api.github.com/users/opengiineer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/opengiineer/subscriptions","organizations_url":"https://api.github.com/users/opengiineer/orgs","repos_url":"https://api.github.com/users/opengiineer/repos","events_url":"https://api.github.com/users/opengiineer/events{/privacy}","received_events_url":"https://api.github.com/users/opengiineer/received_events","type":"User","site_admin":false},{"login":"rajivryan","id":16849305,"node_id":"MDQ6VXNlcjE2ODQ5MzA1","avatar_url":"https://avatars2.githubusercontent.com/u/16849305?v=4","gravatar_id":"","url":"https://api.github.com/users/rajivryan","html_url":"https://github.com/rajivryan","followers_url":"https://api.github.com/users/rajivryan/followers","following_url":"https://api.github.com/users/rajivryan/following{/other_user}","gists_url":"https://api.github.com/users/rajivryan/gists{/gist_id}","starred_url":"https://api.github.com/users/rajivryan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rajivryan/subscriptions","organizations_url":"https://api.github.com/users/rajivryan/orgs","repos_url":"https://api.github.com/users/rajivryan/repos","events_url":"https://api.github.com/users/rajivryan/events{/privacy}","received_events_url":"https://api.github.com/users/rajivryan/received_events","type":"User","site_admin":false}]
 0
 

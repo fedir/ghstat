@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:55 GMT
-Etag: W/"cd9d16ce3d53efd540768ac948619009"
+Date: Sat, 09 Jun 2018 08:08:27 GMT
+Etag: W/"f76be5c372fbfdc4998cb646d73f2595"
 Link: <https://api.github.com/user/78738/followers?page=4>; rel="prev", <https://api.github.com/user/78738/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFD7:4F40:2600BA9:573824D:5AF8386F
+X-Github-Request-Id: CB62:57C5:372E07C:719F168:5B1B8AFB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1644
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.033176
+X-Ratelimit-Remaining: 2459
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032218
 X-Xss-Protection: 1; mode=block
 
-3a9
-[{"login":"shenzhoudance","id":15626022,"avatar_url":"https://avatars0.githubusercontent.com/u/15626022?v=4","gravatar_id":"","url":"https://api.github.com/users/shenzhoudance","html_url":"https://github.com/shenzhoudance","followers_url":"https://api.github.com/users/shenzhoudance/followers","following_url":"https://api.github.com/users/shenzhoudance/following{/other_user}","gists_url":"https://api.github.com/users/shenzhoudance/gists{/gist_id}","starred_url":"https://api.github.com/users/shenzhoudance/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shenzhoudance/subscriptions","organizations_url":"https://api.github.com/users/shenzhoudance/orgs","repos_url":"https://api.github.com/users/shenzhoudance/repos","events_url":"https://api.github.com/users/shenzhoudance/events{/privacy}","received_events_url":"https://api.github.com/users/shenzhoudance/received_events","type":"User","site_admin":false}]
+aee
+[{"login":"shenzhoudance","id":15626022,"node_id":"MDQ6VXNlcjE1NjI2MDIy","avatar_url":"https://avatars0.githubusercontent.com/u/15626022?v=4","gravatar_id":"","url":"https://api.github.com/users/shenzhoudance","html_url":"https://github.com/shenzhoudance","followers_url":"https://api.github.com/users/shenzhoudance/followers","following_url":"https://api.github.com/users/shenzhoudance/following{/other_user}","gists_url":"https://api.github.com/users/shenzhoudance/gists{/gist_id}","starred_url":"https://api.github.com/users/shenzhoudance/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shenzhoudance/subscriptions","organizations_url":"https://api.github.com/users/shenzhoudance/orgs","repos_url":"https://api.github.com/users/shenzhoudance/repos","events_url":"https://api.github.com/users/shenzhoudance/events{/privacy}","received_events_url":"https://api.github.com/users/shenzhoudance/received_events","type":"User","site_admin":false},{"login":"satoriting","id":35526140,"node_id":"MDQ6VXNlcjM1NTI2MTQw","avatar_url":"https://avatars1.githubusercontent.com/u/35526140?v=4","gravatar_id":"","url":"https://api.github.com/users/satoriting","html_url":"https://github.com/satoriting","followers_url":"https://api.github.com/users/satoriting/followers","following_url":"https://api.github.com/users/satoriting/following{/other_user}","gists_url":"https://api.github.com/users/satoriting/gists{/gist_id}","starred_url":"https://api.github.com/users/satoriting/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/satoriting/subscriptions","organizations_url":"https://api.github.com/users/satoriting/orgs","repos_url":"https://api.github.com/users/satoriting/repos","events_url":"https://api.github.com/users/satoriting/events{/privacy}","received_events_url":"https://api.github.com/users/satoriting/received_events","type":"User","site_admin":false},{"login":"jxzsxsp","id":3166271,"node_id":"MDQ6VXNlcjMxNjYyNzE=","avatar_url":"https://avatars0.githubusercontent.com/u/3166271?v=4","gravatar_id":"","url":"https://api.github.com/users/jxzsxsp","html_url":"https://github.com/jxzsxsp","followers_url":"https://api.github.com/users/jxzsxsp/followers","following_url":"https://api.github.com/users/jxzsxsp/following{/other_user}","gists_url":"https://api.github.com/users/jxzsxsp/gists{/gist_id}","starred_url":"https://api.github.com/users/jxzsxsp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jxzsxsp/subscriptions","organizations_url":"https://api.github.com/users/jxzsxsp/orgs","repos_url":"https://api.github.com/users/jxzsxsp/repos","events_url":"https://api.github.com/users/jxzsxsp/events{/privacy}","received_events_url":"https://api.github.com/users/jxzsxsp/received_events","type":"User","site_admin":false}]
 0
 

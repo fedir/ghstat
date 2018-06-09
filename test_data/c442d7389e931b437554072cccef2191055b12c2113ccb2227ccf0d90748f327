@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:57:59 GMT
-Etag: W/"fefb0a9ea182500105b0dd53fb34df97"
+Date: Sat, 09 Jun 2018 10:08:32 GMT
+Etag: W/"1b91daf296ac6721b66edcc8cf30d69c"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA24:4F42:4552D93:8BA6CB4:5AF84467
+X-Github-Request-Id: D613:57C6:3082E23:665B13E:5B1BA720
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4864
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.035200
+X-Ratelimit-Remaining: 4938
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.037712
 X-Xss-Protection: 1; mode=block
 
-36d
-[{"login":"tibburon","id":24472056,"avatar_url":"https://avatars0.githubusercontent.com/u/24472056?v=4","gravatar_id":"","url":"https://api.github.com/users/tibburon","html_url":"https://github.com/tibburon","followers_url":"https://api.github.com/users/tibburon/followers","following_url":"https://api.github.com/users/tibburon/following{/other_user}","gists_url":"https://api.github.com/users/tibburon/gists{/gist_id}","starred_url":"https://api.github.com/users/tibburon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tibburon/subscriptions","organizations_url":"https://api.github.com/users/tibburon/orgs","repos_url":"https://api.github.com/users/tibburon/repos","events_url":"https://api.github.com/users/tibburon/events{/privacy}","received_events_url":"https://api.github.com/users/tibburon/received_events","type":"User","site_admin":false}]
+38e
+[{"login":"tibburon","id":24472056,"node_id":"MDQ6VXNlcjI0NDcyMDU2","avatar_url":"https://avatars0.githubusercontent.com/u/24472056?v=4","gravatar_id":"","url":"https://api.github.com/users/tibburon","html_url":"https://github.com/tibburon","followers_url":"https://api.github.com/users/tibburon/followers","following_url":"https://api.github.com/users/tibburon/following{/other_user}","gists_url":"https://api.github.com/users/tibburon/gists{/gist_id}","starred_url":"https://api.github.com/users/tibburon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tibburon/subscriptions","organizations_url":"https://api.github.com/users/tibburon/orgs","repos_url":"https://api.github.com/users/tibburon/repos","events_url":"https://api.github.com/users/tibburon/events{/privacy}","received_events_url":"https://api.github.com/users/tibburon/received_events","type":"User","site_admin":false}]
 0
 

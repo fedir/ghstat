@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:15:49 GMT
-Etag: W/"6bc34341c1953bbcf090048d72aa352c"
+Date: Sat, 09 Jun 2018 08:11:20 GMT
+Etag: W/"6cf21119e53688a1861c7ea27815ecd9"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D25C:4F42:44FD90D:8B002BA:5AF83A85
+X-Github-Request-Id: CE6E:57C5:37339F8:71A920C:5B1B8BA7
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 91
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.027565
+X-Ratelimit-Remaining: 485
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035955
 X-Xss-Protection: 1; mode=block
 
-36b
-[{"login":"janvajda","id":3266245,"avatar_url":"https://avatars1.githubusercontent.com/u/3266245?v=4","gravatar_id":"","url":"https://api.github.com/users/janvajda","html_url":"https://github.com/janvajda","followers_url":"https://api.github.com/users/janvajda/followers","following_url":"https://api.github.com/users/janvajda/following{/other_user}","gists_url":"https://api.github.com/users/janvajda/gists{/gist_id}","starred_url":"https://api.github.com/users/janvajda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/janvajda/subscriptions","organizations_url":"https://api.github.com/users/janvajda/orgs","repos_url":"https://api.github.com/users/janvajda/repos","events_url":"https://api.github.com/users/janvajda/events{/privacy}","received_events_url":"https://api.github.com/users/janvajda/received_events","type":"User","site_admin":false}]
+38c
+[{"login":"janvajda","id":3266245,"node_id":"MDQ6VXNlcjMyNjYyNDU=","avatar_url":"https://avatars1.githubusercontent.com/u/3266245?v=4","gravatar_id":"","url":"https://api.github.com/users/janvajda","html_url":"https://github.com/janvajda","followers_url":"https://api.github.com/users/janvajda/followers","following_url":"https://api.github.com/users/janvajda/following{/other_user}","gists_url":"https://api.github.com/users/janvajda/gists{/gist_id}","starred_url":"https://api.github.com/users/janvajda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/janvajda/subscriptions","organizations_url":"https://api.github.com/users/janvajda/orgs","repos_url":"https://api.github.com/users/janvajda/repos","events_url":"https://api.github.com/users/janvajda/events{/privacy}","received_events_url":"https://api.github.com/users/janvajda/received_events","type":"User","site_admin":false}]
 0
 

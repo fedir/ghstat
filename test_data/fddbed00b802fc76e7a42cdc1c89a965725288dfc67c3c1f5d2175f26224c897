@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:15:40 GMT
-Etag: W/"0fd76c8a7e5fbe15f6d2ae4b17c586b0"
+Date: Sat, 09 Jun 2018 08:11:02 GMT
+Etag: W/"8ef3cc2f5715d721e5c49026e0ab17b2"
 Link: <https://api.github.com/user/55368/followers?page=10>; rel="prev", <https://api.github.com/user/55368/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D22A:4F42:44FD45D:8AFF7B9:5AF83A7B
+X-Github-Request-Id: CE35:57C3:1EE3FE6:44FA758:5B1B8B96
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 310
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.060022
+X-Ratelimit-Remaining: 704
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.048116
 X-Xss-Protection: 1; mode=block
 
-a51
-[{"login":"C87","id":23500510,"avatar_url":"https://avatars0.githubusercontent.com/u/23500510?v=4","gravatar_id":"","url":"https://api.github.com/users/C87","html_url":"https://github.com/C87","followers_url":"https://api.github.com/users/C87/followers","following_url":"https://api.github.com/users/C87/following{/other_user}","gists_url":"https://api.github.com/users/C87/gists{/gist_id}","starred_url":"https://api.github.com/users/C87/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/C87/subscriptions","organizations_url":"https://api.github.com/users/C87/orgs","repos_url":"https://api.github.com/users/C87/repos","events_url":"https://api.github.com/users/C87/events{/privacy}","received_events_url":"https://api.github.com/users/C87/received_events","type":"User","site_admin":false},{"login":"shenzhoudance","id":15626022,"avatar_url":"https://avatars0.githubusercontent.com/u/15626022?v=4","gravatar_id":"","url":"https://api.github.com/users/shenzhoudance","html_url":"https://github.com/shenzhoudance","followers_url":"https://api.github.com/users/shenzhoudance/followers","following_url":"https://api.github.com/users/shenzhoudance/following{/other_user}","gists_url":"https://api.github.com/users/shenzhoudance/gists{/gist_id}","starred_url":"https://api.github.com/users/shenzhoudance/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shenzhoudance/subscriptions","organizations_url":"https://api.github.com/users/shenzhoudance/orgs","repos_url":"https://api.github.com/users/shenzhoudance/repos","events_url":"https://api.github.com/users/shenzhoudance/events{/privacy}","received_events_url":"https://api.github.com/users/shenzhoudance/received_events","type":"User","site_admin":false},{"login":"nandicole","id":29249344,"avatar_url":"https://avatars3.githubusercontent.com/u/29249344?v=4","gravatar_id":"","url":"https://api.github.com/users/nandicole","html_url":"https://github.com/nandicole","followers_url":"https://api.github.com/users/nandicole/followers","following_url":"https://api.github.com/users/nandicole/following{/other_user}","gists_url":"https://api.github.com/users/nandicole/gists{/gist_id}","starred_url":"https://api.github.com/users/nandicole/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nandicole/subscriptions","organizations_url":"https://api.github.com/users/nandicole/orgs","repos_url":"https://api.github.com/users/nandicole/repos","events_url":"https://api.github.com/users/nandicole/events{/privacy}","received_events_url":"https://api.github.com/users/nandicole/received_events","type":"User","site_admin":false}]
+79f
+[{"login":"Loveismany","id":39570485,"node_id":"MDQ6VXNlcjM5NTcwNDg1","avatar_url":"https://avatars2.githubusercontent.com/u/39570485?v=4","gravatar_id":"","url":"https://api.github.com/users/Loveismany","html_url":"https://github.com/Loveismany","followers_url":"https://api.github.com/users/Loveismany/followers","following_url":"https://api.github.com/users/Loveismany/following{/other_user}","gists_url":"https://api.github.com/users/Loveismany/gists{/gist_id}","starred_url":"https://api.github.com/users/Loveismany/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Loveismany/subscriptions","organizations_url":"https://api.github.com/users/Loveismany/orgs","repos_url":"https://api.github.com/users/Loveismany/repos","events_url":"https://api.github.com/users/Loveismany/events{/privacy}","received_events_url":"https://api.github.com/users/Loveismany/received_events","type":"User","site_admin":false},{"login":"ForwardGrantBodie","id":39271286,"node_id":"MDQ6VXNlcjM5MjcxMjg2","avatar_url":"https://avatars3.githubusercontent.com/u/39271286?v=4","gravatar_id":"","url":"https://api.github.com/users/ForwardGrantBodie","html_url":"https://github.com/ForwardGrantBodie","followers_url":"https://api.github.com/users/ForwardGrantBodie/followers","following_url":"https://api.github.com/users/ForwardGrantBodie/following{/other_user}","gists_url":"https://api.github.com/users/ForwardGrantBodie/gists{/gist_id}","starred_url":"https://api.github.com/users/ForwardGrantBodie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ForwardGrantBodie/subscriptions","organizations_url":"https://api.github.com/users/ForwardGrantBodie/orgs","repos_url":"https://api.github.com/users/ForwardGrantBodie/repos","events_url":"https://api.github.com/users/ForwardGrantBodie/events{/privacy}","received_events_url":"https://api.github.com/users/ForwardGrantBodie/received_events","type":"User","site_admin":false}]
 0
 

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:03 GMT
-Etag: W/"53acf12f2d9eea4b50635c5417e5ea65"
+Date: Sat, 09 Jun 2018 08:10:03 GMT
+Etag: W/"ff974eea0317bff68b5edbd205402266"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -16,15 +16,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D087:4F42:44ECC62:8ADEB50:5AF838B3
+X-Github-Request-Id: CCFB:57C3:1EE39D1:44F94A6:5B1B8B5B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1110
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039012
+X-Ratelimit-Remaining: 1500
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.036732
 X-Xss-Protection: 1; mode=block
 
-36b
-[{"login":"indietyp","id":7252775,"avatar_url":"https://avatars1.githubusercontent.com/u/7252775?v=4","gravatar_id":"","url":"https://api.github.com/users/indietyp","html_url":"https://github.com/indietyp","followers_url":"https://api.github.com/users/indietyp/followers","following_url":"https://api.github.com/users/indietyp/following{/other_user}","gists_url":"https://api.github.com/users/indietyp/gists{/gist_id}","starred_url":"https://api.github.com/users/indietyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indietyp/subscriptions","organizations_url":"https://api.github.com/users/indietyp/orgs","repos_url":"https://api.github.com/users/indietyp/repos","events_url":"https://api.github.com/users/indietyp/events{/privacy}","received_events_url":"https://api.github.com/users/indietyp/received_events","type":"User","site_admin":false}]
+70d
+[{"login":"indietyp","id":7252775,"node_id":"MDQ6VXNlcjcyNTI3NzU=","avatar_url":"https://avatars1.githubusercontent.com/u/7252775?v=4","gravatar_id":"","url":"https://api.github.com/users/indietyp","html_url":"https://github.com/indietyp","followers_url":"https://api.github.com/users/indietyp/followers","following_url":"https://api.github.com/users/indietyp/following{/other_user}","gists_url":"https://api.github.com/users/indietyp/gists{/gist_id}","starred_url":"https://api.github.com/users/indietyp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indietyp/subscriptions","organizations_url":"https://api.github.com/users/indietyp/orgs","repos_url":"https://api.github.com/users/indietyp/repos","events_url":"https://api.github.com/users/indietyp/events{/privacy}","received_events_url":"https://api.github.com/users/indietyp/received_events","type":"User","site_admin":false},{"login":"k4lipso","id":19481640,"node_id":"MDQ6VXNlcjE5NDgxNjQw","avatar_url":"https://avatars2.githubusercontent.com/u/19481640?v=4","gravatar_id":"","url":"https://api.github.com/users/k4lipso","html_url":"https://github.com/k4lipso","followers_url":"https://api.github.com/users/k4lipso/followers","following_url":"https://api.github.com/users/k4lipso/following{/other_user}","gists_url":"https://api.github.com/users/k4lipso/gists{/gist_id}","starred_url":"https://api.github.com/users/k4lipso/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/k4lipso/subscriptions","organizations_url":"https://api.github.com/users/k4lipso/orgs","repos_url":"https://api.github.com/users/k4lipso/repos","events_url":"https://api.github.com/users/k4lipso/events{/privacy}","received_events_url":"https://api.github.com/users/k4lipso/received_events","type":"User","site_admin":false}]
 0
 

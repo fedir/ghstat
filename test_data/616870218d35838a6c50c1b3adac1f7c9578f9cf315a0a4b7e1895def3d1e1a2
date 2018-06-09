@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:39 GMT
-Etag: W/"bf27bfd3fc48bdc0cfd753030f48c04d"
+Date: Sat, 09 Jun 2018 08:08:13 GMT
+Etag: W/"bad3aaacd35b5bd05c9d14da7ba2dbd3"
 Link: <https://api.github.com/user/101934/followers?page=2>; rel="prev", <https://api.github.com/user/101934/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFBE:4F41:35A061D:751DDD7:5AF8385E
+X-Github-Request-Id: CB4F:57C5:372D84E:719E366:5B1B8AEC
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1810
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036874
+X-Ratelimit-Remaining: 2624
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030036
 X-Xss-Protection: 1; mode=block
 
-721
-[{"login":"Gilbert-Wong","id":20479699,"avatar_url":"https://avatars0.githubusercontent.com/u/20479699?v=4","gravatar_id":"","url":"https://api.github.com/users/Gilbert-Wong","html_url":"https://github.com/Gilbert-Wong","followers_url":"https://api.github.com/users/Gilbert-Wong/followers","following_url":"https://api.github.com/users/Gilbert-Wong/following{/other_user}","gists_url":"https://api.github.com/users/Gilbert-Wong/gists{/gist_id}","starred_url":"https://api.github.com/users/Gilbert-Wong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Gilbert-Wong/subscriptions","organizations_url":"https://api.github.com/users/Gilbert-Wong/orgs","repos_url":"https://api.github.com/users/Gilbert-Wong/repos","events_url":"https://api.github.com/users/Gilbert-Wong/events{/privacy}","received_events_url":"https://api.github.com/users/Gilbert-Wong/received_events","type":"User","site_admin":false},{"login":"hirokimoto","id":22752054,"avatar_url":"https://avatars2.githubusercontent.com/u/22752054?v=4","gravatar_id":"","url":"https://api.github.com/users/hirokimoto","html_url":"https://github.com/hirokimoto","followers_url":"https://api.github.com/users/hirokimoto/followers","following_url":"https://api.github.com/users/hirokimoto/following{/other_user}","gists_url":"https://api.github.com/users/hirokimoto/gists{/gist_id}","starred_url":"https://api.github.com/users/hirokimoto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hirokimoto/subscriptions","organizations_url":"https://api.github.com/users/hirokimoto/orgs","repos_url":"https://api.github.com/users/hirokimoto/repos","events_url":"https://api.github.com/users/hirokimoto/events{/privacy}","received_events_url":"https://api.github.com/users/hirokimoto/received_events","type":"User","site_admin":false}]
+731
+[{"login":"hirokimoto","id":22752054,"node_id":"MDQ6VXNlcjIyNzUyMDU0","avatar_url":"https://avatars2.githubusercontent.com/u/22752054?v=4","gravatar_id":"","url":"https://api.github.com/users/hirokimoto","html_url":"https://github.com/hirokimoto","followers_url":"https://api.github.com/users/hirokimoto/followers","following_url":"https://api.github.com/users/hirokimoto/following{/other_user}","gists_url":"https://api.github.com/users/hirokimoto/gists{/gist_id}","starred_url":"https://api.github.com/users/hirokimoto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hirokimoto/subscriptions","organizations_url":"https://api.github.com/users/hirokimoto/orgs","repos_url":"https://api.github.com/users/hirokimoto/repos","events_url":"https://api.github.com/users/hirokimoto/events{/privacy}","received_events_url":"https://api.github.com/users/hirokimoto/received_events","type":"User","site_admin":false},{"login":"rootical","id":1233196,"node_id":"MDQ6VXNlcjEyMzMxOTY=","avatar_url":"https://avatars0.githubusercontent.com/u/1233196?v=4","gravatar_id":"","url":"https://api.github.com/users/rootical","html_url":"https://github.com/rootical","followers_url":"https://api.github.com/users/rootical/followers","following_url":"https://api.github.com/users/rootical/following{/other_user}","gists_url":"https://api.github.com/users/rootical/gists{/gist_id}","starred_url":"https://api.github.com/users/rootical/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rootical/subscriptions","organizations_url":"https://api.github.com/users/rootical/orgs","repos_url":"https://api.github.com/users/rootical/repos","events_url":"https://api.github.com/users/rootical/events{/privacy}","received_events_url":"https://api.github.com/users/rootical/received_events","type":"User","site_admin":false}]
 0
 

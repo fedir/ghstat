@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:14 GMT
-Etag: W/"b861dafc9daddbc963a230a055b836da"
+Date: Sat, 09 Jun 2018 08:07:08 GMT
+Etag: W/"48f6b157aebe9e6b26fe12bc71e8a8bb"
 Link: <https://api.github.com/user/276041/followers?page=1>; rel="prev", <https://api.github.com/user/276041/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDEA:4F41:359895B:750AF10:5AF8371A
+X-Github-Request-Id: CAB2:57C6:2FE3928:64E90D0:5B1B8AAC
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2503
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.028117
+X-Ratelimit-Remaining: 3191
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032660
 X-Xss-Protection: 1; mode=block
 
-3af
-[{"login":"alekseysidorov","id":83360,"avatar_url":"https://avatars1.githubusercontent.com/u/83360?v=4","gravatar_id":"","url":"https://api.github.com/users/alekseysidorov","html_url":"https://github.com/alekseysidorov","followers_url":"https://api.github.com/users/alekseysidorov/followers","following_url":"https://api.github.com/users/alekseysidorov/following{/other_user}","gists_url":"https://api.github.com/users/alekseysidorov/gists{/gist_id}","starred_url":"https://api.github.com/users/alekseysidorov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alekseysidorov/subscriptions","organizations_url":"https://api.github.com/users/alekseysidorov/orgs","repos_url":"https://api.github.com/users/alekseysidorov/repos","events_url":"https://api.github.com/users/alekseysidorov/events{/privacy}","received_events_url":"https://api.github.com/users/alekseysidorov/received_events","type":"User","site_admin":false}]
+3cc
+[{"login":"alekseysidorov","id":83360,"node_id":"MDQ6VXNlcjgzMzYw","avatar_url":"https://avatars1.githubusercontent.com/u/83360?v=4","gravatar_id":"","url":"https://api.github.com/users/alekseysidorov","html_url":"https://github.com/alekseysidorov","followers_url":"https://api.github.com/users/alekseysidorov/followers","following_url":"https://api.github.com/users/alekseysidorov/following{/other_user}","gists_url":"https://api.github.com/users/alekseysidorov/gists{/gist_id}","starred_url":"https://api.github.com/users/alekseysidorov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alekseysidorov/subscriptions","organizations_url":"https://api.github.com/users/alekseysidorov/orgs","repos_url":"https://api.github.com/users/alekseysidorov/repos","events_url":"https://api.github.com/users/alekseysidorov/events{/privacy}","received_events_url":"https://api.github.com/users/alekseysidorov/received_events","type":"User","site_admin":false}]
 0
 

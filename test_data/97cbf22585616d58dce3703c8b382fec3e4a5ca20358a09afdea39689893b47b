@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:07:32 GMT
+Etag: W/"b51a5075fd7257a31c4eafa2d6ffb0df"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAEE:57C5:372C34C:719BE66:5B1B8AC4
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2940
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.038047
+X-Xss-Protection: 1; mode=block
+
+a94
+[{"login":"orva","id":184643,"node_id":"MDQ6VXNlcjE4NDY0Mw==","avatar_url":"https://avatars3.githubusercontent.com/u/184643?v=4","gravatar_id":"","url":"https://api.github.com/users/orva","html_url":"https://github.com/orva","followers_url":"https://api.github.com/users/orva/followers","following_url":"https://api.github.com/users/orva/following{/other_user}","gists_url":"https://api.github.com/users/orva/gists{/gist_id}","starred_url":"https://api.github.com/users/orva/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/orva/subscriptions","organizations_url":"https://api.github.com/users/orva/orgs","repos_url":"https://api.github.com/users/orva/repos","events_url":"https://api.github.com/users/orva/events{/privacy}","received_events_url":"https://api.github.com/users/orva/received_events","type":"User","site_admin":false},{"login":"angusshire","id":5877145,"node_id":"MDQ6VXNlcjU4NzcxNDU=","avatar_url":"https://avatars3.githubusercontent.com/u/5877145?v=4","gravatar_id":"","url":"https://api.github.com/users/angusshire","html_url":"https://github.com/angusshire","followers_url":"https://api.github.com/users/angusshire/followers","following_url":"https://api.github.com/users/angusshire/following{/other_user}","gists_url":"https://api.github.com/users/angusshire/gists{/gist_id}","starred_url":"https://api.github.com/users/angusshire/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angusshire/subscriptions","organizations_url":"https://api.github.com/users/angusshire/orgs","repos_url":"https://api.github.com/users/angusshire/repos","events_url":"https://api.github.com/users/angusshire/events{/privacy}","received_events_url":"https://api.github.com/users/angusshire/received_events","type":"User","site_admin":false},{"login":"KevinHock","id":3076393,"node_id":"MDQ6VXNlcjMwNzYzOTM=","avatar_url":"https://avatars1.githubusercontent.com/u/3076393?v=4","gravatar_id":"","url":"https://api.github.com/users/KevinHock","html_url":"https://github.com/KevinHock","followers_url":"https://api.github.com/users/KevinHock/followers","following_url":"https://api.github.com/users/KevinHock/following{/other_user}","gists_url":"https://api.github.com/users/KevinHock/gists{/gist_id}","starred_url":"https://api.github.com/users/KevinHock/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KevinHock/subscriptions","organizations_url":"https://api.github.com/users/KevinHock/orgs","repos_url":"https://api.github.com/users/KevinHock/repos","events_url":"https://api.github.com/users/KevinHock/events{/privacy}","received_events_url":"https://api.github.com/users/KevinHock/received_events","type":"User","site_admin":false}]
+0
+

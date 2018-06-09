@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:08 GMT
-Etag: W/"456b5f05e94fe77a37d45a0d62743dc1"
-Last-Modified: Sat, 05 May 2018 15:28:18 GMT
+Date: Sat, 09 Jun 2018 08:10:08 GMT
+Etag: W/"da39c0ea2aa6e247a4cb57897f81a9d6"
+Last-Modified: Thu, 07 Jun 2018 17:43:59 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D090:4F42:44ECFB9:8ADF24F:5AF838B8
+X-Github-Request-Id: CD0D:57C6:2FE6DBF:64F1449:5B1B8B60
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1068
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.033398
+X-Ratelimit-Remaining: 1469
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.043180
 X-Xss-Protection: 1; mode=block
 
-483
-{"login":"eudoxia0","id":1612511,"avatar_url":"https://avatars0.githubusercontent.com/u/1612511?v=4","gravatar_id":"","url":"https://api.github.com/users/eudoxia0","html_url":"https://github.com/eudoxia0","followers_url":"https://api.github.com/users/eudoxia0/followers","following_url":"https://api.github.com/users/eudoxia0/following{/other_user}","gists_url":"https://api.github.com/users/eudoxia0/gists{/gist_id}","starred_url":"https://api.github.com/users/eudoxia0/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eudoxia0/subscriptions","organizations_url":"https://api.github.com/users/eudoxia0/orgs","repos_url":"https://api.github.com/users/eudoxia0/repos","events_url":"https://api.github.com/users/eudoxia0/events{/privacy}","received_events_url":"https://api.github.com/users/eudoxia0/received_events","type":"User","site_admin":false,"name":"Fernando Borretti","company":null,"blog":"http://borretti.me/","location":null,"email":"eudoxiahp@gmail.com","hireable":null,"bio":null,"public_repos":55,"public_gists":7,"followers":251,"following":66,"created_at":"2012-04-04T16:25:17Z","updated_at":"2018-05-05T15:28:18Z"}
+4a4
+{"login":"eudoxia0","id":1612511,"node_id":"MDQ6VXNlcjE2MTI1MTE=","avatar_url":"https://avatars0.githubusercontent.com/u/1612511?v=4","gravatar_id":"","url":"https://api.github.com/users/eudoxia0","html_url":"https://github.com/eudoxia0","followers_url":"https://api.github.com/users/eudoxia0/followers","following_url":"https://api.github.com/users/eudoxia0/following{/other_user}","gists_url":"https://api.github.com/users/eudoxia0/gists{/gist_id}","starred_url":"https://api.github.com/users/eudoxia0/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eudoxia0/subscriptions","organizations_url":"https://api.github.com/users/eudoxia0/orgs","repos_url":"https://api.github.com/users/eudoxia0/repos","events_url":"https://api.github.com/users/eudoxia0/events{/privacy}","received_events_url":"https://api.github.com/users/eudoxia0/received_events","type":"User","site_admin":false,"name":"Fernando Borretti","company":null,"blog":"http://borretti.me/","location":null,"email":"eudoxiahp@gmail.com","hireable":null,"bio":null,"public_repos":56,"public_gists":7,"followers":267,"following":73,"created_at":"2012-04-04T16:25:17Z","updated_at":"2018-06-07T17:43:59Z"}
 0
 

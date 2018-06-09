@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:55 GMT
-Etag: W/"3a9e274f18a435fe938c887268d23528"
+Date: Sat, 09 Jun 2018 08:08:27 GMT
+Etag: W/"05bd742e82cf42fee03e2e0edacfafa3"
 Last-Modified: Thu, 10 May 2018 06:26:28 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFD6:4F40:2600BBC:5738273:5AF8386F
+X-Github-Request-Id: CB61:57C5:372E099:719F19A:5B1B8AFB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1635
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.038608
+X-Ratelimit-Remaining: 2452
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.040979
 X-Xss-Protection: 1; mode=block
 
-470
-{"login":"leafo","id":15198,"avatar_url":"https://avatars0.githubusercontent.com/u/15198?v=4","gravatar_id":"","url":"https://api.github.com/users/leafo","html_url":"https://github.com/leafo","followers_url":"https://api.github.com/users/leafo/followers","following_url":"https://api.github.com/users/leafo/following{/other_user}","gists_url":"https://api.github.com/users/leafo/gists{/gist_id}","starred_url":"https://api.github.com/users/leafo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leafo/subscriptions","organizations_url":"https://api.github.com/users/leafo/orgs","repos_url":"https://api.github.com/users/leafo/repos","events_url":"https://api.github.com/users/leafo/events{/privacy}","received_events_url":"https://api.github.com/users/leafo/received_events","type":"User","site_admin":false,"name":"leaf","company":"itch.zone","blog":"http://leafo.net","location":"San Francisco","email":"leafot@gmail.com","hireable":null,"bio":"senior fart @ @itchio","public_repos":152,"public_gists":64,"followers":1002,"following":53,"created_at":"2008-06-26T20:56:57Z","updated_at":"2018-05-10T06:26:28Z"}
+48d
+{"login":"leafo","id":15198,"node_id":"MDQ6VXNlcjE1MTk4","avatar_url":"https://avatars0.githubusercontent.com/u/15198?v=4","gravatar_id":"","url":"https://api.github.com/users/leafo","html_url":"https://github.com/leafo","followers_url":"https://api.github.com/users/leafo/followers","following_url":"https://api.github.com/users/leafo/following{/other_user}","gists_url":"https://api.github.com/users/leafo/gists{/gist_id}","starred_url":"https://api.github.com/users/leafo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leafo/subscriptions","organizations_url":"https://api.github.com/users/leafo/orgs","repos_url":"https://api.github.com/users/leafo/repos","events_url":"https://api.github.com/users/leafo/events{/privacy}","received_events_url":"https://api.github.com/users/leafo/received_events","type":"User","site_admin":false,"name":"leaf","company":"itch.zone","blog":"http://leafo.net","location":"San Francisco","email":"leafot@gmail.com","hireable":null,"bio":"senior fart @ @itchio","public_repos":152,"public_gists":64,"followers":1008,"following":53,"created_at":"2008-06-26T20:56:57Z","updated_at":"2018-05-10T06:26:28Z"}
 0
 

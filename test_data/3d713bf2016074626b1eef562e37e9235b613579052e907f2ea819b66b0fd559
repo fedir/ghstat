@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:19 GMT
+Etag: W/"92bdfa6fe9f38b835fbe0918573dc293"
+Last-Modified: Sat, 09 Jun 2018 08:08:59 GMT
+Link: <https://api.github.com/repositories/1064563/contributors?page=11>; rel="prev", <https://api.github.com/repositories/1064563/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD4D:57C6:2FE7196:64F1D14:5B1B8B6B
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1194
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.086706
+X-Xss-Protection: 1; mode=block
+
+39e
+[{"login":"takeseem","id":4768523,"node_id":"MDQ6VXNlcjQ3Njg1MjM=","avatar_url":"https://avatars3.githubusercontent.com/u/4768523?v=4","gravatar_id":"","url":"https://api.github.com/users/takeseem","html_url":"https://github.com/takeseem","followers_url":"https://api.github.com/users/takeseem/followers","following_url":"https://api.github.com/users/takeseem/following{/other_user}","gists_url":"https://api.github.com/users/takeseem/gists{/gist_id}","starred_url":"https://api.github.com/users/takeseem/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/takeseem/subscriptions","organizations_url":"https://api.github.com/users/takeseem/orgs","repos_url":"https://api.github.com/users/takeseem/repos","events_url":"https://api.github.com/users/takeseem/events{/privacy}","received_events_url":"https://api.github.com/users/takeseem/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

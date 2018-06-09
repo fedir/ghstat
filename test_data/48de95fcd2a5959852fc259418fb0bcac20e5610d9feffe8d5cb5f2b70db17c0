@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:16 GMT
+Etag: W/"a72a68fe0b3130eeaf8a6ff5b9c63291"
+Link: <https://api.github.com/user/1012772/followers?page=3>; rel="prev", <https://api.github.com/user/1012772/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD34:57C3:1EE3B33:44F994D:5B1B8B68
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1326
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.039671
+X-Xss-Protection: 1; mode=block
+
+3a4
+[{"login":"lusong1986","id":9333427,"node_id":"MDQ6VXNlcjkzMzM0Mjc=","avatar_url":"https://avatars3.githubusercontent.com/u/9333427?v=4","gravatar_id":"","url":"https://api.github.com/users/lusong1986","html_url":"https://github.com/lusong1986","followers_url":"https://api.github.com/users/lusong1986/followers","following_url":"https://api.github.com/users/lusong1986/following{/other_user}","gists_url":"https://api.github.com/users/lusong1986/gists{/gist_id}","starred_url":"https://api.github.com/users/lusong1986/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lusong1986/subscriptions","organizations_url":"https://api.github.com/users/lusong1986/orgs","repos_url":"https://api.github.com/users/lusong1986/repos","events_url":"https://api.github.com/users/lusong1986/events{/privacy}","received_events_url":"https://api.github.com/users/lusong1986/received_events","type":"User","site_admin":false}]
+0
+

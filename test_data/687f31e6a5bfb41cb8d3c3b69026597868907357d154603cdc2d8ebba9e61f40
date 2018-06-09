@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:15:01 GMT
+Etag: W/"e71032d8f2de28e43fe92ed3d144d94a"
+Link: <https://api.github.com/user/2281080/followers?page=6>; rel="prev", <https://api.github.com/user/2281080/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF3C:57C4:23C05E7:50E124D:5B1B8C85
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.048096
+X-Xss-Protection: 1; mode=block
+
+725
+[{"login":"nussi98","id":22022675,"node_id":"MDQ6VXNlcjIyMDIyNjc1","avatar_url":"https://avatars3.githubusercontent.com/u/22022675?v=4","gravatar_id":"","url":"https://api.github.com/users/nussi98","html_url":"https://github.com/nussi98","followers_url":"https://api.github.com/users/nussi98/followers","following_url":"https://api.github.com/users/nussi98/following{/other_user}","gists_url":"https://api.github.com/users/nussi98/gists{/gist_id}","starred_url":"https://api.github.com/users/nussi98/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nussi98/subscriptions","organizations_url":"https://api.github.com/users/nussi98/orgs","repos_url":"https://api.github.com/users/nussi98/repos","events_url":"https://api.github.com/users/nussi98/events{/privacy}","received_events_url":"https://api.github.com/users/nussi98/received_events","type":"User","site_admin":false},{"login":"jermashley","id":3143324,"node_id":"MDQ6VXNlcjMxNDMzMjQ=","avatar_url":"https://avatars1.githubusercontent.com/u/3143324?v=4","gravatar_id":"","url":"https://api.github.com/users/jermashley","html_url":"https://github.com/jermashley","followers_url":"https://api.github.com/users/jermashley/followers","following_url":"https://api.github.com/users/jermashley/following{/other_user}","gists_url":"https://api.github.com/users/jermashley/gists{/gist_id}","starred_url":"https://api.github.com/users/jermashley/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jermashley/subscriptions","organizations_url":"https://api.github.com/users/jermashley/orgs","repos_url":"https://api.github.com/users/jermashley/repos","events_url":"https://api.github.com/users/jermashley/events{/privacy}","received_events_url":"https://api.github.com/users/jermashley/received_events","type":"User","site_admin":false}]
+0
+

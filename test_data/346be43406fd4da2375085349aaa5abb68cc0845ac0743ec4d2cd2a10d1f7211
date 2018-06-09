@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:00 GMT
-Etag: W/"dbf7878239338e68c66a7b6600199520"
+Date: Sat, 09 Jun 2018 10:29:02 GMT
+Etag: W/"31965123eb71c537190b546c9f5e9bda"
 Link: <https://api.github.com/user/402145/followers?page=1>; rel="prev", <https://api.github.com/user/402145/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA2D:4F41:35E29B1:75C0FB9:5AF84467
+X-Github-Request-Id: D85D:57C5:384E542:73BA322:5B1BABEE
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4828
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.031506
+X-Ratelimit-Remaining: 4546
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.042271
 X-Xss-Protection: 1; mode=block
 
-355
-[{"login":"Neayto","id":19345417,"avatar_url":"https://avatars3.githubusercontent.com/u/19345417?v=4","gravatar_id":"","url":"https://api.github.com/users/Neayto","html_url":"https://github.com/Neayto","followers_url":"https://api.github.com/users/Neayto/followers","following_url":"https://api.github.com/users/Neayto/following{/other_user}","gists_url":"https://api.github.com/users/Neayto/gists{/gist_id}","starred_url":"https://api.github.com/users/Neayto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Neayto/subscriptions","organizations_url":"https://api.github.com/users/Neayto/orgs","repos_url":"https://api.github.com/users/Neayto/repos","events_url":"https://api.github.com/users/Neayto/events{/privacy}","received_events_url":"https://api.github.com/users/Neayto/received_events","type":"User","site_admin":false}]
+376
+[{"login":"Neayto","id":19345417,"node_id":"MDQ6VXNlcjE5MzQ1NDE3","avatar_url":"https://avatars3.githubusercontent.com/u/19345417?v=4","gravatar_id":"","url":"https://api.github.com/users/Neayto","html_url":"https://github.com/Neayto","followers_url":"https://api.github.com/users/Neayto/followers","following_url":"https://api.github.com/users/Neayto/following{/other_user}","gists_url":"https://api.github.com/users/Neayto/gists{/gist_id}","starred_url":"https://api.github.com/users/Neayto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Neayto/subscriptions","organizations_url":"https://api.github.com/users/Neayto/orgs","repos_url":"https://api.github.com/users/Neayto/repos","events_url":"https://api.github.com/users/Neayto/events{/privacy}","received_events_url":"https://api.github.com/users/Neayto/received_events","type":"User","site_admin":false}]
 0
 

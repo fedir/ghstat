@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:42 GMT
+Etag: W/"ed38100040d034ef67c29733d24e815e"
+Link: <https://api.github.com/user/90570/followers?page=25>; rel="prev", <https://api.github.com/user/90570/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB8E:57C6:2FE5644:64ED713:5B1B8B09
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2174
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.061446
+X-Xss-Protection: 1; mode=block
+
+a74
+[{"login":"bokner","id":191303,"node_id":"MDQ6VXNlcjE5MTMwMw==","avatar_url":"https://avatars1.githubusercontent.com/u/191303?v=4","gravatar_id":"","url":"https://api.github.com/users/bokner","html_url":"https://github.com/bokner","followers_url":"https://api.github.com/users/bokner/followers","following_url":"https://api.github.com/users/bokner/following{/other_user}","gists_url":"https://api.github.com/users/bokner/gists{/gist_id}","starred_url":"https://api.github.com/users/bokner/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bokner/subscriptions","organizations_url":"https://api.github.com/users/bokner/orgs","repos_url":"https://api.github.com/users/bokner/repos","events_url":"https://api.github.com/users/bokner/events{/privacy}","received_events_url":"https://api.github.com/users/bokner/received_events","type":"User","site_admin":false},{"login":"osetrovich","id":10563002,"node_id":"MDQ6VXNlcjEwNTYzMDAy","avatar_url":"https://avatars2.githubusercontent.com/u/10563002?v=4","gravatar_id":"","url":"https://api.github.com/users/osetrovich","html_url":"https://github.com/osetrovich","followers_url":"https://api.github.com/users/osetrovich/followers","following_url":"https://api.github.com/users/osetrovich/following{/other_user}","gists_url":"https://api.github.com/users/osetrovich/gists{/gist_id}","starred_url":"https://api.github.com/users/osetrovich/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/osetrovich/subscriptions","organizations_url":"https://api.github.com/users/osetrovich/orgs","repos_url":"https://api.github.com/users/osetrovich/repos","events_url":"https://api.github.com/users/osetrovich/events{/privacy}","received_events_url":"https://api.github.com/users/osetrovich/received_events","type":"User","site_admin":false},{"login":"hvze","id":15584994,"node_id":"MDQ6VXNlcjE1NTg0OTk0","avatar_url":"https://avatars0.githubusercontent.com/u/15584994?v=4","gravatar_id":"","url":"https://api.github.com/users/hvze","html_url":"https://github.com/hvze","followers_url":"https://api.github.com/users/hvze/followers","following_url":"https://api.github.com/users/hvze/following{/other_user}","gists_url":"https://api.github.com/users/hvze/gists{/gist_id}","starred_url":"https://api.github.com/users/hvze/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hvze/subscriptions","organizations_url":"https://api.github.com/users/hvze/orgs","repos_url":"https://api.github.com/users/hvze/repos","events_url":"https://api.github.com/users/hvze/events{/privacy}","received_events_url":"https://api.github.com/users/hvze/received_events","type":"User","site_admin":false}]
+0
+

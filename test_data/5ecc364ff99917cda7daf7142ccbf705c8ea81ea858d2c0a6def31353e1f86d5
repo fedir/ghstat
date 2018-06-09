@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:03:24 GMT
-Etag: W/"2732ab541aa5573197712c2964f9d1e7"
-Last-Modified: Mon, 16 Apr 2018 17:59:01 GMT
+Date: Sat, 09 Jun 2018 08:07:40 GMT
+Etag: W/"937f677a4d723e26c8230b700deabada"
+Last-Modified: Wed, 23 May 2018 11:36:15 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CF8B:4F41:359BA42:7512698:5AF8379B
+X-Github-Request-Id: CB01:57C6:2FE4472:64EAA6F:5B1B8ACC
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2046
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039356
+X-Ratelimit-Remaining: 2863
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.038343
 X-Xss-Protection: 1; mode=block
 
-50f
-{"login":"malcolmsparks","id":163131,"avatar_url":"https://avatars2.githubusercontent.com/u/163131?v=4","gravatar_id":"","url":"https://api.github.com/users/malcolmsparks","html_url":"https://github.com/malcolmsparks","followers_url":"https://api.github.com/users/malcolmsparks/followers","following_url":"https://api.github.com/users/malcolmsparks/following{/other_user}","gists_url":"https://api.github.com/users/malcolmsparks/gists{/gist_id}","starred_url":"https://api.github.com/users/malcolmsparks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/malcolmsparks/subscriptions","organizations_url":"https://api.github.com/users/malcolmsparks/orgs","repos_url":"https://api.github.com/users/malcolmsparks/repos","events_url":"https://api.github.com/users/malcolmsparks/events{/privacy}","received_events_url":"https://api.github.com/users/malcolmsparks/received_events","type":"User","site_admin":false,"name":"Malcolm Sparks","company":"JUXT","blog":"https://juxt.pro","location":"London","email":"malcolm@juxt.pro","hireable":null,"bio":"Founder of JUXT, a Clojure consultancy in the UK. See @juxt for our more recent repos.","public_repos":75,"public_gists":29,"followers":150,"following":19,"created_at":"2009-12-05T23:42:20Z","updated_at":"2018-04-16T17:59:01Z"}
+537
+{"login":"malcolmsparks","id":163131,"node_id":"MDQ6VXNlcjE2MzEzMQ==","avatar_url":"https://avatars2.githubusercontent.com/u/163131?v=4","gravatar_id":"","url":"https://api.github.com/users/malcolmsparks","html_url":"https://github.com/malcolmsparks","followers_url":"https://api.github.com/users/malcolmsparks/followers","following_url":"https://api.github.com/users/malcolmsparks/following{/other_user}","gists_url":"https://api.github.com/users/malcolmsparks/gists{/gist_id}","starred_url":"https://api.github.com/users/malcolmsparks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/malcolmsparks/subscriptions","organizations_url":"https://api.github.com/users/malcolmsparks/orgs","repos_url":"https://api.github.com/users/malcolmsparks/repos","events_url":"https://api.github.com/users/malcolmsparks/events{/privacy}","received_events_url":"https://api.github.com/users/malcolmsparks/received_events","type":"User","site_admin":false,"name":"Malcolm Sparks","company":"JUXT","blog":"https://juxt.pro","location":"Milton Keynes","email":"malcolm@juxt.pro","hireable":null,"bio":"Founder of JUXT, a Clojure consultancy in the UK. See @juxt for our more recent repos.","public_repos":75,"public_gists":29,"followers":152,"following":19,"created_at":"2009-12-05T23:42:20Z","updated_at":"2018-05-23T11:36:15Z"}
 0
 

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:07:05 GMT
+Etag: W/"86cf85cc74b0dfb03c0031d8ec739a07"
+Link: <https://api.github.com/user/1556054/followers?page=7>; rel="prev", <https://api.github.com/user/1556054/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAAE:57C3:1EE25E8:44F5CA6:5B1B8AA9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3277
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.045881
+X-Xss-Protection: 1; mode=block
+
+aae
+[{"login":"darxtrix","id":5263761,"node_id":"MDQ6VXNlcjUyNjM3NjE=","avatar_url":"https://avatars2.githubusercontent.com/u/5263761?v=4","gravatar_id":"","url":"https://api.github.com/users/darxtrix","html_url":"https://github.com/darxtrix","followers_url":"https://api.github.com/users/darxtrix/followers","following_url":"https://api.github.com/users/darxtrix/following{/other_user}","gists_url":"https://api.github.com/users/darxtrix/gists{/gist_id}","starred_url":"https://api.github.com/users/darxtrix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/darxtrix/subscriptions","organizations_url":"https://api.github.com/users/darxtrix/orgs","repos_url":"https://api.github.com/users/darxtrix/repos","events_url":"https://api.github.com/users/darxtrix/events{/privacy}","received_events_url":"https://api.github.com/users/darxtrix/received_events","type":"User","site_admin":false},{"login":"peresdev","id":1305421,"node_id":"MDQ6VXNlcjEzMDU0MjE=","avatar_url":"https://avatars0.githubusercontent.com/u/1305421?v=4","gravatar_id":"","url":"https://api.github.com/users/peresdev","html_url":"https://github.com/peresdev","followers_url":"https://api.github.com/users/peresdev/followers","following_url":"https://api.github.com/users/peresdev/following{/other_user}","gists_url":"https://api.github.com/users/peresdev/gists{/gist_id}","starred_url":"https://api.github.com/users/peresdev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/peresdev/subscriptions","organizations_url":"https://api.github.com/users/peresdev/orgs","repos_url":"https://api.github.com/users/peresdev/repos","events_url":"https://api.github.com/users/peresdev/events{/privacy}","received_events_url":"https://api.github.com/users/peresdev/received_events","type":"User","site_admin":false},{"login":"blackgear","id":4780199,"node_id":"MDQ6VXNlcjQ3ODAxOTk=","avatar_url":"https://avatars1.githubusercontent.com/u/4780199?v=4","gravatar_id":"","url":"https://api.github.com/users/blackgear","html_url":"https://github.com/blackgear","followers_url":"https://api.github.com/users/blackgear/followers","following_url":"https://api.github.com/users/blackgear/following{/other_user}","gists_url":"https://api.github.com/users/blackgear/gists{/gist_id}","starred_url":"https://api.github.com/users/blackgear/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/blackgear/subscriptions","organizations_url":"https://api.github.com/users/blackgear/orgs","repos_url":"https://api.github.com/users/blackgear/repos","events_url":"https://api.github.com/users/blackgear/events{/privacy}","received_events_url":"https://api.github.com/users/blackgear/received_events","type":"User","site_admin":false}]
+0
+

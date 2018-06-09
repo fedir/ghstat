@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:13 GMT
-Etag: W/"ba5e80160b3833f7f9eeec6ae84dbdd0"
-Last-Modified: Sun, 13 May 2018 08:45:18 GMT
+Date: Sat, 09 Jun 2018 08:07:07 GMT
+Etag: W/"38f2a02be2d3fc290d8f567b65113169"
+Last-Modified: Fri, 08 Jun 2018 18:31:28 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDE4:4F41:35988FB:750ADF3:5AF83718
+X-Github-Request-Id: CAB2:57C6:2FE38A7:64E8FD7:5B1B8AAB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2518
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.030446
+X-Ratelimit-Remaining: 3208
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035899
 X-Xss-Protection: 1; mode=block
 
-50d
-[{"name":"v0.19.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.19.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.19.0","commit":{"sha":"4ee769d3593d5297602c2bb6faca0eb63884d480","url":"https://api.github.com/repos/plotly/dash/commits/4ee769d3593d5297602c2bb6faca0eb63884d480"}},{"name":"v0.18.3","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.3","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.3","commit":{"sha":"5cce7764cfe36dac1898f2895533b5c3a9894144","url":"https://api.github.com/repos/plotly/dash/commits/5cce7764cfe36dac1898f2895533b5c3a9894144"}},{"name":"v0.18.1","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.1","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.1","commit":{"sha":"b890bd8184fcf82ced88f313cf834e0f07592298","url":"https://api.github.com/repos/plotly/dash/commits/b890bd8184fcf82ced88f313cf834e0f07592298"}},{"name":"v0.18.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.0","commit":{"sha":"dea7b753de9e01ad9add9e353619ee5f80dcb9f4","url":"https://api.github.com/repos/plotly/dash/commits/dea7b753de9e01ad9add9e353619ee5f80dcb9f4"}}]
+5c1
+[{"name":"v0.19.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.19.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.19.0","commit":{"sha":"4ee769d3593d5297602c2bb6faca0eb63884d480","url":"https://api.github.com/repos/plotly/dash/commits/4ee769d3593d5297602c2bb6faca0eb63884d480"},"node_id":"MDM6UmVmMzM3MDI1NDQ6djAuMTkuMA=="},{"name":"v0.18.3","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.3","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.3","commit":{"sha":"5cce7764cfe36dac1898f2895533b5c3a9894144","url":"https://api.github.com/repos/plotly/dash/commits/5cce7764cfe36dac1898f2895533b5c3a9894144"},"node_id":"MDM6UmVmMzM3MDI1NDQ6djAuMTguMw=="},{"name":"v0.18.1","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.1","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.1","commit":{"sha":"b890bd8184fcf82ced88f313cf834e0f07592298","url":"https://api.github.com/repos/plotly/dash/commits/b890bd8184fcf82ced88f313cf834e0f07592298"},"node_id":"MDM6UmVmMzM3MDI1NDQ6djAuMTguMQ=="},{"name":"v0.18.0","zipball_url":"https://api.github.com/repos/plotly/dash/zipball/v0.18.0","tarball_url":"https://api.github.com/repos/plotly/dash/tarball/v0.18.0","commit":{"sha":"dea7b753de9e01ad9add9e353619ee5f80dcb9f4","url":"https://api.github.com/repos/plotly/dash/commits/dea7b753de9e01ad9add9e353619ee5f80dcb9f4"},"node_id":"MDM6UmVmMzM3MDI1NDQ6djAuMTguMA=="}]
 0
 

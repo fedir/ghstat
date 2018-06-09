@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:05 GMT
-Etag: W/"2d3fc2cc8abb9168e968cd20bf365b4e"
-Last-Modified: Sun, 13 May 2018 07:24:49 GMT
+Date: Sat, 09 Jun 2018 10:29:06 GMT
+Etag: W/"040294c23383154140ccfdfc9a184a7d"
+Last-Modified: Thu, 07 Jun 2018 16:00:11 GMT
 Link: <https://api.github.com/repositories/834621/tags?page=4>; rel="prev", <https://api.github.com/repositories/834621/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DB39:4F41:35E2D87:75C18D8:5AF8446D
+X-Github-Request-Id: D8FB:57C5:384E7C4:73BA80E:5B1BABF2
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4224
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.057166
+X-Ratelimit-Remaining: 4214
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.047712
 X-Xss-Protection: 1; mode=block
 
-293
-[{"name":"spip-1.9.1i","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.9.1i","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.9.1i","commit":{"sha":"7f764359c2b7972d1a793b3b7eaec79edb5d4912","url":"https://api.github.com/repos/spip/SPIP/commits/7f764359c2b7972d1a793b3b7eaec79edb5d4912"}},{"name":"spip-1.8.3b","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.8.3b","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.8.3b","commit":{"sha":"dc5d667fb15646526915f646ba538e9ec28ba81c","url":"https://api.github.com/repos/spip/SPIP/commits/dc5d667fb15646526915f646ba538e9ec28ba81c"}}]
+2ed
+[{"name":"spip-1.9.1i","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.9.1i","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.9.1i","commit":{"sha":"7f764359c2b7972d1a793b3b7eaec79edb5d4912","url":"https://api.github.com/repos/spip/SPIP/commits/7f764359c2b7972d1a793b3b7eaec79edb5d4912"},"node_id":"MDM6UmVmODM0NjIxOnNwaXAtMS45LjFp"},{"name":"spip-1.8.3b","zipball_url":"https://api.github.com/repos/spip/SPIP/zipball/spip-1.8.3b","tarball_url":"https://api.github.com/repos/spip/SPIP/tarball/spip-1.8.3b","commit":{"sha":"dc5d667fb15646526915f646ba538e9ec28ba81c","url":"https://api.github.com/repos/spip/SPIP/commits/dc5d667fb15646526915f646ba538e9ec28ba81c"},"node_id":"MDM6UmVmODM0NjIxOnNwaXAtMS44LjNi"}]
 0
 

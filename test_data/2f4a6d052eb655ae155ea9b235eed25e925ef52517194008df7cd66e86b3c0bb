@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:14 GMT
-Etag: W/"58c60c2919f86b244e3deddc6ddc1fa3"
+Date: Sat, 09 Jun 2018 08:05:31 GMT
+Etag: W/"5f351ef7ec132e0021828be460685869"
 Last-Modified: Tue, 01 May 2018 19:01:02 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB61:4F42:44D9DC2:8AB74BB:5AF836A2
+X-Github-Request-Id: C93D:57C6:2FE159B:64E3D55:5B1B8A4B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4020
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.041949
+X-Ratelimit-Remaining: 4278
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.034869
 X-Xss-Protection: 1; mode=block
 
-495
-{"login":"hexedpackets","id":3689782,"avatar_url":"https://avatars1.githubusercontent.com/u/3689782?v=4","gravatar_id":"","url":"https://api.github.com/users/hexedpackets","html_url":"https://github.com/hexedpackets","followers_url":"https://api.github.com/users/hexedpackets/followers","following_url":"https://api.github.com/users/hexedpackets/following{/other_user}","gists_url":"https://api.github.com/users/hexedpackets/gists{/gist_id}","starred_url":"https://api.github.com/users/hexedpackets/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hexedpackets/subscriptions","organizations_url":"https://api.github.com/users/hexedpackets/orgs","repos_url":"https://api.github.com/users/hexedpackets/repos","events_url":"https://api.github.com/users/hexedpackets/events{/privacy}","received_events_url":"https://api.github.com/users/hexedpackets/received_events","type":"User","site_admin":false,"name":"William Huba","company":"Docurated","blog":"","location":"New York","email":null,"hireable":null,"bio":null,"public_repos":49,"public_gists":5,"followers":10,"following":4,"created_at":"2013-02-25T02:55:46Z","updated_at":"2018-05-01T19:01:02Z"}
+4b6
+{"login":"hexedpackets","id":3689782,"node_id":"MDQ6VXNlcjM2ODk3ODI=","avatar_url":"https://avatars1.githubusercontent.com/u/3689782?v=4","gravatar_id":"","url":"https://api.github.com/users/hexedpackets","html_url":"https://github.com/hexedpackets","followers_url":"https://api.github.com/users/hexedpackets/followers","following_url":"https://api.github.com/users/hexedpackets/following{/other_user}","gists_url":"https://api.github.com/users/hexedpackets/gists{/gist_id}","starred_url":"https://api.github.com/users/hexedpackets/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hexedpackets/subscriptions","organizations_url":"https://api.github.com/users/hexedpackets/orgs","repos_url":"https://api.github.com/users/hexedpackets/repos","events_url":"https://api.github.com/users/hexedpackets/events{/privacy}","received_events_url":"https://api.github.com/users/hexedpackets/received_events","type":"User","site_admin":false,"name":"William Huba","company":"Docurated","blog":"","location":"New York","email":null,"hireable":null,"bio":null,"public_repos":49,"public_gists":5,"followers":10,"following":6,"created_at":"2013-02-25T02:55:46Z","updated_at":"2018-05-01T19:01:02Z"}
 0
 

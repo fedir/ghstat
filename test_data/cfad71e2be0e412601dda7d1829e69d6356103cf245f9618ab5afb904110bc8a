@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:44 GMT
-Etag: W/"753dd555a8e33e7919491b89cbcc657b"
+Date: Sat, 09 Jun 2018 08:05:14 GMT
+Etag: W/"65e11d45cfb9bf7e7afbb0c7670162b7"
 Last-Modified: Thu, 28 Dec 2017 22:18:11 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB0D:4F42:44D8994:8AB4DE2:5AF83684
+X-Github-Request-Id: C8D6:57C6:2FE108B:64E2FB1:5B1B8A3A
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4565
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.042222
+X-Ratelimit-Remaining: 4567
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.046036
 X-Xss-Protection: 1; mode=block
 
-44d
-{"login":"jasonl99","id":1554969,"avatar_url":"https://avatars1.githubusercontent.com/u/1554969?v=4","gravatar_id":"","url":"https://api.github.com/users/jasonl99","html_url":"https://github.com/jasonl99","followers_url":"https://api.github.com/users/jasonl99/followers","following_url":"https://api.github.com/users/jasonl99/following{/other_user}","gists_url":"https://api.github.com/users/jasonl99/gists{/gist_id}","starred_url":"https://api.github.com/users/jasonl99/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jasonl99/subscriptions","organizations_url":"https://api.github.com/users/jasonl99/orgs","repos_url":"https://api.github.com/users/jasonl99/repos","events_url":"https://api.github.com/users/jasonl99/events{/privacy}","received_events_url":"https://api.github.com/users/jasonl99/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":23,"public_gists":3,"followers":9,"following":0,"created_at":"2012-03-20T01:41:32Z","updated_at":"2017-12-28T22:18:11Z"}
+46f
+{"login":"jasonl99","id":1554969,"node_id":"MDQ6VXNlcjE1NTQ5Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1554969?v=4","gravatar_id":"","url":"https://api.github.com/users/jasonl99","html_url":"https://github.com/jasonl99","followers_url":"https://api.github.com/users/jasonl99/followers","following_url":"https://api.github.com/users/jasonl99/following{/other_user}","gists_url":"https://api.github.com/users/jasonl99/gists{/gist_id}","starred_url":"https://api.github.com/users/jasonl99/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jasonl99/subscriptions","organizations_url":"https://api.github.com/users/jasonl99/orgs","repos_url":"https://api.github.com/users/jasonl99/repos","events_url":"https://api.github.com/users/jasonl99/events{/privacy}","received_events_url":"https://api.github.com/users/jasonl99/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":23,"public_gists":3,"followers":10,"following":0,"created_at":"2012-03-20T01:41:32Z","updated_at":"2017-12-28T22:18:11Z"}
 0
 

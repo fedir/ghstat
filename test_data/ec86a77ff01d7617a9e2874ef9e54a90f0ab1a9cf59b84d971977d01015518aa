@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:24 GMT
-Etag: W/"cd9e69aabe491f7f954fd9f27b5c794c"
+Date: Sat, 09 Jun 2018 08:08:49 GMT
+Etag: W/"ed2c2afcebbff6812e7d5a4c54ed61f0"
 Last-Modified: Thu, 29 Mar 2018 20:04:28 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D0AF:4F42:44ED7D9:8AE0354:5AF838C7
+X-Github-Request-Id: CBDF:57C6:2FE588F:64EDCA0:5B1B8B11
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 788
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.040339
+X-Ratelimit-Remaining: 1967
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.038077
 X-Xss-Protection: 1; mode=block
 
-4ac
-{"login":"javaConductor","id":1310213,"avatar_url":"https://avatars3.githubusercontent.com/u/1310213?v=4","gravatar_id":"","url":"https://api.github.com/users/javaConductor","html_url":"https://github.com/javaConductor","followers_url":"https://api.github.com/users/javaConductor/followers","following_url":"https://api.github.com/users/javaConductor/following{/other_user}","gists_url":"https://api.github.com/users/javaConductor/gists{/gist_id}","starred_url":"https://api.github.com/users/javaConductor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/javaConductor/subscriptions","organizations_url":"https://api.github.com/users/javaConductor/orgs","repos_url":"https://api.github.com/users/javaConductor/repos","events_url":"https://api.github.com/users/javaConductor/events{/privacy}","received_events_url":"https://api.github.com/users/javaConductor/received_events","type":"User","site_admin":false,"name":"Lee Collins","company":null,"blog":"","location":"Chicago","email":"javaConductor@yahoo.com","hireable":null,"bio":null,"public_repos":33,"public_gists":1,"followers":5,"following":0,"created_at":"2012-01-06T19:46:58Z","updated_at":"2018-03-29T20:04:28Z"}
+4cd
+{"login":"javaConductor","id":1310213,"node_id":"MDQ6VXNlcjEzMTAyMTM=","avatar_url":"https://avatars3.githubusercontent.com/u/1310213?v=4","gravatar_id":"","url":"https://api.github.com/users/javaConductor","html_url":"https://github.com/javaConductor","followers_url":"https://api.github.com/users/javaConductor/followers","following_url":"https://api.github.com/users/javaConductor/following{/other_user}","gists_url":"https://api.github.com/users/javaConductor/gists{/gist_id}","starred_url":"https://api.github.com/users/javaConductor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/javaConductor/subscriptions","organizations_url":"https://api.github.com/users/javaConductor/orgs","repos_url":"https://api.github.com/users/javaConductor/repos","events_url":"https://api.github.com/users/javaConductor/events{/privacy}","received_events_url":"https://api.github.com/users/javaConductor/received_events","type":"User","site_admin":false,"name":"Lee Collins","company":null,"blog":"","location":"Chicago","email":"javaConductor@yahoo.com","hireable":null,"bio":null,"public_repos":33,"public_gists":1,"followers":5,"following":0,"created_at":"2012-01-06T19:46:58Z","updated_at":"2018-03-29T20:04:28Z"}
 0
 

@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:57:52 GMT
-Etag: W/"2b69809c2d4e818208e083b11a035eed"
-Last-Modified: Sun, 13 May 2018 13:27:40 GMT
+Date: Sat, 09 Jun 2018 08:11:23 GMT
+Etag: W/"848ddf2c2bbc6d9d98d387859d1453c5"
+Last-Modified: Sat, 09 Jun 2018 04:45:29 GMT
 Link: <https://api.github.com/repositories/7548986/tags?page=11>; rel="prev", <https://api.github.com/repositories/7548986/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D9E7:4F3F:1AAF70F:3FAE9BB:5AF8445F
+X-Github-Request-Id: CE84:57C6:2FE85E5:64F4BD3:5B1B8BAB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4972
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.099687
+X-Ratelimit-Remaining: 367
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.102193
 X-Xss-Protection: 1; mode=block
 
-6b6
-[{"name":"v4.0.0-BETA3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA3","commit":{"sha":"67f70afe1f4cdb472ba6dc28b03090e5153fb167","url":"https://api.github.com/repos/laravel/framework/commits/67f70afe1f4cdb472ba6dc28b03090e5153fb167"}},{"name":"v4.0.0-BETA2","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA2","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA2","commit":{"sha":"91c71661827136dc82159cf833aff871247c8009","url":"https://api.github.com/repos/laravel/framework/commits/91c71661827136dc82159cf833aff871247c8009"}},{"name":"5.3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.3","commit":{"sha":"f96d1bc8b62e1f936591a175163720050746a3ee","url":"https://api.github.com/repos/laravel/framework/commits/f96d1bc8b62e1f936591a175163720050746a3ee"}},{"name":"5.2.41","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.2.41","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.2.41","commit":{"sha":"29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2","url":"https://api.github.com/repos/laravel/framework/commits/29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2"}},{"name":"5.0.30","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.0.30","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.0.30","commit":{"sha":"c7ffbf1fd4895ac4cdac551265d635d995346d97","url":"https://api.github.com/repos/laravel/framework/commits/c7ffbf1fd4895ac4cdac551265d635d995346d97"}}]
+c1a
+[{"name":"v4.0.1","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.1","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.1","commit":{"sha":"65d9a061d9209694e8addd9c6ce94dcf5bfe7180","url":"https://api.github.com/repos/laravel/framework/commits/65d9a061d9209694e8addd9c6ce94dcf5bfe7180"},"node_id":"MDM6UmVmNzU0ODk4Njp2NC4wLjE="},{"name":"v4.0.0","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0","commit":{"sha":"6d1913b9f4d303f8464625dfef33f06cfc404328","url":"https://api.github.com/repos/laravel/framework/commits/6d1913b9f4d303f8464625dfef33f06cfc404328"},"node_id":"MDM6UmVmNzU0ODk4Njp2NC4wLjA="},{"name":"v4.0.0-BETA4","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA4","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA4","commit":{"sha":"2c1d64568bca291535ba816a66f71306c7ebcf55","url":"https://api.github.com/repos/laravel/framework/commits/2c1d64568bca291535ba816a66f71306c7ebcf55"},"node_id":"MDM6UmVmNzU0ODk4Njp2NC4wLjAtQkVUQTQ="},{"name":"v4.0.0-BETA3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA3","commit":{"sha":"67f70afe1f4cdb472ba6dc28b03090e5153fb167","url":"https://api.github.com/repos/laravel/framework/commits/67f70afe1f4cdb472ba6dc28b03090e5153fb167"},"node_id":"MDM6UmVmNzU0ODk4Njp2NC4wLjAtQkVUQTM="},{"name":"v4.0.0-BETA2","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA2","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA2","commit":{"sha":"91c71661827136dc82159cf833aff871247c8009","url":"https://api.github.com/repos/laravel/framework/commits/91c71661827136dc82159cf833aff871247c8009"},"node_id":"MDM6UmVmNzU0ODk4Njp2NC4wLjAtQkVUQTI="},{"name":"5.3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.3","commit":{"sha":"f96d1bc8b62e1f936591a175163720050746a3ee","url":"https://api.github.com/repos/laravel/framework/commits/f96d1bc8b62e1f936591a175163720050746a3ee"},"node_id":"MDM6UmVmNzU0ODk4Njo1LjM="},{"name":"5.2.41","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.2.41","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.2.41","commit":{"sha":"29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2","url":"https://api.github.com/repos/laravel/framework/commits/29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2"},"node_id":"MDM6UmVmNzU0ODk4Njo1LjIuNDE="},{"name":"5.0.30","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.0.30","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.0.30","commit":{"sha":"c7ffbf1fd4895ac4cdac551265d635d995346d97","url":"https://api.github.com/repos/laravel/framework/commits/c7ffbf1fd4895ac4cdac551265d635d995346d97"},"node_id":"MDM6UmVmNzU0ODk4Njo1LjAuMzA="}]
 0
 

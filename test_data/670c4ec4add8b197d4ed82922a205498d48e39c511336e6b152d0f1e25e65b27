@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:02 GMT
-Etag: W/"9f6cf15b36a5b79010d100638138a64e"
-Last-Modified: Sun, 22 Apr 2018 13:14:20 GMT
+Date: Sat, 09 Jun 2018 08:10:01 GMT
+Etag: W/"585af51f466a887e533a19e35e96cad8"
+Last-Modified: Sun, 13 May 2018 14:10:05 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D089:4F41:35A23DF:7522B5B:5AF838B2
+X-Github-Request-Id: CCFB:57C3:1EE3942:44F9318:5B1B8B59
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1138
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.038232
+X-Ratelimit-Remaining: 1542
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041828
 X-Xss-Protection: 1; mode=block
 
-43f
-{"login":"ipkn","id":283960,"avatar_url":"https://avatars3.githubusercontent.com/u/283960?v=4","gravatar_id":"","url":"https://api.github.com/users/ipkn","html_url":"https://github.com/ipkn","followers_url":"https://api.github.com/users/ipkn/followers","following_url":"https://api.github.com/users/ipkn/following{/other_user}","gists_url":"https://api.github.com/users/ipkn/gists{/gist_id}","starred_url":"https://api.github.com/users/ipkn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ipkn/subscriptions","organizations_url":"https://api.github.com/users/ipkn/orgs","repos_url":"https://api.github.com/users/ipkn/repos","events_url":"https://api.github.com/users/ipkn/events{/privacy}","received_events_url":"https://api.github.com/users/ipkn/received_events","type":"User","site_admin":false,"name":"Jaeseung Ha","company":"NEXON","blog":"","location":"Seoul, Republic of Korea","email":null,"hireable":null,"bio":null,"public_repos":40,"public_gists":2,"followers":261,"following":1,"created_at":"2010-05-22T06:11:03Z","updated_at":"2018-04-22T13:14:20Z"}
+460
+{"login":"ipkn","id":283960,"node_id":"MDQ6VXNlcjI4Mzk2MA==","avatar_url":"https://avatars3.githubusercontent.com/u/283960?v=4","gravatar_id":"","url":"https://api.github.com/users/ipkn","html_url":"https://github.com/ipkn","followers_url":"https://api.github.com/users/ipkn/followers","following_url":"https://api.github.com/users/ipkn/following{/other_user}","gists_url":"https://api.github.com/users/ipkn/gists{/gist_id}","starred_url":"https://api.github.com/users/ipkn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ipkn/subscriptions","organizations_url":"https://api.github.com/users/ipkn/orgs","repos_url":"https://api.github.com/users/ipkn/repos","events_url":"https://api.github.com/users/ipkn/events{/privacy}","received_events_url":"https://api.github.com/users/ipkn/received_events","type":"User","site_admin":false,"name":"Jaeseung Ha","company":"NEXON","blog":"","location":"Seoul, Republic of Korea","email":null,"hireable":null,"bio":null,"public_repos":40,"public_gists":2,"followers":264,"following":1,"created_at":"2010-05-22T06:11:03Z","updated_at":"2018-05-13T14:10:05Z"}
 0
 

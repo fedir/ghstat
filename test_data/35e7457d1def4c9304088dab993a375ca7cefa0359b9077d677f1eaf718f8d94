@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:24 GMT
-Etag: W/"6dc80b757b81551395ccc0c1b5da2653"
+Date: Sat, 09 Jun 2018 08:10:24 GMT
+Etag: W/"cad29982cdc20bc81015bf00649a13b8"
 Link: <https://api.github.com/user/735240/followers?page=2>; rel="prev", <https://api.github.com/user/735240/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D0AE:4F40:2602628:573C04D:5AF838C7
+X-Github-Request-Id: CD5A:57C5:3731E79:71A5F9C:5B1B8B70
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 789
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.033686
+X-Ratelimit-Remaining: 1175
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.033145
 X-Xss-Protection: 1; mode=block
 
-355
-[{"login":"forpix","id":32926705,"avatar_url":"https://avatars0.githubusercontent.com/u/32926705?v=4","gravatar_id":"","url":"https://api.github.com/users/forpix","html_url":"https://github.com/forpix","followers_url":"https://api.github.com/users/forpix/followers","following_url":"https://api.github.com/users/forpix/following{/other_user}","gists_url":"https://api.github.com/users/forpix/gists{/gist_id}","starred_url":"https://api.github.com/users/forpix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/forpix/subscriptions","organizations_url":"https://api.github.com/users/forpix/orgs","repos_url":"https://api.github.com/users/forpix/repos","events_url":"https://api.github.com/users/forpix/events{/privacy}","received_events_url":"https://api.github.com/users/forpix/received_events","type":"User","site_admin":false}]
+3bc
+[{"login":"reddyakash13","id":8851111,"node_id":"MDQ6VXNlcjg4NTExMTE=","avatar_url":"https://avatars2.githubusercontent.com/u/8851111?v=4","gravatar_id":"","url":"https://api.github.com/users/reddyakash13","html_url":"https://github.com/reddyakash13","followers_url":"https://api.github.com/users/reddyakash13/followers","following_url":"https://api.github.com/users/reddyakash13/following{/other_user}","gists_url":"https://api.github.com/users/reddyakash13/gists{/gist_id}","starred_url":"https://api.github.com/users/reddyakash13/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/reddyakash13/subscriptions","organizations_url":"https://api.github.com/users/reddyakash13/orgs","repos_url":"https://api.github.com/users/reddyakash13/repos","events_url":"https://api.github.com/users/reddyakash13/events{/privacy}","received_events_url":"https://api.github.com/users/reddyakash13/received_events","type":"User","site_admin":false}]
 0
 

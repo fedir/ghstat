@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:55 GMT
-Etag: W/"6da76b65f55caed2e8cbd895ab129456"
+Date: Sat, 09 Jun 2018 08:06:19 GMT
+Etag: W/"ae90fae2c85cf7a2e10ab88b0eac1068"
 Link: <https://api.github.com/user/239058/followers?page=1>; rel="prev", <https://api.github.com/user/239058/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB2E:4F42:44D8FB0:8AB5A23:5AF8368F
+X-Github-Request-Id: C9F6:57C4:23B9CC0:50D0919:5B1B8A7B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4245
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.030090
+X-Ratelimit-Remaining: 3830
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.025307
 X-Xss-Protection: 1; mode=block
 
-377
-[{"login":"MirkoLenz","id":5160954,"avatar_url":"https://avatars1.githubusercontent.com/u/5160954?v=4","gravatar_id":"","url":"https://api.github.com/users/MirkoLenz","html_url":"https://github.com/MirkoLenz","followers_url":"https://api.github.com/users/MirkoLenz/followers","following_url":"https://api.github.com/users/MirkoLenz/following{/other_user}","gists_url":"https://api.github.com/users/MirkoLenz/gists{/gist_id}","starred_url":"https://api.github.com/users/MirkoLenz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MirkoLenz/subscriptions","organizations_url":"https://api.github.com/users/MirkoLenz/orgs","repos_url":"https://api.github.com/users/MirkoLenz/repos","events_url":"https://api.github.com/users/MirkoLenz/events{/privacy}","received_events_url":"https://api.github.com/users/MirkoLenz/received_events","type":"User","site_admin":false}]
+398
+[{"login":"MirkoLenz","id":5160954,"node_id":"MDQ6VXNlcjUxNjA5NTQ=","avatar_url":"https://avatars1.githubusercontent.com/u/5160954?v=4","gravatar_id":"","url":"https://api.github.com/users/MirkoLenz","html_url":"https://github.com/MirkoLenz","followers_url":"https://api.github.com/users/MirkoLenz/followers","following_url":"https://api.github.com/users/MirkoLenz/following{/other_user}","gists_url":"https://api.github.com/users/MirkoLenz/gists{/gist_id}","starred_url":"https://api.github.com/users/MirkoLenz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MirkoLenz/subscriptions","organizations_url":"https://api.github.com/users/MirkoLenz/orgs","repos_url":"https://api.github.com/users/MirkoLenz/repos","events_url":"https://api.github.com/users/MirkoLenz/events{/privacy}","received_events_url":"https://api.github.com/users/MirkoLenz/received_events","type":"User","site_admin":false}]
 0
 

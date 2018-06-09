@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:35 GMT
-Etag: W/"3f9929f4d7b5ef4ae1d2b09107856d14"
-Last-Modified: Sat, 21 Apr 2018 17:04:03 GMT
+Date: Sat, 09 Jun 2018 08:05:07 GMT
+Etag: W/"a33ca83ca4f73ec7ab9cb1d8581ef077"
+Last-Modified: Fri, 25 May 2018 01:09:38 GMT
 Link: <https://api.github.com/repositories/74243588/tags?page=1>; rel="prev", <https://api.github.com/repositories/74243588/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAFC:4F42:44D84E1:8AB44B6:5AF8367B
+X-Github-Request-Id: C8B0:57C5:3726DF5:71922D6:5B1B8A33
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4668
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.037639
+X-Ratelimit-Remaining: 4654
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.034722
 X-Xss-Protection: 1; mode=block
 
-623
-[{"name":"0.0.5","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.5","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.5","commit":{"sha":"d9c888b50c00db3c566947c0a6ec694579097d33","url":"https://api.github.com/repos/danneu/kog/commits/d9c888b50c00db3c566947c0a6ec694579097d33"}},{"name":"0.0.4","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.4","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.4","commit":{"sha":"566be240a7d5eb3417532c62c7b1ebc51cf2d81b","url":"https://api.github.com/repos/danneu/kog/commits/566be240a7d5eb3417532c62c7b1ebc51cf2d81b"}},{"name":"0.0.3","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.3","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.3","commit":{"sha":"a64c76d12475a7b3673930996c8728b5dbf08045","url":"https://api.github.com/repos/danneu/kog/commits/a64c76d12475a7b3673930996c8728b5dbf08045"}},{"name":"0.0.2","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.2","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.2","commit":{"sha":"55f1e7bdcaeb834739361b9706d0b734b97a680d","url":"https://api.github.com/repos/danneu/kog/commits/55f1e7bdcaeb834739361b9706d0b734b97a680d"}},{"name":"0.0.1","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.1","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.1","commit":{"sha":"55f1e7bdcaeb834739361b9706d0b734b97a680d","url":"https://api.github.com/repos/danneu/kog/commits/55f1e7bdcaeb834739361b9706d0b734b97a680d"}}]
+6f0
+[{"name":"0.0.5","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.5","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.5","commit":{"sha":"d9c888b50c00db3c566947c0a6ec694579097d33","url":"https://api.github.com/repos/danneu/kog/commits/d9c888b50c00db3c566947c0a6ec694579097d33"},"node_id":"MDM6UmVmNzQyNDM1ODg6MC4wLjU="},{"name":"0.0.4","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.4","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.4","commit":{"sha":"566be240a7d5eb3417532c62c7b1ebc51cf2d81b","url":"https://api.github.com/repos/danneu/kog/commits/566be240a7d5eb3417532c62c7b1ebc51cf2d81b"},"node_id":"MDM6UmVmNzQyNDM1ODg6MC4wLjQ="},{"name":"0.0.3","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.3","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.3","commit":{"sha":"a64c76d12475a7b3673930996c8728b5dbf08045","url":"https://api.github.com/repos/danneu/kog/commits/a64c76d12475a7b3673930996c8728b5dbf08045"},"node_id":"MDM6UmVmNzQyNDM1ODg6MC4wLjM="},{"name":"0.0.2","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.2","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.2","commit":{"sha":"55f1e7bdcaeb834739361b9706d0b734b97a680d","url":"https://api.github.com/repos/danneu/kog/commits/55f1e7bdcaeb834739361b9706d0b734b97a680d"},"node_id":"MDM6UmVmNzQyNDM1ODg6MC4wLjI="},{"name":"0.0.1","zipball_url":"https://api.github.com/repos/danneu/kog/zipball/0.0.1","tarball_url":"https://api.github.com/repos/danneu/kog/tarball/0.0.1","commit":{"sha":"55f1e7bdcaeb834739361b9706d0b734b97a680d","url":"https://api.github.com/repos/danneu/kog/commits/55f1e7bdcaeb834739361b9706d0b734b97a680d"},"node_id":"MDM6UmVmNzQyNDM1ODg6MC4wLjE="}]
 0
 

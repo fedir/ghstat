@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:00 GMT
-Etag: W/"9b5f994331fd2d49332558a115ac94a6"
-Last-Modified: Fri, 11 May 2018 13:13:14 GMT
+Date: Sat, 09 Jun 2018 10:08:31 GMT
+Etag: W/"165fde91345a4d49418d88e460c332b4"
+Last-Modified: Thu, 31 May 2018 07:19:42 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DA01:4F42:4552E00:8BA6CE9:5AF84467
+X-Github-Request-Id: D617:57C6:3082DF7:665B0CD:5B1BA71F
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4818
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.038793
+X-Ratelimit-Remaining: 4953
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.036395
 X-Xss-Protection: 1; mode=block
 
-47e
-{"login":"Jotschi","id":326605,"avatar_url":"https://avatars3.githubusercontent.com/u/326605?v=4","gravatar_id":"","url":"https://api.github.com/users/Jotschi","html_url":"https://github.com/Jotschi","followers_url":"https://api.github.com/users/Jotschi/followers","following_url":"https://api.github.com/users/Jotschi/following{/other_user}","gists_url":"https://api.github.com/users/Jotschi/gists{/gist_id}","starred_url":"https://api.github.com/users/Jotschi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jotschi/subscriptions","organizations_url":"https://api.github.com/users/Jotschi/orgs","repos_url":"https://api.github.com/users/Jotschi/repos","events_url":"https://api.github.com/users/Jotschi/events{/privacy}","received_events_url":"https://api.github.com/users/Jotschi/received_events","type":"User","site_admin":false,"name":"Johannes Schüth","company":"@gentics","blog":"www.jotschi.de","location":"Vienna","email":null,"hireable":null,"bio":"Graph evangelist @gentics","public_repos":66,"public_gists":41,"followers":22,"following":8,"created_at":"2010-07-08T16:41:19Z","updated_at":"2018-05-11T13:13:14Z"}
+49f
+{"login":"Jotschi","id":326605,"node_id":"MDQ6VXNlcjMyNjYwNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/326605?v=4","gravatar_id":"","url":"https://api.github.com/users/Jotschi","html_url":"https://github.com/Jotschi","followers_url":"https://api.github.com/users/Jotschi/followers","following_url":"https://api.github.com/users/Jotschi/following{/other_user}","gists_url":"https://api.github.com/users/Jotschi/gists{/gist_id}","starred_url":"https://api.github.com/users/Jotschi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jotschi/subscriptions","organizations_url":"https://api.github.com/users/Jotschi/orgs","repos_url":"https://api.github.com/users/Jotschi/repos","events_url":"https://api.github.com/users/Jotschi/events{/privacy}","received_events_url":"https://api.github.com/users/Jotschi/received_events","type":"User","site_admin":false,"name":"Johannes Schüth","company":"@gentics","blog":"www.jotschi.de","location":"Vienna","email":null,"hireable":null,"bio":"Graph evangelist @gentics","public_repos":69,"public_gists":42,"followers":23,"following":7,"created_at":"2010-07-08T16:41:19Z","updated_at":"2018-05-31T07:19:42Z"}
 0
 

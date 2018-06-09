@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:58:48 GMT
-Etag: W/"5f114f91161ae4d90b79bc4a18aedd49"
-Last-Modified: Sat, 12 May 2018 13:54:26 GMT
+Date: Sat, 09 Jun 2018 08:05:19 GMT
+Etag: W/"3e0a8ece43c4a70f0eb0f841919ec95d"
+Last-Modified: Mon, 04 Jun 2018 15:06:39 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB14:4F40:25F8767:572394A:5AF83687
+X-Github-Request-Id: C8DC:57C6:2FE1204:64E33B4:5B1B8A3E
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4482
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.034776
+X-Ratelimit-Remaining: 4476
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.042546
 X-Xss-Protection: 1; mode=block
 
-72b
-[{"name":"v0.1.7","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1.7","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1.7","commit":{"sha":"46cbd60216514f1205a3e03b9bb3e9430309ef22","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/46cbd60216514f1205a3e03b9bb3e9430309ef22"}},{"name":"v0.1.3","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1.3","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1.3","commit":{"sha":"21e2aadac74232aeff8d4162104a958687b2cb7e","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/21e2aadac74232aeff8d4162104a958687b2cb7e"}},{"name":"v0.1","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1","commit":{"sha":"09c78efbe679bf2079f228297a4b372eb3566e85","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/09c78efbe679bf2079f228297a4b372eb3566e85"}},{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.0.7","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.0.7","commit":{"sha":"8fe0e92c2074d246f6d2bac8774cf3fd20067da4","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/8fe0e92c2074d246f6d2bac8774cf3fd20067da4"}},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.0.2","commit":{"sha":"d805b56cd8931ec2067a085a1e8328bb499aea13","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/d805b56cd8931ec2067a085a1e8328bb499aea13"}}]
+7f8
+[{"name":"v0.1.7","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1.7","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1.7","commit":{"sha":"46cbd60216514f1205a3e03b9bb3e9430309ef22","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/46cbd60216514f1205a3e03b9bb3e9430309ef22"},"node_id":"MDM6UmVmMzYxMjExMDI6djAuMS43"},{"name":"v0.1.3","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1.3","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1.3","commit":{"sha":"21e2aadac74232aeff8d4162104a958687b2cb7e","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/21e2aadac74232aeff8d4162104a958687b2cb7e"},"node_id":"MDM6UmVmMzYxMjExMDI6djAuMS4z"},{"name":"v0.1","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.1","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.1","commit":{"sha":"09c78efbe679bf2079f228297a4b372eb3566e85","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/09c78efbe679bf2079f228297a4b372eb3566e85"},"node_id":"MDM6UmVmMzYxMjExMDI6djAuMQ=="},{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.0.7","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.0.7","commit":{"sha":"8fe0e92c2074d246f6d2bac8774cf3fd20067da4","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/8fe0e92c2074d246f6d2bac8774cf3fd20067da4"},"node_id":"MDM6UmVmMzYxMjExMDI6djAuMC43"},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/amethyst-framework/amethyst/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/amethyst-framework/amethyst/tarball/v0.0.2","commit":{"sha":"d805b56cd8931ec2067a085a1e8328bb499aea13","url":"https://api.github.com/repos/amethyst-framework/amethyst/commits/d805b56cd8931ec2067a085a1e8328bb499aea13"},"node_id":"MDM6UmVmMzYxMjExMDI6djAuMC4y"}]
 0
 

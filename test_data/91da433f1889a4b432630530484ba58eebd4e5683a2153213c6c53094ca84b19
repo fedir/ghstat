@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:07:02 GMT
-Etag: W/"52f14f7af0f890981a89aa82b22df15d"
-Last-Modified: Sun, 13 May 2018 01:38:08 GMT
+Date: Sat, 09 Jun 2018 08:08:31 GMT
+Etag: W/"7b1ad7d1ddea1f8a36d0553f08b4ad67"
+Last-Modified: Fri, 08 Jun 2018 18:27:54 GMT
 Link: <https://api.github.com/repositories/6062770/tags?page=1>; rel="prev", <https://api.github.com/repositories/6062770/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFE1:4F40:2600E19:57387EC:5AF83876
+X-Github-Request-Id: CB5D:57C5:372E2BE:719F588:5B1B8AFF
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1494
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036212
+X-Ratelimit-Remaining: 2318
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.042837
 X-Xss-Protection: 1; mode=block
 
-141
-[{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/leafo/lapis/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/leafo/lapis/tarball/v0.0.1","commit":{"sha":"967ef3c7b5acdaabd4562ba5a69440212f250e2c","url":"https://api.github.com/repos/leafo/lapis/commits/967ef3c7b5acdaabd4562ba5a69440212f250e2c"}}]
+16a
+[{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/leafo/lapis/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/leafo/lapis/tarball/v0.0.1","commit":{"sha":"967ef3c7b5acdaabd4562ba5a69440212f250e2c","url":"https://api.github.com/repos/leafo/lapis/commits/967ef3c7b5acdaabd4562ba5a69440212f250e2c"},"node_id":"MDM6UmVmNjA2Mjc3MDp2MC4wLjE="}]
 0
 

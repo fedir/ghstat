@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:00:08 GMT
-Etag: W/"a43bb557236f37d89e54700eee2f7b9a"
-Last-Modified: Sat, 10 Mar 2018 00:47:01 GMT
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"0fdc4ae61e172e1b525a6b96228c0749"
+Last-Modified: Wed, 30 May 2018 03:55:29 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD53:4F40:25F9E58:57273DB:5AF836D7
+X-Github-Request-Id: D84A:57C6:309F25A:669B96D:5B1BABEB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2827
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.044471
+X-Ratelimit-Remaining: 4749
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.032731
 X-Xss-Protection: 1; mode=block
 
-4ae
-{"login":"w00fz","id":11734,"avatar_url":"https://avatars3.githubusercontent.com/u/11734?v=4","gravatar_id":"","url":"https://api.github.com/users/w00fz","html_url":"https://github.com/w00fz","followers_url":"https://api.github.com/users/w00fz/followers","following_url":"https://api.github.com/users/w00fz/following{/other_user}","gists_url":"https://api.github.com/users/w00fz/gists{/gist_id}","starred_url":"https://api.github.com/users/w00fz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/w00fz/subscriptions","organizations_url":"https://api.github.com/users/w00fz/orgs","repos_url":"https://api.github.com/users/w00fz/repos","events_url":"https://api.github.com/users/w00fz/events{/privacy}","received_events_url":"https://api.github.com/users/w00fz/received_events","type":"User","site_admin":false,"name":"Djamil Legato","company":"@trilbymedia, @getgrav, @gantry, @mootools","blog":"","location":"Portland, OR","email":null,"hireable":null,"bio":"Passionate JavaScript developer. @trilbymedia, @getgrav, @gantry, @mootools","public_repos":18,"public_gists":4,"followers":129,"following":20,"created_at":"2008-05-28T07:18:50Z","updated_at":"2018-03-10T00:47:01Z"}
+4cb
+{"login":"w00fz","id":11734,"node_id":"MDQ6VXNlcjExNzM0","avatar_url":"https://avatars3.githubusercontent.com/u/11734?v=4","gravatar_id":"","url":"https://api.github.com/users/w00fz","html_url":"https://github.com/w00fz","followers_url":"https://api.github.com/users/w00fz/followers","following_url":"https://api.github.com/users/w00fz/following{/other_user}","gists_url":"https://api.github.com/users/w00fz/gists{/gist_id}","starred_url":"https://api.github.com/users/w00fz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/w00fz/subscriptions","organizations_url":"https://api.github.com/users/w00fz/orgs","repos_url":"https://api.github.com/users/w00fz/repos","events_url":"https://api.github.com/users/w00fz/events{/privacy}","received_events_url":"https://api.github.com/users/w00fz/received_events","type":"User","site_admin":false,"name":"Djamil Legato","company":"@trilbymedia, @getgrav, @gantry, @mootools","blog":"","location":"Portland, OR","email":null,"hireable":null,"bio":"Passionate JavaScript developer. @trilbymedia, @getgrav, @gantry, @mootools","public_repos":19,"public_gists":4,"followers":129,"following":20,"created_at":"2008-05-28T07:18:50Z","updated_at":"2018-05-30T03:55:29Z"}
 0
 

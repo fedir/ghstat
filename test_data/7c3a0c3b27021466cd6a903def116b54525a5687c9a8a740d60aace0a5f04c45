@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:33 GMT
-Etag: W/"4d1c963364b027991f50bcee9192efdf"
+Date: Sat, 09 Jun 2018 08:10:57 GMT
+Etag: W/"43c1609be888de8abfa5b60117e64bed"
 Last-Modified: Thu, 15 Mar 2018 17:45:10 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D0BE:4F42:44EDD24:8AE0D61:5AF838D1
+X-Github-Request-Id: CE18:57C4:23BD27D:50D92B3:5B1B8B91
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 702
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.051789
+X-Ratelimit-Remaining: 1039
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.037572
 X-Xss-Protection: 1; mode=block
 
-4bd
-{"login":"SteveSanderson","id":161375,"avatar_url":"https://avatars0.githubusercontent.com/u/161375?v=4","gravatar_id":"","url":"https://api.github.com/users/SteveSanderson","html_url":"https://github.com/SteveSanderson","followers_url":"https://api.github.com/users/SteveSanderson/followers","following_url":"https://api.github.com/users/SteveSanderson/following{/other_user}","gists_url":"https://api.github.com/users/SteveSanderson/gists{/gist_id}","starred_url":"https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SteveSanderson/subscriptions","organizations_url":"https://api.github.com/users/SteveSanderson/orgs","repos_url":"https://api.github.com/users/SteveSanderson/repos","events_url":"https://api.github.com/users/SteveSanderson/events{/privacy}","received_events_url":"https://api.github.com/users/SteveSanderson/received_events","type":"User","site_admin":false,"name":"Steven Sanderson","company":null,"blog":"blog.stevensanderson.com","location":null,"email":null,"hireable":null,"bio":null,"public_repos":30,"public_gists":13,"followers":1436,"following":0,"created_at":"2009-12-03T13:04:33Z","updated_at":"2018-03-15T17:45:10Z"}
+4de
+{"login":"SteveSanderson","id":161375,"node_id":"MDQ6VXNlcjE2MTM3NQ==","avatar_url":"https://avatars0.githubusercontent.com/u/161375?v=4","gravatar_id":"","url":"https://api.github.com/users/SteveSanderson","html_url":"https://github.com/SteveSanderson","followers_url":"https://api.github.com/users/SteveSanderson/followers","following_url":"https://api.github.com/users/SteveSanderson/following{/other_user}","gists_url":"https://api.github.com/users/SteveSanderson/gists{/gist_id}","starred_url":"https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SteveSanderson/subscriptions","organizations_url":"https://api.github.com/users/SteveSanderson/orgs","repos_url":"https://api.github.com/users/SteveSanderson/repos","events_url":"https://api.github.com/users/SteveSanderson/events{/privacy}","received_events_url":"https://api.github.com/users/SteveSanderson/received_events","type":"User","site_admin":false,"name":"Steven Sanderson","company":null,"blog":"blog.stevensanderson.com","location":null,"email":null,"hireable":null,"bio":null,"public_repos":30,"public_gists":13,"followers":1444,"following":0,"created_at":"2009-12-03T13:04:33Z","updated_at":"2018-03-15T17:45:10Z"}
 0
 

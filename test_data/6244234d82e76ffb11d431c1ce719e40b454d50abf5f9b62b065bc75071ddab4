@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:55 GMT
-Etag: W/"83b3f43b04174cdb9795a553facdc444"
+Date: Sat, 09 Jun 2018 08:08:27 GMT
+Etag: W/"48d33ff73b7329d2a966438e33a4c0dd"
 Link: <https://api.github.com/user/1081754/followers?page=1>; rel="prev", <https://api.github.com/user/1081754/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFD8:4F42:44EA39D:8AD97AF:5AF8386F
+X-Github-Request-Id: CB63:57C6:2FE525B:64ECD7E:5B1B8AFB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1642
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036577
+X-Ratelimit-Remaining: 2453
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.037142
 X-Xss-Protection: 1; mode=block
 
-6bd
-[{"login":"CapsAdmin","id":204157,"avatar_url":"https://avatars3.githubusercontent.com/u/204157?v=4","gravatar_id":"","url":"https://api.github.com/users/CapsAdmin","html_url":"https://github.com/CapsAdmin","followers_url":"https://api.github.com/users/CapsAdmin/followers","following_url":"https://api.github.com/users/CapsAdmin/following{/other_user}","gists_url":"https://api.github.com/users/CapsAdmin/gists{/gist_id}","starred_url":"https://api.github.com/users/CapsAdmin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CapsAdmin/subscriptions","organizations_url":"https://api.github.com/users/CapsAdmin/orgs","repos_url":"https://api.github.com/users/CapsAdmin/repos","events_url":"https://api.github.com/users/CapsAdmin/events{/privacy}","received_events_url":"https://api.github.com/users/CapsAdmin/received_events","type":"User","site_admin":false},{"login":"0pcom","id":36607567,"avatar_url":"https://avatars3.githubusercontent.com/u/36607567?v=4","gravatar_id":"","url":"https://api.github.com/users/0pcom","html_url":"https://github.com/0pcom","followers_url":"https://api.github.com/users/0pcom/followers","following_url":"https://api.github.com/users/0pcom/following{/other_user}","gists_url":"https://api.github.com/users/0pcom/gists{/gist_id}","starred_url":"https://api.github.com/users/0pcom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/0pcom/subscriptions","organizations_url":"https://api.github.com/users/0pcom/orgs","repos_url":"https://api.github.com/users/0pcom/repos","events_url":"https://api.github.com/users/0pcom/events{/privacy}","received_events_url":"https://api.github.com/users/0pcom/received_events","type":"User","site_admin":false}]
+6ff
+[{"login":"CapsAdmin","id":204157,"node_id":"MDQ6VXNlcjIwNDE1Nw==","avatar_url":"https://avatars3.githubusercontent.com/u/204157?v=4","gravatar_id":"","url":"https://api.github.com/users/CapsAdmin","html_url":"https://github.com/CapsAdmin","followers_url":"https://api.github.com/users/CapsAdmin/followers","following_url":"https://api.github.com/users/CapsAdmin/following{/other_user}","gists_url":"https://api.github.com/users/CapsAdmin/gists{/gist_id}","starred_url":"https://api.github.com/users/CapsAdmin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CapsAdmin/subscriptions","organizations_url":"https://api.github.com/users/CapsAdmin/orgs","repos_url":"https://api.github.com/users/CapsAdmin/repos","events_url":"https://api.github.com/users/CapsAdmin/events{/privacy}","received_events_url":"https://api.github.com/users/CapsAdmin/received_events","type":"User","site_admin":false},{"login":"0pcom","id":36607567,"node_id":"MDQ6VXNlcjM2NjA3NTY3","avatar_url":"https://avatars3.githubusercontent.com/u/36607567?v=4","gravatar_id":"","url":"https://api.github.com/users/0pcom","html_url":"https://github.com/0pcom","followers_url":"https://api.github.com/users/0pcom/followers","following_url":"https://api.github.com/users/0pcom/following{/other_user}","gists_url":"https://api.github.com/users/0pcom/gists{/gist_id}","starred_url":"https://api.github.com/users/0pcom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/0pcom/subscriptions","organizations_url":"https://api.github.com/users/0pcom/orgs","repos_url":"https://api.github.com/users/0pcom/repos","events_url":"https://api.github.com/users/0pcom/events{/privacy}","received_events_url":"https://api.github.com/users/0pcom/received_events","type":"User","site_admin":false}]
 0
 

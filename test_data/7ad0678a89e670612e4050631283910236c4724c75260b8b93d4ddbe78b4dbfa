@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:08:19 GMT
-Etag: W/"a3b87a67be1d46319498c5823ed9da22"
-Last-Modified: Sun, 13 May 2018 12:17:13 GMT
+Date: Sat, 09 Jun 2018 08:10:20 GMT
+Etag: W/"4cf759166d811ed7b47fad2edd941403"
+Last-Modified: Sat, 09 Jun 2018 08:06:06 GMT
 Link: <https://api.github.com/repositories/1148753/tags?page=4>; rel="prev", <https://api.github.com/repositories/1148753/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D0A3:4F40:260254B:573BD99:5AF838C2
+X-Github-Request-Id: CD4E:57C4:23BCB39:50D81B9:5B1B8B6B
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 808
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.062582
+X-Ratelimit-Remaining: 1187
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.063776
 X-Xss-Protection: 1; mode=block
 
-937
-[{"name":"v3.0.0.RC2","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.RC2","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.RC2","commit":{"sha":"e3b58bf67836a045b4e519eb4f496bc725d06f52","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/e3b58bf67836a045b4e519eb4f496bc725d06f52"}},{"name":"v3.0.0.RC1","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.RC1","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.RC1","commit":{"sha":"df8feec322279148dfef4050471adb509bfa3857","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/df8feec322279148dfef4050471adb509bfa3857"}},{"name":"v3.0.0.M4","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M4","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M4","commit":{"sha":"153c3c43830d52288ee0519ec1bd542884783185","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/153c3c43830d52288ee0519ec1bd542884783185"}},{"name":"v3.0.0.M3","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M3","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M3","commit":{"sha":"379fdcb27b082499cdbddcf3adc5df2d794149cd","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/379fdcb27b082499cdbddcf3adc5df2d794149cd"}},{"name":"v3.0.0.M2","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M2","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M2","commit":{"sha":"f19d66007935eb8c81dac276ac56ff13bf8515c2","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/f19d66007935eb8c81dac276ac56ff13bf8515c2"}},{"name":"v3.0.0.M1","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M1","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M1","commit":{"sha":"dfcbc6f659b20d4f30929122ed3d2e28aa76360f","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/dfcbc6f659b20d4f30929122ed3d2e28aa76360f"}}]
+a45
+[{"name":"v3.0.0.RC2","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.RC2","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.RC2","commit":{"sha":"e3b58bf67836a045b4e519eb4f496bc725d06f52","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/e3b58bf67836a045b4e519eb4f496bc725d06f52"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuUkMy"},{"name":"v3.0.0.RC1","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.RC1","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.RC1","commit":{"sha":"df8feec322279148dfef4050471adb509bfa3857","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/df8feec322279148dfef4050471adb509bfa3857"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuUkMx"},{"name":"v3.0.0.M4","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M4","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M4","commit":{"sha":"153c3c43830d52288ee0519ec1bd542884783185","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/153c3c43830d52288ee0519ec1bd542884783185"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuTTQ="},{"name":"v3.0.0.M3","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M3","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M3","commit":{"sha":"379fdcb27b082499cdbddcf3adc5df2d794149cd","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/379fdcb27b082499cdbddcf3adc5df2d794149cd"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuTTM="},{"name":"v3.0.0.M2","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M2","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M2","commit":{"sha":"f19d66007935eb8c81dac276ac56ff13bf8515c2","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/f19d66007935eb8c81dac276ac56ff13bf8515c2"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuTTI="},{"name":"v3.0.0.M1","zipball_url":"https://api.github.com/repos/spring-projects/spring-framework/zipball/v3.0.0.M1","tarball_url":"https://api.github.com/repos/spring-projects/spring-framework/tarball/v3.0.0.M1","commit":{"sha":"dfcbc6f659b20d4f30929122ed3d2e28aa76360f","url":"https://api.github.com/repos/spring-projects/spring-framework/commits/dfcbc6f659b20d4f30929122ed3d2e28aa76360f"},"node_id":"MDM6UmVmMTE0ODc1Mzp2My4wLjAuTTE="}]
 0
 

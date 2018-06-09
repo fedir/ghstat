@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:19 GMT
-Etag: W/"91c1e8c66983a9bec6d65086c770b8aa"
-Last-Modified: Wed, 09 May 2018 11:37:13 GMT
+Date: Sat, 09 Jun 2018 08:05:36 GMT
+Etag: W/"26e7984088f87fd8df3cbbf7e5544c72"
+Last-Modified: Sat, 09 Jun 2018 08:03:18 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB9C:4F41:35959CD:7503A0A:5AF836A7
+X-Github-Request-Id: C979:57C4:23B91C5:50CEEAD:5B1B8A50
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3879
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.034015
+X-Ratelimit-Remaining: 4160
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.042247
 X-Xss-Protection: 1; mode=block
 
 54
-{"Clojure":500330,"HTML":26824,"Ruby":7015,"Java":4320,"Shell":1992,"JavaScript":39}
+{"Clojure":567816,"HTML":26824,"Ruby":7022,"Java":6104,"Shell":1992,"JavaScript":39}
 0
 

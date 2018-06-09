@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:22 GMT
+Etag: W/"6a88877939bfc3088112f6b7624b8751"
+Link: <https://api.github.com/user/95697/followers?page=6>; rel="prev", <https://api.github.com/user/95697/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CB59:57C5:372DDE5:719ECF8:5B1B8AF6
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2493
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.039682
+X-Xss-Protection: 1; mode=block
+
+382
+[{"login":"xemasiv","id":33155653,"node_id":"MDQ6VXNlcjMzMTU1NjUz","avatar_url":"https://avatars1.githubusercontent.com/u/33155653?v=4","gravatar_id":"","url":"https://api.github.com/users/xemasiv","html_url":"https://github.com/xemasiv","followers_url":"https://api.github.com/users/xemasiv/followers","following_url":"https://api.github.com/users/xemasiv/following{/other_user}","gists_url":"https://api.github.com/users/xemasiv/gists{/gist_id}","starred_url":"https://api.github.com/users/xemasiv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xemasiv/subscriptions","organizations_url":"https://api.github.com/users/xemasiv/orgs","repos_url":"https://api.github.com/users/xemasiv/repos","events_url":"https://api.github.com/users/xemasiv/events{/privacy}","received_events_url":"https://api.github.com/users/xemasiv/received_events","type":"User","site_admin":false}]
+0
+

@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:03:33 GMT
-Etag: W/"944b0ee5c5c06435f774cbf7588cc389"
+Date: Sat, 09 Jun 2018 08:08:11 GMT
+Etag: W/"da03c89988c6f70aa2b70e283be466d8"
 Last-Modified: Sat, 03 Mar 2018 14:33:55 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFA3:4F40:25FD335:572FC44:5AF837A5
+X-Github-Request-Id: CB3D:57C6:2FE4DAE:64EC153:5B1B8AEA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1868
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.042123
+X-Ratelimit-Remaining: 2683
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.035832
 X-Xss-Protection: 1; mode=block
 
-281
-[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/kivra/giallo/zipball/0.2.0","tarball_url":"https://api.github.com/repos/kivra/giallo/tarball/0.2.0","commit":{"sha":"b0d1b209d5f280765e70b6792e0ffe665e50ab0c","url":"https://api.github.com/repos/kivra/giallo/commits/b0d1b209d5f280765e70b6792e0ffe665e50ab0c"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/kivra/giallo/zipball/0.1.0","tarball_url":"https://api.github.com/repos/kivra/giallo/tarball/0.1.0","commit":{"sha":"8393652af76c3274d4b497420b697afb4e4853b6","url":"https://api.github.com/repos/kivra/giallo/commits/8393652af76c3274d4b497420b697afb4e4853b6"}}]
+2d3
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/kivra/giallo/zipball/0.2.0","tarball_url":"https://api.github.com/repos/kivra/giallo/tarball/0.2.0","commit":{"sha":"b0d1b209d5f280765e70b6792e0ffe665e50ab0c","url":"https://api.github.com/repos/kivra/giallo/commits/b0d1b209d5f280765e70b6792e0ffe665e50ab0c"},"node_id":"MDM6UmVmODEzNTc1MDowLjIuMA=="},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/kivra/giallo/zipball/0.1.0","tarball_url":"https://api.github.com/repos/kivra/giallo/tarball/0.1.0","commit":{"sha":"8393652af76c3274d4b497420b697afb4e4853b6","url":"https://api.github.com/repos/kivra/giallo/commits/8393652af76c3274d4b497420b697afb4e4853b6"},"node_id":"MDM6UmVmODEzNTc1MDowLjEuMA=="}]
 0
 

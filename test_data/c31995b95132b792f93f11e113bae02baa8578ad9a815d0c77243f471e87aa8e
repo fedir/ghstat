@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:29 GMT
-Etag: W/"3e513d42013bd411d89fd642b59a61e5"
+Date: Sat, 09 Jun 2018 08:06:41 GMT
+Etag: W/"1313127d84302ba83e7588ba9fdce8cd"
 Link: <https://api.github.com/user/322746/followers?page=2>; rel="prev", <https://api.github.com/user/322746/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBE7:4F40:25F9323:57256D7:5AF836B1
+X-Github-Request-Id: CA74:57C5:372A586:7198748:5B1B8A91
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3669
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.029180
+X-Ratelimit-Remaining: 3556
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030093
 X-Xss-Protection: 1; mode=block
 
-6c7
-[{"login":"bikallem","id":315907,"avatar_url":"https://avatars0.githubusercontent.com/u/315907?v=4","gravatar_id":"","url":"https://api.github.com/users/bikallem","html_url":"https://github.com/bikallem","followers_url":"https://api.github.com/users/bikallem/followers","following_url":"https://api.github.com/users/bikallem/following{/other_user}","gists_url":"https://api.github.com/users/bikallem/gists{/gist_id}","starred_url":"https://api.github.com/users/bikallem/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bikallem/subscriptions","organizations_url":"https://api.github.com/users/bikallem/orgs","repos_url":"https://api.github.com/users/bikallem/repos","events_url":"https://api.github.com/users/bikallem/events{/privacy}","received_events_url":"https://api.github.com/users/bikallem/received_events","type":"User","site_admin":false},{"login":"kuangtu","id":3457291,"avatar_url":"https://avatars3.githubusercontent.com/u/3457291?v=4","gravatar_id":"","url":"https://api.github.com/users/kuangtu","html_url":"https://github.com/kuangtu","followers_url":"https://api.github.com/users/kuangtu/followers","following_url":"https://api.github.com/users/kuangtu/following{/other_user}","gists_url":"https://api.github.com/users/kuangtu/gists{/gist_id}","starred_url":"https://api.github.com/users/kuangtu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kuangtu/subscriptions","organizations_url":"https://api.github.com/users/kuangtu/orgs","repos_url":"https://api.github.com/users/kuangtu/repos","events_url":"https://api.github.com/users/kuangtu/events{/privacy}","received_events_url":"https://api.github.com/users/kuangtu/received_events","type":"User","site_admin":false}]
+ad2
+[{"login":"bikallem","id":315907,"node_id":"MDQ6VXNlcjMxNTkwNw==","avatar_url":"https://avatars0.githubusercontent.com/u/315907?v=4","gravatar_id":"","url":"https://api.github.com/users/bikallem","html_url":"https://github.com/bikallem","followers_url":"https://api.github.com/users/bikallem/followers","following_url":"https://api.github.com/users/bikallem/following{/other_user}","gists_url":"https://api.github.com/users/bikallem/gists{/gist_id}","starred_url":"https://api.github.com/users/bikallem/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bikallem/subscriptions","organizations_url":"https://api.github.com/users/bikallem/orgs","repos_url":"https://api.github.com/users/bikallem/repos","events_url":"https://api.github.com/users/bikallem/events{/privacy}","received_events_url":"https://api.github.com/users/bikallem/received_events","type":"User","site_admin":false},{"login":"kuangtu","id":3457291,"node_id":"MDQ6VXNlcjM0NTcyOTE=","avatar_url":"https://avatars3.githubusercontent.com/u/3457291?v=4","gravatar_id":"","url":"https://api.github.com/users/kuangtu","html_url":"https://github.com/kuangtu","followers_url":"https://api.github.com/users/kuangtu/followers","following_url":"https://api.github.com/users/kuangtu/following{/other_user}","gists_url":"https://api.github.com/users/kuangtu/gists{/gist_id}","starred_url":"https://api.github.com/users/kuangtu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kuangtu/subscriptions","organizations_url":"https://api.github.com/users/kuangtu/orgs","repos_url":"https://api.github.com/users/kuangtu/repos","events_url":"https://api.github.com/users/kuangtu/events{/privacy}","received_events_url":"https://api.github.com/users/kuangtu/received_events","type":"User","site_admin":false},{"login":"LeonLinuxNerd","id":29402298,"node_id":"MDQ6VXNlcjI5NDAyMjk4","avatar_url":"https://avatars1.githubusercontent.com/u/29402298?v=4","gravatar_id":"","url":"https://api.github.com/users/LeonLinuxNerd","html_url":"https://github.com/LeonLinuxNerd","followers_url":"https://api.github.com/users/LeonLinuxNerd/followers","following_url":"https://api.github.com/users/LeonLinuxNerd/following{/other_user}","gists_url":"https://api.github.com/users/LeonLinuxNerd/gists{/gist_id}","starred_url":"https://api.github.com/users/LeonLinuxNerd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/LeonLinuxNerd/subscriptions","organizations_url":"https://api.github.com/users/LeonLinuxNerd/orgs","repos_url":"https://api.github.com/users/LeonLinuxNerd/repos","events_url":"https://api.github.com/users/LeonLinuxNerd/events{/privacy}","received_events_url":"https://api.github.com/users/LeonLinuxNerd/received_events","type":"User","site_admin":false}]
 0
 

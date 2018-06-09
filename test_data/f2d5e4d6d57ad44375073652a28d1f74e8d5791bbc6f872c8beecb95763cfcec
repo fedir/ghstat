@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:15:51 GMT
-Etag: W/"492717cfd30d056459486969297a0b58"
-Last-Modified: Sun, 13 May 2018 09:56:42 GMT
+Date: Sat, 09 Jun 2018 08:11:21 GMT
+Etag: W/"311cfe3b93c1dc80d360d1a750110f7c"
+Last-Modified: Fri, 08 Jun 2018 21:50:12 GMT
 Link: <https://api.github.com/repositories/926544/contributors?page=6>; rel="prev", <https://api.github.com/repositories/926544/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: D255:4F40:2609145:574D5D3:5AF83A87
+X-Github-Request-Id: CE6C:57C6:2FE856C:64F4A95:5B1B8BA9
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 16
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.057522
+X-Ratelimit-Remaining: 412
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.072279
 X-Xss-Protection: 1; mode=block
 
-6bf
-[{"login":"trqx","id":34132461,"avatar_url":"https://avatars2.githubusercontent.com/u/34132461?v=4","gravatar_id":"","url":"https://api.github.com/users/trqx","html_url":"https://github.com/trqx","followers_url":"https://api.github.com/users/trqx/followers","following_url":"https://api.github.com/users/trqx/following{/other_user}","gists_url":"https://api.github.com/users/trqx/gists{/gist_id}","starred_url":"https://api.github.com/users/trqx/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/trqx/subscriptions","organizations_url":"https://api.github.com/users/trqx/orgs","repos_url":"https://api.github.com/users/trqx/repos","events_url":"https://api.github.com/users/trqx/events{/privacy}","received_events_url":"https://api.github.com/users/trqx/received_events","type":"User","site_admin":false,"contributions":1},{"login":"zoontek","id":1902323,"avatar_url":"https://avatars2.githubusercontent.com/u/1902323?v=4","gravatar_id":"","url":"https://api.github.com/users/zoontek","html_url":"https://github.com/zoontek","followers_url":"https://api.github.com/users/zoontek/followers","following_url":"https://api.github.com/users/zoontek/following{/other_user}","gists_url":"https://api.github.com/users/zoontek/gists{/gist_id}","starred_url":"https://api.github.com/users/zoontek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zoontek/subscriptions","organizations_url":"https://api.github.com/users/zoontek/orgs","repos_url":"https://api.github.com/users/zoontek/repos","events_url":"https://api.github.com/users/zoontek/events{/privacy}","received_events_url":"https://api.github.com/users/zoontek/received_events","type":"User","site_admin":false,"contributions":1}]
+392
+[{"login":"zoontek","id":1902323,"node_id":"MDQ6VXNlcjE5MDIzMjM=","avatar_url":"https://avatars2.githubusercontent.com/u/1902323?v=4","gravatar_id":"","url":"https://api.github.com/users/zoontek","html_url":"https://github.com/zoontek","followers_url":"https://api.github.com/users/zoontek/followers","following_url":"https://api.github.com/users/zoontek/following{/other_user}","gists_url":"https://api.github.com/users/zoontek/gists{/gist_id}","starred_url":"https://api.github.com/users/zoontek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zoontek/subscriptions","organizations_url":"https://api.github.com/users/zoontek/orgs","repos_url":"https://api.github.com/users/zoontek/repos","events_url":"https://api.github.com/users/zoontek/events{/privacy}","received_events_url":"https://api.github.com/users/zoontek/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

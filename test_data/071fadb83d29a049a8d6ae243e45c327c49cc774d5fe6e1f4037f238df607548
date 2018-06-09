@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:03:27 GMT
-Etag: W/"99bfa7cceeda7f0f70dbc3361be41413"
-Last-Modified: Sat, 12 May 2018 13:14:21 GMT
+Date: Sat, 09 Jun 2018 08:08:05 GMT
+Etag: W/"2a53ad4eaf028ca04227a9392aa4c675"
+Last-Modified: Mon, 04 Jun 2018 19:42:36 GMT
 Link: <https://api.github.com/repositories/10087975/tags?page=3>; rel="prev", <https://api.github.com/repositories/10087975/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CF8E:4F40:25FD1DD:572F8F9:5AF8379F
+X-Github-Request-Id: CB36:57C6:2FE4C23:64EBD51:5B1B8AE5
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1946
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.062020
+X-Ratelimit-Remaining: 2726
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.060506
 X-Xss-Protection: 1; mode=block
 
-a19
-[{"name":"3.0.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/3.0.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/3.0.0","commit":{"sha":"b7607bd7cf03ba04a0b5175aee7d90600042cae2","url":"https://api.github.com/repos/hoplon/hoplon/commits/b7607bd7cf03ba04a0b5175aee7d90600042cae2"}},{"name":"2.1.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/2.1.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/2.1.0","commit":{"sha":"5bff5059567ee72e4494bed64298d8bfd5dbbe24","url":"https://api.github.com/repos/hoplon/hoplon/commits/5bff5059567ee72e4494bed64298d8bfd5dbbe24"}},{"name":"2.0.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/2.0.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/2.0.0","commit":{"sha":"081db103b9f45e546c02a72f89fe7bdbcb4f25f1","url":"https://api.github.com/repos/hoplon/hoplon/commits/081db103b9f45e546c02a72f89fe7bdbcb4f25f1"}},{"name":"1.1.4","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.4","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.4","commit":{"sha":"24b7e91bf3405f5649c34887c247c93a34fa8133","url":"https://api.github.com/repos/hoplon/hoplon/commits/24b7e91bf3405f5649c34887c247c93a34fa8133"}},{"name":"1.1.3","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.3","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.3","commit":{"sha":"6fb5925f6ec5088fa5805e438e1b2ab159eb4f89","url":"https://api.github.com/repos/hoplon/hoplon/commits/6fb5925f6ec5088fa5805e438e1b2ab159eb4f89"}},{"name":"1.1.2","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.2","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.2","commit":{"sha":"93d30c01517cd6544dc680ae0fd9187b33b15643","url":"https://api.github.com/repos/hoplon/hoplon/commits/93d30c01517cd6544dc680ae0fd9187b33b15643"}},{"name":"1.1.1","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.1","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.1","commit":{"sha":"52d909828a372bbb05dcd3f60e4dbd5f48e0e666","url":"https://api.github.com/repos/hoplon/hoplon/commits/52d909828a372bbb05dcd3f60e4dbd5f48e0e666"}},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/0.1.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/0.1.0","commit":{"sha":"5beb7d52b6a6aa5d6f8f13511e0292487fe41ba0","url":"https://api.github.com/repos/hoplon/hoplon/commits/5beb7d52b6a6aa5d6f8f13511e0292487fe41ba0"}}]
+b61
+[{"name":"3.0.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/3.0.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/3.0.0","commit":{"sha":"b7607bd7cf03ba04a0b5175aee7d90600042cae2","url":"https://api.github.com/repos/hoplon/hoplon/commits/b7607bd7cf03ba04a0b5175aee7d90600042cae2"},"node_id":"MDM6UmVmMTAwODc5NzU6My4wLjA="},{"name":"2.1.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/2.1.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/2.1.0","commit":{"sha":"5bff5059567ee72e4494bed64298d8bfd5dbbe24","url":"https://api.github.com/repos/hoplon/hoplon/commits/5bff5059567ee72e4494bed64298d8bfd5dbbe24"},"node_id":"MDM6UmVmMTAwODc5NzU6Mi4xLjA="},{"name":"2.0.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/2.0.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/2.0.0","commit":{"sha":"081db103b9f45e546c02a72f89fe7bdbcb4f25f1","url":"https://api.github.com/repos/hoplon/hoplon/commits/081db103b9f45e546c02a72f89fe7bdbcb4f25f1"},"node_id":"MDM6UmVmMTAwODc5NzU6Mi4wLjA="},{"name":"1.1.4","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.4","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.4","commit":{"sha":"24b7e91bf3405f5649c34887c247c93a34fa8133","url":"https://api.github.com/repos/hoplon/hoplon/commits/24b7e91bf3405f5649c34887c247c93a34fa8133"},"node_id":"MDM6UmVmMTAwODc5NzU6MS4xLjQ="},{"name":"1.1.3","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.3","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.3","commit":{"sha":"6fb5925f6ec5088fa5805e438e1b2ab159eb4f89","url":"https://api.github.com/repos/hoplon/hoplon/commits/6fb5925f6ec5088fa5805e438e1b2ab159eb4f89"},"node_id":"MDM6UmVmMTAwODc5NzU6MS4xLjM="},{"name":"1.1.2","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.2","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.2","commit":{"sha":"93d30c01517cd6544dc680ae0fd9187b33b15643","url":"https://api.github.com/repos/hoplon/hoplon/commits/93d30c01517cd6544dc680ae0fd9187b33b15643"},"node_id":"MDM6UmVmMTAwODc5NzU6MS4xLjI="},{"name":"1.1.1","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/1.1.1","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/1.1.1","commit":{"sha":"52d909828a372bbb05dcd3f60e4dbd5f48e0e666","url":"https://api.github.com/repos/hoplon/hoplon/commits/52d909828a372bbb05dcd3f60e4dbd5f48e0e666"},"node_id":"MDM6UmVmMTAwODc5NzU6MS4xLjE="},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/hoplon/hoplon/zipball/0.1.0","tarball_url":"https://api.github.com/repos/hoplon/hoplon/tarball/0.1.0","commit":{"sha":"5beb7d52b6a6aa5d6f8f13511e0292487fe41ba0","url":"https://api.github.com/repos/hoplon/hoplon/commits/5beb7d52b6a6aa5d6f8f13511e0292487fe41ba0"},"node_id":"MDM6UmVmMTAwODc5NzU6MC4xLjA="}]
 0
 

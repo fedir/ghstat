@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:58:05 GMT
-Etag: W/"31a6d5a8e2474a70b272e1077004ed3b"
+Date: Sat, 09 Jun 2018 10:29:04 GMT
+Etag: W/"d117d28be4188fa07763fae07e61ba03"
 Link: <https://api.github.com/user/698255/followers?page=3>; rel="prev", <https://api.github.com/user/698255/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: DB06:4F3F:1AAFA0F:3FAF10F:5AF8446D
+X-Github-Request-Id: D8E0:57C4:242D470:51F7F30:5B1BABF0
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4227
-X-Ratelimit-Reset: 1526223470
-X-Runtime-Rack: 0.040286
+X-Ratelimit-Remaining: 4319
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.039460
 X-Xss-Protection: 1; mode=block
 
-6ed
-[{"login":"cor138","id":8066312,"avatar_url":"https://avatars3.githubusercontent.com/u/8066312?v=4","gravatar_id":"","url":"https://api.github.com/users/cor138","html_url":"https://github.com/cor138","followers_url":"https://api.github.com/users/cor138/followers","following_url":"https://api.github.com/users/cor138/following{/other_user}","gists_url":"https://api.github.com/users/cor138/gists{/gist_id}","starred_url":"https://api.github.com/users/cor138/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cor138/subscriptions","organizations_url":"https://api.github.com/users/cor138/orgs","repos_url":"https://api.github.com/users/cor138/repos","events_url":"https://api.github.com/users/cor138/events{/privacy}","received_events_url":"https://api.github.com/users/cor138/received_events","type":"User","site_admin":false},{"login":"louisgrasset","id":9489181,"avatar_url":"https://avatars2.githubusercontent.com/u/9489181?v=4","gravatar_id":"","url":"https://api.github.com/users/louisgrasset","html_url":"https://github.com/louisgrasset","followers_url":"https://api.github.com/users/louisgrasset/followers","following_url":"https://api.github.com/users/louisgrasset/following{/other_user}","gists_url":"https://api.github.com/users/louisgrasset/gists{/gist_id}","starred_url":"https://api.github.com/users/louisgrasset/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/louisgrasset/subscriptions","organizations_url":"https://api.github.com/users/louisgrasset/orgs","repos_url":"https://api.github.com/users/louisgrasset/repos","events_url":"https://api.github.com/users/louisgrasset/events{/privacy}","received_events_url":"https://api.github.com/users/louisgrasset/received_events","type":"User","site_admin":false}]
+72f
+[{"login":"cor138","id":8066312,"node_id":"MDQ6VXNlcjgwNjYzMTI=","avatar_url":"https://avatars3.githubusercontent.com/u/8066312?v=4","gravatar_id":"","url":"https://api.github.com/users/cor138","html_url":"https://github.com/cor138","followers_url":"https://api.github.com/users/cor138/followers","following_url":"https://api.github.com/users/cor138/following{/other_user}","gists_url":"https://api.github.com/users/cor138/gists{/gist_id}","starred_url":"https://api.github.com/users/cor138/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cor138/subscriptions","organizations_url":"https://api.github.com/users/cor138/orgs","repos_url":"https://api.github.com/users/cor138/repos","events_url":"https://api.github.com/users/cor138/events{/privacy}","received_events_url":"https://api.github.com/users/cor138/received_events","type":"User","site_admin":false},{"login":"louisgrasset","id":9489181,"node_id":"MDQ6VXNlcjk0ODkxODE=","avatar_url":"https://avatars2.githubusercontent.com/u/9489181?v=4","gravatar_id":"","url":"https://api.github.com/users/louisgrasset","html_url":"https://github.com/louisgrasset","followers_url":"https://api.github.com/users/louisgrasset/followers","following_url":"https://api.github.com/users/louisgrasset/following{/other_user}","gists_url":"https://api.github.com/users/louisgrasset/gists{/gist_id}","starred_url":"https://api.github.com/users/louisgrasset/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/louisgrasset/subscriptions","organizations_url":"https://api.github.com/users/louisgrasset/orgs","repos_url":"https://api.github.com/users/louisgrasset/repos","events_url":"https://api.github.com/users/louisgrasset/events{/privacy}","received_events_url":"https://api.github.com/users/louisgrasset/received_events","type":"User","site_admin":false}]
 0
 

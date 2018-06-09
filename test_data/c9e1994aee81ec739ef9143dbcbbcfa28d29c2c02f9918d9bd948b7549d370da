@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:56 GMT
+Etag: W/"f1d20e6eb129ef2f66359ef62cd9d93f"
+Link: <https://api.github.com/user/872310/followers?page=79>; rel="prev", <https://api.github.com/user/872310/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CCA4:57C6:2FE5A75:64EE157:5B1B8B18
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1693
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.109583
+X-Xss-Protection: 1; mode=block
+
+ab8
+[{"login":"yasuf","id":7065942,"node_id":"MDQ6VXNlcjcwNjU5NDI=","avatar_url":"https://avatars3.githubusercontent.com/u/7065942?v=4","gravatar_id":"","url":"https://api.github.com/users/yasuf","html_url":"https://github.com/yasuf","followers_url":"https://api.github.com/users/yasuf/followers","following_url":"https://api.github.com/users/yasuf/following{/other_user}","gists_url":"https://api.github.com/users/yasuf/gists{/gist_id}","starred_url":"https://api.github.com/users/yasuf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yasuf/subscriptions","organizations_url":"https://api.github.com/users/yasuf/orgs","repos_url":"https://api.github.com/users/yasuf/repos","events_url":"https://api.github.com/users/yasuf/events{/privacy}","received_events_url":"https://api.github.com/users/yasuf/received_events","type":"User","site_admin":false},{"login":"JairAviles","id":178258,"node_id":"MDQ6VXNlcjE3ODI1OA==","avatar_url":"https://avatars2.githubusercontent.com/u/178258?v=4","gravatar_id":"","url":"https://api.github.com/users/JairAviles","html_url":"https://github.com/JairAviles","followers_url":"https://api.github.com/users/JairAviles/followers","following_url":"https://api.github.com/users/JairAviles/following{/other_user}","gists_url":"https://api.github.com/users/JairAviles/gists{/gist_id}","starred_url":"https://api.github.com/users/JairAviles/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JairAviles/subscriptions","organizations_url":"https://api.github.com/users/JairAviles/orgs","repos_url":"https://api.github.com/users/JairAviles/repos","events_url":"https://api.github.com/users/JairAviles/events{/privacy}","received_events_url":"https://api.github.com/users/JairAviles/received_events","type":"User","site_admin":false},{"login":"rohitgupta3","id":9466432,"node_id":"MDQ6VXNlcjk0NjY0MzI=","avatar_url":"https://avatars0.githubusercontent.com/u/9466432?v=4","gravatar_id":"","url":"https://api.github.com/users/rohitgupta3","html_url":"https://github.com/rohitgupta3","followers_url":"https://api.github.com/users/rohitgupta3/followers","following_url":"https://api.github.com/users/rohitgupta3/following{/other_user}","gists_url":"https://api.github.com/users/rohitgupta3/gists{/gist_id}","starred_url":"https://api.github.com/users/rohitgupta3/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rohitgupta3/subscriptions","organizations_url":"https://api.github.com/users/rohitgupta3/orgs","repos_url":"https://api.github.com/users/rohitgupta3/repos","events_url":"https://api.github.com/users/rohitgupta3/events{/privacy}","received_events_url":"https://api.github.com/users/rohitgupta3/received_events","type":"User","site_admin":false}]
+0
+

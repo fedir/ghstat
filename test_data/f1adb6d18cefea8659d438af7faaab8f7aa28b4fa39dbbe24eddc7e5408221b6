@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:07:05 GMT
+Etag: W/"669e33dd63f82f777b18f8fcd7508ce9"
+Link: <https://api.github.com/user/1721820/followers?page=5>; rel="prev", <https://api.github.com/user/1721820/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CAA6:57C4:23BA583:50D217B:5B1B8AA9
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3282
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041642
+X-Xss-Protection: 1; mode=block
+
+3d4
+[{"login":"SuriyaaKudoIsc","id":5073946,"node_id":"MDQ6VXNlcjUwNzM5NDY=","avatar_url":"https://avatars2.githubusercontent.com/u/5073946?v=4","gravatar_id":"","url":"https://api.github.com/users/SuriyaaKudoIsc","html_url":"https://github.com/SuriyaaKudoIsc","followers_url":"https://api.github.com/users/SuriyaaKudoIsc/followers","following_url":"https://api.github.com/users/SuriyaaKudoIsc/following{/other_user}","gists_url":"https://api.github.com/users/SuriyaaKudoIsc/gists{/gist_id}","starred_url":"https://api.github.com/users/SuriyaaKudoIsc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SuriyaaKudoIsc/subscriptions","organizations_url":"https://api.github.com/users/SuriyaaKudoIsc/orgs","repos_url":"https://api.github.com/users/SuriyaaKudoIsc/repos","events_url":"https://api.github.com/users/SuriyaaKudoIsc/events{/privacy}","received_events_url":"https://api.github.com/users/SuriyaaKudoIsc/received_events","type":"User","site_admin":false}]
+0
+

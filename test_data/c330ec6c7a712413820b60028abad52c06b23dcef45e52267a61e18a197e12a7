@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:08 GMT
-Etag: W/"b41cee2ff97a36879a208ebd9cb65136"
-Last-Modified: Sat, 12 May 2018 15:45:10 GMT
+Date: Sat, 09 Jun 2018 08:06:29 GMT
+Etag: W/"2a56ba19aa8c26e18d4a5ab892c8e963"
+Last-Modified: Wed, 06 Jun 2018 20:10:37 GMT
 Link: <https://api.github.com/repositories/4081150/contributors?page=5>; rel="prev", <https://api.github.com/repositories/4081150/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB5B:4F42:44D99DD:8AB6D41:5AF8369C
+X-Github-Request-Id: CA0D:57C4:23B9EB2:50D0E21:5B1B8A85
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4054
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.060753
+X-Ratelimit-Remaining: 3657
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.084747
 X-Xss-Protection: 1; mode=block
 
-33f
-[{"login":"slr","id":554015,"avatar_url":"https://avatars3.githubusercontent.com/u/554015?v=4","gravatar_id":"","url":"https://api.github.com/users/slr","html_url":"https://github.com/slr","followers_url":"https://api.github.com/users/slr/followers","following_url":"https://api.github.com/users/slr/following{/other_user}","gists_url":"https://api.github.com/users/slr/gists{/gist_id}","starred_url":"https://api.github.com/users/slr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slr/subscriptions","organizations_url":"https://api.github.com/users/slr/orgs","repos_url":"https://api.github.com/users/slr/repos","events_url":"https://api.github.com/users/slr/events{/privacy}","received_events_url":"https://api.github.com/users/slr/received_events","type":"User","site_admin":false,"contributions":1}]
+360
+[{"login":"slr","id":554015,"node_id":"MDQ6VXNlcjU1NDAxNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/554015?v=4","gravatar_id":"","url":"https://api.github.com/users/slr","html_url":"https://github.com/slr","followers_url":"https://api.github.com/users/slr/followers","following_url":"https://api.github.com/users/slr/following{/other_user}","gists_url":"https://api.github.com/users/slr/gists{/gist_id}","starred_url":"https://api.github.com/users/slr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/slr/subscriptions","organizations_url":"https://api.github.com/users/slr/orgs","repos_url":"https://api.github.com/users/slr/repos","events_url":"https://api.github.com/users/slr/events{/privacy}","received_events_url":"https://api.github.com/users/slr/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

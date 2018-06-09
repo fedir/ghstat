@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:19 GMT
-Etag: W/"bc4773b42631cf18057bb7592cba3b02"
-Last-Modified: Fri, 11 May 2018 14:52:45 GMT
+Date: Sat, 09 Jun 2018 08:05:36 GMT
+Etag: W/"f7a5ba80fc0396e6c35edfd112fa3f0b"
+Last-Modified: Sat, 09 Jun 2018 04:05:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB97:4F41:35959CA:7503A04:5AF836A7
+X-Github-Request-Id: C97A:57C5:3727F89:7194259:5B1B8A50
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3883
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.032773
+X-Ratelimit-Remaining: 4154
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.032260
 X-Xss-Protection: 1; mode=block
 
 46
-{"Clojure":1780070,"CSS":12725,"HTML":2357,"Makefile":797,"Shell":302}
+{"Clojure":1782676,"CSS":12725,"HTML":2357,"Makefile":797,"Shell":302}
 0
 

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:10:59 GMT
+Etag: W/"39d8e50830c78458ee66fc802bc19ce5"
+Link: <https://api.github.com/user/5158436/followers?page=15>; rel="prev", <https://api.github.com/user/5158436/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE14:57C6:2FE7CC9:64F3798:5B1B8B93
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 917
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.041889
+X-Xss-Protection: 1; mode=block
+
+b42
+[{"login":"swapnilshrikhande","id":7020969,"node_id":"MDQ6VXNlcjcwMjA5Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/7020969?v=4","gravatar_id":"","url":"https://api.github.com/users/swapnilshrikhande","html_url":"https://github.com/swapnilshrikhande","followers_url":"https://api.github.com/users/swapnilshrikhande/followers","following_url":"https://api.github.com/users/swapnilshrikhande/following{/other_user}","gists_url":"https://api.github.com/users/swapnilshrikhande/gists{/gist_id}","starred_url":"https://api.github.com/users/swapnilshrikhande/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/swapnilshrikhande/subscriptions","organizations_url":"https://api.github.com/users/swapnilshrikhande/orgs","repos_url":"https://api.github.com/users/swapnilshrikhande/repos","events_url":"https://api.github.com/users/swapnilshrikhande/events{/privacy}","received_events_url":"https://api.github.com/users/swapnilshrikhande/received_events","type":"User","site_admin":false},{"login":"rezajebeli97","id":20621546,"node_id":"MDQ6VXNlcjIwNjIxNTQ2","avatar_url":"https://avatars1.githubusercontent.com/u/20621546?v=4","gravatar_id":"","url":"https://api.github.com/users/rezajebeli97","html_url":"https://github.com/rezajebeli97","followers_url":"https://api.github.com/users/rezajebeli97/followers","following_url":"https://api.github.com/users/rezajebeli97/following{/other_user}","gists_url":"https://api.github.com/users/rezajebeli97/gists{/gist_id}","starred_url":"https://api.github.com/users/rezajebeli97/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rezajebeli97/subscriptions","organizations_url":"https://api.github.com/users/rezajebeli97/orgs","repos_url":"https://api.github.com/users/rezajebeli97/repos","events_url":"https://api.github.com/users/rezajebeli97/events{/privacy}","received_events_url":"https://api.github.com/users/rezajebeli97/received_events","type":"User","site_admin":false},{"login":"HamidNE1","id":31789477,"node_id":"MDQ6VXNlcjMxNzg5NDc3","avatar_url":"https://avatars1.githubusercontent.com/u/31789477?v=4","gravatar_id":"","url":"https://api.github.com/users/HamidNE1","html_url":"https://github.com/HamidNE1","followers_url":"https://api.github.com/users/HamidNE1/followers","following_url":"https://api.github.com/users/HamidNE1/following{/other_user}","gists_url":"https://api.github.com/users/HamidNE1/gists{/gist_id}","starred_url":"https://api.github.com/users/HamidNE1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HamidNE1/subscriptions","organizations_url":"https://api.github.com/users/HamidNE1/orgs","repos_url":"https://api.github.com/users/HamidNE1/repos","events_url":"https://api.github.com/users/HamidNE1/events{/privacy}","received_events_url":"https://api.github.com/users/HamidNE1/received_events","type":"User","site_admin":false}]
+0
+

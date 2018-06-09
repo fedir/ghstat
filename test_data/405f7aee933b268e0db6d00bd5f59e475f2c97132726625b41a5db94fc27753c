@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:33 GMT
-Etag: W/"8722e3ff8762893cbe3eaf2d34b837e7"
-Last-Modified: Sun, 13 May 2018 06:01:19 GMT
+Date: Sat, 09 Jun 2018 08:07:40 GMT
+Etag: W/"1c1f3c73b90b7a88fc6081c14c2fce6d"
+Last-Modified: Tue, 05 Jun 2018 01:01:55 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CE24:4F3F:1A912E6:3F5EF36:5AF8372D
+X-Github-Request-Id: CB00:57C5:372C6DB:719C4CB:5B1B8ACC
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2212
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.045908
+X-Ratelimit-Remaining: 2865
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.044764
 X-Xss-Protection: 1; mode=block
 
-4e3
-{"login":"yogthos","id":121208,"avatar_url":"https://avatars1.githubusercontent.com/u/121208?v=4","gravatar_id":"","url":"https://api.github.com/users/yogthos","html_url":"https://github.com/yogthos","followers_url":"https://api.github.com/users/yogthos/followers","following_url":"https://api.github.com/users/yogthos/following{/other_user}","gists_url":"https://api.github.com/users/yogthos/gists{/gist_id}","starred_url":"https://api.github.com/users/yogthos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yogthos/subscriptions","organizations_url":"https://api.github.com/users/yogthos/orgs","repos_url":"https://api.github.com/users/yogthos/repos","events_url":"https://api.github.com/users/yogthos/events{/privacy}","received_events_url":"https://api.github.com/users/yogthos/received_events","type":"User","site_admin":false,"name":"Dmitri Sotnikov","company":"University Health Network","blog":"http://yogthos.net/","location":"Toronto, Canada","email":"dmitri.sotnikov@gmail.com","hireable":null,"bio":"Author of the Luminus framework and Web Development with Clojure book.","public_repos":155,"public_gists":45,"followers":608,"following":19,"created_at":"2009-08-30T19:58:38Z","updated_at":"2018-05-13T06:01:19Z"}
+504
+{"login":"yogthos","id":121208,"node_id":"MDQ6VXNlcjEyMTIwOA==","avatar_url":"https://avatars1.githubusercontent.com/u/121208?v=4","gravatar_id":"","url":"https://api.github.com/users/yogthos","html_url":"https://github.com/yogthos","followers_url":"https://api.github.com/users/yogthos/followers","following_url":"https://api.github.com/users/yogthos/following{/other_user}","gists_url":"https://api.github.com/users/yogthos/gists{/gist_id}","starred_url":"https://api.github.com/users/yogthos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yogthos/subscriptions","organizations_url":"https://api.github.com/users/yogthos/orgs","repos_url":"https://api.github.com/users/yogthos/repos","events_url":"https://api.github.com/users/yogthos/events{/privacy}","received_events_url":"https://api.github.com/users/yogthos/received_events","type":"User","site_admin":false,"name":"Dmitri Sotnikov","company":"University Health Network","blog":"http://yogthos.net/","location":"Toronto, Canada","email":"dmitri.sotnikov@gmail.com","hireable":null,"bio":"Author of the Luminus framework and Web Development with Clojure book.","public_repos":158,"public_gists":45,"followers":612,"following":19,"created_at":"2009-08-30T19:58:38Z","updated_at":"2018-06-05T01:01:55Z"}
 0
 

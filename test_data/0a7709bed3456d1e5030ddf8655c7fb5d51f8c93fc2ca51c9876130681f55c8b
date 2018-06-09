@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:00:07 GMT
-Etag: W/"2f88b16ed1344db4474d17cc0ac34a70"
+Date: Sat, 09 Jun 2018 10:28:59 GMT
+Etag: W/"cd055545919fdb0b756306586bd2ed3a"
 Last-Modified: Mon, 14 Aug 2017 19:09:39 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD41:4F42:44DC192:8ABBA15:5AF836D5
+X-Github-Request-Id: D841:57C5:384E333:73B9F26:5B1BABEB
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2903
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.034088
+X-Ratelimit-Remaining: 4756
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.039913
 X-Xss-Protection: 1; mode=block
 
-466
-{"login":"alphalemon","id":1242258,"avatar_url":"https://avatars0.githubusercontent.com/u/1242258?v=4","gravatar_id":"","url":"https://api.github.com/users/alphalemon","html_url":"https://github.com/alphalemon","followers_url":"https://api.github.com/users/alphalemon/followers","following_url":"https://api.github.com/users/alphalemon/following{/other_user}","gists_url":"https://api.github.com/users/alphalemon/gists{/gist_id}","starred_url":"https://api.github.com/users/alphalemon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alphalemon/subscriptions","organizations_url":"https://api.github.com/users/alphalemon/orgs","repos_url":"https://api.github.com/users/alphalemon/repos","events_url":"https://api.github.com/users/alphalemon/events{/privacy}","received_events_url":"https://api.github.com/users/alphalemon/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":47,"public_gists":0,"followers":27,"following":8,"created_at":"2011-12-05T16:53:58Z","updated_at":"2017-08-14T19:09:39Z"}
+487
+{"login":"alphalemon","id":1242258,"node_id":"MDQ6VXNlcjEyNDIyNTg=","avatar_url":"https://avatars0.githubusercontent.com/u/1242258?v=4","gravatar_id":"","url":"https://api.github.com/users/alphalemon","html_url":"https://github.com/alphalemon","followers_url":"https://api.github.com/users/alphalemon/followers","following_url":"https://api.github.com/users/alphalemon/following{/other_user}","gists_url":"https://api.github.com/users/alphalemon/gists{/gist_id}","starred_url":"https://api.github.com/users/alphalemon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alphalemon/subscriptions","organizations_url":"https://api.github.com/users/alphalemon/orgs","repos_url":"https://api.github.com/users/alphalemon/repos","events_url":"https://api.github.com/users/alphalemon/events{/privacy}","received_events_url":"https://api.github.com/users/alphalemon/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":47,"public_gists":0,"followers":27,"following":8,"created_at":"2011-12-05T16:53:58Z","updated_at":"2017-08-14T19:09:39Z"}
 0
 

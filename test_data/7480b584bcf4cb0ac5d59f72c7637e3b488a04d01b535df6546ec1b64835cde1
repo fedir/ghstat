@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:40 GMT
-Etag: W/"c0555755249f7ef7f6d3bfa365c0625a"
+Date: Sat, 09 Jun 2018 08:08:13 GMT
+Etag: W/"750772ac6118b873e770a35babaac2a0"
 Link: <https://api.github.com/user/211335/followers?page=4>; rel="prev", <https://api.github.com/user/211335/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFBD:4F41:35A0677:751DE89:5AF8385F
+X-Github-Request-Id: CB4C:57C5:372D8C1:719E420:5B1B8AED
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1781
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.030724
+X-Ratelimit-Remaining: 2594
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.040412
 X-Xss-Protection: 1; mode=block
 
-36d
-[{"login":"FeiyanLv","id":28261359,"avatar_url":"https://avatars0.githubusercontent.com/u/28261359?v=4","gravatar_id":"","url":"https://api.github.com/users/FeiyanLv","html_url":"https://github.com/FeiyanLv","followers_url":"https://api.github.com/users/FeiyanLv/followers","following_url":"https://api.github.com/users/FeiyanLv/following{/other_user}","gists_url":"https://api.github.com/users/FeiyanLv/gists{/gist_id}","starred_url":"https://api.github.com/users/FeiyanLv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FeiyanLv/subscriptions","organizations_url":"https://api.github.com/users/FeiyanLv/orgs","repos_url":"https://api.github.com/users/FeiyanLv/repos","events_url":"https://api.github.com/users/FeiyanLv/events{/privacy}","received_events_url":"https://api.github.com/users/FeiyanLv/received_events","type":"User","site_admin":false}]
+70d
+[{"login":"FeiyanLv","id":28261359,"node_id":"MDQ6VXNlcjI4MjYxMzU5","avatar_url":"https://avatars0.githubusercontent.com/u/28261359?v=4","gravatar_id":"","url":"https://api.github.com/users/FeiyanLv","html_url":"https://github.com/FeiyanLv","followers_url":"https://api.github.com/users/FeiyanLv/followers","following_url":"https://api.github.com/users/FeiyanLv/following{/other_user}","gists_url":"https://api.github.com/users/FeiyanLv/gists{/gist_id}","starred_url":"https://api.github.com/users/FeiyanLv/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FeiyanLv/subscriptions","organizations_url":"https://api.github.com/users/FeiyanLv/orgs","repos_url":"https://api.github.com/users/FeiyanLv/repos","events_url":"https://api.github.com/users/FeiyanLv/events{/privacy}","received_events_url":"https://api.github.com/users/FeiyanLv/received_events","type":"User","site_admin":false},{"login":"lmasikl","id":1556136,"node_id":"MDQ6VXNlcjE1NTYxMzY=","avatar_url":"https://avatars1.githubusercontent.com/u/1556136?v=4","gravatar_id":"","url":"https://api.github.com/users/lmasikl","html_url":"https://github.com/lmasikl","followers_url":"https://api.github.com/users/lmasikl/followers","following_url":"https://api.github.com/users/lmasikl/following{/other_user}","gists_url":"https://api.github.com/users/lmasikl/gists{/gist_id}","starred_url":"https://api.github.com/users/lmasikl/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lmasikl/subscriptions","organizations_url":"https://api.github.com/users/lmasikl/orgs","repos_url":"https://api.github.com/users/lmasikl/repos","events_url":"https://api.github.com/users/lmasikl/events{/privacy}","received_events_url":"https://api.github.com/users/lmasikl/received_events","type":"User","site_admin":false}]
 0
 

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 08:08:54 GMT
+Etag: W/"56b124ff302f8d0760a897261b4773db"
+Last-Modified: Fri, 26 Dec 2014 14:19:09 GMT
+Link: <https://api.github.com/repositories/28512514/commits?page=1>; rel="first", <https://api.github.com/repositories/28512514/commits?page=41>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CC3D:57C4:23BB93C:50D5627:5B1B8B15
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1742
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.068627
+X-Xss-Protection: 1; mode=block
+
+b61
+[{"sha":"731a052bbd3194d04a9e82807bffb7b98e2e01d6","node_id":"MDY6Q29tbWl0Mjg1MTI1MTQ6NzMxYTA1MmJiZDMxOTRkMDRhOWU4MjgwN2JmZmI3Yjk4ZTJlMDFkNg==","commit":{"author":{"name":"Samuel De Backer","email":"sdebacker@gmail.com","date":"2014-12-26T14:19:09Z"},"committer":{"name":"Samuel De Backer","email":"sdebacker@gmail.com","date":"2014-12-26T14:19:09Z"},"message":"init","tree":{"sha":"ddd5b2acef844240ec5037c79ec39da6a88bbba2","url":"https://api.github.com/repos/TypiCMS/Base/git/trees/ddd5b2acef844240ec5037c79ec39da6a88bbba2"},"url":"https://api.github.com/repos/TypiCMS/Base/git/commits/731a052bbd3194d04a9e82807bffb7b98e2e01d6","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/TypiCMS/Base/commits/731a052bbd3194d04a9e82807bffb7b98e2e01d6","html_url":"https://github.com/TypiCMS/Base/commit/731a052bbd3194d04a9e82807bffb7b98e2e01d6","comments_url":"https://api.github.com/repos/TypiCMS/Base/commits/731a052bbd3194d04a9e82807bffb7b98e2e01d6/comments","author":{"login":"sdebacker","id":134503,"node_id":"MDQ6VXNlcjEzNDUwMw==","avatar_url":"https://avatars1.githubusercontent.com/u/134503?v=4","gravatar_id":"","url":"https://api.github.com/users/sdebacker","html_url":"https://github.com/sdebacker","followers_url":"https://api.github.com/users/sdebacker/followers","following_url":"https://api.github.com/users/sdebacker/following{/other_user}","gists_url":"https://api.github.com/users/sdebacker/gists{/gist_id}","starred_url":"https://api.github.com/users/sdebacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sdebacker/subscriptions","organizations_url":"https://api.github.com/users/sdebacker/orgs","repos_url":"https://api.github.com/users/sdebacker/repos","events_url":"https://api.github.com/users/sdebacker/events{/privacy}","received_events_url":"https://api.github.com/users/sdebacker/received_events","type":"User","site_admin":false},"committer":{"login":"sdebacker","id":134503,"node_id":"MDQ6VXNlcjEzNDUwMw==","avatar_url":"https://avatars1.githubusercontent.com/u/134503?v=4","gravatar_id":"","url":"https://api.github.com/users/sdebacker","html_url":"https://github.com/sdebacker","followers_url":"https://api.github.com/users/sdebacker/followers","following_url":"https://api.github.com/users/sdebacker/following{/other_user}","gists_url":"https://api.github.com/users/sdebacker/gists{/gist_id}","starred_url":"https://api.github.com/users/sdebacker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sdebacker/subscriptions","organizations_url":"https://api.github.com/users/sdebacker/orgs","repos_url":"https://api.github.com/users/sdebacker/repos","events_url":"https://api.github.com/users/sdebacker/events{/privacy}","received_events_url":"https://api.github.com/users/sdebacker/received_events","type":"User","site_admin":false},"parents":[]}]
+0
+

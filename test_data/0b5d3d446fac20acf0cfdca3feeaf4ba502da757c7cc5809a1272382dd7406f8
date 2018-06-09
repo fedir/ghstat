@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:40 GMT
-Etag: W/"a3e52fa4edd89ecd56101c5337821c75"
+Date: Sat, 09 Jun 2018 08:08:14 GMT
+Etag: W/"0e907e5c0f478b984134f4f10b163095"
 Link: <https://api.github.com/user/1845377/followers?page=1>; rel="prev", <https://api.github.com/user/1845377/followers?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFBD:4F41:35A06A7:751DEEA:5AF83860
+X-Github-Request-Id: CB4C:57C5:372D8F8:719E485:5B1B8AED
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1768
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.079552
+X-Ratelimit-Remaining: 2585
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.027427
 X-Xss-Protection: 1; mode=block
 
-38f
-[{"login":"jmcabandara","id":1744817,"avatar_url":"https://avatars2.githubusercontent.com/u/1744817?v=4","gravatar_id":"","url":"https://api.github.com/users/jmcabandara","html_url":"https://github.com/jmcabandara","followers_url":"https://api.github.com/users/jmcabandara/followers","following_url":"https://api.github.com/users/jmcabandara/following{/other_user}","gists_url":"https://api.github.com/users/jmcabandara/gists{/gist_id}","starred_url":"https://api.github.com/users/jmcabandara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmcabandara/subscriptions","organizations_url":"https://api.github.com/users/jmcabandara/orgs","repos_url":"https://api.github.com/users/jmcabandara/repos","events_url":"https://api.github.com/users/jmcabandara/events{/privacy}","received_events_url":"https://api.github.com/users/jmcabandara/received_events","type":"User","site_admin":false}]
+3b0
+[{"login":"jmcabandara","id":1744817,"node_id":"MDQ6VXNlcjE3NDQ4MTc=","avatar_url":"https://avatars2.githubusercontent.com/u/1744817?v=4","gravatar_id":"","url":"https://api.github.com/users/jmcabandara","html_url":"https://github.com/jmcabandara","followers_url":"https://api.github.com/users/jmcabandara/followers","following_url":"https://api.github.com/users/jmcabandara/following{/other_user}","gists_url":"https://api.github.com/users/jmcabandara/gists{/gist_id}","starred_url":"https://api.github.com/users/jmcabandara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmcabandara/subscriptions","organizations_url":"https://api.github.com/users/jmcabandara/orgs","repos_url":"https://api.github.com/users/jmcabandara/repos","events_url":"https://api.github.com/users/jmcabandara/events{/privacy}","received_events_url":"https://api.github.com/users/jmcabandara/received_events","type":"User","site_admin":false}]
 0
 

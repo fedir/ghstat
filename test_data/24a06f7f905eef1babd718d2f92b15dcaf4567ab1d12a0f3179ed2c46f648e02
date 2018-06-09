@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:24 GMT
-Etag: W/"88e7a0715901601829d118d528cadd8f"
-Last-Modified: Fri, 11 May 2018 15:22:33 GMT
+Date: Sat, 09 Jun 2018 08:07:33 GMT
+Etag: W/"def82e3b0c4095b3e2f2b88686ce2826"
+Last-Modified: Fri, 08 Jun 2018 20:23:26 GMT
 Link: <https://api.github.com/repositories/12004006/tags?page=1>; rel="prev", <https://api.github.com/repositories/12004006/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CE10:4F42:44DF299:8AC1C5B:5AF83724
+X-Github-Request-Id: CAF8:57C5:372C3EF:719BF76:5B1B8AC5
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2267
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.030857
+X-Ratelimit-Remaining: 2905
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.037418
 X-Xss-Protection: 1; mode=block
 
-65f
-[{"name":"v0.3.1","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.3.1","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.3.1","commit":{"sha":"daa7219ede5feb53e134fe26df9cde03fbc6b700","url":"https://api.github.com/repos/hanami/hanami/commits/daa7219ede5feb53e134fe26df9cde03fbc6b700"}},{"name":"v0.3.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.3.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.3.0","commit":{"sha":"68d193eecb0f8308c0a610641816146c3f7506a7","url":"https://api.github.com/repos/hanami/hanami/commits/68d193eecb0f8308c0a610641816146c3f7506a7"}},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.2.1","commit":{"sha":"0695f6e15fb9363fb9d82628b09f8f30ec1917d5","url":"https://api.github.com/repos/hanami/hanami/commits/0695f6e15fb9363fb9d82628b09f8f30ec1917d5"}},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.2.0","commit":{"sha":"816f572eacd6da47e025179c4adbd5ee86068522","url":"https://api.github.com/repos/hanami/hanami/commits/816f572eacd6da47e025179c4adbd5ee86068522"}},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.1.0","commit":{"sha":"479159a9a5d52b5f5fd78018549f200280cb092d","url":"https://api.github.com/repos/hanami/hanami/commits/479159a9a5d52b5f5fd78018549f200280cb092d"}}]
+72c
+[{"name":"v0.3.1","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.3.1","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.3.1","commit":{"sha":"daa7219ede5feb53e134fe26df9cde03fbc6b700","url":"https://api.github.com/repos/hanami/hanami/commits/daa7219ede5feb53e134fe26df9cde03fbc6b700"},"node_id":"MDM6UmVmMTIwMDQwMDY6djAuMy4x"},{"name":"v0.3.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.3.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.3.0","commit":{"sha":"68d193eecb0f8308c0a610641816146c3f7506a7","url":"https://api.github.com/repos/hanami/hanami/commits/68d193eecb0f8308c0a610641816146c3f7506a7"},"node_id":"MDM6UmVmMTIwMDQwMDY6djAuMy4w"},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.2.1","commit":{"sha":"0695f6e15fb9363fb9d82628b09f8f30ec1917d5","url":"https://api.github.com/repos/hanami/hanami/commits/0695f6e15fb9363fb9d82628b09f8f30ec1917d5"},"node_id":"MDM6UmVmMTIwMDQwMDY6djAuMi4x"},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.2.0","commit":{"sha":"816f572eacd6da47e025179c4adbd5ee86068522","url":"https://api.github.com/repos/hanami/hanami/commits/816f572eacd6da47e025179c4adbd5ee86068522"},"node_id":"MDM6UmVmMTIwMDQwMDY6djAuMi4w"},{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/hanami/hanami/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/hanami/hanami/tarball/v0.1.0","commit":{"sha":"479159a9a5d52b5f5fd78018549f200280cb092d","url":"https://api.github.com/repos/hanami/hanami/commits/479159a9a5d52b5f5fd78018549f200280cb092d"},"node_id":"MDM6UmVmMTIwMDQwMDY6djAuMS4w"}]
 0
 

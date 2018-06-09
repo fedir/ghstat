@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:01:12 GMT
-Etag: W/"af97c3dca32b9ed1848c4e823a941939"
-Last-Modified: Sat, 12 May 2018 22:15:17 GMT
+Date: Sat, 09 Jun 2018 08:07:06 GMT
+Etag: W/"03084a3b613cfa42d9a70fc0adce5650"
+Last-Modified: Fri, 08 Jun 2018 08:02:09 GMT
 Link: <https://api.github.com/repositories/1381103/tags?page=1>; rel="prev", <https://api.github.com/repositories/1381103/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -18,15 +18,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CDE3:4F41:35988A6:750AD0D:5AF83717
+X-Github-Request-Id: CAAD:57C6:2FE3843:64E8EF8:5B1B8AAA
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2537
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.036560
+X-Ratelimit-Remaining: 3227
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.038473
 X-Xss-Protection: 1; mode=block
 
-519
-[{"name":"2.1b1","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1b1","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1b1","commit":{"sha":"ef7d6885f56e2be97826c4ec8e4e01b30b50668c","url":"https://api.github.com/repos/TurboGears/tg2/commits/ef7d6885f56e2be97826c4ec8e4e01b30b50668c"}},{"name":"2.1a3","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a3","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a3","commit":{"sha":"dda8994ed147bc009e2516d472abad99a110c790","url":"https://api.github.com/repos/TurboGears/tg2/commits/dda8994ed147bc009e2516d472abad99a110c790"}},{"name":"2.1a2","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a2","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a2","commit":{"sha":"c21de877364abb07a4ad48089683b1a69de29c91","url":"https://api.github.com/repos/TurboGears/tg2/commits/c21de877364abb07a4ad48089683b1a69de29c91"}},{"name":"2.1a1","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a1","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a1","commit":{"sha":"877b92d9def23f668b43b5f1a948b86210f53812","url":"https://api.github.com/repos/TurboGears/tg2/commits/877b92d9def23f668b43b5f1a948b86210f53812"}}]
+5bd
+[{"name":"2.1b1","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1b1","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1b1","commit":{"sha":"ef7d6885f56e2be97826c4ec8e4e01b30b50668c","url":"https://api.github.com/repos/TurboGears/tg2/commits/ef7d6885f56e2be97826c4ec8e4e01b30b50668c"},"node_id":"MDM6UmVmMTM4MTEwMzoyLjFiMQ=="},{"name":"2.1a3","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a3","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a3","commit":{"sha":"dda8994ed147bc009e2516d472abad99a110c790","url":"https://api.github.com/repos/TurboGears/tg2/commits/dda8994ed147bc009e2516d472abad99a110c790"},"node_id":"MDM6UmVmMTM4MTEwMzoyLjFhMw=="},{"name":"2.1a2","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a2","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a2","commit":{"sha":"c21de877364abb07a4ad48089683b1a69de29c91","url":"https://api.github.com/repos/TurboGears/tg2/commits/c21de877364abb07a4ad48089683b1a69de29c91"},"node_id":"MDM6UmVmMTM4MTEwMzoyLjFhMg=="},{"name":"2.1a1","zipball_url":"https://api.github.com/repos/TurboGears/tg2/zipball/2.1a1","tarball_url":"https://api.github.com/repos/TurboGears/tg2/tarball/2.1a1","commit":{"sha":"877b92d9def23f668b43b5f1a948b86210f53812","url":"https://api.github.com/repos/TurboGears/tg2/commits/877b92d9def23f668b43b5f1a948b86210f53812"},"node_id":"MDM6UmVmMTM4MTEwMzoyLjFhMQ=="}]
 0
 

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 09 Jun 2018 10:29:06 GMT
+Etag: W/"30a5834642c273f1cb5c3e0ae82c4399"
+Last-Modified: Fri, 08 Jun 2018 18:48:11 GMT
+Link: <https://api.github.com/repositories/1430051/tags?page=17>; rel="prev", <https://api.github.com/repositories/1430051/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D903:57C4:242D4FC:51F802D:5B1BABF1
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4225
+X-Ratelimit-Reset: 1528542506
+X-Runtime-Rack: 0.138644
+X-Xss-Protection: 1; mode=block
+
+a1f
+[{"name":"6.2.6","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.6","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.6","commit":{"sha":"a34edf6b58cd8d799a67fb20c1a67bff6aa374e9","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/a34edf6b58cd8d799a67fb20c1a67bff6aa374e9"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuNg=="},{"name":"6.2.5","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.5","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.5","commit":{"sha":"3eefe725197182b99f47db410aa5ccb313377ce0","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/3eefe725197182b99f47db410aa5ccb313377ce0"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuNQ=="},{"name":"6.2.4","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.4","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.4","commit":{"sha":"ebcf783994e4e6e17bc3058f87be5bd6c9b99d7c","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/ebcf783994e4e6e17bc3058f87be5bd6c9b99d7c"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuNA=="},{"name":"6.2.3","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.3","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.3","commit":{"sha":"30b091ae307f55581e7e1418891d0e81cf85ccee","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/30b091ae307f55581e7e1418891d0e81cf85ccee"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuMw=="},{"name":"6.2.2","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.2","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.2","commit":{"sha":"ad213706b90180e3fe3b16fbfc8e54cb49c3fd1f","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/ad213706b90180e3fe3b16fbfc8e54cb49c3fd1f"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuMg=="},{"name":"6.2.1","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.1","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.1","commit":{"sha":"4707e4237e657b5bf9b24d667abc955459bf01f4","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/4707e4237e657b5bf9b24d667abc955459bf01f4"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuMQ=="},{"name":"6.2.0","zipball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/6.2.0","tarball_url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/tarball/6.2.0","commit":{"sha":"4924c9e5e3188648b2b4f1dd8669b74b7ad61405","url":"https://api.github.com/repos/TYPO3/TYPO3.CMS/commits/4924c9e5e3188648b2b4f1dd8669b74b7ad61405"},"node_id":"MDM6UmVmMTQzMDA1MTo2LjIuMA=="}]
+0
+

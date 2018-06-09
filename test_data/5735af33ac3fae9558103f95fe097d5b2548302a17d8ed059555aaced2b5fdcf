@@ -5,9 +5,9 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:26 GMT
+Date: Sat, 09 Jun 2018 08:05:43 GMT
 Etag: "4e1f9b39340ab67ce188de1308586688"
-Last-Modified: Fri, 11 May 2018 15:56:10 GMT
+Last-Modified: Fri, 08 Jun 2018 23:42:50 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
@@ -17,12 +17,12 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBDB:4F41:3595C4C:750407F:5AF836AD
+X-Github-Request-Id: C9B2:57C6:2FE1916:64E46B0:5B1B8A57
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3738
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.031461
+X-Ratelimit-Remaining: 4008
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.029872
 X-Xss-Protection: 1; mode=block
 
 {"Rust":56497}

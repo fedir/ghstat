@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 12:59:05 GMT
-Etag: W/"1032031fd6298ae68864cc97b7c1a670"
+Date: Sat, 09 Jun 2018 08:06:26 GMT
+Etag: W/"b5fde2974851ef842a0bf84bd11ba975"
 Last-Modified: Sun, 08 Apr 2018 13:22:03 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB5C:4F3F:1A8F8CE:3F5A93E:5AF83698
+X-Github-Request-Id: CA08:57C6:2FE289D:64E6C64:5B1B8A82
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4101
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.038484
+X-Ratelimit-Remaining: 3703
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.030576
 X-Xss-Protection: 1; mode=block
 
-459
-{"login":"s-ludwig","id":1645969,"avatar_url":"https://avatars3.githubusercontent.com/u/1645969?v=4","gravatar_id":"","url":"https://api.github.com/users/s-ludwig","html_url":"https://github.com/s-ludwig","followers_url":"https://api.github.com/users/s-ludwig/followers","following_url":"https://api.github.com/users/s-ludwig/following{/other_user}","gists_url":"https://api.github.com/users/s-ludwig/gists{/gist_id}","starred_url":"https://api.github.com/users/s-ludwig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-ludwig/subscriptions","organizations_url":"https://api.github.com/users/s-ludwig/orgs","repos_url":"https://api.github.com/users/s-ludwig/repos","events_url":"https://api.github.com/users/s-ludwig/events{/privacy}","received_events_url":"https://api.github.com/users/s-ludwig/received_events","type":"User","site_admin":false,"name":"Sönke Ludwig","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":56,"public_gists":8,"followers":88,"following":0,"created_at":"2012-04-15T19:28:25Z","updated_at":"2018-04-08T13:22:03Z"}
+47a
+{"login":"s-ludwig","id":1645969,"node_id":"MDQ6VXNlcjE2NDU5Njk=","avatar_url":"https://avatars3.githubusercontent.com/u/1645969?v=4","gravatar_id":"","url":"https://api.github.com/users/s-ludwig","html_url":"https://github.com/s-ludwig","followers_url":"https://api.github.com/users/s-ludwig/followers","following_url":"https://api.github.com/users/s-ludwig/following{/other_user}","gists_url":"https://api.github.com/users/s-ludwig/gists{/gist_id}","starred_url":"https://api.github.com/users/s-ludwig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-ludwig/subscriptions","organizations_url":"https://api.github.com/users/s-ludwig/orgs","repos_url":"https://api.github.com/users/s-ludwig/repos","events_url":"https://api.github.com/users/s-ludwig/events{/privacy}","received_events_url":"https://api.github.com/users/s-ludwig/received_events","type":"User","site_admin":false,"name":"Sönke Ludwig","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":56,"public_gists":8,"followers":89,"following":0,"created_at":"2012-04-15T19:28:25Z","updated_at":"2018-04-08T13:22:03Z"}
 0
 

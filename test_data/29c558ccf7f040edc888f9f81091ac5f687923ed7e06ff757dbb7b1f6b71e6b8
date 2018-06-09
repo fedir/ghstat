@@ -5,8 +5,8 @@ Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimi
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sun, 13 May 2018 13:06:45 GMT
-Etag: W/"e0288d4bb52c88152aa35142e68a1f38"
+Date: Sat, 09 Jun 2018 08:08:19 GMT
+Etag: W/"e7314e7e078f4b03820c63d413793431"
 Last-Modified: Fri, 11 May 2018 09:29:02 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
@@ -17,15 +17,15 @@ X-Accepted-Oauth-Scopes:
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CFCC:4F42:44E9EA6:8AD8CE8:5AF83864
+X-Github-Request-Id: CB57:57C6:2FE5032:64EC79A:5B1B8AF3
 X-Oauth-Scopes: 
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1749
-X-Ratelimit-Reset: 1526219856
-X-Runtime-Rack: 0.039039
+X-Ratelimit-Remaining: 2554
+X-Ratelimit-Reset: 1528535081
+X-Runtime-Rack: 0.044439
 X-Xss-Protection: 1; mode=block
 
-49a
-{"login":"agrafix","id":1106569,"avatar_url":"https://avatars1.githubusercontent.com/u/1106569?v=4","gravatar_id":"","url":"https://api.github.com/users/agrafix","html_url":"https://github.com/agrafix","followers_url":"https://api.github.com/users/agrafix/followers","following_url":"https://api.github.com/users/agrafix/following{/other_user}","gists_url":"https://api.github.com/users/agrafix/gists{/gist_id}","starred_url":"https://api.github.com/users/agrafix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agrafix/subscriptions","organizations_url":"https://api.github.com/users/agrafix/orgs","repos_url":"https://api.github.com/users/agrafix/repos","events_url":"https://api.github.com/users/agrafix/events{/privacy}","received_events_url":"https://api.github.com/users/agrafix/received_events","type":"User","site_admin":false,"name":"Alexander Thiemann","company":"@stripe","blog":"https://www.athiemann.net","location":"San Francisco","email":"mail@athiemann.net","hireable":null,"bio":"Haskell Hacker","public_repos":130,"public_gists":11,"followers":124,"following":2,"created_at":"2011-10-06T03:44:42Z","updated_at":"2018-05-11T09:29:02Z"}
+4bb
+{"login":"agrafix","id":1106569,"node_id":"MDQ6VXNlcjExMDY1Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1106569?v=4","gravatar_id":"","url":"https://api.github.com/users/agrafix","html_url":"https://github.com/agrafix","followers_url":"https://api.github.com/users/agrafix/followers","following_url":"https://api.github.com/users/agrafix/following{/other_user}","gists_url":"https://api.github.com/users/agrafix/gists{/gist_id}","starred_url":"https://api.github.com/users/agrafix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agrafix/subscriptions","organizations_url":"https://api.github.com/users/agrafix/orgs","repos_url":"https://api.github.com/users/agrafix/repos","events_url":"https://api.github.com/users/agrafix/events{/privacy}","received_events_url":"https://api.github.com/users/agrafix/received_events","type":"User","site_admin":false,"name":"Alexander Thiemann","company":"@stripe","blog":"https://www.athiemann.net","location":"San Francisco","email":"mail@athiemann.net","hireable":null,"bio":"Haskell Hacker","public_repos":131,"public_gists":11,"followers":127,"following":2,"created_at":"2011-10-06T03:44:42Z","updated_at":"2018-05-11T09:29:02Z"}
 0
 
