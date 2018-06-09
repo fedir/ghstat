@@ -90,7 +90,7 @@
 * The project made by most notable top contributors is `phoenixframework/phoenix`
 * The project with best errors resolving rate is `AntonFagerberg/rackla`
 * The project with more commits by day is `phoenixframework/phoenix`
-* The project with the most active number of forkers is `sugar-framework/sugar`
+* The project with the most active number of forkers is `AgilionApps/relax`
 * The project with biggest number of returning contributors is `phoenixframework/phoenix`
 * The best project (taking in account placements in all competitions) is `phoenixframework/phoenix`
 
@@ -136,7 +136,7 @@
 * The project with biggest average contribution period is `hoplon/hoplon`
 * The project with more tags is `juxt/yada`
 * The project made by most notable top contributors is `fulcrologic/fulcro`
-* The project with best errors resolving rate is `fulcrologic/fulcro`
+* The project with best errors resolving rate is `weavejester/compojure`
 * The project with more commits by day is `fulcrologic/fulcro`
 * The project with the most active number of forkers is `fulcrologic/fulcro`
 * The project with biggest number of returning contributors is `pedestal/pedestal`
@@ -198,7 +198,7 @@
 * The newest project is `actix/actix-web`
 * The project with more commits is `actix/actix-web`
 * The project with biggest average contribution period is `sappworks/sapper`
-* The project with more tags is `SergioBenitez/Rocket`
+* The project with more tags is `actix/actix-web`
 * The project made by most notable top contributors is `iron/iron`
 * The project with best errors resolving rate is `Ogeon/rustful`
 * The project with more commits by day is `actix/actix-web`
@@ -328,9 +328,9 @@
 * The project with biggest average contribution period is `hypercube1024/firefly`
 * The project with more tags is `meteor/meteor`
 * The project made by most notable top contributors is `facebook/react`
-* The project with best errors resolving rate is `HerikLyma/CPPWebFramework`
+* The project with best errors resolving rate is `appwilldev/moochine`
 * The project with more commits by day is `rails/rails`
-* The project with the most active number of forkers is `vladfaust/prism`
+* The project with the most active number of forkers is `analogweb/analogweb-scala`
 * The project with biggest number of returning contributors is `rails/rails`
 * The best project (taking in account placements in all competitions) is `laravel/framework`
 
@@ -360,7 +360,7 @@
 * The project with biggest average contribution period is `liferay/liferay-portal`
 * The project with more tags is `apostrophecms/apostrophe`
 * The project made by most notable top contributors is `sulu/sulu-standard`
-* The project with best errors resolving rate is `TypiCMS/Base`
+* The project with best errors resolving rate is `redaxscript/redaxscript`
 * The project with more commits by day is `liferay/liferay-portal`
 * The project with the most active number of forkers is `Softmotions/ncms`
 * The project with biggest number of returning contributors is `liferay/liferay-portal`
@@ -392,7 +392,7 @@
 * The project with biggest average contribution period is `spip/SPIP`
 * The project with more tags is `TYPO3/TYPO3.CMS`
 * The project made by most notable top contributors is `sulu/sulu-standard`
-* The project with best errors resolving rate is `TypiCMS/Base`
+* The project with best errors resolving rate is `redaxscript/redaxscript`
 * The project with more commits by day is `concrete5/concrete5`
 * The project with the most active number of forkers is `spip/SPIP`
 * The project with biggest number of returning contributors is `joomla/joomla-cms`
