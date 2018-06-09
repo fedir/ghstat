@@ -34,7 +34,8 @@ var httpClient = &http.Client{Timeout: 10 * time.Second}
 
 const dumpBody = true
 
-func getFilename(url string) string {
+// GetFilename gets encoded filename for cache usage
+func GetFilename(url string) string {
 	encoder := sha256.New()
 	encoder.Write([]byte(url))
 	return hex.EncodeToString(encoder.Sum(nil))
@@ -84,6 +85,9 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 		log.Printf("%v\n%s", err, fullResp)
 	}
 	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		log.Printf("%v\n%s", err, resp.Body)
+	}
 	linkHeader := resp.Header.Get("Link")
 	return body, linkHeader, err
 }
@@ -94,7 +98,7 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 // Currently is was tested only for GET queries
 func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 	var fullResp []byte
-	filename := getFilename(url)
+	filename := GetFilename(url)
 	filepath := filename
 	if tmpFolder != "" {
 		filepath = tmpFolder + "/" + filename

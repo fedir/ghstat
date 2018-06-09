@@ -6,6 +6,7 @@ package github
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"regexp"
 	"strconv"
@@ -86,7 +87,14 @@ func GetUserFollowers(username string, tmpFolder string, debug bool) int {
 	var total int
 	url := "https://api.github.com/users/" + username + "/followers"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
-	jsonResponse, linkHeader, _ := httpcache.ReadResp(fullResp)
+	if len(fullResp) == 0 {
+		filename := httpcache.GetFilename(url)
+		fmt.Printf("Response for %s is empty, please check %s", url, filename)
+	}
+	jsonResponse, linkHeader, err := httpcache.ReadResp(fullResp)
+	if err != nil {
+		fmt.Printf("Problem recovering %s", url)
+	}
 	var compRegEx = regexp.MustCompile(regexpPageIndexes)
 	match := compRegEx.FindStringSubmatch(linkHeader)
 	nextPage := 0
