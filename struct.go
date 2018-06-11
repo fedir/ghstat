@@ -14,6 +14,7 @@ type Repository struct {
 	AuthorLocation                      string    `header:"Author's location"`
 	MainLanguage                        string    `header:"Main language"`
 	AllLanguages                        string    `header:"All used languages"`
+	Description                         string    `header:"Description"`
 	TotalCodeSize                       int       `header:"Total code size"`
 	License                             string    `header:"License"`
 	AuthorsFollowers                    int       `header:"Author's followers"`

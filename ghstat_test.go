@@ -117,14 +117,15 @@ var jsonResponse = `
 func TestParseRepositoryData(t *testing.T) {
 	repositoryDataExtracted := github.ParseRepositoryData([]byte(jsonResponse))
 	repositoryDataExpected := &github.Repository{
-		Name:       "beego",
-		FullName:   "astaxie/beego",
-		Watchers:   14391,
-		Forks:      3166,
-		OpenIssues: 448,
-		Language:   "Go",
-		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
-		HasIssues:  true,
+		Name:        "beego",
+		FullName:    "astaxie/beego",
+		Watchers:    14391,
+		Forks:       3166,
+		OpenIssues:  448,
+		Language:    "Go",
+		CreatedAt:   time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
+		HasIssues:   true,
+		Description: "beego is an open-source, high-performance web framework for the Go programming language.",
 	}
 	if !reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
 		fmt.Printf("%v", repositoryDataExtracted)
@@ -136,14 +137,15 @@ func TestParseRepositoryData(t *testing.T) {
 func TestParseRepositoryDataNegative(t *testing.T) {
 	repositoryDataExtracted := github.ParseRepositoryData([]byte(jsonResponse))
 	repositoryDataExpected := &github.Repository{
-		Name:       "beego",
-		FullName:   "astaxie/beego",
-		Watchers:   14391,
-		Forks:      3167,
-		OpenIssues: 448,
-		Language:   "Go",
-		CreatedAt:  time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
-		HasIssues:  true,
+		Name:        "beego",
+		FullName:    "astaxie/beego",
+		Watchers:    14391,
+		Forks:       3167,
+		OpenIssues:  448,
+		Language:    "Go",
+		CreatedAt:   time.Date(2012, 2, 29, 2, 32, 8, 0, time.UTC),
+		HasIssues:   true,
+		Description: "beego is an open-source, high-performance web framework for the Go programming language.",
 	}
 	if reflect.DeepEqual(repositoryDataExtracted, repositoryDataExpected) {
 		fmt.Printf("%v", repositoryDataExtracted)

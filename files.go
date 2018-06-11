@@ -55,6 +55,7 @@ func formatRepositoryDataForCSV(r Repository) []string {
 		fmt.Sprintf("%s", r.AuthorLocation),
 		fmt.Sprintf("%s", r.MainLanguage),
 		fmt.Sprintf("%s", r.AllLanguages),
+		fmt.Sprintf("%s", r.Description),
 		fmt.Sprintf("%d", r.TotalCodeSize),
 		fmt.Sprintf("%s", r.License),
 		fmt.Sprintf("%d", r.AuthorsFollowers),

@@ -17,15 +17,16 @@ import (
 
 // Repository structure with selcted data keys for JSON processing
 type Repository struct {
-	Name       string    `json:"name"`
-	FullName   string    `json:"full_name"`
-	Language   string    `json:"language"`
-	Watchers   int       `json:"watchers"`
-	Forks      int       `json:"forks"`
-	OpenIssues int       `json:"open_issues"`
-	CreatedAt  time.Time `json:"created_at"`
-	HasIssues  bool      `json:"has_issues"`
-	License    struct {
+	Name        string    `json:"name"`
+	FullName    string    `json:"full_name"`
+	Language    string    `json:"language"`
+	Description string    `json:"description"`
+	Watchers    int       `json:"watchers"`
+	Forks       int       `json:"forks"`
+	OpenIssues  int       `json:"open_issues"`
+	CreatedAt   time.Time `json:"created_at"`
+	HasIssues   bool      `json:"has_issues"`
+	License     struct {
 		SPDXID string `json:"spdx_id"`
 	} `json:"license"`
 }

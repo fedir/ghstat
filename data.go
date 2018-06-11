@@ -24,6 +24,7 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	r.URL = fmt.Sprintf("https://github.com/%s", r.Name)
 	r.MainLanguage = repositoryData.Language
 	r.AllLanguages, r.TotalCodeSize = github.GetRepositoryLanguages(rKey, tmpFolder, debug)
+	r.Description = repositoryData.Description
 	r.CreatedAt = repositoryData.CreatedAt
 	r.Age = int(time.Since(repositoryData.CreatedAt).Seconds() / 86400)
 	r.Watchers = repositoryData.Watchers
