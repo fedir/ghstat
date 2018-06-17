@@ -7,7 +7,7 @@ ktorio/ktor,TinyMission/kara,http4k/http4k,jean79/yested,wasabifx/wasabi,kohesiv
 analogweb/analogweb-scala,mesosphere/chaos,tumblr/colossus,twitter/finatra,lift/framework,dvarelap/peregrine,splink/pagelets,nafg/reactive,scalatra/scalatra,skinny-framework/skinny-framework,suzaku-io/suzaku,unfiltered/unfiltered,xitrum-framework/xitrum-new,outr/youi,ThoughtWorksInc/Binding.scala,UdashFramework/udash-core,widok/widok,\
 yesodweb/yesod,snapframework/snap-core,agrafix/Spock,transient-haskell/axiom,myfreeweb/magicbane,positiondev/fn,\
 leafo/lapis,sailorproject/sailor,keplerproject/orbit,luvit/luvit,Fizzadar/Luapress,kernelsauce/turbo,mongrel2/Tir,appwilldev/moochine,\
-playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,spring-projects/spring-framework,\
+playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,spring-projects/spring-framework,eclipse/vert.x,\
 angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,\
 expressjs/express,hexojs/hexo,hyperapp/hyperapp,MithrilJS/mithril.js,totaljs/framework,enyojs/enyo,microjs/microjs.com,nuxt/nuxt.js,riot/riot,\
 laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,nova-framework/framework,cakephp/cakephp,pradosoft/prado,phalcon/cphalcon,nette/nette,PHPixie/Project,slimphp/Slim,leocavalcante/siler,\

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 17 Jun 2018 21:01:47 GMT
+Etag: W/"fcdc8f9ee250bf914514e0473746352c"
+Last-Modified: Sat, 27 Feb 2016 03:54:47 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CD6F:7163:3B91541:79DDD51:5B26CC3A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4994
+X-Ratelimit-Reset: 1529272905
+X-Runtime-Rack: 0.032880
+X-Xss-Protection: 1; mode=block
+
+46d
+{"login":"denisroy","id":2522829,"node_id":"MDQ6VXNlcjI1MjI4Mjk=","avatar_url":"https://avatars0.githubusercontent.com/u/2522829?v=4","gravatar_id":"","url":"https://api.github.com/users/denisroy","html_url":"https://github.com/denisroy","followers_url":"https://api.github.com/users/denisroy/followers","following_url":"https://api.github.com/users/denisroy/following{/other_user}","gists_url":"https://api.github.com/users/denisroy/gists{/gist_id}","starred_url":"https://api.github.com/users/denisroy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/denisroy/subscriptions","organizations_url":"https://api.github.com/users/denisroy/orgs","repos_url":"https://api.github.com/users/denisroy/repos","events_url":"https://api.github.com/users/denisroy/events{/privacy}","received_events_url":"https://api.github.com/users/denisroy/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2012-10-09T20:01:11Z","updated_at":"2016-02-27T03:54:47Z"}
+0
+
