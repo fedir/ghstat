@@ -21,8 +21,10 @@ bash bin/java_frameworks.sh
 bash bin/groovy_frameworks.sh
 bash bin/js_frameworks.sh
 bash bin/php_frameworks.sh
+bash bin/perl_frameworks.sh
 bash bin/all_frameworks.sh
 bash bin/langs.sh
+bash bin/databases.sh
 # cms
 bash bin/all_cms.sh
 bash bin/js_cms.sh

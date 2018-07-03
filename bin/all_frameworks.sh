@@ -19,7 +19,8 @@ civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,HerikL
 amberframework/amber,kemalcr/kemal,jasonl99/lattice-core,luckyframework/lucky,vladfaust/prism,samueleaton/raze,spider-gazelle/spider-gazelle,amethyst-framework/amethyst,\
 gaelyk/gaelyk,kdabir/glide,javaConductor/gserv,grails/grails-core,\
 fukamachi/caveman,hargettp/hh-web,fukamachi/ningle,Shirakumo/radiance,eudoxia0/lucerne,joaotavora/snooze,\
-ipkn/crow,cutelyst/cutelyst,oktal/pistache,jlaine/qdjango,treefrogframework/treefrog-framework\
+ipkn/crow,cutelyst/cutelyst,oktal/pistache,jlaine/qdjango,treefrogframework/treefrog-framework,\
+kraih/mojo,perl-catalyst/catalyst-runtime,tokuhirom/Amon,PerlDancer/Dancer,PerlDancer/Dancer2\
  -f stats/all_frameworks.csv
  echo "[Detailed cross-language frameworks statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/all_frameworks.csv)"
  echo ""
