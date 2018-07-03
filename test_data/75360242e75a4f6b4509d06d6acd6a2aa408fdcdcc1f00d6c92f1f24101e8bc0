@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:49:52 GMT
+Etag: W/"765e5c9a191b91c6efb11cc37ed3326b"
+Last-Modified: Wed, 06 Jun 2018 09:04:02 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C21A:77E6:13BA5C9:2F17655:5B3AE450
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4650
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.037688
+X-Xss-Protection: 1; mode=block
+
+504
+{"login":"marcusramberg","id":5526,"node_id":"MDQ6VXNlcjU1MjY=","avatar_url":"https://avatars1.githubusercontent.com/u/5526?v=4","gravatar_id":"","url":"https://api.github.com/users/marcusramberg","html_url":"https://github.com/marcusramberg","followers_url":"https://api.github.com/users/marcusramberg/followers","following_url":"https://api.github.com/users/marcusramberg/following{/other_user}","gists_url":"https://api.github.com/users/marcusramberg/gists{/gist_id}","starred_url":"https://api.github.com/users/marcusramberg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/marcusramberg/subscriptions","organizations_url":"https://api.github.com/users/marcusramberg/orgs","repos_url":"https://api.github.com/users/marcusramberg/repos","events_url":"https://api.github.com/users/marcusramberg/events{/privacy}","received_events_url":"https://api.github.com/users/marcusramberg/received_events","type":"User","site_admin":false,"name":"Marcus Ramberg","company":"Nordaaker","blog":"http://marcus.nordaaker.com/","location":"Oslo, Norway","email":"marcus.ramberg@gmail.com","hireable":true,"bio":"Hack the planet.","public_repos":177,"public_gists":228,"followers":233,"following":181,"created_at":"2008-04-07T06:23:02Z","updated_at":"2018-06-06T09:04:02Z"}
+0
+

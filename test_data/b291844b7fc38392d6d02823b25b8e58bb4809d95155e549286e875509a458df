@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:49:57 GMT
+Etag: W/"14570cf119bace16f185ea1fe6350c5e"
+Last-Modified: Wed, 23 May 2018 08:40:12 GMT
+Link: <https://api.github.com/repositories/429657/contributors?page=1>; rel="prev", <https://api.github.com/repositories/429657/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C220:77E8:38368E5:6F8EFBE:5B3AE455
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4552
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.051327
+X-Xss-Protection: 1; mode=block
+
+36c
+[{"login":"wata","id":519695,"node_id":"MDQ6VXNlcjUxOTY5NQ==","avatar_url":"https://avatars1.githubusercontent.com/u/519695?v=4","gravatar_id":"","url":"https://api.github.com/users/wata","html_url":"https://github.com/wata","followers_url":"https://api.github.com/users/wata/followers","following_url":"https://api.github.com/users/wata/following{/other_user}","gists_url":"https://api.github.com/users/wata/gists{/gist_id}","starred_url":"https://api.github.com/users/wata/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wata/subscriptions","organizations_url":"https://api.github.com/users/wata/orgs","repos_url":"https://api.github.com/users/wata/repos","events_url":"https://api.github.com/users/wata/events{/privacy}","received_events_url":"https://api.github.com/users/wata/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:49:51 GMT
+Etag: W/"576bf5078a46ed78b5673526c131d6ad"
+Last-Modified: Wed, 23 May 2018 08:40:12 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: repo
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C218:77E6:13BA596:2F17601:5B3AE44F
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4668
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.058996
+X-Xss-Protection: 1; mode=block
+
+12b7
+{"id":429657,"node_id":"MDEwOlJlcG9zaXRvcnk0Mjk2NTc=","name":"Amon","full_name":"tokuhirom/Amon","owner":{"login":"tokuhirom","id":21084,"node_id":"MDQ6VXNlcjIxMDg0","avatar_url":"https://avatars3.githubusercontent.com/u/21084?v=4","gravatar_id":"","url":"https://api.github.com/users/tokuhirom","html_url":"https://github.com/tokuhirom","followers_url":"https://api.github.com/users/tokuhirom/followers","following_url":"https://api.github.com/users/tokuhirom/following{/other_user}","gists_url":"https://api.github.com/users/tokuhirom/gists{/gist_id}","starred_url":"https://api.github.com/users/tokuhirom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tokuhirom/subscriptions","organizations_url":"https://api.github.com/users/tokuhirom/orgs","repos_url":"https://api.github.com/users/tokuhirom/repos","events_url":"https://api.github.com/users/tokuhirom/events{/privacy}","received_events_url":"https://api.github.com/users/tokuhirom/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/tokuhirom/Amon","description":"yet another web application framework","fork":false,"url":"https://api.github.com/repos/tokuhirom/Amon","forks_url":"https://api.github.com/repos/tokuhirom/Amon/forks","keys_url":"https://api.github.com/repos/tokuhirom/Amon/keys{/key_id}","collaborators_url":"https://api.github.com/repos/tokuhirom/Amon/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/tokuhirom/Amon/teams","hooks_url":"https://api.github.com/repos/tokuhirom/Amon/hooks","issue_events_url":"https://api.github.com/repos/tokuhirom/Amon/issues/events{/number}","events_url":"https://api.github.com/repos/tokuhirom/Amon/events","assignees_url":"https://api.github.com/repos/tokuhirom/Amon/assignees{/user}","branches_url":"https://api.github.com/repos/tokuhirom/Amon/branches{/branch}","tags_url":"https://api.github.com/repos/tokuhirom/Amon/tags","blobs_url":"https://api.github.com/repos/tokuhirom/Amon/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/tokuhirom/Amon/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/tokuhirom/Amon/git/refs{/sha}","trees_url":"https://api.github.com/repos/tokuhirom/Amon/git/trees{/sha}","statuses_url":"https://api.github.com/repos/tokuhirom/Amon/statuses/{sha}","languages_url":"https://api.github.com/repos/tokuhirom/Amon/languages","stargazers_url":"https://api.github.com/repos/tokuhirom/Amon/stargazers","contributors_url":"https://api.github.com/repos/tokuhirom/Amon/contributors","subscribers_url":"https://api.github.com/repos/tokuhirom/Amon/subscribers","subscription_url":"https://api.github.com/repos/tokuhirom/Amon/subscription","commits_url":"https://api.github.com/repos/tokuhirom/Amon/commits{/sha}","git_commits_url":"https://api.github.com/repos/tokuhirom/Amon/git/commits{/sha}","comments_url":"https://api.github.com/repos/tokuhirom/Amon/comments{/number}","issue_comment_url":"https://api.github.com/repos/tokuhirom/Amon/issues/comments{/number}","contents_url":"https://api.github.com/repos/tokuhirom/Amon/contents/{+path}","compare_url":"https://api.github.com/repos/tokuhirom/Amon/compare/{base}...{head}","merges_url":"https://api.github.com/repos/tokuhirom/Amon/merges","archive_url":"https://api.github.com/repos/tokuhirom/Amon/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/tokuhirom/Amon/downloads","issues_url":"https://api.github.com/repos/tokuhirom/Amon/issues{/number}","pulls_url":"https://api.github.com/repos/tokuhirom/Amon/pulls{/number}","milestones_url":"https://api.github.com/repos/tokuhirom/Amon/milestones{/number}","notifications_url":"https://api.github.com/repos/tokuhirom/Amon/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/tokuhirom/Amon/labels{/name}","releases_url":"https://api.github.com/repos/tokuhirom/Amon/releases{/id}","deployments_url":"https://api.github.com/repos/tokuhirom/Amon/deployments","created_at":"2009-12-13T04:39:14Z","updated_at":"2018-05-23T08:40:12Z","pushed_at":"2018-04-02T17:53:00Z","git_url":"git://github.com/tokuhirom/Amon.git","ssh_url":"git@github.com:tokuhirom/Amon.git","clone_url":"https://github.com/tokuhirom/Amon.git","svn_url":"https://github.com/tokuhirom/Amon","homepage":"http://amon.64p.org/","size":3997,"stargazers_count":150,"watchers_count":150,"language":"Perl","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":43,"mirror_url":null,"archived":false,"open_issues_count":12,"license":{"key":"other","name":"Other","spdx_id":null,"url":null,"node_id":"MDc6TGljZW5zZTA="},"forks":43,"open_issues":12,"watchers":150,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true},"network_count":43,"subscribers_count":27}
+0
+

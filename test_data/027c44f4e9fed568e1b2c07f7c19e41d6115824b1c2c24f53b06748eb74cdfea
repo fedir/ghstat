@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:49:54 GMT
+Etag: W/"02dfb12a7d6d0fb4ed06091ea0d0f4b5"
+Link: <https://api.github.com/user/67652/followers?page=3>; rel="prev", <https://api.github.com/user/67652/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C21A:77E6:13BA60D:2F176EA:5B3AE452
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4619
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.046287
+X-Xss-Protection: 1; mode=block
+
+ac4
+[{"login":"facecoderuss","id":34912624,"node_id":"MDQ6VXNlcjM0OTEyNjI0","avatar_url":"https://avatars3.githubusercontent.com/u/34912624?v=4","gravatar_id":"","url":"https://api.github.com/users/facecoderuss","html_url":"https://github.com/facecoderuss","followers_url":"https://api.github.com/users/facecoderuss/followers","following_url":"https://api.github.com/users/facecoderuss/following{/other_user}","gists_url":"https://api.github.com/users/facecoderuss/gists{/gist_id}","starred_url":"https://api.github.com/users/facecoderuss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/facecoderuss/subscriptions","organizations_url":"https://api.github.com/users/facecoderuss/orgs","repos_url":"https://api.github.com/users/facecoderuss/repos","events_url":"https://api.github.com/users/facecoderuss/events{/privacy}","received_events_url":"https://api.github.com/users/facecoderuss/received_events","type":"User","site_admin":false},{"login":"alhashemi","id":100924,"node_id":"MDQ6VXNlcjEwMDkyNA==","avatar_url":"https://avatars1.githubusercontent.com/u/100924?v=4","gravatar_id":"","url":"https://api.github.com/users/alhashemi","html_url":"https://github.com/alhashemi","followers_url":"https://api.github.com/users/alhashemi/followers","following_url":"https://api.github.com/users/alhashemi/following{/other_user}","gists_url":"https://api.github.com/users/alhashemi/gists{/gist_id}","starred_url":"https://api.github.com/users/alhashemi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alhashemi/subscriptions","organizations_url":"https://api.github.com/users/alhashemi/orgs","repos_url":"https://api.github.com/users/alhashemi/repos","events_url":"https://api.github.com/users/alhashemi/events{/privacy}","received_events_url":"https://api.github.com/users/alhashemi/received_events","type":"User","site_admin":false},{"login":"zakame","id":110625,"node_id":"MDQ6VXNlcjExMDYyNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/110625?v=4","gravatar_id":"","url":"https://api.github.com/users/zakame","html_url":"https://github.com/zakame","followers_url":"https://api.github.com/users/zakame/followers","following_url":"https://api.github.com/users/zakame/following{/other_user}","gists_url":"https://api.github.com/users/zakame/gists{/gist_id}","starred_url":"https://api.github.com/users/zakame/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zakame/subscriptions","organizations_url":"https://api.github.com/users/zakame/orgs","repos_url":"https://api.github.com/users/zakame/repos","events_url":"https://api.github.com/users/zakame/events{/privacy}","received_events_url":"https://api.github.com/users/zakame/received_events","type":"User","site_admin":false}]
+0
+
