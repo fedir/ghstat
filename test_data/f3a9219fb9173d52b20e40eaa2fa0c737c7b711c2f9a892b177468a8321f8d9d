@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:33:21 GMT
+Etag: W/"187686a5343fd7bf3cda3752b6244d87"
+Last-Modified: Mon, 02 Jul 2018 20:24:03 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1A1:77E4:291D034:5BE191F:5B3AE071
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4982
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.042575
+X-Xss-Protection: 1; mode=block
+
+9a
+{"Erlang":3507205,"JavaScript":673866,"Python":231301,"C":68098,"Shell":39764,"Ruby":23957,"Makefile":14331,"PowerShell":8206,"C++":1090,"Batchfile":1078}
+0
+

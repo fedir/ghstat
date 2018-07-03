@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:33:21 GMT
+Etag: W/"3c2f4c6806a88a1a61126e6477590e70"
+Last-Modified: Mon, 02 Jul 2018 19:12:07 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C1A5:77E4:291D037:5BE1924:5B3AE071
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4980
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.030959
+X-Xss-Protection: 1; mode=block
+
+242
+{"C++":68355932,"C":27719563,"JavaScript":19154166,"Java":3976988,"CSS":2591387,"Perl":1304707,"PHP":1244894,"Objective-C":1083985,"Assembly":990471,"CMake":870330,"Yacc":524722,"HTML":379787,"Shell":377091,"PLpgSQL":291799,"Python":275134,"Pascal":120441,"Makefile":103664,"Roff":98536,"SourcePawn":91244,"GAP":68766,"SQLPL":67743,"XSLT":47380,"Perl 6":41424,"DTrace":19033,"ActionScript":17567,"Lex":14777,"PLSQL":10132,"Prolog":9512,"RPC":9440,"M4":9288,"Emacs Lisp":7798,"Awk":7722,"Batchfile":7655,"Vim script":3744,"POV-Ray SDL":2883,"AngelScript":2387,"Visual Basic":263}
+0
+

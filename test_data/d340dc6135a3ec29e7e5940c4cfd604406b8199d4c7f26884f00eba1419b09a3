@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 03 Jul 2018 02:33:22 GMT
+Etag: W/"50970601ac24f381c4a72ef3acb47f2b"
+Last-Modified: Mon, 16 Nov 2015 04:22:56 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C19B:77E8:3812C3C:6F498C2:5B3AE072
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4947
+X-Ratelimit-Reset: 1530588801
+X-Runtime-Rack: 0.035299
+X-Xss-Protection: 1; mode=block
+
+47b
+{"login":"scrappy","id":609712,"node_id":"MDQ6VXNlcjYwOTcxMg==","avatar_url":"https://avatars0.githubusercontent.com/u/609712?v=4","gravatar_id":"","url":"https://api.github.com/users/scrappy","html_url":"https://github.com/scrappy","followers_url":"https://api.github.com/users/scrappy/followers","following_url":"https://api.github.com/users/scrappy/following{/other_user}","gists_url":"https://api.github.com/users/scrappy/gists{/gist_id}","starred_url":"https://api.github.com/users/scrappy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/scrappy/subscriptions","organizations_url":"https://api.github.com/users/scrappy/orgs","repos_url":"https://api.github.com/users/scrappy/repos","events_url":"https://api.github.com/users/scrappy/events{/privacy}","received_events_url":"https://api.github.com/users/scrappy/received_events","type":"User","site_admin":false,"name":"Marc G. Fournier","company":null,"blog":"http://hub.org","location":null,"email":null,"hireable":null,"bio":null,"public_repos":1,"public_gists":0,"followers":2,"following":0,"created_at":"2011-02-09T22:11:39Z","updated_at":"2015-11-16T04:22:56Z"}
+0
+
