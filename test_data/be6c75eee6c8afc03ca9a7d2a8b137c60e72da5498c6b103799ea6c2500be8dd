@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Oct 2018 05:34:34 GMT
+Etag: W/"6316b674b4985bfc982008f448d5372c"
+Link: <https://api.github.com/user/43306/followers?page=1>; rel="prev", <https://api.github.com/user/43306/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C106:5142:23C5EF:4C64DF:5BBD8F6A
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4951
+X-Ratelimit-Reset: 1539153272
+X-Xss-Protection: 1; mode=block
+
+3d2
+[{"login":"saadullahsaeed","id":153781,"node_id":"MDQ6VXNlcjE1Mzc4MQ==","avatar_url":"https://avatars2.githubusercontent.com/u/153781?v=4","gravatar_id":"","url":"https://api.github.com/users/saadullahsaeed","html_url":"https://github.com/saadullahsaeed","followers_url":"https://api.github.com/users/saadullahsaeed/followers","following_url":"https://api.github.com/users/saadullahsaeed/following{/other_user}","gists_url":"https://api.github.com/users/saadullahsaeed/gists{/gist_id}","starred_url":"https://api.github.com/users/saadullahsaeed/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/saadullahsaeed/subscriptions","organizations_url":"https://api.github.com/users/saadullahsaeed/orgs","repos_url":"https://api.github.com/users/saadullahsaeed/repos","events_url":"https://api.github.com/users/saadullahsaeed/events{/privacy}","received_events_url":"https://api.github.com/users/saadullahsaeed/received_events","type":"User","site_admin":false}]
+0
+

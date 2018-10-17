@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Oct 2018 05:34:33 GMT
+Etag: W/"05e7d63abda2a5653c4febde569d1e38"
+Last-Modified: Mon, 24 Sep 2018 19:28:15 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C104:5142:23C59A:4C6445:5BBD8F69
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4971
+X-Ratelimit-Reset: 1539153272
+X-Xss-Protection: 1; mode=block
+
+4d8
+{"login":"jprobinson","id":1386065,"node_id":"MDQ6VXNlcjEzODYwNjU=","avatar_url":"https://avatars2.githubusercontent.com/u/1386065?v=4","gravatar_id":"","url":"https://api.github.com/users/jprobinson","html_url":"https://github.com/jprobinson","followers_url":"https://api.github.com/users/jprobinson/followers","following_url":"https://api.github.com/users/jprobinson/following{/other_user}","gists_url":"https://api.github.com/users/jprobinson/gists{/gist_id}","starred_url":"https://api.github.com/users/jprobinson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jprobinson/subscriptions","organizations_url":"https://api.github.com/users/jprobinson/orgs","repos_url":"https://api.github.com/users/jprobinson/repos","events_url":"https://api.github.com/users/jprobinson/events{/privacy}","received_events_url":"https://api.github.com/users/jprobinson/received_events","type":"User","site_admin":false,"name":"JP Robinson","company":"The New York Times","blog":"https://jprbnsn.com","location":"Brooklyn, NY","email":"john.paul.robinson@gmail.com","hireable":null,"bio":null,"public_repos":48,"public_gists":6,"followers":151,"following":1,"created_at":"2012-01-27T21:36:53Z","updated_at":"2018-09-24T19:28:15Z"}
+0
+

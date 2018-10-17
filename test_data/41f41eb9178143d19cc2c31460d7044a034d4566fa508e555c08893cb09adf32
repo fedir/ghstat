@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Oct 2018 05:37:10 GMT
+Etag: W/"f1a97fd0a8fbd060703d97ff81546cad"
+Last-Modified: Fri, 28 Sep 2018 23:05:54 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: C117:513D:E4916:25DB3F:5BBD9006
+X-Oauth-Scopes: 
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4891
+X-Ratelimit-Reset: 1539153272
+X-Xss-Protection: 1; mode=block
+
+510
+{"login":"peterbourgon","id":114509,"node_id":"MDQ6VXNlcjExNDUwOQ==","avatar_url":"https://avatars2.githubusercontent.com/u/114509?v=4","gravatar_id":"","url":"https://api.github.com/users/peterbourgon","html_url":"https://github.com/peterbourgon","followers_url":"https://api.github.com/users/peterbourgon/followers","following_url":"https://api.github.com/users/peterbourgon/following{/other_user}","gists_url":"https://api.github.com/users/peterbourgon/gists{/gist_id}","starred_url":"https://api.github.com/users/peterbourgon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/peterbourgon/subscriptions","organizations_url":"https://api.github.com/users/peterbourgon/orgs","repos_url":"https://api.github.com/users/peterbourgon/repos","events_url":"https://api.github.com/users/peterbourgon/events{/privacy}","received_events_url":"https://api.github.com/users/peterbourgon/received_events","type":"User","site_admin":false,"name":"Peter Bourgon","company":null,"blog":"https://peter.bourgon.org","location":"Berlin and San Francisco","email":null,"hireable":null,"bio":"The official GitHub account of Dwayne 'The Rock' Johnson","public_repos":46,"public_gists":21,"followers":1402,"following":0,"created_at":"2009-08-12T09:58:25Z","updated_at":"2018-09-28T23:05:54Z"}
+0
+
