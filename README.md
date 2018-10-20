@@ -10,6 +10,8 @@
 
 Statistical multi-criteria decision-making comparator for selected Github's projects.
 
+First of all You should generate a token for Your GitHub account: https://github.com/settings/tokens
+
 Usage example with statistics of Go open source web frameworks, maintained on Github :
 
     go build
