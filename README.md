@@ -10,6 +10,10 @@
 
 Statistical multi-criteria decision-making comparator for selected Github's projects.
 
+Project's overview was given on Open Source Summit Europe 2018 "Methodology of Multi-Criteria Comparison and Typology of Open Source Projects" - https://events.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf
+
+## Getting started
+
 First of all You should generate a token for Your GitHub account: https://github.com/settings/tokens
 
 Usage example with statistics of Go open source web frameworks, maintained on Github :
