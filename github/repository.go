@@ -38,7 +38,7 @@ type Tag struct {
 
 // GetRepositoryClosedIssues gets number of closed issues of a repository
 func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int {
-	url := "https://api.github.com/search/issues?q=repo:" + repoKey + "+type:issue+state:closed"
+	url := "https://api.github.com/search/issues?q=https://github.com/" + repoKey + "+type:issue+state:closed"
 	fullResp := httpcache.MakeCachedHTTPRequest(url, tmpFolder, debug)
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 	closedIssuesResult := gjson.Get(string(jsonResponse), "total_count")
