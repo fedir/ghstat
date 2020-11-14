@@ -16,12 +16,23 @@ Project's overview was given on Open Source Summit Europe 2018 "Methodology of M
 
 First of all You should generate a token for Your GitHub account: https://github.com/settings/tokens
 
+Select following scope: `repo` and all it's sub-scopes 
+
 Usage example with statistics of Go open source web frameworks, maintained on Github :
 
     go build
     mkdir tmp
     export GH_USR="your_gh_username" && export GH_PASS="your_gh_api_token"
     ./ghstat
+
+The project contains already some data received from Github API for local testing and debugging, but You could update it in the following way: 
+
+    ./ghstat --cc
+    bash bin/build_all.sh
+
+If You have timeouts, You could check the rate limit with :
+
+    ./ghstat -l
 
 Usage example to compare most famous JS frameworks
 
