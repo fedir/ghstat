@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:16 GMT
+Etag: W/"a7a08ebd993678e517c8b63d71ceb84225d1989e4aeb321a8b1435df8e963cbc"
+Last-Modified: Mon, 09 Nov 2020 09:18:32 GMT
+Link: <https://api.github.com/repositories/429657/contributors?page=1>; rel="prev", <https://api.github.com/repositories/429657/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D9:BA8A:234CFA7:2894794:5FB0473F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3926
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1074
+X-Xss-Protection: 1; mode=block
+
+707
+[{"login":"tokubass","id":615632,"node_id":"MDQ6VXNlcjYxNTYzMg==","avatar_url":"https://avatars3.githubusercontent.com/u/615632?v=4","gravatar_id":"","url":"https://api.github.com/users/tokubass","html_url":"https://github.com/tokubass","followers_url":"https://api.github.com/users/tokubass/followers","following_url":"https://api.github.com/users/tokubass/following{/other_user}","gists_url":"https://api.github.com/users/tokubass/gists{/gist_id}","starred_url":"https://api.github.com/users/tokubass/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tokubass/subscriptions","organizations_url":"https://api.github.com/users/tokubass/orgs","repos_url":"https://api.github.com/users/tokubass/repos","events_url":"https://api.github.com/users/tokubass/events{/privacy}","received_events_url":"https://api.github.com/users/tokubass/received_events","type":"User","site_admin":false,"contributions":1},{"login":"wata","id":519695,"node_id":"MDQ6VXNlcjUxOTY5NQ==","avatar_url":"https://avatars1.githubusercontent.com/u/519695?v=4","gravatar_id":"","url":"https://api.github.com/users/wata","html_url":"https://github.com/wata","followers_url":"https://api.github.com/users/wata/followers","following_url":"https://api.github.com/users/wata/following{/other_user}","gists_url":"https://api.github.com/users/wata/gists{/gist_id}","starred_url":"https://api.github.com/users/wata/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wata/subscriptions","organizations_url":"https://api.github.com/users/wata/orgs","repos_url":"https://api.github.com/users/wata/repos","events_url":"https://api.github.com/users/wata/events{/privacy}","received_events_url":"https://api.github.com/users/wata/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

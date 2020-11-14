@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"9cbbd53fa06d99bf05754e2cbfd0c1b148a69bee085665cf41deb356d2306fc5"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D938:5C52:22324A6:276337C:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3065
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1935
+X-Xss-Protection: 1; mode=block
+
+aa0
+[{"login":"tut-tuuut","id":1035145,"node_id":"MDQ6VXNlcjEwMzUxNDU=","avatar_url":"https://avatars0.githubusercontent.com/u/1035145?v=4","gravatar_id":"","url":"https://api.github.com/users/tut-tuuut","html_url":"https://github.com/tut-tuuut","followers_url":"https://api.github.com/users/tut-tuuut/followers","following_url":"https://api.github.com/users/tut-tuuut/following{/other_user}","gists_url":"https://api.github.com/users/tut-tuuut/gists{/gist_id}","starred_url":"https://api.github.com/users/tut-tuuut/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tut-tuuut/subscriptions","organizations_url":"https://api.github.com/users/tut-tuuut/orgs","repos_url":"https://api.github.com/users/tut-tuuut/repos","events_url":"https://api.github.com/users/tut-tuuut/events{/privacy}","received_events_url":"https://api.github.com/users/tut-tuuut/received_events","type":"User","site_admin":false},{"login":"Pierrinho","id":2307724,"node_id":"MDQ6VXNlcjIzMDc3MjQ=","avatar_url":"https://avatars1.githubusercontent.com/u/2307724?v=4","gravatar_id":"","url":"https://api.github.com/users/Pierrinho","html_url":"https://github.com/Pierrinho","followers_url":"https://api.github.com/users/Pierrinho/followers","following_url":"https://api.github.com/users/Pierrinho/following{/other_user}","gists_url":"https://api.github.com/users/Pierrinho/gists{/gist_id}","starred_url":"https://api.github.com/users/Pierrinho/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Pierrinho/subscriptions","organizations_url":"https://api.github.com/users/Pierrinho/orgs","repos_url":"https://api.github.com/users/Pierrinho/repos","events_url":"https://api.github.com/users/Pierrinho/events{/privacy}","received_events_url":"https://api.github.com/users/Pierrinho/received_events","type":"User","site_admin":false},{"login":"ounziw","id":531277,"node_id":"MDQ6VXNlcjUzMTI3Nw==","avatar_url":"https://avatars1.githubusercontent.com/u/531277?v=4","gravatar_id":"","url":"https://api.github.com/users/ounziw","html_url":"https://github.com/ounziw","followers_url":"https://api.github.com/users/ounziw/followers","following_url":"https://api.github.com/users/ounziw/following{/other_user}","gists_url":"https://api.github.com/users/ounziw/gists{/gist_id}","starred_url":"https://api.github.com/users/ounziw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ounziw/subscriptions","organizations_url":"https://api.github.com/users/ounziw/orgs","repos_url":"https://api.github.com/users/ounziw/repos","events_url":"https://api.github.com/users/ounziw/events{/privacy}","received_events_url":"https://api.github.com/users/ounziw/received_events","type":"User","site_admin":false}]
+0
+

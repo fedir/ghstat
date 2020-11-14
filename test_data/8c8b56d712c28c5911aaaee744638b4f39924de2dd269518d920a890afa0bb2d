@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:36 GMT
+Etag: W/"b125f6385527aa2eb9e6975158e228dd4dfaaf44e65e35d72d58e9482a8b059a"
+Link: <https://api.github.com/user/205451/followers?page=2>; rel="prev", <https://api.github.com/user/205451/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7F3:F078:3C6C132:45AC2DB:5FB046DC
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4991
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 9
+X-Xss-Protection: 1; mode=block
+
+b1a
+[{"login":"Mickelback00","id":1900081,"node_id":"MDQ6VXNlcjE5MDAwODE=","avatar_url":"https://avatars0.githubusercontent.com/u/1900081?v=4","gravatar_id":"","url":"https://api.github.com/users/Mickelback00","html_url":"https://github.com/Mickelback00","followers_url":"https://api.github.com/users/Mickelback00/followers","following_url":"https://api.github.com/users/Mickelback00/following{/other_user}","gists_url":"https://api.github.com/users/Mickelback00/gists{/gist_id}","starred_url":"https://api.github.com/users/Mickelback00/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mickelback00/subscriptions","organizations_url":"https://api.github.com/users/Mickelback00/orgs","repos_url":"https://api.github.com/users/Mickelback00/repos","events_url":"https://api.github.com/users/Mickelback00/events{/privacy}","received_events_url":"https://api.github.com/users/Mickelback00/received_events","type":"User","site_admin":false},{"login":"TristinDavis","id":1409068,"node_id":"MDQ6VXNlcjE0MDkwNjg=","avatar_url":"https://avatars2.githubusercontent.com/u/1409068?v=4","gravatar_id":"","url":"https://api.github.com/users/TristinDavis","html_url":"https://github.com/TristinDavis","followers_url":"https://api.github.com/users/TristinDavis/followers","following_url":"https://api.github.com/users/TristinDavis/following{/other_user}","gists_url":"https://api.github.com/users/TristinDavis/gists{/gist_id}","starred_url":"https://api.github.com/users/TristinDavis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TristinDavis/subscriptions","organizations_url":"https://api.github.com/users/TristinDavis/orgs","repos_url":"https://api.github.com/users/TristinDavis/repos","events_url":"https://api.github.com/users/TristinDavis/events{/privacy}","received_events_url":"https://api.github.com/users/TristinDavis/received_events","type":"User","site_admin":false},{"login":"gaurav9822","id":5204384,"node_id":"MDQ6VXNlcjUyMDQzODQ=","avatar_url":"https://avatars2.githubusercontent.com/u/5204384?v=4","gravatar_id":"","url":"https://api.github.com/users/gaurav9822","html_url":"https://github.com/gaurav9822","followers_url":"https://api.github.com/users/gaurav9822/followers","following_url":"https://api.github.com/users/gaurav9822/following{/other_user}","gists_url":"https://api.github.com/users/gaurav9822/gists{/gist_id}","starred_url":"https://api.github.com/users/gaurav9822/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gaurav9822/subscriptions","organizations_url":"https://api.github.com/users/gaurav9822/orgs","repos_url":"https://api.github.com/users/gaurav9822/repos","events_url":"https://api.github.com/users/gaurav9822/events{/privacy}","received_events_url":"https://api.github.com/users/gaurav9822/received_events","type":"User","site_admin":false}]
+0
+

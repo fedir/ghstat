@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:14 GMT
+Etag: W/"2712ab3f7276b363e6d855e07f033f7c00ea2009bbfc4ce3673f79ca4145a1fb"
+Link: <https://api.github.com/user/31283/followers?page=7>; rel="prev", <https://api.github.com/user/31283/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D8:BAD2:1FAED0B:248E4A0:5FB0473E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3944
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1056
+X-Xss-Protection: 1; mode=block
+
+acc
+[{"login":"Elatron","id":60034791,"node_id":"MDQ6VXNlcjYwMDM0Nzkx","avatar_url":"https://avatars1.githubusercontent.com/u/60034791?v=4","gravatar_id":"","url":"https://api.github.com/users/Elatron","html_url":"https://github.com/Elatron","followers_url":"https://api.github.com/users/Elatron/followers","following_url":"https://api.github.com/users/Elatron/following{/other_user}","gists_url":"https://api.github.com/users/Elatron/gists{/gist_id}","starred_url":"https://api.github.com/users/Elatron/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Elatron/subscriptions","organizations_url":"https://api.github.com/users/Elatron/orgs","repos_url":"https://api.github.com/users/Elatron/repos","events_url":"https://api.github.com/users/Elatron/events{/privacy}","received_events_url":"https://api.github.com/users/Elatron/received_events","type":"User","site_admin":false},{"login":"vladstarikov88","id":26491847,"node_id":"MDQ6VXNlcjI2NDkxODQ3","avatar_url":"https://avatars2.githubusercontent.com/u/26491847?v=4","gravatar_id":"","url":"https://api.github.com/users/vladstarikov88","html_url":"https://github.com/vladstarikov88","followers_url":"https://api.github.com/users/vladstarikov88/followers","following_url":"https://api.github.com/users/vladstarikov88/following{/other_user}","gists_url":"https://api.github.com/users/vladstarikov88/gists{/gist_id}","starred_url":"https://api.github.com/users/vladstarikov88/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladstarikov88/subscriptions","organizations_url":"https://api.github.com/users/vladstarikov88/orgs","repos_url":"https://api.github.com/users/vladstarikov88/repos","events_url":"https://api.github.com/users/vladstarikov88/events{/privacy}","received_events_url":"https://api.github.com/users/vladstarikov88/received_events","type":"User","site_admin":false},{"login":"Ilya33","id":14293380,"node_id":"MDQ6VXNlcjE0MjkzMzgw","avatar_url":"https://avatars0.githubusercontent.com/u/14293380?v=4","gravatar_id":"","url":"https://api.github.com/users/Ilya33","html_url":"https://github.com/Ilya33","followers_url":"https://api.github.com/users/Ilya33/followers","following_url":"https://api.github.com/users/Ilya33/following{/other_user}","gists_url":"https://api.github.com/users/Ilya33/gists{/gist_id}","starred_url":"https://api.github.com/users/Ilya33/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ilya33/subscriptions","organizations_url":"https://api.github.com/users/Ilya33/orgs","repos_url":"https://api.github.com/users/Ilya33/repos","events_url":"https://api.github.com/users/Ilya33/events{/privacy}","received_events_url":"https://api.github.com/users/Ilya33/received_events","type":"User","site_admin":false}]
+0
+

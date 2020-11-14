@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:11 GMT
+Etag: W/"be78e2421e342e30d8c6ff30b044bd9e617446c6fc37c3258ab8bc7f307f3ea5"
+Last-Modified: Sun, 18 Oct 2020 23:04:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D82F:F449:1E0A3A2:22BCB38:5FB046FF
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4350
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 650
+X-Xss-Protection: 1; mode=block
+
+acf
+[{"login":"dracony","id":3127080,"node_id":"MDQ6VXNlcjMxMjcwODA=","avatar_url":"https://avatars2.githubusercontent.com/u/3127080?v=4","gravatar_id":"","url":"https://api.github.com/users/dracony","html_url":"https://github.com/dracony","followers_url":"https://api.github.com/users/dracony/followers","following_url":"https://api.github.com/users/dracony/following{/other_user}","gists_url":"https://api.github.com/users/dracony/gists{/gist_id}","starred_url":"https://api.github.com/users/dracony/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dracony/subscriptions","organizations_url":"https://api.github.com/users/dracony/orgs","repos_url":"https://api.github.com/users/dracony/repos","events_url":"https://api.github.com/users/dracony/events{/privacy}","received_events_url":"https://api.github.com/users/dracony/received_events","type":"User","site_admin":false,"contributions":35},{"login":"dtan3847","id":26845645,"node_id":"MDQ6VXNlcjI2ODQ1NjQ1","avatar_url":"https://avatars0.githubusercontent.com/u/26845645?v=4","gravatar_id":"","url":"https://api.github.com/users/dtan3847","html_url":"https://github.com/dtan3847","followers_url":"https://api.github.com/users/dtan3847/followers","following_url":"https://api.github.com/users/dtan3847/following{/other_user}","gists_url":"https://api.github.com/users/dtan3847/gists{/gist_id}","starred_url":"https://api.github.com/users/dtan3847/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dtan3847/subscriptions","organizations_url":"https://api.github.com/users/dtan3847/orgs","repos_url":"https://api.github.com/users/dtan3847/repos","events_url":"https://api.github.com/users/dtan3847/events{/privacy}","received_events_url":"https://api.github.com/users/dtan3847/received_events","type":"User","site_admin":false,"contributions":1},{"login":"ftw-soft","id":3994510,"node_id":"MDQ6VXNlcjM5OTQ1MTA=","avatar_url":"https://avatars3.githubusercontent.com/u/3994510?v=4","gravatar_id":"","url":"https://api.github.com/users/ftw-soft","html_url":"https://github.com/ftw-soft","followers_url":"https://api.github.com/users/ftw-soft/followers","following_url":"https://api.github.com/users/ftw-soft/following{/other_user}","gists_url":"https://api.github.com/users/ftw-soft/gists{/gist_id}","starred_url":"https://api.github.com/users/ftw-soft/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ftw-soft/subscriptions","organizations_url":"https://api.github.com/users/ftw-soft/orgs","repos_url":"https://api.github.com/users/ftw-soft/repos","events_url":"https://api.github.com/users/ftw-soft/events{/privacy}","received_events_url":"https://api.github.com/users/ftw-soft/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

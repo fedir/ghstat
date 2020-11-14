@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"f34cd1293f85179af470746f083f69378442c46c3b216bade056d243ac977aa4"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D955:F44A:3E47646:47C0A32:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3312
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1688
+X-Xss-Protection: 1; mode=block
+
+3a6
+[{"login":"toannh0104","id":17583795,"node_id":"MDQ6VXNlcjE3NTgzNzk1","avatar_url":"https://avatars1.githubusercontent.com/u/17583795?v=4","gravatar_id":"","url":"https://api.github.com/users/toannh0104","html_url":"https://github.com/toannh0104","followers_url":"https://api.github.com/users/toannh0104/followers","following_url":"https://api.github.com/users/toannh0104/following{/other_user}","gists_url":"https://api.github.com/users/toannh0104/gists{/gist_id}","starred_url":"https://api.github.com/users/toannh0104/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/toannh0104/subscriptions","organizations_url":"https://api.github.com/users/toannh0104/orgs","repos_url":"https://api.github.com/users/toannh0104/repos","events_url":"https://api.github.com/users/toannh0104/events{/privacy}","received_events_url":"https://api.github.com/users/toannh0104/received_events","type":"User","site_admin":false}]
+0
+

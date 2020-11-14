@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:54 GMT
+Etag: W/"b50107f59753bfbd064c75186b563fe43012bbc5fe9b3f6420bb1ffb8bbfe726"
+Link: <https://api.github.com/user/1816457/followers?page=1>; rel="prev", <https://api.github.com/user/1816457/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D92E:E4B6:21150A8:261EAA7:5FB04766
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3417
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1583
+X-Xss-Protection: 1; mode=block
+
+733
+[{"login":"Adsidera","id":12894481,"node_id":"MDQ6VXNlcjEyODk0NDgx","avatar_url":"https://avatars1.githubusercontent.com/u/12894481?v=4","gravatar_id":"","url":"https://api.github.com/users/Adsidera","html_url":"https://github.com/Adsidera","followers_url":"https://api.github.com/users/Adsidera/followers","following_url":"https://api.github.com/users/Adsidera/following{/other_user}","gists_url":"https://api.github.com/users/Adsidera/gists{/gist_id}","starred_url":"https://api.github.com/users/Adsidera/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Adsidera/subscriptions","organizations_url":"https://api.github.com/users/Adsidera/orgs","repos_url":"https://api.github.com/users/Adsidera/repos","events_url":"https://api.github.com/users/Adsidera/events{/privacy}","received_events_url":"https://api.github.com/users/Adsidera/received_events","type":"User","site_admin":false},{"login":"rodolv1979","id":18237060,"node_id":"MDQ6VXNlcjE4MjM3MDYw","avatar_url":"https://avatars2.githubusercontent.com/u/18237060?v=4","gravatar_id":"","url":"https://api.github.com/users/rodolv1979","html_url":"https://github.com/rodolv1979","followers_url":"https://api.github.com/users/rodolv1979/followers","following_url":"https://api.github.com/users/rodolv1979/following{/other_user}","gists_url":"https://api.github.com/users/rodolv1979/gists{/gist_id}","starred_url":"https://api.github.com/users/rodolv1979/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rodolv1979/subscriptions","organizations_url":"https://api.github.com/users/rodolv1979/orgs","repos_url":"https://api.github.com/users/rodolv1979/repos","events_url":"https://api.github.com/users/rodolv1979/events{/privacy}","received_events_url":"https://api.github.com/users/rodolv1979/received_events","type":"User","site_admin":false}]
+0
+

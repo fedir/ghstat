@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:03 GMT
+Etag: W/"7aa39f9c094a5a237958b29992bc00764b97651213b2b5c16194b63f16240210"
+Link: <https://api.github.com/user/690815/followers?page=19>; rel="prev", <https://api.github.com/user/690815/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D80A:BA89:1066A31:12EA886:5FB046F7
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4487
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 513
+X-Xss-Protection: 1; mode=block
+
+b1c
+[{"login":"tauhidul0821","id":10520882,"node_id":"MDQ6VXNlcjEwNTIwODgy","avatar_url":"https://avatars3.githubusercontent.com/u/10520882?v=4","gravatar_id":"","url":"https://api.github.com/users/tauhidul0821","html_url":"https://github.com/tauhidul0821","followers_url":"https://api.github.com/users/tauhidul0821/followers","following_url":"https://api.github.com/users/tauhidul0821/following{/other_user}","gists_url":"https://api.github.com/users/tauhidul0821/gists{/gist_id}","starred_url":"https://api.github.com/users/tauhidul0821/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tauhidul0821/subscriptions","organizations_url":"https://api.github.com/users/tauhidul0821/orgs","repos_url":"https://api.github.com/users/tauhidul0821/repos","events_url":"https://api.github.com/users/tauhidul0821/events{/privacy}","received_events_url":"https://api.github.com/users/tauhidul0821/received_events","type":"User","site_admin":false},{"login":"thiruchelvam","id":6468389,"node_id":"MDQ6VXNlcjY0NjgzODk=","avatar_url":"https://avatars0.githubusercontent.com/u/6468389?v=4","gravatar_id":"","url":"https://api.github.com/users/thiruchelvam","html_url":"https://github.com/thiruchelvam","followers_url":"https://api.github.com/users/thiruchelvam/followers","following_url":"https://api.github.com/users/thiruchelvam/following{/other_user}","gists_url":"https://api.github.com/users/thiruchelvam/gists{/gist_id}","starred_url":"https://api.github.com/users/thiruchelvam/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thiruchelvam/subscriptions","organizations_url":"https://api.github.com/users/thiruchelvam/orgs","repos_url":"https://api.github.com/users/thiruchelvam/repos","events_url":"https://api.github.com/users/thiruchelvam/events{/privacy}","received_events_url":"https://api.github.com/users/thiruchelvam/received_events","type":"User","site_admin":false},{"login":"dixonsatit","id":1027274,"node_id":"MDQ6VXNlcjEwMjcyNzQ=","avatar_url":"https://avatars1.githubusercontent.com/u/1027274?v=4","gravatar_id":"","url":"https://api.github.com/users/dixonsatit","html_url":"https://github.com/dixonsatit","followers_url":"https://api.github.com/users/dixonsatit/followers","following_url":"https://api.github.com/users/dixonsatit/following{/other_user}","gists_url":"https://api.github.com/users/dixonsatit/gists{/gist_id}","starred_url":"https://api.github.com/users/dixonsatit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dixonsatit/subscriptions","organizations_url":"https://api.github.com/users/dixonsatit/orgs","repos_url":"https://api.github.com/users/dixonsatit/repos","events_url":"https://api.github.com/users/dixonsatit/events{/privacy}","received_events_url":"https://api.github.com/users/dixonsatit/received_events","type":"User","site_admin":false}]
+0
+

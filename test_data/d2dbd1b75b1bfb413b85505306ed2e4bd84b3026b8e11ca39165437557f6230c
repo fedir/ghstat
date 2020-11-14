@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:04 GMT
+Etag: W/"a2eab642b84800a5f4b93eb26ec95e742d4349870bb5e84d8b954cbfd2284536"
+Last-Modified: Sat, 14 Nov 2020 07:14:49 GMT
+Link: <https://api.github.com/repositories/79527893/tags?page=4>; rel="prev", <https://api.github.com/repositories/79527893/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D818:E4B7:3DF9B3E:478439B:5FB046F7
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4482
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 518
+X-Xss-Protection: 1; mode=block
+
+b06
+[{"name":"0.0.12","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.12","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.12","commit":{"sha":"88d6204fc215200fa2be73cd6c2593bc87e112ce","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/88d6204fc215200fa2be73cd6c2593bc87e112ce"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC4xMg=="},{"name":"0.0.11","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.11","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.11","commit":{"sha":"2d73e67204cdaed7c5f1750b8638a2ee109367b3","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/2d73e67204cdaed7c5f1750b8638a2ee109367b3"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC4xMQ=="},{"name":"0.0.10","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.10","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.10","commit":{"sha":"10d29152397276f2bf7149a24608c4d1d47a8660","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/10d29152397276f2bf7149a24608c4d1d47a8660"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC4xMA=="},{"name":"0.0.9","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.9","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.9","commit":{"sha":"02eb47adb27f0bb13c14c906a90841a158185545","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/02eb47adb27f0bb13c14c906a90841a158185545"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC45"},{"name":"0.0.8","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.8","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.8","commit":{"sha":"9091d8d2c542731c3cf7ac8de18bc0779fb8d1f7","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/9091d8d2c542731c3cf7ac8de18bc0779fb8d1f7"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC44"},{"name":"0.0.7","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.7","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.7","commit":{"sha":"6d0305415f9d3c3a47150dbd2d8996bb8e861c62","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/6d0305415f9d3c3a47150dbd2d8996bb8e861c62"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC43"},{"name":"0.0.6","zipball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/zipball/0.0.6","tarball_url":"https://api.github.com/repos/jorgebucaran/hyperapp/tarball/0.0.6","commit":{"sha":"34d0deb333109aeb437cac625688f1b36a77425e","url":"https://api.github.com/repos/jorgebucaran/hyperapp/commits/34d0deb333109aeb437cac625688f1b36a77425e"},"node_id":"MDM6UmVmNzk1Mjc4OTM6cmVmcy90YWdzLzAuMC42"}]
+0
+

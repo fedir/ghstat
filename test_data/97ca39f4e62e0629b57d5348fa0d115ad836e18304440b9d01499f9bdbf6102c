@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"32f6a3a255c2337b7a5b20abe87b0a883044042f81abaf91e67785944a62df9e"
+Last-Modified: Thu, 22 Oct 2020 13:20:55 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D914:E7C5:3A31BDC:4333E6C:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3550
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1450
+X-Xss-Protection: 1; mode=block
+
+573
+{"login":"nWidart","id":882397,"node_id":"MDQ6VXNlcjg4MjM5Nw==","avatar_url":"https://avatars3.githubusercontent.com/u/882397?v=4","gravatar_id":"","url":"https://api.github.com/users/nWidart","html_url":"https://github.com/nWidart","followers_url":"https://api.github.com/users/nWidart/followers","following_url":"https://api.github.com/users/nWidart/following{/other_user}","gists_url":"https://api.github.com/users/nWidart/gists{/gist_id}","starred_url":"https://api.github.com/users/nWidart/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nWidart/subscriptions","organizations_url":"https://api.github.com/users/nWidart/orgs","repos_url":"https://api.github.com/users/nWidart/repos","events_url":"https://api.github.com/users/nWidart/events{/privacy}","received_events_url":"https://api.github.com/users/nWidart/received_events","type":"User","site_admin":false,"name":"Nicolas Widart","company":"Freelance (available)","blog":"http://www.nicolaswidart.com","location":"Namur, Belgium","email":"n.widart@gmail.com","hireable":true,"bio":"Freelance developer & consultant. Laravel specialist. Spring fan. React and Vue user. Open-source advocate. New technologies geek. Apple fan. @AsgardCms creator","twitter_username":null,"public_repos":138,"public_gists":51,"followers":664,"following":191,"created_at":"2011-06-28T20:40:27Z","updated_at":"2020-10-22T13:20:55Z"}
+0
+

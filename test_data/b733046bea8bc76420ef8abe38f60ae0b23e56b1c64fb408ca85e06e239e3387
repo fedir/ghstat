@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:36 GMT
+Etag: W/"e306efe99cc4b345cac9ba0d56df54d48ecc850abb526c7c98a761fe029bd1eb"
+Last-Modified: Fri, 13 Nov 2020 14:20:57 GMT
+Link: <https://api.github.com/repositories/6293402/tags?page=9>; rel="prev", <https://api.github.com/repositories/6293402/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7FA:E4B7:3DF714B:478128D:5FB046DC
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4984
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 16
+X-Xss-Protection: 1; mode=block
+
+96b
+[{"name":"7.0.0.alpha2","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/7.0.0.alpha2","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/7.0.0.alpha2","commit":{"sha":"1bfd63b2b701232e6ade5d0c96ee91e25fd07cce","url":"https://api.github.com/repos/vaadin/framework/commits/1bfd63b2b701232e6ade5d0c96ee91e25fd07cce"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNy4wLjAuYWxwaGEy"},{"name":"7.0.0.alpha1","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/7.0.0.alpha1","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/7.0.0.alpha1","commit":{"sha":"d32c3d2921ed874baa29e333c3811e8cb85e474e","url":"https://api.github.com/repos/vaadin/framework/commits/d32c3d2921ed874baa29e333c3811e8cb85e474e"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNy4wLjAuYWxwaGEx"},{"name":"6.7.1","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/6.7.1","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/6.7.1","commit":{"sha":"af268923b0f39d5ab0ad7390c4fd03a6ea889ea0","url":"https://api.github.com/repos/vaadin/framework/commits/af268923b0f39d5ab0ad7390c4fd03a6ea889ea0"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNi43LjE="},{"name":"6.7.0","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/6.7.0","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/6.7.0","commit":{"sha":"25431eec2154486ea2b2f188d8623c4fead87d18","url":"https://api.github.com/repos/vaadin/framework/commits/25431eec2154486ea2b2f188d8623c4fead87d18"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNi43LjA="},{"name":"6.7.0.rc1","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/6.7.0.rc1","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/6.7.0.rc1","commit":{"sha":"dabb96c04cf2050c867dab9889f32ebec36bd021","url":"https://api.github.com/repos/vaadin/framework/commits/dabb96c04cf2050c867dab9889f32ebec36bd021"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNi43LjAucmMx"},{"name":"6.7.0.beta1","zipball_url":"https://api.github.com/repos/vaadin/framework/zipball/6.7.0.beta1","tarball_url":"https://api.github.com/repos/vaadin/framework/tarball/6.7.0.beta1","commit":{"sha":"c228a7c567ba7d3737a9fcb523a0cfe5cf39495b","url":"https://api.github.com/repos/vaadin/framework/commits/c228a7c567ba7d3737a9fcb523a0cfe5cf39495b"},"node_id":"MDM6UmVmNjI5MzQwMjpyZWZzL3RhZ3MvNi43LjAuYmV0YTE="}]
+0
+

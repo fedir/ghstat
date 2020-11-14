@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"57dcf6376df080d2ee9261c2bef6cc9218cd4ad4a29bce480b9e469e520e4f0d"
+Link: <https://api.github.com/user/312944/followers?page=5>; rel="prev", <https://api.github.com/user/312944/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D959:7085:DE0FCA:10092B8:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3136
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1864
+X-Xss-Protection: 1; mode=block
+
+eef
+[{"login":"gpsietzema","id":381017,"node_id":"MDQ6VXNlcjM4MTAxNw==","avatar_url":"https://avatars3.githubusercontent.com/u/381017?v=4","gravatar_id":"","url":"https://api.github.com/users/gpsietzema","html_url":"https://github.com/gpsietzema","followers_url":"https://api.github.com/users/gpsietzema/followers","following_url":"https://api.github.com/users/gpsietzema/following{/other_user}","gists_url":"https://api.github.com/users/gpsietzema/gists{/gist_id}","starred_url":"https://api.github.com/users/gpsietzema/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gpsietzema/subscriptions","organizations_url":"https://api.github.com/users/gpsietzema/orgs","repos_url":"https://api.github.com/users/gpsietzema/repos","events_url":"https://api.github.com/users/gpsietzema/events{/privacy}","received_events_url":"https://api.github.com/users/gpsietzema/received_events","type":"User","site_admin":false},{"login":"DetaliDigital","id":20732384,"node_id":"MDQ6VXNlcjIwNzMyMzg0","avatar_url":"https://avatars2.githubusercontent.com/u/20732384?v=4","gravatar_id":"","url":"https://api.github.com/users/DetaliDigital","html_url":"https://github.com/DetaliDigital","followers_url":"https://api.github.com/users/DetaliDigital/followers","following_url":"https://api.github.com/users/DetaliDigital/following{/other_user}","gists_url":"https://api.github.com/users/DetaliDigital/gists{/gist_id}","starred_url":"https://api.github.com/users/DetaliDigital/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DetaliDigital/subscriptions","organizations_url":"https://api.github.com/users/DetaliDigital/orgs","repos_url":"https://api.github.com/users/DetaliDigital/repos","events_url":"https://api.github.com/users/DetaliDigital/events{/privacy}","received_events_url":"https://api.github.com/users/DetaliDigital/received_events","type":"User","site_admin":false},{"login":"jlsjefferson","id":53836950,"node_id":"MDQ6VXNlcjUzODM2OTUw","avatar_url":"https://avatars3.githubusercontent.com/u/53836950?v=4","gravatar_id":"","url":"https://api.github.com/users/jlsjefferson","html_url":"https://github.com/jlsjefferson","followers_url":"https://api.github.com/users/jlsjefferson/followers","following_url":"https://api.github.com/users/jlsjefferson/following{/other_user}","gists_url":"https://api.github.com/users/jlsjefferson/gists{/gist_id}","starred_url":"https://api.github.com/users/jlsjefferson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jlsjefferson/subscriptions","organizations_url":"https://api.github.com/users/jlsjefferson/orgs","repos_url":"https://api.github.com/users/jlsjefferson/repos","events_url":"https://api.github.com/users/jlsjefferson/events{/privacy}","received_events_url":"https://api.github.com/users/jlsjefferson/received_events","type":"User","site_admin":false},{"login":"ricardosierra","id":5499444,"node_id":"MDQ6VXNlcjU0OTk0NDQ=","avatar_url":"https://avatars2.githubusercontent.com/u/5499444?v=4","gravatar_id":"","url":"https://api.github.com/users/ricardosierra","html_url":"https://github.com/ricardosierra","followers_url":"https://api.github.com/users/ricardosierra/followers","following_url":"https://api.github.com/users/ricardosierra/following{/other_user}","gists_url":"https://api.github.com/users/ricardosierra/gists{/gist_id}","starred_url":"https://api.github.com/users/ricardosierra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ricardosierra/subscriptions","organizations_url":"https://api.github.com/users/ricardosierra/orgs","repos_url":"https://api.github.com/users/ricardosierra/repos","events_url":"https://api.github.com/users/ricardosierra/events{/privacy}","received_events_url":"https://api.github.com/users/ricardosierra/received_events","type":"User","site_admin":false}]
+0
+

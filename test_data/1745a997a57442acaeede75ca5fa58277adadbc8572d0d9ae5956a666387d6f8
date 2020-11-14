@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:20 GMT
+Etag: W/"47f9db00f57cc3778d3104827209526fafecdd107eff223e27894dae8164fa58"
+Last-Modified: Thu, 12 Nov 2020 18:24:19 GMT
+Link: <https://api.github.com/repositories/100695/tags?page=14>; rel="prev", <https://api.github.com/repositories/100695/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D93D:F447:5D3EA1:6C395E:5FB0477F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2717
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2283
+X-Xss-Protection: 1; mode=block
+
+8bd
+[{"name":"4.0.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/4.0.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/4.0.0","commit":{"sha":"4ed747ef3d4e95ed2c5d4591fc0833ae8bec9f8e","url":"https://api.github.com/repos/drupal/drupal/commits/4ed747ef3d4e95ed2c5d4591fc0833ae8bec9f8e"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy80LjAuMA=="},{"name":"3.0.2","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.2","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.2","commit":{"sha":"5579113b78f48b980e768b33fd7f0c0127ed599c","url":"https://api.github.com/repos/drupal/drupal/commits/5579113b78f48b980e768b33fd7f0c0127ed599c"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy8zLjAuMg=="},{"name":"3.0.1","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.1","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.1","commit":{"sha":"690e60f030761e7016b2352ed18cc70899989156","url":"https://api.github.com/repos/drupal/drupal/commits/690e60f030761e7016b2352ed18cc70899989156"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy8zLjAuMQ=="},{"name":"3.0.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/3.0.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/3.0.0","commit":{"sha":"b5e551557b35914203c22a9ae4d99f29287d693b","url":"https://api.github.com/repos/drupal/drupal/commits/b5e551557b35914203c22a9ae4d99f29287d693b"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy8zLjAuMA=="},{"name":"2.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/2.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/2.0","commit":{"sha":"b156f83be82a64d3c4d2a215e47c6420f48a83e0","url":"https://api.github.com/repos/drupal/drupal/commits/b156f83be82a64d3c4d2a215e47c6420f48a83e0"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy8yLjA="},{"name":"1.0","zipball_url":"https://api.github.com/repos/drupal/drupal/zipball/1.0","tarball_url":"https://api.github.com/repos/drupal/drupal/tarball/1.0","commit":{"sha":"6e88265b1f5fd984c7bff8207e214982ec260e3e","url":"https://api.github.com/repos/drupal/drupal/commits/6e88265b1f5fd984c7bff8207e214982ec260e3e"},"node_id":"MDM6UmVmMTAwNjk1OnJlZnMvdGFncy8xLjA="}]
+0
+

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:59 GMT
+Etag: W/"5a9c5f2d7319d13aee87fef4ff25453096a157323b6958daf544ddc60ea63417"
+Last-Modified: Tue, 10 Nov 2020 16:24:21 GMT
+Link: <https://api.github.com/repositories/18726585/tags?page=14>; rel="prev", <https://api.github.com/repositories/18726585/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D5:E4B7:3DFED25:478A285:5FB0472E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4143
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 857
+X-Xss-Protection: 1; mode=block
+
+e97
+[{"name":"3.80.5","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.5","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.5","commit":{"sha":"c79838996c7cfe26548b65e8c318c9a758188ed1","url":"https://api.github.com/repos/nova-framework/framework/commits/c79838996c7cfe26548b65e8c318c9a758188ed1"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuNQ=="},{"name":"3.80.4","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.4","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.4","commit":{"sha":"10b3d45a4366d00b9716cda0fb4ef0d732ac7228","url":"https://api.github.com/repos/nova-framework/framework/commits/10b3d45a4366d00b9716cda0fb4ef0d732ac7228"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuNA=="},{"name":"3.80.3","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.3","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.3","commit":{"sha":"363406260da0dde600bfe77cc9ceb9c409b3810f","url":"https://api.github.com/repos/nova-framework/framework/commits/363406260da0dde600bfe77cc9ceb9c409b3810f"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuMw=="},{"name":"3.80.2","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.2","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.2","commit":{"sha":"25e97b1068f104ef79d486076c0fb380211ebbeb","url":"https://api.github.com/repos/nova-framework/framework/commits/25e97b1068f104ef79d486076c0fb380211ebbeb"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuMg=="},{"name":"3.80.1","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.1","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.1","commit":{"sha":"4d38a618d712454063be13c61b52f23b56776259","url":"https://api.github.com/repos/nova-framework/framework/commits/4d38a618d712454063be13c61b52f23b56776259"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuMQ=="},{"name":"3.80.0","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.80.0","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.80.0","commit":{"sha":"8559fa00b21b690934d593846902d7241603dcad","url":"https://api.github.com/repos/nova-framework/framework/commits/8559fa00b21b690934d593846902d7241603dcad"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuODAuMA=="},{"name":"3.77.10","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.77.10","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.77.10","commit":{"sha":"4c482a4518d9e57367aa891a2308227d2556184a","url":"https://api.github.com/repos/nova-framework/framework/commits/4c482a4518d9e57367aa891a2308227d2556184a"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuNzcuMTA="},{"name":"3.77.9","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/3.77.9","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/3.77.9","commit":{"sha":"b943ddd012aa58ad4c4c3a1367f74367484dd8fa","url":"https://api.github.com/repos/nova-framework/framework/commits/b943ddd012aa58ad4c4c3a1367f74367484dd8fa"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzMuNzcuOQ=="},{"name":"2.0","zipball_url":"https://api.github.com/repos/nova-framework/framework/zipball/2.0","tarball_url":"https://api.github.com/repos/nova-framework/framework/tarball/2.0","commit":{"sha":"aa12779f4ca5c34c3d48c1e7ee10eeba37ffc353","url":"https://api.github.com/repos/nova-framework/framework/commits/aa12779f4ca5c34c3d48c1e7ee10eeba37ffc353"},"node_id":"MDM6UmVmMTg3MjY1ODU6cmVmcy90YWdzLzIuMA=="}]
+0
+

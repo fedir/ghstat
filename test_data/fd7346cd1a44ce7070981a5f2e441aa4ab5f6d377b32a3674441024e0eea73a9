@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:12 GMT
+Etag: W/"451e0dde7d551f4b84987b22c78c0ff128618eefb88d04ddaf1ab2ce3870d943"
+Link: <https://api.github.com/user/42338/followers?page=11>; rel="prev", <https://api.github.com/user/42338/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8DC:78A2:21963CF:269FED1:5FB0473C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3985
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1015
+X-Xss-Protection: 1; mode=block
+
+aa8
+[{"login":"drconopoima","id":11354039,"node_id":"MDQ6VXNlcjExMzU0MDM5","avatar_url":"https://avatars2.githubusercontent.com/u/11354039?v=4","gravatar_id":"","url":"https://api.github.com/users/drconopoima","html_url":"https://github.com/drconopoima","followers_url":"https://api.github.com/users/drconopoima/followers","following_url":"https://api.github.com/users/drconopoima/following{/other_user}","gists_url":"https://api.github.com/users/drconopoima/gists{/gist_id}","starred_url":"https://api.github.com/users/drconopoima/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/drconopoima/subscriptions","organizations_url":"https://api.github.com/users/drconopoima/orgs","repos_url":"https://api.github.com/users/drconopoima/repos","events_url":"https://api.github.com/users/drconopoima/events{/privacy}","received_events_url":"https://api.github.com/users/drconopoima/received_events","type":"User","site_admin":false},{"login":"giuli007","id":39272329,"node_id":"MDQ6VXNlcjM5MjcyMzI5","avatar_url":"https://avatars3.githubusercontent.com/u/39272329?v=4","gravatar_id":"","url":"https://api.github.com/users/giuli007","html_url":"https://github.com/giuli007","followers_url":"https://api.github.com/users/giuli007/followers","following_url":"https://api.github.com/users/giuli007/following{/other_user}","gists_url":"https://api.github.com/users/giuli007/gists{/gist_id}","starred_url":"https://api.github.com/users/giuli007/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/giuli007/subscriptions","organizations_url":"https://api.github.com/users/giuli007/orgs","repos_url":"https://api.github.com/users/giuli007/repos","events_url":"https://api.github.com/users/giuli007/events{/privacy}","received_events_url":"https://api.github.com/users/giuli007/received_events","type":"User","site_admin":false},{"login":"aa153","id":16975604,"node_id":"MDQ6VXNlcjE2OTc1NjA0","avatar_url":"https://avatars1.githubusercontent.com/u/16975604?v=4","gravatar_id":"","url":"https://api.github.com/users/aa153","html_url":"https://github.com/aa153","followers_url":"https://api.github.com/users/aa153/followers","following_url":"https://api.github.com/users/aa153/following{/other_user}","gists_url":"https://api.github.com/users/aa153/gists{/gist_id}","starred_url":"https://api.github.com/users/aa153/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aa153/subscriptions","organizations_url":"https://api.github.com/users/aa153/orgs","repos_url":"https://api.github.com/users/aa153/repos","events_url":"https://api.github.com/users/aa153/events{/privacy}","received_events_url":"https://api.github.com/users/aa153/received_events","type":"User","site_admin":false}]
+0
+

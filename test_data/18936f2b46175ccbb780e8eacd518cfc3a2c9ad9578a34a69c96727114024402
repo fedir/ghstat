@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:33 GMT
+Etag: W/"e5259fb76cfe6065b3328ecadc8741a345a30db85877fcdff1123b53d9f213bd"
+Last-Modified: Sat, 14 Nov 2020 20:22:04 GMT
+Link: <https://api.github.com/repositories/714074/tags?page=2>; rel="prev", <https://api.github.com/repositories/714074/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E6:7086:2071CBA:25616ED:5FB04751
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3664
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1336
+X-Xss-Protection: 1; mode=block
+
+14eb
+[{"name":"2.2.3","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.2.3","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.2.3","commit":{"sha":"d957823b67ec9af25b8ebfbd7b45942d59c09c10","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/d957823b67ec9af25b8ebfbd7b45942d59c09c10"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjIuMw=="},{"name":"2.2.2","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.2.2","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.2.2","commit":{"sha":"446952338e916b26009c2e06a56e0b95c92875c3","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/446952338e916b26009c2e06a56e0b95c92875c3"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjIuMg=="},{"name":"2.2.1","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.2.1","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.2.1","commit":{"sha":"3a5d9bdbb43de27b946e164f1610e176ba069d4a","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/3a5d9bdbb43de27b946e164f1610e176ba069d4a"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjIuMQ=="},{"name":"2.2.0","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.2.0","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.2.0","commit":{"sha":"d92251b35deec779d7e2ed794c5299c62bd69578","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/d92251b35deec779d7e2ed794c5299c62bd69578"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjIuMA=="},{"name":"2.1.2","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.1.2","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.1.2","commit":{"sha":"3541c91edbc18f984633c9392f574bef9da39a75","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/3541c91edbc18f984633c9392f574bef9da39a75"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjEuMg=="},{"name":"2.1.1","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.1.1","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.1.1","commit":{"sha":"21eda99d1165a92821c0c1c8bb0183fa3d08799b","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/21eda99d1165a92821c0c1c8bb0183fa3d08799b"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjEuMQ=="},{"name":"2.1.0","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.1.0","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.1.0","commit":{"sha":"3dce98b84d70842df9d5201e7571c9bb32cb70c3","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/3dce98b84d70842df9d5201e7571c9bb32cb70c3"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjEuMA=="},{"name":"2.0.2","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.0.2","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.0.2","commit":{"sha":"564feaa178b4ef554fa0e589855aed7bb13ed3a9","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/564feaa178b4ef554fa0e589855aed7bb13ed3a9"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjAuMg=="},{"name":"2.0.1","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.0.1","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.0.1","commit":{"sha":"ba63b7ff1d5cb71083bac33f747b329b06d294c7","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/ba63b7ff1d5cb71083bac33f747b329b06d294c7"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjAuMQ=="},{"name":"2.0.0","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/2.0.0","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/2.0.0","commit":{"sha":"8c060d7e1f6d41238242c2fe337866b5ca02ebe0","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/8c060d7e1f6d41238242c2fe337866b5ca02ebe0"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8yLjAuMA=="},{"name":"1.1.0","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/1.1.0","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/1.1.0","commit":{"sha":"fc6b2a726f3dd4c8bef53dae4b08dcfa32565a6e","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/fc6b2a726f3dd4c8bef53dae4b08dcfa32565a6e"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8xLjEuMA=="},{"name":"1.0.0","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/1.0.0","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/1.0.0","commit":{"sha":"b11551fb9b84b61fa09cc2ff73114e1c9dcbef95","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/b11551fb9b84b61fa09cc2ff73114e1c9dcbef95"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8xLjAuMA=="},{"name":"0.0.18","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/0.0.18","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/0.0.18","commit":{"sha":"92ab601527ccb76aa14735885552c99c639a87bf","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/92ab601527ccb76aa14735885552c99c639a87bf"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8wLjAuMTg="},{"name":"0.0.17","zipball_url":"https://api.github.com/repos/pouchdb/pouchdb/zipball/0.0.17","tarball_url":"https://api.github.com/repos/pouchdb/pouchdb/tarball/0.0.17","commit":{"sha":"5ae0b89367d15dc0f367c2a264d8279efe166b39","url":"https://api.github.com/repos/pouchdb/pouchdb/commits/5ae0b89367d15dc0f367c2a264d8279efe166b39"},"node_id":"MDM6UmVmNzE0MDc0OnJlZnMvdGFncy8wLjAuMTc="}]
+0
+

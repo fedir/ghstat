@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:02 GMT
+Etag: W/"92523ba641981031fa49033eb47c46b136d9aadaa995bebbf8f724c45839582a"
+Link: <https://api.github.com/user/664177/followers?page=81>; rel="prev", <https://api.github.com/user/664177/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81F:E4B6:2110BEC:261993E:5FB046F6
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4574
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 426
+X-Xss-Protection: 1; mode=block
+
+ac0
+[{"login":"datikken","id":29810411,"node_id":"MDQ6VXNlcjI5ODEwNDEx","avatar_url":"https://avatars3.githubusercontent.com/u/29810411?v=4","gravatar_id":"","url":"https://api.github.com/users/datikken","html_url":"https://github.com/datikken","followers_url":"https://api.github.com/users/datikken/followers","following_url":"https://api.github.com/users/datikken/following{/other_user}","gists_url":"https://api.github.com/users/datikken/gists{/gist_id}","starred_url":"https://api.github.com/users/datikken/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/datikken/subscriptions","organizations_url":"https://api.github.com/users/datikken/orgs","repos_url":"https://api.github.com/users/datikken/repos","events_url":"https://api.github.com/users/datikken/events{/privacy}","received_events_url":"https://api.github.com/users/datikken/received_events","type":"User","site_admin":false},{"login":"Manar-Moh","id":57074978,"node_id":"MDQ6VXNlcjU3MDc0OTc4","avatar_url":"https://avatars2.githubusercontent.com/u/57074978?v=4","gravatar_id":"","url":"https://api.github.com/users/Manar-Moh","html_url":"https://github.com/Manar-Moh","followers_url":"https://api.github.com/users/Manar-Moh/followers","following_url":"https://api.github.com/users/Manar-Moh/following{/other_user}","gists_url":"https://api.github.com/users/Manar-Moh/gists{/gist_id}","starred_url":"https://api.github.com/users/Manar-Moh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Manar-Moh/subscriptions","organizations_url":"https://api.github.com/users/Manar-Moh/orgs","repos_url":"https://api.github.com/users/Manar-Moh/repos","events_url":"https://api.github.com/users/Manar-Moh/events{/privacy}","received_events_url":"https://api.github.com/users/Manar-Moh/received_events","type":"User","site_admin":false},{"login":"Almazatun","id":50825098,"node_id":"MDQ6VXNlcjUwODI1MDk4","avatar_url":"https://avatars3.githubusercontent.com/u/50825098?v=4","gravatar_id":"","url":"https://api.github.com/users/Almazatun","html_url":"https://github.com/Almazatun","followers_url":"https://api.github.com/users/Almazatun/followers","following_url":"https://api.github.com/users/Almazatun/following{/other_user}","gists_url":"https://api.github.com/users/Almazatun/gists{/gist_id}","starred_url":"https://api.github.com/users/Almazatun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Almazatun/subscriptions","organizations_url":"https://api.github.com/users/Almazatun/orgs","repos_url":"https://api.github.com/users/Almazatun/repos","events_url":"https://api.github.com/users/Almazatun/events{/privacy}","received_events_url":"https://api.github.com/users/Almazatun/received_events","type":"User","site_admin":false}]
+0
+

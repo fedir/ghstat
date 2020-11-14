@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:36 GMT
+Etag: W/"960e7287e7c97afdff0d9044586d3483f649b41a834c48b3aa34bcc0b2dfa463"
+Last-Modified: Fri, 13 Nov 2020 18:43:11 GMT
+Link: <https://api.github.com/repositories/33770699/tags?page=2>; rel="prev", <https://api.github.com/repositories/33770699/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7F8:F44A:3E37973:47AE594:5FB046DB
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4999
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1
+X-Xss-Protection: 1; mode=block
+
+972
+[{"name":"2_1","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_1","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_1","commit":{"sha":"23289a86970c98c459fbb441fdd58d7aecf86233","url":"https://api.github.com/repos/primefaces/primefaces/commits/23289a86970c98c459fbb441fdd58d7aecf86233"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMQ=="},{"name":"2_1_RC1","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_1_RC1","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_1_RC1","commit":{"sha":"76dd5ae71e69de3a5f770f2912f6990ef5ed9d86","url":"https://api.github.com/repos/primefaces/primefaces/commits/76dd5ae71e69de3a5f770f2912f6990ef5ed9d86"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMV9SQzE="},{"name":"2_0_2","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_0_2","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_0_2","commit":{"sha":"84a24a325e88b1c81f8627609be38832221cd950","url":"https://api.github.com/repos/primefaces/primefaces/commits/84a24a325e88b1c81f8627609be38832221cd950"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMF8y"},{"name":"2_0_1","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_0_1","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_0_1","commit":{"sha":"77a9e67af6dbe9effe5a13a4ada1b61ed4c5e1fa","url":"https://api.github.com/repos/primefaces/primefaces/commits/77a9e67af6dbe9effe5a13a4ada1b61ed4c5e1fa"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMF8x"},{"name":"2_0_0","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_0_0","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_0_0","commit":{"sha":"2e7a786d855b56f0459f3da4b9ff773f07291052","url":"https://api.github.com/repos/primefaces/primefaces/commits/2e7a786d855b56f0459f3da4b9ff773f07291052"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMF8w"},{"name":"2_0_0_RC","zipball_url":"https://api.github.com/repos/primefaces/primefaces/zipball/2_0_0_RC","tarball_url":"https://api.github.com/repos/primefaces/primefaces/tarball/2_0_0_RC","commit":{"sha":"cc06505406edaa0d80a3eed09fd94e0a524f4b6f","url":"https://api.github.com/repos/primefaces/primefaces/commits/cc06505406edaa0d80a3eed09fd94e0a524f4b6f"},"node_id":"MDM6UmVmMzM3NzA2OTk6cmVmcy90YWdzLzJfMF8wX1JD"}]
+0
+

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:19 GMT
+Etag: W/"d694e0dc687c30db89086903cd8a07ff65d0281e2a56cf2c0328e26702e89f64"
+Last-Modified: Thu, 12 Nov 2020 20:40:44 GMT
+Link: <https://api.github.com/repositories/22553797/tags?page=7>; rel="prev", <https://api.github.com/repositories/22553797/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D959:7085:DE1181:10094BA:5FB0477E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2747
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2253
+X-Xss-Protection: 1; mode=block
+
+a34
+[{"name":"0.9.1","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.9.1","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.9.1","commit":{"sha":"891751d09ec24087eeaef9d42209d92251760c98","url":"https://api.github.com/repos/getgrav/grav/commits/891751d09ec24087eeaef9d42209d92251760c98"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuOS4x"},{"name":"0.9.0","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.9.0","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.9.0","commit":{"sha":"fbc7ca4ef285f98db587a2585c3b737c51bea14e","url":"https://api.github.com/repos/getgrav/grav/commits/fbc7ca4ef285f98db587a2585c3b737c51bea14e"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuOS4w"},{"name":"0.8.0","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.8.0","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.8.0","commit":{"sha":"83d3173a96fda542f7bb3680a5fb3805956168a1","url":"https://api.github.com/repos/getgrav/grav/commits/83d3173a96fda542f7bb3680a5fb3805956168a1"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuOC4w"},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.3.0","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.3.0","commit":{"sha":"7df2f10e1c2583eb1097fb276b1d800aff6e2e8a","url":"https://api.github.com/repos/getgrav/grav/commits/7df2f10e1c2583eb1097fb276b1d800aff6e2e8a"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuMy4w"},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.2.0","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.2.0","commit":{"sha":"3f356d94de224e1284e33e75bf583d1bb32ced58","url":"https://api.github.com/repos/getgrav/grav/commits/3f356d94de224e1284e33e75bf583d1bb32ced58"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuMi4w"},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.1.1","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.1.1","commit":{"sha":"b1e9541e2fb91d2174aec6d01ab6c59e31f32c71","url":"https://api.github.com/repos/getgrav/grav/commits/b1e9541e2fb91d2174aec6d01ab6c59e31f32c71"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuMS4x"},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/getgrav/grav/zipball/0.1.0","tarball_url":"https://api.github.com/repos/getgrav/grav/tarball/0.1.0","commit":{"sha":"fbea8068726392d2620df04cf81f1a267a69ef9b","url":"https://api.github.com/repos/getgrav/grav/commits/fbea8068726392d2620df04cf81f1a267a69ef9b"},"node_id":"MDM6UmVmMjI1NTM3OTc6cmVmcy90YWdzLzAuMS4w"}]
+0
+

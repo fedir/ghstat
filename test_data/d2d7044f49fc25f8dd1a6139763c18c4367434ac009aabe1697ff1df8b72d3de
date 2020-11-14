@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:40 GMT
+Etag: W/"8292fe3032214d585f21c5ce0ab3fb650b72cec779b6871cbc7b90d2ed80fb88"
+Last-Modified: Sat, 14 Nov 2020 18:12:44 GMT
+Link: <https://api.github.com/repositories/1148753/contributors?page=13>; rel="prev", <https://api.github.com/repositories/1148753/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7F7:F078:3C6C545:45AC79B:5FB046DF
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4940
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 60
+X-Xss-Protection: 1; mode=block
+
+b06
+[{"login":"timomeinen","id":212545,"node_id":"MDQ6VXNlcjIxMjU0NQ==","avatar_url":"https://avatars1.githubusercontent.com/u/212545?v=4","gravatar_id":"","url":"https://api.github.com/users/timomeinen","html_url":"https://github.com/timomeinen","followers_url":"https://api.github.com/users/timomeinen/followers","following_url":"https://api.github.com/users/timomeinen/following{/other_user}","gists_url":"https://api.github.com/users/timomeinen/gists{/gist_id}","starred_url":"https://api.github.com/users/timomeinen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/timomeinen/subscriptions","organizations_url":"https://api.github.com/users/timomeinen/orgs","repos_url":"https://api.github.com/users/timomeinen/repos","events_url":"https://api.github.com/users/timomeinen/events{/privacy}","received_events_url":"https://api.github.com/users/timomeinen/received_events","type":"User","site_admin":false,"contributions":1},{"login":"tobiasmh","id":3994372,"node_id":"MDQ6VXNlcjM5OTQzNzI=","avatar_url":"https://avatars0.githubusercontent.com/u/3994372?v=4","gravatar_id":"","url":"https://api.github.com/users/tobiasmh","html_url":"https://github.com/tobiasmh","followers_url":"https://api.github.com/users/tobiasmh/followers","following_url":"https://api.github.com/users/tobiasmh/following{/other_user}","gists_url":"https://api.github.com/users/tobiasmh/gists{/gist_id}","starred_url":"https://api.github.com/users/tobiasmh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tobiasmh/subscriptions","organizations_url":"https://api.github.com/users/tobiasmh/orgs","repos_url":"https://api.github.com/users/tobiasmh/repos","events_url":"https://api.github.com/users/tobiasmh/events{/privacy}","received_events_url":"https://api.github.com/users/tobiasmh/received_events","type":"User","site_admin":false,"contributions":1},{"login":"stoeckmann","id":8529893,"node_id":"MDQ6VXNlcjg1Mjk4OTM=","avatar_url":"https://avatars0.githubusercontent.com/u/8529893?v=4","gravatar_id":"","url":"https://api.github.com/users/stoeckmann","html_url":"https://github.com/stoeckmann","followers_url":"https://api.github.com/users/stoeckmann/followers","following_url":"https://api.github.com/users/stoeckmann/following{/other_user}","gists_url":"https://api.github.com/users/stoeckmann/gists{/gist_id}","starred_url":"https://api.github.com/users/stoeckmann/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stoeckmann/subscriptions","organizations_url":"https://api.github.com/users/stoeckmann/orgs","repos_url":"https://api.github.com/users/stoeckmann/repos","events_url":"https://api.github.com/users/stoeckmann/events{/privacy}","received_events_url":"https://api.github.com/users/stoeckmann/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

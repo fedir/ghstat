@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:17 GMT
+Etag: W/"9c6bd949670c5dcffc25b3b3507812b3aa860b0cab5306569db83f14f6df2d1b"
+Last-Modified: Fri, 11 Sep 2020 12:38:23 GMT
+Link: <https://api.github.com/repositories/97748/tags?page=4>; rel="prev", <https://api.github.com/repositories/97748/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8DC:78A2:2196883:26A0445:5FB04741
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3910
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1090
+X-Xss-Protection: 1; mode=block
+
+f6c
+[{"name":"5.71001","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.71001","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.71001","commit":{"sha":"cf0b6c0cb55b65a14f7ed39c0c4dab9db53bf1e5","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/cf0b6c0cb55b65a14f7ed39c0c4dab9db53bf1e5"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuNzEwMDE="},{"name":"5.71000","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.71000","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.71000","commit":{"sha":"fad95a5b132da53cf3d8dc6fce65440214c2bd99","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/fad95a5b132da53cf3d8dc6fce65440214c2bd99"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuNzEwMDA="},{"name":"5.9000","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.9000","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.9000","commit":{"sha":"f2f40f5fc0a5b9dc546ab177ab0454c77938262d","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/f2f40f5fc0a5b9dc546ab177ab0454c77938262d"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuOTAwMA=="},{"name":"5.8000_06","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.8000_06","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.8000_06","commit":{"sha":"46b6daa37c6295df82197dbdd66ab40d82ca13fa","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/46b6daa37c6295df82197dbdd66ab40d82ca13fa"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuODAwMF8wNg=="},{"name":"5.8000_05","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.8000_05","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.8000_05","commit":{"sha":"236b800536e0b8c65c60326f47c53067b2aed745","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/236b800536e0b8c65c60326f47c53067b2aed745"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuODAwMF8wNQ=="},{"name":"5.8000_04","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.8000_04","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.8000_04","commit":{"sha":"76b3b58612f33b9e30d982d7c412027b429f976e","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/76b3b58612f33b9e30d982d7c412027b429f976e"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuODAwMF8wNA=="},{"name":"5.8000_03","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.8000_03","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.8000_03","commit":{"sha":"5b4c55843f23cac38feca090389ebac85c28a929","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/5b4c55843f23cac38feca090389ebac85c28a929"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuODAwMF8wMw=="},{"name":"5.7099_04","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/5.7099_04","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/5.7099_04","commit":{"sha":"92f9d3ad4cba9d517c9819c136b4115e917dc46b","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/92f9d3ad4cba9d517c9819c136b4115e917dc46b"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzUuNzA5OV8wNA=="},{"name":"0.090103","zipball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/zipball/0.090103","tarball_url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/tarball/0.090103","commit":{"sha":"ed60d91751d29e582be736dcb1538e99ef5e42a0","url":"https://api.github.com/repos/perl-catalyst/catalyst-runtime/commits/ed60d91751d29e582be736dcb1538e99ef5e42a0"},"node_id":"MDM6UmVmOTc3NDg6cmVmcy90YWdzLzAuMDkwMTAz"}]
+0
+

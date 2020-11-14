@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:57 GMT
+Etag: W/"39030a95f33162588934b86c9e14816af7d59186b601b2883e9a2f9ca0ac0e1a"
+Last-Modified: Tue, 10 Nov 2020 13:52:13 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D815:E7C5:3A27ECA:4328698:5FB046F1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4836
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 164
+X-Xss-Protection: 1; mode=block
+
+4f6
+{"login":"SteveSanderson","id":161375,"node_id":"MDQ6VXNlcjE2MTM3NQ==","avatar_url":"https://avatars0.githubusercontent.com/u/161375?v=4","gravatar_id":"","url":"https://api.github.com/users/SteveSanderson","html_url":"https://github.com/SteveSanderson","followers_url":"https://api.github.com/users/SteveSanderson/followers","following_url":"https://api.github.com/users/SteveSanderson/following{/other_user}","gists_url":"https://api.github.com/users/SteveSanderson/gists{/gist_id}","starred_url":"https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SteveSanderson/subscriptions","organizations_url":"https://api.github.com/users/SteveSanderson/orgs","repos_url":"https://api.github.com/users/SteveSanderson/repos","events_url":"https://api.github.com/users/SteveSanderson/events{/privacy}","received_events_url":"https://api.github.com/users/SteveSanderson/received_events","type":"User","site_admin":false,"name":"Steven Sanderson","company":null,"blog":"blog.stevensanderson.com","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":32,"public_gists":13,"followers":1671,"following":0,"created_at":"2009-12-03T13:04:33Z","updated_at":"2020-11-10T13:52:13Z"}
+0
+

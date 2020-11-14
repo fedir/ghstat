@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:57 GMT
+Etag: W/"83f699e2c306ff1fc6d76a69aa0c8e3f97501299ca8c5022660bea4f6be4e39e"
+Last-Modified: Tue, 10 Nov 2020 15:28:01 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81E:7087:4109195:4AE7FD9:5FB046F1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4844
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 156
+X-Xss-Protection: 1; mode=block
+
+4b5
+{"login":"lhorie","id":1637573,"node_id":"MDQ6VXNlcjE2Mzc1NzM=","avatar_url":"https://avatars3.githubusercontent.com/u/1637573?v=4","gravatar_id":"","url":"https://api.github.com/users/lhorie","html_url":"https://github.com/lhorie","followers_url":"https://api.github.com/users/lhorie/followers","following_url":"https://api.github.com/users/lhorie/following{/other_user}","gists_url":"https://api.github.com/users/lhorie/gists{/gist_id}","starred_url":"https://api.github.com/users/lhorie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lhorie/subscriptions","organizations_url":"https://api.github.com/users/lhorie/orgs","repos_url":"https://api.github.com/users/lhorie/repos","events_url":"https://api.github.com/users/lhorie/events{/privacy}","received_events_url":"https://api.github.com/users/lhorie/received_events","type":"User","site_admin":false,"name":"Leo Horie","company":"Uber","blog":"mithril.js.org","location":"San Francisco","email":"leohorie@hotmail.com","hireable":null,"bio":"Author of MithrilJS","twitter_username":null,"public_repos":82,"public_gists":4,"followers":544,"following":0,"created_at":"2012-04-12T17:33:42Z","updated_at":"2020-11-10T15:28:01Z"}
+0
+

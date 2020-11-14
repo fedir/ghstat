@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:57 GMT
+Etag: W/"b2fd0ef66d108ce822558102ea1e069f41d49d450adefe43ce493d81b76dad4e"
+Last-Modified: Sat, 14 Nov 2020 20:55:08 GMT
+Link: <https://api.github.com/repositories/29514104/contributors?page=12>; rel="prev", <https://api.github.com/repositories/29514104/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D92B:072B:79D877:8CD04C:5FB04769
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3356
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1644
+X-Xss-Protection: 1; mode=block
+
+124a
+[{"login":"sysoce","id":41183516,"node_id":"MDQ6VXNlcjQxMTgzNTE2","avatar_url":"https://avatars0.githubusercontent.com/u/41183516?v=4","gravatar_id":"","url":"https://api.github.com/users/sysoce","html_url":"https://github.com/sysoce","followers_url":"https://api.github.com/users/sysoce/followers","following_url":"https://api.github.com/users/sysoce/following{/other_user}","gists_url":"https://api.github.com/users/sysoce/gists{/gist_id}","starred_url":"https://api.github.com/users/sysoce/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sysoce/subscriptions","organizations_url":"https://api.github.com/users/sysoce/orgs","repos_url":"https://api.github.com/users/sysoce/repos","events_url":"https://api.github.com/users/sysoce/events{/privacy}","received_events_url":"https://api.github.com/users/sysoce/received_events","type":"User","site_admin":false,"contributions":1},{"login":"vvsubash","id":10464553,"node_id":"MDQ6VXNlcjEwNDY0NTUz","avatar_url":"https://avatars1.githubusercontent.com/u/10464553?v=4","gravatar_id":"","url":"https://api.github.com/users/vvsubash","html_url":"https://github.com/vvsubash","followers_url":"https://api.github.com/users/vvsubash/followers","following_url":"https://api.github.com/users/vvsubash/following{/other_user}","gists_url":"https://api.github.com/users/vvsubash/gists{/gist_id}","starred_url":"https://api.github.com/users/vvsubash/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vvsubash/subscriptions","organizations_url":"https://api.github.com/users/vvsubash/orgs","repos_url":"https://api.github.com/users/vvsubash/repos","events_url":"https://api.github.com/users/vvsubash/events{/privacy}","received_events_url":"https://api.github.com/users/vvsubash/received_events","type":"User","site_admin":false,"contributions":1},{"login":"vojtapol","id":7419355,"node_id":"MDQ6VXNlcjc0MTkzNTU=","avatar_url":"https://avatars0.githubusercontent.com/u/7419355?v=4","gravatar_id":"","url":"https://api.github.com/users/vojtapol","html_url":"https://github.com/vojtapol","followers_url":"https://api.github.com/users/vojtapol/followers","following_url":"https://api.github.com/users/vojtapol/following{/other_user}","gists_url":"https://api.github.com/users/vojtapol/gists{/gist_id}","starred_url":"https://api.github.com/users/vojtapol/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vojtapol/subscriptions","organizations_url":"https://api.github.com/users/vojtapol/orgs","repos_url":"https://api.github.com/users/vojtapol/repos","events_url":"https://api.github.com/users/vojtapol/events{/privacy}","received_events_url":"https://api.github.com/users/vojtapol/received_events","type":"User","site_admin":false,"contributions":1},{"login":"wingardtw","id":10657145,"node_id":"MDQ6VXNlcjEwNjU3MTQ1","avatar_url":"https://avatars0.githubusercontent.com/u/10657145?v=4","gravatar_id":"","url":"https://api.github.com/users/wingardtw","html_url":"https://github.com/wingardtw","followers_url":"https://api.github.com/users/wingardtw/followers","following_url":"https://api.github.com/users/wingardtw/following{/other_user}","gists_url":"https://api.github.com/users/wingardtw/gists{/gist_id}","starred_url":"https://api.github.com/users/wingardtw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wingardtw/subscriptions","organizations_url":"https://api.github.com/users/wingardtw/orgs","repos_url":"https://api.github.com/users/wingardtw/repos","events_url":"https://api.github.com/users/wingardtw/events{/privacy}","received_events_url":"https://api.github.com/users/wingardtw/received_events","type":"User","site_admin":false,"contributions":1},{"login":"zemlya-studio","id":24929565,"node_id":"MDQ6VXNlcjI0OTI5NTY1","avatar_url":"https://avatars0.githubusercontent.com/u/24929565?v=4","gravatar_id":"","url":"https://api.github.com/users/zemlya-studio","html_url":"https://github.com/zemlya-studio","followers_url":"https://api.github.com/users/zemlya-studio/followers","following_url":"https://api.github.com/users/zemlya-studio/following{/other_user}","gists_url":"https://api.github.com/users/zemlya-studio/gists{/gist_id}","starred_url":"https://api.github.com/users/zemlya-studio/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zemlya-studio/subscriptions","organizations_url":"https://api.github.com/users/zemlya-studio/orgs","repos_url":"https://api.github.com/users/zemlya-studio/repos","events_url":"https://api.github.com/users/zemlya-studio/events{/privacy}","received_events_url":"https://api.github.com/users/zemlya-studio/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"a313438f8c6aa86ede35d0d7aad62cd0917dc4c8ad61f1eed61d9d1694c36014"
+Last-Modified: Fri, 13 Nov 2020 12:19:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D927:13F4:4157524:4B5A0C7:5FB04763
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3536
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1464
+X-Xss-Protection: 1; mode=block
+
+56e
+{"login":"leofeyer","id":1192057,"node_id":"MDQ6VXNlcjExOTIwNTc=","avatar_url":"https://avatars0.githubusercontent.com/u/1192057?v=4","gravatar_id":"","url":"https://api.github.com/users/leofeyer","html_url":"https://github.com/leofeyer","followers_url":"https://api.github.com/users/leofeyer/followers","following_url":"https://api.github.com/users/leofeyer/following{/other_user}","gists_url":"https://api.github.com/users/leofeyer/gists{/gist_id}","starred_url":"https://api.github.com/users/leofeyer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leofeyer/subscriptions","organizations_url":"https://api.github.com/users/leofeyer/orgs","repos_url":"https://api.github.com/users/leofeyer/repos","events_url":"https://api.github.com/users/leofeyer/events{/privacy}","received_events_url":"https://api.github.com/users/leofeyer/received_events","type":"User","site_admin":false,"name":"Leo Feyer","company":"Feyer Media GmbH & Co. KG","blog":"https://hostingwerk.de","location":"Wuppertal, Germany","email":"github@contao.org","hireable":null,"bio":"Server admin at day, coder at night. Mostly working on @contao together with the guys from @terminal42, @1up-lab, @ausi and some other great people.","twitter_username":null,"public_repos":31,"public_gists":1,"followers":203,"following":20,"created_at":"2011-11-13T18:12:25Z","updated_at":"2020-11-13T12:19:35Z"}
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"5f85b68ff3e33d3003f1a00aa4b6f24f904011f8435ec138008b091ab217e411"
+Last-Modified: Wed, 11 Nov 2020 14:28:30 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D90E:B560:4093E70:4A7BEFC:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3555
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1445
+X-Xss-Protection: 1; mode=block
+
+4d3
+{"login":"opengeek","id":232812,"node_id":"MDQ6VXNlcjIzMjgxMg==","avatar_url":"https://avatars0.githubusercontent.com/u/232812?v=4","gravatar_id":"","url":"https://api.github.com/users/opengeek","html_url":"https://github.com/opengeek","followers_url":"https://api.github.com/users/opengeek/followers","following_url":"https://api.github.com/users/opengeek/following{/other_user}","gists_url":"https://api.github.com/users/opengeek/gists{/gist_id}","starred_url":"https://api.github.com/users/opengeek/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/opengeek/subscriptions","organizations_url":"https://api.github.com/users/opengeek/orgs","repos_url":"https://api.github.com/users/opengeek/repos","events_url":"https://api.github.com/users/opengeek/events{/privacy}","received_events_url":"https://api.github.com/users/opengeek/received_events","type":"User","site_admin":false,"name":"Jason Coward","company":"MODX, LLC","blog":"https://www.opengeek.com/","location":"Durango, Colorado, USA","email":"jason@modx.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":54,"public_gists":20,"followers":182,"following":104,"created_at":"2010-03-29T19:03:37Z","updated_at":"2020-11-11T14:28:30Z"}
+0
+

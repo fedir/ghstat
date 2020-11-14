@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:01 GMT
+Etag: W/"090eaada9f53764d5cf9a82ba34c73e837e134f845eef9df31920934e3fb3574"
+Last-Modified: Sat, 14 Nov 2020 09:18:45 GMT
+Link: <https://api.github.com/repositories/2234102/tags?page=1>; rel="prev", <https://api.github.com/repositories/2234102/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D0:13F4:415263E:4B5451A:5FB04731
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4063
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 937
+X-Xss-Protection: 1; mode=block
+
+c51
+[{"name":"2.2.3","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.2.3","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.2.3","commit":{"sha":"88cb5d9304cf302c2a4f7bd55731682cd43c99a2","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/88cb5d9304cf302c2a4f7bd55731682cd43c99a2"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4yLjM="},{"name":"2.2.2","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.2.2","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.2.2","commit":{"sha":"0cc92dc37f145d759a0bd1496e761ad823adbc52","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/0cc92dc37f145d759a0bd1496e761ad823adbc52"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4yLjI="},{"name":"2.2.1","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.2.1","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.2.1","commit":{"sha":"fe8f13016ee7e07ffe680823b25a84ab14a087d9","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/fe8f13016ee7e07ffe680823b25a84ab14a087d9"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4yLjE="},{"name":"2.2.0","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.2.0","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.2.0","commit":{"sha":"37df6fa88ec63bffa5545bdc3b3c7c3801c9b635","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/37df6fa88ec63bffa5545bdc3b3c7c3801c9b635"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4yLjA="},{"name":"2.1.4","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.1.4","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.1.4","commit":{"sha":"dc3ba214cb9d938bb9f310ceaef667af3a34002c","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/dc3ba214cb9d938bb9f310ceaef667af3a34002c"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4xLjQ="},{"name":"2.1.3","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.1.3","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.1.3","commit":{"sha":"05e8c03b6742033cf88885cb86217cadca3a4567","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/05e8c03b6742033cf88885cb86217cadca3a4567"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4xLjM="},{"name":"2.1.2","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.1.2","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.1.2","commit":{"sha":"e35658b5af498ff3634ca49ae83e006502b9b47d","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/e35658b5af498ff3634ca49ae83e006502b9b47d"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4xLjI="},{"name":"2.1.1","zipball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/2.1.1","tarball_url":"https://api.github.com/repos/bcit-ci/CodeIgniter/tarball/2.1.1","commit":{"sha":"ea6cbe026b73be13dd853d710b9609e3faf50f44","url":"https://api.github.com/repos/bcit-ci/CodeIgniter/commits/ea6cbe026b73be13dd853d710b9609e3faf50f44"},"node_id":"MDM6UmVmMjIzNDEwMjpyZWZzL3RhZ3MvMi4xLjE="}]
+0
+

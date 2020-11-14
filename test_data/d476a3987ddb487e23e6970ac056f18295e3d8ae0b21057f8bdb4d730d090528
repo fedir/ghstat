@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:26 GMT
+Etag: W/"354af5af2ebf01bb0d23e998629ca20615b33c3634a3fc78a39f7605cdfa2ee0"
+Link: <https://api.github.com/user/11300/followers?page=1>; rel="prev", <https://api.github.com/user/11300/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E1:B560:40919C6:4A793D8:5FB0474A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3881
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1119
+X-Xss-Protection: 1; mode=block
+
+1282
+[{"login":"bridi0707","id":60174856,"node_id":"MDQ6VXNlcjYwMTc0ODU2","avatar_url":"https://avatars1.githubusercontent.com/u/60174856?v=4","gravatar_id":"","url":"https://api.github.com/users/bridi0707","html_url":"https://github.com/bridi0707","followers_url":"https://api.github.com/users/bridi0707/followers","following_url":"https://api.github.com/users/bridi0707/following{/other_user}","gists_url":"https://api.github.com/users/bridi0707/gists{/gist_id}","starred_url":"https://api.github.com/users/bridi0707/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bridi0707/subscriptions","organizations_url":"https://api.github.com/users/bridi0707/orgs","repos_url":"https://api.github.com/users/bridi0707/repos","events_url":"https://api.github.com/users/bridi0707/events{/privacy}","received_events_url":"https://api.github.com/users/bridi0707/received_events","type":"User","site_admin":false},{"login":"JosuaSitorus","id":65959599,"node_id":"MDQ6VXNlcjY1OTU5NTk5","avatar_url":"https://avatars2.githubusercontent.com/u/65959599?v=4","gravatar_id":"","url":"https://api.github.com/users/JosuaSitorus","html_url":"https://github.com/JosuaSitorus","followers_url":"https://api.github.com/users/JosuaSitorus/followers","following_url":"https://api.github.com/users/JosuaSitorus/following{/other_user}","gists_url":"https://api.github.com/users/JosuaSitorus/gists{/gist_id}","starred_url":"https://api.github.com/users/JosuaSitorus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JosuaSitorus/subscriptions","organizations_url":"https://api.github.com/users/JosuaSitorus/orgs","repos_url":"https://api.github.com/users/JosuaSitorus/repos","events_url":"https://api.github.com/users/JosuaSitorus/events{/privacy}","received_events_url":"https://api.github.com/users/JosuaSitorus/received_events","type":"User","site_admin":false},{"login":"jlsjefferson","id":53836950,"node_id":"MDQ6VXNlcjUzODM2OTUw","avatar_url":"https://avatars3.githubusercontent.com/u/53836950?v=4","gravatar_id":"","url":"https://api.github.com/users/jlsjefferson","html_url":"https://github.com/jlsjefferson","followers_url":"https://api.github.com/users/jlsjefferson/followers","following_url":"https://api.github.com/users/jlsjefferson/following{/other_user}","gists_url":"https://api.github.com/users/jlsjefferson/gists{/gist_id}","starred_url":"https://api.github.com/users/jlsjefferson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jlsjefferson/subscriptions","organizations_url":"https://api.github.com/users/jlsjefferson/orgs","repos_url":"https://api.github.com/users/jlsjefferson/repos","events_url":"https://api.github.com/users/jlsjefferson/events{/privacy}","received_events_url":"https://api.github.com/users/jlsjefferson/received_events","type":"User","site_admin":false},{"login":"EstelleBerlin","id":40467261,"node_id":"MDQ6VXNlcjQwNDY3MjYx","avatar_url":"https://avatars2.githubusercontent.com/u/40467261?v=4","gravatar_id":"","url":"https://api.github.com/users/EstelleBerlin","html_url":"https://github.com/EstelleBerlin","followers_url":"https://api.github.com/users/EstelleBerlin/followers","following_url":"https://api.github.com/users/EstelleBerlin/following{/other_user}","gists_url":"https://api.github.com/users/EstelleBerlin/gists{/gist_id}","starred_url":"https://api.github.com/users/EstelleBerlin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/EstelleBerlin/subscriptions","organizations_url":"https://api.github.com/users/EstelleBerlin/orgs","repos_url":"https://api.github.com/users/EstelleBerlin/repos","events_url":"https://api.github.com/users/EstelleBerlin/events{/privacy}","received_events_url":"https://api.github.com/users/EstelleBerlin/received_events","type":"User","site_admin":false},{"login":"DidemOezer","id":71389443,"node_id":"MDQ6VXNlcjcxMzg5NDQz","avatar_url":"https://avatars2.githubusercontent.com/u/71389443?v=4","gravatar_id":"","url":"https://api.github.com/users/DidemOezer","html_url":"https://github.com/DidemOezer","followers_url":"https://api.github.com/users/DidemOezer/followers","following_url":"https://api.github.com/users/DidemOezer/following{/other_user}","gists_url":"https://api.github.com/users/DidemOezer/gists{/gist_id}","starred_url":"https://api.github.com/users/DidemOezer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DidemOezer/subscriptions","organizations_url":"https://api.github.com/users/DidemOezer/orgs","repos_url":"https://api.github.com/users/DidemOezer/repos","events_url":"https://api.github.com/users/DidemOezer/events{/privacy}","received_events_url":"https://api.github.com/users/DidemOezer/received_events","type":"User","site_admin":false}]
+0
+

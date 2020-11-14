@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:57 GMT
+Etag: W/"10a3296e31398249439c4cfd1fa4b011f116aac93d585efc059d133747478f69"
+Last-Modified: Thu, 05 Nov 2020 15:46:12 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D819:072E:3F46DF5:49093DA:5FB046F1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4813
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 187
+X-Xss-Protection: 1; mode=block
+
+476
+{"login":"tj","id":25254,"node_id":"MDQ6VXNlcjI1MjU0","avatar_url":"https://avatars2.githubusercontent.com/u/25254?v=4","gravatar_id":"","url":"https://api.github.com/users/tj","html_url":"https://github.com/tj","followers_url":"https://api.github.com/users/tj/followers","following_url":"https://api.github.com/users/tj/following{/other_user}","gists_url":"https://api.github.com/users/tj/gists{/gist_id}","starred_url":"https://api.github.com/users/tj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tj/subscriptions","organizations_url":"https://api.github.com/users/tj/orgs","repos_url":"https://api.github.com/users/tj/repos","events_url":"https://api.github.com/users/tj/events{/privacy}","received_events_url":"https://api.github.com/users/tj/received_events","type":"User","site_admin":false,"name":"TJ Holowaychuk","company":"Apex","blog":"https://apex.sh","location":"London, UK","email":"tj@apex.sh","hireable":null,"bio":null,"twitter_username":"tjholowaychuk","public_repos":297,"public_gists":551,"followers":44144,"following":45,"created_at":"2008-09-18T22:37:28Z","updated_at":"2020-11-05T15:46:12Z"}
+0
+

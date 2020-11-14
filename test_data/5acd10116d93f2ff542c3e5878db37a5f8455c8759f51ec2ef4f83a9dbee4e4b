@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:29 GMT
+Etag: W/"2b45f58c7f8288196198491b4382a2238837671ca0982b5eaa616d31a7268846"
+Link: <https://api.github.com/user/283842/followers?page=67>; rel="prev", <https://api.github.com/user/283842/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E7:F077:20584A5:2557B00:5FB0474C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3806
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1194
+X-Xss-Protection: 1; mode=block
+
+e1b
+[{"login":"nasim072","id":70841512,"node_id":"MDQ6VXNlcjcwODQxNTEy","avatar_url":"https://avatars3.githubusercontent.com/u/70841512?v=4","gravatar_id":"","url":"https://api.github.com/users/nasim072","html_url":"https://github.com/nasim072","followers_url":"https://api.github.com/users/nasim072/followers","following_url":"https://api.github.com/users/nasim072/following{/other_user}","gists_url":"https://api.github.com/users/nasim072/gists{/gist_id}","starred_url":"https://api.github.com/users/nasim072/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nasim072/subscriptions","organizations_url":"https://api.github.com/users/nasim072/orgs","repos_url":"https://api.github.com/users/nasim072/repos","events_url":"https://api.github.com/users/nasim072/events{/privacy}","received_events_url":"https://api.github.com/users/nasim072/received_events","type":"User","site_admin":false},{"login":"stlachman","id":15080191,"node_id":"MDQ6VXNlcjE1MDgwMTkx","avatar_url":"https://avatars1.githubusercontent.com/u/15080191?v=4","gravatar_id":"","url":"https://api.github.com/users/stlachman","html_url":"https://github.com/stlachman","followers_url":"https://api.github.com/users/stlachman/followers","following_url":"https://api.github.com/users/stlachman/following{/other_user}","gists_url":"https://api.github.com/users/stlachman/gists{/gist_id}","starred_url":"https://api.github.com/users/stlachman/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stlachman/subscriptions","organizations_url":"https://api.github.com/users/stlachman/orgs","repos_url":"https://api.github.com/users/stlachman/repos","events_url":"https://api.github.com/users/stlachman/events{/privacy}","received_events_url":"https://api.github.com/users/stlachman/received_events","type":"User","site_admin":false},{"login":"tg-z","id":47585455,"node_id":"MDQ6VXNlcjQ3NTg1NDU1","avatar_url":"https://avatars0.githubusercontent.com/u/47585455?v=4","gravatar_id":"","url":"https://api.github.com/users/tg-z","html_url":"https://github.com/tg-z","followers_url":"https://api.github.com/users/tg-z/followers","following_url":"https://api.github.com/users/tg-z/following{/other_user}","gists_url":"https://api.github.com/users/tg-z/gists{/gist_id}","starred_url":"https://api.github.com/users/tg-z/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tg-z/subscriptions","organizations_url":"https://api.github.com/users/tg-z/orgs","repos_url":"https://api.github.com/users/tg-z/repos","events_url":"https://api.github.com/users/tg-z/events{/privacy}","received_events_url":"https://api.github.com/users/tg-z/received_events","type":"User","site_admin":false},{"login":"earlymeme","id":1091500,"node_id":"MDQ6VXNlcjEwOTE1MDA=","avatar_url":"https://avatars1.githubusercontent.com/u/1091500?v=4","gravatar_id":"","url":"https://api.github.com/users/earlymeme","html_url":"https://github.com/earlymeme","followers_url":"https://api.github.com/users/earlymeme/followers","following_url":"https://api.github.com/users/earlymeme/following{/other_user}","gists_url":"https://api.github.com/users/earlymeme/gists{/gist_id}","starred_url":"https://api.github.com/users/earlymeme/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/earlymeme/subscriptions","organizations_url":"https://api.github.com/users/earlymeme/orgs","repos_url":"https://api.github.com/users/earlymeme/repos","events_url":"https://api.github.com/users/earlymeme/events{/privacy}","received_events_url":"https://api.github.com/users/earlymeme/received_events","type":"User","site_admin":false}]
+0
+

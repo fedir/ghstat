@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:17 GMT
+Etag: W/"658abfab8a0eed8f9e3c5ba62b09ab2d8eba0806dfd818621e946f4579f6f9c3"
+Last-Modified: Sat, 14 Nov 2020 19:35:55 GMT
+Link: <https://api.github.com/repositories/3929096/contributors?page=1>; rel="prev", <https://api.github.com/repositories/3929096/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D942:F078:3C7B041:45BD8DD:5FB0477D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2832
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2168
+X-Xss-Protection: 1; mode=block
+
+b36
+[{"login":"outrunthewolf","id":814246,"node_id":"MDQ6VXNlcjgxNDI0Ng==","avatar_url":"https://avatars1.githubusercontent.com/u/814246?v=4","gravatar_id":"","url":"https://api.github.com/users/outrunthewolf","html_url":"https://github.com/outrunthewolf","followers_url":"https://api.github.com/users/outrunthewolf/followers","following_url":"https://api.github.com/users/outrunthewolf/following{/other_user}","gists_url":"https://api.github.com/users/outrunthewolf/gists{/gist_id}","starred_url":"https://api.github.com/users/outrunthewolf/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/outrunthewolf/subscriptions","organizations_url":"https://api.github.com/users/outrunthewolf/orgs","repos_url":"https://api.github.com/users/outrunthewolf/repos","events_url":"https://api.github.com/users/outrunthewolf/events{/privacy}","received_events_url":"https://api.github.com/users/outrunthewolf/received_events","type":"User","site_admin":false,"contributions":1},{"login":"raptorz","id":1768879,"node_id":"MDQ6VXNlcjE3Njg4Nzk=","avatar_url":"https://avatars3.githubusercontent.com/u/1768879?v=4","gravatar_id":"","url":"https://api.github.com/users/raptorz","html_url":"https://github.com/raptorz","followers_url":"https://api.github.com/users/raptorz/followers","following_url":"https://api.github.com/users/raptorz/following{/other_user}","gists_url":"https://api.github.com/users/raptorz/gists{/gist_id}","starred_url":"https://api.github.com/users/raptorz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/raptorz/subscriptions","organizations_url":"https://api.github.com/users/raptorz/orgs","repos_url":"https://api.github.com/users/raptorz/repos","events_url":"https://api.github.com/users/raptorz/events{/privacy}","received_events_url":"https://api.github.com/users/raptorz/received_events","type":"User","site_admin":false,"contributions":1},{"login":"sergeweyland","id":6431575,"node_id":"MDQ6VXNlcjY0MzE1NzU=","avatar_url":"https://avatars2.githubusercontent.com/u/6431575?v=4","gravatar_id":"","url":"https://api.github.com/users/sergeweyland","html_url":"https://github.com/sergeweyland","followers_url":"https://api.github.com/users/sergeweyland/followers","following_url":"https://api.github.com/users/sergeweyland/following{/other_user}","gists_url":"https://api.github.com/users/sergeweyland/gists{/gist_id}","starred_url":"https://api.github.com/users/sergeweyland/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sergeweyland/subscriptions","organizations_url":"https://api.github.com/users/sergeweyland/orgs","repos_url":"https://api.github.com/users/sergeweyland/repos","events_url":"https://api.github.com/users/sergeweyland/events{/privacy}","received_events_url":"https://api.github.com/users/sergeweyland/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

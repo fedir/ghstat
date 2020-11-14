@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:19 GMT
+Etag: W/"ec0e52ec1159b2ef081c095129576d6fd58b86ceb9ea96722047590cb4a09f36"
+Last-Modified: Fri, 13 Nov 2020 09:03:44 GMT
+Link: <https://api.github.com/repositories/19040482/contributors?page=8>; rel="prev", <https://api.github.com/repositories/19040482/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D96C:F449:1E0FCD0:22C331F:5FB0477F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2728
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2272
+X-Xss-Protection: 1; mode=block
+
+3cc
+[{"login":"wstoettinger","id":935576,"node_id":"MDQ6VXNlcjkzNTU3Ng==","avatar_url":"https://avatars3.githubusercontent.com/u/935576?v=4","gravatar_id":"","url":"https://api.github.com/users/wstoettinger","html_url":"https://github.com/wstoettinger","followers_url":"https://api.github.com/users/wstoettinger/followers","following_url":"https://api.github.com/users/wstoettinger/following{/other_user}","gists_url":"https://api.github.com/users/wstoettinger/gists{/gist_id}","starred_url":"https://api.github.com/users/wstoettinger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wstoettinger/subscriptions","organizations_url":"https://api.github.com/users/wstoettinger/orgs","repos_url":"https://api.github.com/users/wstoettinger/repos","events_url":"https://api.github.com/users/wstoettinger/events{/privacy}","received_events_url":"https://api.github.com/users/wstoettinger/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

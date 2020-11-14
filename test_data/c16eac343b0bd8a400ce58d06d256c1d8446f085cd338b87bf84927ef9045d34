@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:17 GMT
+Etag: W/"01d7f31a5b598f9baad2072809f91ea0a58d50a80c463511ec1a7cf94e572437"
+Last-Modified: Thu, 05 Nov 2020 15:17:52 GMT
+Link: <https://api.github.com/repositories/26949287/tags?page=9>; rel="prev", <https://api.github.com/repositories/26949287/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D961:41F3:20CFD27:25EC93C:5FB0477D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2862
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2138
+X-Xss-Protection: 1; mode=block
+
+c5a
+[{"name":"orphans","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/orphans","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/orphans","commit":{"sha":"d1b9d0bf99d37129782c8dfefc6b044a30409e03","url":"https://api.github.com/repos/roadiz/roadiz/commits/d1b9d0bf99d37129782c8dfefc6b044a30409e03"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzL29ycGhhbnM="},{"name":"documents-explorer-input-fix","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/documents-explorer-input-fix","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/documents-explorer-input-fix","commit":{"sha":"249a1da8de3441ed7afba533fc3c6b04db1a7565","url":"https://api.github.com/repos/roadiz/roadiz/commits/249a1da8de3441ed7afba533fc3c6b04db1a7565"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzL2RvY3VtZW50cy1leHBsb3Jlci1pbnB1dC1maXg="},{"name":"1.1.33","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.1.33","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.1.33","commit":{"sha":"07746832a219fdd55acb7655b9088b8a81f2d6b5","url":"https://api.github.com/repos/roadiz/roadiz/commits/07746832a219fdd55acb7655b9088b8a81f2d6b5"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMS4zMw=="},{"name":"1.1.19","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.1.19","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.1.19","commit":{"sha":"8a96c859794a81eff209bbce14bb2a3fb0cf756d","url":"https://api.github.com/repos/roadiz/roadiz/commits/8a96c859794a81eff209bbce14bb2a3fb0cf756d"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMS4xOQ=="},{"name":"1.0.13","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.0.13","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.0.13","commit":{"sha":"6511c2b87e8e30df2b3ed8affae97d5c690d0f3f","url":"https://api.github.com/repos/roadiz/roadiz/commits/6511c2b87e8e30df2b3ed8affae97d5c690d0f3f"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMC4xMw=="},{"name":"1.0.12","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.0.12","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.0.12","commit":{"sha":"e3971a4cdff7473ff5ce49457bd4779211787fd6","url":"https://api.github.com/repos/roadiz/roadiz/commits/e3971a4cdff7473ff5ce49457bd4779211787fd6"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMC4xMg=="},{"name":"1.0.11","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.0.11","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.0.11","commit":{"sha":"9fe061f04745b85f3c5501c10ec054d49ac351c7","url":"https://api.github.com/repos/roadiz/roadiz/commits/9fe061f04745b85f3c5501c10ec054d49ac351c7"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMC4xMQ=="},{"name":"1.0.10","zipball_url":"https://api.github.com/repos/roadiz/roadiz/zipball/1.0.10","tarball_url":"https://api.github.com/repos/roadiz/roadiz/tarball/1.0.10","commit":{"sha":"318ac538b497417c93fe5d652465434bbc18aae9","url":"https://api.github.com/repos/roadiz/roadiz/commits/318ac538b497417c93fe5d652465434bbc18aae9"},"node_id":"MDM6UmVmMjY5NDkyODc6cmVmcy90YWdzLzEuMC4xMA=="}]
+0
+

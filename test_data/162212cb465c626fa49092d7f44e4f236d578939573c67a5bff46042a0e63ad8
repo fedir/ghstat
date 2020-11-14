@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:51 GMT
+Etag: W/"0863730de0bac9d3906e842fd136765b606ce0310df3d1fedfe835fa7d97fb0e"
+Last-Modified: Fri, 13 Dec 2019 01:33:27 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D910:E4B7:3E03D59:478FFB3:5FB04763
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3597
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1403
+X-Xss-Protection: 1; mode=block
+
+48e
+{"login":"aotto","id":214117,"node_id":"MDQ6VXNlcjIxNDExNw==","avatar_url":"https://avatars2.githubusercontent.com/u/214117?v=4","gravatar_id":"","url":"https://api.github.com/users/aotto","html_url":"https://github.com/aotto","followers_url":"https://api.github.com/users/aotto/followers","following_url":"https://api.github.com/users/aotto/following{/other_user}","gists_url":"https://api.github.com/users/aotto/gists{/gist_id}","starred_url":"https://api.github.com/users/aotto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aotto/subscriptions","organizations_url":"https://api.github.com/users/aotto/orgs","repos_url":"https://api.github.com/users/aotto/repos","events_url":"https://api.github.com/users/aotto/events{/privacy}","received_events_url":"https://api.github.com/users/aotto/received_events","type":"User","site_admin":false,"name":"Andreas Otto","company":null,"blog":"http://de.linkedin.com/in/andreasotto","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":1,"public_gists":0,"followers":6,"following":5,"created_at":"2010-03-02T18:41:53Z","updated_at":"2019-12-13T01:33:27Z"}
+0
+

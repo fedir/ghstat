@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:05 GMT
+Etag: W/"dd879e0acf62d988346c03b22128499119878a477843838071a5a1207dbfb8db"
+Last-Modified: Sat, 14 Nov 2020 20:49:45 GMT
+Link: <https://api.github.com/repositories/3214406/tags?page=43>; rel="prev", <https://api.github.com/repositories/3214406/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81E:7087:410A0CA:4AE9126:5FB046F9
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4426
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 574
+X-Xss-Protection: 1; mode=block
+
+687
+[{"name":"ejson@1.1.1","zipball_url":"https://api.github.com/repos/meteor/meteor/zipball/ejson@1.1.1","tarball_url":"https://api.github.com/repos/meteor/meteor/tarball/ejson@1.1.1","commit":{"sha":"096641b084b70f4ab52f3ef4468728d164ec66d1","url":"https://api.github.com/repos/meteor/meteor/commits/096641b084b70f4ab52f3ef4468728d164ec66d1"},"node_id":"MDM6UmVmMzIxNDQwNjpyZWZzL3RhZ3MvZWpzb25AMS4xLjE="},{"name":"dsg-test","zipball_url":"https://api.github.com/repos/meteor/meteor/zipball/dsg-test","tarball_url":"https://api.github.com/repos/meteor/meteor/tarball/dsg-test","commit":{"sha":"9a38eb2b56f991a48dbfd0161133dd76d49cee12","url":"https://api.github.com/repos/meteor/meteor/commits/9a38eb2b56f991a48dbfd0161133dd76d49cee12"},"node_id":"MDM6UmVmMzIxNDQwNjpyZWZzL3RhZ3MvZHNnLXRlc3Q="},{"name":"done-long-rebase","zipball_url":"https://api.github.com/repos/meteor/meteor/zipball/done-long-rebase","tarball_url":"https://api.github.com/repos/meteor/meteor/tarball/done-long-rebase","commit":{"sha":"c872ac1e321919d397005969443643d8c2fb3737","url":"https://api.github.com/repos/meteor/meteor/commits/c872ac1e321919d397005969443643d8c2fb3737"},"node_id":"MDM6UmVmMzIxNDQwNjpyZWZzL3RhZ3MvZG9uZS1sb25nLXJlYmFzZQ=="},{"name":"accounts-password@1.5.2","zipball_url":"https://api.github.com/repos/meteor/meteor/zipball/accounts-password@1.5.2","tarball_url":"https://api.github.com/repos/meteor/meteor/tarball/accounts-password@1.5.2","commit":{"sha":"63c53bea4f59174b41a1ca3a725e3eb186d50750","url":"https://api.github.com/repos/meteor/meteor/commits/63c53bea4f59174b41a1ca3a725e3eb186d50750"},"node_id":"MDM6UmVmMzIxNDQwNjpyZWZzL3RhZ3MvYWNjb3VudHMtcGFzc3dvcmRAMS41LjI="}]
+0
+

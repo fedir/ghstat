@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:17 GMT
+Etag: W/"d4ee1e38669235719f59ded6f0d1f4cc61f09fa5adc9f4ae9ca5fb29648bfed6"
+Last-Modified: Tue, 03 Nov 2020 21:36:03 GMT
+Link: <https://api.github.com/repositories/254239/tags?page=4>; rel="prev", <https://api.github.com/repositories/254239/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8DA:13F4:4154317:4B565BC:5FB04741
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3908
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1092
+X-Xss-Protection: 1; mode=block
+
+1499
+[{"name":"v1.174","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.174","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.174","commit":{"sha":"cee65d4e31c782190754acd4fc9910cce0e9323e","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/cee65d4e31c782190754acd4fc9910cce0e9323e"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xNzQ="},{"name":"v1.160","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.160","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.160","commit":{"sha":"e39eaa899dbe0ba88ed3013a204c28ead9877beb","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/e39eaa899dbe0ba88ed3013a204c28ead9877beb"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xNjA="},{"name":"v1.150","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.150","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.150","commit":{"sha":"4d4075b28a804d59b53b5611e3c791f6018fa108","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/4d4075b28a804d59b53b5611e3c791f6018fa108"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xNTA="},{"name":"v1.140","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.140","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.140","commit":{"sha":"4fa3497ce607f0ea3ea67e15784ab0ab24fd8b6a","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/4fa3497ce607f0ea3ea67e15784ab0ab24fd8b6a"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xNDA="},{"name":"v1.130","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.130","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.130","commit":{"sha":"7ca36e1d7030773b9d57b5900a323a035948d5c1","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/7ca36e1d7030773b9d57b5900a323a035948d5c1"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xMzA="},{"name":"v1.122","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.122","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.122","commit":{"sha":"2c991c577564d7c5518e11ff1e231809570493a2","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/2c991c577564d7c5518e11ff1e231809570493a2"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xMjI="},{"name":"v1.110","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v1.110","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v1.110","commit":{"sha":"d7981ae0a33d57c9900bb55f5c90748d4fda6aa7","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/d7981ae0a33d57c9900bb55f5c90748d4fda6aa7"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MS4xMTA="},{"name":"v0.9905","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/v0.9905","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/v0.9905","commit":{"sha":"ff71402858c09e4147ad6430e219bc4f88a43052","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/ff71402858c09e4147ad6430e219bc4f88a43052"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy92MC45OTA1"},{"name":"show","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/show","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/show","commit":{"sha":"329b090980e90c431f319addaebab29011740490","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/329b090980e90c431f319addaebab29011740490"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy9zaG93"},{"name":"my/current-1.3092","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/my/current-1.3092","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/my/current-1.3092","commit":{"sha":"9e64183229869154e6a866ceb651963fbdf65bcf","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/9e64183229869154e6a866ceb651963fbdf65bcf"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy9teS9jdXJyZW50LTEuMzA5Mg=="},{"name":"my/current-1.3091","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/my/current-1.3091","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/my/current-1.3091","commit":{"sha":"d87679ddd5a97951f6759dd9f2c0fb89f1e9c2db","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/d87679ddd5a97951f6759dd9f2c0fb89f1e9c2db"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy9teS9jdXJyZW50LTEuMzA5MQ=="},{"name":"my/current-1.3090","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/my/current-1.3090","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/my/current-1.3090","commit":{"sha":"1049c820c7f7baa5cb412486b9814f1ee13e0923","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/1049c820c7f7baa5cb412486b9814f1ee13e0923"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy9teS9jdXJyZW50LTEuMzA5MA=="},{"name":"my/current-1.3080","zipball_url":"https://api.github.com/repos/PerlDancer/Dancer/zipball/my/current-1.3080","tarball_url":"https://api.github.com/repos/PerlDancer/Dancer/tarball/my/current-1.3080","commit":{"sha":"090beeceb562526cd5fcc43eb8de20c50f66971b","url":"https://api.github.com/repos/PerlDancer/Dancer/commits/090beeceb562526cd5fcc43eb8de20c50f66971b"},"node_id":"MDM6UmVmMjU0MjM5OnJlZnMvdGFncy9teS9jdXJyZW50LTEuMzA4MA=="}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"5c139d64908ddfa8764f75b7f35fdf77ad4484cd03452b04a78ccb05837c0341"
+Link: <https://api.github.com/user/1116784/followers?page=2>; rel="prev", <https://api.github.com/user/1116784/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D965:F078:3C7ACE4:45BD511:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3081
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1919
+X-Xss-Protection: 1; mode=block
+
+ac0
+[{"login":"tillchen","id":35601483,"node_id":"MDQ6VXNlcjM1NjAxNDgz","avatar_url":"https://avatars1.githubusercontent.com/u/35601483?v=4","gravatar_id":"","url":"https://api.github.com/users/tillchen","html_url":"https://github.com/tillchen","followers_url":"https://api.github.com/users/tillchen/followers","following_url":"https://api.github.com/users/tillchen/following{/other_user}","gists_url":"https://api.github.com/users/tillchen/gists{/gist_id}","starred_url":"https://api.github.com/users/tillchen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tillchen/subscriptions","organizations_url":"https://api.github.com/users/tillchen/orgs","repos_url":"https://api.github.com/users/tillchen/repos","events_url":"https://api.github.com/users/tillchen/events{/privacy}","received_events_url":"https://api.github.com/users/tillchen/received_events","type":"User","site_admin":false},{"login":"sunny-panchal","id":19560780,"node_id":"MDQ6VXNlcjE5NTYwNzgw","avatar_url":"https://avatars3.githubusercontent.com/u/19560780?v=4","gravatar_id":"","url":"https://api.github.com/users/sunny-panchal","html_url":"https://github.com/sunny-panchal","followers_url":"https://api.github.com/users/sunny-panchal/followers","following_url":"https://api.github.com/users/sunny-panchal/following{/other_user}","gists_url":"https://api.github.com/users/sunny-panchal/gists{/gist_id}","starred_url":"https://api.github.com/users/sunny-panchal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sunny-panchal/subscriptions","organizations_url":"https://api.github.com/users/sunny-panchal/orgs","repos_url":"https://api.github.com/users/sunny-panchal/repos","events_url":"https://api.github.com/users/sunny-panchal/events{/privacy}","received_events_url":"https://api.github.com/users/sunny-panchal/received_events","type":"User","site_admin":false},{"login":"fabge","id":21140791,"node_id":"MDQ6VXNlcjIxMTQwNzkx","avatar_url":"https://avatars3.githubusercontent.com/u/21140791?v=4","gravatar_id":"","url":"https://api.github.com/users/fabge","html_url":"https://github.com/fabge","followers_url":"https://api.github.com/users/fabge/followers","following_url":"https://api.github.com/users/fabge/following{/other_user}","gists_url":"https://api.github.com/users/fabge/gists{/gist_id}","starred_url":"https://api.github.com/users/fabge/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fabge/subscriptions","organizations_url":"https://api.github.com/users/fabge/orgs","repos_url":"https://api.github.com/users/fabge/repos","events_url":"https://api.github.com/users/fabge/events{/privacy}","received_events_url":"https://api.github.com/users/fabge/received_events","type":"User","site_admin":false}]
+0
+

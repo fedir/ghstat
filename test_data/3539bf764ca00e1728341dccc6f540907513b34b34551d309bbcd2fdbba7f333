@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:36 GMT
+Etag: W/"306a96151a4129a61964756705f60bbc33064cda8ebb5e3c083c92c1d73657dd"
+Last-Modified: Sat, 14 Nov 2020 08:02:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7FC:7087:4107531:4AE5E4D:5FB046DC
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4982
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 18
+X-Xss-Protection: 1; mode=block
+
+133d
+[{"name":"v2.0.11.RELEASE","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/v2.0.11.RELEASE","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/v2.0.11.RELEASE","commit":{"sha":"0b8d3604051ea67af8ea90c77684e92925e8442c","url":"https://api.github.com/repos/lets-blade/blade/commits/0b8d3604051ea67af8ea90c77684e92925e8442c"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzL3YyLjAuMTEuUkVMRUFTRQ=="},{"name":"2.0.15.BETA","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.15.BETA","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.15.BETA","commit":{"sha":"dfb5817ee837e551e0c117b8cbd87da7eae976ad","url":"https://api.github.com/repos/lets-blade/blade/commits/dfb5817ee837e551e0c117b8cbd87da7eae976ad"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4xNS5CRVRB"},{"name":"2.0.13.ALPHA","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.13.ALPHA","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.13.ALPHA","commit":{"sha":"10bbb913bbe0e98e7fb70c502115b6134d45b5c2","url":"https://api.github.com/repos/lets-blade/blade/commits/10bbb913bbe0e98e7fb70c502115b6134d45b5c2"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4xMy5BTFBIQQ=="},{"name":"2.0.12.RELEASE","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.12.RELEASE","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.12.RELEASE","commit":{"sha":"41a03cea50a7fc3466361a10893c2c1b26942270","url":"https://api.github.com/repos/lets-blade/blade/commits/41a03cea50a7fc3466361a10893c2c1b26942270"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4xMi5SRUxFQVNF"},{"name":"2.0.12.BETA","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.12.BETA","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.12.BETA","commit":{"sha":"6757d039b45e85522749686c13c086a1d215f378","url":"https://api.github.com/repos/lets-blade/blade/commits/6757d039b45e85522749686c13c086a1d215f378"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4xMi5CRVRB"},{"name":"2.0.11.RELEASE","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.11.RELEASE","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.11.RELEASE","commit":{"sha":"0b8d3604051ea67af8ea90c77684e92925e8442c","url":"https://api.github.com/repos/lets-blade/blade/commits/0b8d3604051ea67af8ea90c77684e92925e8442c"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4xMS5SRUxFQVNF"},{"name":"2.0.8.RELEASE","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.8.RELEASE","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.8.RELEASE","commit":{"sha":"02ddc5893a08b26293f979102ce63b6f3ba2b574","url":"https://api.github.com/repos/lets-blade/blade/commits/02ddc5893a08b26293f979102ce63b6f3ba2b574"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC44LlJFTEVBU0U="},{"name":"2.0.5-RELEASE","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.5-RELEASE","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.5-RELEASE","commit":{"sha":"02e1ec1de3a537069533ba49942b9de9604ac70e","url":"https://api.github.com/repos/lets-blade/blade/commits/02e1ec1de3a537069533ba49942b9de9604ac70e"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC41LVJFTEVBU0U="},{"name":"2.0.4","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.4","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.4","commit":{"sha":"9ed87217d58ef0795d8c98e42754447066af22ba","url":"https://api.github.com/repos/lets-blade/blade/commits/9ed87217d58ef0795d8c98e42754447066af22ba"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC40"},{"name":"2.0.3","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.3","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.3","commit":{"sha":"12267f5184656fa3369002e82432c6933491d7c7","url":"https://api.github.com/repos/lets-blade/blade/commits/12267f5184656fa3369002e82432c6933491d7c7"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4z"},{"name":"2.0.0","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/2.0.0","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/2.0.0","commit":{"sha":"7571c0ef1671bdb338dd501711d0f3c9ab682aa7","url":"https://api.github.com/repos/lets-blade/blade/commits/7571c0ef1671bdb338dd501711d0f3c9ab682aa7"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzIuMC4w"},{"name":"1.7.2-beta","zipball_url":"https://api.github.com/repos/lets-blade/blade/zipball/1.7.2-beta","tarball_url":"https://api.github.com/repos/lets-blade/blade/tarball/1.7.2-beta","commit":{"sha":"435064a899559507d8ea258e24a769b1de16c818","url":"https://api.github.com/repos/lets-blade/blade/commits/435064a899559507d8ea258e24a769b1de16c818"},"node_id":"MDM6UmVmMzcxNzM1MTI6cmVmcy90YWdzLzEuNy4yLWJldGE="}]
+0
+

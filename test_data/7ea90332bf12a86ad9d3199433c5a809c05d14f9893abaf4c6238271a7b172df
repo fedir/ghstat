@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:37 GMT
+Etag: W/"f634cecd8490a996e84218d76611333fa547f9413ccd24d51318c7af74e8397c"
+Last-Modified: Mon, 09 Nov 2020 06:39:54 GMT
+Link: <https://api.github.com/repositories/7763363/tags?page=2>; rel="prev", <https://api.github.com/repositories/7763363/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D7F9:072B:79BF79:8CB341:5FB046DD
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4961
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 39
+X-Xss-Protection: 1; mode=block
+
+f47
+[{"name":"v0.9.5","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.5","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.5","commit":{"sha":"1a6d40b72a290b950edf95ada6521dc824966757","url":"https://api.github.com/repos/ratpack/ratpack/commits/1a6d40b72a290b950edf95ada6521dc824966757"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS41"},{"name":"v0.9.4","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.4","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.4","commit":{"sha":"2f529fd213551f18e83793acfd82209e33fa5bd9","url":"https://api.github.com/repos/ratpack/ratpack/commits/2f529fd213551f18e83793acfd82209e33fa5bd9"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS40"},{"name":"v0.9.3","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.3","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.3","commit":{"sha":"ea2547176f6b6d6ba6a5988ca2f7e2ef4f13ad33","url":"https://api.github.com/repos/ratpack/ratpack/commits/ea2547176f6b6d6ba6a5988ca2f7e2ef4f13ad33"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS4z"},{"name":"v0.9.2","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.2","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.2","commit":{"sha":"16999c5768b5fd74aaaa34e965644682747ef070","url":"https://api.github.com/repos/ratpack/ratpack/commits/16999c5768b5fd74aaaa34e965644682747ef070"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS4y"},{"name":"v0.9.1","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.1","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.1","commit":{"sha":"f5b6e1e43c5b49320f3e3c125ecfc3d43cb62512","url":"https://api.github.com/repos/ratpack/ratpack/commits/f5b6e1e43c5b49320f3e3c125ecfc3d43cb62512"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS4x"},{"name":"v0.9.0","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/v0.9.0","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/v0.9.0","commit":{"sha":"5489176d2de1cb35f015c1271f14b6364179f6e2","url":"https://api.github.com/repos/ratpack/ratpack/commits/5489176d2de1cb35f015c1271f14b6364179f6e2"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvdjAuOS4w"},{"name":"spring-boot-pr-3","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/spring-boot-pr-3","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/spring-boot-pr-3","commit":{"sha":"2eaefbf1bf61da23f745701a0f76ac25db3c564a","url":"https://api.github.com/repos/ratpack/ratpack/commits/2eaefbf1bf61da23f745701a0f76ac25db3c564a"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3Mvc3ByaW5nLWJvb3QtcHItMw=="},{"name":"1.6.0-rc-1","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/1.6.0-rc-1","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/1.6.0-rc-1","commit":{"sha":"b09a3a049a801ec247da7a6131864b9bd5a5cc22","url":"https://api.github.com/repos/ratpack/ratpack/commits/b09a3a049a801ec247da7a6131864b9bd5a5cc22"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvMS42LjAtcmMtMQ=="},{"name":"0.6.1","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/0.6.1","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/0.6.1","commit":{"sha":"b119feb8779ca3f10bb19760199aff208cd436aa","url":"https://api.github.com/repos/ratpack/ratpack/commits/b119feb8779ca3f10bb19760199aff208cd436aa"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvMC42LjE="},{"name":"0.5.2","zipball_url":"https://api.github.com/repos/ratpack/ratpack/zipball/0.5.2","tarball_url":"https://api.github.com/repos/ratpack/ratpack/tarball/0.5.2","commit":{"sha":"c01f8fdd79e754884e001c226d4f85b6ccc56bec","url":"https://api.github.com/repos/ratpack/ratpack/commits/c01f8fdd79e754884e001c226d4f85b6ccc56bec"},"node_id":"MDM6UmVmNzc2MzM2MzpyZWZzL3RhZ3MvMC41LjI="}]
+0
+

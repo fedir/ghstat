@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"f02f1ec873df8beb7ca30d21273ef14129d6d029ee912739fbe2f84442f4e9a6"
+Link: <https://api.github.com/user/300279/followers?page=31>; rel="prev", <https://api.github.com/user/300279/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D964:072C:1106C0C:13A445A:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3273
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1727
+X-Xss-Protection: 1; mode=block
+
+73f
+[{"login":"traoreteddy","id":36734352,"node_id":"MDQ6VXNlcjM2NzM0MzUy","avatar_url":"https://avatars3.githubusercontent.com/u/36734352?v=4","gravatar_id":"","url":"https://api.github.com/users/traoreteddy","html_url":"https://github.com/traoreteddy","followers_url":"https://api.github.com/users/traoreteddy/followers","following_url":"https://api.github.com/users/traoreteddy/following{/other_user}","gists_url":"https://api.github.com/users/traoreteddy/gists{/gist_id}","starred_url":"https://api.github.com/users/traoreteddy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/traoreteddy/subscriptions","organizations_url":"https://api.github.com/users/traoreteddy/orgs","repos_url":"https://api.github.com/users/traoreteddy/repos","events_url":"https://api.github.com/users/traoreteddy/events{/privacy}","received_events_url":"https://api.github.com/users/traoreteddy/received_events","type":"User","site_admin":false},{"login":"mujibvaa","id":42888186,"node_id":"MDQ6VXNlcjQyODg4MTg2","avatar_url":"https://avatars2.githubusercontent.com/u/42888186?v=4","gravatar_id":"","url":"https://api.github.com/users/mujibvaa","html_url":"https://github.com/mujibvaa","followers_url":"https://api.github.com/users/mujibvaa/followers","following_url":"https://api.github.com/users/mujibvaa/following{/other_user}","gists_url":"https://api.github.com/users/mujibvaa/gists{/gist_id}","starred_url":"https://api.github.com/users/mujibvaa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mujibvaa/subscriptions","organizations_url":"https://api.github.com/users/mujibvaa/orgs","repos_url":"https://api.github.com/users/mujibvaa/repos","events_url":"https://api.github.com/users/mujibvaa/events{/privacy}","received_events_url":"https://api.github.com/users/mujibvaa/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"adf06ad59e68306b9ab156ce69373679bb04f3af32994a96fb36f027dbd681dc"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D940:BAD3:40F62FA:4AE4A5A:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3039
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1961
+X-Xss-Protection: 1; mode=block
+
+73d
+[{"login":"Stevowalton","id":6029631,"node_id":"MDQ6VXNlcjYwMjk2MzE=","avatar_url":"https://avatars1.githubusercontent.com/u/6029631?v=4","gravatar_id":"","url":"https://api.github.com/users/Stevowalton","html_url":"https://github.com/Stevowalton","followers_url":"https://api.github.com/users/Stevowalton/followers","following_url":"https://api.github.com/users/Stevowalton/following{/other_user}","gists_url":"https://api.github.com/users/Stevowalton/gists{/gist_id}","starred_url":"https://api.github.com/users/Stevowalton/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Stevowalton/subscriptions","organizations_url":"https://api.github.com/users/Stevowalton/orgs","repos_url":"https://api.github.com/users/Stevowalton/repos","events_url":"https://api.github.com/users/Stevowalton/events{/privacy}","received_events_url":"https://api.github.com/users/Stevowalton/received_events","type":"User","site_admin":false},{"login":"angmar33","id":29626574,"node_id":"MDQ6VXNlcjI5NjI2NTc0","avatar_url":"https://avatars3.githubusercontent.com/u/29626574?v=4","gravatar_id":"","url":"https://api.github.com/users/angmar33","html_url":"https://github.com/angmar33","followers_url":"https://api.github.com/users/angmar33/followers","following_url":"https://api.github.com/users/angmar33/following{/other_user}","gists_url":"https://api.github.com/users/angmar33/gists{/gist_id}","starred_url":"https://api.github.com/users/angmar33/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/angmar33/subscriptions","organizations_url":"https://api.github.com/users/angmar33/orgs","repos_url":"https://api.github.com/users/angmar33/repos","events_url":"https://api.github.com/users/angmar33/events{/privacy}","received_events_url":"https://api.github.com/users/angmar33/received_events","type":"User","site_admin":false}]
+0
+

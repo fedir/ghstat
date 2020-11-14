@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:18 GMT
+Etag: W/"52848e55b185bb5605d4e382a0a0e534b4d929a559eafda13544f4f927824316"
+Last-Modified: Sat, 14 Nov 2020 03:22:55 GMT
+Link: <https://api.github.com/repositories/317887/tags?page=3>; rel="prev", <https://api.github.com/repositories/317887/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D948:072E:3F53EB4:49186F4:5FB0477E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2775
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2225
+X-Xss-Protection: 1; mode=block
+
+11f0
+[{"name":"6.2.0-ga1","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.2.0-ga1","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.2.0-ga1","commit":{"sha":"3ca050d98b0375da829c67275956a96f72ef67ff","url":"https://api.github.com/repos/liferay/liferay-portal/commits/3ca050d98b0375da829c67275956a96f72ef67ff"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjIuMC1nYTE="},{"name":"6.2.0-b2","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.2.0-b2","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.2.0-b2","commit":{"sha":"cc5f17f39dea3f623cec5b712e1969eced6392a8","url":"https://api.github.com/repos/liferay/liferay-portal/commits/cc5f17f39dea3f623cec5b712e1969eced6392a8"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjIuMC1iMg=="},{"name":"6.2.0-b1","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.2.0-b1","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.2.0-b1","commit":{"sha":"7db0dccf7d7890a9eed7850a87ddd98e44e44334","url":"https://api.github.com/repos/liferay/liferay-portal/commits/7db0dccf7d7890a9eed7850a87ddd98e44e44334"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjIuMC1iMQ=="},{"name":"6.1.2-ga3","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.2-ga3","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.2-ga3","commit":{"sha":"a3636a9d8cf1db7d6d4c37dfb66b5696826e6181","url":"https://api.github.com/repos/liferay/liferay-portal/commits/a3636a9d8cf1db7d6d4c37dfb66b5696826e6181"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMi1nYTM="},{"name":"6.1.1-ga2","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.1-ga2","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.1-ga2","commit":{"sha":"fe708510b1566583870a6be892d86f1761a1e64b","url":"https://api.github.com/repos/liferay/liferay-portal/commits/fe708510b1566583870a6be892d86f1761a1e64b"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMS1nYTI="},{"name":"6.1.0-rc1","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-rc1","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-rc1","commit":{"sha":"c41fe6f9251c732abbbaff0833093997f45fe771","url":"https://api.github.com/repos/liferay/liferay-portal/commits/c41fe6f9251c732abbbaff0833093997f45fe771"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1yYzE="},{"name":"6.1.0-ga1","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-ga1","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-ga1","commit":{"sha":"73c2fa07b6d1ce2d0b52d290fda7c859ed3ec5d9","url":"https://api.github.com/repos/liferay/liferay-portal/commits/73c2fa07b6d1ce2d0b52d290fda7c859ed3ec5d9"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1nYTE="},{"name":"6.1.0-b4","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-b4","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-b4","commit":{"sha":"2ced8fc435f38494ae939edcb6bf0872006d289e","url":"https://api.github.com/repos/liferay/liferay-portal/commits/2ced8fc435f38494ae939edcb6bf0872006d289e"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1iNA=="},{"name":"6.1.0-b3","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-b3","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-b3","commit":{"sha":"037e5369e4770a9ca7ee4e39f0dbb2eb2862532a","url":"https://api.github.com/repos/liferay/liferay-portal/commits/037e5369e4770a9ca7ee4e39f0dbb2eb2862532a"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1iMw=="},{"name":"6.1.0-b2","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-b2","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-b2","commit":{"sha":"4f5603382bdec76b2342fa4fbc2088fde55a6701","url":"https://api.github.com/repos/liferay/liferay-portal/commits/4f5603382bdec76b2342fa4fbc2088fde55a6701"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1iMg=="},{"name":"6.1.0-b1","zipball_url":"https://api.github.com/repos/liferay/liferay-portal/zipball/6.1.0-b1","tarball_url":"https://api.github.com/repos/liferay/liferay-portal/tarball/6.1.0-b1","commit":{"sha":"7b9b4432586464f353fcb65893ecf22f635c80d6","url":"https://api.github.com/repos/liferay/liferay-portal/commits/7b9b4432586464f353fcb65893ecf22f635c80d6"},"node_id":"MDM6UmVmMzE3ODg3OnJlZnMvdGFncy82LjEuMC1iMQ=="}]
+0
+

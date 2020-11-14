@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:06 GMT
+Etag: W/"3ddbe5150eb6feab4578a1667375928a4c83b1bb6ef2d6b249cae443a34a7d37"
+Last-Modified: Sat, 14 Nov 2020 20:26:16 GMT
+Link: <https://api.github.com/repositories/11730342/contributors?page=10>; rel="prev", <https://api.github.com/repositories/11730342/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81B:41F4:418ABD4:4B9CD7C:5FB046F9
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4405
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 595
+X-Xss-Protection: 1; mode=block
+
+394
+[{"login":"ahaoboy","id":19884146,"node_id":"MDQ6VXNlcjE5ODg0MTQ2","avatar_url":"https://avatars2.githubusercontent.com/u/19884146?v=4","gravatar_id":"","url":"https://api.github.com/users/ahaoboy","html_url":"https://github.com/ahaoboy","followers_url":"https://api.github.com/users/ahaoboy/followers","following_url":"https://api.github.com/users/ahaoboy/following{/other_user}","gists_url":"https://api.github.com/users/ahaoboy/gists{/gist_id}","starred_url":"https://api.github.com/users/ahaoboy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ahaoboy/subscriptions","organizations_url":"https://api.github.com/users/ahaoboy/orgs","repos_url":"https://api.github.com/users/ahaoboy/repos","events_url":"https://api.github.com/users/ahaoboy/events{/privacy}","received_events_url":"https://api.github.com/users/ahaoboy/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

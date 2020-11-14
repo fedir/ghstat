@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"2ca2a16d469aaec51d8a1f78f67cf75a879a31cfc30ec03115267b75a5b8515e"
+Last-Modified: Fri, 13 Nov 2020 15:28:12 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D903:5C53:4382DB0:4DCFCF6:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3564
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1436
+X-Xss-Protection: 1; mode=block
+
+57f
+{"login":"paulandrieux","id":1942078,"node_id":"MDQ6VXNlcjE5NDIwNzg=","avatar_url":"https://avatars1.githubusercontent.com/u/1942078?v=4","gravatar_id":"","url":"https://api.github.com/users/paulandrieux","html_url":"https://github.com/paulandrieux","followers_url":"https://api.github.com/users/paulandrieux/followers","following_url":"https://api.github.com/users/paulandrieux/following{/other_user}","gists_url":"https://api.github.com/users/paulandrieux/gists{/gist_id}","starred_url":"https://api.github.com/users/paulandrieux/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulandrieux/subscriptions","organizations_url":"https://api.github.com/users/paulandrieux/orgs","repos_url":"https://api.github.com/users/paulandrieux/repos","events_url":"https://api.github.com/users/paulandrieux/events{/privacy}","received_events_url":"https://api.github.com/users/paulandrieux/received_events","type":"User","site_admin":false,"name":"Paul Andrieux","company":"Troopers","blog":"https://troopers.agency","location":"Nantes, France","email":"paul@troopers.email","hireable":null,"bio":"Co-founder @Troopers, we love to tailor some web apps in PHP.\r\nLead dev @Victoire, an awesome nextgen CMS build on top of Symfony","twitter_username":null,"public_repos":43,"public_gists":24,"followers":33,"following":60,"created_at":"2012-07-09T10:30:48Z","updated_at":"2020-11-13T15:28:12Z"}
+0
+

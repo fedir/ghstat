@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"ccaf4aafbd5106027551730d8f5f2f0b068bb09fe81b3d1bbb4182c96f2bb28e"
+Link: <https://api.github.com/user/11708220/followers?page=1>; rel="prev", <https://api.github.com/user/11708220/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D94C:78A2:2199FDD:26A43A6:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3304
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1696
+X-Xss-Protection: 1; mode=block
+
+7ab
+[{"login":"rafaelleaygalenq","id":43957557,"node_id":"MDQ6VXNlcjQzOTU3NTU3","avatar_url":"https://avatars2.githubusercontent.com/u/43957557?v=4","gravatar_id":"","url":"https://api.github.com/users/rafaelleaygalenq","html_url":"https://github.com/rafaelleaygalenq","followers_url":"https://api.github.com/users/rafaelleaygalenq/followers","following_url":"https://api.github.com/users/rafaelleaygalenq/following{/other_user}","gists_url":"https://api.github.com/users/rafaelleaygalenq/gists{/gist_id}","starred_url":"https://api.github.com/users/rafaelleaygalenq/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rafaelleaygalenq/subscriptions","organizations_url":"https://api.github.com/users/rafaelleaygalenq/orgs","repos_url":"https://api.github.com/users/rafaelleaygalenq/repos","events_url":"https://api.github.com/users/rafaelleaygalenq/events{/privacy}","received_events_url":"https://api.github.com/users/rafaelleaygalenq/received_events","type":"User","site_admin":false},{"login":"maevalienard","id":54801383,"node_id":"MDQ6VXNlcjU0ODAxMzgz","avatar_url":"https://avatars0.githubusercontent.com/u/54801383?v=4","gravatar_id":"","url":"https://api.github.com/users/maevalienard","html_url":"https://github.com/maevalienard","followers_url":"https://api.github.com/users/maevalienard/followers","following_url":"https://api.github.com/users/maevalienard/following{/other_user}","gists_url":"https://api.github.com/users/maevalienard/gists{/gist_id}","starred_url":"https://api.github.com/users/maevalienard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/maevalienard/subscriptions","organizations_url":"https://api.github.com/users/maevalienard/orgs","repos_url":"https://api.github.com/users/maevalienard/repos","events_url":"https://api.github.com/users/maevalienard/events{/privacy}","received_events_url":"https://api.github.com/users/maevalienard/received_events","type":"User","site_admin":false}]
+0
+

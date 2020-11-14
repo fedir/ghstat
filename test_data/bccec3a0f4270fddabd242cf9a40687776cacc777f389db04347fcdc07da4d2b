@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"90a1a17234e1aa543f367efe267861a9956a09c82c3fc281744969bbff106f7b"
+Last-Modified: Fri, 06 Nov 2020 16:32:57 GMT
+Link: <https://api.github.com/repositories/1027912/contributors?page=1>; rel="prev", <https://api.github.com/repositories/1027912/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D940:BAD3:40F6331:4AE4A9B:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2998
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2002
+X-Xss-Protection: 1; mode=block
+
+ae8
+[{"login":"williamn","id":27722,"node_id":"MDQ6VXNlcjI3NzIy","avatar_url":"https://avatars0.githubusercontent.com/u/27722?v=4","gravatar_id":"","url":"https://api.github.com/users/williamn","html_url":"https://github.com/williamn","followers_url":"https://api.github.com/users/williamn/followers","following_url":"https://api.github.com/users/williamn/following{/other_user}","gists_url":"https://api.github.com/users/williamn/gists{/gist_id}","starred_url":"https://api.github.com/users/williamn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/williamn/subscriptions","organizations_url":"https://api.github.com/users/williamn/orgs","repos_url":"https://api.github.com/users/williamn/repos","events_url":"https://api.github.com/users/williamn/events{/privacy}","received_events_url":"https://api.github.com/users/williamn/received_events","type":"User","site_admin":false,"contributions":1},{"login":"andorkerti","id":13197926,"node_id":"MDQ6VXNlcjEzMTk3OTI2","avatar_url":"https://avatars2.githubusercontent.com/u/13197926?v=4","gravatar_id":"","url":"https://api.github.com/users/andorkerti","html_url":"https://github.com/andorkerti","followers_url":"https://api.github.com/users/andorkerti/followers","following_url":"https://api.github.com/users/andorkerti/following{/other_user}","gists_url":"https://api.github.com/users/andorkerti/gists{/gist_id}","starred_url":"https://api.github.com/users/andorkerti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andorkerti/subscriptions","organizations_url":"https://api.github.com/users/andorkerti/orgs","repos_url":"https://api.github.com/users/andorkerti/repos","events_url":"https://api.github.com/users/andorkerti/events{/privacy}","received_events_url":"https://api.github.com/users/andorkerti/received_events","type":"User","site_admin":false,"contributions":1},{"login":"ochinedu","id":297463,"node_id":"MDQ6VXNlcjI5NzQ2Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/297463?v=4","gravatar_id":"","url":"https://api.github.com/users/ochinedu","html_url":"https://github.com/ochinedu","followers_url":"https://api.github.com/users/ochinedu/followers","following_url":"https://api.github.com/users/ochinedu/following{/other_user}","gists_url":"https://api.github.com/users/ochinedu/gists{/gist_id}","starred_url":"https://api.github.com/users/ochinedu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ochinedu/subscriptions","organizations_url":"https://api.github.com/users/ochinedu/orgs","repos_url":"https://api.github.com/users/ochinedu/repos","events_url":"https://api.github.com/users/ochinedu/events{/privacy}","received_events_url":"https://api.github.com/users/ochinedu/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

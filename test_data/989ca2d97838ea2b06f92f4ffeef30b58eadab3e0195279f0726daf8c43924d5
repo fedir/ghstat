@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"67af07670bb201d2f33eba2aea389cf7ee4b854d877ab8d7b6df55a8f9812c5f"
+Last-Modified: Fri, 04 Sep 2020 08:44:05 GMT
+Link: <https://api.github.com/repositories/21970893/tags?page=1>; rel="prev", <https://api.github.com/repositories/21970893/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D948:072E:3F53AC1:4918268:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3013
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1987
+X-Xss-Protection: 1; mode=block
+
+afa
+[{"name":"v1.0.2","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v1.0.2","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v1.0.2","commit":{"sha":"57b4f865ca1a39133338baf2966a1084b1d60a73","url":"https://api.github.com/repos/backbee/backbee-php/commits/57b4f865ca1a39133338baf2966a1084b1d60a73"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YxLjAuMg=="},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v1.0.1","commit":{"sha":"e80f04e8993d4a2f14ea453fe69b4081ee2bfa3e","url":"https://api.github.com/repos/backbee/backbee-php/commits/e80f04e8993d4a2f14ea453fe69b4081ee2bfa3e"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YxLjAuMQ=="},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v1.0.0","commit":{"sha":"275dfb5c8ede4d664dd2fa902d5ce58fc9a26e9a","url":"https://api.github.com/repos/backbee/backbee-php/commits/275dfb5c8ede4d664dd2fa902d5ce58fc9a26e9a"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YxLjAuMA=="},{"name":"v0.11.3","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v0.11.3","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v0.11.3","commit":{"sha":"f02b0932c9004244393164dd0b9870f545afae3b","url":"https://api.github.com/repos/backbee/backbee-php/commits/f02b0932c9004244393164dd0b9870f545afae3b"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YwLjExLjM="},{"name":"v0.11.2","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v0.11.2","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v0.11.2","commit":{"sha":"9adfcf7b04bdf819871d4f8e5e165e6e937c4cc4","url":"https://api.github.com/repos/backbee/backbee-php/commits/9adfcf7b04bdf819871d4f8e5e165e6e937c4cc4"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YwLjExLjI="},{"name":"v0.11.1","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v0.11.1","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v0.11.1","commit":{"sha":"f2fc4c84000caab150e2029a49952e9b99725db3","url":"https://api.github.com/repos/backbee/backbee-php/commits/f2fc4c84000caab150e2029a49952e9b99725db3"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YwLjExLjE="},{"name":"v0.11","zipball_url":"https://api.github.com/repos/backbee/backbee-php/zipball/v0.11","tarball_url":"https://api.github.com/repos/backbee/backbee-php/tarball/v0.11","commit":{"sha":"487761c00945f2ec201f0634a78e4561446dbf97","url":"https://api.github.com/repos/backbee/backbee-php/commits/487761c00945f2ec201f0634a78e4561446dbf97"},"node_id":"MDM6UmVmMjE5NzA4OTM6cmVmcy90YWdzL3YwLjEx"}]
+0
+

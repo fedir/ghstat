@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:58 GMT
+Etag: W/"4de729d17a34c430bca39cfeebe288f9097fb6bd868021986153e15ca4330ae4"
+Link: <https://api.github.com/user/5750/followers?page=75>; rel="prev", <https://api.github.com/user/5750/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D814:41F4:4189E17:4B9BDBA:5FB046F2
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4803
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 197
+X-Xss-Protection: 1; mode=block
+
+6e7
+[{"login":"deka","id":349156,"node_id":"MDQ6VXNlcjM0OTE1Ng==","avatar_url":"https://avatars0.githubusercontent.com/u/349156?v=4","gravatar_id":"","url":"https://api.github.com/users/deka","html_url":"https://github.com/deka","followers_url":"https://api.github.com/users/deka/followers","following_url":"https://api.github.com/users/deka/following{/other_user}","gists_url":"https://api.github.com/users/deka/gists{/gist_id}","starred_url":"https://api.github.com/users/deka/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/deka/subscriptions","organizations_url":"https://api.github.com/users/deka/orgs","repos_url":"https://api.github.com/users/deka/repos","events_url":"https://api.github.com/users/deka/events{/privacy}","received_events_url":"https://api.github.com/users/deka/received_events","type":"User","site_admin":false},{"login":"Minozzzi","id":61752597,"node_id":"MDQ6VXNlcjYxNzUyNTk3","avatar_url":"https://avatars0.githubusercontent.com/u/61752597?v=4","gravatar_id":"","url":"https://api.github.com/users/Minozzzi","html_url":"https://github.com/Minozzzi","followers_url":"https://api.github.com/users/Minozzzi/followers","following_url":"https://api.github.com/users/Minozzzi/following{/other_user}","gists_url":"https://api.github.com/users/Minozzzi/gists{/gist_id}","starred_url":"https://api.github.com/users/Minozzzi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Minozzzi/subscriptions","organizations_url":"https://api.github.com/users/Minozzzi/orgs","repos_url":"https://api.github.com/users/Minozzzi/repos","events_url":"https://api.github.com/users/Minozzzi/events{/privacy}","received_events_url":"https://api.github.com/users/Minozzzi/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:00 GMT
+Etag: W/"6048f0c9ac72d03773778c52126894caeba8b2787f490f23310153e4bb61f366"
+Link: <https://api.github.com/user/3607926/followers?page=5>; rel="prev", <https://api.github.com/user/3607926/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D815:E7C5:3A282E8:4328B7E:5FB046F4
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4702
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 298
+X-Xss-Protection: 1; mode=block
+
+e85
+[{"login":"leiwenpeng0424","id":19985318,"node_id":"MDQ6VXNlcjE5OTg1MzE4","avatar_url":"https://avatars1.githubusercontent.com/u/19985318?v=4","gravatar_id":"","url":"https://api.github.com/users/leiwenpeng0424","html_url":"https://github.com/leiwenpeng0424","followers_url":"https://api.github.com/users/leiwenpeng0424/followers","following_url":"https://api.github.com/users/leiwenpeng0424/following{/other_user}","gists_url":"https://api.github.com/users/leiwenpeng0424/gists{/gist_id}","starred_url":"https://api.github.com/users/leiwenpeng0424/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leiwenpeng0424/subscriptions","organizations_url":"https://api.github.com/users/leiwenpeng0424/orgs","repos_url":"https://api.github.com/users/leiwenpeng0424/repos","events_url":"https://api.github.com/users/leiwenpeng0424/events{/privacy}","received_events_url":"https://api.github.com/users/leiwenpeng0424/received_events","type":"User","site_admin":false},{"login":"wty521","id":18510999,"node_id":"MDQ6VXNlcjE4NTEwOTk5","avatar_url":"https://avatars3.githubusercontent.com/u/18510999?v=4","gravatar_id":"","url":"https://api.github.com/users/wty521","html_url":"https://github.com/wty521","followers_url":"https://api.github.com/users/wty521/followers","following_url":"https://api.github.com/users/wty521/following{/other_user}","gists_url":"https://api.github.com/users/wty521/gists{/gist_id}","starred_url":"https://api.github.com/users/wty521/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wty521/subscriptions","organizations_url":"https://api.github.com/users/wty521/orgs","repos_url":"https://api.github.com/users/wty521/repos","events_url":"https://api.github.com/users/wty521/events{/privacy}","received_events_url":"https://api.github.com/users/wty521/received_events","type":"User","site_admin":false},{"login":"rifat-dev","id":72746776,"node_id":"MDQ6VXNlcjcyNzQ2Nzc2","avatar_url":"https://avatars2.githubusercontent.com/u/72746776?v=4","gravatar_id":"","url":"https://api.github.com/users/rifat-dev","html_url":"https://github.com/rifat-dev","followers_url":"https://api.github.com/users/rifat-dev/followers","following_url":"https://api.github.com/users/rifat-dev/following{/other_user}","gists_url":"https://api.github.com/users/rifat-dev/gists{/gist_id}","starred_url":"https://api.github.com/users/rifat-dev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rifat-dev/subscriptions","organizations_url":"https://api.github.com/users/rifat-dev/orgs","repos_url":"https://api.github.com/users/rifat-dev/repos","events_url":"https://api.github.com/users/rifat-dev/events{/privacy}","received_events_url":"https://api.github.com/users/rifat-dev/received_events","type":"User","site_admin":false},{"login":"itchina110","id":285661,"node_id":"MDQ6VXNlcjI4NTY2MQ==","avatar_url":"https://avatars1.githubusercontent.com/u/285661?v=4","gravatar_id":"","url":"https://api.github.com/users/itchina110","html_url":"https://github.com/itchina110","followers_url":"https://api.github.com/users/itchina110/followers","following_url":"https://api.github.com/users/itchina110/following{/other_user}","gists_url":"https://api.github.com/users/itchina110/gists{/gist_id}","starred_url":"https://api.github.com/users/itchina110/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/itchina110/subscriptions","organizations_url":"https://api.github.com/users/itchina110/orgs","repos_url":"https://api.github.com/users/itchina110/repos","events_url":"https://api.github.com/users/itchina110/events{/privacy}","received_events_url":"https://api.github.com/users/itchina110/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:03 GMT
+Etag: W/"a77bae2b885911181e647d76cf4dbd4d9f6a7c534da14bd72c0949a4dc9bee1c"
+Link: <https://api.github.com/user/286431/followers?page=2>; rel="prev", <https://api.github.com/user/286431/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81A:072B:79C485:8CB90B:5FB046F7
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4529
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 471
+X-Xss-Protection: 1; mode=block
+
+ee5
+[{"login":"androolloyd","id":1237259,"node_id":"MDQ6VXNlcjEyMzcyNTk=","avatar_url":"https://avatars1.githubusercontent.com/u/1237259?v=4","gravatar_id":"","url":"https://api.github.com/users/androolloyd","html_url":"https://github.com/androolloyd","followers_url":"https://api.github.com/users/androolloyd/followers","following_url":"https://api.github.com/users/androolloyd/following{/other_user}","gists_url":"https://api.github.com/users/androolloyd/gists{/gist_id}","starred_url":"https://api.github.com/users/androolloyd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/androolloyd/subscriptions","organizations_url":"https://api.github.com/users/androolloyd/orgs","repos_url":"https://api.github.com/users/androolloyd/repos","events_url":"https://api.github.com/users/androolloyd/events{/privacy}","received_events_url":"https://api.github.com/users/androolloyd/received_events","type":"User","site_admin":false},{"login":"shouryamundra","id":62700915,"node_id":"MDQ6VXNlcjYyNzAwOTE1","avatar_url":"https://avatars2.githubusercontent.com/u/62700915?v=4","gravatar_id":"","url":"https://api.github.com/users/shouryamundra","html_url":"https://github.com/shouryamundra","followers_url":"https://api.github.com/users/shouryamundra/followers","following_url":"https://api.github.com/users/shouryamundra/following{/other_user}","gists_url":"https://api.github.com/users/shouryamundra/gists{/gist_id}","starred_url":"https://api.github.com/users/shouryamundra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shouryamundra/subscriptions","organizations_url":"https://api.github.com/users/shouryamundra/orgs","repos_url":"https://api.github.com/users/shouryamundra/repos","events_url":"https://api.github.com/users/shouryamundra/events{/privacy}","received_events_url":"https://api.github.com/users/shouryamundra/received_events","type":"User","site_admin":false},{"login":"briancabbott","id":2147648,"node_id":"MDQ6VXNlcjIxNDc2NDg=","avatar_url":"https://avatars0.githubusercontent.com/u/2147648?v=4","gravatar_id":"","url":"https://api.github.com/users/briancabbott","html_url":"https://github.com/briancabbott","followers_url":"https://api.github.com/users/briancabbott/followers","following_url":"https://api.github.com/users/briancabbott/following{/other_user}","gists_url":"https://api.github.com/users/briancabbott/gists{/gist_id}","starred_url":"https://api.github.com/users/briancabbott/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/briancabbott/subscriptions","organizations_url":"https://api.github.com/users/briancabbott/orgs","repos_url":"https://api.github.com/users/briancabbott/repos","events_url":"https://api.github.com/users/briancabbott/events{/privacy}","received_events_url":"https://api.github.com/users/briancabbott/received_events","type":"User","site_admin":false},{"login":"defmacro001","id":52347049,"node_id":"MDQ6VXNlcjUyMzQ3MDQ5","avatar_url":"https://avatars0.githubusercontent.com/u/52347049?v=4","gravatar_id":"","url":"https://api.github.com/users/defmacro001","html_url":"https://github.com/defmacro001","followers_url":"https://api.github.com/users/defmacro001/followers","following_url":"https://api.github.com/users/defmacro001/following{/other_user}","gists_url":"https://api.github.com/users/defmacro001/gists{/gist_id}","starred_url":"https://api.github.com/users/defmacro001/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/defmacro001/subscriptions","organizations_url":"https://api.github.com/users/defmacro001/orgs","repos_url":"https://api.github.com/users/defmacro001/repos","events_url":"https://api.github.com/users/defmacro001/events{/privacy}","received_events_url":"https://api.github.com/users/defmacro001/received_events","type":"User","site_admin":false}]
+0
+

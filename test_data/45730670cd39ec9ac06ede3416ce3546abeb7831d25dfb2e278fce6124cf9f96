@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:17 GMT
+Etag: W/"78cc715ca9cbbc7018b8ab9d7527b9f89e0b4cfb4af4668d7607c5541e12e4aa"
+Link: <https://api.github.com/user/313404/followers?page=1>; rel="prev", <https://api.github.com/user/313404/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D971:BA89:1069D07:12EE34E:5FB0477D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2859
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2141
+X-Xss-Protection: 1; mode=block
+
+755
+[{"login":"AchoArnold","id":4196457,"node_id":"MDQ6VXNlcjQxOTY0NTc=","avatar_url":"https://avatars3.githubusercontent.com/u/4196457?v=4","gravatar_id":"","url":"https://api.github.com/users/AchoArnold","html_url":"https://github.com/AchoArnold","followers_url":"https://api.github.com/users/AchoArnold/followers","following_url":"https://api.github.com/users/AchoArnold/following{/other_user}","gists_url":"https://api.github.com/users/AchoArnold/gists{/gist_id}","starred_url":"https://api.github.com/users/AchoArnold/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AchoArnold/subscriptions","organizations_url":"https://api.github.com/users/AchoArnold/orgs","repos_url":"https://api.github.com/users/AchoArnold/repos","events_url":"https://api.github.com/users/AchoArnold/events{/privacy}","received_events_url":"https://api.github.com/users/AchoArnold/received_events","type":"User","site_admin":false},{"login":"8ctopotamus","id":17594101,"node_id":"MDQ6VXNlcjE3NTk0MTAx","avatar_url":"https://avatars1.githubusercontent.com/u/17594101?v=4","gravatar_id":"","url":"https://api.github.com/users/8ctopotamus","html_url":"https://github.com/8ctopotamus","followers_url":"https://api.github.com/users/8ctopotamus/followers","following_url":"https://api.github.com/users/8ctopotamus/following{/other_user}","gists_url":"https://api.github.com/users/8ctopotamus/gists{/gist_id}","starred_url":"https://api.github.com/users/8ctopotamus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/8ctopotamus/subscriptions","organizations_url":"https://api.github.com/users/8ctopotamus/orgs","repos_url":"https://api.github.com/users/8ctopotamus/repos","events_url":"https://api.github.com/users/8ctopotamus/events{/privacy}","received_events_url":"https://api.github.com/users/8ctopotamus/received_events","type":"User","site_admin":false}]
+0
+

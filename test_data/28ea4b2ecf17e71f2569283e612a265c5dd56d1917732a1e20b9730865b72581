@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"75747b2c16223faca13bccb960dfa1f913453ee6329d14c74ef52f7e42f8cede"
+Last-Modified: Fri, 13 Nov 2020 15:46:03 GMT
+Link: <https://api.github.com/repositories/3729629/contributors?page=2>; rel="prev", <https://api.github.com/repositories/3729629/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D96F:E4B7:3E0656A:4792DB6:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3042
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1958
+X-Xss-Protection: 1; mode=block
+
+396
+[{"login":"shakaran","id":14254,"node_id":"MDQ6VXNlcjE0MjU0","avatar_url":"https://avatars1.githubusercontent.com/u/14254?v=4","gravatar_id":"","url":"https://api.github.com/users/shakaran","html_url":"https://github.com/shakaran","followers_url":"https://api.github.com/users/shakaran/followers","following_url":"https://api.github.com/users/shakaran/following{/other_user}","gists_url":"https://api.github.com/users/shakaran/gists{/gist_id}","starred_url":"https://api.github.com/users/shakaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shakaran/subscriptions","organizations_url":"https://api.github.com/users/shakaran/orgs","repos_url":"https://api.github.com/users/shakaran/repos","events_url":"https://api.github.com/users/shakaran/events{/privacy}","received_events_url":"https://api.github.com/users/shakaran/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

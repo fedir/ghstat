@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:11 GMT
+Etag: W/"b01b7a65aaf79dfb510a238f86fae0f028c98ec77e9dd5e3c9966429dd0f01bb"
+Last-Modified: Sat, 24 Oct 2020 22:12:02 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D82F:F449:1E0A32D:22BCAB4:5FB046FE
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4360
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 640
+X-Xss-Protection: 1; mode=block
+
+49d
+{"login":"dracony","id":3127080,"node_id":"MDQ6VXNlcjMxMjcwODA=","avatar_url":"https://avatars2.githubusercontent.com/u/3127080?v=4","gravatar_id":"","url":"https://api.github.com/users/dracony","html_url":"https://github.com/dracony","followers_url":"https://api.github.com/users/dracony/followers","following_url":"https://api.github.com/users/dracony/following{/other_user}","gists_url":"https://api.github.com/users/dracony/gists{/gist_id}","starred_url":"https://api.github.com/users/dracony/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dracony/subscriptions","organizations_url":"https://api.github.com/users/dracony/orgs","repos_url":"https://api.github.com/users/dracony/repos","events_url":"https://api.github.com/users/dracony/events{/privacy}","received_events_url":"https://api.github.com/users/dracony/received_events","type":"User","site_admin":false,"name":"Roman Tsiupa","company":null,"blog":"http://dracony.org","location":"Berlin","email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":56,"public_gists":26,"followers":146,"following":1,"created_at":"2012-12-26T12:54:12Z","updated_at":"2020-10-24T22:12:02Z"}
+0
+

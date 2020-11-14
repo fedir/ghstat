@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:51 GMT
+Etag: W/"c22f3ca485bef5d71bb481abc39c247256eb558c6843958e7977d95c4c128310"
+Last-Modified: Fri, 30 Oct 2020 18:45:02 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D902:BA89:1069347:12ED829:5FB04763
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3556
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1444
+X-Xss-Protection: 1; mode=block
+
+4f7
+{"login":"w00fz","id":11734,"node_id":"MDQ6VXNlcjExNzM0","avatar_url":"https://avatars3.githubusercontent.com/u/11734?v=4","gravatar_id":"","url":"https://api.github.com/users/w00fz","html_url":"https://github.com/w00fz","followers_url":"https://api.github.com/users/w00fz/followers","following_url":"https://api.github.com/users/w00fz/following{/other_user}","gists_url":"https://api.github.com/users/w00fz/gists{/gist_id}","starred_url":"https://api.github.com/users/w00fz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/w00fz/subscriptions","organizations_url":"https://api.github.com/users/w00fz/orgs","repos_url":"https://api.github.com/users/w00fz/repos","events_url":"https://api.github.com/users/w00fz/events{/privacy}","received_events_url":"https://api.github.com/users/w00fz/received_events","type":"User","site_admin":false,"name":"Djamil Legato","company":"@trilbymedia, @getgrav, @gantry, @mootools","blog":"https://trilby.media","location":"Portland, OR","email":null,"hireable":null,"bio":"Passionate JavaScript developer. @trilbymedia, @getgrav, @gantry, @mootools","twitter_username":null,"public_repos":26,"public_gists":5,"followers":154,"following":20,"created_at":"2008-05-28T07:18:50Z","updated_at":"2020-10-30T18:45:02Z"}
+0
+

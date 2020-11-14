@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:59 GMT
+Etag: W/"1a4d0fadc25b55a555fcab0130b082ad04610317ad7f53f60c53881167cb9bcd"
+Link: <https://api.github.com/user/155814/followers?page=7>; rel="prev", <https://api.github.com/user/155814/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81A:072B:79C390:8CB7F7:5FB046F3
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4754
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 246
+X-Xss-Protection: 1; mode=block
+
+e31
+[{"login":"kunalgorithm","id":16456161,"node_id":"MDQ6VXNlcjE2NDU2MTYx","avatar_url":"https://avatars3.githubusercontent.com/u/16456161?v=4","gravatar_id":"","url":"https://api.github.com/users/kunalgorithm","html_url":"https://github.com/kunalgorithm","followers_url":"https://api.github.com/users/kunalgorithm/followers","following_url":"https://api.github.com/users/kunalgorithm/following{/other_user}","gists_url":"https://api.github.com/users/kunalgorithm/gists{/gist_id}","starred_url":"https://api.github.com/users/kunalgorithm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kunalgorithm/subscriptions","organizations_url":"https://api.github.com/users/kunalgorithm/orgs","repos_url":"https://api.github.com/users/kunalgorithm/repos","events_url":"https://api.github.com/users/kunalgorithm/events{/privacy}","received_events_url":"https://api.github.com/users/kunalgorithm/received_events","type":"User","site_admin":false},{"login":"yeahCH","id":3715794,"node_id":"MDQ6VXNlcjM3MTU3OTQ=","avatar_url":"https://avatars2.githubusercontent.com/u/3715794?v=4","gravatar_id":"","url":"https://api.github.com/users/yeahCH","html_url":"https://github.com/yeahCH","followers_url":"https://api.github.com/users/yeahCH/followers","following_url":"https://api.github.com/users/yeahCH/following{/other_user}","gists_url":"https://api.github.com/users/yeahCH/gists{/gist_id}","starred_url":"https://api.github.com/users/yeahCH/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yeahCH/subscriptions","organizations_url":"https://api.github.com/users/yeahCH/orgs","repos_url":"https://api.github.com/users/yeahCH/repos","events_url":"https://api.github.com/users/yeahCH/events{/privacy}","received_events_url":"https://api.github.com/users/yeahCH/received_events","type":"User","site_admin":false},{"login":"ayo-dele","id":13318431,"node_id":"MDQ6VXNlcjEzMzE4NDMx","avatar_url":"https://avatars2.githubusercontent.com/u/13318431?v=4","gravatar_id":"","url":"https://api.github.com/users/ayo-dele","html_url":"https://github.com/ayo-dele","followers_url":"https://api.github.com/users/ayo-dele/followers","following_url":"https://api.github.com/users/ayo-dele/following{/other_user}","gists_url":"https://api.github.com/users/ayo-dele/gists{/gist_id}","starred_url":"https://api.github.com/users/ayo-dele/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ayo-dele/subscriptions","organizations_url":"https://api.github.com/users/ayo-dele/orgs","repos_url":"https://api.github.com/users/ayo-dele/repos","events_url":"https://api.github.com/users/ayo-dele/events{/privacy}","received_events_url":"https://api.github.com/users/ayo-dele/received_events","type":"User","site_admin":false},{"login":"hochem","id":3276151,"node_id":"MDQ6VXNlcjMyNzYxNTE=","avatar_url":"https://avatars2.githubusercontent.com/u/3276151?v=4","gravatar_id":"","url":"https://api.github.com/users/hochem","html_url":"https://github.com/hochem","followers_url":"https://api.github.com/users/hochem/followers","following_url":"https://api.github.com/users/hochem/following{/other_user}","gists_url":"https://api.github.com/users/hochem/gists{/gist_id}","starred_url":"https://api.github.com/users/hochem/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hochem/subscriptions","organizations_url":"https://api.github.com/users/hochem/orgs","repos_url":"https://api.github.com/users/hochem/repos","events_url":"https://api.github.com/users/hochem/events{/privacy}","received_events_url":"https://api.github.com/users/hochem/received_events","type":"User","site_admin":false}]
+0
+

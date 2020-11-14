@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:06 GMT
+Etag: W/"2c8faa1e0502a5c42606f6f92cccfbe9fa4fecea764f9cf3d94a42da45e46d30"
+Last-Modified: Sat, 14 Nov 2020 10:13:13 GMT
+Link: <https://api.github.com/repositories/167174/tags?page=5>; rel="prev", <https://api.github.com/repositories/167174/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D80C:BAD1:F1F9D5:115F019:5FB046F9
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4404
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 596
+X-Xss-Protection: 1; mode=block
+
+2e0
+[{"name":"1.0","zipball_url":"https://api.github.com/repos/jquery/jquery/zipball/1.0","tarball_url":"https://api.github.com/repos/jquery/jquery/tarball/1.0","commit":{"sha":"bcc8a837055fe720579628d758b7034d6b520f2e","url":"https://api.github.com/repos/jquery/jquery/commits/bcc8a837055fe720579628d758b7034d6b520f2e"},"node_id":"MDM6UmVmMTY3MTc0OnJlZnMvdGFncy8xLjA="},{"name":"1.0a","zipball_url":"https://api.github.com/repos/jquery/jquery/zipball/1.0a","tarball_url":"https://api.github.com/repos/jquery/jquery/tarball/1.0a","commit":{"sha":"73f55becc5e056ad28f6aec22ec014ffb3ab913b","url":"https://api.github.com/repos/jquery/jquery/commits/73f55becc5e056ad28f6aec22ec014ffb3ab913b"},"node_id":"MDM6UmVmMTY3MTc0OnJlZnMvdGFncy8xLjBh"}]
+0
+

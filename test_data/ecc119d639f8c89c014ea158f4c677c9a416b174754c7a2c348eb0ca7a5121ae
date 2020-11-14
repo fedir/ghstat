@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:13 GMT
+Etag: W/"0c439da32850ca019e3a210e5ce39bc1d9f901a3aee1c574fa17d76cceb21d63"
+Link: <https://api.github.com/user/1464615/followers?page=1>; rel="prev", <https://api.github.com/user/1464615/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D94E:13F4:4159A3E:4B5CBAE:5FB04779
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3347
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1653
+X-Xss-Protection: 1; mode=block
+
+70d
+[{"login":"YuliaWAD","id":38778446,"node_id":"MDQ6VXNlcjM4Nzc4NDQ2","avatar_url":"https://avatars1.githubusercontent.com/u/38778446?v=4","gravatar_id":"","url":"https://api.github.com/users/YuliaWAD","html_url":"https://github.com/YuliaWAD","followers_url":"https://api.github.com/users/YuliaWAD/followers","following_url":"https://api.github.com/users/YuliaWAD/following{/other_user}","gists_url":"https://api.github.com/users/YuliaWAD/gists{/gist_id}","starred_url":"https://api.github.com/users/YuliaWAD/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/YuliaWAD/subscriptions","organizations_url":"https://api.github.com/users/YuliaWAD/orgs","repos_url":"https://api.github.com/users/YuliaWAD/repos","events_url":"https://api.github.com/users/YuliaWAD/events{/privacy}","received_events_url":"https://api.github.com/users/YuliaWAD/received_events","type":"User","site_admin":false},{"login":"grouchy","id":1096361,"node_id":"MDQ6VXNlcjEwOTYzNjE=","avatar_url":"https://avatars3.githubusercontent.com/u/1096361?v=4","gravatar_id":"","url":"https://api.github.com/users/grouchy","html_url":"https://github.com/grouchy","followers_url":"https://api.github.com/users/grouchy/followers","following_url":"https://api.github.com/users/grouchy/following{/other_user}","gists_url":"https://api.github.com/users/grouchy/gists{/gist_id}","starred_url":"https://api.github.com/users/grouchy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/grouchy/subscriptions","organizations_url":"https://api.github.com/users/grouchy/orgs","repos_url":"https://api.github.com/users/grouchy/repos","events_url":"https://api.github.com/users/grouchy/events{/privacy}","received_events_url":"https://api.github.com/users/grouchy/received_events","type":"User","site_admin":false}]
+0
+

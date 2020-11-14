@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:01 GMT
+Etag: W/"a736895efde0170d29141cd480ea2d81daeb2ced4133acf723ed362025d17838"
+Link: <https://api.github.com/user/2603918/followers?page=27>; rel="prev", <https://api.github.com/user/2603918/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81F:E4B6:2110B56:261989B:5FB046F5
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4607
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 393
+X-Xss-Protection: 1; mode=block
+
+3be
+[{"login":"GoldWood2000","id":52521162,"node_id":"MDQ6VXNlcjUyNTIxMTYy","avatar_url":"https://avatars0.githubusercontent.com/u/52521162?v=4","gravatar_id":"","url":"https://api.github.com/users/GoldWood2000","html_url":"https://github.com/GoldWood2000","followers_url":"https://api.github.com/users/GoldWood2000/followers","following_url":"https://api.github.com/users/GoldWood2000/following{/other_user}","gists_url":"https://api.github.com/users/GoldWood2000/gists{/gist_id}","starred_url":"https://api.github.com/users/GoldWood2000/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GoldWood2000/subscriptions","organizations_url":"https://api.github.com/users/GoldWood2000/orgs","repos_url":"https://api.github.com/users/GoldWood2000/repos","events_url":"https://api.github.com/users/GoldWood2000/events{/privacy}","received_events_url":"https://api.github.com/users/GoldWood2000/received_events","type":"User","site_admin":false}]
+0
+

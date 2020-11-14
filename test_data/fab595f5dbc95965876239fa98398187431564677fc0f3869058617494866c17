@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:51 GMT
+Etag: W/"526e200ab319b4b2a0f263b499353f0ea1751cc108a70d092cf39209b7f59c6a"
+Last-Modified: Thu, 29 Oct 2020 17:58:10 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D911:F447:5D3A61:6C349C:5FB04763
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3594
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1406
+X-Xss-Protection: 1; mode=block
+
+4da
+{"login":"felixgilles","id":900854,"node_id":"MDQ6VXNlcjkwMDg1NA==","avatar_url":"https://avatars1.githubusercontent.com/u/900854?v=4","gravatar_id":"","url":"https://api.github.com/users/felixgilles","html_url":"https://github.com/felixgilles","followers_url":"https://api.github.com/users/felixgilles/followers","following_url":"https://api.github.com/users/felixgilles/following{/other_user}","gists_url":"https://api.github.com/users/felixgilles/gists{/gist_id}","starred_url":"https://api.github.com/users/felixgilles/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/felixgilles/subscriptions","organizations_url":"https://api.github.com/users/felixgilles/orgs","repos_url":"https://api.github.com/users/felixgilles/repos","events_url":"https://api.github.com/users/felixgilles/events{/privacy}","received_events_url":"https://api.github.com/users/felixgilles/received_events","type":"User","site_admin":false,"name":"Gilles FELIX","company":"Sendinbleu","blog":"https://mailclark.ai","location":"Lyon","email":null,"hireable":true,"bio":null,"twitter_username":"felixgilles","public_repos":14,"public_gists":2,"followers":15,"following":8,"created_at":"2011-07-07T15:31:28Z","updated_at":"2020-10-29T17:58:10Z"}
+0
+

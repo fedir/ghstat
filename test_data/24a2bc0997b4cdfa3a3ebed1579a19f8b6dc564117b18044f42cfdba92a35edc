@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:30 GMT
+Etag: W/"570ea0e0354f1c5968bf5e01ad7b74c3e7b90483014e1b9054ff27aaf3a07e69"
+Link: <https://api.github.com/user/86412/followers?page=6>; rel="prev", <https://api.github.com/user/86412/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E5:5C53:4380DF4:4DCD7A1:5FB0474D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3767
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1233
+X-Xss-Protection: 1; mode=block
+
+1198
+[{"login":"ioolkos","id":282359,"node_id":"MDQ6VXNlcjI4MjM1OQ==","avatar_url":"https://avatars0.githubusercontent.com/u/282359?v=4","gravatar_id":"","url":"https://api.github.com/users/ioolkos","html_url":"https://github.com/ioolkos","followers_url":"https://api.github.com/users/ioolkos/followers","following_url":"https://api.github.com/users/ioolkos/following{/other_user}","gists_url":"https://api.github.com/users/ioolkos/gists{/gist_id}","starred_url":"https://api.github.com/users/ioolkos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ioolkos/subscriptions","organizations_url":"https://api.github.com/users/ioolkos/orgs","repos_url":"https://api.github.com/users/ioolkos/repos","events_url":"https://api.github.com/users/ioolkos/events{/privacy}","received_events_url":"https://api.github.com/users/ioolkos/received_events","type":"User","site_admin":false},{"login":"ik5","id":73091,"node_id":"MDQ6VXNlcjczMDkx","avatar_url":"https://avatars0.githubusercontent.com/u/73091?v=4","gravatar_id":"","url":"https://api.github.com/users/ik5","html_url":"https://github.com/ik5","followers_url":"https://api.github.com/users/ik5/followers","following_url":"https://api.github.com/users/ik5/following{/other_user}","gists_url":"https://api.github.com/users/ik5/gists{/gist_id}","starred_url":"https://api.github.com/users/ik5/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ik5/subscriptions","organizations_url":"https://api.github.com/users/ik5/orgs","repos_url":"https://api.github.com/users/ik5/repos","events_url":"https://api.github.com/users/ik5/events{/privacy}","received_events_url":"https://api.github.com/users/ik5/received_events","type":"User","site_admin":false},{"login":"ejiro-precious","id":12975996,"node_id":"MDQ6VXNlcjEyOTc1OTk2","avatar_url":"https://avatars2.githubusercontent.com/u/12975996?v=4","gravatar_id":"","url":"https://api.github.com/users/ejiro-precious","html_url":"https://github.com/ejiro-precious","followers_url":"https://api.github.com/users/ejiro-precious/followers","following_url":"https://api.github.com/users/ejiro-precious/following{/other_user}","gists_url":"https://api.github.com/users/ejiro-precious/gists{/gist_id}","starred_url":"https://api.github.com/users/ejiro-precious/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ejiro-precious/subscriptions","organizations_url":"https://api.github.com/users/ejiro-precious/orgs","repos_url":"https://api.github.com/users/ejiro-precious/repos","events_url":"https://api.github.com/users/ejiro-precious/events{/privacy}","received_events_url":"https://api.github.com/users/ejiro-precious/received_events","type":"User","site_admin":false},{"login":"221V","id":7240121,"node_id":"MDQ6VXNlcjcyNDAxMjE=","avatar_url":"https://avatars2.githubusercontent.com/u/7240121?v=4","gravatar_id":"","url":"https://api.github.com/users/221V","html_url":"https://github.com/221V","followers_url":"https://api.github.com/users/221V/followers","following_url":"https://api.github.com/users/221V/following{/other_user}","gists_url":"https://api.github.com/users/221V/gists{/gist_id}","starred_url":"https://api.github.com/users/221V/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/221V/subscriptions","organizations_url":"https://api.github.com/users/221V/orgs","repos_url":"https://api.github.com/users/221V/repos","events_url":"https://api.github.com/users/221V/events{/privacy}","received_events_url":"https://api.github.com/users/221V/received_events","type":"User","site_admin":false},{"login":"AnufrievDE","id":8866960,"node_id":"MDQ6VXNlcjg4NjY5NjA=","avatar_url":"https://avatars1.githubusercontent.com/u/8866960?v=4","gravatar_id":"","url":"https://api.github.com/users/AnufrievDE","html_url":"https://github.com/AnufrievDE","followers_url":"https://api.github.com/users/AnufrievDE/followers","following_url":"https://api.github.com/users/AnufrievDE/following{/other_user}","gists_url":"https://api.github.com/users/AnufrievDE/gists{/gist_id}","starred_url":"https://api.github.com/users/AnufrievDE/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AnufrievDE/subscriptions","organizations_url":"https://api.github.com/users/AnufrievDE/orgs","repos_url":"https://api.github.com/users/AnufrievDE/repos","events_url":"https://api.github.com/users/AnufrievDE/events{/privacy}","received_events_url":"https://api.github.com/users/AnufrievDE/received_events","type":"User","site_admin":false}]
+0
+

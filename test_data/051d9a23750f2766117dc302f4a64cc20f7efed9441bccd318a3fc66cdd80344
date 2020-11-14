@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:20 GMT
+Etag: W/"db0ea728330d70e03beb46131b690dd9760ea94afb53687d84e1d1e2d7d77fa7"
+Link: <https://api.github.com/user/1018684/followers?page=1>; rel="prev", <https://api.github.com/user/1018684/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D978:BAD2:1FB19EC:24918D7:5FB04780
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2712
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2288
+X-Xss-Protection: 1; mode=block
+
+79d
+[{"login":"maxime-aknin","id":8659993,"node_id":"MDQ6VXNlcjg2NTk5OTM=","avatar_url":"https://avatars2.githubusercontent.com/u/8659993?v=4","gravatar_id":"","url":"https://api.github.com/users/maxime-aknin","html_url":"https://github.com/maxime-aknin","followers_url":"https://api.github.com/users/maxime-aknin/followers","following_url":"https://api.github.com/users/maxime-aknin/following{/other_user}","gists_url":"https://api.github.com/users/maxime-aknin/gists{/gist_id}","starred_url":"https://api.github.com/users/maxime-aknin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/maxime-aknin/subscriptions","organizations_url":"https://api.github.com/users/maxime-aknin/orgs","repos_url":"https://api.github.com/users/maxime-aknin/repos","events_url":"https://api.github.com/users/maxime-aknin/events{/privacy}","received_events_url":"https://api.github.com/users/maxime-aknin/received_events","type":"User","site_admin":false},{"login":"Phoebesheldrake","id":44368785,"node_id":"MDQ6VXNlcjQ0MzY4Nzg1","avatar_url":"https://avatars2.githubusercontent.com/u/44368785?v=4","gravatar_id":"","url":"https://api.github.com/users/Phoebesheldrake","html_url":"https://github.com/Phoebesheldrake","followers_url":"https://api.github.com/users/Phoebesheldrake/followers","following_url":"https://api.github.com/users/Phoebesheldrake/following{/other_user}","gists_url":"https://api.github.com/users/Phoebesheldrake/gists{/gist_id}","starred_url":"https://api.github.com/users/Phoebesheldrake/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Phoebesheldrake/subscriptions","organizations_url":"https://api.github.com/users/Phoebesheldrake/orgs","repos_url":"https://api.github.com/users/Phoebesheldrake/repos","events_url":"https://api.github.com/users/Phoebesheldrake/events{/privacy}","received_events_url":"https://api.github.com/users/Phoebesheldrake/received_events","type":"User","site_admin":false}]
+0
+

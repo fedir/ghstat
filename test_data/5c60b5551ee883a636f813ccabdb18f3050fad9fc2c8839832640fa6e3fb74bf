@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"40024cc14e8978036daf732690ca38ca4c87cdf9b264c7944451707900b7978b"
+Last-Modified: Fri, 06 Nov 2020 16:32:57 GMT
+Link: <https://api.github.com/repositories/1027912/tags?page=1>; rel="prev", <https://api.github.com/repositories/1027912/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D940:BAD3:40F63F5:4AE4B7F:5FB0477C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2953
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2047
+X-Xss-Protection: 1; mode=block
+
+4c3
+[{"name":"1.0.5","zipball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/zipball/1.0.5","tarball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/tarball/1.0.5","commit":{"sha":"9a822add86825b753304668e8f809a9ba304d2a0","url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/commits/9a822add86825b753304668e8f809a9ba304d2a0"},"node_id":"MDM6UmVmMTAyNzkxMjpyZWZzL3RhZ3MvMS4wLjU="},{"name":"1.0.4","zipball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/zipball/1.0.4","tarball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/tarball/1.0.4","commit":{"sha":"3daf293907b654c44f560172156fbcb47592a00d","url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/commits/3daf293907b654c44f560172156fbcb47592a00d"},"node_id":"MDM6UmVmMTAyNzkxMjpyZWZzL3RhZ3MvMS4wLjQ="},{"name":"1.0.3","zipball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/zipball/1.0.3","tarball_url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/tarball/1.0.3","commit":{"sha":"def05c8c92856a0387332e50589f0a847b3f314d","url":"https://api.github.com/repos/daylightstudio/FUEL-CMS/commits/def05c8c92856a0387332e50589f0a847b3f314d"},"node_id":"MDM6UmVmMTAyNzkxMjpyZWZzL3RhZ3MvMS4wLjM="}]
+0
+

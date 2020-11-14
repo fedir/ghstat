@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"9269adb14ce5e1bc79d452608c8949827fbb3e9f8ff58fd1ec9bf46a78fcce9b"
+Last-Modified: Wed, 11 Nov 2020 15:26:32 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D91B:7078:752F:10CFB:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3538
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1462
+X-Xss-Protection: 1; mode=block
+
+52b
+{"login":"gilbitron","id":203882,"node_id":"MDQ6VXNlcjIwMzg4Mg==","avatar_url":"https://avatars3.githubusercontent.com/u/203882?v=4","gravatar_id":"","url":"https://api.github.com/users/gilbitron","html_url":"https://github.com/gilbitron","followers_url":"https://api.github.com/users/gilbitron/followers","following_url":"https://api.github.com/users/gilbitron/following{/other_user}","gists_url":"https://api.github.com/users/gilbitron/gists{/gist_id}","starred_url":"https://api.github.com/users/gilbitron/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gilbitron/subscriptions","organizations_url":"https://api.github.com/users/gilbitron/orgs","repos_url":"https://api.github.com/users/gilbitron/repos","events_url":"https://api.github.com/users/gilbitron/events{/privacy}","received_events_url":"https://api.github.com/users/gilbitron/received_events","type":"User","site_admin":false,"name":"Gilbert Pellegrom","company":"Dev7studios","blog":"https://gilbitron.me","location":"Elgin, Scotland","email":"gilbert@pellegrom.me","hireable":null,"bio":"Software Engineer and Web Developer from Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿","twitter_username":null,"public_repos":64,"public_gists":17,"followers":565,"following":25,"created_at":"2010-02-15T11:26:56Z","updated_at":"2020-11-11T15:26:32Z"}
+0
+

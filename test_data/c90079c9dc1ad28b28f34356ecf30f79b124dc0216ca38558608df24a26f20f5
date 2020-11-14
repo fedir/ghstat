@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:05 GMT
+Etag: W/"d8b594d1197fc1dfc311d22ea04b03db3393a8d8feb101dac85253fff8b3122c"
+Last-Modified: Sat, 14 Nov 2020 16:22:44 GMT
+Link: <https://api.github.com/repositories/458058/tags?page=17>; rel="prev", <https://api.github.com/repositories/458058/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D0:13F4:4152E41:4B54D7A:5FB04735
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4022
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 978
+X-Xss-Protection: 1; mode=block
+
+12ed
+[{"name":"v2.0.0PR8","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0PR8","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0PR8","commit":{"sha":"85778caba16ad6830fdc28eaa6ee8c1e91d009ef","url":"https://api.github.com/repos/symfony/symfony/commits/85778caba16ad6830fdc28eaa6ee8c1e91d009ef"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBQUjg="},{"name":"v2.0.0BETA5","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0BETA5","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0BETA5","commit":{"sha":"c62724b3c3df1887432568b50a04a27870e5e802","url":"https://api.github.com/repos/symfony/symfony/commits/c62724b3c3df1887432568b50a04a27870e5e802"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBCRVRBNQ=="},{"name":"v2.0.0BETA4","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0BETA4","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0BETA4","commit":{"sha":"a1d866e709cef62f2b9b44a4959574984ab86ab7","url":"https://api.github.com/repos/symfony/symfony/commits/a1d866e709cef62f2b9b44a4959574984ab86ab7"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBCRVRBNA=="},{"name":"v2.0.0BETA3","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0BETA3","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0BETA3","commit":{"sha":"923c234160c1174353d6e282bb9486b267c43343","url":"https://api.github.com/repos/symfony/symfony/commits/923c234160c1174353d6e282bb9486b267c43343"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBCRVRBMw=="},{"name":"v2.0.0BETA2","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0BETA2","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0BETA2","commit":{"sha":"2636e36bbf6a31263fb7d58a07660c66daa52179","url":"https://api.github.com/repos/symfony/symfony/commits/2636e36bbf6a31263fb7d58a07660c66daa52179"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBCRVRBMg=="},{"name":"v2.0.0BETA1","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0BETA1","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0BETA1","commit":{"sha":"c63106195578ada5486daf192c98b35421c29111","url":"https://api.github.com/repos/symfony/symfony/commits/c63106195578ada5486daf192c98b35421c29111"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjBCRVRBMQ=="},{"name":"v2.0.0-RC6","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC6","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC6","commit":{"sha":"39dd8aee47915e3aeb48f497ee4b5a289ea58da2","url":"https://api.github.com/repos/symfony/symfony/commits/39dd8aee47915e3aeb48f497ee4b5a289ea58da2"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkM2"},{"name":"v2.0.0-RC5","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC5","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC5","commit":{"sha":"9fe6c74a277f119ea2bcc20deac43230edcab2e8","url":"https://api.github.com/repos/symfony/symfony/commits/9fe6c74a277f119ea2bcc20deac43230edcab2e8"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkM1"},{"name":"v2.0.0-RC4","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC4","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC4","commit":{"sha":"7d8fb3ddb93610f0c75a25ce2060dd568d36da85","url":"https://api.github.com/repos/symfony/symfony/commits/7d8fb3ddb93610f0c75a25ce2060dd568d36da85"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkM0"},{"name":"v2.0.0-RC3","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC3","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC3","commit":{"sha":"705fc0ddd3c615b03a4ee001a9164259c8011b68","url":"https://api.github.com/repos/symfony/symfony/commits/705fc0ddd3c615b03a4ee001a9164259c8011b68"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkMz"},{"name":"v2.0.0-RC2","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC2","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC2","commit":{"sha":"e906897c185142942bf24d4a2088f3c67163b439","url":"https://api.github.com/repos/symfony/symfony/commits/e906897c185142942bf24d4a2088f3c67163b439"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkMy"},{"name":"v2.0.0-RC1","zipball_url":"https://api.github.com/repos/symfony/symfony/zipball/v2.0.0-RC1","tarball_url":"https://api.github.com/repos/symfony/symfony/tarball/v2.0.0-RC1","commit":{"sha":"92c28844ced90926b6f6ce138783072d6dee2a52","url":"https://api.github.com/repos/symfony/symfony/commits/92c28844ced90926b6f6ce138783072d6dee2a52"},"node_id":"MDM6UmVmNDU4MDU4OnJlZnMvdGFncy92Mi4wLjAtUkMx"}]
+0
+

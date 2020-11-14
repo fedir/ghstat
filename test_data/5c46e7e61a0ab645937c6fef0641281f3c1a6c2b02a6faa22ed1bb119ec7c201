@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:02 GMT
+Etag: W/"4cd1884a21bad181027d0d845282a4adda523343f7e913ed9f2590c12052bb5f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D80E:78A1:F88108:11D7AE3:5FB046F6
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4599
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 401
+X-Xss-Protection: 1; mode=block
+
+a96
+[{"login":"beck","id":154988,"node_id":"MDQ6VXNlcjE1NDk4OA==","avatar_url":"https://avatars3.githubusercontent.com/u/154988?v=4","gravatar_id":"","url":"https://api.github.com/users/beck","html_url":"https://github.com/beck","followers_url":"https://api.github.com/users/beck/followers","following_url":"https://api.github.com/users/beck/following{/other_user}","gists_url":"https://api.github.com/users/beck/gists{/gist_id}","starred_url":"https://api.github.com/users/beck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beck/subscriptions","organizations_url":"https://api.github.com/users/beck/orgs","repos_url":"https://api.github.com/users/beck/repos","events_url":"https://api.github.com/users/beck/events{/privacy}","received_events_url":"https://api.github.com/users/beck/received_events","type":"User","site_admin":false},{"login":"chcolor","id":9345838,"node_id":"MDQ6VXNlcjkzNDU4Mzg=","avatar_url":"https://avatars1.githubusercontent.com/u/9345838?v=4","gravatar_id":"","url":"https://api.github.com/users/chcolor","html_url":"https://github.com/chcolor","followers_url":"https://api.github.com/users/chcolor/followers","following_url":"https://api.github.com/users/chcolor/following{/other_user}","gists_url":"https://api.github.com/users/chcolor/gists{/gist_id}","starred_url":"https://api.github.com/users/chcolor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chcolor/subscriptions","organizations_url":"https://api.github.com/users/chcolor/orgs","repos_url":"https://api.github.com/users/chcolor/repos","events_url":"https://api.github.com/users/chcolor/events{/privacy}","received_events_url":"https://api.github.com/users/chcolor/received_events","type":"User","site_admin":false},{"login":"Du1928727162","id":43287159,"node_id":"MDQ6VXNlcjQzMjg3MTU5","avatar_url":"https://avatars0.githubusercontent.com/u/43287159?v=4","gravatar_id":"","url":"https://api.github.com/users/Du1928727162","html_url":"https://github.com/Du1928727162","followers_url":"https://api.github.com/users/Du1928727162/followers","following_url":"https://api.github.com/users/Du1928727162/following{/other_user}","gists_url":"https://api.github.com/users/Du1928727162/gists{/gist_id}","starred_url":"https://api.github.com/users/Du1928727162/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Du1928727162/subscriptions","organizations_url":"https://api.github.com/users/Du1928727162/orgs","repos_url":"https://api.github.com/users/Du1928727162/repos","events_url":"https://api.github.com/users/Du1928727162/events{/privacy}","received_events_url":"https://api.github.com/users/Du1928727162/received_events","type":"User","site_admin":false}]
+0
+

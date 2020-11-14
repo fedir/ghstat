@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:20 GMT
+Etag: W/"f10fc75a4d4d94af3d96d7b13f459f238443ea9f7c31629bde68357873971696"
+Last-Modified: Fri, 13 Nov 2020 20:45:54 GMT
+Link: <https://api.github.com/repositories/40964014/tags?page=11>; rel="prev", <https://api.github.com/repositories/40964014/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D956:7087:4117CCD:4AF8E53:5FB04780
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2714
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2286
+X-Xss-Protection: 1; mode=block
+
+398
+[{"name":"1.0.0-alpha1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-alpha1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-alpha1","commit":{"sha":"6e57d7b82d3c76327494e8c054b8d40056d4c748","url":"https://api.github.com/repos/neos/neos-development-collection/commits/6e57d7b82d3c76327494e8c054b8d40056d4c748"},"node_id":"MDM6UmVmNDA5NjQwMTQ6cmVmcy90YWdzLzEuMC4wLWFscGhhMQ=="},{"name":"1.0.0-RC1","zipball_url":"https://api.github.com/repos/neos/neos-development-collection/zipball/1.0.0-RC1","tarball_url":"https://api.github.com/repos/neos/neos-development-collection/tarball/1.0.0-RC1","commit":{"sha":"b3041e2c360801cc9bd1b14056ecbd3c7d84efdb","url":"https://api.github.com/repos/neos/neos-development-collection/commits/b3041e2c360801cc9bd1b14056ecbd3c7d84efdb"},"node_id":"MDM6UmVmNDA5NjQwMTQ6cmVmcy90YWdzLzEuMC4wLVJDMQ=="}]
+0
+

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"7026824207ea19346562d5ade911533e99dbfe408c480748363bc3f2c6586e22"
+Last-Modified: Fri, 13 Nov 2020 14:59:58 GMT
+Link: <https://api.github.com/repositories/18992087/tags?page=1>; rel="prev", <https://api.github.com/repositories/18992087/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D947:B560:4096446:4A7EAAD:5FB0477C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2923
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2077
+X-Xss-Protection: 1; mode=block
+
+e93
+[{"name":"5.5.9","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.9","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.9","commit":{"sha":"93dda521bb20624b8407a4037bdb9ef42a06b9c0","url":"https://api.github.com/repos/LavaLite/cms/commits/93dda521bb20624b8407a4037bdb9ef42a06b9c0"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS45"},{"name":"5.5.8","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.8","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.8","commit":{"sha":"060f4ab5f46882aa2d7f3baa742cee2157623b89","url":"https://api.github.com/repos/LavaLite/cms/commits/060f4ab5f46882aa2d7f3baa742cee2157623b89"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS44"},{"name":"5.5.7","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.7","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.7","commit":{"sha":"d8fb1432f239a675ae35d9b0dd6a19441ea25449","url":"https://api.github.com/repos/LavaLite/cms/commits/d8fb1432f239a675ae35d9b0dd6a19441ea25449"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS43"},{"name":"5.5.6","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.6","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.6","commit":{"sha":"8a2cf1b6dd83aa86b7fcfbf83a24144ef1080a6d","url":"https://api.github.com/repos/LavaLite/cms/commits/8a2cf1b6dd83aa86b7fcfbf83a24144ef1080a6d"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS42"},{"name":"5.5.5","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.5","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.5","commit":{"sha":"4ba93c32b5d4d99baf814a62f02f732a59fa9132","url":"https://api.github.com/repos/LavaLite/cms/commits/4ba93c32b5d4d99baf814a62f02f732a59fa9132"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS41"},{"name":"5.5.4","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.4","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.4","commit":{"sha":"b48e6af91280d0936a93566b6618dec78dc51b81","url":"https://api.github.com/repos/LavaLite/cms/commits/b48e6af91280d0936a93566b6618dec78dc51b81"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS40"},{"name":"5.5.3","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.3","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.3","commit":{"sha":"e7c69e2a82153b3f520bd35497c38c16a12b36d9","url":"https://api.github.com/repos/LavaLite/cms/commits/e7c69e2a82153b3f520bd35497c38c16a12b36d9"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS4z"},{"name":"5.5.2","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.2","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.2","commit":{"sha":"2eec034af24427b7f7b9a163ecbd9a1fe86eb908","url":"https://api.github.com/repos/LavaLite/cms/commits/2eec034af24427b7f7b9a163ecbd9a1fe86eb908"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS4y"},{"name":"5.5.1","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.1","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.1","commit":{"sha":"2eec034af24427b7f7b9a163ecbd9a1fe86eb908","url":"https://api.github.com/repos/LavaLite/cms/commits/2eec034af24427b7f7b9a163ecbd9a1fe86eb908"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS4x"},{"name":"5.5.0","zipball_url":"https://api.github.com/repos/LavaLite/cms/zipball/5.5.0","tarball_url":"https://api.github.com/repos/LavaLite/cms/tarball/5.5.0","commit":{"sha":"5bd32df9ca672575c3f750f140d62f579684ccff","url":"https://api.github.com/repos/LavaLite/cms/commits/5bd32df9ca672575c3f750f140d62f579684ccff"},"node_id":"MDM6UmVmMTg5OTIwODc6cmVmcy90YWdzLzUuNS4w"}]
+0
+

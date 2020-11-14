@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"33611fdf74369528dc17d43aca67e3d2b063b9ee30f62162768ec2d0f69dadfd"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D95B:41F1:64FB2B:74DDB1:5FB0477C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2944
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2056
+X-Xss-Protection: 1; mode=block
+
+761
+[{"login":"ex-jedi","id":3149496,"node_id":"MDQ6VXNlcjMxNDk0OTY=","avatar_url":"https://avatars0.githubusercontent.com/u/3149496?v=4","gravatar_id":"","url":"https://api.github.com/users/ex-jedi","html_url":"https://github.com/ex-jedi","followers_url":"https://api.github.com/users/ex-jedi/followers","following_url":"https://api.github.com/users/ex-jedi/following{/other_user}","gists_url":"https://api.github.com/users/ex-jedi/gists{/gist_id}","starred_url":"https://api.github.com/users/ex-jedi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ex-jedi/subscriptions","organizations_url":"https://api.github.com/users/ex-jedi/orgs","repos_url":"https://api.github.com/users/ex-jedi/repos","events_url":"https://api.github.com/users/ex-jedi/events{/privacy}","received_events_url":"https://api.github.com/users/ex-jedi/received_events","type":"User","site_admin":false},{"login":"electronics-lis","id":34972677,"node_id":"MDQ6VXNlcjM0OTcyNjc3","avatar_url":"https://avatars2.githubusercontent.com/u/34972677?v=4","gravatar_id":"","url":"https://api.github.com/users/electronics-lis","html_url":"https://github.com/electronics-lis","followers_url":"https://api.github.com/users/electronics-lis/followers","following_url":"https://api.github.com/users/electronics-lis/following{/other_user}","gists_url":"https://api.github.com/users/electronics-lis/gists{/gist_id}","starred_url":"https://api.github.com/users/electronics-lis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/electronics-lis/subscriptions","organizations_url":"https://api.github.com/users/electronics-lis/orgs","repos_url":"https://api.github.com/users/electronics-lis/repos","events_url":"https://api.github.com/users/electronics-lis/events{/privacy}","received_events_url":"https://api.github.com/users/electronics-lis/received_events","type":"User","site_admin":false}]
+0
+

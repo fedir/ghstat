@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:03 GMT
+Etag: W/"0def028c4ac71d3c3bb48c9211c3166e5d6ef4a98cf353d5359d8ea8e56cff46"
+Link: <https://api.github.com/user/143488/followers?page=11>; rel="prev", <https://api.github.com/user/143488/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81E:7087:4109CEC:4AE8CD8:5FB046F7
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4520
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 480
+X-Xss-Protection: 1; mode=block
+
+a8e
+[{"login":"OAKO-UCONN","id":63368794,"node_id":"MDQ6VXNlcjYzMzY4Nzk0","avatar_url":"https://avatars3.githubusercontent.com/u/63368794?v=4","gravatar_id":"","url":"https://api.github.com/users/OAKO-UCONN","html_url":"https://github.com/OAKO-UCONN","followers_url":"https://api.github.com/users/OAKO-UCONN/followers","following_url":"https://api.github.com/users/OAKO-UCONN/following{/other_user}","gists_url":"https://api.github.com/users/OAKO-UCONN/gists{/gist_id}","starred_url":"https://api.github.com/users/OAKO-UCONN/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/OAKO-UCONN/subscriptions","organizations_url":"https://api.github.com/users/OAKO-UCONN/orgs","repos_url":"https://api.github.com/users/OAKO-UCONN/repos","events_url":"https://api.github.com/users/OAKO-UCONN/events{/privacy}","received_events_url":"https://api.github.com/users/OAKO-UCONN/received_events","type":"User","site_admin":false},{"login":"idevwork","id":52476134,"node_id":"MDQ6VXNlcjUyNDc2MTM0","avatar_url":"https://avatars3.githubusercontent.com/u/52476134?v=4","gravatar_id":"","url":"https://api.github.com/users/idevwork","html_url":"https://github.com/idevwork","followers_url":"https://api.github.com/users/idevwork/followers","following_url":"https://api.github.com/users/idevwork/following{/other_user}","gists_url":"https://api.github.com/users/idevwork/gists{/gist_id}","starred_url":"https://api.github.com/users/idevwork/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/idevwork/subscriptions","organizations_url":"https://api.github.com/users/idevwork/orgs","repos_url":"https://api.github.com/users/idevwork/repos","events_url":"https://api.github.com/users/idevwork/events{/privacy}","received_events_url":"https://api.github.com/users/idevwork/received_events","type":"User","site_admin":false},{"login":"t-k-","id":1407530,"node_id":"MDQ6VXNlcjE0MDc1MzA=","avatar_url":"https://avatars1.githubusercontent.com/u/1407530?v=4","gravatar_id":"","url":"https://api.github.com/users/t-k-","html_url":"https://github.com/t-k-","followers_url":"https://api.github.com/users/t-k-/followers","following_url":"https://api.github.com/users/t-k-/following{/other_user}","gists_url":"https://api.github.com/users/t-k-/gists{/gist_id}","starred_url":"https://api.github.com/users/t-k-/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/t-k-/subscriptions","organizations_url":"https://api.github.com/users/t-k-/orgs","repos_url":"https://api.github.com/users/t-k-/repos","events_url":"https://api.github.com/users/t-k-/events{/privacy}","received_events_url":"https://api.github.com/users/t-k-/received_events","type":"User","site_admin":false}]
+0
+

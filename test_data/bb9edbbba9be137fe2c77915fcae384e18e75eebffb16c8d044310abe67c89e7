@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"96aee3fccc5b655fcead7b5db33bd7579c9fcaa962a1185551afb82fa18b2c1c"
+Last-Modified: Mon, 28 Sep 2020 02:26:05 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D915:F44A:3E44FA4:47BDD9D:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3527
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1473
+X-Xss-Protection: 1; mode=block
+
+4c7
+{"login":"daftspunk","id":1392869,"node_id":"MDQ6VXNlcjEzOTI4Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1392869?v=4","gravatar_id":"","url":"https://api.github.com/users/daftspunk","html_url":"https://github.com/daftspunk","followers_url":"https://api.github.com/users/daftspunk/followers","following_url":"https://api.github.com/users/daftspunk/following{/other_user}","gists_url":"https://api.github.com/users/daftspunk/gists{/gist_id}","starred_url":"https://api.github.com/users/daftspunk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/daftspunk/subscriptions","organizations_url":"https://api.github.com/users/daftspunk/orgs","repos_url":"https://api.github.com/users/daftspunk/repos","events_url":"https://api.github.com/users/daftspunk/events{/privacy}","received_events_url":"https://api.github.com/users/daftspunk/received_events","type":"User","site_admin":false,"name":"Samuel Georges","company":null,"blog":"","location":"Canberra, Australia","email":null,"hireable":null,"bio":"Co-Founder @OctoberCMS","twitter_username":null,"public_repos":36,"public_gists":13,"followers":464,"following":82,"created_at":"2012-01-30T22:26:08Z","updated_at":"2020-09-28T02:26:05Z"}
+0
+

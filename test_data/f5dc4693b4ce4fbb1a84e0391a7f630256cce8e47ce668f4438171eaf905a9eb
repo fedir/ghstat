@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"a6c3573dc7afbcbf6c048458c860f862c2dedc1dd9a6b12095c1e40efb2f0c0d"
+Link: <https://api.github.com/user/5452304/followers?page=7>; rel="prev", <https://api.github.com/user/5452304/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D956:7087:4117502:4AF8577:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3085
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1915
+X-Xss-Protection: 1; mode=block
+
+e93
+[{"login":"rfortunati","id":30254683,"node_id":"MDQ6VXNlcjMwMjU0Njgz","avatar_url":"https://avatars3.githubusercontent.com/u/30254683?v=4","gravatar_id":"","url":"https://api.github.com/users/rfortunati","html_url":"https://github.com/rfortunati","followers_url":"https://api.github.com/users/rfortunati/followers","following_url":"https://api.github.com/users/rfortunati/following{/other_user}","gists_url":"https://api.github.com/users/rfortunati/gists{/gist_id}","starred_url":"https://api.github.com/users/rfortunati/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rfortunati/subscriptions","organizations_url":"https://api.github.com/users/rfortunati/orgs","repos_url":"https://api.github.com/users/rfortunati/repos","events_url":"https://api.github.com/users/rfortunati/events{/privacy}","received_events_url":"https://api.github.com/users/rfortunati/received_events","type":"User","site_admin":false},{"login":"Zuhdan","id":6513361,"node_id":"MDQ6VXNlcjY1MTMzNjE=","avatar_url":"https://avatars0.githubusercontent.com/u/6513361?v=4","gravatar_id":"","url":"https://api.github.com/users/Zuhdan","html_url":"https://github.com/Zuhdan","followers_url":"https://api.github.com/users/Zuhdan/followers","following_url":"https://api.github.com/users/Zuhdan/following{/other_user}","gists_url":"https://api.github.com/users/Zuhdan/gists{/gist_id}","starred_url":"https://api.github.com/users/Zuhdan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Zuhdan/subscriptions","organizations_url":"https://api.github.com/users/Zuhdan/orgs","repos_url":"https://api.github.com/users/Zuhdan/repos","events_url":"https://api.github.com/users/Zuhdan/events{/privacy}","received_events_url":"https://api.github.com/users/Zuhdan/received_events","type":"User","site_admin":false},{"login":"CodenameCookie","id":55008091,"node_id":"MDQ6VXNlcjU1MDA4MDkx","avatar_url":"https://avatars3.githubusercontent.com/u/55008091?v=4","gravatar_id":"","url":"https://api.github.com/users/CodenameCookie","html_url":"https://github.com/CodenameCookie","followers_url":"https://api.github.com/users/CodenameCookie/followers","following_url":"https://api.github.com/users/CodenameCookie/following{/other_user}","gists_url":"https://api.github.com/users/CodenameCookie/gists{/gist_id}","starred_url":"https://api.github.com/users/CodenameCookie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CodenameCookie/subscriptions","organizations_url":"https://api.github.com/users/CodenameCookie/orgs","repos_url":"https://api.github.com/users/CodenameCookie/repos","events_url":"https://api.github.com/users/CodenameCookie/events{/privacy}","received_events_url":"https://api.github.com/users/CodenameCookie/received_events","type":"User","site_admin":false},{"login":"badcoroner","id":43009482,"node_id":"MDQ6VXNlcjQzMDA5NDgy","avatar_url":"https://avatars3.githubusercontent.com/u/43009482?v=4","gravatar_id":"","url":"https://api.github.com/users/badcoroner","html_url":"https://github.com/badcoroner","followers_url":"https://api.github.com/users/badcoroner/followers","following_url":"https://api.github.com/users/badcoroner/following{/other_user}","gists_url":"https://api.github.com/users/badcoroner/gists{/gist_id}","starred_url":"https://api.github.com/users/badcoroner/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/badcoroner/subscriptions","organizations_url":"https://api.github.com/users/badcoroner/orgs","repos_url":"https://api.github.com/users/badcoroner/repos","events_url":"https://api.github.com/users/badcoroner/events{/privacy}","received_events_url":"https://api.github.com/users/badcoroner/received_events","type":"User","site_admin":false}]
+0
+

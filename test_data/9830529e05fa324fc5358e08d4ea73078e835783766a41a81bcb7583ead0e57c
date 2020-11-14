@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:05 GMT
+Etag: W/"30e46c410be0fe09ca00fe9dc8993f86542e1254cb27bc410d43e4b6321d46c1"
+Link: <https://api.github.com/user/604618/followers?page=10>; rel="prev", <https://api.github.com/user/604618/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81C:BAD3:40E9CA1:4AD631B:5FB046F8
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4435
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 565
+X-Xss-Protection: 1; mode=block
+
+aa2
+[{"login":"zw963","id":549126,"node_id":"MDQ6VXNlcjU0OTEyNg==","avatar_url":"https://avatars3.githubusercontent.com/u/549126?v=4","gravatar_id":"","url":"https://api.github.com/users/zw963","html_url":"https://github.com/zw963","followers_url":"https://api.github.com/users/zw963/followers","following_url":"https://api.github.com/users/zw963/following{/other_user}","gists_url":"https://api.github.com/users/zw963/gists{/gist_id}","starred_url":"https://api.github.com/users/zw963/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zw963/subscriptions","organizations_url":"https://api.github.com/users/zw963/orgs","repos_url":"https://api.github.com/users/zw963/repos","events_url":"https://api.github.com/users/zw963/events{/privacy}","received_events_url":"https://api.github.com/users/zw963/received_events","type":"User","site_admin":false},{"login":"crazzyguti","id":9408412,"node_id":"MDQ6VXNlcjk0MDg0MTI=","avatar_url":"https://avatars3.githubusercontent.com/u/9408412?v=4","gravatar_id":"","url":"https://api.github.com/users/crazzyguti","html_url":"https://github.com/crazzyguti","followers_url":"https://api.github.com/users/crazzyguti/followers","following_url":"https://api.github.com/users/crazzyguti/following{/other_user}","gists_url":"https://api.github.com/users/crazzyguti/gists{/gist_id}","starred_url":"https://api.github.com/users/crazzyguti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/crazzyguti/subscriptions","organizations_url":"https://api.github.com/users/crazzyguti/orgs","repos_url":"https://api.github.com/users/crazzyguti/repos","events_url":"https://api.github.com/users/crazzyguti/events{/privacy}","received_events_url":"https://api.github.com/users/crazzyguti/received_events","type":"User","site_admin":false},{"login":"dino-k-29","id":23260033,"node_id":"MDQ6VXNlcjIzMjYwMDMz","avatar_url":"https://avatars3.githubusercontent.com/u/23260033?v=4","gravatar_id":"","url":"https://api.github.com/users/dino-k-29","html_url":"https://github.com/dino-k-29","followers_url":"https://api.github.com/users/dino-k-29/followers","following_url":"https://api.github.com/users/dino-k-29/following{/other_user}","gists_url":"https://api.github.com/users/dino-k-29/gists{/gist_id}","starred_url":"https://api.github.com/users/dino-k-29/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dino-k-29/subscriptions","organizations_url":"https://api.github.com/users/dino-k-29/orgs","repos_url":"https://api.github.com/users/dino-k-29/repos","events_url":"https://api.github.com/users/dino-k-29/events{/privacy}","received_events_url":"https://api.github.com/users/dino-k-29/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"911aadc43b702526b96d646be9f845436383e903bb6282db9c951826669aca87"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D944:2944:228A3FC:27C248C:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3250
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1750
+X-Xss-Protection: 1; mode=block
+
+eef
+[{"login":"isabelle-lenain","id":8707729,"node_id":"MDQ6VXNlcjg3MDc3Mjk=","avatar_url":"https://avatars2.githubusercontent.com/u/8707729?v=4","gravatar_id":"","url":"https://api.github.com/users/isabelle-lenain","html_url":"https://github.com/isabelle-lenain","followers_url":"https://api.github.com/users/isabelle-lenain/followers","following_url":"https://api.github.com/users/isabelle-lenain/following{/other_user}","gists_url":"https://api.github.com/users/isabelle-lenain/gists{/gist_id}","starred_url":"https://api.github.com/users/isabelle-lenain/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/isabelle-lenain/subscriptions","organizations_url":"https://api.github.com/users/isabelle-lenain/orgs","repos_url":"https://api.github.com/users/isabelle-lenain/repos","events_url":"https://api.github.com/users/isabelle-lenain/events{/privacy}","received_events_url":"https://api.github.com/users/isabelle-lenain/received_events","type":"User","site_admin":false},{"login":"FrancoisEricMerlin","id":9744641,"node_id":"MDQ6VXNlcjk3NDQ2NDE=","avatar_url":"https://avatars1.githubusercontent.com/u/9744641?v=4","gravatar_id":"","url":"https://api.github.com/users/FrancoisEricMerlin","html_url":"https://github.com/FrancoisEricMerlin","followers_url":"https://api.github.com/users/FrancoisEricMerlin/followers","following_url":"https://api.github.com/users/FrancoisEricMerlin/following{/other_user}","gists_url":"https://api.github.com/users/FrancoisEricMerlin/gists{/gist_id}","starred_url":"https://api.github.com/users/FrancoisEricMerlin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FrancoisEricMerlin/subscriptions","organizations_url":"https://api.github.com/users/FrancoisEricMerlin/orgs","repos_url":"https://api.github.com/users/FrancoisEricMerlin/repos","events_url":"https://api.github.com/users/FrancoisEricMerlin/events{/privacy}","received_events_url":"https://api.github.com/users/FrancoisEricMerlin/received_events","type":"User","site_admin":false},{"login":"tbo47","id":1559534,"node_id":"MDQ6VXNlcjE1NTk1MzQ=","avatar_url":"https://avatars2.githubusercontent.com/u/1559534?v=4","gravatar_id":"","url":"https://api.github.com/users/tbo47","html_url":"https://github.com/tbo47","followers_url":"https://api.github.com/users/tbo47/followers","following_url":"https://api.github.com/users/tbo47/following{/other_user}","gists_url":"https://api.github.com/users/tbo47/gists{/gist_id}","starred_url":"https://api.github.com/users/tbo47/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tbo47/subscriptions","organizations_url":"https://api.github.com/users/tbo47/orgs","repos_url":"https://api.github.com/users/tbo47/repos","events_url":"https://api.github.com/users/tbo47/events{/privacy}","received_events_url":"https://api.github.com/users/tbo47/received_events","type":"User","site_admin":false},{"login":"rhitallali","id":16853541,"node_id":"MDQ6VXNlcjE2ODUzNTQx","avatar_url":"https://avatars1.githubusercontent.com/u/16853541?v=4","gravatar_id":"","url":"https://api.github.com/users/rhitallali","html_url":"https://github.com/rhitallali","followers_url":"https://api.github.com/users/rhitallali/followers","following_url":"https://api.github.com/users/rhitallali/following{/other_user}","gists_url":"https://api.github.com/users/rhitallali/gists{/gist_id}","starred_url":"https://api.github.com/users/rhitallali/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rhitallali/subscriptions","organizations_url":"https://api.github.com/users/rhitallali/orgs","repos_url":"https://api.github.com/users/rhitallali/repos","events_url":"https://api.github.com/users/rhitallali/events{/privacy}","received_events_url":"https://api.github.com/users/rhitallali/received_events","type":"User","site_admin":false}]
+0
+

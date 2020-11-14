@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:20 GMT
+Etag: W/"b5db6a972badc6bc66a3fd15648510ac9bb7656f242878f8e39475b309a12530"
+Link: <https://api.github.com/user/193483/followers?page=2>; rel="prev", <https://api.github.com/user/193483/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D972:2944:228A867:27C29A8:5FB0477F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2723
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2277
+X-Xss-Protection: 1; mode=block
+
+7a7
+[{"login":"Ernestopheles","id":7561403,"node_id":"MDQ6VXNlcjc1NjE0MDM=","avatar_url":"https://avatars3.githubusercontent.com/u/7561403?v=4","gravatar_id":"","url":"https://api.github.com/users/Ernestopheles","html_url":"https://github.com/Ernestopheles","followers_url":"https://api.github.com/users/Ernestopheles/followers","following_url":"https://api.github.com/users/Ernestopheles/following{/other_user}","gists_url":"https://api.github.com/users/Ernestopheles/gists{/gist_id}","starred_url":"https://api.github.com/users/Ernestopheles/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ernestopheles/subscriptions","organizations_url":"https://api.github.com/users/Ernestopheles/orgs","repos_url":"https://api.github.com/users/Ernestopheles/repos","events_url":"https://api.github.com/users/Ernestopheles/events{/privacy}","received_events_url":"https://api.github.com/users/Ernestopheles/received_events","type":"User","site_admin":false},{"login":"hakankoesekadam","id":1104035,"node_id":"MDQ6VXNlcjExMDQwMzU=","avatar_url":"https://avatars1.githubusercontent.com/u/1104035?v=4","gravatar_id":"","url":"https://api.github.com/users/hakankoesekadam","html_url":"https://github.com/hakankoesekadam","followers_url":"https://api.github.com/users/hakankoesekadam/followers","following_url":"https://api.github.com/users/hakankoesekadam/following{/other_user}","gists_url":"https://api.github.com/users/hakankoesekadam/gists{/gist_id}","starred_url":"https://api.github.com/users/hakankoesekadam/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hakankoesekadam/subscriptions","organizations_url":"https://api.github.com/users/hakankoesekadam/orgs","repos_url":"https://api.github.com/users/hakankoesekadam/repos","events_url":"https://api.github.com/users/hakankoesekadam/events{/privacy}","received_events_url":"https://api.github.com/users/hakankoesekadam/received_events","type":"User","site_admin":false}]
+0
+

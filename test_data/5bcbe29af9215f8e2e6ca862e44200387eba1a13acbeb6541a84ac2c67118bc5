@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:27 GMT
+Etag: W/"e43c91dc9efb5d661d9bc5df51d9ea84d6aa16911d60e1028bb85f819b3b9107"
+Last-Modified: Fri, 02 Oct 2020 18:38:35 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E0:F44A:3E42A16:47BB1F7:5FB0474B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3856
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1144
+X-Xss-Protection: 1; mode=block
+
+533
+{"login":"antirez","id":65632,"node_id":"MDQ6VXNlcjY1NjMy","avatar_url":"https://avatars0.githubusercontent.com/u/65632?v=4","gravatar_id":"","url":"https://api.github.com/users/antirez","html_url":"https://github.com/antirez","followers_url":"https://api.github.com/users/antirez/followers","following_url":"https://api.github.com/users/antirez/following{/other_user}","gists_url":"https://api.github.com/users/antirez/gists{/gist_id}","starred_url":"https://api.github.com/users/antirez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/antirez/subscriptions","organizations_url":"https://api.github.com/users/antirez/orgs","repos_url":"https://api.github.com/users/antirez/repos","events_url":"https://api.github.com/users/antirez/events{/privacy}","received_events_url":"https://api.github.com/users/antirez/received_events","type":"User","site_admin":false,"name":"Salvatore Sanfilippo","company":"Redis Labs","blog":"http://invece.org","location":"Campobello di Licata, Sicily, Italy","email":"antirez@gmail.com","hireable":null,"bio":"Computer programmer based in Sicily, Italy. I mostly write OSS software. Born 1977. Not a puritan.","twitter_username":null,"public_repos":59,"public_gists":214,"followers":14725,"following":3,"created_at":"2009-03-21T22:29:53Z","updated_at":"2020-10-02T18:38:35Z"}
+0
+

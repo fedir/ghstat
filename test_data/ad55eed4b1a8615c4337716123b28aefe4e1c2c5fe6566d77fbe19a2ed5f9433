@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:57 GMT
+Etag: W/"6c909805cb9b2e3153628e72abc60877b0dbe9972c17875a3fd93312be1776d7"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D5:E4B7:3DFEB25:478A02D:5FB0472D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4198
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 802
+X-Xss-Protection: 1; mode=block
+
+ae0
+[{"login":"joachimstalder","id":5138598,"node_id":"MDQ6VXNlcjUxMzg1OTg=","avatar_url":"https://avatars1.githubusercontent.com/u/5138598?v=4","gravatar_id":"","url":"https://api.github.com/users/joachimstalder","html_url":"https://github.com/joachimstalder","followers_url":"https://api.github.com/users/joachimstalder/followers","following_url":"https://api.github.com/users/joachimstalder/following{/other_user}","gists_url":"https://api.github.com/users/joachimstalder/gists{/gist_id}","starred_url":"https://api.github.com/users/joachimstalder/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joachimstalder/subscriptions","organizations_url":"https://api.github.com/users/joachimstalder/orgs","repos_url":"https://api.github.com/users/joachimstalder/repos","events_url":"https://api.github.com/users/joachimstalder/events{/privacy}","received_events_url":"https://api.github.com/users/joachimstalder/received_events","type":"User","site_admin":false},{"login":"zendre4","id":9673982,"node_id":"MDQ6VXNlcjk2NzM5ODI=","avatar_url":"https://avatars1.githubusercontent.com/u/9673982?v=4","gravatar_id":"","url":"https://api.github.com/users/zendre4","html_url":"https://github.com/zendre4","followers_url":"https://api.github.com/users/zendre4/followers","following_url":"https://api.github.com/users/zendre4/following{/other_user}","gists_url":"https://api.github.com/users/zendre4/gists{/gist_id}","starred_url":"https://api.github.com/users/zendre4/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zendre4/subscriptions","organizations_url":"https://api.github.com/users/zendre4/orgs","repos_url":"https://api.github.com/users/zendre4/repos","events_url":"https://api.github.com/users/zendre4/events{/privacy}","received_events_url":"https://api.github.com/users/zendre4/received_events","type":"User","site_admin":false},{"login":"mascot27","id":22994212,"node_id":"MDQ6VXNlcjIyOTk0MjEy","avatar_url":"https://avatars1.githubusercontent.com/u/22994212?v=4","gravatar_id":"","url":"https://api.github.com/users/mascot27","html_url":"https://github.com/mascot27","followers_url":"https://api.github.com/users/mascot27/followers","following_url":"https://api.github.com/users/mascot27/following{/other_user}","gists_url":"https://api.github.com/users/mascot27/gists{/gist_id}","starred_url":"https://api.github.com/users/mascot27/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mascot27/subscriptions","organizations_url":"https://api.github.com/users/mascot27/orgs","repos_url":"https://api.github.com/users/mascot27/repos","events_url":"https://api.github.com/users/mascot27/events{/privacy}","received_events_url":"https://api.github.com/users/mascot27/received_events","type":"User","site_admin":false}]
+0
+

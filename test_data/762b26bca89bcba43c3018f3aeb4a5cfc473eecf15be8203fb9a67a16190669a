@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:26 GMT
+Etag: W/"47c6b95166b399fa9497de38b759fcc3441eed45f8a770ae832186a7e320c562"
+Link: <https://api.github.com/user/266751/followers?page=2>; rel="prev", <https://api.github.com/user/266751/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E4:072D:21DF2E1:271B8CB:5FB0474A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3867
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1133
+X-Xss-Protection: 1; mode=block
+
+ebf
+[{"login":"saadaouiMajd","id":18295517,"node_id":"MDQ6VXNlcjE4Mjk1NTE3","avatar_url":"https://avatars2.githubusercontent.com/u/18295517?v=4","gravatar_id":"","url":"https://api.github.com/users/saadaouiMajd","html_url":"https://github.com/saadaouiMajd","followers_url":"https://api.github.com/users/saadaouiMajd/followers","following_url":"https://api.github.com/users/saadaouiMajd/following{/other_user}","gists_url":"https://api.github.com/users/saadaouiMajd/gists{/gist_id}","starred_url":"https://api.github.com/users/saadaouiMajd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/saadaouiMajd/subscriptions","organizations_url":"https://api.github.com/users/saadaouiMajd/orgs","repos_url":"https://api.github.com/users/saadaouiMajd/repos","events_url":"https://api.github.com/users/saadaouiMajd/events{/privacy}","received_events_url":"https://api.github.com/users/saadaouiMajd/received_events","type":"User","site_admin":false},{"login":"narula","id":177646,"node_id":"MDQ6VXNlcjE3NzY0Ng==","avatar_url":"https://avatars1.githubusercontent.com/u/177646?v=4","gravatar_id":"","url":"https://api.github.com/users/narula","html_url":"https://github.com/narula","followers_url":"https://api.github.com/users/narula/followers","following_url":"https://api.github.com/users/narula/following{/other_user}","gists_url":"https://api.github.com/users/narula/gists{/gist_id}","starred_url":"https://api.github.com/users/narula/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/narula/subscriptions","organizations_url":"https://api.github.com/users/narula/orgs","repos_url":"https://api.github.com/users/narula/repos","events_url":"https://api.github.com/users/narula/events{/privacy}","received_events_url":"https://api.github.com/users/narula/received_events","type":"User","site_admin":false},{"login":"Rjected","id":6798349,"node_id":"MDQ6VXNlcjY3OTgzNDk=","avatar_url":"https://avatars1.githubusercontent.com/u/6798349?v=4","gravatar_id":"","url":"https://api.github.com/users/Rjected","html_url":"https://github.com/Rjected","followers_url":"https://api.github.com/users/Rjected/followers","following_url":"https://api.github.com/users/Rjected/following{/other_user}","gists_url":"https://api.github.com/users/Rjected/gists{/gist_id}","starred_url":"https://api.github.com/users/Rjected/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Rjected/subscriptions","organizations_url":"https://api.github.com/users/Rjected/orgs","repos_url":"https://api.github.com/users/Rjected/repos","events_url":"https://api.github.com/users/Rjected/events{/privacy}","received_events_url":"https://api.github.com/users/Rjected/received_events","type":"User","site_admin":false},{"login":"prehistoric-penguin","id":10259243,"node_id":"MDQ6VXNlcjEwMjU5MjQz","avatar_url":"https://avatars1.githubusercontent.com/u/10259243?v=4","gravatar_id":"","url":"https://api.github.com/users/prehistoric-penguin","html_url":"https://github.com/prehistoric-penguin","followers_url":"https://api.github.com/users/prehistoric-penguin/followers","following_url":"https://api.github.com/users/prehistoric-penguin/following{/other_user}","gists_url":"https://api.github.com/users/prehistoric-penguin/gists{/gist_id}","starred_url":"https://api.github.com/users/prehistoric-penguin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/prehistoric-penguin/subscriptions","organizations_url":"https://api.github.com/users/prehistoric-penguin/orgs","repos_url":"https://api.github.com/users/prehistoric-penguin/repos","events_url":"https://api.github.com/users/prehistoric-penguin/events{/privacy}","received_events_url":"https://api.github.com/users/prehistoric-penguin/received_events","type":"User","site_admin":false}]
+0
+

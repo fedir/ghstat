@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:29 GMT
+Etag: W/"f9fef995d15267deca3e7d656a9dbb8cdb3fd66bac5e2935243f4aaae6a99594"
+Link: <https://api.github.com/user/118456/followers?page=4>; rel="prev", <https://api.github.com/user/118456/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E3:5C53:4380CA2:4DCD62E:5FB0474D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3799
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1201
+X-Xss-Protection: 1; mode=block
+
+71b
+[{"login":"aravindd7","id":13676709,"node_id":"MDQ6VXNlcjEzNjc2NzA5","avatar_url":"https://avatars0.githubusercontent.com/u/13676709?v=4","gravatar_id":"","url":"https://api.github.com/users/aravindd7","html_url":"https://github.com/aravindd7","followers_url":"https://api.github.com/users/aravindd7/followers","following_url":"https://api.github.com/users/aravindd7/following{/other_user}","gists_url":"https://api.github.com/users/aravindd7/gists{/gist_id}","starred_url":"https://api.github.com/users/aravindd7/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aravindd7/subscriptions","organizations_url":"https://api.github.com/users/aravindd7/orgs","repos_url":"https://api.github.com/users/aravindd7/repos","events_url":"https://api.github.com/users/aravindd7/events{/privacy}","received_events_url":"https://api.github.com/users/aravindd7/received_events","type":"User","site_admin":false},{"login":"royluis","id":26900564,"node_id":"MDQ6VXNlcjI2OTAwNTY0","avatar_url":"https://avatars0.githubusercontent.com/u/26900564?v=4","gravatar_id":"","url":"https://api.github.com/users/royluis","html_url":"https://github.com/royluis","followers_url":"https://api.github.com/users/royluis/followers","following_url":"https://api.github.com/users/royluis/following{/other_user}","gists_url":"https://api.github.com/users/royluis/gists{/gist_id}","starred_url":"https://api.github.com/users/royluis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/royluis/subscriptions","organizations_url":"https://api.github.com/users/royluis/orgs","repos_url":"https://api.github.com/users/royluis/repos","events_url":"https://api.github.com/users/royluis/events{/privacy}","received_events_url":"https://api.github.com/users/royluis/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:26 GMT
+Etag: W/"a45c787ad8c0496c2805a2025ff6bfdde04271b22477907bedee4fdbcc932151"
+Last-Modified: Tue, 01 Sep 2020 13:38:39 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E1:B560:40919F9:4A7941D:5FB0474A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3876
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1124
+X-Xss-Protection: 1; mode=block
+
+4b0
+{"login":"cmlenz","id":11300,"node_id":"MDQ6VXNlcjExMzAw","avatar_url":"https://avatars2.githubusercontent.com/u/11300?v=4","gravatar_id":"","url":"https://api.github.com/users/cmlenz","html_url":"https://github.com/cmlenz","followers_url":"https://api.github.com/users/cmlenz/followers","following_url":"https://api.github.com/users/cmlenz/following{/other_user}","gists_url":"https://api.github.com/users/cmlenz/gists{/gist_id}","starred_url":"https://api.github.com/users/cmlenz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cmlenz/subscriptions","organizations_url":"https://api.github.com/users/cmlenz/orgs","repos_url":"https://api.github.com/users/cmlenz/repos","events_url":"https://api.github.com/users/cmlenz/events{/privacy}","received_events_url":"https://api.github.com/users/cmlenz/received_events","type":"User","site_admin":false,"name":"Christopher Lenz","company":null,"blog":"http://www.cmlenz.net/","location":"Frankfurt am Main, Germany","email":"cmlenz@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":7,"followers":35,"following":6,"created_at":"2008-05-23T13:56:07Z","updated_at":"2020-09-01T13:38:39Z"}
+0
+

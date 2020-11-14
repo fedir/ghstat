@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:57 GMT
+Etag: W/"3fd057d12cde5ff42cf9d4ed4226ec6ea5e9ae0a59277321db269bfd3191c27b"
+Last-Modified: Sat, 14 Nov 2020 07:28:10 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D810:13F3:217397C:26955F9:5FB046F1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4817
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 183
+X-Xss-Protection: 1; mode=block
+
+516
+{"login":"jorgebucaran","id":56996,"node_id":"MDQ6VXNlcjU2OTk2","avatar_url":"https://avatars1.githubusercontent.com/u/56996?v=4","gravatar_id":"","url":"https://api.github.com/users/jorgebucaran","html_url":"https://github.com/jorgebucaran","followers_url":"https://api.github.com/users/jorgebucaran/followers","following_url":"https://api.github.com/users/jorgebucaran/following{/other_user}","gists_url":"https://api.github.com/users/jorgebucaran/gists{/gist_id}","starred_url":"https://api.github.com/users/jorgebucaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jorgebucaran/subscriptions","organizations_url":"https://api.github.com/users/jorgebucaran/orgs","repos_url":"https://api.github.com/users/jorgebucaran/repos","events_url":"https://api.github.com/users/jorgebucaran/events{/privacy}","received_events_url":"https://api.github.com/users/jorgebucaran/received_events","type":"User","site_admin":false,"name":"Jorge Bucaran","company":null,"blog":"https://jorgebucaran.com","location":"Tokyo, Japan","email":null,"hireable":null,"bio":"Web/UI/UX Engineer • Creator of @hyperapp 💗","twitter_username":"jorgebucaran","public_repos":25,"public_gists":10,"followers":864,"following":1,"created_at":"2009-02-23T05:20:33Z","updated_at":"2020-11-14T07:28:10Z"}
+0
+

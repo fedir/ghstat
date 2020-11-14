@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:32 GMT
+Etag: W/"9afdd0f81e8442a8d0321703d5003c81e73e3264e9896ea5b8ecc00df495f711"
+Last-Modified: Sat, 14 Nov 2020 18:45:48 GMT
+Link: <https://api.github.com/repositories/20089857/tags?page=25>; rel="prev", <https://api.github.com/repositories/20089857/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8E2:072D:21DF701:271BD9F:5FB0474F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3689
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1311
+X-Xss-Protection: 1; mode=block
+
+eca
+[{"name":"0.19.2","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.19.2","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.19.2","commit":{"sha":"31da6f40ed6f5eb37f4481c19f2f0b74e5b9b8bf","url":"https://api.github.com/repos/apache/hbase/commits/31da6f40ed6f5eb37f4481c19f2f0b74e5b9b8bf"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTkuMg=="},{"name":"0.19.1","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.19.1","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.19.1","commit":{"sha":"28a63125aeaa2a500a7cce2a7e9da7c7f135210d","url":"https://api.github.com/repos/apache/hbase/commits/28a63125aeaa2a500a7cce2a7e9da7c7f135210d"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTkuMQ=="},{"name":"0.19.1RC1","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.19.1RC1","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.19.1RC1","commit":{"sha":"513ffcb72208c9e6c144e90980d184164c4fdf51","url":"https://api.github.com/repos/apache/hbase/commits/513ffcb72208c9e6c144e90980d184164c4fdf51"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTkuMVJDMQ=="},{"name":"0.19.0","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.19.0","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.19.0","commit":{"sha":"f479355fa925100840bbdd1efe6709df26a8d280","url":"https://api.github.com/repos/apache/hbase/commits/f479355fa925100840bbdd1efe6709df26a8d280"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTkuMA=="},{"name":"0.18.1","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.18.1","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.18.1","commit":{"sha":"952719f5d172c32af04e98358da9c08e108ac269","url":"https://api.github.com/repos/apache/hbase/commits/952719f5d172c32af04e98358da9c08e108ac269"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTguMQ=="},{"name":"0.18.0","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.18.0","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.18.0","commit":{"sha":"d734b5c280ba3214d105f2174dba6850209e0ed6","url":"https://api.github.com/repos/apache/hbase/commits/d734b5c280ba3214d105f2174dba6850209e0ed6"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMTguMA=="},{"name":"0.1.3","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.1.3","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.1.3","commit":{"sha":"077523b2f8b78d9ed3186cfc00a26c9e4ef05561","url":"https://api.github.com/repos/apache/hbase/commits/077523b2f8b78d9ed3186cfc00a26c9e4ef05561"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMS4z"},{"name":"0.1.2","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.1.2","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.1.2","commit":{"sha":"a5aaa845aa3f565a3131b38cbe3a85716a43dd36","url":"https://api.github.com/repos/apache/hbase/commits/a5aaa845aa3f565a3131b38cbe3a85716a43dd36"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMS4y"},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.1.1","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.1.1","commit":{"sha":"3a05d25478c93a857e78d9bc5f4f5b1178f58f3d","url":"https://api.github.com/repos/apache/hbase/commits/3a05d25478c93a857e78d9bc5f4f5b1178f58f3d"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMS4x"},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/apache/hbase/zipball/0.1.0","tarball_url":"https://api.github.com/repos/apache/hbase/tarball/0.1.0","commit":{"sha":"ff87e088bd8904b1f1dc15f8c7e4efd8e568b125","url":"https://api.github.com/repos/apache/hbase/commits/ff87e088bd8904b1f1dc15f8c7e4efd8e568b125"},"node_id":"MDM6UmVmMjAwODk4NTc6cmVmcy90YWdzLzAuMS4w"}]
+0
+

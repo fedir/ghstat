@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:57 GMT
+Etag: W/"b2802346205649d28f26f62662b3d9c35ec915a70aa139280dc8b261b0e63f77"
+Last-Modified: Thu, 12 Nov 2020 16:57:37 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D814:41F4:4189CAE:4B9BC19:5FB046F1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4829
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 171
+X-Xss-Protection: 1; mode=block
+
+4bf
+{"login":"mhevery","id":111951,"node_id":"MDQ6VXNlcjExMTk1MQ==","avatar_url":"https://avatars0.githubusercontent.com/u/111951?v=4","gravatar_id":"","url":"https://api.github.com/users/mhevery","html_url":"https://github.com/mhevery","followers_url":"https://api.github.com/users/mhevery/followers","following_url":"https://api.github.com/users/mhevery/following{/other_user}","gists_url":"https://api.github.com/users/mhevery/gists{/gist_id}","starred_url":"https://api.github.com/users/mhevery/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mhevery/subscriptions","organizations_url":"https://api.github.com/users/mhevery/orgs","repos_url":"https://api.github.com/users/mhevery/repos","events_url":"https://api.github.com/users/mhevery/events{/privacy}","received_events_url":"https://api.github.com/users/mhevery/received_events","type":"User","site_admin":false,"name":"Miško Hevery","company":"Google","blog":"http://misko.hevery.com","location":null,"email":"misko@hevery.com","hireable":null,"bio":"Father of Angular","twitter_username":null,"public_repos":56,"public_gists":24,"followers":4198,"following":2,"created_at":"2009-08-04T21:42:41Z","updated_at":"2020-11-12T16:57:37Z"}
+0
+

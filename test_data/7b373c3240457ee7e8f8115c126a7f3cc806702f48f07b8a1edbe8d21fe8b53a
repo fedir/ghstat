@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"4f6a402f3d3e56f079f1bfe2539eb699466bc68cff4a964f144cb8c1254b2329"
+Last-Modified: Thu, 08 Oct 2020 07:19:59 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8FA:5C50:6D3245:7DA067:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3559
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1441
+X-Xss-Protection: 1; mode=block
+
+492
+{"login":"Jotschi","id":326605,"node_id":"MDQ6VXNlcjMyNjYwNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/326605?v=4","gravatar_id":"","url":"https://api.github.com/users/Jotschi","html_url":"https://github.com/Jotschi","followers_url":"https://api.github.com/users/Jotschi/followers","following_url":"https://api.github.com/users/Jotschi/following{/other_user}","gists_url":"https://api.github.com/users/Jotschi/gists{/gist_id}","starred_url":"https://api.github.com/users/Jotschi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jotschi/subscriptions","organizations_url":"https://api.github.com/users/Jotschi/orgs","repos_url":"https://api.github.com/users/Jotschi/repos","events_url":"https://api.github.com/users/Jotschi/events{/privacy}","received_events_url":"https://api.github.com/users/Jotschi/received_events","type":"User","site_admin":false,"name":"Johannes Schüth","company":"@gentics","blog":"","location":"Vienna","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":82,"public_gists":49,"followers":34,"following":9,"created_at":"2010-07-08T16:41:19Z","updated_at":"2020-10-08T07:19:59Z"}
+0
+

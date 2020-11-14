@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:11 GMT
+Etag: W/"e2b5d7ea4e1abd37eb231d90b624677ffdc214a161d03cd6bd347ed6224b0d88"
+Link: <https://api.github.com/user/183722/followers?page=12>; rel="prev", <https://api.github.com/user/183722/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D825:B55F:2096729:257FD18:5FB046FE
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4366
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 634
+X-Xss-Protection: 1; mode=block
+
+e79
+[{"login":"ricardokovalski","id":13839909,"node_id":"MDQ6VXNlcjEzODM5OTA5","avatar_url":"https://avatars2.githubusercontent.com/u/13839909?v=4","gravatar_id":"","url":"https://api.github.com/users/ricardokovalski","html_url":"https://github.com/ricardokovalski","followers_url":"https://api.github.com/users/ricardokovalski/followers","following_url":"https://api.github.com/users/ricardokovalski/following{/other_user}","gists_url":"https://api.github.com/users/ricardokovalski/gists{/gist_id}","starred_url":"https://api.github.com/users/ricardokovalski/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ricardokovalski/subscriptions","organizations_url":"https://api.github.com/users/ricardokovalski/orgs","repos_url":"https://api.github.com/users/ricardokovalski/repos","events_url":"https://api.github.com/users/ricardokovalski/events{/privacy}","received_events_url":"https://api.github.com/users/ricardokovalski/received_events","type":"User","site_admin":false},{"login":"Dovyski","id":512405,"node_id":"MDQ6VXNlcjUxMjQwNQ==","avatar_url":"https://avatars2.githubusercontent.com/u/512405?v=4","gravatar_id":"","url":"https://api.github.com/users/Dovyski","html_url":"https://github.com/Dovyski","followers_url":"https://api.github.com/users/Dovyski/followers","following_url":"https://api.github.com/users/Dovyski/following{/other_user}","gists_url":"https://api.github.com/users/Dovyski/gists{/gist_id}","starred_url":"https://api.github.com/users/Dovyski/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Dovyski/subscriptions","organizations_url":"https://api.github.com/users/Dovyski/orgs","repos_url":"https://api.github.com/users/Dovyski/repos","events_url":"https://api.github.com/users/Dovyski/events{/privacy}","received_events_url":"https://api.github.com/users/Dovyski/received_events","type":"User","site_admin":false},{"login":"omarkdev","id":14936241,"node_id":"MDQ6VXNlcjE0OTM2MjQx","avatar_url":"https://avatars2.githubusercontent.com/u/14936241?v=4","gravatar_id":"","url":"https://api.github.com/users/omarkdev","html_url":"https://github.com/omarkdev","followers_url":"https://api.github.com/users/omarkdev/followers","following_url":"https://api.github.com/users/omarkdev/following{/other_user}","gists_url":"https://api.github.com/users/omarkdev/gists{/gist_id}","starred_url":"https://api.github.com/users/omarkdev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/omarkdev/subscriptions","organizations_url":"https://api.github.com/users/omarkdev/orgs","repos_url":"https://api.github.com/users/omarkdev/repos","events_url":"https://api.github.com/users/omarkdev/events{/privacy}","received_events_url":"https://api.github.com/users/omarkdev/received_events","type":"User","site_admin":false},{"login":"Morkhusz","id":21087688,"node_id":"MDQ6VXNlcjIxMDg3Njg4","avatar_url":"https://avatars0.githubusercontent.com/u/21087688?v=4","gravatar_id":"","url":"https://api.github.com/users/Morkhusz","html_url":"https://github.com/Morkhusz","followers_url":"https://api.github.com/users/Morkhusz/followers","following_url":"https://api.github.com/users/Morkhusz/following{/other_user}","gists_url":"https://api.github.com/users/Morkhusz/gists{/gist_id}","starred_url":"https://api.github.com/users/Morkhusz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Morkhusz/subscriptions","organizations_url":"https://api.github.com/users/Morkhusz/orgs","repos_url":"https://api.github.com/users/Morkhusz/repos","events_url":"https://api.github.com/users/Morkhusz/events{/privacy}","received_events_url":"https://api.github.com/users/Morkhusz/received_events","type":"User","site_admin":false}]
+0
+

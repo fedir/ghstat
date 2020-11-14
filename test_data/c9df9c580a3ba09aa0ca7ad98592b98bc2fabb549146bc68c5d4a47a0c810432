@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"2a17727c5982eacc0ffb79090723fe7a019d005bfd119310cc2fb3cb7c99b0a9"
+Link: <https://api.github.com/user/399895/followers?page=1>; rel="prev", <https://api.github.com/user/399895/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D950:13F4:4159AC4:4B5CC3F:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3307
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1693
+X-Xss-Protection: 1; mode=block
+
+abc
+[{"login":"othillo","id":2786663,"node_id":"MDQ6VXNlcjI3ODY2NjM=","avatar_url":"https://avatars3.githubusercontent.com/u/2786663?v=4","gravatar_id":"","url":"https://api.github.com/users/othillo","html_url":"https://github.com/othillo","followers_url":"https://api.github.com/users/othillo/followers","following_url":"https://api.github.com/users/othillo/following{/other_user}","gists_url":"https://api.github.com/users/othillo/gists{/gist_id}","starred_url":"https://api.github.com/users/othillo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/othillo/subscriptions","organizations_url":"https://api.github.com/users/othillo/orgs","repos_url":"https://api.github.com/users/othillo/repos","events_url":"https://api.github.com/users/othillo/events{/privacy}","received_events_url":"https://api.github.com/users/othillo/received_events","type":"User","site_admin":false},{"login":"gngchrs","id":3910877,"node_id":"MDQ6VXNlcjM5MTA4Nzc=","avatar_url":"https://avatars0.githubusercontent.com/u/3910877?v=4","gravatar_id":"","url":"https://api.github.com/users/gngchrs","html_url":"https://github.com/gngchrs","followers_url":"https://api.github.com/users/gngchrs/followers","following_url":"https://api.github.com/users/gngchrs/following{/other_user}","gists_url":"https://api.github.com/users/gngchrs/gists{/gist_id}","starred_url":"https://api.github.com/users/gngchrs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gngchrs/subscriptions","organizations_url":"https://api.github.com/users/gngchrs/orgs","repos_url":"https://api.github.com/users/gngchrs/repos","events_url":"https://api.github.com/users/gngchrs/events{/privacy}","received_events_url":"https://api.github.com/users/gngchrs/received_events","type":"User","site_admin":false},{"login":"evaschweizer","id":50870993,"node_id":"MDQ6VXNlcjUwODcwOTkz","avatar_url":"https://avatars2.githubusercontent.com/u/50870993?v=4","gravatar_id":"","url":"https://api.github.com/users/evaschweizer","html_url":"https://github.com/evaschweizer","followers_url":"https://api.github.com/users/evaschweizer/followers","following_url":"https://api.github.com/users/evaschweizer/following{/other_user}","gists_url":"https://api.github.com/users/evaschweizer/gists{/gist_id}","starred_url":"https://api.github.com/users/evaschweizer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/evaschweizer/subscriptions","organizations_url":"https://api.github.com/users/evaschweizer/orgs","repos_url":"https://api.github.com/users/evaschweizer/repos","events_url":"https://api.github.com/users/evaschweizer/events{/privacy}","received_events_url":"https://api.github.com/users/evaschweizer/received_events","type":"User","site_admin":false}]
+0
+

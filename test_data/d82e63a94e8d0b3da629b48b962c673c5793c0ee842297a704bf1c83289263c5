@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"9c50520da9ee2198f35977b90056d6744652e3f324df3d6fad62c00f5abe8ce1"
+Last-Modified: Sat, 07 Nov 2020 14:28:22 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8F8:7087:4114AB5:4AF5535:5FB04764
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3526
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1474
+X-Xss-Protection: 1; mode=block
+
+4fb
+{"login":"boutell","id":32125,"node_id":"MDQ6VXNlcjMyMTI1","avatar_url":"https://avatars1.githubusercontent.com/u/32125?v=4","gravatar_id":"","url":"https://api.github.com/users/boutell","html_url":"https://github.com/boutell","followers_url":"https://api.github.com/users/boutell/followers","following_url":"https://api.github.com/users/boutell/following{/other_user}","gists_url":"https://api.github.com/users/boutell/gists{/gist_id}","starred_url":"https://api.github.com/users/boutell/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/boutell/subscriptions","organizations_url":"https://api.github.com/users/boutell/orgs","repos_url":"https://api.github.com/users/boutell/repos","events_url":"https://api.github.com/users/boutell/events{/privacy}","received_events_url":"https://api.github.com/users/boutell/received_events","type":"User","site_admin":false,"name":"Tom Boutell","company":null,"blog":"https://boutell.dev","location":"Philadelphia, PA USA","email":null,"hireable":null,"bio":"CTO of Apostrophe Technologies. Most of the good stuff is in the apostrophecms github org.","twitter_username":null,"public_repos":73,"public_gists":70,"followers":164,"following":4,"created_at":"2008-11-01T12:01:50Z","updated_at":"2020-11-07T14:28:22Z"}
+0
+

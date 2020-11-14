@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"08c66a861e2f271a1b4e9a90b750776870415a8c0f048b63b27afdc36720ec3b"
+Last-Modified: Fri, 13 Nov 2020 07:28:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D940:BAD3:40F61FC:4AE4936:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3153
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1847
+X-Xss-Protection: 1; mode=block
+
+e3e
+[{"name":"v3.5.1.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.5.1.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.5.1.0","commit":{"sha":"dc7462ef39a19831d9c0d23e41efc0cea6927a29","url":"https://api.github.com/repos/bogeblad/infoglue/commits/dc7462ef39a19831d9c0d23e41efc0cea6927a29"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuNS4xLjA="},{"name":"v3.5.0.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.5.0.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.5.0.0","commit":{"sha":"7285e3df81f40c2ff3eae434c460cf890cd171f0","url":"https://api.github.com/repos/bogeblad/infoglue/commits/7285e3df81f40c2ff3eae434c460cf890cd171f0"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuNS4wLjA="},{"name":"v3.4.0.2","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.4.0.2","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.4.0.2","commit":{"sha":"3f5fb2f73452997e4147e723061d793732f11be1","url":"https://api.github.com/repos/bogeblad/infoglue/commits/3f5fb2f73452997e4147e723061d793732f11be1"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuNC4wLjI="},{"name":"v3.4.0.1","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.4.0.1","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.4.0.1","commit":{"sha":"a5063cb4bd7a4b8d1640d96894d09b24ec7ee063","url":"https://api.github.com/repos/bogeblad/infoglue/commits/a5063cb4bd7a4b8d1640d96894d09b24ec7ee063"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuNC4wLjE="},{"name":"v3.4.0.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.4.0.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.4.0.0","commit":{"sha":"be6122f28ebf9779c4a18c4859795705e76f2eb1","url":"https://api.github.com/repos/bogeblad/infoglue/commits/be6122f28ebf9779c4a18c4859795705e76f2eb1"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuNC4wLjA="},{"name":"v3.3.0.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.3.0.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.3.0.0","commit":{"sha":"0b376f3de7de2bd605c6458063f6152e7a90e3aa","url":"https://api.github.com/repos/bogeblad/infoglue/commits/0b376f3de7de2bd605c6458063f6152e7a90e3aa"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuMy4wLjA="},{"name":"v3.2.0.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.2.0.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.2.0.0","commit":{"sha":"7f0fe8f1f7b6a73b93ab10cf6844a0df55abeb3a","url":"https://api.github.com/repos/bogeblad/infoglue/commits/7f0fe8f1f7b6a73b93ab10cf6844a0df55abeb3a"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuMi4wLjA="},{"name":"v3.1.2.0","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/v3.1.2.0","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/v3.1.2.0","commit":{"sha":"f29af7ab3790822518edf7b7aaa5a80421006d02","url":"https://api.github.com/repos/bogeblad/infoglue/commits/f29af7ab3790822518edf7b7aaa5a80421006d02"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvdjMuMS4yLjA="},{"name":"infoglue@Vagrant","zipball_url":"https://api.github.com/repos/bogeblad/infoglue/zipball/infoglue@Vagrant","tarball_url":"https://api.github.com/repos/bogeblad/infoglue/tarball/infoglue@Vagrant","commit":{"sha":"e58fd12708f9da6b111be7e30b1d38beecdbec8c","url":"https://api.github.com/repos/bogeblad/infoglue/commits/e58fd12708f9da6b111be7e30b1d38beecdbec8c"},"node_id":"MDM6UmVmMTIxNzc0NTpyZWZzL3RhZ3MvaW5mb2dsdWVAVmFncmFudA=="}]
+0
+

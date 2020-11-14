@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:10 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D9:BA8A:234CAEE:2894239:5FB0473A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 24
+X-Ratelimit-Reset: 1605388137
+X-Ratelimit-Used: 6
+X-Xss-Protection: 1; mode=block
+
+f12
+{"total_count":2,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/tokuhirom/Amon/issues/48","repository_url":"https://api.github.com/repos/tokuhirom/Amon","labels_url":"https://api.github.com/repos/tokuhirom/Amon/issues/48/labels{/name}","comments_url":"https://api.github.com/repos/tokuhirom/Amon/issues/48/comments","events_url":"https://api.github.com/repos/tokuhirom/Amon/issues/48/events","html_url":"https://github.com/tokuhirom/Amon/issues/48","id":7642212,"node_id":"MDU6SXNzdWU3NjQyMjEy","number":48,"title":"$self->{__PACKAGE__}","user":{"login":"anazawa","id":1128640,"node_id":"MDQ6VXNlcjExMjg2NDA=","avatar_url":"https://avatars2.githubusercontent.com/u/1128640?v=4","gravatar_id":"","url":"https://api.github.com/users/anazawa","html_url":"https://github.com/anazawa","followers_url":"https://api.github.com/users/anazawa/followers","following_url":"https://api.github.com/users/anazawa/following{/other_user}","gists_url":"https://api.github.com/users/anazawa/gists{/gist_id}","starred_url":"https://api.github.com/users/anazawa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anazawa/subscriptions","organizations_url":"https://api.github.com/users/anazawa/orgs","repos_url":"https://api.github.com/users/anazawa/repos","events_url":"https://api.github.com/users/anazawa/events{/privacy}","received_events_url":"https://api.github.com/users/anazawa/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":3,"created_at":"2012-10-16T23:12:13Z","updated_at":"2012-11-13T13:45:27Z","closed_at":"2012-10-17T04:06:35Z","author_association":"NONE","active_lock_reason":null,"body":"https://github.com/tokuhirom/Amon/blob/master/lib/Amon2/Plugin/Web/HTTPSession.pm#L19\n\n重箱の隅をつつくような報告で恐縮します。\nパッケージ名でなく `\"__PACKAGE__\"` というキーが指定されています。\n","performed_via_github_app":null,"score":1.0},{"url":"https://api.github.com/repos/tokuhirom/Amon/issues/30","repository_url":"https://api.github.com/repos/tokuhirom/Amon","labels_url":"https://api.github.com/repos/tokuhirom/Amon/issues/30/labels{/name}","comments_url":"https://api.github.com/repos/tokuhirom/Amon/issues/30/comments","events_url":"https://api.github.com/repos/tokuhirom/Amon/issues/30/events","html_url":"https://github.com/tokuhirom/Amon/issues/30","id":1841473,"node_id":"MDU6SXNzdWUxODQxNDcz","number":30,"title":"invalid tag","user":{"login":"tokuhirom","id":21084,"node_id":"MDQ6VXNlcjIxMDg0","avatar_url":"https://avatars3.githubusercontent.com/u/21084?v=4","gravatar_id":"","url":"https://api.github.com/users/tokuhirom","html_url":"https://github.com/tokuhirom","followers_url":"https://api.github.com/users/tokuhirom/followers","following_url":"https://api.github.com/users/tokuhirom/following{/other_user}","gists_url":"https://api.github.com/users/tokuhirom/gists{/gist_id}","starred_url":"https://api.github.com/users/tokuhirom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tokuhirom/subscriptions","organizations_url":"https://api.github.com/users/tokuhirom/orgs","repos_url":"https://api.github.com/users/tokuhirom/repos","events_url":"https://api.github.com/users/tokuhirom/events{/privacy}","received_events_url":"https://api.github.com/users/tokuhirom/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":1,"created_at":"2011-10-07T08:50:00Z","updated_at":"2011-10-09T07:54:54Z","closed_at":"2011-10-09T07:54:54Z","author_association":"OWNER","active_lock_reason":null,"body":"https://github.com/tokuhirom/Amon/blob/master/lib/Amon2/Setup/Flavor/Basic.pm#L237\n","performed_via_github_app":null,"score":1.0}]}
+0
+

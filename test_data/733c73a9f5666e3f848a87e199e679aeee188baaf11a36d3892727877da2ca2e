@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:15 GMT
+Etag: W/"aa7fc4a614e585e20bc2bc8c5934a42dc63be8c44e4b9ef38101704d3f4884db"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D948:072E:3F5399F:4918110:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3138
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1862
+X-Xss-Protection: 1; mode=block
+
+e3b
+[{"login":"soniasuper","id":13367722,"node_id":"MDQ6VXNlcjEzMzY3NzIy","avatar_url":"https://avatars3.githubusercontent.com/u/13367722?v=4","gravatar_id":"","url":"https://api.github.com/users/soniasuper","html_url":"https://github.com/soniasuper","followers_url":"https://api.github.com/users/soniasuper/followers","following_url":"https://api.github.com/users/soniasuper/following{/other_user}","gists_url":"https://api.github.com/users/soniasuper/gists{/gist_id}","starred_url":"https://api.github.com/users/soniasuper/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soniasuper/subscriptions","organizations_url":"https://api.github.com/users/soniasuper/orgs","repos_url":"https://api.github.com/users/soniasuper/repos","events_url":"https://api.github.com/users/soniasuper/events{/privacy}","received_events_url":"https://api.github.com/users/soniasuper/received_events","type":"User","site_admin":false},{"login":"ndious","id":426139,"node_id":"MDQ6VXNlcjQyNjEzOQ==","avatar_url":"https://avatars3.githubusercontent.com/u/426139?v=4","gravatar_id":"","url":"https://api.github.com/users/ndious","html_url":"https://github.com/ndious","followers_url":"https://api.github.com/users/ndious/followers","following_url":"https://api.github.com/users/ndious/following{/other_user}","gists_url":"https://api.github.com/users/ndious/gists{/gist_id}","starred_url":"https://api.github.com/users/ndious/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ndious/subscriptions","organizations_url":"https://api.github.com/users/ndious/orgs","repos_url":"https://api.github.com/users/ndious/repos","events_url":"https://api.github.com/users/ndious/events{/privacy}","received_events_url":"https://api.github.com/users/ndious/received_events","type":"User","site_admin":false},{"login":"talbotseb","id":10520131,"node_id":"MDQ6VXNlcjEwNTIwMTMx","avatar_url":"https://avatars3.githubusercontent.com/u/10520131?v=4","gravatar_id":"","url":"https://api.github.com/users/talbotseb","html_url":"https://github.com/talbotseb","followers_url":"https://api.github.com/users/talbotseb/followers","following_url":"https://api.github.com/users/talbotseb/following{/other_user}","gists_url":"https://api.github.com/users/talbotseb/gists{/gist_id}","starred_url":"https://api.github.com/users/talbotseb/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/talbotseb/subscriptions","organizations_url":"https://api.github.com/users/talbotseb/orgs","repos_url":"https://api.github.com/users/talbotseb/repos","events_url":"https://api.github.com/users/talbotseb/events{/privacy}","received_events_url":"https://api.github.com/users/talbotseb/received_events","type":"User","site_admin":false},{"login":"nbremont","id":1636181,"node_id":"MDQ6VXNlcjE2MzYxODE=","avatar_url":"https://avatars3.githubusercontent.com/u/1636181?v=4","gravatar_id":"","url":"https://api.github.com/users/nbremont","html_url":"https://github.com/nbremont","followers_url":"https://api.github.com/users/nbremont/followers","following_url":"https://api.github.com/users/nbremont/following{/other_user}","gists_url":"https://api.github.com/users/nbremont/gists{/gist_id}","starred_url":"https://api.github.com/users/nbremont/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nbremont/subscriptions","organizations_url":"https://api.github.com/users/nbremont/orgs","repos_url":"https://api.github.com/users/nbremont/repos","events_url":"https://api.github.com/users/nbremont/events{/privacy}","received_events_url":"https://api.github.com/users/nbremont/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"865eab69159b9ce982e45c3bcd0fcf5dc5cc80ad0765729ecb9c9b169fc32ee8"
+Link: <https://api.github.com/user/3692812/followers?page=1>; rel="prev", <https://api.github.com/user/3692812/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D961:41F3:20CFC93:25EC88E:5FB0477C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2952
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2048
+X-Xss-Protection: 1; mode=block
+
+761
+[{"login":"RedaElmar","id":30802364,"node_id":"MDQ6VXNlcjMwODAyMzY0","avatar_url":"https://avatars1.githubusercontent.com/u/30802364?v=4","gravatar_id":"","url":"https://api.github.com/users/RedaElmar","html_url":"https://github.com/RedaElmar","followers_url":"https://api.github.com/users/RedaElmar/followers","following_url":"https://api.github.com/users/RedaElmar/following{/other_user}","gists_url":"https://api.github.com/users/RedaElmar/gists{/gist_id}","starred_url":"https://api.github.com/users/RedaElmar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/RedaElmar/subscriptions","organizations_url":"https://api.github.com/users/RedaElmar/orgs","repos_url":"https://api.github.com/users/RedaElmar/repos","events_url":"https://api.github.com/users/RedaElmar/events{/privacy}","received_events_url":"https://api.github.com/users/RedaElmar/received_events","type":"User","site_admin":false},{"login":"jenbrannstrom","id":1102951,"node_id":"MDQ6VXNlcjExMDI5NTE=","avatar_url":"https://avatars0.githubusercontent.com/u/1102951?v=4","gravatar_id":"","url":"https://api.github.com/users/jenbrannstrom","html_url":"https://github.com/jenbrannstrom","followers_url":"https://api.github.com/users/jenbrannstrom/followers","following_url":"https://api.github.com/users/jenbrannstrom/following{/other_user}","gists_url":"https://api.github.com/users/jenbrannstrom/gists{/gist_id}","starred_url":"https://api.github.com/users/jenbrannstrom/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jenbrannstrom/subscriptions","organizations_url":"https://api.github.com/users/jenbrannstrom/orgs","repos_url":"https://api.github.com/users/jenbrannstrom/repos","events_url":"https://api.github.com/users/jenbrannstrom/events{/privacy}","received_events_url":"https://api.github.com/users/jenbrannstrom/received_events","type":"User","site_admin":false}]
+0
+

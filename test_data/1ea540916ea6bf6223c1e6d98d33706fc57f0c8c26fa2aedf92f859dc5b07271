@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:52 GMT
+Etag: W/"3b5a81625f33286ac31e81ac3b5f27d46b655dee1b4237078f8b51572de76ec6"
+Last-Modified: Sun, 08 Nov 2020 13:01:38 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D90C:072E:3F5153D:49156C4:5FB04763
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3552
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1448
+X-Xss-Protection: 1; mode=block
+
+4f5
+{"login":"Dynalon","id":942163,"node_id":"MDQ6VXNlcjk0MjE2Mw==","avatar_url":"https://avatars1.githubusercontent.com/u/942163?v=4","gravatar_id":"","url":"https://api.github.com/users/Dynalon","html_url":"https://github.com/Dynalon","followers_url":"https://api.github.com/users/Dynalon/followers","following_url":"https://api.github.com/users/Dynalon/following{/other_user}","gists_url":"https://api.github.com/users/Dynalon/gists{/gist_id}","starred_url":"https://api.github.com/users/Dynalon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Dynalon/subscriptions","organizations_url":"https://api.github.com/users/Dynalon/orgs","repos_url":"https://api.github.com/users/Dynalon/repos","events_url":"https://api.github.com/users/Dynalon/events{/privacy}","received_events_url":"https://api.github.com/users/Dynalon/received_events","type":"User","site_admin":false,"name":"Timo Dörr","company":"Freelance Contractor","blog":"https://10x-development.com","location":"Karlsruhe","email":"timo@10x-development.com","hireable":true,"bio":"See http://timo.10x-developer.com for bio","twitter_username":null,"public_repos":54,"public_gists":18,"followers":121,"following":11,"created_at":"2011-07-27T14:34:48Z","updated_at":"2020-11-08T13:01:38Z"}
+0
+

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:04 GMT
+Etag: W/"c5248ffd4e7a5124a0dceffb1d09bbb8a74de11cad140efb7bb0b62a7a536e5c"
+Last-Modified: Thu, 12 Nov 2020 14:42:09 GMT
+Link: <https://api.github.com/repositories/5245894/tags?page=3>; rel="prev", <https://api.github.com/repositories/5245894/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81D:F44A:3E3A515:47B1894:5FB046F8
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4457
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 543
+X-Xss-Protection: 1; mode=block
+
+912
+[{"name":"v0.3.8","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/v0.3.8","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/v0.3.8","commit":{"sha":"f7b8fbbdc0a42c7dc118af6eafd4b0135f66e330","url":"https://api.github.com/repos/ractivejs/ractive/commits/f7b8fbbdc0a42c7dc118af6eafd4b0135f66e330"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3MvdjAuMy44"},{"name":"v0.3.7","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/v0.3.7","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/v0.3.7","commit":{"sha":"5b3f25f25db47b64ad65ffd85b644f45cb5ed7a5","url":"https://api.github.com/repos/ractivejs/ractive/commits/5b3f25f25db47b64ad65ffd85b644f45cb5ed7a5"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3MvdjAuMy43"},{"name":"v0.3.6","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/v0.3.6","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/v0.3.6","commit":{"sha":"6a4bbc10ca2d5d1b3d196154794c99824fd318e7","url":"https://api.github.com/repos/ractivejs/ractive/commits/6a4bbc10ca2d5d1b3d196154794c99824fd318e7"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3MvdjAuMy42"},{"name":"v0.3.5","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/v0.3.5","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/v0.3.5","commit":{"sha":"35ac3853ad48db66ecaecf4e9645624e78552d86","url":"https://api.github.com/repos/ractivejs/ractive/commits/35ac3853ad48db66ecaecf4e9645624e78552d86"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3MvdjAuMy41"},{"name":"v","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/v","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/v","commit":{"sha":"0332474db5c628f47c15e5b218599564e4f311b9","url":"https://api.github.com/repos/ractivejs/ractive/commits/0332474db5c628f47c15e5b218599564e4f311b9"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3Mvdg=="},{"name":"edge","zipball_url":"https://api.github.com/repos/ractivejs/ractive/zipball/edge","tarball_url":"https://api.github.com/repos/ractivejs/ractive/tarball/edge","commit":{"sha":"f67fa8314c97eebaa52c0fd0c60a066725d4810e","url":"https://api.github.com/repos/ractivejs/ractive/commits/f67fa8314c97eebaa52c0fd0c60a066725d4810e"},"node_id":"MDM6UmVmNTI0NTg5NDpyZWZzL3RhZ3MvZWRnZQ=="}]
+0
+

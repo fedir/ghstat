@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:01 GMT
+Etag: W/"7ad9005fc97e65760a74e4110772e22696fdfe35782eb9618791171d8db747b9"
+Link: <https://api.github.com/user/2430381/followers?page=3>; rel="prev", <https://api.github.com/user/2430381/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D813:13F4:414C338:4B4D334:5FB046F5
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4608
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 392
+X-Xss-Protection: 1; mode=block
+
+f47
+[{"login":"Dashon-Hawkins","id":20735780,"node_id":"MDQ6VXNlcjIwNzM1Nzgw","avatar_url":"https://avatars0.githubusercontent.com/u/20735780?v=4","gravatar_id":"","url":"https://api.github.com/users/Dashon-Hawkins","html_url":"https://github.com/Dashon-Hawkins","followers_url":"https://api.github.com/users/Dashon-Hawkins/followers","following_url":"https://api.github.com/users/Dashon-Hawkins/following{/other_user}","gists_url":"https://api.github.com/users/Dashon-Hawkins/gists{/gist_id}","starred_url":"https://api.github.com/users/Dashon-Hawkins/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Dashon-Hawkins/subscriptions","organizations_url":"https://api.github.com/users/Dashon-Hawkins/orgs","repos_url":"https://api.github.com/users/Dashon-Hawkins/repos","events_url":"https://api.github.com/users/Dashon-Hawkins/events{/privacy}","received_events_url":"https://api.github.com/users/Dashon-Hawkins/received_events","type":"User","site_admin":false},{"login":"RustyBalboadev","id":38148834,"node_id":"MDQ6VXNlcjM4MTQ4ODM0","avatar_url":"https://avatars3.githubusercontent.com/u/38148834?v=4","gravatar_id":"","url":"https://api.github.com/users/RustyBalboadev","html_url":"https://github.com/RustyBalboadev","followers_url":"https://api.github.com/users/RustyBalboadev/followers","following_url":"https://api.github.com/users/RustyBalboadev/following{/other_user}","gists_url":"https://api.github.com/users/RustyBalboadev/gists{/gist_id}","starred_url":"https://api.github.com/users/RustyBalboadev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/RustyBalboadev/subscriptions","organizations_url":"https://api.github.com/users/RustyBalboadev/orgs","repos_url":"https://api.github.com/users/RustyBalboadev/repos","events_url":"https://api.github.com/users/RustyBalboadev/events{/privacy}","received_events_url":"https://api.github.com/users/RustyBalboadev/received_events","type":"User","site_admin":false},{"login":"Akshar-code","id":59618640,"node_id":"MDQ6VXNlcjU5NjE4NjQw","avatar_url":"https://avatars0.githubusercontent.com/u/59618640?v=4","gravatar_id":"","url":"https://api.github.com/users/Akshar-code","html_url":"https://github.com/Akshar-code","followers_url":"https://api.github.com/users/Akshar-code/followers","following_url":"https://api.github.com/users/Akshar-code/following{/other_user}","gists_url":"https://api.github.com/users/Akshar-code/gists{/gist_id}","starred_url":"https://api.github.com/users/Akshar-code/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Akshar-code/subscriptions","organizations_url":"https://api.github.com/users/Akshar-code/orgs","repos_url":"https://api.github.com/users/Akshar-code/repos","events_url":"https://api.github.com/users/Akshar-code/events{/privacy}","received_events_url":"https://api.github.com/users/Akshar-code/received_events","type":"User","site_admin":false},{"login":"mahbubzulkarnain","id":3459138,"node_id":"MDQ6VXNlcjM0NTkxMzg=","avatar_url":"https://avatars3.githubusercontent.com/u/3459138?v=4","gravatar_id":"","url":"https://api.github.com/users/mahbubzulkarnain","html_url":"https://github.com/mahbubzulkarnain","followers_url":"https://api.github.com/users/mahbubzulkarnain/followers","following_url":"https://api.github.com/users/mahbubzulkarnain/following{/other_user}","gists_url":"https://api.github.com/users/mahbubzulkarnain/gists{/gist_id}","starred_url":"https://api.github.com/users/mahbubzulkarnain/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mahbubzulkarnain/subscriptions","organizations_url":"https://api.github.com/users/mahbubzulkarnain/orgs","repos_url":"https://api.github.com/users/mahbubzulkarnain/repos","events_url":"https://api.github.com/users/mahbubzulkarnain/events{/privacy}","received_events_url":"https://api.github.com/users/mahbubzulkarnain/received_events","type":"User","site_admin":false}]
+0
+

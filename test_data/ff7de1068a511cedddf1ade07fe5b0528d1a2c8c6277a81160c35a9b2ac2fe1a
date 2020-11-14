@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"116f9d2a2af0f3fa756a33b65734b158e0ecafaa1d967dd2cd99f30e35247545"
+Link: <https://api.github.com/user/1104414/followers?page=2>; rel="prev", <https://api.github.com/user/1104414/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D953:F078:3C7AAD5:45BD29D:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3305
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1695
+X-Xss-Protection: 1; mode=block
+
+733
+[{"login":"anishippuden","id":69808070,"node_id":"MDQ6VXNlcjY5ODA4MDcw","avatar_url":"https://avatars0.githubusercontent.com/u/69808070?v=4","gravatar_id":"","url":"https://api.github.com/users/anishippuden","html_url":"https://github.com/anishippuden","followers_url":"https://api.github.com/users/anishippuden/followers","following_url":"https://api.github.com/users/anishippuden/following{/other_user}","gists_url":"https://api.github.com/users/anishippuden/gists{/gist_id}","starred_url":"https://api.github.com/users/anishippuden/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anishippuden/subscriptions","organizations_url":"https://api.github.com/users/anishippuden/orgs","repos_url":"https://api.github.com/users/anishippuden/repos","events_url":"https://api.github.com/users/anishippuden/events{/privacy}","received_events_url":"https://api.github.com/users/anishippuden/received_events","type":"User","site_admin":false},{"login":"Luserk","id":33891149,"node_id":"MDQ6VXNlcjMzODkxMTQ5","avatar_url":"https://avatars3.githubusercontent.com/u/33891149?v=4","gravatar_id":"","url":"https://api.github.com/users/Luserk","html_url":"https://github.com/Luserk","followers_url":"https://api.github.com/users/Luserk/followers","following_url":"https://api.github.com/users/Luserk/following{/other_user}","gists_url":"https://api.github.com/users/Luserk/gists{/gist_id}","starred_url":"https://api.github.com/users/Luserk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Luserk/subscriptions","organizations_url":"https://api.github.com/users/Luserk/orgs","repos_url":"https://api.github.com/users/Luserk/repos","events_url":"https://api.github.com/users/Luserk/events{/privacy}","received_events_url":"https://api.github.com/users/Luserk/received_events","type":"User","site_admin":false}]
+0
+

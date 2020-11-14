@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:05 GMT
+Etag: W/"46ef409c789ed1dcfbc6c98e186f1b1ce1db7cb18ed304acaf38daa9a9744d52"
+Last-Modified: Sat, 14 Nov 2020 17:42:21 GMT
+Link: <https://api.github.com/repositories/7548986/tags?page=20>; rel="prev", <https://api.github.com/repositories/7548986/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8CE:5C52:222F03E:275F651:5FB04735
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4024
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 976
+X-Xss-Protection: 1; mode=block
+
+1296
+[{"name":"v4.0.5","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.5","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.5","commit":{"sha":"d07f374790620c3917177f9729e198ff98e67c49","url":"https://api.github.com/repos/laravel/framework/commits/d07f374790620c3917177f9729e198ff98e67c49"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC41"},{"name":"v4.0.4","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.4","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.4","commit":{"sha":"c2a0cdfeed56744e0f140cb3d09ea720ef81ef1f","url":"https://api.github.com/repos/laravel/framework/commits/c2a0cdfeed56744e0f140cb3d09ea720ef81ef1f"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC40"},{"name":"v4.0.3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.3","commit":{"sha":"a371dcc4d4af29ea7696cb3dfd54b369b5e58ad0","url":"https://api.github.com/repos/laravel/framework/commits/a371dcc4d4af29ea7696cb3dfd54b369b5e58ad0"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4z"},{"name":"v4.0.2","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.2","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.2","commit":{"sha":"d2edbb94bb880a0d3f484657f86bb9dbe3163720","url":"https://api.github.com/repos/laravel/framework/commits/d2edbb94bb880a0d3f484657f86bb9dbe3163720"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4y"},{"name":"v4.0.1","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.1","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.1","commit":{"sha":"65d9a061d9209694e8addd9c6ce94dcf5bfe7180","url":"https://api.github.com/repos/laravel/framework/commits/65d9a061d9209694e8addd9c6ce94dcf5bfe7180"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4x"},{"name":"v4.0.0","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0","commit":{"sha":"6d1913b9f4d303f8464625dfef33f06cfc404328","url":"https://api.github.com/repos/laravel/framework/commits/6d1913b9f4d303f8464625dfef33f06cfc404328"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4w"},{"name":"v4.0.0-BETA4","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA4","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA4","commit":{"sha":"2c1d64568bca291535ba816a66f71306c7ebcf55","url":"https://api.github.com/repos/laravel/framework/commits/2c1d64568bca291535ba816a66f71306c7ebcf55"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4wLUJFVEE0"},{"name":"v4.0.0-BETA3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA3","commit":{"sha":"67f70afe1f4cdb472ba6dc28b03090e5153fb167","url":"https://api.github.com/repos/laravel/framework/commits/67f70afe1f4cdb472ba6dc28b03090e5153fb167"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4wLUJFVEEz"},{"name":"v4.0.0-BETA2","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/v4.0.0-BETA2","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/v4.0.0-BETA2","commit":{"sha":"91c71661827136dc82159cf833aff871247c8009","url":"https://api.github.com/repos/laravel/framework/commits/91c71661827136dc82159cf833aff871247c8009"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvdjQuMC4wLUJFVEEy"},{"name":"5.3","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.3","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.3","commit":{"sha":"f96d1bc8b62e1f936591a175163720050746a3ee","url":"https://api.github.com/repos/laravel/framework/commits/f96d1bc8b62e1f936591a175163720050746a3ee"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvNS4z"},{"name":"5.2.41","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.2.41","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.2.41","commit":{"sha":"29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2","url":"https://api.github.com/repos/laravel/framework/commits/29ba2e310cfeb42ab6545bcd81ff4c2ec1f6b5c2"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvNS4yLjQx"},{"name":"5.0.30","zipball_url":"https://api.github.com/repos/laravel/framework/zipball/5.0.30","tarball_url":"https://api.github.com/repos/laravel/framework/tarball/5.0.30","commit":{"sha":"c7ffbf1fd4895ac4cdac551265d635d995346d97","url":"https://api.github.com/repos/laravel/framework/commits/c7ffbf1fd4895ac4cdac551265d635d995346d97"},"node_id":"MDM6UmVmNzU0ODk4NjpyZWZzL3RhZ3MvNS4wLjMw"}]
+0
+

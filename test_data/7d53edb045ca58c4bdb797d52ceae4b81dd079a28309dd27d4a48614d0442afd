@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:18 GMT
+Etag: W/"84a0ef49c77d8db1abc1bc785bcd4c2ed259130890e0dead1d54968a32069749"
+Last-Modified: Sat, 14 Nov 2020 19:35:55 GMT
+Link: <https://api.github.com/repositories/3929096/tags?page=1>; rel="prev", <https://api.github.com/repositories/3929096/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D942:F078:3C7B0B6:45BD960:5FB0477E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2811
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2189
+X-Xss-Protection: 1; mode=block
+
+733
+[{"name":"v0.4.1","zipball_url":"https://api.github.com/repos/picocms/Pico/zipball/v0.4.1","tarball_url":"https://api.github.com/repos/picocms/Pico/tarball/v0.4.1","commit":{"sha":"8cebbb51f817a7e016c7905ec19c1999358a44f4","url":"https://api.github.com/repos/picocms/Pico/commits/8cebbb51f817a7e016c7905ec19c1999358a44f4"},"node_id":"MDM6UmVmMzkyOTA5NjpyZWZzL3RhZ3MvdjAuNC4x"},{"name":"v0.4","zipball_url":"https://api.github.com/repos/picocms/Pico/zipball/v0.4","tarball_url":"https://api.github.com/repos/picocms/Pico/tarball/v0.4","commit":{"sha":"cc7ceafc1e2ad0bae7d551491d7d3112f1d53996","url":"https://api.github.com/repos/picocms/Pico/commits/cc7ceafc1e2ad0bae7d551491d7d3112f1d53996"},"node_id":"MDM6UmVmMzkyOTA5NjpyZWZzL3RhZ3MvdjAuNA=="},{"name":"v0.3","zipball_url":"https://api.github.com/repos/picocms/Pico/zipball/v0.3","tarball_url":"https://api.github.com/repos/picocms/Pico/tarball/v0.3","commit":{"sha":"585a39a8005a8a9d7811cf4c8d822642f123f026","url":"https://api.github.com/repos/picocms/Pico/commits/585a39a8005a8a9d7811cf4c8d822642f123f026"},"node_id":"MDM6UmVmMzkyOTA5NjpyZWZzL3RhZ3MvdjAuMw=="},{"name":"0.8","zipball_url":"https://api.github.com/repos/picocms/Pico/zipball/0.8","tarball_url":"https://api.github.com/repos/picocms/Pico/tarball/0.8","commit":{"sha":"aa59661ff81dd52c3a2596988372a214b0fc31b9","url":"https://api.github.com/repos/picocms/Pico/commits/aa59661ff81dd52c3a2596988372a214b0fc31b9"},"node_id":"MDM6UmVmMzkyOTA5NjpyZWZzL3RhZ3MvMC44"},{"name":"0.7","zipball_url":"https://api.github.com/repos/picocms/Pico/zipball/0.7","tarball_url":"https://api.github.com/repos/picocms/Pico/tarball/0.7","commit":{"sha":"45cd4ca5b7c35399f65065341a9676c629399a62","url":"https://api.github.com/repos/picocms/Pico/commits/45cd4ca5b7c35399f65065341a9676c629399a62"},"node_id":"MDM6UmVmMzkyOTA5NjpyZWZzL3RhZ3MvMC43"}]
+0
+

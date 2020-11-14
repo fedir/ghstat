@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:26 GMT
+Etag: W/"db2d04d582108d5b9687bac8feb81216725127e25c6bd1830712b7b5ba84ded5"
+Last-Modified: Fri, 06 Nov 2020 17:58:02 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8DF:BA8B:3C7404C:45DF176:5FB0474A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3873
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1127
+X-Xss-Protection: 1; mode=block
+
+4d5
+{"login":"mikeal","id":579,"node_id":"MDQ6VXNlcjU3OQ==","avatar_url":"https://avatars2.githubusercontent.com/u/579?v=4","gravatar_id":"","url":"https://api.github.com/users/mikeal","html_url":"https://github.com/mikeal","followers_url":"https://api.github.com/users/mikeal/followers","following_url":"https://api.github.com/users/mikeal/following{/other_user}","gists_url":"https://api.github.com/users/mikeal/gists{/gist_id}","starred_url":"https://api.github.com/users/mikeal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mikeal/subscriptions","organizations_url":"https://api.github.com/users/mikeal/orgs","repos_url":"https://api.github.com/users/mikeal/repos","events_url":"https://api.github.com/users/mikeal/events{/privacy}","received_events_url":"https://api.github.com/users/mikeal/received_events","type":"User","site_admin":false,"name":"Mikeal Rogers","company":"Protocol Labs","blog":"http://mikealrogers.com","location":"San Francisco","email":"mikeal.rogers@gmail.com","hireable":null,"bio":"Creator of NodeConf and request.","twitter_username":null,"public_repos":447,"public_gists":210,"followers":4341,"following":104,"created_at":"2008-02-21T17:50:05Z","updated_at":"2020-11-06T17:58:02Z"}
+0
+

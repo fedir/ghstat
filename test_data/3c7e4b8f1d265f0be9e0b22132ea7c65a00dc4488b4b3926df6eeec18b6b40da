@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:06:56 GMT
+Etag: W/"4b710a7bbc590cecbc5fead4a6cd2ea30b08ce9ca2f4844d78a4d8de2924e958"
+Link: <https://api.github.com/user/1637573/followers?page=18>; rel="prev", <https://api.github.com/user/1637573/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81A:072B:79C320:8CB77E:5FB046F0
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4855
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 145
+X-Xss-Protection: 1; mode=block
+
+e47
+[{"login":"richytong","id":18078566,"node_id":"MDQ6VXNlcjE4MDc4NTY2","avatar_url":"https://avatars0.githubusercontent.com/u/18078566?v=4","gravatar_id":"","url":"https://api.github.com/users/richytong","html_url":"https://github.com/richytong","followers_url":"https://api.github.com/users/richytong/followers","following_url":"https://api.github.com/users/richytong/following{/other_user}","gists_url":"https://api.github.com/users/richytong/gists{/gist_id}","starred_url":"https://api.github.com/users/richytong/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richytong/subscriptions","organizations_url":"https://api.github.com/users/richytong/orgs","repos_url":"https://api.github.com/users/richytong/repos","events_url":"https://api.github.com/users/richytong/events{/privacy}","received_events_url":"https://api.github.com/users/richytong/received_events","type":"User","site_admin":false},{"login":"mgk99sn","id":72041111,"node_id":"MDQ6VXNlcjcyMDQxMTEx","avatar_url":"https://avatars1.githubusercontent.com/u/72041111?v=4","gravatar_id":"","url":"https://api.github.com/users/mgk99sn","html_url":"https://github.com/mgk99sn","followers_url":"https://api.github.com/users/mgk99sn/followers","following_url":"https://api.github.com/users/mgk99sn/following{/other_user}","gists_url":"https://api.github.com/users/mgk99sn/gists{/gist_id}","starred_url":"https://api.github.com/users/mgk99sn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mgk99sn/subscriptions","organizations_url":"https://api.github.com/users/mgk99sn/orgs","repos_url":"https://api.github.com/users/mgk99sn/repos","events_url":"https://api.github.com/users/mgk99sn/events{/privacy}","received_events_url":"https://api.github.com/users/mgk99sn/received_events","type":"User","site_admin":false},{"login":"lesichkovm","id":7744963,"node_id":"MDQ6VXNlcjc3NDQ5NjM=","avatar_url":"https://avatars1.githubusercontent.com/u/7744963?v=4","gravatar_id":"","url":"https://api.github.com/users/lesichkovm","html_url":"https://github.com/lesichkovm","followers_url":"https://api.github.com/users/lesichkovm/followers","following_url":"https://api.github.com/users/lesichkovm/following{/other_user}","gists_url":"https://api.github.com/users/lesichkovm/gists{/gist_id}","starred_url":"https://api.github.com/users/lesichkovm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lesichkovm/subscriptions","organizations_url":"https://api.github.com/users/lesichkovm/orgs","repos_url":"https://api.github.com/users/lesichkovm/repos","events_url":"https://api.github.com/users/lesichkovm/events{/privacy}","received_events_url":"https://api.github.com/users/lesichkovm/received_events","type":"User","site_admin":false},{"login":"clsource","id":292738,"node_id":"MDQ6VXNlcjI5MjczOA==","avatar_url":"https://avatars1.githubusercontent.com/u/292738?v=4","gravatar_id":"","url":"https://api.github.com/users/clsource","html_url":"https://github.com/clsource","followers_url":"https://api.github.com/users/clsource/followers","following_url":"https://api.github.com/users/clsource/following{/other_user}","gists_url":"https://api.github.com/users/clsource/gists{/gist_id}","starred_url":"https://api.github.com/users/clsource/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/clsource/subscriptions","organizations_url":"https://api.github.com/users/clsource/orgs","repos_url":"https://api.github.com/users/clsource/repos","events_url":"https://api.github.com/users/clsource/events{/privacy}","received_events_url":"https://api.github.com/users/clsource/received_events","type":"User","site_admin":false}]
+0
+

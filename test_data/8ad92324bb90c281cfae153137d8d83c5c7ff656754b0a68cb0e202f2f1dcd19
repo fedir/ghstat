@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:01 GMT
+Etag: W/"ddfb995c3f4e9bd1046ade3f958df1430207f26ea63122ea7144934bc32c4931"
+Link: <https://api.github.com/user/328450/followers?page=1>; rel="prev", <https://api.github.com/user/328450/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D80E:78A1:F88063:11D7A2D:5FB046F4
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4659
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 341
+X-Xss-Protection: 1; mode=block
+
+74b
+[{"login":"camila-cruz","id":21296708,"node_id":"MDQ6VXNlcjIxMjk2NzA4","avatar_url":"https://avatars1.githubusercontent.com/u/21296708?v=4","gravatar_id":"","url":"https://api.github.com/users/camila-cruz","html_url":"https://github.com/camila-cruz","followers_url":"https://api.github.com/users/camila-cruz/followers","following_url":"https://api.github.com/users/camila-cruz/following{/other_user}","gists_url":"https://api.github.com/users/camila-cruz/gists{/gist_id}","starred_url":"https://api.github.com/users/camila-cruz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/camila-cruz/subscriptions","organizations_url":"https://api.github.com/users/camila-cruz/orgs","repos_url":"https://api.github.com/users/camila-cruz/repos","events_url":"https://api.github.com/users/camila-cruz/events{/privacy}","received_events_url":"https://api.github.com/users/camila-cruz/received_events","type":"User","site_admin":false},{"login":"wisniahel","id":59440429,"node_id":"MDQ6VXNlcjU5NDQwNDI5","avatar_url":"https://avatars2.githubusercontent.com/u/59440429?v=4","gravatar_id":"","url":"https://api.github.com/users/wisniahel","html_url":"https://github.com/wisniahel","followers_url":"https://api.github.com/users/wisniahel/followers","following_url":"https://api.github.com/users/wisniahel/following{/other_user}","gists_url":"https://api.github.com/users/wisniahel/gists{/gist_id}","starred_url":"https://api.github.com/users/wisniahel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wisniahel/subscriptions","organizations_url":"https://api.github.com/users/wisniahel/orgs","repos_url":"https://api.github.com/users/wisniahel/repos","events_url":"https://api.github.com/users/wisniahel/events{/privacy}","received_events_url":"https://api.github.com/users/wisniahel/received_events","type":"User","site_admin":false}]
+0
+

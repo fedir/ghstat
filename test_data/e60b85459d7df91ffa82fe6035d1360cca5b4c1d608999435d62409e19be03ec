@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:58 GMT
+Etag: W/"0658c085265cde68facd17e2de608c5942ab4bd9999263794d226daf30b477c7"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D5:E4B7:3DFEC46:478A179:5FB0472E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4168
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 832
+X-Xss-Protection: 1; mode=block
+
+38c
+[{"login":"janvajda","id":3266245,"node_id":"MDQ6VXNlcjMyNjYyNDU=","avatar_url":"https://avatars1.githubusercontent.com/u/3266245?v=4","gravatar_id":"","url":"https://api.github.com/users/janvajda","html_url":"https://github.com/janvajda","followers_url":"https://api.github.com/users/janvajda/followers","following_url":"https://api.github.com/users/janvajda/following{/other_user}","gists_url":"https://api.github.com/users/janvajda/gists{/gist_id}","starred_url":"https://api.github.com/users/janvajda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/janvajda/subscriptions","organizations_url":"https://api.github.com/users/janvajda/orgs","repos_url":"https://api.github.com/users/janvajda/repos","events_url":"https://api.github.com/users/janvajda/events{/privacy}","received_events_url":"https://api.github.com/users/janvajda/received_events","type":"User","site_admin":false}]
+0
+

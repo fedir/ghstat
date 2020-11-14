@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:02 GMT
+Etag: W/"58ff23a00fa095eace9eb89d433f583af8aabf079c42bb35b8209540bc3a0a3b"
+Last-Modified: Sat, 14 Nov 2020 12:07:45 GMT
+Link: <https://api.github.com/repositories/926544/tags?page=3>; rel="prev", <https://api.github.com/repositories/926544/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8CC:2943:FE5974:124B6A3:5FB04732
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4056
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 944
+X-Xss-Protection: 1; mode=block
+
+8bf
+[{"name":"1.1.2","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.1.2","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.1.2","commit":{"sha":"458def27f90a519ab6c63ca83e93468a0a8dc230","url":"https://api.github.com/repos/slimphp/Slim/commits/458def27f90a519ab6c63ca83e93468a0a8dc230"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjEuMg=="},{"name":"1.1.1","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.1.1","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.1.1","commit":{"sha":"2873badd4d2d3a22dc4d4bc2c4e8a007e246a1d3","url":"https://api.github.com/repos/slimphp/Slim/commits/2873badd4d2d3a22dc4d4bc2c4e8a007e246a1d3"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjEuMQ=="},{"name":"1.1.0","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.1.0","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.1.0","commit":{"sha":"e116d30ccb8573118c643fecc6222327c25eef10","url":"https://api.github.com/repos/slimphp/Slim/commits/e116d30ccb8573118c643fecc6222327c25eef10"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjEuMA=="},{"name":"1.0.2","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.0.2","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.0.2","commit":{"sha":"dc3ea51d04206c93b71d5a080f7804ad6d407f08","url":"https://api.github.com/repos/slimphp/Slim/commits/dc3ea51d04206c93b71d5a080f7804ad6d407f08"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjAuMg=="},{"name":"1.0.1","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.0.1","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.0.1","commit":{"sha":"ab02b58d9899e7385f8d717959d52a63834fd8be","url":"https://api.github.com/repos/slimphp/Slim/commits/ab02b58d9899e7385f8d717959d52a63834fd8be"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjAuMQ=="},{"name":"1.0.0","zipball_url":"https://api.github.com/repos/slimphp/Slim/zipball/1.0.0","tarball_url":"https://api.github.com/repos/slimphp/Slim/tarball/1.0.0","commit":{"sha":"3d0b7791d09660563466bd8e64ea6f5dbe97a955","url":"https://api.github.com/repos/slimphp/Slim/commits/3d0b7791d09660563466bd8e64ea6f5dbe97a955"},"node_id":"MDM6UmVmOTI2NTQ0OnJlZnMvdGFncy8xLjAuMA=="}]
+0
+

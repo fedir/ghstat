@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:19 GMT
+Etag: W/"f3a3c89833bd7c4d19ac3725de0f9cd838d6a16f36b321e70500392cf7c33c7a"
+Link: <https://api.github.com/user/1309380/followers?page=1>; rel="prev", <https://api.github.com/user/1309380/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D956:7087:4117B22:4AF8C6E:5FB0477F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2741
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2259
+X-Xss-Protection: 1; mode=block
+
+ae2
+[{"login":"andrejoo","id":25610693,"node_id":"MDQ6VXNlcjI1NjEwNjkz","avatar_url":"https://avatars3.githubusercontent.com/u/25610693?v=4","gravatar_id":"","url":"https://api.github.com/users/andrejoo","html_url":"https://github.com/andrejoo","followers_url":"https://api.github.com/users/andrejoo/followers","following_url":"https://api.github.com/users/andrejoo/following{/other_user}","gists_url":"https://api.github.com/users/andrejoo/gists{/gist_id}","starred_url":"https://api.github.com/users/andrejoo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrejoo/subscriptions","organizations_url":"https://api.github.com/users/andrejoo/orgs","repos_url":"https://api.github.com/users/andrejoo/repos","events_url":"https://api.github.com/users/andrejoo/events{/privacy}","received_events_url":"https://api.github.com/users/andrejoo/received_events","type":"User","site_admin":false},{"login":"beardcoder","id":9371658,"node_id":"MDQ6VXNlcjkzNzE2NTg=","avatar_url":"https://avatars2.githubusercontent.com/u/9371658?v=4","gravatar_id":"","url":"https://api.github.com/users/beardcoder","html_url":"https://github.com/beardcoder","followers_url":"https://api.github.com/users/beardcoder/followers","following_url":"https://api.github.com/users/beardcoder/following{/other_user}","gists_url":"https://api.github.com/users/beardcoder/gists{/gist_id}","starred_url":"https://api.github.com/users/beardcoder/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/beardcoder/subscriptions","organizations_url":"https://api.github.com/users/beardcoder/orgs","repos_url":"https://api.github.com/users/beardcoder/repos","events_url":"https://api.github.com/users/beardcoder/events{/privacy}","received_events_url":"https://api.github.com/users/beardcoder/received_events","type":"User","site_admin":false},{"login":"crydotsnake","id":39345336,"node_id":"MDQ6VXNlcjM5MzQ1MzM2","avatar_url":"https://avatars1.githubusercontent.com/u/39345336?v=4","gravatar_id":"","url":"https://api.github.com/users/crydotsnake","html_url":"https://github.com/crydotsnake","followers_url":"https://api.github.com/users/crydotsnake/followers","following_url":"https://api.github.com/users/crydotsnake/following{/other_user}","gists_url":"https://api.github.com/users/crydotsnake/gists{/gist_id}","starred_url":"https://api.github.com/users/crydotsnake/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/crydotsnake/subscriptions","organizations_url":"https://api.github.com/users/crydotsnake/orgs","repos_url":"https://api.github.com/users/crydotsnake/repos","events_url":"https://api.github.com/users/crydotsnake/events{/privacy}","received_events_url":"https://api.github.com/users/crydotsnake/received_events","type":"User","site_admin":false}]
+0
+

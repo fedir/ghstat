@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:05 GMT
+Etag: W/"879e367a7414b697fc12d022b97a4b92aea7639202b42f207902617a997c2bac"
+Last-Modified: Sat, 14 Nov 2020 11:08:11 GMT
+Link: <https://api.github.com/repositories/3757512/tags?page=9>; rel="prev", <https://api.github.com/repositories/3757512/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D81A:072B:79C50C:8CB9A8:5FB046F8
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4441
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 559
+X-Xss-Protection: 1; mode=block
+
+97b
+[{"name":"0.11.0-rc8","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.11.0-rc8","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.11.0-rc8","commit":{"sha":"c5aed3a9b0218f35b9c8f04700b7e21afc5a1b72","url":"https://api.github.com/repos/balderdashy/sails/commits/c5aed3a9b0218f35b9c8f04700b7e21afc5a1b72"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC4xMS4wLXJjOA=="},{"name":"0.11.0-rc7","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.11.0-rc7","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.11.0-rc7","commit":{"sha":"b54944f8748ad397e56d4facf6ff210d145c236d","url":"https://api.github.com/repos/balderdashy/sails/commits/b54944f8748ad397e56d4facf6ff210d145c236d"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC4xMS4wLXJjNw=="},{"name":"0.11.0-rc6","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.11.0-rc6","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.11.0-rc6","commit":{"sha":"bd40518481731f3022c6f698fdfadd1668be6885","url":"https://api.github.com/repos/balderdashy/sails/commits/bd40518481731f3022c6f698fdfadd1668be6885"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC4xMS4wLXJjNg=="},{"name":"0.9.15","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.9.15","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.9.15","commit":{"sha":"7ef4e6f8301f9ca43223f5dff71cc6deb655fe7e","url":"https://api.github.com/repos/balderdashy/sails/commits/7ef4e6f8301f9ca43223f5dff71cc6deb655fe7e"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC45LjE1"},{"name":"0.9.14","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.9.14","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.9.14","commit":{"sha":"13c4f2b901d9bb9fc0da43828bff97d0d153ab1e","url":"https://api.github.com/repos/balderdashy/sails/commits/13c4f2b901d9bb9fc0da43828bff97d0d153ab1e"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC45LjE0"},{"name":"0.9preview","zipball_url":"https://api.github.com/repos/balderdashy/sails/zipball/0.9preview","tarball_url":"https://api.github.com/repos/balderdashy/sails/tarball/0.9preview","commit":{"sha":"b2d9031bd9a0bbb5ad76c2fa8cab7f28a13449c6","url":"https://api.github.com/repos/balderdashy/sails/commits/b2d9031bd9a0bbb5ad76c2fa8cab7f28a13449c6"},"node_id":"MDM6UmVmMzc1NzUxMjpyZWZzL3RhZ3MvMC45cHJldmlldw=="}]
+0
+

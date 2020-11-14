@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:08:01 GMT
+Etag: W/"8d71a3c4e0a844d2267e10a035a2d3f72daecfb3719f1ebe9ace1240b6813b05"
+Link: <https://api.github.com/user/896494/followers?page=7>; rel="prev", <https://api.github.com/user/896494/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D3:BA8B:3C71A9C:45DC556:5FB04730
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4079
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 921
+X-Xss-Protection: 1; mode=block
+
+e57
+[{"login":"codingheping","id":20986749,"node_id":"MDQ6VXNlcjIwOTg2NzQ5","avatar_url":"https://avatars3.githubusercontent.com/u/20986749?v=4","gravatar_id":"","url":"https://api.github.com/users/codingheping","html_url":"https://github.com/codingheping","followers_url":"https://api.github.com/users/codingheping/followers","following_url":"https://api.github.com/users/codingheping/following{/other_user}","gists_url":"https://api.github.com/users/codingheping/gists{/gist_id}","starred_url":"https://api.github.com/users/codingheping/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/codingheping/subscriptions","organizations_url":"https://api.github.com/users/codingheping/orgs","repos_url":"https://api.github.com/users/codingheping/repos","events_url":"https://api.github.com/users/codingheping/events{/privacy}","received_events_url":"https://api.github.com/users/codingheping/received_events","type":"User","site_admin":false},{"login":"kh-mirzaev","id":9079935,"node_id":"MDQ6VXNlcjkwNzk5MzU=","avatar_url":"https://avatars1.githubusercontent.com/u/9079935?v=4","gravatar_id":"","url":"https://api.github.com/users/kh-mirzaev","html_url":"https://github.com/kh-mirzaev","followers_url":"https://api.github.com/users/kh-mirzaev/followers","following_url":"https://api.github.com/users/kh-mirzaev/following{/other_user}","gists_url":"https://api.github.com/users/kh-mirzaev/gists{/gist_id}","starred_url":"https://api.github.com/users/kh-mirzaev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kh-mirzaev/subscriptions","organizations_url":"https://api.github.com/users/kh-mirzaev/orgs","repos_url":"https://api.github.com/users/kh-mirzaev/repos","events_url":"https://api.github.com/users/kh-mirzaev/events{/privacy}","received_events_url":"https://api.github.com/users/kh-mirzaev/received_events","type":"User","site_admin":false},{"login":"repo-php","id":50029507,"node_id":"MDQ6VXNlcjUwMDI5NTA3","avatar_url":"https://avatars2.githubusercontent.com/u/50029507?v=4","gravatar_id":"","url":"https://api.github.com/users/repo-php","html_url":"https://github.com/repo-php","followers_url":"https://api.github.com/users/repo-php/followers","following_url":"https://api.github.com/users/repo-php/following{/other_user}","gists_url":"https://api.github.com/users/repo-php/gists{/gist_id}","starred_url":"https://api.github.com/users/repo-php/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/repo-php/subscriptions","organizations_url":"https://api.github.com/users/repo-php/orgs","repos_url":"https://api.github.com/users/repo-php/repos","events_url":"https://api.github.com/users/repo-php/events{/privacy}","received_events_url":"https://api.github.com/users/repo-php/received_events","type":"User","site_admin":false},{"login":"d52b8","id":17437851,"node_id":"MDQ6VXNlcjE3NDM3ODUx","avatar_url":"https://avatars2.githubusercontent.com/u/17437851?v=4","gravatar_id":"","url":"https://api.github.com/users/d52b8","html_url":"https://github.com/d52b8","followers_url":"https://api.github.com/users/d52b8/followers","following_url":"https://api.github.com/users/d52b8/following{/other_user}","gists_url":"https://api.github.com/users/d52b8/gists{/gist_id}","starred_url":"https://api.github.com/users/d52b8/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/d52b8/subscriptions","organizations_url":"https://api.github.com/users/d52b8/orgs","repos_url":"https://api.github.com/users/d52b8/repos","events_url":"https://api.github.com/users/d52b8/events{/privacy}","received_events_url":"https://api.github.com/users/d52b8/received_events","type":"User","site_admin":false}]
+0
+

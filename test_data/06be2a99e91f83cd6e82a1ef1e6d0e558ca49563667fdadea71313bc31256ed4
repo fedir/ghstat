@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"b1d94a75611194cbd68dc34943d83cfc114a6bbe50ce0e0e8f479093370c968c"
+Last-Modified: Sat, 14 Nov 2020 20:55:08 GMT
+Link: <https://api.github.com/repositories/29514104/tags?page=48>; rel="prev", <https://api.github.com/repositories/29514104/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D95A:13F4:4159AC2:4B5CC3D:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3282
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1718
+X-Xss-Protection: 1; mode=block
+
+de2
+[{"name":"0.3.4","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.3.4","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.3.4","commit":{"sha":"90365b711ca9449b0f54fef71b687f9dcec56885","url":"https://api.github.com/repos/netlify/netlify-cms/commits/90365b711ca9449b0f54fef71b687f9dcec56885"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMy40"},{"name":"0.3.3","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.3.3","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.3.3","commit":{"sha":"b8ce78a5f06fc3a8f04938dda12dfa9fcd223008","url":"https://api.github.com/repos/netlify/netlify-cms/commits/b8ce78a5f06fc3a8f04938dda12dfa9fcd223008"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMy4z"},{"name":"0.3.2","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.3.2","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.3.2","commit":{"sha":"01e11e92134eb93ee914e14245004680face4833","url":"https://api.github.com/repos/netlify/netlify-cms/commits/01e11e92134eb93ee914e14245004680face4833"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMy4y"},{"name":"0.3.1","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.3.1","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.3.1","commit":{"sha":"fea9ab2295dcf6518eb17acbcc794da22755c701","url":"https://api.github.com/repos/netlify/netlify-cms/commits/fea9ab2295dcf6518eb17acbcc794da22755c701"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMy4x"},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.3.0","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.3.0","commit":{"sha":"e51b098fef9b3dc8b09dd4f7f4189784dda42534","url":"https://api.github.com/repos/netlify/netlify-cms/commits/e51b098fef9b3dc8b09dd4f7f4189784dda42534"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMy4w"},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.2.0","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.2.0","commit":{"sha":"b9a786a8754a0bbccb951bfa6f5a155726817a87","url":"https://api.github.com/repos/netlify/netlify-cms/commits/b9a786a8754a0bbccb951bfa6f5a155726817a87"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMi4w"},{"name":"0.1.10","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.1.10","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.1.10","commit":{"sha":"ae2a663e1bb4efecabc5b7a89fa210741179333e","url":"https://api.github.com/repos/netlify/netlify-cms/commits/ae2a663e1bb4efecabc5b7a89fa210741179333e"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMS4xMA=="},{"name":"0.1.9","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.1.9","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.1.9","commit":{"sha":"f9177906a96a0c921d883b0d20bef502bd54e84f","url":"https://api.github.com/repos/netlify/netlify-cms/commits/f9177906a96a0c921d883b0d20bef502bd54e84f"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMS45"},{"name":"0.1.8","zipball_url":"https://api.github.com/repos/netlify/netlify-cms/zipball/0.1.8","tarball_url":"https://api.github.com/repos/netlify/netlify-cms/tarball/0.1.8","commit":{"sha":"3cbb1ba28035dcd1c670793422b72941e5462ad2","url":"https://api.github.com/repos/netlify/netlify-cms/commits/3cbb1ba28035dcd1c670793422b72941e5462ad2"},"node_id":"MDM6UmVmMjk1MTQxMDQ6cmVmcy90YWdzLzAuMS44"}]
+0
+

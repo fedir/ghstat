@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:19 GMT
+Etag: W/"4fd3fbe55f5a7653ed5c3d0c7e3000024acfb6070f4fc4c1983d00dfca361eb5"
+Last-Modified: Sat, 14 Nov 2020 16:12:10 GMT
+Link: <https://api.github.com/repositories/14732311/tags?page=5>; rel="prev", <https://api.github.com/repositories/14732311/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D955:F44A:3E47EB1:47C13DF:5FB0477F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2735
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 2265
+X-Xss-Protection: 1; mode=block
+
+329
+[{"name":"v1.0.320","zipball_url":"https://api.github.com/repos/octobercms/october/zipball/v1.0.320","tarball_url":"https://api.github.com/repos/octobercms/october/tarball/v1.0.320","commit":{"sha":"518dee77301d70c503c44017dbb2781049b89695","url":"https://api.github.com/repos/octobercms/october/commits/518dee77301d70c503c44017dbb2781049b89695"},"node_id":"MDM6UmVmMTQ3MzIzMTE6cmVmcy90YWdzL3YxLjAuMzIw"},{"name":"v1.0.319","zipball_url":"https://api.github.com/repos/octobercms/october/zipball/v1.0.319","tarball_url":"https://api.github.com/repos/octobercms/october/tarball/v1.0.319","commit":{"sha":"ca3e13ed330d97fab89c75cfb826a006d126ce67","url":"https://api.github.com/repos/octobercms/october/commits/ca3e13ed330d97fab89c75cfb826a006d126ce67"},"node_id":"MDM6UmVmMTQ3MzIzMTE6cmVmcy90YWdzL3YxLjAuMzE5"}]
+0
+

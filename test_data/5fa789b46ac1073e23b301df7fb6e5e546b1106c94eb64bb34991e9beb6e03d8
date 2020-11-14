@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:56 GMT
+Etag: W/"3e021ffb1947a6046f7005980a90580c7f54f2a87fbaab27855320ea57e3a63f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D8D4:78A3:42AB14A:4CC4E87:5FB0472C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4229
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 771
+X-Xss-Protection: 1; mode=block
+
+3a6
+[{"login":"diamantova","id":18345967,"node_id":"MDQ6VXNlcjE4MzQ1OTY3","avatar_url":"https://avatars3.githubusercontent.com/u/18345967?v=4","gravatar_id":"","url":"https://api.github.com/users/diamantova","html_url":"https://github.com/diamantova","followers_url":"https://api.github.com/users/diamantova/followers","following_url":"https://api.github.com/users/diamantova/following{/other_user}","gists_url":"https://api.github.com/users/diamantova/gists{/gist_id}","starred_url":"https://api.github.com/users/diamantova/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/diamantova/subscriptions","organizations_url":"https://api.github.com/users/diamantova/orgs","repos_url":"https://api.github.com/users/diamantova/repos","events_url":"https://api.github.com/users/diamantova/events{/privacy}","received_events_url":"https://api.github.com/users/diamantova/received_events","type":"User","site_admin":false}]
+0
+

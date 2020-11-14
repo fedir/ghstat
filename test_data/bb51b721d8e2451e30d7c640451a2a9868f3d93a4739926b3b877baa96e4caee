@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:16 GMT
+Etag: W/"96aaf875686f47e8ec546e9383f2de9016ed1736930153c29e983eb553d837ca"
+Link: <https://api.github.com/user/4939395/followers?page=1>; rel="prev", <https://api.github.com/user/4939395/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D96D:5C51:F58D24:11A74AD:5FB0477B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3048
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1952
+X-Xss-Protection: 1; mode=block
+
+74b
+[{"login":"arnvvd","id":14964890,"node_id":"MDQ6VXNlcjE0OTY0ODkw","avatar_url":"https://avatars0.githubusercontent.com/u/14964890?v=4","gravatar_id":"","url":"https://api.github.com/users/arnvvd","html_url":"https://github.com/arnvvd","followers_url":"https://api.github.com/users/arnvvd/followers","following_url":"https://api.github.com/users/arnvvd/following{/other_user}","gists_url":"https://api.github.com/users/arnvvd/gists{/gist_id}","starred_url":"https://api.github.com/users/arnvvd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/arnvvd/subscriptions","organizations_url":"https://api.github.com/users/arnvvd/orgs","repos_url":"https://api.github.com/users/arnvvd/repos","events_url":"https://api.github.com/users/arnvvd/events{/privacy}","received_events_url":"https://api.github.com/users/arnvvd/received_events","type":"User","site_admin":false},{"login":"thales-feitosa","id":59672665,"node_id":"MDQ6VXNlcjU5NjcyNjY1","avatar_url":"https://avatars1.githubusercontent.com/u/59672665?v=4","gravatar_id":"","url":"https://api.github.com/users/thales-feitosa","html_url":"https://github.com/thales-feitosa","followers_url":"https://api.github.com/users/thales-feitosa/followers","following_url":"https://api.github.com/users/thales-feitosa/following{/other_user}","gists_url":"https://api.github.com/users/thales-feitosa/gists{/gist_id}","starred_url":"https://api.github.com/users/thales-feitosa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thales-feitosa/subscriptions","organizations_url":"https://api.github.com/users/thales-feitosa/orgs","repos_url":"https://api.github.com/users/thales-feitosa/repos","events_url":"https://api.github.com/users/thales-feitosa/events{/privacy}","received_events_url":"https://api.github.com/users/thales-feitosa/received_events","type":"User","site_admin":false}]
+0
+

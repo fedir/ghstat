@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:07:05 GMT
+Etag: W/"64a79ac02db46b3220e8d764ba1bfba0ab30028d95f3cbb8ce7146fc19b29fcc"
+Last-Modified: Wed, 11 Nov 2020 15:25:14 GMT
+Link: <https://api.github.com/repositories/1680336/contributors?page=13>; rel="prev", <https://api.github.com/repositories/1680336/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D821:B560:408AA1D:4A710E4:5FB046F9
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4436
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 564
+X-Xss-Protection: 1; mode=block
+
+e4f
+[{"login":"gutnikov","id":591657,"node_id":"MDQ6VXNlcjU5MTY1Nw==","avatar_url":"https://avatars3.githubusercontent.com/u/591657?v=4","gravatar_id":"","url":"https://api.github.com/users/gutnikov","html_url":"https://github.com/gutnikov","followers_url":"https://api.github.com/users/gutnikov/followers","following_url":"https://api.github.com/users/gutnikov/following{/other_user}","gists_url":"https://api.github.com/users/gutnikov/gists{/gist_id}","starred_url":"https://api.github.com/users/gutnikov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gutnikov/subscriptions","organizations_url":"https://api.github.com/users/gutnikov/orgs","repos_url":"https://api.github.com/users/gutnikov/repos","events_url":"https://api.github.com/users/gutnikov/events{/privacy}","received_events_url":"https://api.github.com/users/gutnikov/received_events","type":"User","site_admin":false,"contributions":1},{"login":"amobiz","id":7576114,"node_id":"MDQ6VXNlcjc1NzYxMTQ=","avatar_url":"https://avatars3.githubusercontent.com/u/7576114?v=4","gravatar_id":"","url":"https://api.github.com/users/amobiz","html_url":"https://github.com/amobiz","followers_url":"https://api.github.com/users/amobiz/followers","following_url":"https://api.github.com/users/amobiz/following{/other_user}","gists_url":"https://api.github.com/users/amobiz/gists{/gist_id}","starred_url":"https://api.github.com/users/amobiz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/amobiz/subscriptions","organizations_url":"https://api.github.com/users/amobiz/orgs","repos_url":"https://api.github.com/users/amobiz/repos","events_url":"https://api.github.com/users/amobiz/events{/privacy}","received_events_url":"https://api.github.com/users/amobiz/received_events","type":"User","site_admin":false,"contributions":1},{"login":"andreykh1985","id":16753469,"node_id":"MDQ6VXNlcjE2NzUzNDY5","avatar_url":"https://avatars2.githubusercontent.com/u/16753469?v=4","gravatar_id":"","url":"https://api.github.com/users/andreykh1985","html_url":"https://github.com/andreykh1985","followers_url":"https://api.github.com/users/andreykh1985/followers","following_url":"https://api.github.com/users/andreykh1985/following{/other_user}","gists_url":"https://api.github.com/users/andreykh1985/gists{/gist_id}","starred_url":"https://api.github.com/users/andreykh1985/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andreykh1985/subscriptions","organizations_url":"https://api.github.com/users/andreykh1985/orgs","repos_url":"https://api.github.com/users/andreykh1985/repos","events_url":"https://api.github.com/users/andreykh1985/events{/privacy}","received_events_url":"https://api.github.com/users/andreykh1985/received_events","type":"User","site_admin":false,"contributions":1},{"login":"atk","id":220405,"node_id":"MDQ6VXNlcjIyMDQwNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/220405?v=4","gravatar_id":"","url":"https://api.github.com/users/atk","html_url":"https://github.com/atk","followers_url":"https://api.github.com/users/atk/followers","following_url":"https://api.github.com/users/atk/following{/other_user}","gists_url":"https://api.github.com/users/atk/gists{/gist_id}","starred_url":"https://api.github.com/users/atk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/atk/subscriptions","organizations_url":"https://api.github.com/users/atk/orgs","repos_url":"https://api.github.com/users/atk/repos","events_url":"https://api.github.com/users/atk/events{/privacy}","received_events_url":"https://api.github.com/users/atk/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

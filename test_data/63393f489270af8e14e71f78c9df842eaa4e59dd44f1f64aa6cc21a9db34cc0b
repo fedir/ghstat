@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 21:09:14 GMT
+Etag: W/"8bb9c12cebc8bf8f9eb71beb98e3a5b085a184ab95e3e1640665f0c3232ad6f3"
+Link: <https://api.github.com/user/7950080/followers?page=1>; rel="prev", <https://api.github.com/user/7950080/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D95B:41F1:64FA84:74DCE8:5FB0477A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3276
+X-Ratelimit-Reset: 1605391595
+X-Ratelimit-Used: 1724
+X-Xss-Protection: 1; mode=block
+
+ae2
+[{"login":"ZakiBelhadj","id":6919003,"node_id":"MDQ6VXNlcjY5MTkwMDM=","avatar_url":"https://avatars2.githubusercontent.com/u/6919003?v=4","gravatar_id":"","url":"https://api.github.com/users/ZakiBelhadj","html_url":"https://github.com/ZakiBelhadj","followers_url":"https://api.github.com/users/ZakiBelhadj/followers","following_url":"https://api.github.com/users/ZakiBelhadj/following{/other_user}","gists_url":"https://api.github.com/users/ZakiBelhadj/gists{/gist_id}","starred_url":"https://api.github.com/users/ZakiBelhadj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ZakiBelhadj/subscriptions","organizations_url":"https://api.github.com/users/ZakiBelhadj/orgs","repos_url":"https://api.github.com/users/ZakiBelhadj/repos","events_url":"https://api.github.com/users/ZakiBelhadj/events{/privacy}","received_events_url":"https://api.github.com/users/ZakiBelhadj/received_events","type":"User","site_admin":false},{"login":"tuannda","id":16602816,"node_id":"MDQ6VXNlcjE2NjAyODE2","avatar_url":"https://avatars0.githubusercontent.com/u/16602816?v=4","gravatar_id":"","url":"https://api.github.com/users/tuannda","html_url":"https://github.com/tuannda","followers_url":"https://api.github.com/users/tuannda/followers","following_url":"https://api.github.com/users/tuannda/following{/other_user}","gists_url":"https://api.github.com/users/tuannda/gists{/gist_id}","starred_url":"https://api.github.com/users/tuannda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tuannda/subscriptions","organizations_url":"https://api.github.com/users/tuannda/orgs","repos_url":"https://api.github.com/users/tuannda/repos","events_url":"https://api.github.com/users/tuannda/events{/privacy}","received_events_url":"https://api.github.com/users/tuannda/received_events","type":"User","site_admin":false},{"login":"johan-tagor","id":68146807,"node_id":"MDQ6VXNlcjY4MTQ2ODA3","avatar_url":"https://avatars3.githubusercontent.com/u/68146807?v=4","gravatar_id":"","url":"https://api.github.com/users/johan-tagor","html_url":"https://github.com/johan-tagor","followers_url":"https://api.github.com/users/johan-tagor/followers","following_url":"https://api.github.com/users/johan-tagor/following{/other_user}","gists_url":"https://api.github.com/users/johan-tagor/gists{/gist_id}","starred_url":"https://api.github.com/users/johan-tagor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johan-tagor/subscriptions","organizations_url":"https://api.github.com/users/johan-tagor/orgs","repos_url":"https://api.github.com/users/johan-tagor/repos","events_url":"https://api.github.com/users/johan-tagor/events{/privacy}","received_events_url":"https://api.github.com/users/johan-tagor/received_events","type":"User","site_admin":false}]
+0
+
