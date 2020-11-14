@@ -14,12 +14,16 @@ Project's overview was given on Open Source Summit Europe 2018 "Methodology of M
 
 ## Getting started
 
-First of all You should generate a token for Your GitHub account: https://github.com/settings/tokens
+Installation instruction:
 
-Select following scope: `repo` and all it's sub-scopes 
+* Generate a token for Your GitHub account: https://github.com/settings/tokens
+* Select following scope: `repo` and all it's sub-scopes 
+* Build the app
+* Configure the project with environment variables
+* Launch
 
-Usage example with statistics of Go open source web frameworks, maintained on Github :
-
+    go get -u -v github.com/fedir/ghstat
+    cd [package location]
     go build
     mkdir tmp
     export GH_USR="your_gh_username" && export GH_PASS="your_gh_api_token"
