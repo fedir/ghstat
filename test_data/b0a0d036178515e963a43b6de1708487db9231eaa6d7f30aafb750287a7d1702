@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:03 GMT
+Etag: W/"8de0847ab39f80a81286ebd0e17d76dcd9f0aaded500411fc7c20cf503a81e77"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA6:41F3:1ED7CB1:23A2712:5FB01C8B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2130
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2870
+X-Xss-Protection: 1; mode=block
+
+6d9
+[{"login":"mebyz","id":517663,"node_id":"MDQ6VXNlcjUxNzY2Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/517663?v=4","gravatar_id":"","url":"https://api.github.com/users/mebyz","html_url":"https://github.com/mebyz","followers_url":"https://api.github.com/users/mebyz/followers","following_url":"https://api.github.com/users/mebyz/following{/other_user}","gists_url":"https://api.github.com/users/mebyz/gists{/gist_id}","starred_url":"https://api.github.com/users/mebyz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mebyz/subscriptions","organizations_url":"https://api.github.com/users/mebyz/orgs","repos_url":"https://api.github.com/users/mebyz/repos","events_url":"https://api.github.com/users/mebyz/events{/privacy}","received_events_url":"https://api.github.com/users/mebyz/received_events","type":"User","site_admin":false},{"login":"Mero89","id":7572226,"node_id":"MDQ6VXNlcjc1NzIyMjY=","avatar_url":"https://avatars2.githubusercontent.com/u/7572226?v=4","gravatar_id":"","url":"https://api.github.com/users/Mero89","html_url":"https://github.com/Mero89","followers_url":"https://api.github.com/users/Mero89/followers","following_url":"https://api.github.com/users/Mero89/following{/other_user}","gists_url":"https://api.github.com/users/Mero89/gists{/gist_id}","starred_url":"https://api.github.com/users/Mero89/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mero89/subscriptions","organizations_url":"https://api.github.com/users/Mero89/orgs","repos_url":"https://api.github.com/users/Mero89/repos","events_url":"https://api.github.com/users/Mero89/events{/privacy}","received_events_url":"https://api.github.com/users/Mero89/received_events","type":"User","site_admin":false}]
+0
+

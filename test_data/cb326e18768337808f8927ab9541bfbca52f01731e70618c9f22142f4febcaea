@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:04 GMT
+Etag: W/"121d8269801c8a5997655908834aa1ef004632b675290af7930f7643b6149aef"
+Link: <https://api.github.com/user/47380/followers?page=7>; rel="prev", <https://api.github.com/user/47380/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE16:B560:3C85121:45BD7DB:5FB01B24
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3851
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1149
+X-Xss-Protection: 1; mode=block
+
+12a2
+[{"login":"volodymyr-sh","id":10076222,"node_id":"MDQ6VXNlcjEwMDc2MjIy","avatar_url":"https://avatars3.githubusercontent.com/u/10076222?v=4","gravatar_id":"","url":"https://api.github.com/users/volodymyr-sh","html_url":"https://github.com/volodymyr-sh","followers_url":"https://api.github.com/users/volodymyr-sh/followers","following_url":"https://api.github.com/users/volodymyr-sh/following{/other_user}","gists_url":"https://api.github.com/users/volodymyr-sh/gists{/gist_id}","starred_url":"https://api.github.com/users/volodymyr-sh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/volodymyr-sh/subscriptions","organizations_url":"https://api.github.com/users/volodymyr-sh/orgs","repos_url":"https://api.github.com/users/volodymyr-sh/repos","events_url":"https://api.github.com/users/volodymyr-sh/events{/privacy}","received_events_url":"https://api.github.com/users/volodymyr-sh/received_events","type":"User","site_admin":false},{"login":"matthewmcgarvey","id":17329408,"node_id":"MDQ6VXNlcjE3MzI5NDA4","avatar_url":"https://avatars0.githubusercontent.com/u/17329408?v=4","gravatar_id":"","url":"https://api.github.com/users/matthewmcgarvey","html_url":"https://github.com/matthewmcgarvey","followers_url":"https://api.github.com/users/matthewmcgarvey/followers","following_url":"https://api.github.com/users/matthewmcgarvey/following{/other_user}","gists_url":"https://api.github.com/users/matthewmcgarvey/gists{/gist_id}","starred_url":"https://api.github.com/users/matthewmcgarvey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/matthewmcgarvey/subscriptions","organizations_url":"https://api.github.com/users/matthewmcgarvey/orgs","repos_url":"https://api.github.com/users/matthewmcgarvey/repos","events_url":"https://api.github.com/users/matthewmcgarvey/events{/privacy}","received_events_url":"https://api.github.com/users/matthewmcgarvey/received_events","type":"User","site_admin":false},{"login":"Man-On-Earth","id":33405188,"node_id":"MDQ6VXNlcjMzNDA1MTg4","avatar_url":"https://avatars3.githubusercontent.com/u/33405188?v=4","gravatar_id":"","url":"https://api.github.com/users/Man-On-Earth","html_url":"https://github.com/Man-On-Earth","followers_url":"https://api.github.com/users/Man-On-Earth/followers","following_url":"https://api.github.com/users/Man-On-Earth/following{/other_user}","gists_url":"https://api.github.com/users/Man-On-Earth/gists{/gist_id}","starred_url":"https://api.github.com/users/Man-On-Earth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Man-On-Earth/subscriptions","organizations_url":"https://api.github.com/users/Man-On-Earth/orgs","repos_url":"https://api.github.com/users/Man-On-Earth/repos","events_url":"https://api.github.com/users/Man-On-Earth/events{/privacy}","received_events_url":"https://api.github.com/users/Man-On-Earth/received_events","type":"User","site_admin":false},{"login":"hoangpq","id":5939997,"node_id":"MDQ6VXNlcjU5Mzk5OTc=","avatar_url":"https://avatars2.githubusercontent.com/u/5939997?v=4","gravatar_id":"","url":"https://api.github.com/users/hoangpq","html_url":"https://github.com/hoangpq","followers_url":"https://api.github.com/users/hoangpq/followers","following_url":"https://api.github.com/users/hoangpq/following{/other_user}","gists_url":"https://api.github.com/users/hoangpq/gists{/gist_id}","starred_url":"https://api.github.com/users/hoangpq/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hoangpq/subscriptions","organizations_url":"https://api.github.com/users/hoangpq/orgs","repos_url":"https://api.github.com/users/hoangpq/repos","events_url":"https://api.github.com/users/hoangpq/events{/privacy}","received_events_url":"https://api.github.com/users/hoangpq/received_events","type":"User","site_admin":false},{"login":"limpid-kzonix","id":8176996,"node_id":"MDQ6VXNlcjgxNzY5OTY=","avatar_url":"https://avatars1.githubusercontent.com/u/8176996?v=4","gravatar_id":"","url":"https://api.github.com/users/limpid-kzonix","html_url":"https://github.com/limpid-kzonix","followers_url":"https://api.github.com/users/limpid-kzonix/followers","following_url":"https://api.github.com/users/limpid-kzonix/following{/other_user}","gists_url":"https://api.github.com/users/limpid-kzonix/gists{/gist_id}","starred_url":"https://api.github.com/users/limpid-kzonix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/limpid-kzonix/subscriptions","organizations_url":"https://api.github.com/users/limpid-kzonix/orgs","repos_url":"https://api.github.com/users/limpid-kzonix/repos","events_url":"https://api.github.com/users/limpid-kzonix/events{/privacy}","received_events_url":"https://api.github.com/users/limpid-kzonix/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Jul 2018 02:33:21 GMT
-Etag: W/"f484f7b0921feb2f2c670a7a8c3010ba"
-Last-Modified: Tue, 03 Jul 2018 02:22:06 GMT
+Date: Sat, 14 Nov 2020 18:06:30 GMT
+Etag: W/"7e5b8ca51d7e8f3fea5be52975993499ab98fae11b3ccf0ff051c1e362d07da1"
+Last-Modified: Sat, 14 Nov 2020 17:48:01 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C19F:77E4:291D030:5BE1909:5B3AE071
-X-Oauth-Scopes: 
+X-Github-Request-Id: D09E:E4B7:3A3C16C:43237B5:5FB01CA6
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4986
-X-Ratelimit-Reset: 1530588801
-X-Runtime-Rack: 0.036266
+X-Ratelimit-Remaining: 1649
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3351
 X-Xss-Protection: 1; mode=block
 
-100
-{"Java":33666647,"Ruby":595852,"Scala":454812,"Perl":383739,"Shell":245173,"Python":89812,"C++":56085,"Thrift":41524,"Groovy":37976,"CSS":36698,"C":28534,"Batchfile":25330,"HTML":17275,"CMake":13186,"PHP":8385,"XSLT":6764,"JavaScript":2694,"Makefile":1359}
+f4
+{"Java":37568360,"Ruby":743778,"Perl":383739,"Shell":318937,"Python":130947,"Thrift":55335,"CSS":37266,"Batchfile":25716,"Dockerfile":19995,"C++":19726,"HTML":18151,"JavaScript":9342,"PHP":8385,"XSLT":6764,"C":4041,"CMake":1437,"Makefile":1359}
 0
 

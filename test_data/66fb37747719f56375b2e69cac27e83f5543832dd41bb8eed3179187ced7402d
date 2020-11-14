@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:27 GMT
+Etag: W/"c073571c74a2c96dbe734eb7275809c0f5411e1cd76d6e013a9f1c18ae601c73"
+Link: <https://api.github.com/user/1349891/followers?page=2>; rel="prev", <https://api.github.com/user/1349891/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D29E:E4B7:3A51A7D:433CB42:5FB01D92
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 495
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4505
+X-Xss-Protection: 1; mode=block
+
+79f
+[{"login":"juanvasquezreyes","id":20667703,"node_id":"MDQ6VXNlcjIwNjY3NzAz","avatar_url":"https://avatars1.githubusercontent.com/u/20667703?v=4","gravatar_id":"","url":"https://api.github.com/users/juanvasquezreyes","html_url":"https://github.com/juanvasquezreyes","followers_url":"https://api.github.com/users/juanvasquezreyes/followers","following_url":"https://api.github.com/users/juanvasquezreyes/following{/other_user}","gists_url":"https://api.github.com/users/juanvasquezreyes/gists{/gist_id}","starred_url":"https://api.github.com/users/juanvasquezreyes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/juanvasquezreyes/subscriptions","organizations_url":"https://api.github.com/users/juanvasquezreyes/orgs","repos_url":"https://api.github.com/users/juanvasquezreyes/repos","events_url":"https://api.github.com/users/juanvasquezreyes/events{/privacy}","received_events_url":"https://api.github.com/users/juanvasquezreyes/received_events","type":"User","site_admin":false},{"login":"hazelnutsgz","id":24202964,"node_id":"MDQ6VXNlcjI0MjAyOTY0","avatar_url":"https://avatars3.githubusercontent.com/u/24202964?v=4","gravatar_id":"","url":"https://api.github.com/users/hazelnutsgz","html_url":"https://github.com/hazelnutsgz","followers_url":"https://api.github.com/users/hazelnutsgz/followers","following_url":"https://api.github.com/users/hazelnutsgz/following{/other_user}","gists_url":"https://api.github.com/users/hazelnutsgz/gists{/gist_id}","starred_url":"https://api.github.com/users/hazelnutsgz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hazelnutsgz/subscriptions","organizations_url":"https://api.github.com/users/hazelnutsgz/orgs","repos_url":"https://api.github.com/users/hazelnutsgz/repos","events_url":"https://api.github.com/users/hazelnutsgz/events{/privacy}","received_events_url":"https://api.github.com/users/hazelnutsgz/received_events","type":"User","site_admin":false}]
+0
+

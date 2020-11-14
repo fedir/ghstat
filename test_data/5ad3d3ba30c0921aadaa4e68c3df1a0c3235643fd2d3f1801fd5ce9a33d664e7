@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:08 GMT
-Etag: W/"2f6263aaceeeb3487d33386371e79e5f"
-Last-Modified: Mon, 28 May 2018 00:17:23 GMT
+Date: Sat, 14 Nov 2020 18:02:07 GMT
+Etag: W/"a102604faee2ff52c50133b361dbacbc172c18cd179f4f8ee38530c0a5ab9a30"
+Last-Modified: Wed, 11 Nov 2020 10:14:32 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD0C:57C5:3731623:71A4F5A:5B1B8B60
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF03:5C4F:2A5951:3139B7:5FB01B9F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1470
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.043614
+X-Ratelimit-Remaining: 2666
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2334
 X-Xss-Protection: 1; mode=block
 
-4ad
-{"login":"joaotavora","id":387011,"node_id":"MDQ6VXNlcjM4NzAxMQ==","avatar_url":"https://avatars0.githubusercontent.com/u/387011?v=4","gravatar_id":"","url":"https://api.github.com/users/joaotavora","html_url":"https://github.com/joaotavora","followers_url":"https://api.github.com/users/joaotavora/followers","following_url":"https://api.github.com/users/joaotavora/following{/other_user}","gists_url":"https://api.github.com/users/joaotavora/gists{/gist_id}","starred_url":"https://api.github.com/users/joaotavora/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joaotavora/subscriptions","organizations_url":"https://api.github.com/users/joaotavora/orgs","repos_url":"https://api.github.com/users/joaotavora/repos","events_url":"https://api.github.com/users/joaotavora/events{/privacy}","received_events_url":"https://api.github.com/users/joaotavora/received_events","type":"User","site_admin":false,"name":"João Távora","company":null,"blog":"http://joaotavora.com","location":"Portugal","email":null,"hireable":null,"bio":null,"public_repos":86,"public_gists":6,"followers":201,"following":46,"created_at":"2010-09-03T21:48:27Z","updated_at":"2018-05-28T00:17:23Z"}
+4c5
+{"login":"joaotavora","id":387011,"node_id":"MDQ6VXNlcjM4NzAxMQ==","avatar_url":"https://avatars0.githubusercontent.com/u/387011?v=4","gravatar_id":"","url":"https://api.github.com/users/joaotavora","html_url":"https://github.com/joaotavora","followers_url":"https://api.github.com/users/joaotavora/followers","following_url":"https://api.github.com/users/joaotavora/following{/other_user}","gists_url":"https://api.github.com/users/joaotavora/gists{/gist_id}","starred_url":"https://api.github.com/users/joaotavora/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/joaotavora/subscriptions","organizations_url":"https://api.github.com/users/joaotavora/orgs","repos_url":"https://api.github.com/users/joaotavora/repos","events_url":"https://api.github.com/users/joaotavora/events{/privacy}","received_events_url":"https://api.github.com/users/joaotavora/received_events","type":"User","site_admin":false,"name":"João Távora","company":null,"blog":"http://joaotavora.com","location":"Portugal","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":95,"public_gists":6,"followers":365,"following":50,"created_at":"2010-09-03T21:48:27Z","updated_at":"2020-11-11T10:14:32Z"}
 0
 

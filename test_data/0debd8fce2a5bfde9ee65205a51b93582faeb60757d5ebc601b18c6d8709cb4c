@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE50:2940:11CEEF:14DD46:5FB01B84
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 14
+X-Ratelimit-Reset: 1605376942
+X-Ratelimit-Used: 16
+X-Xss-Protection: 1; mode=block
+
+8a5
+{"total_count":1,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/analogweb/analogweb-scala/issues/22","repository_url":"https://api.github.com/repos/analogweb/analogweb-scala","labels_url":"https://api.github.com/repos/analogweb/analogweb-scala/issues/22/labels{/name}","comments_url":"https://api.github.com/repos/analogweb/analogweb-scala/issues/22/comments","events_url":"https://api.github.com/repos/analogweb/analogweb-scala/issues/22/events","html_url":"https://github.com/analogweb/analogweb-scala/issues/22","id":184646083,"node_id":"MDU6SXNzdWUxODQ2NDYwODM=","number":22,"title":"Example won't compile","user":{"login":"mfirry","id":1107071,"node_id":"MDQ6VXNlcjExMDcwNzE=","avatar_url":"https://avatars0.githubusercontent.com/u/1107071?v=4","gravatar_id":"","url":"https://api.github.com/users/mfirry","html_url":"https://github.com/mfirry","followers_url":"https://api.github.com/users/mfirry/followers","following_url":"https://api.github.com/users/mfirry/following{/other_user}","gists_url":"https://api.github.com/users/mfirry/gists{/gist_id}","starred_url":"https://api.github.com/users/mfirry/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mfirry/subscriptions","organizations_url":"https://api.github.com/users/mfirry/orgs","repos_url":"https://api.github.com/users/mfirry/repos","events_url":"https://api.github.com/users/mfirry/events{/privacy}","received_events_url":"https://api.github.com/users/mfirry/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":4,"created_at":"2016-10-22T18:27:15Z","updated_at":"2016-10-24T19:42:47Z","closed_at":"2016-10-24T19:42:47Z","author_association":"NONE","active_lock_reason":null,"body":"Hi, trying your simple example won't work.\n\nI get \n\n```\nHello.scala:8: ambiguous reference to overloaded definition,\n[error] both method run in object Servers of type (x$1: Int, x$2: String*)Unit\n[error] and  method run in object Servers of type (x$1: String*)Unit\n[error] match expected type ?\n[error]   def main(args: Array[String]) = Servers.run\n```\n","performed_via_github_app":null,"score":1.0}]}
+0
+

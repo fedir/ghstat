@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:34 GMT
-Etag: W/"f9a5040efdab06613f0cab4ce313e3fd"
-Last-Modified: Mon, 02 Apr 2018 03:34:02 GMT
+Date: Sat, 14 Nov 2020 18:05:47 GMT
+Etag: W/"b8bc7d2b202f5b5c7db4feedebfb861b519c90682a5ea1a1734d7cdd16926e08"
+Last-Modified: Tue, 13 Oct 2020 01:14:50 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA17:57C4:23B9F81:50D1046:5B1B8A8A
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF8F:13F2:E1A60F:1043529:5FB01C7A
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3643
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.039798
+X-Ratelimit-Remaining: 2384
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2616
 X-Xss-Protection: 1; mode=block
 
-4b9
-{"login":"chrismccord","id":576796,"node_id":"MDQ6VXNlcjU3Njc5Ng==","avatar_url":"https://avatars3.githubusercontent.com/u/576796?v=4","gravatar_id":"","url":"https://api.github.com/users/chrismccord","html_url":"https://github.com/chrismccord","followers_url":"https://api.github.com/users/chrismccord/followers","following_url":"https://api.github.com/users/chrismccord/following{/other_user}","gists_url":"https://api.github.com/users/chrismccord/gists{/gist_id}","starred_url":"https://api.github.com/users/chrismccord/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chrismccord/subscriptions","organizations_url":"https://api.github.com/users/chrismccord/orgs","repos_url":"https://api.github.com/users/chrismccord/repos","events_url":"https://api.github.com/users/chrismccord/events{/privacy}","received_events_url":"https://api.github.com/users/chrismccord/received_events","type":"User","site_admin":false,"name":"Chris McCord","company":null,"blog":"chrismccord.com","location":"Charlotte, NC","email":null,"hireable":null,"bio":null,"public_repos":89,"public_gists":46,"followers":1458,"following":31,"created_at":"2011-01-21T16:12:29Z","updated_at":"2018-04-02T03:34:02Z"}
+4d1
+{"login":"chrismccord","id":576796,"node_id":"MDQ6VXNlcjU3Njc5Ng==","avatar_url":"https://avatars3.githubusercontent.com/u/576796?v=4","gravatar_id":"","url":"https://api.github.com/users/chrismccord","html_url":"https://github.com/chrismccord","followers_url":"https://api.github.com/users/chrismccord/followers","following_url":"https://api.github.com/users/chrismccord/following{/other_user}","gists_url":"https://api.github.com/users/chrismccord/gists{/gist_id}","starred_url":"https://api.github.com/users/chrismccord/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chrismccord/subscriptions","organizations_url":"https://api.github.com/users/chrismccord/orgs","repos_url":"https://api.github.com/users/chrismccord/repos","events_url":"https://api.github.com/users/chrismccord/events{/privacy}","received_events_url":"https://api.github.com/users/chrismccord/received_events","type":"User","site_admin":false,"name":"Chris McCord","company":null,"blog":"chrismccord.com","location":"Charlotte, NC","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":97,"public_gists":48,"followers":2129,"following":32,"created_at":"2011-01-21T16:12:29Z","updated_at":"2020-10-13T01:14:50Z"}
 0
 

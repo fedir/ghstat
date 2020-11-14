@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:47 GMT
-Etag: W/"5526f7492d892a1a496738f7a85cf467"
-Last-Modified: Sat, 09 Jun 2018 07:23:11 GMT
+Date: Sat, 14 Nov 2020 18:02:11 GMT
+Etag: W/"4ff77fcd9dff24b265503c1e16a8201c71e8c653188d6fdfb298043e4669ab4f"
+Last-Modified: Sat, 14 Nov 2020 14:40:55 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBC4:57C6:2FE5811:64EDB48:5B1B8B0F
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF37:41F3:1ECD466:2396276:5FB01BA3
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1999
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038595
+X-Ratelimit-Remaining: 2476
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2524
 X-Xss-Protection: 1; mode=block
 
-70
-{"PHP":6717675,"JavaScript":261988,"PLSQL":20402,"HTML":11952,"Shell":5392,"Batchfile":1085,"Ruby":207,"CSS":20}
+9b
+{"PHP":7239177,"JavaScript":276087,"PLSQL":20760,"TSQL":18681,"HTML":13353,"Shell":6705,"Hack":4107,"Dockerfile":3386,"Batchfile":1085,"Ruby":207,"CSS":20}
 0
 

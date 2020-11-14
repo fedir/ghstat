@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:02 GMT
+Etag: W/"cb067a843d375d7326a89746bae782f8ca47b83e48e0fb0a008e52dc8ad7683c"
+Link: <https://api.github.com/user/59575/followers?page=10>; rel="prev", <https://api.github.com/user/59575/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA2:78A3:3EA8E96:4819D5B:5FB01C8A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2151
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2849
+X-Xss-Protection: 1; mode=block
+
+11c2
+[{"login":"munavircp","id":31384915,"node_id":"MDQ6VXNlcjMxMzg0OTE1","avatar_url":"https://avatars3.githubusercontent.com/u/31384915?v=4","gravatar_id":"","url":"https://api.github.com/users/munavircp","html_url":"https://github.com/munavircp","followers_url":"https://api.github.com/users/munavircp/followers","following_url":"https://api.github.com/users/munavircp/following{/other_user}","gists_url":"https://api.github.com/users/munavircp/gists{/gist_id}","starred_url":"https://api.github.com/users/munavircp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/munavircp/subscriptions","organizations_url":"https://api.github.com/users/munavircp/orgs","repos_url":"https://api.github.com/users/munavircp/repos","events_url":"https://api.github.com/users/munavircp/events{/privacy}","received_events_url":"https://api.github.com/users/munavircp/received_events","type":"User","site_admin":false},{"login":"m4oughi","id":18722738,"node_id":"MDQ6VXNlcjE4NzIyNzM4","avatar_url":"https://avatars1.githubusercontent.com/u/18722738?v=4","gravatar_id":"","url":"https://api.github.com/users/m4oughi","html_url":"https://github.com/m4oughi","followers_url":"https://api.github.com/users/m4oughi/followers","following_url":"https://api.github.com/users/m4oughi/following{/other_user}","gists_url":"https://api.github.com/users/m4oughi/gists{/gist_id}","starred_url":"https://api.github.com/users/m4oughi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/m4oughi/subscriptions","organizations_url":"https://api.github.com/users/m4oughi/orgs","repos_url":"https://api.github.com/users/m4oughi/repos","events_url":"https://api.github.com/users/m4oughi/events{/privacy}","received_events_url":"https://api.github.com/users/m4oughi/received_events","type":"User","site_admin":false},{"login":"HeyAshh","id":57528612,"node_id":"MDQ6VXNlcjU3NTI4NjEy","avatar_url":"https://avatars3.githubusercontent.com/u/57528612?v=4","gravatar_id":"","url":"https://api.github.com/users/HeyAshh","html_url":"https://github.com/HeyAshh","followers_url":"https://api.github.com/users/HeyAshh/followers","following_url":"https://api.github.com/users/HeyAshh/following{/other_user}","gists_url":"https://api.github.com/users/HeyAshh/gists{/gist_id}","starred_url":"https://api.github.com/users/HeyAshh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HeyAshh/subscriptions","organizations_url":"https://api.github.com/users/HeyAshh/orgs","repos_url":"https://api.github.com/users/HeyAshh/repos","events_url":"https://api.github.com/users/HeyAshh/events{/privacy}","received_events_url":"https://api.github.com/users/HeyAshh/received_events","type":"User","site_admin":false},{"login":"0xb0b1","id":35732793,"node_id":"MDQ6VXNlcjM1NzMyNzkz","avatar_url":"https://avatars1.githubusercontent.com/u/35732793?v=4","gravatar_id":"","url":"https://api.github.com/users/0xb0b1","html_url":"https://github.com/0xb0b1","followers_url":"https://api.github.com/users/0xb0b1/followers","following_url":"https://api.github.com/users/0xb0b1/following{/other_user}","gists_url":"https://api.github.com/users/0xb0b1/gists{/gist_id}","starred_url":"https://api.github.com/users/0xb0b1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/0xb0b1/subscriptions","organizations_url":"https://api.github.com/users/0xb0b1/orgs","repos_url":"https://api.github.com/users/0xb0b1/repos","events_url":"https://api.github.com/users/0xb0b1/events{/privacy}","received_events_url":"https://api.github.com/users/0xb0b1/received_events","type":"User","site_admin":false},{"login":"Claessens14","id":18176078,"node_id":"MDQ6VXNlcjE4MTc2MDc4","avatar_url":"https://avatars3.githubusercontent.com/u/18176078?v=4","gravatar_id":"","url":"https://api.github.com/users/Claessens14","html_url":"https://github.com/Claessens14","followers_url":"https://api.github.com/users/Claessens14/followers","following_url":"https://api.github.com/users/Claessens14/following{/other_user}","gists_url":"https://api.github.com/users/Claessens14/gists{/gist_id}","starred_url":"https://api.github.com/users/Claessens14/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Claessens14/subscriptions","organizations_url":"https://api.github.com/users/Claessens14/orgs","repos_url":"https://api.github.com/users/Claessens14/repos","events_url":"https://api.github.com/users/Claessens14/events{/privacy}","received_events_url":"https://api.github.com/users/Claessens14/received_events","type":"User","site_admin":false}]
+0
+

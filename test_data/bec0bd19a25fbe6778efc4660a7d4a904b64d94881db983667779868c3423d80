@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"935d31140fe755ebbc7275f6f5a24ecb"
-Last-Modified: Sat, 09 Jun 2018 07:23:43 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"159951d6281a0d7b037489f775dcc0fe94efd30c393a5dc3ee1e69dbbef64e2d"
+Last-Modified: Sat, 14 Nov 2020 14:52:41 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC0E:57C6:2FE58DB:64EDD89:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE13:78A3:3E87850:47F28FE:5FB01B1E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1918
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040188
+X-Ratelimit-Remaining: 3993
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1007
 X-Xss-Protection: 1; mode=block
 
-14c
-{"Ruby":24522163,"C":11696053,"Objective-C":774827,"Yacc":276322,"Makefile":191536,"M4":151355,"Emacs Lisp":122802,"C++":99990,"GDB":32958,"Ragel":26007,"HTML":20452,"JavaScript":18023,"CSS":15720,"XSLT":13913,"Batchfile":11059,"Shell":8758,"Python":8030,"sed":1779,"Assembly":1265,"Scilab":745,"Scheme":557,"Perl":388,"Perl 6":296}
+133
+{"Ruby":27700102,"C":12875803,"Yacc":1134577,"Makefile":892652,"Objective-C":840660,"C++":741501,"M4":165215,"GDB":36063,"Python":33412,"Ragel":27775,"HTML":19546,"CSS":16252,"JavaScript":14769,"Batchfile":11372,"Shell":10259,"Assembly":10120,"Emacs Lisp":4051,"sed":1893,"Scheme":557,"Perl":388,"Raku":296}
 0
 

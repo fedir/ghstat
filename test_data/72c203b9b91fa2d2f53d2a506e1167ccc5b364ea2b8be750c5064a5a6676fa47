@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:07 GMT
+Etag: W/"c1b5ee6d2f80f45535502170b3da2b92490a130e7e0500a9c2b960c2ace20878"
+Last-Modified: Sat, 14 Nov 2020 17:25:19 GMT
+Link: <https://api.github.com/repositories/6887813/tags?page=3>; rel="prev", <https://api.github.com/repositories/6887813/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE15:F448:D5198C:F5B808:5FB01B26
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3780
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1220
+X-Xss-Protection: 1; mode=block
+
+142a
+[{"name":"0.4.4","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.4.4","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.4.4","commit":{"sha":"ef755e19ab811ba4404a01b7479c4b139ff2d8c7","url":"https://api.github.com/repos/crystal-lang/crystal/commits/ef755e19ab811ba4404a01b7479c4b139ff2d8c7"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC40LjQ="},{"name":"0.4.3","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.4.3","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.4.3","commit":{"sha":"f3f59b3f7d5427bcf98c2b39a750e93459a34178","url":"https://api.github.com/repos/crystal-lang/crystal/commits/f3f59b3f7d5427bcf98c2b39a750e93459a34178"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC40LjM="},{"name":"0.4.2","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.4.2","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.4.2","commit":{"sha":"d88195ff3dcafa99b1792693d022105fa0b23d9b","url":"https://api.github.com/repos/crystal-lang/crystal/commits/d88195ff3dcafa99b1792693d022105fa0b23d9b"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC40LjI="},{"name":"0.4.1","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.4.1","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.4.1","commit":{"sha":"b98bfbdabd6341aa5f68d2d3e1205614b234bcee","url":"https://api.github.com/repos/crystal-lang/crystal/commits/b98bfbdabd6341aa5f68d2d3e1205614b234bcee"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC40LjE="},{"name":"0.4.0","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.4.0","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.4.0","commit":{"sha":"4753343b6968a0854ee312dd2eabc23bfd8ee7ad","url":"https://api.github.com/repos/crystal-lang/crystal/commits/4753343b6968a0854ee312dd2eabc23bfd8ee7ad"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC40LjA="},{"name":"0.3.5","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.5","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.5","commit":{"sha":"921216bc209b0bb0a195175a2a97adf2f5647691","url":"https://api.github.com/repos/crystal-lang/crystal/commits/921216bc209b0bb0a195175a2a97adf2f5647691"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjU="},{"name":"0.3.4","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.4","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.4","commit":{"sha":"ace980c7a333be78f4f06f8e5d3bc91ddc9cda32","url":"https://api.github.com/repos/crystal-lang/crystal/commits/ace980c7a333be78f4f06f8e5d3bc91ddc9cda32"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjQ="},{"name":"0.3.3","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.3","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.3","commit":{"sha":"bdec6d439df852ba03ce9a4cf35d000ede1a7560","url":"https://api.github.com/repos/crystal-lang/crystal/commits/bdec6d439df852ba03ce9a4cf35d000ede1a7560"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjM="},{"name":"0.3.2","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.2","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.2","commit":{"sha":"cb42ed2245538320da7285627d70a390f3b0d3ea","url":"https://api.github.com/repos/crystal-lang/crystal/commits/cb42ed2245538320da7285627d70a390f3b0d3ea"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjI="},{"name":"0.3.1","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.1","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.1","commit":{"sha":"2100212b1dbd8614f5beaa4a600a52c4106a8e76","url":"https://api.github.com/repos/crystal-lang/crystal/commits/2100212b1dbd8614f5beaa4a600a52c4106a8e76"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjE="},{"name":"0.3.0","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.3.0","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.3.0","commit":{"sha":"6108d5b176474ec32b5675d7f89337a3e42ac454","url":"https://api.github.com/repos/crystal-lang/crystal/commits/6108d5b176474ec32b5675d7f89337a3e42ac454"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4zLjA="},{"name":"0.2.0","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.2.0","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.2.0","commit":{"sha":"87c7f8df23602822bdab1c845e3255b3af39405b","url":"https://api.github.com/repos/crystal-lang/crystal/commits/87c7f8df23602822bdab1c845e3255b3af39405b"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4yLjA="},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/crystal-lang/crystal/zipball/0.1.0","tarball_url":"https://api.github.com/repos/crystal-lang/crystal/tarball/0.1.0","commit":{"sha":"8936918be3938f45cda9f0f08bbfff39b8049677","url":"https://api.github.com/repos/crystal-lang/crystal/commits/8936918be3938f45cda9f0f08bbfff39b8049677"},"node_id":"MDM6UmVmNjg4NzgxMzpyZWZzL3RhZ3MvMC4xLjA="}]
+0
+

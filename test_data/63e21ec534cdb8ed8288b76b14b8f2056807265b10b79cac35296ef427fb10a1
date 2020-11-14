@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:26 GMT
+Etag: W/"3f1557d1b3168fa62fb92bd3d385a093d9dc80245eef1e7cf8a89803b3647f7b"
+Link: <https://api.github.com/user/978245/followers?page=1>; rel="prev", <https://api.github.com/user/978245/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE07:41F4:3D6C653:46C936F:5FB01AFE
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4083
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 917
+X-Xss-Protection: 1; mode=block
+
+a94
+[{"login":"advancedxy","id":807537,"node_id":"MDQ6VXNlcjgwNzUzNw==","avatar_url":"https://avatars3.githubusercontent.com/u/807537?v=4","gravatar_id":"","url":"https://api.github.com/users/advancedxy","html_url":"https://github.com/advancedxy","followers_url":"https://api.github.com/users/advancedxy/followers","following_url":"https://api.github.com/users/advancedxy/following{/other_user}","gists_url":"https://api.github.com/users/advancedxy/gists{/gist_id}","starred_url":"https://api.github.com/users/advancedxy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/advancedxy/subscriptions","organizations_url":"https://api.github.com/users/advancedxy/orgs","repos_url":"https://api.github.com/users/advancedxy/repos","events_url":"https://api.github.com/users/advancedxy/events{/privacy}","received_events_url":"https://api.github.com/users/advancedxy/received_events","type":"User","site_admin":false},{"login":"assapoz","id":55453562,"node_id":"MDQ6VXNlcjU1NDUzNTYy","avatar_url":"https://avatars2.githubusercontent.com/u/55453562?v=4","gravatar_id":"","url":"https://api.github.com/users/assapoz","html_url":"https://github.com/assapoz","followers_url":"https://api.github.com/users/assapoz/followers","following_url":"https://api.github.com/users/assapoz/following{/other_user}","gists_url":"https://api.github.com/users/assapoz/gists{/gist_id}","starred_url":"https://api.github.com/users/assapoz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/assapoz/subscriptions","organizations_url":"https://api.github.com/users/assapoz/orgs","repos_url":"https://api.github.com/users/assapoz/repos","events_url":"https://api.github.com/users/assapoz/events{/privacy}","received_events_url":"https://api.github.com/users/assapoz/received_events","type":"User","site_admin":false},{"login":"cchalc","id":177647,"node_id":"MDQ6VXNlcjE3NzY0Nw==","avatar_url":"https://avatars1.githubusercontent.com/u/177647?v=4","gravatar_id":"","url":"https://api.github.com/users/cchalc","html_url":"https://github.com/cchalc","followers_url":"https://api.github.com/users/cchalc/followers","following_url":"https://api.github.com/users/cchalc/following{/other_user}","gists_url":"https://api.github.com/users/cchalc/gists{/gist_id}","starred_url":"https://api.github.com/users/cchalc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cchalc/subscriptions","organizations_url":"https://api.github.com/users/cchalc/orgs","repos_url":"https://api.github.com/users/cchalc/repos","events_url":"https://api.github.com/users/cchalc/events{/privacy}","received_events_url":"https://api.github.com/users/cchalc/received_events","type":"User","site_admin":false}]
+0
+

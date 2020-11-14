@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:51 GMT
+Etag: W/"69249cdbc8e22a0d8bd3027d49703077dd7d495cd1a5386d33762af9ebf4da67"
+Last-Modified: Sun, 21 Jul 2019 13:00:01 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE65:41F2:E68A8B:108D1AA:5FB01B8E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3098
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1902
+X-Xss-Protection: 1; mode=block
+
+4aa
+{"login":"zhangyuchun","id":6950099,"node_id":"MDQ6VXNlcjY5NTAwOTk=","avatar_url":"https://avatars0.githubusercontent.com/u/6950099?v=4","gravatar_id":"","url":"https://api.github.com/users/zhangyuchun","html_url":"https://github.com/zhangyuchun","followers_url":"https://api.github.com/users/zhangyuchun/followers","following_url":"https://api.github.com/users/zhangyuchun/following{/other_user}","gists_url":"https://api.github.com/users/zhangyuchun/gists{/gist_id}","starred_url":"https://api.github.com/users/zhangyuchun/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zhangyuchun/subscriptions","organizations_url":"https://api.github.com/users/zhangyuchun/orgs","repos_url":"https://api.github.com/users/zhangyuchun/repos","events_url":"https://api.github.com/users/zhangyuchun/events{/privacy}","received_events_url":"https://api.github.com/users/zhangyuchun/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":17,"public_gists":0,"followers":2,"following":5,"created_at":"2014-03-14T10:02:22Z","updated_at":"2019-07-21T13:00:01Z"}
+0
+

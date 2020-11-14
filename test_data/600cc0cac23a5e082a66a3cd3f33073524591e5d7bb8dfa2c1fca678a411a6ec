@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:15 GMT
-Etag: W/"0c895e29ace5c29cc567cc8f0dc0265b"
-Last-Modified: Fri, 01 Jun 2018 22:40:59 GMT
+Date: Sat, 14 Nov 2020 18:01:33 GMT
+Etag: W/"21da217406d4af4541fa98eaf0c32ba87826ff19781af9bfd79a01dbd7190d63"
+Last-Modified: Thu, 06 Aug 2020 18:06:38 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8D0:57C6:2FE10E4:64E30C7:5B1B8A3B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE35:F44A:3A12564:42DA66A:5FB01B7D
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4539
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.053322
+X-Ratelimit-Remaining: 3528
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1472
 X-Xss-Protection: 1; mode=block
 
-3ab
-[{"login":"vladfaust","id":7955682,"node_id":"MDQ6VXNlcjc5NTU2ODI=","avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false,"contributions":87}]
+3ac
+[{"login":"vladfaust","id":7955682,"node_id":"MDQ6VXNlcjc5NTU2ODI=","avatar_url":"https://avatars2.githubusercontent.com/u/7955682?v=4","gravatar_id":"","url":"https://api.github.com/users/vladfaust","html_url":"https://github.com/vladfaust","followers_url":"https://api.github.com/users/vladfaust/followers","following_url":"https://api.github.com/users/vladfaust/following{/other_user}","gists_url":"https://api.github.com/users/vladfaust/gists{/gist_id}","starred_url":"https://api.github.com/users/vladfaust/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vladfaust/subscriptions","organizations_url":"https://api.github.com/users/vladfaust/orgs","repos_url":"https://api.github.com/users/vladfaust/repos","events_url":"https://api.github.com/users/vladfaust/events{/privacy}","received_events_url":"https://api.github.com/users/vladfaust/received_events","type":"User","site_admin":false,"contributions":217}]
 0
 

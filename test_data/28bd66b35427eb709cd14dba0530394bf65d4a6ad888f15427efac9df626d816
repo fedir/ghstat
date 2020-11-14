@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:14 GMT
-Etag: W/"8734b780f83ed4aeb81fd07c3428c1b8"
-Last-Modified: Tue, 22 May 2018 07:43:31 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"16b1fb4228f7db3d2c04d45a682e94edf7f8bd5d97ffa88946737a2efd5d702a"
+Last-Modified: Thu, 22 Oct 2020 13:54:28 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD23:57C5:3731948:71A5539:5B1B8B66
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CB:5C53:3F76BCC:491751D:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1389
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.044972
+X-Ratelimit-Remaining: 177
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4823
 X-Xss-Protection: 1; mode=block
 
-4ea
-{"login":"cagataycivici","id":686247,"node_id":"MDQ6VXNlcjY4NjI0Nw==","avatar_url":"https://avatars0.githubusercontent.com/u/686247?v=4","gravatar_id":"","url":"https://api.github.com/users/cagataycivici","html_url":"https://github.com/cagataycivici","followers_url":"https://api.github.com/users/cagataycivici/followers","following_url":"https://api.github.com/users/cagataycivici/following{/other_user}","gists_url":"https://api.github.com/users/cagataycivici/gists{/gist_id}","starred_url":"https://api.github.com/users/cagataycivici/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cagataycivici/subscriptions","organizations_url":"https://api.github.com/users/cagataycivici/orgs","repos_url":"https://api.github.com/users/cagataycivici/repos","events_url":"https://api.github.com/users/cagataycivici/events{/privacy}","received_events_url":"https://api.github.com/users/cagataycivici/received_events","type":"User","site_admin":false,"name":"Çağatay Çivici","company":"PrimeTek","blog":"https://www.primefaces.org","location":"Cybertron","email":null,"hireable":null,"bio":"Optimus Prime","public_repos":1,"public_gists":2,"followers":372,"following":3,"created_at":"2011-03-23T14:25:15Z","updated_at":"2018-05-22T07:43:31Z"}
+521
+{"login":"cagataycivici","id":686247,"node_id":"MDQ6VXNlcjY4NjI0Nw==","avatar_url":"https://avatars0.githubusercontent.com/u/686247?v=4","gravatar_id":"","url":"https://api.github.com/users/cagataycivici","html_url":"https://github.com/cagataycivici","followers_url":"https://api.github.com/users/cagataycivici/followers","following_url":"https://api.github.com/users/cagataycivici/following{/other_user}","gists_url":"https://api.github.com/users/cagataycivici/gists{/gist_id}","starred_url":"https://api.github.com/users/cagataycivici/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cagataycivici/subscriptions","organizations_url":"https://api.github.com/users/cagataycivici/orgs","repos_url":"https://api.github.com/users/cagataycivici/repos","events_url":"https://api.github.com/users/cagataycivici/events{/privacy}","received_events_url":"https://api.github.com/users/cagataycivici/received_events","type":"User","site_admin":false,"name":"Cagatay Civici","company":"PrimeTek","blog":"https://www.primefaces.org","location":"Turkey","email":null,"hireable":null,"bio":"What we do in life, echoes in eternity!","twitter_username":"cagataycivici","public_repos":2,"public_gists":2,"followers":551,"following":2,"created_at":"2011-03-23T14:25:15Z","updated_at":"2020-10-22T13:54:28Z"}
 0
 

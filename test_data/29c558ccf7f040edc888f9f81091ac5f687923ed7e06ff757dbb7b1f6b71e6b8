@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:19 GMT
-Etag: W/"e7314e7e078f4b03820c63d413793431"
-Last-Modified: Fri, 11 May 2018 09:29:02 GMT
+Date: Sat, 14 Nov 2020 18:08:38 GMT
+Etag: W/"9ff713abd1f637cce49f0987933cb7b7aec2e891eff236c9e8df3f3f59062995"
+Last-Modified: Wed, 14 Oct 2020 20:23:03 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB57:57C6:2FE5032:64EC79A:5B1B8AF3
-X-Oauth-Scopes: 
+X-Github-Request-Id: D178:E4B7:3A478B4:4330E74:5FB01D26
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2554
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.044439
+X-Ratelimit-Remaining: 1042
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3958
 X-Xss-Protection: 1; mode=block
 
-4bb
-{"login":"agrafix","id":1106569,"node_id":"MDQ6VXNlcjExMDY1Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1106569?v=4","gravatar_id":"","url":"https://api.github.com/users/agrafix","html_url":"https://github.com/agrafix","followers_url":"https://api.github.com/users/agrafix/followers","following_url":"https://api.github.com/users/agrafix/following{/other_user}","gists_url":"https://api.github.com/users/agrafix/gists{/gist_id}","starred_url":"https://api.github.com/users/agrafix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agrafix/subscriptions","organizations_url":"https://api.github.com/users/agrafix/orgs","repos_url":"https://api.github.com/users/agrafix/repos","events_url":"https://api.github.com/users/agrafix/events{/privacy}","received_events_url":"https://api.github.com/users/agrafix/received_events","type":"User","site_admin":false,"name":"Alexander Thiemann","company":"@stripe","blog":"https://www.athiemann.net","location":"San Francisco","email":"mail@athiemann.net","hireable":null,"bio":"Haskell Hacker","public_repos":131,"public_gists":11,"followers":127,"following":2,"created_at":"2011-10-06T03:44:42Z","updated_at":"2018-05-11T09:29:02Z"}
+4d8
+{"login":"agrafix","id":1106569,"node_id":"MDQ6VXNlcjExMDY1Njk=","avatar_url":"https://avatars1.githubusercontent.com/u/1106569?v=4","gravatar_id":"","url":"https://api.github.com/users/agrafix","html_url":"https://github.com/agrafix","followers_url":"https://api.github.com/users/agrafix/followers","following_url":"https://api.github.com/users/agrafix/following{/other_user}","gists_url":"https://api.github.com/users/agrafix/gists{/gist_id}","starred_url":"https://api.github.com/users/agrafix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agrafix/subscriptions","organizations_url":"https://api.github.com/users/agrafix/orgs","repos_url":"https://api.github.com/users/agrafix/repos","events_url":"https://api.github.com/users/agrafix/events{/privacy}","received_events_url":"https://api.github.com/users/agrafix/received_events","type":"User","site_admin":false,"name":"Alexander Thiemann","company":"@stripe","blog":"https://www.athiemann.net","location":"San Francisco","email":"mail@athiemann.net","hireable":null,"bio":"Haskell Hacker","twitter_username":"agrafix","public_repos":140,"public_gists":11,"followers":181,"following":2,"created_at":"2011-10-06T03:44:42Z","updated_at":"2020-10-14T20:23:03Z"}
 0
 

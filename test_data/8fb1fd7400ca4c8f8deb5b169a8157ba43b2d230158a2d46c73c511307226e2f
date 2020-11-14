@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:50 GMT
+Etag: W/"91c561eca0ca5a092e1892f4f623e285240d08d9333087a93ed1f4783e2fc6dd"
+Link: <https://api.github.com/user/245621/followers?page=28>; rel="prev", <https://api.github.com/user/245621/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D183:F077:1E58F87:2300B51:5FB01D32
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 908
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4092
+X-Xss-Protection: 1; mode=block
+
+3b2
+[{"login":"josergavila","id":30298157,"node_id":"MDQ6VXNlcjMwMjk4MTU3","avatar_url":"https://avatars0.githubusercontent.com/u/30298157?v=4","gravatar_id":"","url":"https://api.github.com/users/josergavila","html_url":"https://github.com/josergavila","followers_url":"https://api.github.com/users/josergavila/followers","following_url":"https://api.github.com/users/josergavila/following{/other_user}","gists_url":"https://api.github.com/users/josergavila/gists{/gist_id}","starred_url":"https://api.github.com/users/josergavila/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/josergavila/subscriptions","organizations_url":"https://api.github.com/users/josergavila/orgs","repos_url":"https://api.github.com/users/josergavila/repos","events_url":"https://api.github.com/users/josergavila/events{/privacy}","received_events_url":"https://api.github.com/users/josergavila/received_events","type":"User","site_admin":false}]
+0
+

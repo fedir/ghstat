@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"6323a25587fe8a5d1fefa3c6196766364d067280e7ed9b1a8421f197780c1ba1"
+Link: <https://api.github.com/user/644969/followers?page=2>; rel="prev", <https://api.github.com/user/644969/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2D3:41F4:3DAD67B:4715B37:5FB01DAD
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 185
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4815
+X-Xss-Protection: 1; mode=block
+
+3b2
+[{"login":"CosmicShane","id":69226340,"node_id":"MDQ6VXNlcjY5MjI2MzQw","avatar_url":"https://avatars2.githubusercontent.com/u/69226340?v=4","gravatar_id":"","url":"https://api.github.com/users/CosmicShane","html_url":"https://github.com/CosmicShane","followers_url":"https://api.github.com/users/CosmicShane/followers","following_url":"https://api.github.com/users/CosmicShane/following{/other_user}","gists_url":"https://api.github.com/users/CosmicShane/gists{/gist_id}","starred_url":"https://api.github.com/users/CosmicShane/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CosmicShane/subscriptions","organizations_url":"https://api.github.com/users/CosmicShane/orgs","repos_url":"https://api.github.com/users/CosmicShane/repos","events_url":"https://api.github.com/users/CosmicShane/events{/privacy}","received_events_url":"https://api.github.com/users/CosmicShane/received_events","type":"User","site_admin":false}]
+0
+

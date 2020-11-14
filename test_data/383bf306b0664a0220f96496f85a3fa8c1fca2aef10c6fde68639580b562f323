@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:10 GMT
+Etag: W/"5f0aa3f154f1b473870b77494e386f1459dea68dffb86620e286739e04691e7a"
+Link: <https://api.github.com/user/86065/followers?page=8>; rel="prev", <https://api.github.com/user/86065/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFAA:41F3:1ED830F:23A2E50:5FB01C91
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2022
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2978
+X-Xss-Protection: 1; mode=block
+
+74b
+[{"login":"sailor95","id":26215730,"node_id":"MDQ6VXNlcjI2MjE1NzMw","avatar_url":"https://avatars2.githubusercontent.com/u/26215730?v=4","gravatar_id":"","url":"https://api.github.com/users/sailor95","html_url":"https://github.com/sailor95","followers_url":"https://api.github.com/users/sailor95/followers","following_url":"https://api.github.com/users/sailor95/following{/other_user}","gists_url":"https://api.github.com/users/sailor95/gists{/gist_id}","starred_url":"https://api.github.com/users/sailor95/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sailor95/subscriptions","organizations_url":"https://api.github.com/users/sailor95/orgs","repos_url":"https://api.github.com/users/sailor95/repos","events_url":"https://api.github.com/users/sailor95/events{/privacy}","received_events_url":"https://api.github.com/users/sailor95/received_events","type":"User","site_admin":false},{"login":"luismanfroni","id":33612042,"node_id":"MDQ6VXNlcjMzNjEyMDQy","avatar_url":"https://avatars2.githubusercontent.com/u/33612042?v=4","gravatar_id":"","url":"https://api.github.com/users/luismanfroni","html_url":"https://github.com/luismanfroni","followers_url":"https://api.github.com/users/luismanfroni/followers","following_url":"https://api.github.com/users/luismanfroni/following{/other_user}","gists_url":"https://api.github.com/users/luismanfroni/gists{/gist_id}","starred_url":"https://api.github.com/users/luismanfroni/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/luismanfroni/subscriptions","organizations_url":"https://api.github.com/users/luismanfroni/orgs","repos_url":"https://api.github.com/users/luismanfroni/repos","events_url":"https://api.github.com/users/luismanfroni/events{/privacy}","received_events_url":"https://api.github.com/users/luismanfroni/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:24 GMT
-Etag: W/"6922998d5f604a2ce11ba27d63eb342b"
-Last-Modified: Tue, 29 May 2018 07:58:49 GMT
+Date: Sat, 14 Nov 2020 18:01:39 GMT
+Etag: W/"921aeecac031f3c14beb64df931661bb28b64298b5b6c4d9aec1192687a2338f"
+Last-Modified: Sun, 01 Nov 2020 23:35:18 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8ED:57C4:23B8E9C:50CE7BA:5B1B8A44
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE51:E4B6:1F0F886:23C1A75:5FB01B83
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4426
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.031627
+X-Ratelimit-Remaining: 3435
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1565
 X-Xss-Protection: 1; mode=block
 
 8d
-{"Scala":1501109,"JavaScript":549638,"HTML":24601,"Shell":20664,"Java":14613,"Batchfile":13948,"FreeMarker":913,"CoffeeScript":758,"CSS":622}
+{"Scala":1485757,"JavaScript":549638,"Shell":36659,"HTML":24601,"Batchfile":18424,"Java":14613,"FreeMarker":913,"CoffeeScript":758,"CSS":622}
 0
 

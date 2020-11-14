@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:53 GMT
+Etag: W/"0ec41db4eecea9609b81c696d822caee728c74eedbc80916abeec65d4fb9f988"
+Link: <https://api.github.com/user/7374640/followers?page=2>; rel="prev", <https://api.github.com/user/7374640/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF94:78A3:3EA813A:4818D7E:5FB01C81
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2298
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2702
+X-Xss-Protection: 1; mode=block
+
+e2d
+[{"login":"samk-ayyagari","id":1477386,"node_id":"MDQ6VXNlcjE0NzczODY=","avatar_url":"https://avatars1.githubusercontent.com/u/1477386?v=4","gravatar_id":"","url":"https://api.github.com/users/samk-ayyagari","html_url":"https://github.com/samk-ayyagari","followers_url":"https://api.github.com/users/samk-ayyagari/followers","following_url":"https://api.github.com/users/samk-ayyagari/following{/other_user}","gists_url":"https://api.github.com/users/samk-ayyagari/gists{/gist_id}","starred_url":"https://api.github.com/users/samk-ayyagari/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samk-ayyagari/subscriptions","organizations_url":"https://api.github.com/users/samk-ayyagari/orgs","repos_url":"https://api.github.com/users/samk-ayyagari/repos","events_url":"https://api.github.com/users/samk-ayyagari/events{/privacy}","received_events_url":"https://api.github.com/users/samk-ayyagari/received_events","type":"User","site_admin":false},{"login":"fceruti","id":250665,"node_id":"MDQ6VXNlcjI1MDY2NQ==","avatar_url":"https://avatars2.githubusercontent.com/u/250665?v=4","gravatar_id":"","url":"https://api.github.com/users/fceruti","html_url":"https://github.com/fceruti","followers_url":"https://api.github.com/users/fceruti/followers","following_url":"https://api.github.com/users/fceruti/following{/other_user}","gists_url":"https://api.github.com/users/fceruti/gists{/gist_id}","starred_url":"https://api.github.com/users/fceruti/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fceruti/subscriptions","organizations_url":"https://api.github.com/users/fceruti/orgs","repos_url":"https://api.github.com/users/fceruti/repos","events_url":"https://api.github.com/users/fceruti/events{/privacy}","received_events_url":"https://api.github.com/users/fceruti/received_events","type":"User","site_admin":false},{"login":"treble37","id":777964,"node_id":"MDQ6VXNlcjc3Nzk2NA==","avatar_url":"https://avatars0.githubusercontent.com/u/777964?v=4","gravatar_id":"","url":"https://api.github.com/users/treble37","html_url":"https://github.com/treble37","followers_url":"https://api.github.com/users/treble37/followers","following_url":"https://api.github.com/users/treble37/following{/other_user}","gists_url":"https://api.github.com/users/treble37/gists{/gist_id}","starred_url":"https://api.github.com/users/treble37/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/treble37/subscriptions","organizations_url":"https://api.github.com/users/treble37/orgs","repos_url":"https://api.github.com/users/treble37/repos","events_url":"https://api.github.com/users/treble37/events{/privacy}","received_events_url":"https://api.github.com/users/treble37/received_events","type":"User","site_admin":false},{"login":"nelix","id":33324,"node_id":"MDQ6VXNlcjMzMzI0","avatar_url":"https://avatars2.githubusercontent.com/u/33324?v=4","gravatar_id":"","url":"https://api.github.com/users/nelix","html_url":"https://github.com/nelix","followers_url":"https://api.github.com/users/nelix/followers","following_url":"https://api.github.com/users/nelix/following{/other_user}","gists_url":"https://api.github.com/users/nelix/gists{/gist_id}","starred_url":"https://api.github.com/users/nelix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nelix/subscriptions","organizations_url":"https://api.github.com/users/nelix/orgs","repos_url":"https://api.github.com/users/nelix/repos","events_url":"https://api.github.com/users/nelix/events{/privacy}","received_events_url":"https://api.github.com/users/nelix/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:17 GMT
-Etag: W/"4e02a8886416cf188f2ee47671de5527"
-Last-Modified: Mon, 12 Mar 2018 08:13:04 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"96de377aa1bf2cac8a83bfc4b2be49e8c96312bb5b5ffbb2cfe21af71bde7eb8"
+Last-Modified: Sun, 01 Nov 2020 23:31:28 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9D5:57C5:37298C2:7196FA9:5B1B8A79
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE54:BA8A:20F12CF:25DC0DC:5FB01B85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3928
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038814
+X-Ratelimit-Remaining: 3347
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1653
 X-Xss-Protection: 1; mode=block
 
 778
-[{"login":"dvarelap","id":1027698,"node_id":"MDQ6VXNlcjEwMjc2OTg=","avatar_url":"https://avatars3.githubusercontent.com/u/1027698?v=4","gravatar_id":"","url":"https://api.github.com/users/dvarelap","html_url":"https://github.com/dvarelap","followers_url":"https://api.github.com/users/dvarelap/followers","following_url":"https://api.github.com/users/dvarelap/following{/other_user}","gists_url":"https://api.github.com/users/dvarelap/gists{/gist_id}","starred_url":"https://api.github.com/users/dvarelap/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dvarelap/subscriptions","organizations_url":"https://api.github.com/users/dvarelap/orgs","repos_url":"https://api.github.com/users/dvarelap/repos","events_url":"https://api.github.com/users/dvarelap/events{/privacy}","received_events_url":"https://api.github.com/users/dvarelap/received_events","type":"User","site_admin":false,"contributions":89},{"login":"gitter-badger","id":8518239,"node_id":"MDQ6VXNlcjg1MTgyMzk=","avatar_url":"https://avatars2.githubusercontent.com/u/8518239?v=4","gravatar_id":"","url":"https://api.github.com/users/gitter-badger","html_url":"https://github.com/gitter-badger","followers_url":"https://api.github.com/users/gitter-badger/followers","following_url":"https://api.github.com/users/gitter-badger/following{/other_user}","gists_url":"https://api.github.com/users/gitter-badger/gists{/gist_id}","starred_url":"https://api.github.com/users/gitter-badger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gitter-badger/subscriptions","organizations_url":"https://api.github.com/users/gitter-badger/orgs","repos_url":"https://api.github.com/users/gitter-badger/repos","events_url":"https://api.github.com/users/gitter-badger/events{/privacy}","received_events_url":"https://api.github.com/users/gitter-badger/received_events","type":"User","site_admin":false,"contributions":1}]
+[{"login":"dvarelap","id":1027698,"node_id":"MDQ6VXNlcjEwMjc2OTg=","avatar_url":"https://avatars3.githubusercontent.com/u/1027698?v=4","gravatar_id":"","url":"https://api.github.com/users/dvarelap","html_url":"https://github.com/dvarelap","followers_url":"https://api.github.com/users/dvarelap/followers","following_url":"https://api.github.com/users/dvarelap/following{/other_user}","gists_url":"https://api.github.com/users/dvarelap/gists{/gist_id}","starred_url":"https://api.github.com/users/dvarelap/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dvarelap/subscriptions","organizations_url":"https://api.github.com/users/dvarelap/orgs","repos_url":"https://api.github.com/users/dvarelap/repos","events_url":"https://api.github.com/users/dvarelap/events{/privacy}","received_events_url":"https://api.github.com/users/dvarelap/received_events","type":"User","site_admin":false,"contributions":90},{"login":"gitter-badger","id":8518239,"node_id":"MDQ6VXNlcjg1MTgyMzk=","avatar_url":"https://avatars2.githubusercontent.com/u/8518239?v=4","gravatar_id":"","url":"https://api.github.com/users/gitter-badger","html_url":"https://github.com/gitter-badger","followers_url":"https://api.github.com/users/gitter-badger/followers","following_url":"https://api.github.com/users/gitter-badger/following{/other_user}","gists_url":"https://api.github.com/users/gitter-badger/gists{/gist_id}","starred_url":"https://api.github.com/users/gitter-badger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gitter-badger/subscriptions","organizations_url":"https://api.github.com/users/gitter-badger/orgs","repos_url":"https://api.github.com/users/gitter-badger/repos","events_url":"https://api.github.com/users/gitter-badger/events{/privacy}","received_events_url":"https://api.github.com/users/gitter-badger/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

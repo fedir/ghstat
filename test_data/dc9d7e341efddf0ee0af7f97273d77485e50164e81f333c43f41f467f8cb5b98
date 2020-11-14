@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:19 GMT
-Etag: W/"685be899dd82b11c53a89d1faa97fc5f"
-Last-Modified: Fri, 05 Jan 2018 18:58:46 GMT
+Date: Sat, 14 Nov 2020 18:08:38 GMT
+Etag: W/"94ca8757bc3df780dc2064d3362aebc1d6f4a983964484eaf3027c6eb3d9ea6b"
+Last-Modified: Mon, 26 Oct 2020 20:16:44 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB55:57C5:372DC3B:719EA14:5B1B8AF3
-X-Oauth-Scopes: 
+X-Github-Request-Id: D17D:B55E:DD532F:FF844F:5FB01D26
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2551
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038377
+X-Ratelimit-Remaining: 1039
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3961
 X-Xss-Protection: 1; mode=block
 
-4fb
-{"login":"gregorycollins","id":37570,"node_id":"MDQ6VXNlcjM3NTcw","avatar_url":"https://avatars1.githubusercontent.com/u/37570?v=4","gravatar_id":"","url":"https://api.github.com/users/gregorycollins","html_url":"https://github.com/gregorycollins","followers_url":"https://api.github.com/users/gregorycollins/followers","following_url":"https://api.github.com/users/gregorycollins/following{/other_user}","gists_url":"https://api.github.com/users/gregorycollins/gists{/gist_id}","starred_url":"https://api.github.com/users/gregorycollins/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gregorycollins/subscriptions","organizations_url":"https://api.github.com/users/gregorycollins/orgs","repos_url":"https://api.github.com/users/gregorycollins/repos","events_url":"https://api.github.com/users/gregorycollins/events{/privacy}","received_events_url":"https://api.github.com/users/gregorycollins/received_events","type":"User","site_admin":false,"name":"Gregory Collins","company":null,"blog":"http://gregorycollins.net/","location":"Toronto, Canada","email":"greg@gregorycollins.net","hireable":null,"bio":null,"public_repos":22,"public_gists":32,"followers":139,"following":26,"created_at":"2008-12-01T16:50:51Z","updated_at":"2018-01-05T18:58:46Z"}
+513
+{"login":"gregorycollins","id":37570,"node_id":"MDQ6VXNlcjM3NTcw","avatar_url":"https://avatars1.githubusercontent.com/u/37570?v=4","gravatar_id":"","url":"https://api.github.com/users/gregorycollins","html_url":"https://github.com/gregorycollins","followers_url":"https://api.github.com/users/gregorycollins/followers","following_url":"https://api.github.com/users/gregorycollins/following{/other_user}","gists_url":"https://api.github.com/users/gregorycollins/gists{/gist_id}","starred_url":"https://api.github.com/users/gregorycollins/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gregorycollins/subscriptions","organizations_url":"https://api.github.com/users/gregorycollins/orgs","repos_url":"https://api.github.com/users/gregorycollins/repos","events_url":"https://api.github.com/users/gregorycollins/events{/privacy}","received_events_url":"https://api.github.com/users/gregorycollins/received_events","type":"User","site_admin":false,"name":"Gregory Collins","company":null,"blog":"http://gregorycollins.net/","location":"Toronto, Canada","email":"greg@gregorycollins.net","hireable":null,"bio":null,"twitter_username":null,"public_repos":27,"public_gists":33,"followers":160,"following":26,"created_at":"2008-12-01T16:50:51Z","updated_at":"2020-10-26T20:16:44Z"}
 0
 

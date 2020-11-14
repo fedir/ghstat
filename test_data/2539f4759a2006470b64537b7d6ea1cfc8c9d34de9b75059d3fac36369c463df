@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:21 GMT
+Etag: W/"85aeee922241b4ea732bacd7644a093213488d30f1de2ad3d51deecf02bdc4d2"
+Link: <https://api.github.com/user/8020017/followers?page=1>; rel="prev", <https://api.github.com/user/8020017/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D167:BA8A:21074F3:25F5AA7:5FB01D15
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1297
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3703
+X-Xss-Protection: 1; mode=block
+
+ae0
+[{"login":"100security","id":7196361,"node_id":"MDQ6VXNlcjcxOTYzNjE=","avatar_url":"https://avatars2.githubusercontent.com/u/7196361?v=4","gravatar_id":"","url":"https://api.github.com/users/100security","html_url":"https://github.com/100security","followers_url":"https://api.github.com/users/100security/followers","following_url":"https://api.github.com/users/100security/following{/other_user}","gists_url":"https://api.github.com/users/100security/gists{/gist_id}","starred_url":"https://api.github.com/users/100security/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/100security/subscriptions","organizations_url":"https://api.github.com/users/100security/orgs","repos_url":"https://api.github.com/users/100security/repos","events_url":"https://api.github.com/users/100security/events{/privacy}","received_events_url":"https://api.github.com/users/100security/received_events","type":"User","site_admin":false},{"login":"emannet2000","id":5122930,"node_id":"MDQ6VXNlcjUxMjI5MzA=","avatar_url":"https://avatars1.githubusercontent.com/u/5122930?v=4","gravatar_id":"","url":"https://api.github.com/users/emannet2000","html_url":"https://github.com/emannet2000","followers_url":"https://api.github.com/users/emannet2000/followers","following_url":"https://api.github.com/users/emannet2000/following{/other_user}","gists_url":"https://api.github.com/users/emannet2000/gists{/gist_id}","starred_url":"https://api.github.com/users/emannet2000/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/emannet2000/subscriptions","organizations_url":"https://api.github.com/users/emannet2000/orgs","repos_url":"https://api.github.com/users/emannet2000/repos","events_url":"https://api.github.com/users/emannet2000/events{/privacy}","received_events_url":"https://api.github.com/users/emannet2000/received_events","type":"User","site_admin":false},{"login":"ianffcs","id":14530079,"node_id":"MDQ6VXNlcjE0NTMwMDc5","avatar_url":"https://avatars1.githubusercontent.com/u/14530079?v=4","gravatar_id":"","url":"https://api.github.com/users/ianffcs","html_url":"https://github.com/ianffcs","followers_url":"https://api.github.com/users/ianffcs/followers","following_url":"https://api.github.com/users/ianffcs/following{/other_user}","gists_url":"https://api.github.com/users/ianffcs/gists{/gist_id}","starred_url":"https://api.github.com/users/ianffcs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ianffcs/subscriptions","organizations_url":"https://api.github.com/users/ianffcs/orgs","repos_url":"https://api.github.com/users/ianffcs/repos","events_url":"https://api.github.com/users/ianffcs/events{/privacy}","received_events_url":"https://api.github.com/users/ianffcs/received_events","type":"User","site_admin":false}]
+0
+

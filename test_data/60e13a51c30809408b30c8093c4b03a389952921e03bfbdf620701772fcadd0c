@@ -1,29 +1,31 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:05 GMT
-Etag: W/"8c9c358a060456d28be010953ed11a82"
-Last-Modified: Sat, 09 Jun 2018 06:37:40 GMT
+Date: Sat, 14 Nov 2020 18:10:45 GMT
+Etag: W/"6394fa06f61aa2c1ec44cdfa5e48c7be1c5a600f66b9465438044d24201624e5"
+Last-Modified: Sat, 14 Nov 2020 17:37:30 GMT
 Link: <https://api.github.com/repositories/18250334/contributors?page=1>; rel="prev", <https://api.github.com/repositories/18250334/contributors?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CCFE:57C6:2FE6C69:64F110D:5B1B8B5C
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2B2:41F4:3DACB55:4714DDD:5FB01DA4
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1479
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.037094
+X-Ratelimit-Remaining: 261
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4739
 X-Xss-Protection: 1; mode=block
 
 e95

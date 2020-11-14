@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:07 GMT
-Etag: W/"44d023bb31d1445e13a9d01d4d8b121d"
-Last-Modified: Sat, 31 Mar 2018 22:19:46 GMT
+Date: Sat, 14 Nov 2020 18:01:22 GMT
+Etag: W/"5302b5ae1e147bb4119552031d0e5d97b98af6c2ceef2ac49f34f92bb98d32ab"
+Last-Modified: Mon, 05 Oct 2020 10:11:41 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8B1:57C6:2FE0DCE:64E28E5:5B1B8A33
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE29:E7C5:3646D8D:3E9E5CC:5FB01B72
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4676
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.042246
+X-Ratelimit-Remaining: 3684
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1316
 X-Xss-Protection: 1; mode=block
 
-474
-{"login":"orangy","id":616841,"node_id":"MDQ6VXNlcjYxNjg0MQ==","avatar_url":"https://avatars1.githubusercontent.com/u/616841?v=4","gravatar_id":"","url":"https://api.github.com/users/orangy","html_url":"https://github.com/orangy","followers_url":"https://api.github.com/users/orangy/followers","following_url":"https://api.github.com/users/orangy/following{/other_user}","gists_url":"https://api.github.com/users/orangy/gists{/gist_id}","starred_url":"https://api.github.com/users/orangy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/orangy/subscriptions","organizations_url":"https://api.github.com/users/orangy/orgs","repos_url":"https://api.github.com/users/orangy/repos","events_url":"https://api.github.com/users/orangy/events{/privacy}","received_events_url":"https://api.github.com/users/orangy/received_events","type":"User","site_admin":false,"name":"Ilya Ryzhenkov","company":"JetBrains","blog":"","location":"St.Petersburg","email":null,"hireable":null,"bio":null,"public_repos":31,"public_gists":12,"followers":88,"following":0,"created_at":"2011-02-14T08:21:11Z","updated_at":"2018-03-31T22:19:46Z"}
+4c5
+{"login":"orangy","id":616841,"node_id":"MDQ6VXNlcjYxNjg0MQ==","avatar_url":"https://avatars1.githubusercontent.com/u/616841?v=4","gravatar_id":"","url":"https://api.github.com/users/orangy","html_url":"https://github.com/orangy","followers_url":"https://api.github.com/users/orangy/followers","following_url":"https://api.github.com/users/orangy/following{/other_user}","gists_url":"https://api.github.com/users/orangy/gists{/gist_id}","starred_url":"https://api.github.com/users/orangy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/orangy/subscriptions","organizations_url":"https://api.github.com/users/orangy/orgs","repos_url":"https://api.github.com/users/orangy/repos","events_url":"https://api.github.com/users/orangy/events{/privacy}","received_events_url":"https://api.github.com/users/orangy/received_events","type":"User","site_admin":false,"name":"Ilya Ryzhenkov","company":"JetBrains","blog":"","location":"St.Petersburg","email":null,"hireable":null,"bio":"JetBrains. Now Kotlin and IntelliJ. Previously ReSharper. ","twitter_username":null,"public_repos":44,"public_gists":13,"followers":160,"following":0,"created_at":"2011-02-14T08:21:11Z","updated_at":"2020-10-05T10:11:41Z"}
 0
 

@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE4C:F448:D53BDD:F5E0BF:5FB01B84
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 13
+X-Ratelimit-Reset: 1605376942
+X-Ratelimit-Used: 17
+X-Xss-Protection: 1; mode=block
+
+f96
+{"total_count":1,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/splink/pagelets/issues/2","repository_url":"https://api.github.com/repos/splink/pagelets","labels_url":"https://api.github.com/repos/splink/pagelets/issues/2/labels{/name}","comments_url":"https://api.github.com/repos/splink/pagelets/issues/2/comments","events_url":"https://api.github.com/repos/splink/pagelets/issues/2/events","html_url":"https://github.com/splink/pagelets/issues/2","id":204629985,"node_id":"MDU6SXNzdWUyMDQ2Mjk5ODU=","number":2,"title":"Log Level","user":{"login":"KarelCemus","id":1996368,"node_id":"MDQ6VXNlcjE5OTYzNjg=","avatar_url":"https://avatars0.githubusercontent.com/u/1996368?v=4","gravatar_id":"","url":"https://api.github.com/users/KarelCemus","html_url":"https://github.com/KarelCemus","followers_url":"https://api.github.com/users/KarelCemus/followers","following_url":"https://api.github.com/users/KarelCemus/following{/other_user}","gists_url":"https://api.github.com/users/KarelCemus/gists{/gist_id}","starred_url":"https://api.github.com/users/KarelCemus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KarelCemus/subscriptions","organizations_url":"https://api.github.com/users/KarelCemus/orgs","repos_url":"https://api.github.com/users/KarelCemus/repos","events_url":"https://api.github.com/users/KarelCemus/events{/privacy}","received_events_url":"https://api.github.com/users/KarelCemus/received_events","type":"User","site_admin":false},"labels":[{"id":454408108,"node_id":"MDU6TGFiZWw0NTQ0MDgxMDg=","url":"https://api.github.com/repos/splink/pagelets/labels/enhancement","name":"enhancement","color":"84b6eb","default":true,"description":null}],"state":"closed","locked":false,"assignee":{"login":"splink","id":713351,"node_id":"MDQ6VXNlcjcxMzM1MQ==","avatar_url":"https://avatars0.githubusercontent.com/u/713351?v=4","gravatar_id":"","url":"https://api.github.com/users/splink","html_url":"https://github.com/splink","followers_url":"https://api.github.com/users/splink/followers","following_url":"https://api.github.com/users/splink/following{/other_user}","gists_url":"https://api.github.com/users/splink/gists{/gist_id}","starred_url":"https://api.github.com/users/splink/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/splink/subscriptions","organizations_url":"https://api.github.com/users/splink/orgs","repos_url":"https://api.github.com/users/splink/repos","events_url":"https://api.github.com/users/splink/events{/privacy}","received_events_url":"https://api.github.com/users/splink/received_events","type":"User","site_admin":false},"assignees":[{"login":"splink","id":713351,"node_id":"MDQ6VXNlcjcxMzM1MQ==","avatar_url":"https://avatars0.githubusercontent.com/u/713351?v=4","gravatar_id":"","url":"https://api.github.com/users/splink","html_url":"https://github.com/splink","followers_url":"https://api.github.com/users/splink/followers","following_url":"https://api.github.com/users/splink/following{/other_user}","gists_url":"https://api.github.com/users/splink/gists{/gist_id}","starred_url":"https://api.github.com/users/splink/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/splink/subscriptions","organizations_url":"https://api.github.com/users/splink/orgs","repos_url":"https://api.github.com/users/splink/repos","events_url":"https://api.github.com/users/splink/events{/privacy}","received_events_url":"https://api.github.com/users/splink/received_events","type":"User","site_admin":false}],"milestone":null,"comments":7,"created_at":"2017-02-01T16:19:14Z","updated_at":"2017-02-05T12:23:06Z","closed_at":"2017-02-05T12:23:06Z","author_association":"NONE","active_lock_reason":null,"body":"Hi,\r\n\r\nyou've made nice library! Great job!\r\n\r\nI propose to reduce log level in LeafBuilder and PageBuilder to `debug` or even `trace`. Personally, I think `info` level should be used for more serious messages.","performed_via_github_app":null,"score":1.0}]}
+0
+

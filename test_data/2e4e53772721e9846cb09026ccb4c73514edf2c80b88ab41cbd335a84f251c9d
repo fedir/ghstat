@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:25 GMT
+Etag: W/"6b6f5caa5761f2047c1710b141e0b8cc8ade87d35207689a0d66d46091a1d0b2"
+Link: <https://api.github.com/user/1326893/followers?page=17>; rel="prev", <https://api.github.com/user/1326893/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CDF8:E4B5:1029892:127C139:5FB01AFD
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4134
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 866
+X-Xss-Protection: 1; mode=block
+
+e7b
+[{"login":"justStarNew","id":18233711,"node_id":"MDQ6VXNlcjE4MjMzNzEx","avatar_url":"https://avatars2.githubusercontent.com/u/18233711?v=4","gravatar_id":"","url":"https://api.github.com/users/justStarNew","html_url":"https://github.com/justStarNew","followers_url":"https://api.github.com/users/justStarNew/followers","following_url":"https://api.github.com/users/justStarNew/following{/other_user}","gists_url":"https://api.github.com/users/justStarNew/gists{/gist_id}","starred_url":"https://api.github.com/users/justStarNew/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/justStarNew/subscriptions","organizations_url":"https://api.github.com/users/justStarNew/orgs","repos_url":"https://api.github.com/users/justStarNew/repos","events_url":"https://api.github.com/users/justStarNew/events{/privacy}","received_events_url":"https://api.github.com/users/justStarNew/received_events","type":"User","site_admin":false},{"login":"refs","id":6905948,"node_id":"MDQ6VXNlcjY5MDU5NDg=","avatar_url":"https://avatars2.githubusercontent.com/u/6905948?v=4","gravatar_id":"","url":"https://api.github.com/users/refs","html_url":"https://github.com/refs","followers_url":"https://api.github.com/users/refs/followers","following_url":"https://api.github.com/users/refs/following{/other_user}","gists_url":"https://api.github.com/users/refs/gists{/gist_id}","starred_url":"https://api.github.com/users/refs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/refs/subscriptions","organizations_url":"https://api.github.com/users/refs/orgs","repos_url":"https://api.github.com/users/refs/repos","events_url":"https://api.github.com/users/refs/events{/privacy}","received_events_url":"https://api.github.com/users/refs/received_events","type":"User","site_admin":false},{"login":"callMeBigBen","id":33094628,"node_id":"MDQ6VXNlcjMzMDk0NjI4","avatar_url":"https://avatars0.githubusercontent.com/u/33094628?v=4","gravatar_id":"","url":"https://api.github.com/users/callMeBigBen","html_url":"https://github.com/callMeBigBen","followers_url":"https://api.github.com/users/callMeBigBen/followers","following_url":"https://api.github.com/users/callMeBigBen/following{/other_user}","gists_url":"https://api.github.com/users/callMeBigBen/gists{/gist_id}","starred_url":"https://api.github.com/users/callMeBigBen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/callMeBigBen/subscriptions","organizations_url":"https://api.github.com/users/callMeBigBen/orgs","repos_url":"https://api.github.com/users/callMeBigBen/repos","events_url":"https://api.github.com/users/callMeBigBen/events{/privacy}","received_events_url":"https://api.github.com/users/callMeBigBen/received_events","type":"User","site_admin":false},{"login":"hackerd2020","id":67505023,"node_id":"MDQ6VXNlcjY3NTA1MDIz","avatar_url":"https://avatars0.githubusercontent.com/u/67505023?v=4","gravatar_id":"","url":"https://api.github.com/users/hackerd2020","html_url":"https://github.com/hackerd2020","followers_url":"https://api.github.com/users/hackerd2020/followers","following_url":"https://api.github.com/users/hackerd2020/following{/other_user}","gists_url":"https://api.github.com/users/hackerd2020/gists{/gist_id}","starred_url":"https://api.github.com/users/hackerd2020/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hackerd2020/subscriptions","organizations_url":"https://api.github.com/users/hackerd2020/orgs","repos_url":"https://api.github.com/users/hackerd2020/repos","events_url":"https://api.github.com/users/hackerd2020/events{/privacy}","received_events_url":"https://api.github.com/users/hackerd2020/received_events","type":"User","site_admin":false}]
+0
+

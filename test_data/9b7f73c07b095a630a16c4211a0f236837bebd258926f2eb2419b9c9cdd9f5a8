@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"862978ad12e1eb9d2b52f12e04f3fa0a"
-Last-Modified: Fri, 08 Jun 2018 11:48:19 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"39f6c174ef64518e7d4ffc67599a7062ffdc10bfb986bf9fe630a97479ab3a42"
+Last-Modified: Sat, 14 Nov 2020 12:26:51 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC0F:57C6:2FE58D8:64EDD85:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE16:B560:3C84573:45BCA4C:5FB01B1E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1923
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.026260
+X-Ratelimit-Remaining: 3992
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1008
 X-Xss-Protection: 1; mode=block
 
-76
-{"D":10482881,"C":3429948,"HTML":1137203,"C++":439162,"Makefile":72140,"Shell":42473,"Objective-C":18832,"DTrace":547}
+84
+{"D":15580111,"HTML":1441223,"C++":522098,"Shell":64193,"Makefile":52412,"C":28550,"Batchfile":4692,"Objective-C":2000,"DTrace":547}
 0
 

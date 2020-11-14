@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:29 GMT
-Etag: W/"a9e278a328f5b6fb79867777b3c5ee55"
-Last-Modified: Fri, 08 Jun 2018 17:57:08 GMT
+Date: Sat, 14 Nov 2020 18:05:40 GMT
+Etag: W/"9d4c2d141034bf74c1cf09da2559d34a11e3275f741f7b7bdd1d0b8e31410503"
+Last-Modified: Thu, 22 Oct 2020 11:04:27 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA0D:57C4:23B9E93:50D0DD2:5B1B8A84
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF87:13F4:3D24670:4679D26:5FB01C74
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3665
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033236
+X-Ratelimit-Remaining: 2420
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2580
 X-Xss-Protection: 1; mode=block
 
-76e
-[{"name":"v1.0.2","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.2","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.2","commit":{"sha":"fcfcdc8606f72338af416b4bafce24d6290dc974","url":"https://api.github.com/repos/huntlabs/hunt/commits/fcfcdc8606f72338af416b4bafce24d6290dc974"},"node_id":"MDM6UmVmNTg0NDIwMzk6djEuMC4y"},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.1","commit":{"sha":"3a80e68d93f15a5307750889d78cdd077e9d0a23","url":"https://api.github.com/repos/huntlabs/hunt/commits/3a80e68d93f15a5307750889d78cdd077e9d0a23"},"node_id":"MDM6UmVmNTg0NDIwMzk6djEuMC4x"},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.0","commit":{"sha":"80b6e0887652b0cc203cb87db5ac5747b3326a45","url":"https://api.github.com/repos/huntlabs/hunt/commits/80b6e0887652b0cc203cb87db5ac5747b3326a45"},"node_id":"MDM6UmVmNTg0NDIwMzk6djEuMC4w"},{"name":"v1.0.0-beta.2","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.0-beta.2","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.0-beta.2","commit":{"sha":"7b0a65f99f3f9756414dd5e2c95cc83692b7448d","url":"https://api.github.com/repos/huntlabs/hunt/commits/7b0a65f99f3f9756414dd5e2c95cc83692b7448d"},"node_id":"MDM6UmVmNTg0NDIwMzk6djEuMC4wLWJldGEuMg=="},{"name":"v1.0.0-beta.1","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.0-beta.1","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.0-beta.1","commit":{"sha":"9093bf4e053f3a3e7768c0ee6809fa9345060ca4","url":"https://api.github.com/repos/huntlabs/hunt/commits/9093bf4e053f3a3e7768c0ee6809fa9345060ca4"},"node_id":"MDM6UmVmNTg0NDIwMzk6djEuMC4wLWJldGEuMQ=="}]
+1397
+[{"name":"v1.6.6","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.6.6","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.6.6","commit":{"sha":"fe8881608b5ebdaad8335b7a5e1655a6c41ad923","url":"https://api.github.com/repos/huntlabs/hunt/commits/fe8881608b5ebdaad8335b7a5e1655a6c41ad923"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjYuNg=="},{"name":"v1.6.5","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.6.5","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.6.5","commit":{"sha":"ad051aeffb145d98c3f3cb7141bb50fa744f87e1","url":"https://api.github.com/repos/huntlabs/hunt/commits/ad051aeffb145d98c3f3cb7141bb50fa744f87e1"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjYuNQ=="},{"name":"v1.6.4","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.6.4","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.6.4","commit":{"sha":"4743f637d05663a4447eb5ffb82d363ccfe5c74e","url":"https://api.github.com/repos/huntlabs/hunt/commits/4743f637d05663a4447eb5ffb82d363ccfe5c74e"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjYuNA=="},{"name":"v1.6.3","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.6.3","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.6.3","commit":{"sha":"45c57174d1c7672b08dcd9b2e74bd053e618dece","url":"https://api.github.com/repos/huntlabs/hunt/commits/45c57174d1c7672b08dcd9b2e74bd053e618dece"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjYuMw=="},{"name":"v1.5.0","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.5.0","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.5.0","commit":{"sha":"4743f637d05663a4447eb5ffb82d363ccfe5c74e","url":"https://api.github.com/repos/huntlabs/hunt/commits/4743f637d05663a4447eb5ffb82d363ccfe5c74e"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjUuMA=="},{"name":"v1.5.0-beta.4","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.5.0-beta.4","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.5.0-beta.4","commit":{"sha":"232ca6835f13ce648225296732c06873a9c12866","url":"https://api.github.com/repos/huntlabs/hunt/commits/232ca6835f13ce648225296732c06873a9c12866"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjUuMC1iZXRhLjQ="},{"name":"v1.4.16","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.4.16","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.4.16","commit":{"sha":"542600fa1dc90d06c25d1764016646d75bb415de","url":"https://api.github.com/repos/huntlabs/hunt/commits/542600fa1dc90d06c25d1764016646d75bb415de"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjQuMTY="},{"name":"v1.4.15","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.4.15","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.4.15","commit":{"sha":"d2f984872d3b465f2e0003956dffa4b304c364ff","url":"https://api.github.com/repos/huntlabs/hunt/commits/d2f984872d3b465f2e0003956dffa4b304c364ff"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjQuMTU="},{"name":"v1.3.2","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.3.2","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.3.2","commit":{"sha":"0c2a1c6ad88d86f631b03d39b47df8d3e8dca8e9","url":"https://api.github.com/repos/huntlabs/hunt/commits/0c2a1c6ad88d86f631b03d39b47df8d3e8dca8e9"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjMuMg=="},{"name":"v1.2.3","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.2.3","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.2.3","commit":{"sha":"89032fde97d9f8970d48a3981b01c41f57abd58a","url":"https://api.github.com/repos/huntlabs/hunt/commits/89032fde97d9f8970d48a3981b01c41f57abd58a"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjIuMw=="},{"name":"v1.2.0","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.2.0","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.2.0","commit":{"sha":"dd71932124e38f26279c302fdfb808fce96ce16a","url":"https://api.github.com/repos/huntlabs/hunt/commits/dd71932124e38f26279c302fdfb808fce96ce16a"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjIuMA=="},{"name":"v1.1.2","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.1.2","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.1.2","commit":{"sha":"3d5a33028d59884c890804bc4f8e19c72e150331","url":"https://api.github.com/repos/huntlabs/hunt/commits/3d5a33028d59884c890804bc4f8e19c72e150331"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjEuMg=="},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/huntlabs/hunt/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/huntlabs/hunt/tarball/v1.0.0","commit":{"sha":"00e79473566e497d593216f4409dc8d60901644e","url":"https://api.github.com/repos/huntlabs/hunt/commits/00e79473566e497d593216f4409dc8d60901644e"},"node_id":"MDM6UmVmODQzODk0Mzc6cmVmcy90YWdzL3YxLjAuMA=="}]
 0
 

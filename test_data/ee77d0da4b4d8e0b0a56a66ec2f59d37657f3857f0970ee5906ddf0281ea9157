@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:22 GMT
-Etag: W/"705343b2e5d9fd3be58f0000dea9cc4f"
-Last-Modified: Tue, 29 May 2018 23:45:33 GMT
+Date: Sat, 14 Nov 2020 18:06:08 GMT
+Etag: W/"08191aa2a52cca255de04c25f04f933c83e362694ab4db90f7db8a12ace560d2"
+Last-Modified: Tue, 20 Oct 2020 02:05:39 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAC5:57C4:23BA961:50D2B72:5B1B8ABA
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFB6:41F3:1ED81EE:23A2D02:5FB01C90
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3144
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033429
+X-Ratelimit-Remaining: 2055
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2945
 X-Xss-Protection: 1; mode=block
 
-528
-{"login":"patriciomacadden","id":321978,"node_id":"MDQ6VXNlcjMyMTk3OA==","avatar_url":"https://avatars2.githubusercontent.com/u/321978?v=4","gravatar_id":"","url":"https://api.github.com/users/patriciomacadden","html_url":"https://github.com/patriciomacadden","followers_url":"https://api.github.com/users/patriciomacadden/followers","following_url":"https://api.github.com/users/patriciomacadden/following{/other_user}","gists_url":"https://api.github.com/users/patriciomacadden/gists{/gist_id}","starred_url":"https://api.github.com/users/patriciomacadden/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patriciomacadden/subscriptions","organizations_url":"https://api.github.com/users/patriciomacadden/orgs","repos_url":"https://api.github.com/users/patriciomacadden/repos","events_url":"https://api.github.com/users/patriciomacadden/events{/privacy}","received_events_url":"https://api.github.com/users/patriciomacadden/received_events","type":"User","site_admin":false,"name":"Patricio Mac Adden","company":null,"blog":"http://about.me/patriciomacadden","location":"La Plata, Argentina","email":"patriciomacadden@gmail.com","hireable":true,"bio":null,"public_repos":72,"public_gists":1,"followers":81,"following":194,"created_at":"2010-07-03T16:26:45Z","updated_at":"2018-05-29T23:45:33Z"}
+535
+{"login":"patriciomacadden","id":321978,"node_id":"MDQ6VXNlcjMyMTk3OA==","avatar_url":"https://avatars2.githubusercontent.com/u/321978?v=4","gravatar_id":"","url":"https://api.github.com/users/patriciomacadden","html_url":"https://github.com/patriciomacadden","followers_url":"https://api.github.com/users/patriciomacadden/followers","following_url":"https://api.github.com/users/patriciomacadden/following{/other_user}","gists_url":"https://api.github.com/users/patriciomacadden/gists{/gist_id}","starred_url":"https://api.github.com/users/patriciomacadden/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patriciomacadden/subscriptions","organizations_url":"https://api.github.com/users/patriciomacadden/orgs","repos_url":"https://api.github.com/users/patriciomacadden/repos","events_url":"https://api.github.com/users/patriciomacadden/events{/privacy}","received_events_url":"https://api.github.com/users/patriciomacadden/received_events","type":"User","site_admin":false,"name":"Patricio Mac Adden","company":"@sinaptia","blog":"https://sinaptia.dev","location":"La Plata, Argentina","email":"patricio@sinaptia.dev","hireable":true,"bio":null,"twitter_username":null,"public_repos":75,"public_gists":1,"followers":90,"following":66,"created_at":"2010-07-03T16:26:45Z","updated_at":"2020-10-20T02:05:39Z"}
 0
 

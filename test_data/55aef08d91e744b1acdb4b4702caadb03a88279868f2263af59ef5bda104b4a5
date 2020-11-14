@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:18 GMT
-Etag: W/"9e38b0a778072c96f4dd8dbe63b28518"
-Last-Modified: Wed, 25 Apr 2018 15:31:54 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"c9a9c36760bd609c51c075324b3fb1eff2f37946f0a732489254419658d1f1bd"
+Last-Modified: Sat, 14 Nov 2020 16:18:38 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9DC:57C4:23B9C72:50D083A:5B1B8A7A
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE51:E4B6:1F0FA1B:23C1C48:5FB01B85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3908
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.050603
+X-Ratelimit-Remaining: 3337
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1663
 X-Xss-Protection: 1; mode=block
 
-bd0
-[{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.7","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.7","commit":{"sha":"d7d9c72fc9c75b44b6ae14f79761e5906d4df19a","url":"https://api.github.com/repos/splink/pagelets/commits/d7d9c72fc9c75b44b6ae14f79761e5906d4df19a"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC43"},{"name":"v0.0.7-SNAPSHOT","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.7-SNAPSHOT","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.7-SNAPSHOT","commit":{"sha":"418c24f081c0fa9cbf4f0b949bf86c39661fc259","url":"https://api.github.com/repos/splink/pagelets/commits/418c24f081c0fa9cbf4f0b949bf86c39661fc259"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC43LVNOQVBTSE9U"},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.6","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.6","commit":{"sha":"f078437e14d44ed560e55dd73c9ed595dd98772c","url":"https://api.github.com/repos/splink/pagelets/commits/f078437e14d44ed560e55dd73c9ed595dd98772c"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC42"},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.5","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.5","commit":{"sha":"121a260bd189a1eabff37b593df296542dec5340","url":"https://api.github.com/repos/splink/pagelets/commits/121a260bd189a1eabff37b593df296542dec5340"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC41"},{"name":"v0.0.4","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.4","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.4","commit":{"sha":"e88928f6f89a2956546aa75f208cedf1a0e55576","url":"https://api.github.com/repos/splink/pagelets/commits/e88928f6f89a2956546aa75f208cedf1a0e55576"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC40"},{"name":"v0.0.3","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.3","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.3","commit":{"sha":"62dd68a6a942192f8bd9eca49cc1134ab87f2336","url":"https://api.github.com/repos/splink/pagelets/commits/62dd68a6a942192f8bd9eca49cc1134ab87f2336"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC4z"},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.2","commit":{"sha":"1a1db790bcc2060376e206eaf6591272c308aec7","url":"https://api.github.com/repos/splink/pagelets/commits/1a1db790bcc2060376e206eaf6591272c308aec7"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC4y"},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.1","commit":{"sha":"7e076f0a81da8b1136887fa9c0148148d77066f5","url":"https://api.github.com/repos/splink/pagelets/commits/7e076f0a81da8b1136887fa9c0148148d77066f5"},"node_id":"MDM6UmVmNjk4OTUzMDQ6djAuMC4x"}]
+f5a
+[{"name":"v0.0.9","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.9","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.9","commit":{"sha":"d646240446bae4250e5c8603e08cfcb5ca6eabcd","url":"https://api.github.com/repos/splink/pagelets/commits/d646240446bae4250e5c8603e08cfcb5ca6eabcd"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuOQ=="},{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.8","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.8","commit":{"sha":"17532888297af1881de8bd29924a269b7c42b617","url":"https://api.github.com/repos/splink/pagelets/commits/17532888297af1881de8bd29924a269b7c42b617"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuOA=="},{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.7","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.7","commit":{"sha":"d7d9c72fc9c75b44b6ae14f79761e5906d4df19a","url":"https://api.github.com/repos/splink/pagelets/commits/d7d9c72fc9c75b44b6ae14f79761e5906d4df19a"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuNw=="},{"name":"v0.0.7-SNAPSHOT","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.7-SNAPSHOT","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.7-SNAPSHOT","commit":{"sha":"418c24f081c0fa9cbf4f0b949bf86c39661fc259","url":"https://api.github.com/repos/splink/pagelets/commits/418c24f081c0fa9cbf4f0b949bf86c39661fc259"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuNy1TTkFQU0hPVA=="},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.6","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.6","commit":{"sha":"f078437e14d44ed560e55dd73c9ed595dd98772c","url":"https://api.github.com/repos/splink/pagelets/commits/f078437e14d44ed560e55dd73c9ed595dd98772c"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuNg=="},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.5","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.5","commit":{"sha":"121a260bd189a1eabff37b593df296542dec5340","url":"https://api.github.com/repos/splink/pagelets/commits/121a260bd189a1eabff37b593df296542dec5340"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuNQ=="},{"name":"v0.0.4","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.4","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.4","commit":{"sha":"e88928f6f89a2956546aa75f208cedf1a0e55576","url":"https://api.github.com/repos/splink/pagelets/commits/e88928f6f89a2956546aa75f208cedf1a0e55576"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuNA=="},{"name":"v0.0.3","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.3","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.3","commit":{"sha":"62dd68a6a942192f8bd9eca49cc1134ab87f2336","url":"https://api.github.com/repos/splink/pagelets/commits/62dd68a6a942192f8bd9eca49cc1134ab87f2336"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuMw=="},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.2","commit":{"sha":"1a1db790bcc2060376e206eaf6591272c308aec7","url":"https://api.github.com/repos/splink/pagelets/commits/1a1db790bcc2060376e206eaf6591272c308aec7"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuMg=="},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/splink/pagelets/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/splink/pagelets/tarball/v0.0.1","commit":{"sha":"7e076f0a81da8b1136887fa9c0148148d77066f5","url":"https://api.github.com/repos/splink/pagelets/commits/7e076f0a81da8b1136887fa9c0148148d77066f5"},"node_id":"MDM6UmVmNjk4OTUzMDQ6cmVmcy90YWdzL3YwLjAuMQ=="}]
 0
 

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:15 GMT
-Etag: W/"36e288328e5a8e55da254a7aa2ef8652"
-Last-Modified: Sat, 09 Jun 2018 05:24:30 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"89b68ac972171a3f967d61f41adff0fcf8ab18bd991b28ee92123a9174ccbdbb"
+Last-Modified: Sun, 08 Nov 2020 20:22:30 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD23:57C5:373198F:71A55C9:5B1B8B67
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CA:F077:1E5E86D:2307473:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1380
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.046842
+X-Ratelimit-Remaining: 175
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4825
 X-Xss-Protection: 1; mode=block
 
-4ac
-{"login":"decebals","id":1248311,"node_id":"MDQ6VXNlcjEyNDgzMTE=","avatar_url":"https://avatars3.githubusercontent.com/u/1248311?v=4","gravatar_id":"","url":"https://api.github.com/users/decebals","html_url":"https://github.com/decebals","followers_url":"https://api.github.com/users/decebals/followers","following_url":"https://api.github.com/users/decebals/following{/other_user}","gists_url":"https://api.github.com/users/decebals/gists{/gist_id}","starred_url":"https://api.github.com/users/decebals/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/decebals/subscriptions","organizations_url":"https://api.github.com/users/decebals/orgs","repos_url":"https://api.github.com/users/decebals/repos","events_url":"https://api.github.com/users/decebals/events{/privacy}","received_events_url":"https://api.github.com/users/decebals/received_events","type":"User","site_admin":false,"name":"Decebal Suiu","company":null,"blog":"http://decebal.suiu.ro","location":"Bucharest","email":"decebal.suiu@gmail.com","hireable":true,"bio":null,"public_repos":31,"public_gists":10,"followers":87,"following":12,"created_at":"2011-12-07T21:26:50Z","updated_at":"2018-06-09T05:24:30Z"}
+4c5
+{"login":"decebals","id":1248311,"node_id":"MDQ6VXNlcjEyNDgzMTE=","avatar_url":"https://avatars3.githubusercontent.com/u/1248311?v=4","gravatar_id":"","url":"https://api.github.com/users/decebals","html_url":"https://github.com/decebals","followers_url":"https://api.github.com/users/decebals/followers","following_url":"https://api.github.com/users/decebals/following{/other_user}","gists_url":"https://api.github.com/users/decebals/gists{/gist_id}","starred_url":"https://api.github.com/users/decebals/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/decebals/subscriptions","organizations_url":"https://api.github.com/users/decebals/orgs","repos_url":"https://api.github.com/users/decebals/repos","events_url":"https://api.github.com/users/decebals/events{/privacy}","received_events_url":"https://api.github.com/users/decebals/received_events","type":"User","site_admin":false,"name":"Decebal Suiu","company":null,"blog":"http://decebal.suiu.ro","location":"Bucharest","email":"decebal.suiu@gmail.com","hireable":true,"bio":null,"twitter_username":null,"public_repos":32,"public_gists":11,"followers":105,"following":14,"created_at":"2011-12-07T21:26:50Z","updated_at":"2020-11-08T20:22:30Z"}
 0
 

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Jul 2018 02:33:21 GMT
-Etag: W/"3006fa6553a196095ebf50288991a14f"
-Last-Modified: Tue, 03 Jul 2018 02:22:56 GMT
+Date: Sat, 14 Nov 2020 18:06:30 GMT
+Etag: W/"7e4f9b10e72ab985f4bd81d4c557fc92f7a4ee706d20601b618656f384efa7f4"
+Last-Modified: Sat, 14 Nov 2020 13:36:22 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C1A4:77E8:3812B5C:6F4974C:5B3AE071
-X-Oauth-Scopes: 
+X-Github-Request-Id: D0A1:072B:724108:83FC61:5FB01CA6
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4979
-X-Ratelimit-Reset: 1530588801
-X-Runtime-Rack: 0.040881
+X-Ratelimit-Remaining: 1648
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3352
 X-Xss-Protection: 1; mode=block
 
-9e
-{"C++":38958113,"JavaScript":9473614,"Python":2298607,"Go":1566145,"Shell":62358,"C":42258,"Ruby":9985,"Batchfile":1200,"PowerShell":441,"HTML":392,"GDB":308}
+d0
+{"C++":54864560,"JavaScript":15384164,"Python":3580171,"Yacc":90059,"TLA":70117,"C":69804,"Java":54337,"Shell":42782,"Rich Text Format":31575,"Ruby":10216,"PowerShell":1558,"HTML":392,"GDB":308,"Batchfile":8}
 0
 

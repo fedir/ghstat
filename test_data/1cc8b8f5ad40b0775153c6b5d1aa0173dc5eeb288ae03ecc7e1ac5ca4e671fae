@@ -1,32 +1,34 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:26 GMT
-Etag: W/"6ad5cb1a379e066b46c9971240d294c1"
-Last-Modified: Sat, 02 Jun 2018 16:18:08 GMT
+Date: Sat, 14 Nov 2020 18:06:12 GMT
+Etag: W/"53eeb5ce5df952f2e801d2e9f1669baf7a2c2b9d0cced1feb5d362369d0dc890"
+Last-Modified: Sat, 24 Oct 2020 21:48:09 GMT
 Link: <https://api.github.com/repositories/60797210/tags?page=1>; rel="prev", <https://api.github.com/repositories/60797210/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CABA:57C5:372C004:719B860:5B1B8ABE
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFAD:072E:3B6A194:448481B:5FB01C94
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2951
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.032730
+X-Ratelimit-Remaining: 1913
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3087
 X-Xss-Protection: 1; mode=block
 
-32d
-[{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.2","commit":{"sha":"bfcb4eb832d1842c8319a3c9e8e38327755a8136","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/bfcb4eb832d1842c8319a3c9e8e38327755a8136"},"node_id":"MDM6UmVmNjA3OTcyMTA6djAuMC4y"},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.1","commit":{"sha":"9200d46154728b8329167bf81ee782dd38cc8845","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/9200d46154728b8329167bf81ee782dd38cc8845"},"node_id":"MDM6UmVmNjA3OTcyMTA6djAuMC4x"}]
+34d
+[{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.2","commit":{"sha":"bfcb4eb832d1842c8319a3c9e8e38327755a8136","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/bfcb4eb832d1842c8319a3c9e8e38327755a8136"},"node_id":"MDM6UmVmNjA3OTcyMTA6cmVmcy90YWdzL3YwLjAuMg=="},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/tarball/v0.0.1","commit":{"sha":"9200d46154728b8329167bf81ee782dd38cc8845","url":"https://api.github.com/repos/ruby-hyperloop/hyper-react/commits/9200d46154728b8329167bf81ee782dd38cc8845"},"node_id":"MDM6UmVmNjA3OTcyMTA6cmVmcy90YWdzL3YwLjAuMQ=="}]
 0
 

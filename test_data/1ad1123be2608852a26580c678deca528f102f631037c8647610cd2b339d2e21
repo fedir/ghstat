@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:45 GMT
+Etag: W/"32353640810a19d5359fb320a54b0625a5cf3d35df8e21ec4164f5ea8cb5ff47"
+Link: <https://api.github.com/user/497130/followers?page=1>; rel="prev", <https://api.github.com/user/497130/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE51:E4B6:1F0FC3F:23C1EC4:5FB01B89
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3168
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1832
+X-Xss-Protection: 1; mode=block
+
+3a8
+[{"login":"programaker","id":83928,"node_id":"MDQ6VXNlcjgzOTI4","avatar_url":"https://avatars0.githubusercontent.com/u/83928?v=4","gravatar_id":"","url":"https://api.github.com/users/programaker","html_url":"https://github.com/programaker","followers_url":"https://api.github.com/users/programaker/followers","following_url":"https://api.github.com/users/programaker/following{/other_user}","gists_url":"https://api.github.com/users/programaker/gists{/gist_id}","starred_url":"https://api.github.com/users/programaker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/programaker/subscriptions","organizations_url":"https://api.github.com/users/programaker/orgs","repos_url":"https://api.github.com/users/programaker/repos","events_url":"https://api.github.com/users/programaker/events{/privacy}","received_events_url":"https://api.github.com/users/programaker/received_events","type":"User","site_admin":false}]
+0
+

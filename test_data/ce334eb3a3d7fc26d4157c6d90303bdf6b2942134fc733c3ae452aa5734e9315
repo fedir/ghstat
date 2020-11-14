@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:27 GMT
-Etag: W/"6ca94c08b6a1f27a40df9f7104614d7c"
-Last-Modified: Mon, 04 Jun 2018 04:09:54 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"6eeb8efe780634083c422832cc75d6b4e44e39a71b01cda23973d60cede8c08e"
+Last-Modified: Sat, 14 Nov 2020 12:21:57 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8F1:57C5:3727A64:71938C8:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE4E:5C53:3F3FC57:48D7321:5FB01B84
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4344
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.054711
+X-Ratelimit-Remaining: 3365
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1635
 X-Xss-Protection: 1; mode=block
 
-49f
-{"login":"tindzk","id":196819,"node_id":"MDQ6VXNlcjE5NjgxOQ==","avatar_url":"https://avatars2.githubusercontent.com/u/196819?v=4","gravatar_id":"","url":"https://api.github.com/users/tindzk","html_url":"https://github.com/tindzk","followers_url":"https://api.github.com/users/tindzk/followers","following_url":"https://api.github.com/users/tindzk/following{/other_user}","gists_url":"https://api.github.com/users/tindzk/gists{/gist_id}","starred_url":"https://api.github.com/users/tindzk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tindzk/subscriptions","organizations_url":"https://api.github.com/users/tindzk/orgs","repos_url":"https://api.github.com/users/tindzk/repos","events_url":"https://api.github.com/users/tindzk/events{/privacy}","received_events_url":"https://api.github.com/users/tindzk/received_events","type":"User","site_admin":false,"name":"Tim Nieradzik","company":"@oradian ","blog":"http://nieradzik.me/","location":null,"email":"tim@nieradzik.me","hireable":true,"bio":"NLP and FP Enthusiast","public_repos":93,"public_gists":15,"followers":71,"following":111,"created_at":"2010-02-04T16:01:44Z","updated_at":"2018-06-04T04:09:54Z"}
+4de
+{"login":"tindzk","id":196819,"node_id":"MDQ6VXNlcjE5NjgxOQ==","avatar_url":"https://avatars2.githubusercontent.com/u/196819?v=4","gravatar_id":"","url":"https://api.github.com/users/tindzk","html_url":"https://github.com/tindzk","followers_url":"https://api.github.com/users/tindzk/followers","following_url":"https://api.github.com/users/tindzk/following{/other_user}","gists_url":"https://api.github.com/users/tindzk/gists{/gist_id}","starred_url":"https://api.github.com/users/tindzk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tindzk/subscriptions","organizations_url":"https://api.github.com/users/tindzk/orgs","repos_url":"https://api.github.com/users/tindzk/repos","events_url":"https://api.github.com/users/tindzk/events{/privacy}","received_events_url":"https://api.github.com/users/tindzk/received_events","type":"User","site_admin":false,"name":"Tim Nieradzik","company":null,"blog":"http://nieradzik.me/","location":"Sheffield, United Kingdom","email":"tim@nieradzik.me","hireable":true,"bio":"\r\n    CompNeur, NLP and FP Enthusiast\r\n","twitter_username":null,"public_repos":111,"public_gists":20,"followers":94,"following":152,"created_at":"2010-02-04T16:01:44Z","updated_at":"2020-11-14T12:21:57Z"}
 0
 

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:30 GMT
+Etag: W/"0bbe9b1bd2897daf65279d7a71959456c6edc4530c6c586f64ac9d7b1c790bf2"
+Link: <https://api.github.com/user/6705016/followers?page=1>; rel="prev", <https://api.github.com/user/6705016/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D172:072E:3B7573D:4491F6A:5FB01D1E
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1140
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3860
+X-Xss-Protection: 1; mode=block
+
+b80
+[{"login":"some1suspicious","id":34415789,"node_id":"MDQ6VXNlcjM0NDE1Nzg5","avatar_url":"https://avatars1.githubusercontent.com/u/34415789?v=4","gravatar_id":"","url":"https://api.github.com/users/some1suspicious","html_url":"https://github.com/some1suspicious","followers_url":"https://api.github.com/users/some1suspicious/followers","following_url":"https://api.github.com/users/some1suspicious/following{/other_user}","gists_url":"https://api.github.com/users/some1suspicious/gists{/gist_id}","starred_url":"https://api.github.com/users/some1suspicious/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/some1suspicious/subscriptions","organizations_url":"https://api.github.com/users/some1suspicious/orgs","repos_url":"https://api.github.com/users/some1suspicious/repos","events_url":"https://api.github.com/users/some1suspicious/events{/privacy}","received_events_url":"https://api.github.com/users/some1suspicious/received_events","type":"User","site_admin":false},{"login":"MafujShikder","id":34533694,"node_id":"MDQ6VXNlcjM0NTMzNjk0","avatar_url":"https://avatars2.githubusercontent.com/u/34533694?v=4","gravatar_id":"","url":"https://api.github.com/users/MafujShikder","html_url":"https://github.com/MafujShikder","followers_url":"https://api.github.com/users/MafujShikder/followers","following_url":"https://api.github.com/users/MafujShikder/following{/other_user}","gists_url":"https://api.github.com/users/MafujShikder/gists{/gist_id}","starred_url":"https://api.github.com/users/MafujShikder/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MafujShikder/subscriptions","organizations_url":"https://api.github.com/users/MafujShikder/orgs","repos_url":"https://api.github.com/users/MafujShikder/repos","events_url":"https://api.github.com/users/MafujShikder/events{/privacy}","received_events_url":"https://api.github.com/users/MafujShikder/received_events","type":"User","site_admin":false},{"login":"geeksourcecodes","id":57898683,"node_id":"MDQ6VXNlcjU3ODk4Njgz","avatar_url":"https://avatars2.githubusercontent.com/u/57898683?v=4","gravatar_id":"","url":"https://api.github.com/users/geeksourcecodes","html_url":"https://github.com/geeksourcecodes","followers_url":"https://api.github.com/users/geeksourcecodes/followers","following_url":"https://api.github.com/users/geeksourcecodes/following{/other_user}","gists_url":"https://api.github.com/users/geeksourcecodes/gists{/gist_id}","starred_url":"https://api.github.com/users/geeksourcecodes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geeksourcecodes/subscriptions","organizations_url":"https://api.github.com/users/geeksourcecodes/orgs","repos_url":"https://api.github.com/users/geeksourcecodes/repos","events_url":"https://api.github.com/users/geeksourcecodes/events{/privacy}","received_events_url":"https://api.github.com/users/geeksourcecodes/received_events","type":"User","site_admin":false}]
+0
+

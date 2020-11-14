@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:29 GMT
-Etag: W/"93b7e7c10378ca36fe16f68aaa4743c8"
-Last-Modified: Mon, 30 Apr 2018 11:08:51 GMT
+Date: Sat, 14 Nov 2020 18:08:53 GMT
+Etag: W/"1e46f4ed748f5a5deac5c7c7efef35600a04f73b6a3a4c925057b2254d0b84cb"
+Last-Modified: Mon, 14 Sep 2020 06:14:51 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB6A:57C5:372E203:719F41D:5B1B8AFD
-X-Oauth-Scopes: 
+X-Github-Request-Id: D18A:5C52:2038912:2512E65:5FB01D35
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2370
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.048080
+X-Ratelimit-Remaining: 841
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4159
 X-Xss-Protection: 1; mode=block
 
-2ef
-[{"name":"v0.2","zipball_url":"https://api.github.com/repos/appwilldev/moochine/zipball/v0.2","tarball_url":"https://api.github.com/repos/appwilldev/moochine/tarball/v0.2","commit":{"sha":"22dd160ad88892e7f35a0dd876d8802620b22397","url":"https://api.github.com/repos/appwilldev/moochine/commits/22dd160ad88892e7f35a0dd876d8802620b22397"},"node_id":"MDM6UmVmMzM5Mzk0Nzp2MC4y"},{"name":"v0.1","zipball_url":"https://api.github.com/repos/appwilldev/moochine/zipball/v0.1","tarball_url":"https://api.github.com/repos/appwilldev/moochine/tarball/v0.1","commit":{"sha":"3e8476391739a6bff4213213701d6b8af843c7be","url":"https://api.github.com/repos/appwilldev/moochine/commits/3e8476391739a6bff4213213701d6b8af843c7be"},"node_id":"MDM6UmVmMzM5Mzk0Nzp2MC4x"}]
+30f
+[{"name":"v0.2","zipball_url":"https://api.github.com/repos/appwilldev/moochine/zipball/v0.2","tarball_url":"https://api.github.com/repos/appwilldev/moochine/tarball/v0.2","commit":{"sha":"22dd160ad88892e7f35a0dd876d8802620b22397","url":"https://api.github.com/repos/appwilldev/moochine/commits/22dd160ad88892e7f35a0dd876d8802620b22397"},"node_id":"MDM6UmVmMzM5Mzk0NzpyZWZzL3RhZ3MvdjAuMg=="},{"name":"v0.1","zipball_url":"https://api.github.com/repos/appwilldev/moochine/zipball/v0.1","tarball_url":"https://api.github.com/repos/appwilldev/moochine/tarball/v0.1","commit":{"sha":"3e8476391739a6bff4213213701d6b8af843c7be","url":"https://api.github.com/repos/appwilldev/moochine/commits/3e8476391739a6bff4213213701d6b8af843c7be"},"node_id":"MDM6UmVmMzM5Mzk0NzpyZWZzL3RhZ3MvdjAuMQ=="}]
 0
 

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:14 GMT
-Etag: W/"e6cb6963f0f7f01f5de731c0b97535dd"
-Last-Modified: Sat, 09 Jun 2018 07:35:52 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"0707f265716f553fa412482f270417909ea62342aa8d6468acc90d6a5fbf474a"
+Last-Modified: Sat, 14 Nov 2020 14:04:45 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD21:57C5:3731949:71A553F:5B1B8B66
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CE:5C53:3F76BE9:4917542:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1390
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033575
+X-Ratelimit-Remaining: 172
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4828
 X-Xss-Protection: 1; mode=block
 
-48c
-{"login":"andrus","id":42668,"node_id":"MDQ6VXNlcjQyNjY4","avatar_url":"https://avatars1.githubusercontent.com/u/42668?v=4","gravatar_id":"","url":"https://api.github.com/users/andrus","html_url":"https://github.com/andrus","followers_url":"https://api.github.com/users/andrus/followers","following_url":"https://api.github.com/users/andrus/following{/other_user}","gists_url":"https://api.github.com/users/andrus/gists{/gist_id}","starred_url":"https://api.github.com/users/andrus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrus/subscriptions","organizations_url":"https://api.github.com/users/andrus/orgs","repos_url":"https://api.github.com/users/andrus/repos","events_url":"https://api.github.com/users/andrus/events{/privacy}","received_events_url":"https://api.github.com/users/andrus/received_events","type":"User","site_admin":false,"name":"Andrus Adamchik","company":"ObjectStyle","blog":"https://objectstyle.com","location":"Twitter: @andrus_a","email":null,"hireable":null,"bio":null,"public_repos":31,"public_gists":5,"followers":50,"following":7,"created_at":"2008-12-25T20:26:58Z","updated_at":"2018-06-09T07:35:52Z"}
+4a4
+{"login":"andrus","id":42668,"node_id":"MDQ6VXNlcjQyNjY4","avatar_url":"https://avatars1.githubusercontent.com/u/42668?v=4","gravatar_id":"","url":"https://api.github.com/users/andrus","html_url":"https://github.com/andrus","followers_url":"https://api.github.com/users/andrus/followers","following_url":"https://api.github.com/users/andrus/following{/other_user}","gists_url":"https://api.github.com/users/andrus/gists{/gist_id}","starred_url":"https://api.github.com/users/andrus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andrus/subscriptions","organizations_url":"https://api.github.com/users/andrus/orgs","repos_url":"https://api.github.com/users/andrus/repos","events_url":"https://api.github.com/users/andrus/events{/privacy}","received_events_url":"https://api.github.com/users/andrus/received_events","type":"User","site_admin":false,"name":"Andrus Adamchik","company":"ObjectStyle","blog":"https://objectstyle.com","location":"Twitter: @andrus_a","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":39,"public_gists":5,"followers":55,"following":6,"created_at":"2008-12-25T20:26:58Z","updated_at":"2020-11-14T14:04:45Z"}
 0
 

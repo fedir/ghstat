@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:46 GMT
+Etag: W/"d0d47bc3e442cdd68f741b201fd5acf990e185f3f68761e4855ac8b09928f6fa"
+Link: <https://api.github.com/user/1098539/followers?page=11>; rel="prev", <https://api.github.com/user/1098539/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE50:2940:11CF1B:14DD77:5FB01B8A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3143
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1857
+X-Xss-Protection: 1; mode=block
+
+3a4
+[{"login":"visortelle","id":9302460,"node_id":"MDQ6VXNlcjkzMDI0NjA=","avatar_url":"https://avatars2.githubusercontent.com/u/9302460?v=4","gravatar_id":"","url":"https://api.github.com/users/visortelle","html_url":"https://github.com/visortelle","followers_url":"https://api.github.com/users/visortelle/followers","following_url":"https://api.github.com/users/visortelle/following{/other_user}","gists_url":"https://api.github.com/users/visortelle/gists{/gist_id}","starred_url":"https://api.github.com/users/visortelle/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/visortelle/subscriptions","organizations_url":"https://api.github.com/users/visortelle/orgs","repos_url":"https://api.github.com/users/visortelle/repos","events_url":"https://api.github.com/users/visortelle/events{/privacy}","received_events_url":"https://api.github.com/users/visortelle/received_events","type":"User","site_admin":false}]
+0
+

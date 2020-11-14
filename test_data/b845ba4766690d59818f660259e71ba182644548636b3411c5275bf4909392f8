@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:20 GMT
-Etag: W/"55d9e8983d97dc48e75092b15670c717"
-Last-Modified: Fri, 18 May 2018 17:54:49 GMT
+Date: Sat, 14 Nov 2020 18:08:38 GMT
+Etag: W/"c8245fc2d9ee91834160e629acaa2e763d7a175e5429906fc105ed1173531168"
+Last-Modified: Wed, 11 Nov 2020 10:40:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB54:57C4:23BB372:50D4714:5B1B8AF3
-X-Oauth-Scopes: 
+X-Github-Request-Id: D179:41F4:3DA0E71:4706F19:5FB01D26
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2548
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040190
+X-Ratelimit-Remaining: 1038
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3962
 X-Xss-Protection: 1; mode=block
 
-490
-{"login":"agocorona","id":522634,"node_id":"MDQ6VXNlcjUyMjYzNA==","avatar_url":"https://avatars0.githubusercontent.com/u/522634?v=4","gravatar_id":"","url":"https://api.github.com/users/agocorona","html_url":"https://github.com/agocorona","followers_url":"https://api.github.com/users/agocorona/followers","following_url":"https://api.github.com/users/agocorona/following{/other_user}","gists_url":"https://api.github.com/users/agocorona/gists{/gist_id}","starred_url":"https://api.github.com/users/agocorona/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agocorona/subscriptions","organizations_url":"https://api.github.com/users/agocorona/orgs","repos_url":"https://api.github.com/users/agocorona/repos","events_url":"https://api.github.com/users/agocorona/events{/privacy}","received_events_url":"https://api.github.com/users/agocorona/received_events","type":"User","site_admin":false,"name":"Alberto","company":null,"blog":"","location":null,"email":"agocorona@gmail.com","hireable":true,"bio":null,"public_repos":49,"public_gists":29,"followers":79,"following":2,"created_at":"2010-12-14T12:40:44Z","updated_at":"2018-05-18T17:54:49Z"}
+4a8
+{"login":"agocorona","id":522634,"node_id":"MDQ6VXNlcjUyMjYzNA==","avatar_url":"https://avatars0.githubusercontent.com/u/522634?v=4","gravatar_id":"","url":"https://api.github.com/users/agocorona","html_url":"https://github.com/agocorona","followers_url":"https://api.github.com/users/agocorona/followers","following_url":"https://api.github.com/users/agocorona/following{/other_user}","gists_url":"https://api.github.com/users/agocorona/gists{/gist_id}","starred_url":"https://api.github.com/users/agocorona/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agocorona/subscriptions","organizations_url":"https://api.github.com/users/agocorona/orgs","repos_url":"https://api.github.com/users/agocorona/repos","events_url":"https://api.github.com/users/agocorona/events{/privacy}","received_events_url":"https://api.github.com/users/agocorona/received_events","type":"User","site_admin":false,"name":"Alberto","company":null,"blog":"","location":null,"email":"agocorona@gmail.com","hireable":true,"bio":null,"twitter_username":null,"public_repos":52,"public_gists":39,"followers":88,"following":2,"created_at":"2010-12-14T12:40:44Z","updated_at":"2020-11-11T10:40:13Z"}
 0
 

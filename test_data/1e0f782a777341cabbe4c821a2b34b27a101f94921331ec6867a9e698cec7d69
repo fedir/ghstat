@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:02 GMT
-Etag: W/"67152068efc924f7c7c5fab4676c6147"
-Last-Modified: Wed, 04 Apr 2018 15:12:24 GMT
+Date: Sat, 14 Nov 2020 18:05:57 GMT
+Etag: W/"7259d1fa275751296fb2956014e426c5f0b663def243a17774f64660a0f3596b"
+Last-Modified: Wed, 28 Oct 2020 13:56:42 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAA0:57C6:2FE35E1:64E8A0B:5B1B8AA6
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFA4:13F3:1F61A83:242DA1A:5FB01C85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3372
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.054467
+X-Ratelimit-Remaining: 2279
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2721
 X-Xss-Protection: 1; mode=block
 
-490
-{"login":"defnull","id":62740,"node_id":"MDQ6VXNlcjYyNzQw","avatar_url":"https://avatars1.githubusercontent.com/u/62740?v=4","gravatar_id":"","url":"https://api.github.com/users/defnull","html_url":"https://github.com/defnull","followers_url":"https://api.github.com/users/defnull/followers","following_url":"https://api.github.com/users/defnull/following{/other_user}","gists_url":"https://api.github.com/users/defnull/gists{/gist_id}","starred_url":"https://api.github.com/users/defnull/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/defnull/subscriptions","organizations_url":"https://api.github.com/users/defnull/orgs","repos_url":"https://api.github.com/users/defnull/repos","events_url":"https://api.github.com/users/defnull/events{/privacy}","received_events_url":"https://api.github.com/users/defnull/received_events","type":"User","site_admin":false,"name":"Marcel Hellkamp","company":"GWDG Göttingen","blog":"http://bottlepy.org/","location":"Germany","email":null,"hireable":null,"bio":null,"public_repos":39,"public_gists":13,"followers":779,"following":3,"created_at":"2009-03-12T12:52:06Z","updated_at":"2018-04-04T15:12:24Z"}
+4a8
+{"login":"defnull","id":62740,"node_id":"MDQ6VXNlcjYyNzQw","avatar_url":"https://avatars1.githubusercontent.com/u/62740?v=4","gravatar_id":"","url":"https://api.github.com/users/defnull","html_url":"https://github.com/defnull","followers_url":"https://api.github.com/users/defnull/followers","following_url":"https://api.github.com/users/defnull/following{/other_user}","gists_url":"https://api.github.com/users/defnull/gists{/gist_id}","starred_url":"https://api.github.com/users/defnull/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/defnull/subscriptions","organizations_url":"https://api.github.com/users/defnull/orgs","repos_url":"https://api.github.com/users/defnull/repos","events_url":"https://api.github.com/users/defnull/events{/privacy}","received_events_url":"https://api.github.com/users/defnull/received_events","type":"User","site_admin":false,"name":"Marcel Hellkamp","company":"GWDG Göttingen","blog":"http://bottlepy.org/","location":"Germany","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":48,"public_gists":13,"followers":834,"following":3,"created_at":"2009-03-12T12:52:06Z","updated_at":"2020-10-28T13:56:42Z"}
 0
 

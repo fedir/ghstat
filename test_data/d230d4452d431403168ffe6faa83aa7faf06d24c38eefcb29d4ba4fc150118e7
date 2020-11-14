@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:44 GMT
-Etag: W/"2f91162552221892de094f0ad3aa9362"
-Last-Modified: Thu, 15 Feb 2018 03:27:26 GMT
+Date: Sat, 14 Nov 2020 18:02:09 GMT
+Etag: W/"c78aaf9a006cc8dd5e262155504c8473601fc1eb74136b9a6ed04aa68d92185f"
+Last-Modified: Thu, 26 Dec 2019 14:51:01 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CBA1:57C5:372E883:71A0035:5B1B8B0C
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF16:F078:388567E:411F408:5FB01BA1
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2110
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.031951
+X-Ratelimit-Remaining: 2599
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2401
 X-Xss-Protection: 1; mode=block
 
-97
-{"JavaScript":1765644,"HTML":639757,"Groovy":521825,"CSS":177152,"ApacheConf":24139,"Ruby":4770,"Makefile":4561,"Java":1276,"Shell":610,"Batchfile":56}
+75
+{"JavaScript":1765851,"HTML":639550,"Groovy":521825,"CSS":177152,"Ruby":4770,"Makefile":4561,"Java":1276,"Shell":516}
 0
 

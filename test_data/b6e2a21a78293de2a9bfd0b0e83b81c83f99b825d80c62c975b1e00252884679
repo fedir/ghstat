@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:43 GMT
+Etag: W/"04af14ecb42387062762943dc128531a374c31301a8ce2468a6d68f9b89c4bc1"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE53:B560:3C8F077:45C915A:5FB01B87
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3262
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1738
+X-Xss-Protection: 1; mode=block
+
+b10
+[{"login":"earldouglas","id":424946,"node_id":"MDQ6VXNlcjQyNDk0Ng==","avatar_url":"https://avatars0.githubusercontent.com/u/424946?v=4","gravatar_id":"","url":"https://api.github.com/users/earldouglas","html_url":"https://github.com/earldouglas","followers_url":"https://api.github.com/users/earldouglas/followers","following_url":"https://api.github.com/users/earldouglas/following{/other_user}","gists_url":"https://api.github.com/users/earldouglas/gists{/gist_id}","starred_url":"https://api.github.com/users/earldouglas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/earldouglas/subscriptions","organizations_url":"https://api.github.com/users/earldouglas/orgs","repos_url":"https://api.github.com/users/earldouglas/repos","events_url":"https://api.github.com/users/earldouglas/events{/privacy}","received_events_url":"https://api.github.com/users/earldouglas/received_events","type":"User","site_admin":false},{"login":"accumanangel","id":16973129,"node_id":"MDQ6VXNlcjE2OTczMTI5","avatar_url":"https://avatars2.githubusercontent.com/u/16973129?v=4","gravatar_id":"","url":"https://api.github.com/users/accumanangel","html_url":"https://github.com/accumanangel","followers_url":"https://api.github.com/users/accumanangel/followers","following_url":"https://api.github.com/users/accumanangel/following{/other_user}","gists_url":"https://api.github.com/users/accumanangel/gists{/gist_id}","starred_url":"https://api.github.com/users/accumanangel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/accumanangel/subscriptions","organizations_url":"https://api.github.com/users/accumanangel/orgs","repos_url":"https://api.github.com/users/accumanangel/repos","events_url":"https://api.github.com/users/accumanangel/events{/privacy}","received_events_url":"https://api.github.com/users/accumanangel/received_events","type":"User","site_admin":false},{"login":"BubbaJuice","id":68205167,"node_id":"MDQ6VXNlcjY4MjA1MTY3","avatar_url":"https://avatars1.githubusercontent.com/u/68205167?v=4","gravatar_id":"","url":"https://api.github.com/users/BubbaJuice","html_url":"https://github.com/BubbaJuice","followers_url":"https://api.github.com/users/BubbaJuice/followers","following_url":"https://api.github.com/users/BubbaJuice/following{/other_user}","gists_url":"https://api.github.com/users/BubbaJuice/gists{/gist_id}","starred_url":"https://api.github.com/users/BubbaJuice/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BubbaJuice/subscriptions","organizations_url":"https://api.github.com/users/BubbaJuice/orgs","repos_url":"https://api.github.com/users/BubbaJuice/repos","events_url":"https://api.github.com/users/BubbaJuice/events{/privacy}","received_events_url":"https://api.github.com/users/BubbaJuice/received_events","type":"User","site_admin":false}]
+0
+

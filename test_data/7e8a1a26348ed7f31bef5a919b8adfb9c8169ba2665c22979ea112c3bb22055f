@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:43 GMT
-Etag: W/"2bbe33a01a88c827d3641dba6aea0ec6"
-Last-Modified: Thu, 07 Jun 2018 14:27:28 GMT
+Date: Sat, 14 Nov 2020 18:02:08 GMT
+Etag: W/"c454a3e25b9db460617fc75e7908d64c795a78813c5ffb382259164d8458b432"
+Last-Modified: Fri, 13 Nov 2020 14:20:57 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB98:57C3:1EE319C:44F7C98:5B1B8B0B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF0F:78A1:E9CABE:10C86F3:5FB01B9F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2151
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033532
+X-Ratelimit-Remaining: 2646
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2354
 X-Xss-Protection: 1; mode=block
 
-6a
-{"Java":23411013,"CSS":751133,"JavaScript":131503,"HTML":102174,"Python":33975,"Shell":14720,"Smarty":175}
+89
+{"Java":24319957,"SCSS":718155,"JavaScript":131865,"HTML":102077,"Shell":81587,"Batchfile":39946,"Python":34241,"CSS":34108,"Smarty":175}
 0
 

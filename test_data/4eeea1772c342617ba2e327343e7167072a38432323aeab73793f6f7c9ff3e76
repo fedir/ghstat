@@ -1,30 +1,32 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:17 GMT
-Etag: W/"eac133cc75914115a49b6456b123a139"
+Date: Sat, 14 Nov 2020 18:10:56 GMT
+Etag: W/"aeda6d83e6424323e9670b3cec2c961623d5ef1d92d74f5f6003e231826bc65a"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD2C:57C4:23BCA3B:50D7FBC:5B1B8B68
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CE:5C53:3F76FE6:49179D4:5FB01DB0
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1315
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.031964
+X-Ratelimit-Remaining: 107
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4893
 X-Xss-Protection: 1; mode=block
 
-3be
-[{"login":"sergey-belko","id":17887421,"node_id":"MDQ6VXNlcjE3ODg3NDIx","avatar_url":"https://avatars1.githubusercontent.com/u/17887421?v=4","gravatar_id":"","url":"https://api.github.com/users/sergey-belko","html_url":"https://github.com/sergey-belko","followers_url":"https://api.github.com/users/sergey-belko/followers","following_url":"https://api.github.com/users/sergey-belko/following{/other_user}","gists_url":"https://api.github.com/users/sergey-belko/gists{/gist_id}","starred_url":"https://api.github.com/users/sergey-belko/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sergey-belko/subscriptions","organizations_url":"https://api.github.com/users/sergey-belko/orgs","repos_url":"https://api.github.com/users/sergey-belko/repos","events_url":"https://api.github.com/users/sergey-belko/events{/privacy}","received_events_url":"https://api.github.com/users/sergey-belko/received_events","type":"User","site_admin":false}]
+717
+[{"login":"sergey-belko","id":17887421,"node_id":"MDQ6VXNlcjE3ODg3NDIx","avatar_url":"https://avatars1.githubusercontent.com/u/17887421?v=4","gravatar_id":"","url":"https://api.github.com/users/sergey-belko","html_url":"https://github.com/sergey-belko","followers_url":"https://api.github.com/users/sergey-belko/followers","following_url":"https://api.github.com/users/sergey-belko/following{/other_user}","gists_url":"https://api.github.com/users/sergey-belko/gists{/gist_id}","starred_url":"https://api.github.com/users/sergey-belko/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sergey-belko/subscriptions","organizations_url":"https://api.github.com/users/sergey-belko/orgs","repos_url":"https://api.github.com/users/sergey-belko/repos","events_url":"https://api.github.com/users/sergey-belko/events{/privacy}","received_events_url":"https://api.github.com/users/sergey-belko/received_events","type":"User","site_admin":false},{"login":"IRus","id":493656,"node_id":"MDQ6VXNlcjQ5MzY1Ng==","avatar_url":"https://avatars0.githubusercontent.com/u/493656?v=4","gravatar_id":"","url":"https://api.github.com/users/IRus","html_url":"https://github.com/IRus","followers_url":"https://api.github.com/users/IRus/followers","following_url":"https://api.github.com/users/IRus/following{/other_user}","gists_url":"https://api.github.com/users/IRus/gists{/gist_id}","starred_url":"https://api.github.com/users/IRus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/IRus/subscriptions","organizations_url":"https://api.github.com/users/IRus/orgs","repos_url":"https://api.github.com/users/IRus/repos","events_url":"https://api.github.com/users/IRus/events{/privacy}","received_events_url":"https://api.github.com/users/IRus/received_events","type":"User","site_admin":false}]
 0
 

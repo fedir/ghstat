@@ -1,28 +1,33 @@
 HTTP/1.1 200 OK
-Content-Length: 18
+Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:36 GMT
-Etag: "c7dfa19a220ba2f62970c56d2f398ed6"
-Last-Modified: Mon, 04 Jun 2018 19:42:36 GMT
+Date: Sat, 14 Nov 2020 18:01:55 GMT
+Etag: W/"1767466a41370a52fb67839e041169cf9acee84c28f06416e9f320323b067d97"
+Last-Modified: Tue, 10 Nov 2020 20:21:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C97D:57C4:23B91CC:50CEEB8:5B1B8A50
-X-Oauth-Scopes: 
+X-Github-Request-Id: CEB0:41F4:3D79EF2:46D9382:5FB01B93
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4153
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.047209
+X-Ratelimit-Remaining: 2943
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2057
 X-Xss-Protection: 1; mode=block
 
-{"Clojure":108029}
+1c
+{"Clojure":111021,"Nix":170}
+0
+

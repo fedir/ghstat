@@ -1,32 +1,34 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:23 GMT
-Etag: W/"3488402943c6b92098693371df07585a"
-Last-Modified: Wed, 06 Jun 2018 05:41:56 GMT
+Date: Sat, 14 Nov 2020 18:08:43 GMT
+Etag: W/"0cf1fe04060311112c0d92a5ed5348b74e6f03dd5a5742b5e29c4e824f4165f3"
+Last-Modified: Thu, 12 Nov 2020 22:52:40 GMT
 Link: <https://api.github.com/repositories/12626767/tags?page=1>; rel="prev", <https://api.github.com/repositories/12626767/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB58:57C6:2FE5162:64ECAA7:5B1B8AF7
-X-Oauth-Scopes: 
+X-Github-Request-Id: D17A:BAD3:3CFC911:463F3DF:5FB01D2B
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2481
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038743
+X-Ratelimit-Remaining: 969
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4031
 X-Xss-Protection: 1; mode=block
 
-a3b
-[{"name":"0.6.2.3","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.6.2.3","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.6.2.3","commit":{"sha":"ad4b8d61f78caf7bf47c9907a47fd5c32c38fca4","url":"https://api.github.com/repos/agrafix/Spock/commits/ad4b8d61f78caf7bf47c9907a47fd5c32c38fca4"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC42LjIuMw=="},{"name":"0.4.4.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.4.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.4.0","commit":{"sha":"317467479fe11bcfd267ca34f9897f28c4e91bad","url":"https://api.github.com/repos/agrafix/Spock/commits/317467479fe11bcfd267ca34f9897f28c4e91bad"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC40LjQuMA=="},{"name":"0.4.2.1","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.2.1","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.2.1","commit":{"sha":"419ff6d78d16ae7dc925fb55b0ec9e881250a038","url":"https://api.github.com/repos/agrafix/Spock/commits/419ff6d78d16ae7dc925fb55b0ec9e881250a038"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC40LjIuMQ=="},{"name":"0.4.2.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.2.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.2.0","commit":{"sha":"0f56e59036ff353454de19b111c3e879a5ad75db","url":"https://api.github.com/repos/agrafix/Spock/commits/0f56e59036ff353454de19b111c3e879a5ad75db"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC40LjIuMA=="},{"name":"0.4.1.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.1.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.1.0","commit":{"sha":"1c0378bcd39c454d2c1020ccb06a03a6100df551","url":"https://api.github.com/repos/agrafix/Spock/commits/1c0378bcd39c454d2c1020ccb06a03a6100df551"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC40LjEuMA=="},{"name":"0.4.0.1","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.0.1","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.0.1","commit":{"sha":"52ba2aecde58ad79ee7cb7433d62be492c1241de","url":"https://api.github.com/repos/agrafix/Spock/commits/52ba2aecde58ad79ee7cb7433d62be492c1241de"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC40LjAuMQ=="},{"name":"0.3.0.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.3.0.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.3.0.0","commit":{"sha":"27264c552c8a8cb720a711107cb1e4906ac456bc","url":"https://api.github.com/repos/agrafix/Spock/commits/27264c552c8a8cb720a711107cb1e4906ac456bc"},"node_id":"MDM6UmVmMTI2MjY3Njc6MC4zLjAuMA=="}]
+c11
+[{"name":"0.6.3.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.6.3.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.6.3.0","commit":{"sha":"10c81cd4cb0d2dd1728c738abcbce4bda0fb326f","url":"https://api.github.com/repos/agrafix/Spock/commits/10c81cd4cb0d2dd1728c738abcbce4bda0fb326f"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNi4zLjA="},{"name":"0.6.2.3","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.6.2.3","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.6.2.3","commit":{"sha":"ad4b8d61f78caf7bf47c9907a47fd5c32c38fca4","url":"https://api.github.com/repos/agrafix/Spock/commits/ad4b8d61f78caf7bf47c9907a47fd5c32c38fca4"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNi4yLjM="},{"name":"0.4.4.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.4.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.4.0","commit":{"sha":"317467479fe11bcfd267ca34f9897f28c4e91bad","url":"https://api.github.com/repos/agrafix/Spock/commits/317467479fe11bcfd267ca34f9897f28c4e91bad"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNC40LjA="},{"name":"0.4.2.1","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.2.1","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.2.1","commit":{"sha":"419ff6d78d16ae7dc925fb55b0ec9e881250a038","url":"https://api.github.com/repos/agrafix/Spock/commits/419ff6d78d16ae7dc925fb55b0ec9e881250a038"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNC4yLjE="},{"name":"0.4.2.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.2.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.2.0","commit":{"sha":"0f56e59036ff353454de19b111c3e879a5ad75db","url":"https://api.github.com/repos/agrafix/Spock/commits/0f56e59036ff353454de19b111c3e879a5ad75db"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNC4yLjA="},{"name":"0.4.1.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.1.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.1.0","commit":{"sha":"1c0378bcd39c454d2c1020ccb06a03a6100df551","url":"https://api.github.com/repos/agrafix/Spock/commits/1c0378bcd39c454d2c1020ccb06a03a6100df551"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNC4xLjA="},{"name":"0.4.0.1","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.4.0.1","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.4.0.1","commit":{"sha":"52ba2aecde58ad79ee7cb7433d62be492c1241de","url":"https://api.github.com/repos/agrafix/Spock/commits/52ba2aecde58ad79ee7cb7433d62be492c1241de"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuNC4wLjE="},{"name":"0.3.0.0","zipball_url":"https://api.github.com/repos/agrafix/Spock/zipball/0.3.0.0","tarball_url":"https://api.github.com/repos/agrafix/Spock/tarball/0.3.0.0","commit":{"sha":"27264c552c8a8cb720a711107cb1e4906ac456bc","url":"https://api.github.com/repos/agrafix/Spock/commits/27264c552c8a8cb720a711107cb1e4906ac456bc"},"node_id":"MDM6UmVmMTI2MjY3Njc6cmVmcy90YWdzLzAuMy4wLjA="}]
 0
 

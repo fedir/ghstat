@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"6f5aa2f5746d4a99d0cfb4518b34a90b"
-Last-Modified: Sat, 09 Jun 2018 08:00:57 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"7eab1f68da7b2d463b1afffe344bb3bb91b078b1612cd98330977507ce23c881"
+Last-Modified: Sat, 14 Nov 2020 17:32:51 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC10:57C5:372EBD5:71A063D:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE10:2944:206BE9A:2548CAF:5FB01B1E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1915
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.062774
+X-Ratelimit-Remaining: 3989
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1011
 X-Xss-Protection: 1; mode=block
 
-dc
-{"Go":40555970,"Assembly":3937913,"HTML":2451934,"C":193591,"Shell":61579,"Perl":35338,"Python":14529,"JavaScript":11618,"Batchfile":7395,"C++":1761,"Logos":1248,"RPC":1163,"Makefile":748,"Awk":450,"Fortran":394,"CSS":8}
+bb
+{"Go":39630029,"HTML":2621348,"Assembly":2322865,"C":97712,"Shell":53628,"Perl":30774,"JavaScript":20728,"Python":15381,"Batchfile":8131,"C++":1914,"Makefile":748,"Awk":450,"Fortran":394}
 0
 

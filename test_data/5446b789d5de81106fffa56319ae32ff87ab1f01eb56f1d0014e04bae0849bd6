@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:53 GMT
-Etag: W/"0c64c163e8ff8bd1523baf256fd6dfde"
-Last-Modified: Fri, 08 Jun 2018 12:15:19 GMT
+Date: Sat, 14 Nov 2020 18:06:31 GMT
+Etag: W/"39a4ec133eaf8937413969368307f2c72e40b64a029be7fe28d24bce84947e49"
+Last-Modified: Fri, 13 Nov 2020 10:45:59 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC41:57C6:2FE5984:64EDF14:5B1B8B14
-X-Oauth-Scopes: 
+X-Github-Request-Id: D0B8:E7C4:1CA1CE2:2121052:5FB01CA7
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1779
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038155
+X-Ratelimit-Remaining: 1560
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3440
 X-Xss-Protection: 1; mode=block
 
-ef
-{"Java":32417004,"JavaScript":4131965,"HTML":1308126,"Python":689912,"CSS":486470,"FreeMarker":282099,"Scala":63277,"Shell":58285,"Batchfile":32415,"Groovy":15350,"Lex":10065,"Lua":8317,"PHP":2866,"Makefile":1159,"PLpgSQL":866,"Smarty":41}
+149
+{"Java":35909096,"Python":724087,"JavaScript":574901,"FreeMarker":324539,"HTML":256968,"CSS":127218,"Scala":110271,"XSLT":91899,"Groovy":75527,"C":73368,"Shell":58254,"Batchfile":26079,"TSQL":11011,"Lex":10065,"Lua":9245,"Rich Text Format":8443,"Dockerfile":8289,"PHP":2866,"Makefile":2465,"Smarty":1829,"PLpgSQL":866,"SCSS":466}
 0
 

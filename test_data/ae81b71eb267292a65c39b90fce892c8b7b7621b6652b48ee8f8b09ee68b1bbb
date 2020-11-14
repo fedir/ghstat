@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:42 GMT
-Etag: W/"a466073452946cd22773402e05d7a84c"
-Last-Modified: Thu, 31 May 2018 16:03:32 GMT
+Date: Sat, 14 Nov 2020 18:02:07 GMT
+Etag: W/"64b72b975361abb74bf3023e7db835e024b755f02fed65a85742efc24c1955ff"
+Last-Modified: Sat, 07 Nov 2020 15:46:49 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB90:57C4:23BB724:50D50DD:5B1B8B09
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF05:13F4:3D0F0D8:4660FF1:5FB01B9E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2178
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.039080
+X-Ratelimit-Remaining: 2668
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2332
 X-Xss-Protection: 1; mode=block
 
-4a3
-{"login":"hargettp","id":385400,"node_id":"MDQ6VXNlcjM4NTQwMA==","avatar_url":"https://avatars3.githubusercontent.com/u/385400?v=4","gravatar_id":"","url":"https://api.github.com/users/hargettp","html_url":"https://github.com/hargettp","followers_url":"https://api.github.com/users/hargettp/followers","following_url":"https://api.github.com/users/hargettp/following{/other_user}","gists_url":"https://api.github.com/users/hargettp/gists{/gist_id}","starred_url":"https://api.github.com/users/hargettp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hargettp/subscriptions","organizations_url":"https://api.github.com/users/hargettp/orgs","repos_url":"https://api.github.com/users/hargettp/repos","events_url":"https://api.github.com/users/hargettp/events{/privacy}","received_events_url":"https://api.github.com/users/hargettp/received_events","type":"User","site_admin":false,"name":"Phil Hargett","company":null,"blog":"https://twitter.com/hargettp","location":"San Francisco, CA","email":null,"hireable":null,"bio":null,"public_repos":17,"public_gists":1,"followers":19,"following":15,"created_at":"2010-09-02T16:21:44Z","updated_at":"2018-05-31T16:03:32Z"}
+4bb
+{"login":"hargettp","id":385400,"node_id":"MDQ6VXNlcjM4NTQwMA==","avatar_url":"https://avatars3.githubusercontent.com/u/385400?v=4","gravatar_id":"","url":"https://api.github.com/users/hargettp","html_url":"https://github.com/hargettp","followers_url":"https://api.github.com/users/hargettp/followers","following_url":"https://api.github.com/users/hargettp/following{/other_user}","gists_url":"https://api.github.com/users/hargettp/gists{/gist_id}","starred_url":"https://api.github.com/users/hargettp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hargettp/subscriptions","organizations_url":"https://api.github.com/users/hargettp/orgs","repos_url":"https://api.github.com/users/hargettp/repos","events_url":"https://api.github.com/users/hargettp/events{/privacy}","received_events_url":"https://api.github.com/users/hargettp/received_events","type":"User","site_admin":false,"name":"Phil Hargett","company":null,"blog":"https://twitter.com/hargettp","location":"San Francisco, CA","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":20,"public_gists":1,"followers":22,"following":15,"created_at":"2010-09-02T16:21:44Z","updated_at":"2020-11-07T15:46:49Z"}
 0
 

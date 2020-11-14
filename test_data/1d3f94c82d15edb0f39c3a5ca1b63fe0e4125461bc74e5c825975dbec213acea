@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:40 GMT
-Etag: W/"956ef4acf9a1d4c00d1f278285fc918b"
-Last-Modified: Sun, 25 Mar 2018 13:31:24 GMT
+Date: Sat, 14 Nov 2020 18:08:19 GMT
+Etag: W/"a05c5bc79bcda4f1f01a47e082832a218e3e589e661e8f7849e73543350fa846"
+Last-Modified: Tue, 27 Oct 2020 07:05:31 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB03:57C5:372C6DB:719C4D0:5B1B8ACC
-X-Oauth-Scopes: 
+X-Github-Request-Id: D168:BA8A:210733B:25F58A3:5FB01D13
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2864
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.035171
+X-Ratelimit-Remaining: 1340
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3660
 X-Xss-Protection: 1; mode=block
 
-4f7
-{"login":"weavejester","id":8780,"node_id":"MDQ6VXNlcjg3ODA=","avatar_url":"https://avatars3.githubusercontent.com/u/8780?v=4","gravatar_id":"","url":"https://api.github.com/users/weavejester","html_url":"https://github.com/weavejester","followers_url":"https://api.github.com/users/weavejester/followers","following_url":"https://api.github.com/users/weavejester/following{/other_user}","gists_url":"https://api.github.com/users/weavejester/gists{/gist_id}","starred_url":"https://api.github.com/users/weavejester/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/weavejester/subscriptions","organizations_url":"https://api.github.com/users/weavejester/orgs","repos_url":"https://api.github.com/users/weavejester/repos","events_url":"https://api.github.com/users/weavejester/events{/privacy}","received_events_url":"https://api.github.com/users/weavejester/received_events","type":"User","site_admin":false,"name":"James Reeves","company":"Boolean Knot Ltd","blog":"https://www.booleanknot.com","location":"London, UK","email":"jreeves@booleanknot.com","hireable":true,"bio":"Freelance Clojure programmer","public_repos":142,"public_gists":69,"followers":1106,"following":6,"created_at":"2008-04-28T23:33:51Z","updated_at":"2018-03-25T13:31:24Z"}
+50f
+{"login":"weavejester","id":8780,"node_id":"MDQ6VXNlcjg3ODA=","avatar_url":"https://avatars3.githubusercontent.com/u/8780?v=4","gravatar_id":"","url":"https://api.github.com/users/weavejester","html_url":"https://github.com/weavejester","followers_url":"https://api.github.com/users/weavejester/followers","following_url":"https://api.github.com/users/weavejester/following{/other_user}","gists_url":"https://api.github.com/users/weavejester/gists{/gist_id}","starred_url":"https://api.github.com/users/weavejester/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/weavejester/subscriptions","organizations_url":"https://api.github.com/users/weavejester/orgs","repos_url":"https://api.github.com/users/weavejester/repos","events_url":"https://api.github.com/users/weavejester/events{/privacy}","received_events_url":"https://api.github.com/users/weavejester/received_events","type":"User","site_admin":false,"name":"James Reeves","company":"Boolean Knot Ltd","blog":"https://www.booleanknot.com","location":"London, UK","email":"jreeves@booleanknot.com","hireable":true,"bio":"Freelance Clojure programmer","twitter_username":null,"public_repos":151,"public_gists":72,"followers":1495,"following":6,"created_at":"2008-04-28T23:33:51Z","updated_at":"2020-10-27T07:05:31Z"}
 0
 

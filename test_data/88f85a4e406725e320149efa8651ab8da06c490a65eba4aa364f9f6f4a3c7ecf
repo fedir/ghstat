@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:19 GMT
-Etag: W/"78c2f7e5fd1c0f121e10ee57f90de743"
-Last-Modified: Fri, 18 May 2018 14:30:33 GMT
+Date: Sat, 14 Nov 2020 18:08:38 GMT
+Etag: W/"6f4232f1587438d7a1929ec90fd43ff641dc66106873667b5e86a8b172124293"
+Last-Modified: Sat, 14 Nov 2020 13:55:23 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB59:57C5:372DC37:719EA0A:5B1B8AF3
-X-Oauth-Scopes: 
+X-Github-Request-Id: D17A:BAD3:3CFC2C7:463EC84:5FB01D26
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2553
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.046400
+X-Ratelimit-Remaining: 1036
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3964
 X-Xss-Protection: 1; mode=block
 
-4b6
-{"login":"myfreeweb","id":208340,"node_id":"MDQ6VXNlcjIwODM0MA==","avatar_url":"https://avatars0.githubusercontent.com/u/208340?v=4","gravatar_id":"","url":"https://api.github.com/users/myfreeweb","html_url":"https://github.com/myfreeweb","followers_url":"https://api.github.com/users/myfreeweb/followers","following_url":"https://api.github.com/users/myfreeweb/following{/other_user}","gists_url":"https://api.github.com/users/myfreeweb/gists{/gist_id}","starred_url":"https://api.github.com/users/myfreeweb/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/myfreeweb/subscriptions","organizations_url":"https://api.github.com/users/myfreeweb/orgs","repos_url":"https://api.github.com/users/myfreeweb/repos","events_url":"https://api.github.com/users/myfreeweb/events{/privacy}","received_events_url":"https://api.github.com/users/myfreeweb/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"https://unrelenting.technology/","location":null,"email":"greg@unrelenting.technology","hireable":null,"bio":null,"public_repos":261,"public_gists":47,"followers":223,"following":777,"created_at":"2010-02-22T12:26:20Z","updated_at":"2018-05-18T14:30:33Z"}
+4ce
+{"login":"myfreeweb","id":208340,"node_id":"MDQ6VXNlcjIwODM0MA==","avatar_url":"https://avatars0.githubusercontent.com/u/208340?v=4","gravatar_id":"","url":"https://api.github.com/users/myfreeweb","html_url":"https://github.com/myfreeweb","followers_url":"https://api.github.com/users/myfreeweb/followers","following_url":"https://api.github.com/users/myfreeweb/following{/other_user}","gists_url":"https://api.github.com/users/myfreeweb/gists{/gist_id}","starred_url":"https://api.github.com/users/myfreeweb/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/myfreeweb/subscriptions","organizations_url":"https://api.github.com/users/myfreeweb/orgs","repos_url":"https://api.github.com/users/myfreeweb/repos","events_url":"https://api.github.com/users/myfreeweb/events{/privacy}","received_events_url":"https://api.github.com/users/myfreeweb/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"https://unrelenting.technology/","location":null,"email":"greg@unrelenting.technology","hireable":null,"bio":null,"twitter_username":null,"public_repos":387,"public_gists":55,"followers":340,"following":999,"created_at":"2010-02-22T12:26:20Z","updated_at":"2020-11-14T13:55:23Z"}
 0
 

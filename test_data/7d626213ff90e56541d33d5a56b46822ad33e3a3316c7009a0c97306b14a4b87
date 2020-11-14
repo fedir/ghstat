@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:54 GMT
+Etag: W/"e0d718477de07a7b8d426fd64945328352f69e83948367d89baab42f659cdbdb"
+Link: <https://api.github.com/user/524072/followers?page=2>; rel="prev", <https://api.github.com/user/524072/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2CC:F077:1E5E91A:2307544:5FB01DAE
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 160
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4840
+X-Xss-Protection: 1; mode=block
+
+122c
+[{"login":"iamfeniak","id":1176359,"node_id":"MDQ6VXNlcjExNzYzNTk=","avatar_url":"https://avatars0.githubusercontent.com/u/1176359?v=4","gravatar_id":"","url":"https://api.github.com/users/iamfeniak","html_url":"https://github.com/iamfeniak","followers_url":"https://api.github.com/users/iamfeniak/followers","following_url":"https://api.github.com/users/iamfeniak/following{/other_user}","gists_url":"https://api.github.com/users/iamfeniak/gists{/gist_id}","starred_url":"https://api.github.com/users/iamfeniak/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iamfeniak/subscriptions","organizations_url":"https://api.github.com/users/iamfeniak/orgs","repos_url":"https://api.github.com/users/iamfeniak/repos","events_url":"https://api.github.com/users/iamfeniak/events{/privacy}","received_events_url":"https://api.github.com/users/iamfeniak/received_events","type":"User","site_admin":false},{"login":"gDev95","id":14252400,"node_id":"MDQ6VXNlcjE0MjUyNDAw","avatar_url":"https://avatars1.githubusercontent.com/u/14252400?v=4","gravatar_id":"","url":"https://api.github.com/users/gDev95","html_url":"https://github.com/gDev95","followers_url":"https://api.github.com/users/gDev95/followers","following_url":"https://api.github.com/users/gDev95/following{/other_user}","gists_url":"https://api.github.com/users/gDev95/gists{/gist_id}","starred_url":"https://api.github.com/users/gDev95/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gDev95/subscriptions","organizations_url":"https://api.github.com/users/gDev95/orgs","repos_url":"https://api.github.com/users/gDev95/repos","events_url":"https://api.github.com/users/gDev95/events{/privacy}","received_events_url":"https://api.github.com/users/gDev95/received_events","type":"User","site_admin":false},{"login":"A-lovely-boy-kai","id":52872939,"node_id":"MDQ6VXNlcjUyODcyOTM5","avatar_url":"https://avatars1.githubusercontent.com/u/52872939?v=4","gravatar_id":"","url":"https://api.github.com/users/A-lovely-boy-kai","html_url":"https://github.com/A-lovely-boy-kai","followers_url":"https://api.github.com/users/A-lovely-boy-kai/followers","following_url":"https://api.github.com/users/A-lovely-boy-kai/following{/other_user}","gists_url":"https://api.github.com/users/A-lovely-boy-kai/gists{/gist_id}","starred_url":"https://api.github.com/users/A-lovely-boy-kai/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/A-lovely-boy-kai/subscriptions","organizations_url":"https://api.github.com/users/A-lovely-boy-kai/orgs","repos_url":"https://api.github.com/users/A-lovely-boy-kai/repos","events_url":"https://api.github.com/users/A-lovely-boy-kai/events{/privacy}","received_events_url":"https://api.github.com/users/A-lovely-boy-kai/received_events","type":"User","site_admin":false},{"login":"FuncGuy","id":49618191,"node_id":"MDQ6VXNlcjQ5NjE4MTkx","avatar_url":"https://avatars3.githubusercontent.com/u/49618191?v=4","gravatar_id":"","url":"https://api.github.com/users/FuncGuy","html_url":"https://github.com/FuncGuy","followers_url":"https://api.github.com/users/FuncGuy/followers","following_url":"https://api.github.com/users/FuncGuy/following{/other_user}","gists_url":"https://api.github.com/users/FuncGuy/gists{/gist_id}","starred_url":"https://api.github.com/users/FuncGuy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FuncGuy/subscriptions","organizations_url":"https://api.github.com/users/FuncGuy/orgs","repos_url":"https://api.github.com/users/FuncGuy/repos","events_url":"https://api.github.com/users/FuncGuy/events{/privacy}","received_events_url":"https://api.github.com/users/FuncGuy/received_events","type":"User","site_admin":false},{"login":"MalteBerlin","id":67974055,"node_id":"MDQ6VXNlcjY3OTc0MDU1","avatar_url":"https://avatars1.githubusercontent.com/u/67974055?v=4","gravatar_id":"","url":"https://api.github.com/users/MalteBerlin","html_url":"https://github.com/MalteBerlin","followers_url":"https://api.github.com/users/MalteBerlin/followers","following_url":"https://api.github.com/users/MalteBerlin/following{/other_user}","gists_url":"https://api.github.com/users/MalteBerlin/gists{/gist_id}","starred_url":"https://api.github.com/users/MalteBerlin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MalteBerlin/subscriptions","organizations_url":"https://api.github.com/users/MalteBerlin/orgs","repos_url":"https://api.github.com/users/MalteBerlin/repos","events_url":"https://api.github.com/users/MalteBerlin/events{/privacy}","received_events_url":"https://api.github.com/users/MalteBerlin/received_events","type":"User","site_admin":false}]
+0
+

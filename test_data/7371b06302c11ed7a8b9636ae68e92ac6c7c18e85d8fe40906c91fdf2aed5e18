@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:00 GMT
+Etag: W/"a62153602d630510a048c6448cb8443f5db957ec770764f1949fdc66d751556f"
+Link: <https://api.github.com/user/794843/followers?page=3>; rel="prev", <https://api.github.com/user/794843/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA3:7086:1E7A7C5:2317233:5FB01C88
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2194
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2806
+X-Xss-Protection: 1; mode=block
+
+b10
+[{"login":"ruandre","id":5968651,"node_id":"MDQ6VXNlcjU5Njg2NTE=","avatar_url":"https://avatars1.githubusercontent.com/u/5968651?v=4","gravatar_id":"","url":"https://api.github.com/users/ruandre","html_url":"https://github.com/ruandre","followers_url":"https://api.github.com/users/ruandre/followers","following_url":"https://api.github.com/users/ruandre/following{/other_user}","gists_url":"https://api.github.com/users/ruandre/gists{/gist_id}","starred_url":"https://api.github.com/users/ruandre/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ruandre/subscriptions","organizations_url":"https://api.github.com/users/ruandre/orgs","repos_url":"https://api.github.com/users/ruandre/repos","events_url":"https://api.github.com/users/ruandre/events{/privacy}","received_events_url":"https://api.github.com/users/ruandre/received_events","type":"User","site_admin":false},{"login":"cliffordfajardo","id":6743796,"node_id":"MDQ6VXNlcjY3NDM3OTY=","avatar_url":"https://avatars0.githubusercontent.com/u/6743796?v=4","gravatar_id":"","url":"https://api.github.com/users/cliffordfajardo","html_url":"https://github.com/cliffordfajardo","followers_url":"https://api.github.com/users/cliffordfajardo/followers","following_url":"https://api.github.com/users/cliffordfajardo/following{/other_user}","gists_url":"https://api.github.com/users/cliffordfajardo/gists{/gist_id}","starred_url":"https://api.github.com/users/cliffordfajardo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cliffordfajardo/subscriptions","organizations_url":"https://api.github.com/users/cliffordfajardo/orgs","repos_url":"https://api.github.com/users/cliffordfajardo/repos","events_url":"https://api.github.com/users/cliffordfajardo/events{/privacy}","received_events_url":"https://api.github.com/users/cliffordfajardo/received_events","type":"User","site_admin":false},{"login":"Akshar-code","id":59618640,"node_id":"MDQ6VXNlcjU5NjE4NjQw","avatar_url":"https://avatars0.githubusercontent.com/u/59618640?v=4","gravatar_id":"","url":"https://api.github.com/users/Akshar-code","html_url":"https://github.com/Akshar-code","followers_url":"https://api.github.com/users/Akshar-code/followers","following_url":"https://api.github.com/users/Akshar-code/following{/other_user}","gists_url":"https://api.github.com/users/Akshar-code/gists{/gist_id}","starred_url":"https://api.github.com/users/Akshar-code/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Akshar-code/subscriptions","organizations_url":"https://api.github.com/users/Akshar-code/orgs","repos_url":"https://api.github.com/users/Akshar-code/repos","events_url":"https://api.github.com/users/Akshar-code/events{/privacy}","received_events_url":"https://api.github.com/users/Akshar-code/received_events","type":"User","site_admin":false}]
+0
+

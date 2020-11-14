@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:04:43 GMT
-Etag: W/"a1872e95f7d4c0fae19c28e962bb9e4e"
-Last-Modified: Tue, 05 Jun 2018 15:35:02 GMT
+Date: Sat, 14 Nov 2020 17:59:22 GMT
+Etag: W/"1ce1957a96eab069b024c6f9cf3cf2fab541de0c788337e370c8ac1a91f1d904"
+Last-Modified: Mon, 09 Nov 2020 17:52:10 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C86E:57C5:3725EC0:7190719:5B1B8A1B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE02:41F4:3D6C007:46C8C1C:5FB01AFA
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4934
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033703
+X-Ratelimit-Remaining: 4214
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 786
 X-Xss-Protection: 1; mode=block
 
-463
-{"login":"robfig","id":536325,"node_id":"MDQ6VXNlcjUzNjMyNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/536325?v=4","gravatar_id":"","url":"https://api.github.com/users/robfig","html_url":"https://github.com/robfig","followers_url":"https://api.github.com/users/robfig/followers","following_url":"https://api.github.com/users/robfig/following{/other_user}","gists_url":"https://api.github.com/users/robfig/gists{/gist_id}","starred_url":"https://api.github.com/users/robfig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/robfig/subscriptions","organizations_url":"https://api.github.com/users/robfig/orgs","repos_url":"https://api.github.com/users/robfig/repos","events_url":"https://api.github.com/users/robfig/events{/privacy}","received_events_url":"https://api.github.com/users/robfig/received_events","type":"User","site_admin":false,"name":"Rob Figueiredo","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":57,"public_gists":10,"followers":403,"following":7,"created_at":"2010-12-25T16:00:52Z","updated_at":"2018-06-05T15:35:02Z"}
+47a
+{"login":"robfig","id":536325,"node_id":"MDQ6VXNlcjUzNjMyNQ==","avatar_url":"https://avatars3.githubusercontent.com/u/536325?v=4","gravatar_id":"","url":"https://api.github.com/users/robfig","html_url":"https://github.com/robfig","followers_url":"https://api.github.com/users/robfig/followers","following_url":"https://api.github.com/users/robfig/following{/other_user}","gists_url":"https://api.github.com/users/robfig/gists{/gist_id}","starred_url":"https://api.github.com/users/robfig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/robfig/subscriptions","organizations_url":"https://api.github.com/users/robfig/orgs","repos_url":"https://api.github.com/users/robfig/repos","events_url":"https://api.github.com/users/robfig/events{/privacy}","received_events_url":"https://api.github.com/users/robfig/received_events","type":"User","site_admin":false,"name":"Rob Figueiredo","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":92,"public_gists":9,"followers":554,"following":8,"created_at":"2010-12-25T16:00:52Z","updated_at":"2020-11-09T17:52:10Z"}
 0
 

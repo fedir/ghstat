@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:03 GMT
-Etag: W/"9c83d28d0344600714dbed908c1159d9"
-Last-Modified: Fri, 01 Jun 2018 20:18:40 GMT
+Date: Sat, 14 Nov 2020 18:05:58 GMT
+Etag: W/"ea65b07131941a28848549c57963b695fdf8edb19c754432331c0f30fb6a9679"
+Last-Modified: Wed, 04 Nov 2020 18:08:08 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAA1:57C4:23BA4C2:50D1F6B:5B1B8AA6
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFA0:5C53:3F596C3:48F527D:5FB01C86
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3361
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.034917
+X-Ratelimit-Remaining: 2267
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2733
 X-Xss-Protection: 1; mode=block
 
-4aa
-{"login":"channelcat","id":474989,"node_id":"MDQ6VXNlcjQ3NDk4OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/474989?v=4","gravatar_id":"","url":"https://api.github.com/users/channelcat","html_url":"https://github.com/channelcat","followers_url":"https://api.github.com/users/channelcat/followers","following_url":"https://api.github.com/users/channelcat/following{/other_user}","gists_url":"https://api.github.com/users/channelcat/gists{/gist_id}","starred_url":"https://api.github.com/users/channelcat/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/channelcat/subscriptions","organizations_url":"https://api.github.com/users/channelcat/orgs","repos_url":"https://api.github.com/users/channelcat/repos","events_url":"https://api.github.com/users/channelcat/events{/privacy}","received_events_url":"https://api.github.com/users/channelcat/received_events","type":"User","site_admin":false,"name":"Channel Cat","company":null,"blog":"","location":"Los Angeles","email":"channelcat@gmail.com","hireable":null,"bio":null,"public_repos":13,"public_gists":1,"followers":259,"following":0,"created_at":"2010-11-10T01:14:58Z","updated_at":"2018-06-01T20:18:40Z"}
+4c2
+{"login":"channelcat","id":474989,"node_id":"MDQ6VXNlcjQ3NDk4OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/474989?v=4","gravatar_id":"","url":"https://api.github.com/users/channelcat","html_url":"https://github.com/channelcat","followers_url":"https://api.github.com/users/channelcat/followers","following_url":"https://api.github.com/users/channelcat/following{/other_user}","gists_url":"https://api.github.com/users/channelcat/gists{/gist_id}","starred_url":"https://api.github.com/users/channelcat/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/channelcat/subscriptions","organizations_url":"https://api.github.com/users/channelcat/orgs","repos_url":"https://api.github.com/users/channelcat/repos","events_url":"https://api.github.com/users/channelcat/events{/privacy}","received_events_url":"https://api.github.com/users/channelcat/received_events","type":"User","site_admin":false,"name":"Channel Cat","company":null,"blog":"","location":"Los Angeles","email":"channelcat@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":2,"followers":284,"following":0,"created_at":"2010-11-10T01:14:58Z","updated_at":"2020-11-04T18:08:08Z"}
 0
 

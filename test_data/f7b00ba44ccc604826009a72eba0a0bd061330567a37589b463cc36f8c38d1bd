@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:33 GMT
+Etag: W/"0938ee0f5368c0ce220a284d4f23476b14e1c3690e349764f171fd7da3970260"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE39:E7C4:1C95F23:2112DD1:5FB01B7C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3531
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1469
+X-Xss-Protection: 1; mode=block
+
+ae8
+[{"login":"stakach","id":368013,"node_id":"MDQ6VXNlcjM2ODAxMw==","avatar_url":"https://avatars2.githubusercontent.com/u/368013?v=4","gravatar_id":"","url":"https://api.github.com/users/stakach","html_url":"https://github.com/stakach","followers_url":"https://api.github.com/users/stakach/followers","following_url":"https://api.github.com/users/stakach/following{/other_user}","gists_url":"https://api.github.com/users/stakach/gists{/gist_id}","starred_url":"https://api.github.com/users/stakach/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stakach/subscriptions","organizations_url":"https://api.github.com/users/stakach/orgs","repos_url":"https://api.github.com/users/stakach/repos","events_url":"https://api.github.com/users/stakach/events{/privacy}","received_events_url":"https://api.github.com/users/stakach/received_events","type":"User","site_admin":false},{"login":"KimBurgess","id":843652,"node_id":"MDQ6VXNlcjg0MzY1Mg==","avatar_url":"https://avatars1.githubusercontent.com/u/843652?v=4","gravatar_id":"","url":"https://api.github.com/users/KimBurgess","html_url":"https://github.com/KimBurgess","followers_url":"https://api.github.com/users/KimBurgess/followers","following_url":"https://api.github.com/users/KimBurgess/following{/other_user}","gists_url":"https://api.github.com/users/KimBurgess/gists{/gist_id}","starred_url":"https://api.github.com/users/KimBurgess/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KimBurgess/subscriptions","organizations_url":"https://api.github.com/users/KimBurgess/orgs","repos_url":"https://api.github.com/users/KimBurgess/repos","events_url":"https://api.github.com/users/KimBurgess/events{/privacy}","received_events_url":"https://api.github.com/users/KimBurgess/received_events","type":"User","site_admin":false},{"login":"dukeraphaelng","id":58082199,"node_id":"MDQ6VXNlcjU4MDgyMTk5","avatar_url":"https://avatars1.githubusercontent.com/u/58082199?v=4","gravatar_id":"","url":"https://api.github.com/users/dukeraphaelng","html_url":"https://github.com/dukeraphaelng","followers_url":"https://api.github.com/users/dukeraphaelng/followers","following_url":"https://api.github.com/users/dukeraphaelng/following{/other_user}","gists_url":"https://api.github.com/users/dukeraphaelng/gists{/gist_id}","starred_url":"https://api.github.com/users/dukeraphaelng/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dukeraphaelng/subscriptions","organizations_url":"https://api.github.com/users/dukeraphaelng/orgs","repos_url":"https://api.github.com/users/dukeraphaelng/repos","events_url":"https://api.github.com/users/dukeraphaelng/events{/privacy}","received_events_url":"https://api.github.com/users/dukeraphaelng/received_events","type":"User","site_admin":false}]
+0
+

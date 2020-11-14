@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:31 GMT
+Etag: W/"4bc30ad525b60e41f2870cf1462a9f00ca92f113265424f9331e57fa0a01fb6d"
+Link: <https://api.github.com/user/66214/followers?page=11>; rel="prev", <https://api.github.com/user/66214/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D172:072E:3B757D1:449203E:5FB01D1F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1127
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3873
+X-Xss-Protection: 1; mode=block
+
+b14
+[{"login":"gor-che","id":11900735,"node_id":"MDQ6VXNlcjExOTAwNzM1","avatar_url":"https://avatars1.githubusercontent.com/u/11900735?v=4","gravatar_id":"","url":"https://api.github.com/users/gor-che","html_url":"https://github.com/gor-che","followers_url":"https://api.github.com/users/gor-che/followers","following_url":"https://api.github.com/users/gor-che/following{/other_user}","gists_url":"https://api.github.com/users/gor-che/gists{/gist_id}","starred_url":"https://api.github.com/users/gor-che/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gor-che/subscriptions","organizations_url":"https://api.github.com/users/gor-che/orgs","repos_url":"https://api.github.com/users/gor-che/repos","events_url":"https://api.github.com/users/gor-che/events{/privacy}","received_events_url":"https://api.github.com/users/gor-che/received_events","type":"User","site_admin":false},{"login":"AnnotationSoftware","id":71447022,"node_id":"MDQ6VXNlcjcxNDQ3MDIy","avatar_url":"https://avatars3.githubusercontent.com/u/71447022?v=4","gravatar_id":"","url":"https://api.github.com/users/AnnotationSoftware","html_url":"https://github.com/AnnotationSoftware","followers_url":"https://api.github.com/users/AnnotationSoftware/followers","following_url":"https://api.github.com/users/AnnotationSoftware/following{/other_user}","gists_url":"https://api.github.com/users/AnnotationSoftware/gists{/gist_id}","starred_url":"https://api.github.com/users/AnnotationSoftware/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AnnotationSoftware/subscriptions","organizations_url":"https://api.github.com/users/AnnotationSoftware/orgs","repos_url":"https://api.github.com/users/AnnotationSoftware/repos","events_url":"https://api.github.com/users/AnnotationSoftware/events{/privacy}","received_events_url":"https://api.github.com/users/AnnotationSoftware/received_events","type":"User","site_admin":false},{"login":"SisMaker","id":13361463,"node_id":"MDQ6VXNlcjEzMzYxNDYz","avatar_url":"https://avatars3.githubusercontent.com/u/13361463?v=4","gravatar_id":"","url":"https://api.github.com/users/SisMaker","html_url":"https://github.com/SisMaker","followers_url":"https://api.github.com/users/SisMaker/followers","following_url":"https://api.github.com/users/SisMaker/following{/other_user}","gists_url":"https://api.github.com/users/SisMaker/gists{/gist_id}","starred_url":"https://api.github.com/users/SisMaker/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SisMaker/subscriptions","organizations_url":"https://api.github.com/users/SisMaker/orgs","repos_url":"https://api.github.com/users/SisMaker/repos","events_url":"https://api.github.com/users/SisMaker/events{/privacy}","received_events_url":"https://api.github.com/users/SisMaker/received_events","type":"User","site_admin":false}]
+0
+

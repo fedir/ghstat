@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:39 GMT
+Etag: W/"d029c2edecb765ee7f1b24ffe5a3c2b26cc5b56ff58af70c6c8fcb1b3de57558"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF87:13F4:3D245BE:4679C63:5FB01C73
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2426
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2574
+X-Xss-Protection: 1; mode=block
+
+aa2
+[{"login":"burstas","id":5226344,"node_id":"MDQ6VXNlcjUyMjYzNDQ=","avatar_url":"https://avatars2.githubusercontent.com/u/5226344?v=4","gravatar_id":"","url":"https://api.github.com/users/burstas","html_url":"https://github.com/burstas","followers_url":"https://api.github.com/users/burstas/followers","following_url":"https://api.github.com/users/burstas/following{/other_user}","gists_url":"https://api.github.com/users/burstas/gists{/gist_id}","starred_url":"https://api.github.com/users/burstas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/burstas/subscriptions","organizations_url":"https://api.github.com/users/burstas/orgs","repos_url":"https://api.github.com/users/burstas/repos","events_url":"https://api.github.com/users/burstas/events{/privacy}","received_events_url":"https://api.github.com/users/burstas/received_events","type":"User","site_admin":false},{"login":"mbautin","id":552936,"node_id":"MDQ6VXNlcjU1MjkzNg==","avatar_url":"https://avatars0.githubusercontent.com/u/552936?v=4","gravatar_id":"","url":"https://api.github.com/users/mbautin","html_url":"https://github.com/mbautin","followers_url":"https://api.github.com/users/mbautin/followers","following_url":"https://api.github.com/users/mbautin/following{/other_user}","gists_url":"https://api.github.com/users/mbautin/gists{/gist_id}","starred_url":"https://api.github.com/users/mbautin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mbautin/subscriptions","organizations_url":"https://api.github.com/users/mbautin/orgs","repos_url":"https://api.github.com/users/mbautin/repos","events_url":"https://api.github.com/users/mbautin/events{/privacy}","received_events_url":"https://api.github.com/users/mbautin/received_events","type":"User","site_admin":false},{"login":"myhololens","id":32326915,"node_id":"MDQ6VXNlcjMyMzI2OTE1","avatar_url":"https://avatars1.githubusercontent.com/u/32326915?v=4","gravatar_id":"","url":"https://api.github.com/users/myhololens","html_url":"https://github.com/myhololens","followers_url":"https://api.github.com/users/myhololens/followers","following_url":"https://api.github.com/users/myhololens/following{/other_user}","gists_url":"https://api.github.com/users/myhololens/gists{/gist_id}","starred_url":"https://api.github.com/users/myhololens/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/myhololens/subscriptions","organizations_url":"https://api.github.com/users/myhololens/orgs","repos_url":"https://api.github.com/users/myhololens/repos","events_url":"https://api.github.com/users/myhololens/events{/privacy}","received_events_url":"https://api.github.com/users/myhololens/received_events","type":"User","site_admin":false}]
+0
+

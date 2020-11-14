@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:15 GMT
-Etag: W/"479c9143f582789f8fe5cece0071cb55"
-Last-Modified: Tue, 29 May 2018 13:41:42 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"af6618fb699b8c5d82a7b077d1c51dd21dd44474b618c2a6d2ce2530d62dc35f"
+Last-Modified: Sun, 08 Nov 2020 22:56:56 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD1F:57C4:23BC982:50D7E54:5B1B8B66
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2D3:41F4:3DAD6B0:4715B74:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1385
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.034582
+X-Ratelimit-Remaining: 178
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4822
 X-Xss-Protection: 1; mode=block
 
-470
-{"login":"jojule","id":644969,"node_id":"MDQ6VXNlcjY0NDk2OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/644969?v=4","gravatar_id":"","url":"https://api.github.com/users/jojule","html_url":"https://github.com/jojule","followers_url":"https://api.github.com/users/jojule/followers","following_url":"https://api.github.com/users/jojule/following{/other_user}","gists_url":"https://api.github.com/users/jojule/gists{/gist_id}","starred_url":"https://api.github.com/users/jojule/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jojule/subscriptions","organizations_url":"https://api.github.com/users/jojule/orgs","repos_url":"https://api.github.com/users/jojule/repos","events_url":"https://api.github.com/users/jojule/events{/privacy}","received_events_url":"https://api.github.com/users/jojule/received_events","type":"User","site_admin":false,"name":"Joonas Lehtinen","company":"Vaadin","blog":"vaadin.com","location":null,"email":null,"hireable":null,"bio":null,"public_repos":27,"public_gists":1,"followers":55,"following":0,"created_at":"2011-03-01T15:15:30Z","updated_at":"2018-05-29T13:41:42Z"}
+488
+{"login":"jojule","id":644969,"node_id":"MDQ6VXNlcjY0NDk2OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/644969?v=4","gravatar_id":"","url":"https://api.github.com/users/jojule","html_url":"https://github.com/jojule","followers_url":"https://api.github.com/users/jojule/followers","following_url":"https://api.github.com/users/jojule/following{/other_user}","gists_url":"https://api.github.com/users/jojule/gists{/gist_id}","starred_url":"https://api.github.com/users/jojule/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jojule/subscriptions","organizations_url":"https://api.github.com/users/jojule/orgs","repos_url":"https://api.github.com/users/jojule/repos","events_url":"https://api.github.com/users/jojule/events{/privacy}","received_events_url":"https://api.github.com/users/jojule/received_events","type":"User","site_admin":false,"name":"Joonas Lehtinen","company":"Vaadin","blog":"vaadin.com","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":34,"public_gists":1,"followers":61,"following":1,"created_at":"2011-03-01T15:15:30Z","updated_at":"2020-11-08T22:56:56Z"}
 0
 

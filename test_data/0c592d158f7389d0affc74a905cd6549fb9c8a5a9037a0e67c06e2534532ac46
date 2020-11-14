@@ -1,30 +1,32 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:07 GMT
-Etag: W/"456f61b572f5361387c113397a3fd79c"
+Date: Sat, 14 Nov 2020 18:01:22 GMT
+Etag: W/"cd78a469923592e7adaf7fc91285a41097fc745ba99582803d2ac55ff72b12bc"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8C1:57C5:3726D85:7192217:5B1B8A33
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE26:E4B6:1F0ECB5:23C0CA6:5FB01B72
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4669
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.034848
+X-Ratelimit-Remaining: 3675
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1325
 X-Xss-Protection: 1; mode=block
 
-398
-[{"login":"PlumpMath","id":1218365,"node_id":"MDQ6VXNlcjEyMTgzNjU=","avatar_url":"https://avatars0.githubusercontent.com/u/1218365?v=4","gravatar_id":"","url":"https://api.github.com/users/PlumpMath","html_url":"https://github.com/PlumpMath","followers_url":"https://api.github.com/users/PlumpMath/followers","following_url":"https://api.github.com/users/PlumpMath/following{/other_user}","gists_url":"https://api.github.com/users/PlumpMath/gists{/gist_id}","starred_url":"https://api.github.com/users/PlumpMath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PlumpMath/subscriptions","organizations_url":"https://api.github.com/users/PlumpMath/orgs","repos_url":"https://api.github.com/users/PlumpMath/repos","events_url":"https://api.github.com/users/PlumpMath/events{/privacy}","received_events_url":"https://api.github.com/users/PlumpMath/received_events","type":"User","site_admin":false}]
+70d
+[{"login":"PlumpMath","id":1218365,"node_id":"MDQ6VXNlcjEyMTgzNjU=","avatar_url":"https://avatars0.githubusercontent.com/u/1218365?v=4","gravatar_id":"","url":"https://api.github.com/users/PlumpMath","html_url":"https://github.com/PlumpMath","followers_url":"https://api.github.com/users/PlumpMath/followers","following_url":"https://api.github.com/users/PlumpMath/following{/other_user}","gists_url":"https://api.github.com/users/PlumpMath/gists{/gist_id}","starred_url":"https://api.github.com/users/PlumpMath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/PlumpMath/subscriptions","organizations_url":"https://api.github.com/users/PlumpMath/orgs","repos_url":"https://api.github.com/users/PlumpMath/repos","events_url":"https://api.github.com/users/PlumpMath/events{/privacy}","received_events_url":"https://api.github.com/users/PlumpMath/received_events","type":"User","site_admin":false},{"login":"sygops","id":16489082,"node_id":"MDQ6VXNlcjE2NDg5MDgy","avatar_url":"https://avatars0.githubusercontent.com/u/16489082?v=4","gravatar_id":"","url":"https://api.github.com/users/sygops","html_url":"https://github.com/sygops","followers_url":"https://api.github.com/users/sygops/followers","following_url":"https://api.github.com/users/sygops/following{/other_user}","gists_url":"https://api.github.com/users/sygops/gists{/gist_id}","starred_url":"https://api.github.com/users/sygops/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sygops/subscriptions","organizations_url":"https://api.github.com/users/sygops/orgs","repos_url":"https://api.github.com/users/sygops/repos","events_url":"https://api.github.com/users/sygops/events{/privacy}","received_events_url":"https://api.github.com/users/sygops/received_events","type":"User","site_admin":false}]
 0
 

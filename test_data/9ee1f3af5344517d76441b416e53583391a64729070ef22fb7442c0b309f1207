@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:02 GMT
+Etag: W/"8d0a0a6aaf6ddc15efa786573d0b7fbc4ab73b29a3e90bf51b03f96cfc76f435"
+Link: <https://api.github.com/user/402468/followers?page=1>; rel="prev", <https://api.github.com/user/402468/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA4:13F3:1F61F7F:242DFE6:5FB01C8A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2142
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2858
+X-Xss-Protection: 1; mode=block
+
+38c
+[{"login":"logtheta","id":5921677,"node_id":"MDQ6VXNlcjU5MjE2Nzc=","avatar_url":"https://avatars1.githubusercontent.com/u/5921677?v=4","gravatar_id":"","url":"https://api.github.com/users/logtheta","html_url":"https://github.com/logtheta","followers_url":"https://api.github.com/users/logtheta/followers","following_url":"https://api.github.com/users/logtheta/following{/other_user}","gists_url":"https://api.github.com/users/logtheta/gists{/gist_id}","starred_url":"https://api.github.com/users/logtheta/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/logtheta/subscriptions","organizations_url":"https://api.github.com/users/logtheta/orgs","repos_url":"https://api.github.com/users/logtheta/repos","events_url":"https://api.github.com/users/logtheta/events{/privacy}","received_events_url":"https://api.github.com/users/logtheta/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:51 GMT
+Etag: W/"3cd1907cb73dc1f98bb179abf61147c2dc17130514bcdb4b5b892067affee68f"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D186:BAD3:3CFD480:4640160:5FB01D33
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 881
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4119
+X-Xss-Protection: 1; mode=block
+
+b02
+[{"login":"alexshikov","id":2149688,"node_id":"MDQ6VXNlcjIxNDk2ODg=","avatar_url":"https://avatars1.githubusercontent.com/u/2149688?v=4","gravatar_id":"","url":"https://api.github.com/users/alexshikov","html_url":"https://github.com/alexshikov","followers_url":"https://api.github.com/users/alexshikov/followers","following_url":"https://api.github.com/users/alexshikov/following{/other_user}","gists_url":"https://api.github.com/users/alexshikov/gists{/gist_id}","starred_url":"https://api.github.com/users/alexshikov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alexshikov/subscriptions","organizations_url":"https://api.github.com/users/alexshikov/orgs","repos_url":"https://api.github.com/users/alexshikov/repos","events_url":"https://api.github.com/users/alexshikov/events{/privacy}","received_events_url":"https://api.github.com/users/alexshikov/received_events","type":"User","site_admin":false},{"login":"a-b","id":585662,"node_id":"MDQ6VXNlcjU4NTY2Mg==","avatar_url":"https://avatars0.githubusercontent.com/u/585662?v=4","gravatar_id":"","url":"https://api.github.com/users/a-b","html_url":"https://github.com/a-b","followers_url":"https://api.github.com/users/a-b/followers","following_url":"https://api.github.com/users/a-b/following{/other_user}","gists_url":"https://api.github.com/users/a-b/gists{/gist_id}","starred_url":"https://api.github.com/users/a-b/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/a-b/subscriptions","organizations_url":"https://api.github.com/users/a-b/orgs","repos_url":"https://api.github.com/users/a-b/repos","events_url":"https://api.github.com/users/a-b/events{/privacy}","received_events_url":"https://api.github.com/users/a-b/received_events","type":"User","site_admin":false},{"login":"skykit-karlkroening","id":15255466,"node_id":"MDQ6VXNlcjE1MjU1NDY2","avatar_url":"https://avatars1.githubusercontent.com/u/15255466?v=4","gravatar_id":"","url":"https://api.github.com/users/skykit-karlkroening","html_url":"https://github.com/skykit-karlkroening","followers_url":"https://api.github.com/users/skykit-karlkroening/followers","following_url":"https://api.github.com/users/skykit-karlkroening/following{/other_user}","gists_url":"https://api.github.com/users/skykit-karlkroening/gists{/gist_id}","starred_url":"https://api.github.com/users/skykit-karlkroening/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/skykit-karlkroening/subscriptions","organizations_url":"https://api.github.com/users/skykit-karlkroening/orgs","repos_url":"https://api.github.com/users/skykit-karlkroening/repos","events_url":"https://api.github.com/users/skykit-karlkroening/events{/privacy}","received_events_url":"https://api.github.com/users/skykit-karlkroening/received_events","type":"User","site_admin":false}]
+0
+

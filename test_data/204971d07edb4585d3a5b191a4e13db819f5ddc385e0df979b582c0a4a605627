@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:04:47 GMT
-Etag: W/"074e511d35e2b697607bd54a596f2f97"
-Last-Modified: Fri, 08 Jun 2018 07:28:55 GMT
+Date: Sat, 14 Nov 2020 17:59:27 GMT
+Etag: W/"c9d8b18865b00622b1be1e13f3b2cf8883d1c931d8df2592c4f719b33168060d"
+Last-Modified: Fri, 13 Nov 2020 09:19:29 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8A0:57C6:2FE0603:64E1692:5B1B8A1F
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE07:41F4:3D6C791:46C94E8:5FB01AFF
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4806
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.030720
+X-Ratelimit-Remaining: 4050
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 950
 X-Xss-Protection: 1; mode=block
 
-86b
-[{"name":"v1.0","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v1.0","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v1.0","commit":{"sha":"64eb34159fe53473206c2b3e70fe396a639452f2","url":"https://api.github.com/repos/zenazn/goji/commits/64eb34159fe53473206c2b3e70fe396a639452f2"},"node_id":"MDM6UmVmMTczMjcyNDE6djEuMA=="},{"name":"v0.9.0","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.9.0","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.9.0","commit":{"sha":"845982030542a0fd9c8e8cbf76a84c7482cb3755","url":"https://api.github.com/repos/zenazn/goji/commits/845982030542a0fd9c8e8cbf76a84c7482cb3755"},"node_id":"MDM6UmVmMTczMjcyNDE6djAuOS4w"},{"name":"v0.8.3","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.3","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.3","commit":{"sha":"dcb9598cbbcfcc10d2c1ee1e66958e54a2c84b52","url":"https://api.github.com/repos/zenazn/goji/commits/dcb9598cbbcfcc10d2c1ee1e66958e54a2c84b52"},"node_id":"MDM6UmVmMTczMjcyNDE6djAuOC4z"},{"name":"v0.8.2","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.2","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.2","commit":{"sha":"acf12155c0025c27d36f85045c9a5634765a1875","url":"https://api.github.com/repos/zenazn/goji/commits/acf12155c0025c27d36f85045c9a5634765a1875"},"node_id":"MDM6UmVmMTczMjcyNDE6djAuOC4y"},{"name":"v0.8.1","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.1","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.1","commit":{"sha":"23ec88ea5a560383b8b3ed7a5ef18045a36f05f9","url":"https://api.github.com/repos/zenazn/goji/commits/23ec88ea5a560383b8b3ed7a5ef18045a36f05f9"},"node_id":"MDM6UmVmMTczMjcyNDE6djAuOC4x"},{"name":"v0.8","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8","commit":{"sha":"69ab4d722ea1317d12cd1bce53887182c04cccae","url":"https://api.github.com/repos/zenazn/goji/commits/69ab4d722ea1317d12cd1bce53887182c04cccae"},"node_id":"MDM6UmVmMTczMjcyNDE6djAuOA=="}]
+a3c
+[{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v1.0.1","commit":{"sha":"a16712d37ba72246f71f9c8012974d46f8e61d16","url":"https://api.github.com/repos/zenazn/goji/commits/a16712d37ba72246f71f9c8012974d46f8e61d16"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YxLjAuMQ=="},{"name":"v1.0","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v1.0","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v1.0","commit":{"sha":"64eb34159fe53473206c2b3e70fe396a639452f2","url":"https://api.github.com/repos/zenazn/goji/commits/64eb34159fe53473206c2b3e70fe396a639452f2"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YxLjA="},{"name":"v0.9.0","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.9.0","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.9.0","commit":{"sha":"845982030542a0fd9c8e8cbf76a84c7482cb3755","url":"https://api.github.com/repos/zenazn/goji/commits/845982030542a0fd9c8e8cbf76a84c7482cb3755"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YwLjkuMA=="},{"name":"v0.8.3","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.3","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.3","commit":{"sha":"dcb9598cbbcfcc10d2c1ee1e66958e54a2c84b52","url":"https://api.github.com/repos/zenazn/goji/commits/dcb9598cbbcfcc10d2c1ee1e66958e54a2c84b52"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YwLjguMw=="},{"name":"v0.8.2","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.2","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.2","commit":{"sha":"acf12155c0025c27d36f85045c9a5634765a1875","url":"https://api.github.com/repos/zenazn/goji/commits/acf12155c0025c27d36f85045c9a5634765a1875"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YwLjguMg=="},{"name":"v0.8.1","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8.1","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8.1","commit":{"sha":"23ec88ea5a560383b8b3ed7a5ef18045a36f05f9","url":"https://api.github.com/repos/zenazn/goji/commits/23ec88ea5a560383b8b3ed7a5ef18045a36f05f9"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YwLjguMQ=="},{"name":"v0.8","zipball_url":"https://api.github.com/repos/zenazn/goji/zipball/v0.8","tarball_url":"https://api.github.com/repos/zenazn/goji/tarball/v0.8","commit":{"sha":"69ab4d722ea1317d12cd1bce53887182c04cccae","url":"https://api.github.com/repos/zenazn/goji/commits/69ab4d722ea1317d12cd1bce53887182c04cccae"},"node_id":"MDM6UmVmMTczMjcyNDE6cmVmcy90YWdzL3YwLjg="}]
 0
 

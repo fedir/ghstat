@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:31 GMT
+Etag: W/"73dcdcbf1f488db22e9c0014b1d3ae45d50e4d4f909d1b3b7f9fd3e4c9ac4c39"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2A7:F448:D5DA2E:F69EA2:5FB01D97
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 427
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4573
+X-Xss-Protection: 1; mode=block
+
+39a
+[{"login":"HerikLyma","id":11809323,"node_id":"MDQ6VXNlcjExODA5MzIz","avatar_url":"https://avatars2.githubusercontent.com/u/11809323?v=4","gravatar_id":"","url":"https://api.github.com/users/HerikLyma","html_url":"https://github.com/HerikLyma","followers_url":"https://api.github.com/users/HerikLyma/followers","following_url":"https://api.github.com/users/HerikLyma/following{/other_user}","gists_url":"https://api.github.com/users/HerikLyma/gists{/gist_id}","starred_url":"https://api.github.com/users/HerikLyma/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HerikLyma/subscriptions","organizations_url":"https://api.github.com/users/HerikLyma/orgs","repos_url":"https://api.github.com/users/HerikLyma/repos","events_url":"https://api.github.com/users/HerikLyma/events{/privacy}","received_events_url":"https://api.github.com/users/HerikLyma/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:18 GMT
-Etag: W/"2f4996c33f4db8cb48d7a77c32d6bca6"
-Last-Modified: Fri, 25 May 2018 12:28:12 GMT
+Date: Sat, 14 Nov 2020 18:01:43 GMT
+Etag: W/"d1ae976a4af014b2193ec0efb9bb0faf9e976bc8bc9764a15c9bad5056d89e84"
+Last-Modified: Fri, 10 Jul 2020 12:00:06 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9DB:57C5:372998A:7197123:5B1B8A7A
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE54:BA8A:20F13BE:25DC200:5FB01B86
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3877
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.054224
+X-Ratelimit-Remaining: 3278
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1722
 X-Xss-Protection: 1; mode=block
 
-7eb
-[{"name":"2.16","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/2.16","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/2.16","commit":{"sha":"b1566fd25e2924fdfd747c9713461cdaa3ccacc2","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/b1566fd25e2924fdfd747c9713461cdaa3ccacc2"},"node_id":"MDM6UmVmMzMyMTA5MDoyLjE2"},{"name":"1.9.10","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.10","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.10","commit":{"sha":"f76d96a5c7d6913015c7e8c402951b2c79d44244","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/f76d96a5c7d6913015c7e8c402951b2c79d44244"},"node_id":"MDM6UmVmMzMyMTA5MDoxLjkuMTA="},{"name":"1.9.9","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.9","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.9","commit":{"sha":"839bc9d44da58c14a80704118b72f036d76d0ff2","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/839bc9d44da58c14a80704118b72f036d76d0ff2"},"node_id":"MDM6UmVmMzMyMTA5MDoxLjkuOQ=="},{"name":"1.9.8","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.8","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.8","commit":{"sha":"03371b649c42f38da43cd773733442dcaa822d40","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/03371b649c42f38da43cd773733442dcaa822d40"},"node_id":"MDM6UmVmMzMyMTA5MDoxLjkuOA=="},{"name":"1.9.7","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.7","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.7","commit":{"sha":"424a052a5b12a43ccb4368ad50c7747dcdfe6cdc","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/424a052a5b12a43ccb4368ad50c7747dcdfe6cdc"},"node_id":"MDM6UmVmMzMyMTA5MDoxLjkuNw=="}]
+82b
+[{"name":"2.16","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/2.16","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/2.16","commit":{"sha":"b1566fd25e2924fdfd747c9713461cdaa3ccacc2","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/b1566fd25e2924fdfd747c9713461cdaa3ccacc2"},"node_id":"MDM6UmVmMzMyMTA5MDpyZWZzL3RhZ3MvMi4xNg=="},{"name":"1.9.10","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.10","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.10","commit":{"sha":"f76d96a5c7d6913015c7e8c402951b2c79d44244","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/f76d96a5c7d6913015c7e8c402951b2c79d44244"},"node_id":"MDM6UmVmMzMyMTA5MDpyZWZzL3RhZ3MvMS45LjEw"},{"name":"1.9.9","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.9","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.9","commit":{"sha":"839bc9d44da58c14a80704118b72f036d76d0ff2","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/839bc9d44da58c14a80704118b72f036d76d0ff2"},"node_id":"MDM6UmVmMzMyMTA5MDpyZWZzL3RhZ3MvMS45Ljk="},{"name":"1.9.8","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.8","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.8","commit":{"sha":"03371b649c42f38da43cd773733442dcaa822d40","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/03371b649c42f38da43cd773733442dcaa822d40"},"node_id":"MDM6UmVmMzMyMTA5MDpyZWZzL3RhZ3MvMS45Ljg="},{"name":"1.9.7","zipball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/zipball/1.9.7","tarball_url":"https://api.github.com/repos/xitrum-framework/xitrum-new/tarball/1.9.7","commit":{"sha":"424a052a5b12a43ccb4368ad50c7747dcdfe6cdc","url":"https://api.github.com/repos/xitrum-framework/xitrum-new/commits/424a052a5b12a43ccb4368ad50c7747dcdfe6cdc"},"node_id":"MDM6UmVmMzMyMTA5MDpyZWZzL3RhZ3MvMS45Ljc="}]
 0
 

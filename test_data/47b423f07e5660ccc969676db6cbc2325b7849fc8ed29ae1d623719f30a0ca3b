@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:27 GMT
-Etag: W/"05bd742e82cf42fee03e2e0edacfafa3"
-Last-Modified: Thu, 10 May 2018 06:26:28 GMT
+Date: Sat, 14 Nov 2020 18:08:49 GMT
+Etag: W/"5d8026665232bcec4078342afe4128a24c699932e03d004a964c6ae43520c194"
+Last-Modified: Wed, 11 Nov 2020 20:54:35 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB61:57C5:372E099:719F19A:5B1B8AFB
-X-Oauth-Scopes: 
+X-Github-Request-Id: D186:BAD3:3CFD143:463FD95:5FB01D31
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2452
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040979
+X-Ratelimit-Remaining: 935
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4065
 X-Xss-Protection: 1; mode=block
 
-48d
-{"login":"leafo","id":15198,"node_id":"MDQ6VXNlcjE1MTk4","avatar_url":"https://avatars0.githubusercontent.com/u/15198?v=4","gravatar_id":"","url":"https://api.github.com/users/leafo","html_url":"https://github.com/leafo","followers_url":"https://api.github.com/users/leafo/followers","following_url":"https://api.github.com/users/leafo/following{/other_user}","gists_url":"https://api.github.com/users/leafo/gists{/gist_id}","starred_url":"https://api.github.com/users/leafo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leafo/subscriptions","organizations_url":"https://api.github.com/users/leafo/orgs","repos_url":"https://api.github.com/users/leafo/repos","events_url":"https://api.github.com/users/leafo/events{/privacy}","received_events_url":"https://api.github.com/users/leafo/received_events","type":"User","site_admin":false,"name":"leaf","company":"itch.zone","blog":"http://leafo.net","location":"San Francisco","email":"leafot@gmail.com","hireable":null,"bio":"senior fart @ @itchio","public_repos":152,"public_gists":64,"followers":1008,"following":53,"created_at":"2008-06-26T20:56:57Z","updated_at":"2018-05-10T06:26:28Z"}
+4a5
+{"login":"leafo","id":15198,"node_id":"MDQ6VXNlcjE1MTk4","avatar_url":"https://avatars0.githubusercontent.com/u/15198?v=4","gravatar_id":"","url":"https://api.github.com/users/leafo","html_url":"https://github.com/leafo","followers_url":"https://api.github.com/users/leafo/followers","following_url":"https://api.github.com/users/leafo/following{/other_user}","gists_url":"https://api.github.com/users/leafo/gists{/gist_id}","starred_url":"https://api.github.com/users/leafo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leafo/subscriptions","organizations_url":"https://api.github.com/users/leafo/orgs","repos_url":"https://api.github.com/users/leafo/repos","events_url":"https://api.github.com/users/leafo/events{/privacy}","received_events_url":"https://api.github.com/users/leafo/received_events","type":"User","site_admin":false,"name":"leaf","company":"itch.zone","blog":"http://leafo.net","location":"San Francisco","email":"leafot@gmail.com","hireable":null,"bio":"senior fart @ @itchio","twitter_username":null,"public_repos":161,"public_gists":68,"followers":1330,"following":62,"created_at":"2008-06-26T20:56:57Z","updated_at":"2020-11-11T20:54:35Z"}
 0
 

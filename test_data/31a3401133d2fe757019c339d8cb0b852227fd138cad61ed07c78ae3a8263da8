@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:15 GMT
-Etag: W/"d09c0a9946ec9f8c442a7c5dcdd5ac75"
-Last-Modified: Tue, 29 May 2018 12:40:04 GMT
+Date: Sat, 14 Nov 2020 18:01:31 GMT
+Etag: W/"c12bb2520bccc1519559aa3e118efd3760c4b26fd863d3b3c8fde3b0ea275af2"
+Last-Modified: Tue, 10 Nov 2020 23:50:52 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8CD:57C4:23B8C53:50CE251:5B1B8A3B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE3E:7087:3CFF72F:4630DB1:5FB01B7B
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4541
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033338
+X-Ratelimit-Remaining: 3557
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1443
 X-Xss-Protection: 1; mode=block
 
-483
-{"login":"Codcore","id":8759731,"node_id":"MDQ6VXNlcjg3NTk3MzE=","avatar_url":"https://avatars3.githubusercontent.com/u/8759731?v=4","gravatar_id":"","url":"https://api.github.com/users/Codcore","html_url":"https://github.com/Codcore","followers_url":"https://api.github.com/users/Codcore/followers","following_url":"https://api.github.com/users/Codcore/following{/other_user}","gists_url":"https://api.github.com/users/Codcore/gists{/gist_id}","starred_url":"https://api.github.com/users/Codcore/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Codcore/subscriptions","organizations_url":"https://api.github.com/users/Codcore/orgs","repos_url":"https://api.github.com/users/Codcore/repos","events_url":"https://api.github.com/users/Codcore/events{/privacy}","received_events_url":"https://api.github.com/users/Codcore/received_events","type":"User","site_admin":false,"name":"Andrej Yaroshuk","company":null,"blog":"","location":"Ukraine","email":"codcore@gmail.com","hireable":true,"bio":null,"public_repos":6,"public_gists":6,"followers":27,"following":3,"created_at":"2014-09-13T12:45:49Z","updated_at":"2018-05-29T12:40:04Z"}
+49d
+{"login":"Codcore","id":8759731,"node_id":"MDQ6VXNlcjg3NTk3MzE=","avatar_url":"https://avatars3.githubusercontent.com/u/8759731?v=4","gravatar_id":"","url":"https://api.github.com/users/Codcore","html_url":"https://github.com/Codcore","followers_url":"https://api.github.com/users/Codcore/followers","following_url":"https://api.github.com/users/Codcore/following{/other_user}","gists_url":"https://api.github.com/users/Codcore/gists{/gist_id}","starred_url":"https://api.github.com/users/Codcore/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Codcore/subscriptions","organizations_url":"https://api.github.com/users/Codcore/orgs","repos_url":"https://api.github.com/users/Codcore/repos","events_url":"https://api.github.com/users/Codcore/events{/privacy}","received_events_url":"https://api.github.com/users/Codcore/received_events","type":"User","site_admin":false,"name":"Andrej Yaroshuk","company":null,"blog":"","location":"Ukraine","email":"codcore@gmail.com","hireable":true,"bio":null,"twitter_username":null,"public_repos":14,"public_gists":17,"followers":26,"following":0,"created_at":"2014-09-13T12:45:49Z","updated_at":"2020-11-10T23:50:52Z"}
 0
 

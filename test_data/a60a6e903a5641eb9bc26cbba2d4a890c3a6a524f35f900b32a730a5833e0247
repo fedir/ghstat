@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:37 GMT
+Etag: W/"267e4815ffe55062f636cf344624479da30e3e1d7105850c2c796713addb158d"
+Link: <https://api.github.com/user/5619153/followers?page=11>; rel="prev", <https://api.github.com/user/5619153/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF89:5C52:202F2F3:2507E0E:5FB01C71
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2451
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2549
+X-Xss-Protection: 1; mode=block
+
+e1d
+[{"login":"ecu-git","id":61608254,"node_id":"MDQ6VXNlcjYxNjA4MjU0","avatar_url":"https://avatars0.githubusercontent.com/u/61608254?v=4","gravatar_id":"","url":"https://api.github.com/users/ecu-git","html_url":"https://github.com/ecu-git","followers_url":"https://api.github.com/users/ecu-git/followers","following_url":"https://api.github.com/users/ecu-git/following{/other_user}","gists_url":"https://api.github.com/users/ecu-git/gists{/gist_id}","starred_url":"https://api.github.com/users/ecu-git/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ecu-git/subscriptions","organizations_url":"https://api.github.com/users/ecu-git/orgs","repos_url":"https://api.github.com/users/ecu-git/repos","events_url":"https://api.github.com/users/ecu-git/events{/privacy}","received_events_url":"https://api.github.com/users/ecu-git/received_events","type":"User","site_admin":false},{"login":"Nepo26","id":36644628,"node_id":"MDQ6VXNlcjM2NjQ0NjI4","avatar_url":"https://avatars2.githubusercontent.com/u/36644628?v=4","gravatar_id":"","url":"https://api.github.com/users/Nepo26","html_url":"https://github.com/Nepo26","followers_url":"https://api.github.com/users/Nepo26/followers","following_url":"https://api.github.com/users/Nepo26/following{/other_user}","gists_url":"https://api.github.com/users/Nepo26/gists{/gist_id}","starred_url":"https://api.github.com/users/Nepo26/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Nepo26/subscriptions","organizations_url":"https://api.github.com/users/Nepo26/orgs","repos_url":"https://api.github.com/users/Nepo26/repos","events_url":"https://api.github.com/users/Nepo26/events{/privacy}","received_events_url":"https://api.github.com/users/Nepo26/received_events","type":"User","site_admin":false},{"login":"tg12","id":12201893,"node_id":"MDQ6VXNlcjEyMjAxODkz","avatar_url":"https://avatars2.githubusercontent.com/u/12201893?v=4","gravatar_id":"","url":"https://api.github.com/users/tg12","html_url":"https://github.com/tg12","followers_url":"https://api.github.com/users/tg12/followers","following_url":"https://api.github.com/users/tg12/following{/other_user}","gists_url":"https://api.github.com/users/tg12/gists{/gist_id}","starred_url":"https://api.github.com/users/tg12/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tg12/subscriptions","organizations_url":"https://api.github.com/users/tg12/orgs","repos_url":"https://api.github.com/users/tg12/repos","events_url":"https://api.github.com/users/tg12/events{/privacy}","received_events_url":"https://api.github.com/users/tg12/received_events","type":"User","site_admin":false},{"login":"nanorukadavul","id":66244808,"node_id":"MDQ6VXNlcjY2MjQ0ODA4","avatar_url":"https://avatars2.githubusercontent.com/u/66244808?v=4","gravatar_id":"","url":"https://api.github.com/users/nanorukadavul","html_url":"https://github.com/nanorukadavul","followers_url":"https://api.github.com/users/nanorukadavul/followers","following_url":"https://api.github.com/users/nanorukadavul/following{/other_user}","gists_url":"https://api.github.com/users/nanorukadavul/gists{/gist_id}","starred_url":"https://api.github.com/users/nanorukadavul/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nanorukadavul/subscriptions","organizations_url":"https://api.github.com/users/nanorukadavul/orgs","repos_url":"https://api.github.com/users/nanorukadavul/repos","events_url":"https://api.github.com/users/nanorukadavul/events{/privacy}","received_events_url":"https://api.github.com/users/nanorukadavul/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:22 GMT
-Etag: W/"0755504d58ac4e97287284acaab87217"
-Last-Modified: Thu, 24 May 2018 09:30:43 GMT
+Date: Sat, 14 Nov 2020 18:06:09 GMT
+Etag: W/"51ec27e4086573ec9c4a22cdef6abb6b2bd629fb95fd717e87b2b5c538a04031"
+Last-Modified: Mon, 02 Nov 2020 20:36:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAC1:57C6:2FE3E73:64E9CE6:5B1B8ABA
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFB3:E4B7:3A3A11A:43211EC:5FB01C90
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3127
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.030947
+X-Ratelimit-Remaining: 2051
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2949
 X-Xss-Protection: 1; mode=block
 
-485
-{"login":"dhh","id":2741,"node_id":"MDQ6VXNlcjI3NDE=","avatar_url":"https://avatars0.githubusercontent.com/u/2741?v=4","gravatar_id":"","url":"https://api.github.com/users/dhh","html_url":"https://github.com/dhh","followers_url":"https://api.github.com/users/dhh/followers","following_url":"https://api.github.com/users/dhh/following{/other_user}","gists_url":"https://api.github.com/users/dhh/gists{/gist_id}","starred_url":"https://api.github.com/users/dhh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dhh/subscriptions","organizations_url":"https://api.github.com/users/dhh/orgs","repos_url":"https://api.github.com/users/dhh/repos","events_url":"https://api.github.com/users/dhh/events{/privacy}","received_events_url":"https://api.github.com/users/dhh/received_events","type":"User","site_admin":false,"name":"David Heinemeier Hansson","company":"Basecamp","blog":"http://david.heinemeierhansson.com","location":"Chicago, USA","email":"david@basecamp.com","hireable":null,"bio":null,"public_repos":21,"public_gists":48,"followers":11851,"following":0,"created_at":"2008-03-10T17:53:51Z","updated_at":"2018-05-24T09:30:43Z"}
+48b
+{"login":"dhh","id":2741,"node_id":"MDQ6VXNlcjI3NDE=","avatar_url":"https://avatars0.githubusercontent.com/u/2741?v=4","gravatar_id":"","url":"https://api.github.com/users/dhh","html_url":"https://github.com/dhh","followers_url":"https://api.github.com/users/dhh/followers","following_url":"https://api.github.com/users/dhh/following{/other_user}","gists_url":"https://api.github.com/users/dhh/gists{/gist_id}","starred_url":"https://api.github.com/users/dhh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dhh/subscriptions","organizations_url":"https://api.github.com/users/dhh/orgs","repos_url":"https://api.github.com/users/dhh/repos","events_url":"https://api.github.com/users/dhh/events{/privacy}","received_events_url":"https://api.github.com/users/dhh/received_events","type":"User","site_admin":false,"name":"David Heinemeier Hansson","company":"Basecamp","blog":"https://dhh.dk","location":"Malibu, CA","email":"david@loudthinking.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":24,"public_gists":50,"followers":15170,"following":0,"created_at":"2008-03-10T17:53:51Z","updated_at":"2020-11-02T20:36:13Z"}
 0
 

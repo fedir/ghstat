@@ -1,30 +1,32 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:28 GMT
-Etag: W/"7287c8e3177b4fe2f6e8721507df43b4"
+Date: Sat, 14 Nov 2020 18:01:50 GMT
+Etag: W/"321251718a9983718c8e5139ec9a37dca899a251c82160c22bb89875cb76254f"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA0D:57C4:23B9E65:50D0D60:5B1B8A84
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE65:41F2:E68A7C:108D195:5FB01B8E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3680
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033066
+X-Ratelimit-Remaining: 3101
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1899
 X-Xss-Protection: 1; mode=block
 
-368
-[{"login":"viile","id":8098978,"node_id":"MDQ6VXNlcjgwOTg5Nzg=","avatar_url":"https://avatars2.githubusercontent.com/u/8098978?v=4","gravatar_id":"","url":"https://api.github.com/users/viile","html_url":"https://github.com/viile","followers_url":"https://api.github.com/users/viile/followers","following_url":"https://api.github.com/users/viile/following{/other_user}","gists_url":"https://api.github.com/users/viile/gists{/gist_id}","starred_url":"https://api.github.com/users/viile/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/viile/subscriptions","organizations_url":"https://api.github.com/users/viile/orgs","repos_url":"https://api.github.com/users/viile/repos","events_url":"https://api.github.com/users/viile/events{/privacy}","received_events_url":"https://api.github.com/users/viile/received_events","type":"User","site_admin":false}]
+6d9
+[{"login":"viile","id":8098978,"node_id":"MDQ6VXNlcjgwOTg5Nzg=","avatar_url":"https://avatars2.githubusercontent.com/u/8098978?v=4","gravatar_id":"","url":"https://api.github.com/users/viile","html_url":"https://github.com/viile","followers_url":"https://api.github.com/users/viile/followers","following_url":"https://api.github.com/users/viile/following{/other_user}","gists_url":"https://api.github.com/users/viile/gists{/gist_id}","starred_url":"https://api.github.com/users/viile/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/viile/subscriptions","organizations_url":"https://api.github.com/users/viile/orgs","repos_url":"https://api.github.com/users/viile/repos","events_url":"https://api.github.com/users/viile/events{/privacy}","received_events_url":"https://api.github.com/users/viile/received_events","type":"User","site_admin":false},{"login":"dorvan","id":848817,"node_id":"MDQ6VXNlcjg0ODgxNw==","avatar_url":"https://avatars0.githubusercontent.com/u/848817?v=4","gravatar_id":"","url":"https://api.github.com/users/dorvan","html_url":"https://github.com/dorvan","followers_url":"https://api.github.com/users/dorvan/followers","following_url":"https://api.github.com/users/dorvan/following{/other_user}","gists_url":"https://api.github.com/users/dorvan/gists{/gist_id}","starred_url":"https://api.github.com/users/dorvan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dorvan/subscriptions","organizations_url":"https://api.github.com/users/dorvan/orgs","repos_url":"https://api.github.com/users/dorvan/repos","events_url":"https://api.github.com/users/dorvan/events{/privacy}","received_events_url":"https://api.github.com/users/dorvan/received_events","type":"User","site_admin":false}]
 0
 

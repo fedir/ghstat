@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:00 GMT
+Etag: W/"69abc4bd174631ce7b6d95f2934302ac19838020bf55deb77fde21965f2dadc0"
+Link: <https://api.github.com/user/22697/followers?page=5>; rel="prev", <https://api.github.com/user/22697/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE11:BAD3:3CC9B93:4603D62:5FB01B20
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3920
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1080
+X-Xss-Protection: 1; mode=block
+
+11d2
+[{"login":"nekron","id":957103,"node_id":"MDQ6VXNlcjk1NzEwMw==","avatar_url":"https://avatars3.githubusercontent.com/u/957103?v=4","gravatar_id":"","url":"https://api.github.com/users/nekron","html_url":"https://github.com/nekron","followers_url":"https://api.github.com/users/nekron/followers","following_url":"https://api.github.com/users/nekron/following{/other_user}","gists_url":"https://api.github.com/users/nekron/gists{/gist_id}","starred_url":"https://api.github.com/users/nekron/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nekron/subscriptions","organizations_url":"https://api.github.com/users/nekron/orgs","repos_url":"https://api.github.com/users/nekron/repos","events_url":"https://api.github.com/users/nekron/events{/privacy}","received_events_url":"https://api.github.com/users/nekron/received_events","type":"User","site_admin":false},{"login":"v-a-kernel","id":6491918,"node_id":"MDQ6VXNlcjY0OTE5MTg=","avatar_url":"https://avatars0.githubusercontent.com/u/6491918?v=4","gravatar_id":"","url":"https://api.github.com/users/v-a-kernel","html_url":"https://github.com/v-a-kernel","followers_url":"https://api.github.com/users/v-a-kernel/followers","following_url":"https://api.github.com/users/v-a-kernel/following{/other_user}","gists_url":"https://api.github.com/users/v-a-kernel/gists{/gist_id}","starred_url":"https://api.github.com/users/v-a-kernel/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/v-a-kernel/subscriptions","organizations_url":"https://api.github.com/users/v-a-kernel/orgs","repos_url":"https://api.github.com/users/v-a-kernel/repos","events_url":"https://api.github.com/users/v-a-kernel/events{/privacy}","received_events_url":"https://api.github.com/users/v-a-kernel/received_events","type":"User","site_admin":false},{"login":"volodymyr-sh","id":10076222,"node_id":"MDQ6VXNlcjEwMDc2MjIy","avatar_url":"https://avatars3.githubusercontent.com/u/10076222?v=4","gravatar_id":"","url":"https://api.github.com/users/volodymyr-sh","html_url":"https://github.com/volodymyr-sh","followers_url":"https://api.github.com/users/volodymyr-sh/followers","following_url":"https://api.github.com/users/volodymyr-sh/following{/other_user}","gists_url":"https://api.github.com/users/volodymyr-sh/gists{/gist_id}","starred_url":"https://api.github.com/users/volodymyr-sh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/volodymyr-sh/subscriptions","organizations_url":"https://api.github.com/users/volodymyr-sh/orgs","repos_url":"https://api.github.com/users/volodymyr-sh/repos","events_url":"https://api.github.com/users/volodymyr-sh/events{/privacy}","received_events_url":"https://api.github.com/users/volodymyr-sh/received_events","type":"User","site_admin":false},{"login":"bjnw","id":8770733,"node_id":"MDQ6VXNlcjg3NzA3MzM=","avatar_url":"https://avatars2.githubusercontent.com/u/8770733?v=4","gravatar_id":"","url":"https://api.github.com/users/bjnw","html_url":"https://github.com/bjnw","followers_url":"https://api.github.com/users/bjnw/followers","following_url":"https://api.github.com/users/bjnw/following{/other_user}","gists_url":"https://api.github.com/users/bjnw/gists{/gist_id}","starred_url":"https://api.github.com/users/bjnw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bjnw/subscriptions","organizations_url":"https://api.github.com/users/bjnw/orgs","repos_url":"https://api.github.com/users/bjnw/repos","events_url":"https://api.github.com/users/bjnw/events{/privacy}","received_events_url":"https://api.github.com/users/bjnw/received_events","type":"User","site_admin":false},{"login":"morten1982","id":10464377,"node_id":"MDQ6VXNlcjEwNDY0Mzc3","avatar_url":"https://avatars0.githubusercontent.com/u/10464377?v=4","gravatar_id":"","url":"https://api.github.com/users/morten1982","html_url":"https://github.com/morten1982","followers_url":"https://api.github.com/users/morten1982/followers","following_url":"https://api.github.com/users/morten1982/following{/other_user}","gists_url":"https://api.github.com/users/morten1982/gists{/gist_id}","starred_url":"https://api.github.com/users/morten1982/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/morten1982/subscriptions","organizations_url":"https://api.github.com/users/morten1982/orgs","repos_url":"https://api.github.com/users/morten1982/repos","events_url":"https://api.github.com/users/morten1982/events{/privacy}","received_events_url":"https://api.github.com/users/morten1982/received_events","type":"User","site_admin":false}]
+0
+

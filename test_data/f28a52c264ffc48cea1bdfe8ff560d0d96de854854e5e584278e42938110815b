@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"c2ad3a2880c111f7ee40cfb2f1df4a1e"
-Last-Modified: Sat, 09 Jun 2018 07:30:20 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"9a56c63bc46bac506702026360140cf6795febbe791665577f82ff120f50f8e7"
+Last-Modified: Sat, 14 Nov 2020 14:20:04 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC13:57C5:372EBD8:71A0641:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE0F:78A2:1F37402:23E0AB3:5FB01B1E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1916
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.034681
+X-Ratelimit-Remaining: 3990
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1010
 X-Xss-Protection: 1; mode=block
 
-109
-{"C":71048703,"PHP":27882818,"C++":5091554,"M4":471512,"Objective-C":300139,"Shell":294886,"JavaScript":198794,"Lex":87378,"Yacc":72929,"Makefile":48712,"HTML":17318,"GDB":13236,"Perl":10643,"Batchfile":9933,"XSLT":8281,"Awk":6582,"DTrace":4528,"Roff":1316,"GAP":4}
+11a
+{"C":67705341,"PHP":24808196,"C++":7778916,"M4":402989,"Objective-C":306404,"Shell":305616,"Lua":261623,"JavaScript":193936,"Lex":96353,"Yacc":80615,"Makefile":32025,"Roff":31616,"GAP":23432,"GDB":13366,"Perl":10604,"Batchfile":10520,"XSLT":7715,"DTrace":4514,"Awk":3926,"HTML":411}
 0
 

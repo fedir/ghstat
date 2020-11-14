@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:14 GMT
-Etag: W/"fd8a32afc72db38e1b25f2e2f34dcb13"
-Last-Modified: Fri, 08 Jun 2018 04:50:59 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"d455c810f817d6ed52cdb6e164030585185b40afcb8f1907e8daad6ebe0ec7c7"
+Last-Modified: Wed, 11 Nov 2020 19:58:17 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD1B:57C4:23BC96B:50D7E2A:5B1B8B66
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2D2:2944:208C636:256EBA0:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1395
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038868
+X-Ratelimit-Remaining: 168
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4832
 X-Xss-Protection: 1; mode=block
 
-477
-{"login":"nebhale","id":60754,"node_id":"MDQ6VXNlcjYwNzU0","avatar_url":"https://avatars1.githubusercontent.com/u/60754?v=4","gravatar_id":"","url":"https://api.github.com/users/nebhale","html_url":"https://github.com/nebhale","followers_url":"https://api.github.com/users/nebhale/followers","following_url":"https://api.github.com/users/nebhale/following{/other_user}","gists_url":"https://api.github.com/users/nebhale/gists{/gist_id}","starred_url":"https://api.github.com/users/nebhale/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebhale/subscriptions","organizations_url":"https://api.github.com/users/nebhale/orgs","repos_url":"https://api.github.com/users/nebhale/repos","events_url":"https://api.github.com/users/nebhale/events{/privacy}","received_events_url":"https://api.github.com/users/nebhale/received_events","type":"User","site_admin":false,"name":"Ben Hale","company":null,"blog":"","location":"San Francisco, CA, USA","email":null,"hireable":null,"bio":null,"public_repos":69,"public_gists":49,"followers":305,"following":0,"created_at":"2009-03-06T12:53:09Z","updated_at":"2018-06-08T04:50:59Z"}
+526
+{"login":"nebhale","id":60754,"node_id":"MDQ6VXNlcjYwNzU0","avatar_url":"https://avatars1.githubusercontent.com/u/60754?v=4","gravatar_id":"","url":"https://api.github.com/users/nebhale","html_url":"https://github.com/nebhale","followers_url":"https://api.github.com/users/nebhale/followers","following_url":"https://api.github.com/users/nebhale/following{/other_user}","gists_url":"https://api.github.com/users/nebhale/gists{/gist_id}","starred_url":"https://api.github.com/users/nebhale/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebhale/subscriptions","organizations_url":"https://api.github.com/users/nebhale/orgs","repos_url":"https://api.github.com/users/nebhale/repos","events_url":"https://api.github.com/users/nebhale/events{/privacy}","received_events_url":"https://api.github.com/users/nebhale/received_events","type":"User","site_admin":false,"name":"Ben Hale","company":"@vmware ","blog":"","location":"Marin County, CA","email":null,"hireable":null,"bio":"Lead of Java on @CloudFoundry.  Creator of @r2dbc and @buildpack. Long time member of @spring-projects and @reactor teams.  Contributor to @rsocket.","twitter_username":"nebhale","public_repos":60,"public_gists":73,"followers":528,"following":0,"created_at":"2009-03-06T12:53:09Z","updated_at":"2020-11-11T19:58:17Z"}
 0
 

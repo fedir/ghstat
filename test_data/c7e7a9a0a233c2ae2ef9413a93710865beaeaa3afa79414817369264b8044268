@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:50 GMT
+Etag: W/"c031655320ad66b93d89935736e32ad8176b7b155c7af80a8855ae204ccb16f0"
+Link: <https://api.github.com/user/3023976/followers?page=2>; rel="prev", <https://api.github.com/user/3023976/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2C0:E7C5:367BF4B:3EDC6D0:5FB01DAA
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 210
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4790
+X-Xss-Protection: 1; mode=block
+
+ab0
+[{"login":"adahra","id":6745098,"node_id":"MDQ6VXNlcjY3NDUwOTg=","avatar_url":"https://avatars0.githubusercontent.com/u/6745098?v=4","gravatar_id":"","url":"https://api.github.com/users/adahra","html_url":"https://github.com/adahra","followers_url":"https://api.github.com/users/adahra/followers","following_url":"https://api.github.com/users/adahra/following{/other_user}","gists_url":"https://api.github.com/users/adahra/gists{/gist_id}","starred_url":"https://api.github.com/users/adahra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adahra/subscriptions","organizations_url":"https://api.github.com/users/adahra/orgs","repos_url":"https://api.github.com/users/adahra/repos","events_url":"https://api.github.com/users/adahra/events{/privacy}","received_events_url":"https://api.github.com/users/adahra/received_events","type":"User","site_admin":false},{"login":"diegogub","id":2489012,"node_id":"MDQ6VXNlcjI0ODkwMTI=","avatar_url":"https://avatars2.githubusercontent.com/u/2489012?v=4","gravatar_id":"","url":"https://api.github.com/users/diegogub","html_url":"https://github.com/diegogub","followers_url":"https://api.github.com/users/diegogub/followers","following_url":"https://api.github.com/users/diegogub/following{/other_user}","gists_url":"https://api.github.com/users/diegogub/gists{/gist_id}","starred_url":"https://api.github.com/users/diegogub/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/diegogub/subscriptions","organizations_url":"https://api.github.com/users/diegogub/orgs","repos_url":"https://api.github.com/users/diegogub/repos","events_url":"https://api.github.com/users/diegogub/events{/privacy}","received_events_url":"https://api.github.com/users/diegogub/received_events","type":"User","site_admin":false},{"login":"Claessens14","id":18176078,"node_id":"MDQ6VXNlcjE4MTc2MDc4","avatar_url":"https://avatars3.githubusercontent.com/u/18176078?v=4","gravatar_id":"","url":"https://api.github.com/users/Claessens14","html_url":"https://github.com/Claessens14","followers_url":"https://api.github.com/users/Claessens14/followers","following_url":"https://api.github.com/users/Claessens14/following{/other_user}","gists_url":"https://api.github.com/users/Claessens14/gists{/gist_id}","starred_url":"https://api.github.com/users/Claessens14/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Claessens14/subscriptions","organizations_url":"https://api.github.com/users/Claessens14/orgs","repos_url":"https://api.github.com/users/Claessens14/repos","events_url":"https://api.github.com/users/Claessens14/events{/privacy}","received_events_url":"https://api.github.com/users/Claessens14/received_events","type":"User","site_admin":false}]
+0
+

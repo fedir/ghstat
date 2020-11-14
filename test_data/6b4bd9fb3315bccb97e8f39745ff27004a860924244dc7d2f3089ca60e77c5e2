@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:12:25 GMT
-Etag: W/"e9d17fae8d93df29f9f32e9b0bcda400"
-Last-Modified: Fri, 25 May 2018 23:46:12 GMT
+Date: Sat, 14 Nov 2020 17:59:59 GMT
+Etag: W/"2ba1a8b602a11df443e834e8a056bb46e719607be8e5ae65f9c832cc725489c2"
+Last-Modified: Tue, 10 Nov 2020 03:35:21 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CEF0:57C5:3735A90:71AD02A:5B1B8BE9
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE0E:BAD2:1DA8FC3:2234D0E:5FB01B1F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 327
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.048726
+X-Ratelimit-Remaining: 3949
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1051
 X-Xss-Protection: 1; mode=block
 
-476
-{"login":"graydon","id":14097,"node_id":"MDQ6VXNlcjE0MDk3","avatar_url":"https://avatars3.githubusercontent.com/u/14097?v=4","gravatar_id":"","url":"https://api.github.com/users/graydon","html_url":"https://github.com/graydon","followers_url":"https://api.github.com/users/graydon/followers","following_url":"https://api.github.com/users/graydon/following{/other_user}","gists_url":"https://api.github.com/users/graydon/gists{/gist_id}","starred_url":"https://api.github.com/users/graydon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/graydon/subscriptions","organizations_url":"https://api.github.com/users/graydon/orgs","repos_url":"https://api.github.com/users/graydon/repos","events_url":"https://api.github.com/users/graydon/events{/privacy}","received_events_url":"https://api.github.com/users/graydon/received_events","type":"User","site_admin":false,"name":"Graydon Hoare","company":null,"blog":"","location":"Vancouver, BC","email":null,"hireable":null,"bio":null,"public_repos":284,"public_gists":9,"followers":1495,"following":148,"created_at":"2008-06-17T21:32:10Z","updated_at":"2018-05-25T23:46:12Z"}
+49e
+{"login":"graydon","id":14097,"node_id":"MDQ6VXNlcjE0MDk3","avatar_url":"https://avatars3.githubusercontent.com/u/14097?v=4","gravatar_id":"","url":"https://api.github.com/users/graydon","html_url":"https://github.com/graydon","followers_url":"https://api.github.com/users/graydon/followers","following_url":"https://api.github.com/users/graydon/following{/other_user}","gists_url":"https://api.github.com/users/graydon/gists{/gist_id}","starred_url":"https://api.github.com/users/graydon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/graydon/subscriptions","organizations_url":"https://api.github.com/users/graydon/orgs","repos_url":"https://api.github.com/users/graydon/repos","events_url":"https://api.github.com/users/graydon/events{/privacy}","received_events_url":"https://api.github.com/users/graydon/received_events","type":"User","site_admin":false,"name":"Graydon Hoare","company":null,"blog":"","location":"Vancouver, BC","email":"graydon@pobox.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":505,"public_gists":13,"followers":2674,"following":417,"created_at":"2008-06-17T21:32:10Z","updated_at":"2020-11-10T03:35:21Z"}
 0
 

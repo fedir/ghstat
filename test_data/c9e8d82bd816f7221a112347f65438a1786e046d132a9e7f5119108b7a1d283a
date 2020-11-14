@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:49 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D18A:5C52:20386A8:2512B70:5FB01D31
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 3
+X-Ratelimit-Reset: 1605377359
+X-Ratelimit-Used: 27
+X-Xss-Protection: 1; mode=block
+
+f24
+{"total_count":2,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/appwilldev/moochine/issues/2","repository_url":"https://api.github.com/repos/appwilldev/moochine","labels_url":"https://api.github.com/repos/appwilldev/moochine/issues/2/labels{/name}","comments_url":"https://api.github.com/repos/appwilldev/moochine/issues/2/comments","events_url":"https://api.github.com/repos/appwilldev/moochine/issues/2/events","html_url":"https://github.com/appwilldev/moochine/issues/2","id":19520046,"node_id":"MDU6SXNzdWUxOTUyMDA0Ng==","number":2,"title":"util.lua 中有个bug","user":{"login":"xumenghe","id":1037199,"node_id":"MDQ6VXNlcjEwMzcxOTk=","avatar_url":"https://avatars2.githubusercontent.com/u/1037199?v=4","gravatar_id":"","url":"https://api.github.com/users/xumenghe","html_url":"https://github.com/xumenghe","followers_url":"https://api.github.com/users/xumenghe/followers","following_url":"https://api.github.com/users/xumenghe/following{/other_user}","gists_url":"https://api.github.com/users/xumenghe/gists{/gist_id}","starred_url":"https://api.github.com/users/xumenghe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xumenghe/subscriptions","organizations_url":"https://api.github.com/users/xumenghe/orgs","repos_url":"https://api.github.com/users/xumenghe/repos","events_url":"https://api.github.com/users/xumenghe/events{/privacy}","received_events_url":"https://api.github.com/users/xumenghe/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":1,"created_at":"2013-09-15T13:52:25Z","updated_at":"2013-09-16T01:40:15Z","closed_at":"2013-09-16T01:40:15Z","author_association":"NONE","active_lock_reason":null,"body":"第46行： global['MOOCHINE_APP']=appname\n\n应改为： global['MOOCHINE_APP']=app_name\n","performed_via_github_app":null,"score":1.0},{"url":"https://api.github.com/repos/appwilldev/moochine/issues/1","repository_url":"https://api.github.com/repos/appwilldev/moochine","labels_url":"https://api.github.com/repos/appwilldev/moochine/issues/1/labels{/name}","comments_url":"https://api.github.com/repos/appwilldev/moochine/issues/1/comments","events_url":"https://api.github.com/repos/appwilldev/moochine/issues/1/events","html_url":"https://github.com/appwilldev/moochine/issues/1","id":13544461,"node_id":"MDU6SXNzdWUxMzU0NDQ2MQ==","number":1,"title":"clone 报错, 怎么回事?","user":{"login":"wxianfeng","id":101336,"node_id":"MDQ6VXNlcjEwMTMzNg==","avatar_url":"https://avatars0.githubusercontent.com/u/101336?v=4","gravatar_id":"","url":"https://api.github.com/users/wxianfeng","html_url":"https://github.com/wxianfeng","followers_url":"https://api.github.com/users/wxianfeng/followers","following_url":"https://api.github.com/users/wxianfeng/following{/other_user}","gists_url":"https://api.github.com/users/wxianfeng/gists{/gist_id}","starred_url":"https://api.github.com/users/wxianfeng/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wxianfeng/subscriptions","organizations_url":"https://api.github.com/users/wxianfeng/orgs","repos_url":"https://api.github.com/users/wxianfeng/repos","events_url":"https://api.github.com/users/wxianfeng/events{/privacy}","received_events_url":"https://api.github.com/users/wxianfeng/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":2,"created_at":"2013-04-23T16:48:46Z","updated_at":"2013-04-24T02:27:03Z","closed_at":"2013-04-24T02:27:03Z","author_association":"NONE","active_lock_reason":null,"body":"```\nwxianfeng-2:lua wangxianfeng$ git clone git://github.com/appwilldev/moochine.git\nfatal: could not create work tree dir 'moochine'.: Permission denied\n```\n","performed_via_github_app":null,"score":1.0}]}
+0
+

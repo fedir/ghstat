@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:46 GMT
+Etag: W/"aeda37c1320f416aff43b3b0ac50e9cd298382a197b9ebd2c947a946d65301d1"
+Last-Modified: Thu, 05 Nov 2020 15:27:43 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF8E:BAD3:3CEBB69:462B8C6:5FB01C7A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2392
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2608
+X-Xss-Protection: 1; mode=block
+
+534
+{"login":"zorbash","id":645514,"node_id":"MDQ6VXNlcjY0NTUxNA==","avatar_url":"https://avatars2.githubusercontent.com/u/645514?v=4","gravatar_id":"","url":"https://api.github.com/users/zorbash","html_url":"https://github.com/zorbash","followers_url":"https://api.github.com/users/zorbash/followers","following_url":"https://api.github.com/users/zorbash/following{/other_user}","gists_url":"https://api.github.com/users/zorbash/gists{/gist_id}","starred_url":"https://api.github.com/users/zorbash/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zorbash/subscriptions","organizations_url":"https://api.github.com/users/zorbash/orgs","repos_url":"https://api.github.com/users/zorbash/repos","events_url":"https://api.github.com/users/zorbash/events{/privacy}","received_events_url":"https://api.github.com/users/zorbash/received_events","type":"User","site_admin":false,"name":"Dimitris Zorbas","company":"@babylonhealth","blog":"https://zorbash.com","location":"London, UK","email":"dimitrisplusplus@gmail.com","hireable":true,"bio":"\r\n    Brave sourcerer / Code Acrobat / Technical Debt Collector\r\nSide-project: https://tefter.io\r\n","twitter_username":"_zorbash","public_repos":82,"public_gists":60,"followers":131,"following":28,"created_at":"2011-03-01T19:59:23Z","updated_at":"2020-11-05T15:27:43Z"}
+0
+

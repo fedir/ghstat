@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:06 GMT
+Etag: W/"43794f0c55de14a1b4d3785bdb64456ac8f994e4b4c130305f0c79f50154a452"
+Link: <https://api.github.com/user/3659035/followers?page=8>; rel="prev", <https://api.github.com/user/3659035/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE12:F078:38791F7:4110F9A:5FB01B26
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3802
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1198
+X-Xss-Protection: 1; mode=block
+
+e59
+[{"login":"adder46","id":43506880,"node_id":"MDQ6VXNlcjQzNTA2ODgw","avatar_url":"https://avatars3.githubusercontent.com/u/43506880?v=4","gravatar_id":"","url":"https://api.github.com/users/adder46","html_url":"https://github.com/adder46","followers_url":"https://api.github.com/users/adder46/followers","following_url":"https://api.github.com/users/adder46/following{/other_user}","gists_url":"https://api.github.com/users/adder46/gists{/gist_id}","starred_url":"https://api.github.com/users/adder46/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adder46/subscriptions","organizations_url":"https://api.github.com/users/adder46/orgs","repos_url":"https://api.github.com/users/adder46/repos","events_url":"https://api.github.com/users/adder46/events{/privacy}","received_events_url":"https://api.github.com/users/adder46/received_events","type":"User","site_admin":false},{"login":"Abdalslam2211","id":72521457,"node_id":"MDQ6VXNlcjcyNTIxNDU3","avatar_url":"https://avatars2.githubusercontent.com/u/72521457?v=4","gravatar_id":"","url":"https://api.github.com/users/Abdalslam2211","html_url":"https://github.com/Abdalslam2211","followers_url":"https://api.github.com/users/Abdalslam2211/followers","following_url":"https://api.github.com/users/Abdalslam2211/following{/other_user}","gists_url":"https://api.github.com/users/Abdalslam2211/gists{/gist_id}","starred_url":"https://api.github.com/users/Abdalslam2211/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Abdalslam2211/subscriptions","organizations_url":"https://api.github.com/users/Abdalslam2211/orgs","repos_url":"https://api.github.com/users/Abdalslam2211/repos","events_url":"https://api.github.com/users/Abdalslam2211/events{/privacy}","received_events_url":"https://api.github.com/users/Abdalslam2211/received_events","type":"User","site_admin":false},{"login":"andriyor","id":11459840,"node_id":"MDQ6VXNlcjExNDU5ODQw","avatar_url":"https://avatars0.githubusercontent.com/u/11459840?v=4","gravatar_id":"","url":"https://api.github.com/users/andriyor","html_url":"https://github.com/andriyor","followers_url":"https://api.github.com/users/andriyor/followers","following_url":"https://api.github.com/users/andriyor/following{/other_user}","gists_url":"https://api.github.com/users/andriyor/gists{/gist_id}","starred_url":"https://api.github.com/users/andriyor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/andriyor/subscriptions","organizations_url":"https://api.github.com/users/andriyor/orgs","repos_url":"https://api.github.com/users/andriyor/repos","events_url":"https://api.github.com/users/andriyor/events{/privacy}","received_events_url":"https://api.github.com/users/andriyor/received_events","type":"User","site_admin":false},{"login":"p4m-dev","id":31926941,"node_id":"MDQ6VXNlcjMxOTI2OTQx","avatar_url":"https://avatars2.githubusercontent.com/u/31926941?v=4","gravatar_id":"","url":"https://api.github.com/users/p4m-dev","html_url":"https://github.com/p4m-dev","followers_url":"https://api.github.com/users/p4m-dev/followers","following_url":"https://api.github.com/users/p4m-dev/following{/other_user}","gists_url":"https://api.github.com/users/p4m-dev/gists{/gist_id}","starred_url":"https://api.github.com/users/p4m-dev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/p4m-dev/subscriptions","organizations_url":"https://api.github.com/users/p4m-dev/orgs","repos_url":"https://api.github.com/users/p4m-dev/repos","events_url":"https://api.github.com/users/p4m-dev/events{/privacy}","received_events_url":"https://api.github.com/users/p4m-dev/received_events","type":"User","site_admin":false}]
+0
+

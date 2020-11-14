@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:05 GMT
+Etag: W/"20669e87f036b78e4beb697b5914bc133b0c6f4b4a1d0162c6f1267776c14223"
+Last-Modified: Sat, 14 Nov 2020 18:02:13 GMT
+Link: <https://api.github.com/repositories/596892/tags?page=1>; rel="prev", <https://api.github.com/repositories/596892/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA0:5C53:3F5A4EA:48F62B2:5FB01C8D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2093
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2907
+X-Xss-Protection: 1; mode=block
+
+2dd
+[{"name":"0.2","zipball_url":"https://api.github.com/repos/pallets/flask/zipball/0.2","tarball_url":"https://api.github.com/repos/pallets/flask/tarball/0.2","commit":{"sha":"e0fa5aec3a13d9c3e8e27b53526fcee56ac0298d","url":"https://api.github.com/repos/pallets/flask/commits/e0fa5aec3a13d9c3e8e27b53526fcee56ac0298d"},"node_id":"MDM6UmVmNTk2ODkyOnJlZnMvdGFncy8wLjI="},{"name":"0.1","zipball_url":"https://api.github.com/repos/pallets/flask/zipball/0.1","tarball_url":"https://api.github.com/repos/pallets/flask/tarball/0.1","commit":{"sha":"8605cc310d260c3b08160881b09da26c2cc95f8d","url":"https://api.github.com/repos/pallets/flask/commits/8605cc310d260c3b08160881b09da26c2cc95f8d"},"node_id":"MDM6UmVmNTk2ODkyOnJlZnMvdGFncy8wLjE="}]
+0
+

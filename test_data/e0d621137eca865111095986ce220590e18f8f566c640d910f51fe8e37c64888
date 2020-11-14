@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:51 GMT
+Etag: W/"a21f05fcfad8ff728e3cee922fb9facc6000cacd6675ea954dc49871acbb1d67"
+Link: <https://api.github.com/user/3721004/followers?page=3>; rel="prev", <https://api.github.com/user/3721004/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2C3:F078:38B5E01:4157E20:5FB01DAA
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 206
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4794
+X-Xss-Protection: 1; mode=block
+
+39a
+[{"login":"adriahadi","id":61260208,"node_id":"MDQ6VXNlcjYxMjYwMjA4","avatar_url":"https://avatars3.githubusercontent.com/u/61260208?v=4","gravatar_id":"","url":"https://api.github.com/users/adriahadi","html_url":"https://github.com/adriahadi","followers_url":"https://api.github.com/users/adriahadi/followers","following_url":"https://api.github.com/users/adriahadi/following{/other_user}","gists_url":"https://api.github.com/users/adriahadi/gists{/gist_id}","starred_url":"https://api.github.com/users/adriahadi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adriahadi/subscriptions","organizations_url":"https://api.github.com/users/adriahadi/orgs","repos_url":"https://api.github.com/users/adriahadi/repos","events_url":"https://api.github.com/users/adriahadi/events{/privacy}","received_events_url":"https://api.github.com/users/adriahadi/received_events","type":"User","site_admin":false}]
+0
+

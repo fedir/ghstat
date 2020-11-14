@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:03 GMT
+Etag: W/"d03cc5bc98874e99463e5ece27a34d41edf20c95b6159b9539928655e6b8fae9"
+Link: <https://api.github.com/user/4370550/followers?page=6>; rel="prev", <https://api.github.com/user/4370550/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE11:BAD3:3CCA186:460444F:5FB01B23
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3866
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1134
+X-Xss-Protection: 1; mode=block
+
+e3d
+[{"login":"dhillondeep","id":17806271,"node_id":"MDQ6VXNlcjE3ODA2Mjcx","avatar_url":"https://avatars2.githubusercontent.com/u/17806271?v=4","gravatar_id":"","url":"https://api.github.com/users/dhillondeep","html_url":"https://github.com/dhillondeep","followers_url":"https://api.github.com/users/dhillondeep/followers","following_url":"https://api.github.com/users/dhillondeep/following{/other_user}","gists_url":"https://api.github.com/users/dhillondeep/gists{/gist_id}","starred_url":"https://api.github.com/users/dhillondeep/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dhillondeep/subscriptions","organizations_url":"https://api.github.com/users/dhillondeep/orgs","repos_url":"https://api.github.com/users/dhillondeep/repos","events_url":"https://api.github.com/users/dhillondeep/events{/privacy}","received_events_url":"https://api.github.com/users/dhillondeep/received_events","type":"User","site_admin":false},{"login":"xuyang2","id":6643001,"node_id":"MDQ6VXNlcjY2NDMwMDE=","avatar_url":"https://avatars0.githubusercontent.com/u/6643001?v=4","gravatar_id":"","url":"https://api.github.com/users/xuyang2","html_url":"https://github.com/xuyang2","followers_url":"https://api.github.com/users/xuyang2/followers","following_url":"https://api.github.com/users/xuyang2/following{/other_user}","gists_url":"https://api.github.com/users/xuyang2/gists{/gist_id}","starred_url":"https://api.github.com/users/xuyang2/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/xuyang2/subscriptions","organizations_url":"https://api.github.com/users/xuyang2/orgs","repos_url":"https://api.github.com/users/xuyang2/repos","events_url":"https://api.github.com/users/xuyang2/events{/privacy}","received_events_url":"https://api.github.com/users/xuyang2/received_events","type":"User","site_admin":false},{"login":"AugustasK","id":11996111,"node_id":"MDQ6VXNlcjExOTk2MTEx","avatar_url":"https://avatars0.githubusercontent.com/u/11996111?v=4","gravatar_id":"","url":"https://api.github.com/users/AugustasK","html_url":"https://github.com/AugustasK","followers_url":"https://api.github.com/users/AugustasK/followers","following_url":"https://api.github.com/users/AugustasK/following{/other_user}","gists_url":"https://api.github.com/users/AugustasK/gists{/gist_id}","starred_url":"https://api.github.com/users/AugustasK/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AugustasK/subscriptions","organizations_url":"https://api.github.com/users/AugustasK/orgs","repos_url":"https://api.github.com/users/AugustasK/repos","events_url":"https://api.github.com/users/AugustasK/events{/privacy}","received_events_url":"https://api.github.com/users/AugustasK/received_events","type":"User","site_admin":false},{"login":"d3v3l0","id":4270462,"node_id":"MDQ6VXNlcjQyNzA0NjI=","avatar_url":"https://avatars3.githubusercontent.com/u/4270462?v=4","gravatar_id":"","url":"https://api.github.com/users/d3v3l0","html_url":"https://github.com/d3v3l0","followers_url":"https://api.github.com/users/d3v3l0/followers","following_url":"https://api.github.com/users/d3v3l0/following{/other_user}","gists_url":"https://api.github.com/users/d3v3l0/gists{/gist_id}","starred_url":"https://api.github.com/users/d3v3l0/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/d3v3l0/subscriptions","organizations_url":"https://api.github.com/users/d3v3l0/orgs","repos_url":"https://api.github.com/users/d3v3l0/repos","events_url":"https://api.github.com/users/d3v3l0/events{/privacy}","received_events_url":"https://api.github.com/users/d3v3l0/received_events","type":"User","site_admin":false}]
+0
+

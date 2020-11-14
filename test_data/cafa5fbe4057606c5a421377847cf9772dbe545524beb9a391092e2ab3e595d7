@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:53 GMT
-Etag: W/"86cf01746eb44b7a8cc41282b6ea80d8"
-Last-Modified: Sat, 09 Jun 2018 04:37:16 GMT
+Date: Sat, 14 Nov 2020 18:06:31 GMT
+Etag: W/"a0a11eb9a629dff9bcb0257a56c9d2b66c51e5e314ee4389452c53015c748bcd"
+Last-Modified: Sat, 14 Nov 2020 03:22:55 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC35:57C6:2FE5972:64EDF05:5B1B8B14
-X-Oauth-Scopes: 
+X-Github-Request-Id: D0DD:5C52:2031F03:250B18B:5FB01CA7
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1812
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.032588
+X-Ratelimit-Remaining: 1547
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3453
 X-Xss-Protection: 1; mode=block
 
-10b
-{"Java":202729195,"JavaScript":3446603,"CSS":1249434,"HTML":1051948,"FreeMarker":740391,"PLSQL":97112,"Groovy":84964,"Shell":82948,"GAP":50853,"XSLT":25393,"ANTLR":4740,"TypeScript":2756,"Smarty":2526,"Ruby":2161,"Python":966,"Batchfile":868,"Roff":270,"PLpgSQL":180}
+119
+{"Java":349355993,"JavaScript":10132131,"CSS":3974461,"SCSS":3586661,"FreeMarker":1220385,"HTML":1205072,"Groovy":96386,"Shell":91367,"GAP":50975,"XSLT":28195,"TypeScript":25389,"Smarty":9893,"ANTLR":5178,"Ruby":2022,"Python":966,"Batchfile":407,"Roff":270,"Go":71,"Dockerfile":29}
 0
 

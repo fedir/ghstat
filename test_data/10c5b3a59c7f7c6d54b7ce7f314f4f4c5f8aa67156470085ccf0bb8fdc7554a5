@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:03 GMT
-Etag: W/"aac6605189ca34cc4b0ecb6b7cab17a9"
-Last-Modified: Wed, 18 Apr 2018 20:48:46 GMT
+Date: Sat, 14 Nov 2020 18:05:57 GMT
+Etag: W/"d070938cefb3648773ba65ae9d3726c45e0255f5647e8d61c7244dc41313aa89"
+Last-Modified: Wed, 19 Aug 2020 07:37:33 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAA8:57C3:1EE253D:44F5B08:5B1B8AA6
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFA7:13F4:3D25D96:467B8A2:5FB01C84
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3358
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040357
+X-Ratelimit-Remaining: 2282
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2718
 X-Xss-Protection: 1; mode=block
 
-47a
-{"login":"mdipierro","id":965839,"node_id":"MDQ6VXNlcjk2NTgzOQ==","avatar_url":"https://avatars3.githubusercontent.com/u/965839?v=4","gravatar_id":"","url":"https://api.github.com/users/mdipierro","html_url":"https://github.com/mdipierro","followers_url":"https://api.github.com/users/mdipierro/followers","following_url":"https://api.github.com/users/mdipierro/following{/other_user}","gists_url":"https://api.github.com/users/mdipierro/gists{/gist_id}","starred_url":"https://api.github.com/users/mdipierro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mdipierro/subscriptions","organizations_url":"https://api.github.com/users/mdipierro/orgs","repos_url":"https://api.github.com/users/mdipierro/repos","events_url":"https://api.github.com/users/mdipierro/events{/privacy}","received_events_url":"https://api.github.com/users/mdipierro/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":81,"public_gists":8,"followers":430,"following":0,"created_at":"2011-08-08T08:55:07Z","updated_at":"2018-04-18T20:48:46Z"}
+493
+{"login":"mdipierro","id":965839,"node_id":"MDQ6VXNlcjk2NTgzOQ==","avatar_url":"https://avatars3.githubusercontent.com/u/965839?v=4","gravatar_id":"","url":"https://api.github.com/users/mdipierro","html_url":"https://github.com/mdipierro","followers_url":"https://api.github.com/users/mdipierro/followers","following_url":"https://api.github.com/users/mdipierro/following{/other_user}","gists_url":"https://api.github.com/users/mdipierro/gists{/gist_id}","starred_url":"https://api.github.com/users/mdipierro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mdipierro/subscriptions","organizations_url":"https://api.github.com/users/mdipierro/orgs","repos_url":"https://api.github.com/users/mdipierro/repos","events_url":"https://api.github.com/users/mdipierro/events{/privacy}","received_events_url":"https://api.github.com/users/mdipierro/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":87,"public_gists":11,"followers":486,"following":2,"created_at":"2011-08-08T08:55:07Z","updated_at":"2020-08-19T07:37:33Z"}
 0
 

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:05 GMT
+Etag: W/"57dcba64f1cccb800df1a8ad88d890847213d86e051131fb9c8c6f52bededef7"
+Link: <https://api.github.com/user/1623689/followers?page=78>; rel="prev", <https://api.github.com/user/1623689/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE12:F078:38790DC:4110E58:5FB01B25
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3815
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1185
+X-Xss-Protection: 1; mode=block
+
+6f7
+[{"login":"worc3131","id":16354462,"node_id":"MDQ6VXNlcjE2MzU0NDYy","avatar_url":"https://avatars0.githubusercontent.com/u/16354462?v=4","gravatar_id":"","url":"https://api.github.com/users/worc3131","html_url":"https://github.com/worc3131","followers_url":"https://api.github.com/users/worc3131/followers","following_url":"https://api.github.com/users/worc3131/following{/other_user}","gists_url":"https://api.github.com/users/worc3131/gists{/gist_id}","starred_url":"https://api.github.com/users/worc3131/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/worc3131/subscriptions","organizations_url":"https://api.github.com/users/worc3131/orgs","repos_url":"https://api.github.com/users/worc3131/repos","events_url":"https://api.github.com/users/worc3131/events{/privacy}","received_events_url":"https://api.github.com/users/worc3131/received_events","type":"User","site_admin":false},{"login":"lnxpy","id":36054518,"node_id":"MDQ6VXNlcjM2MDU0NTE4","avatar_url":"https://avatars1.githubusercontent.com/u/36054518?v=4","gravatar_id":"","url":"https://api.github.com/users/lnxpy","html_url":"https://github.com/lnxpy","followers_url":"https://api.github.com/users/lnxpy/followers","following_url":"https://api.github.com/users/lnxpy/following{/other_user}","gists_url":"https://api.github.com/users/lnxpy/gists{/gist_id}","starred_url":"https://api.github.com/users/lnxpy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lnxpy/subscriptions","organizations_url":"https://api.github.com/users/lnxpy/orgs","repos_url":"https://api.github.com/users/lnxpy/repos","events_url":"https://api.github.com/users/lnxpy/events{/privacy}","received_events_url":"https://api.github.com/users/lnxpy/received_events","type":"User","site_admin":false}]
+0
+

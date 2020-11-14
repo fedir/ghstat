@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:18 GMT
-Etag: W/"24e8e3d6b7c55f53455c8a23bdadc057"
-Last-Modified: Fri, 25 May 2018 12:28:12 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"4155fbc47668d076cc6f82cf41b8808840103a8293efeda58ce7454da7b88f3c"
+Last-Modified: Fri, 10 Jul 2020 12:00:06 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9D4:57C3:1EE1F90:44F4AD5:5B1B8A79
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE47:F44A:3A13223:42DB54F:5FB01B85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3920
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.061891
+X-Ratelimit-Remaining: 3332
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1668
 X-Xss-Protection: 1; mode=block
 
 b26
-[{"login":"ngocdaothanh","id":10095,"node_id":"MDQ6VXNlcjEwMDk1","avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"contributions":122},{"login":"georgeOsdDev","id":1381907,"node_id":"MDQ6VXNlcjEzODE5MDc=","avatar_url":"https://avatars1.githubusercontent.com/u/1381907?v=4","gravatar_id":"","url":"https://api.github.com/users/georgeOsdDev","html_url":"https://github.com/georgeOsdDev","followers_url":"https://api.github.com/users/georgeOsdDev/followers","following_url":"https://api.github.com/users/georgeOsdDev/following{/other_user}","gists_url":"https://api.github.com/users/georgeOsdDev/gists{/gist_id}","starred_url":"https://api.github.com/users/georgeOsdDev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/georgeOsdDev/subscriptions","organizations_url":"https://api.github.com/users/georgeOsdDev/orgs","repos_url":"https://api.github.com/users/georgeOsdDev/repos","events_url":"https://api.github.com/users/georgeOsdDev/events{/privacy}","received_events_url":"https://api.github.com/users/georgeOsdDev/received_events","type":"User","site_admin":false,"contributions":3},{"login":"c0d3r85","id":2161401,"node_id":"MDQ6VXNlcjIxNjE0MDE=","avatar_url":"https://avatars3.githubusercontent.com/u/2161401?v=4","gravatar_id":"","url":"https://api.github.com/users/c0d3r85","html_url":"https://github.com/c0d3r85","followers_url":"https://api.github.com/users/c0d3r85/followers","following_url":"https://api.github.com/users/c0d3r85/following{/other_user}","gists_url":"https://api.github.com/users/c0d3r85/gists{/gist_id}","starred_url":"https://api.github.com/users/c0d3r85/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/c0d3r85/subscriptions","organizations_url":"https://api.github.com/users/c0d3r85/orgs","repos_url":"https://api.github.com/users/c0d3r85/repos","events_url":"https://api.github.com/users/c0d3r85/events{/privacy}","received_events_url":"https://api.github.com/users/c0d3r85/received_events","type":"User","site_admin":false,"contributions":1}]
+[{"login":"ngocdaothanh","id":10095,"node_id":"MDQ6VXNlcjEwMDk1","avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"contributions":137},{"login":"georgeOsdDev","id":1381907,"node_id":"MDQ6VXNlcjEzODE5MDc=","avatar_url":"https://avatars1.githubusercontent.com/u/1381907?v=4","gravatar_id":"","url":"https://api.github.com/users/georgeOsdDev","html_url":"https://github.com/georgeOsdDev","followers_url":"https://api.github.com/users/georgeOsdDev/followers","following_url":"https://api.github.com/users/georgeOsdDev/following{/other_user}","gists_url":"https://api.github.com/users/georgeOsdDev/gists{/gist_id}","starred_url":"https://api.github.com/users/georgeOsdDev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/georgeOsdDev/subscriptions","organizations_url":"https://api.github.com/users/georgeOsdDev/orgs","repos_url":"https://api.github.com/users/georgeOsdDev/repos","events_url":"https://api.github.com/users/georgeOsdDev/events{/privacy}","received_events_url":"https://api.github.com/users/georgeOsdDev/received_events","type":"User","site_admin":false,"contributions":3},{"login":"c0d3r85","id":2161401,"node_id":"MDQ6VXNlcjIxNjE0MDE=","avatar_url":"https://avatars3.githubusercontent.com/u/2161401?v=4","gravatar_id":"","url":"https://api.github.com/users/c0d3r85","html_url":"https://github.com/c0d3r85","followers_url":"https://api.github.com/users/c0d3r85/followers","following_url":"https://api.github.com/users/c0d3r85/following{/other_user}","gists_url":"https://api.github.com/users/c0d3r85/gists{/gist_id}","starred_url":"https://api.github.com/users/c0d3r85/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/c0d3r85/subscriptions","organizations_url":"https://api.github.com/users/c0d3r85/orgs","repos_url":"https://api.github.com/users/c0d3r85/repos","events_url":"https://api.github.com/users/c0d3r85/events{/privacy}","received_events_url":"https://api.github.com/users/c0d3r85/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

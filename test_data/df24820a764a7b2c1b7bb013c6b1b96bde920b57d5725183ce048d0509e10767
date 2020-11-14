@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:04 GMT
+Etag: W/"40930e1e5a0483f8cc6650126813f7599385f635398a66e43f6692b55b4f8a4b"
+Link: <https://api.github.com/user/64996/followers?page=109>; rel="prev", <https://api.github.com/user/64996/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE19:2945:3B0AB42:4408B86:5FB01B23
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3855
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1145
+X-Xss-Protection: 1; mode=block
+
+e91
+[{"login":"AlexanderMabra","id":5641009,"node_id":"MDQ6VXNlcjU2NDEwMDk=","avatar_url":"https://avatars1.githubusercontent.com/u/5641009?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexanderMabra","html_url":"https://github.com/AlexanderMabra","followers_url":"https://api.github.com/users/AlexanderMabra/followers","following_url":"https://api.github.com/users/AlexanderMabra/following{/other_user}","gists_url":"https://api.github.com/users/AlexanderMabra/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexanderMabra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexanderMabra/subscriptions","organizations_url":"https://api.github.com/users/AlexanderMabra/orgs","repos_url":"https://api.github.com/users/AlexanderMabra/repos","events_url":"https://api.github.com/users/AlexanderMabra/events{/privacy}","received_events_url":"https://api.github.com/users/AlexanderMabra/received_events","type":"User","site_admin":false},{"login":"sivankanat","id":46501500,"node_id":"MDQ6VXNlcjQ2NTAxNTAw","avatar_url":"https://avatars1.githubusercontent.com/u/46501500?v=4","gravatar_id":"","url":"https://api.github.com/users/sivankanat","html_url":"https://github.com/sivankanat","followers_url":"https://api.github.com/users/sivankanat/followers","following_url":"https://api.github.com/users/sivankanat/following{/other_user}","gists_url":"https://api.github.com/users/sivankanat/gists{/gist_id}","starred_url":"https://api.github.com/users/sivankanat/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sivankanat/subscriptions","organizations_url":"https://api.github.com/users/sivankanat/orgs","repos_url":"https://api.github.com/users/sivankanat/repos","events_url":"https://api.github.com/users/sivankanat/events{/privacy}","received_events_url":"https://api.github.com/users/sivankanat/received_events","type":"User","site_admin":false},{"login":"UsairimIsani","id":8106387,"node_id":"MDQ6VXNlcjgxMDYzODc=","avatar_url":"https://avatars3.githubusercontent.com/u/8106387?v=4","gravatar_id":"","url":"https://api.github.com/users/UsairimIsani","html_url":"https://github.com/UsairimIsani","followers_url":"https://api.github.com/users/UsairimIsani/followers","following_url":"https://api.github.com/users/UsairimIsani/following{/other_user}","gists_url":"https://api.github.com/users/UsairimIsani/gists{/gist_id}","starred_url":"https://api.github.com/users/UsairimIsani/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/UsairimIsani/subscriptions","organizations_url":"https://api.github.com/users/UsairimIsani/orgs","repos_url":"https://api.github.com/users/UsairimIsani/repos","events_url":"https://api.github.com/users/UsairimIsani/events{/privacy}","received_events_url":"https://api.github.com/users/UsairimIsani/received_events","type":"User","site_admin":false},{"login":"ozer","id":19668362,"node_id":"MDQ6VXNlcjE5NjY4MzYy","avatar_url":"https://avatars2.githubusercontent.com/u/19668362?v=4","gravatar_id":"","url":"https://api.github.com/users/ozer","html_url":"https://github.com/ozer","followers_url":"https://api.github.com/users/ozer/followers","following_url":"https://api.github.com/users/ozer/following{/other_user}","gists_url":"https://api.github.com/users/ozer/gists{/gist_id}","starred_url":"https://api.github.com/users/ozer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ozer/subscriptions","organizations_url":"https://api.github.com/users/ozer/orgs","repos_url":"https://api.github.com/users/ozer/repos","events_url":"https://api.github.com/users/ozer/events{/privacy}","received_events_url":"https://api.github.com/users/ozer/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,30 +1,32 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:17 GMT
-Etag: W/"307c6e1ce4fb3d927558300fc03abec5"
+Date: Sat, 14 Nov 2020 18:10:55 GMT
+Etag: W/"f1335df9d686e0fc592732fea9efa6f431ef9d4bd984453d26e50958ed8666de"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD2F:57C3:1EE3B36:44F9961:5B1B8B68
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CC:F077:1E5E9AC:23075E7:5FB01DAF
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1314
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033325
+X-Ratelimit-Remaining: 134
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4866
 X-Xss-Protection: 1; mode=block
 
-701
-[{"login":"udevril","id":15474,"node_id":"MDQ6VXNlcjE1NDc0","avatar_url":"https://avatars2.githubusercontent.com/u/15474?v=4","gravatar_id":"","url":"https://api.github.com/users/udevril","html_url":"https://github.com/udevril","followers_url":"https://api.github.com/users/udevril/followers","following_url":"https://api.github.com/users/udevril/following{/other_user}","gists_url":"https://api.github.com/users/udevril/gists{/gist_id}","starred_url":"https://api.github.com/users/udevril/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udevril/subscriptions","organizations_url":"https://api.github.com/users/udevril/orgs","repos_url":"https://api.github.com/users/udevril/repos","events_url":"https://api.github.com/users/udevril/events{/privacy}","received_events_url":"https://api.github.com/users/udevril/received_events","type":"User","site_admin":false},{"login":"kubisflo","id":100676,"node_id":"MDQ6VXNlcjEwMDY3Ng==","avatar_url":"https://avatars3.githubusercontent.com/u/100676?v=4","gravatar_id":"","url":"https://api.github.com/users/kubisflo","html_url":"https://github.com/kubisflo","followers_url":"https://api.github.com/users/kubisflo/followers","following_url":"https://api.github.com/users/kubisflo/following{/other_user}","gists_url":"https://api.github.com/users/kubisflo/gists{/gist_id}","starred_url":"https://api.github.com/users/kubisflo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kubisflo/subscriptions","organizations_url":"https://api.github.com/users/kubisflo/orgs","repos_url":"https://api.github.com/users/kubisflo/repos","events_url":"https://api.github.com/users/kubisflo/events{/privacy}","received_events_url":"https://api.github.com/users/kubisflo/received_events","type":"User","site_admin":false}]
+e3d
+[{"login":"udevril","id":15474,"node_id":"MDQ6VXNlcjE1NDc0","avatar_url":"https://avatars2.githubusercontent.com/u/15474?v=4","gravatar_id":"","url":"https://api.github.com/users/udevril","html_url":"https://github.com/udevril","followers_url":"https://api.github.com/users/udevril/followers","following_url":"https://api.github.com/users/udevril/following{/other_user}","gists_url":"https://api.github.com/users/udevril/gists{/gist_id}","starred_url":"https://api.github.com/users/udevril/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/udevril/subscriptions","organizations_url":"https://api.github.com/users/udevril/orgs","repos_url":"https://api.github.com/users/udevril/repos","events_url":"https://api.github.com/users/udevril/events{/privacy}","received_events_url":"https://api.github.com/users/udevril/received_events","type":"User","site_admin":false},{"login":"kubisflo","id":100676,"node_id":"MDQ6VXNlcjEwMDY3Ng==","avatar_url":"https://avatars3.githubusercontent.com/u/100676?v=4","gravatar_id":"","url":"https://api.github.com/users/kubisflo","html_url":"https://github.com/kubisflo","followers_url":"https://api.github.com/users/kubisflo/followers","following_url":"https://api.github.com/users/kubisflo/following{/other_user}","gists_url":"https://api.github.com/users/kubisflo/gists{/gist_id}","starred_url":"https://api.github.com/users/kubisflo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kubisflo/subscriptions","organizations_url":"https://api.github.com/users/kubisflo/orgs","repos_url":"https://api.github.com/users/kubisflo/repos","events_url":"https://api.github.com/users/kubisflo/events{/privacy}","received_events_url":"https://api.github.com/users/kubisflo/received_events","type":"User","site_admin":false},{"login":"HelloCoCooo","id":46306510,"node_id":"MDQ6VXNlcjQ2MzA2NTEw","avatar_url":"https://avatars2.githubusercontent.com/u/46306510?v=4","gravatar_id":"","url":"https://api.github.com/users/HelloCoCooo","html_url":"https://github.com/HelloCoCooo","followers_url":"https://api.github.com/users/HelloCoCooo/followers","following_url":"https://api.github.com/users/HelloCoCooo/following{/other_user}","gists_url":"https://api.github.com/users/HelloCoCooo/gists{/gist_id}","starred_url":"https://api.github.com/users/HelloCoCooo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/HelloCoCooo/subscriptions","organizations_url":"https://api.github.com/users/HelloCoCooo/orgs","repos_url":"https://api.github.com/users/HelloCoCooo/repos","events_url":"https://api.github.com/users/HelloCoCooo/events{/privacy}","received_events_url":"https://api.github.com/users/HelloCoCooo/received_events","type":"User","site_admin":false},{"login":"ccloquet","id":6105955,"node_id":"MDQ6VXNlcjYxMDU5NTU=","avatar_url":"https://avatars2.githubusercontent.com/u/6105955?v=4","gravatar_id":"","url":"https://api.github.com/users/ccloquet","html_url":"https://github.com/ccloquet","followers_url":"https://api.github.com/users/ccloquet/followers","following_url":"https://api.github.com/users/ccloquet/following{/other_user}","gists_url":"https://api.github.com/users/ccloquet/gists{/gist_id}","starred_url":"https://api.github.com/users/ccloquet/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ccloquet/subscriptions","organizations_url":"https://api.github.com/users/ccloquet/orgs","repos_url":"https://api.github.com/users/ccloquet/repos","events_url":"https://api.github.com/users/ccloquet/events{/privacy}","received_events_url":"https://api.github.com/users/ccloquet/received_events","type":"User","site_admin":false}]
 0
 

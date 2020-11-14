@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:45 GMT
+Etag: W/"81b7dbd61adc153a8de6a7b6c1ee9009d58b8cb57b62797c7777b576738b6461"
+Link: <https://api.github.com/user/9512/followers?page=3>; rel="prev", <https://api.github.com/user/9512/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE50:2940:11CF13:14DD6D:5FB01B89
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3185
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1815
+X-Xss-Protection: 1; mode=block
+
+ad4
+[{"login":"AlexisLeon","id":10150214,"node_id":"MDQ6VXNlcjEwMTUwMjE0","avatar_url":"https://avatars2.githubusercontent.com/u/10150214?v=4","gravatar_id":"","url":"https://api.github.com/users/AlexisLeon","html_url":"https://github.com/AlexisLeon","followers_url":"https://api.github.com/users/AlexisLeon/followers","following_url":"https://api.github.com/users/AlexisLeon/following{/other_user}","gists_url":"https://api.github.com/users/AlexisLeon/gists{/gist_id}","starred_url":"https://api.github.com/users/AlexisLeon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AlexisLeon/subscriptions","organizations_url":"https://api.github.com/users/AlexisLeon/orgs","repos_url":"https://api.github.com/users/AlexisLeon/repos","events_url":"https://api.github.com/users/AlexisLeon/events{/privacy}","received_events_url":"https://api.github.com/users/AlexisLeon/received_events","type":"User","site_admin":false},{"login":"buraksenyurt","id":2705782,"node_id":"MDQ6VXNlcjI3MDU3ODI=","avatar_url":"https://avatars0.githubusercontent.com/u/2705782?v=4","gravatar_id":"","url":"https://api.github.com/users/buraksenyurt","html_url":"https://github.com/buraksenyurt","followers_url":"https://api.github.com/users/buraksenyurt/followers","following_url":"https://api.github.com/users/buraksenyurt/following{/other_user}","gists_url":"https://api.github.com/users/buraksenyurt/gists{/gist_id}","starred_url":"https://api.github.com/users/buraksenyurt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/buraksenyurt/subscriptions","organizations_url":"https://api.github.com/users/buraksenyurt/orgs","repos_url":"https://api.github.com/users/buraksenyurt/repos","events_url":"https://api.github.com/users/buraksenyurt/events{/privacy}","received_events_url":"https://api.github.com/users/buraksenyurt/received_events","type":"User","site_admin":false},{"login":"pdecks","id":1440268,"node_id":"MDQ6VXNlcjE0NDAyNjg=","avatar_url":"https://avatars0.githubusercontent.com/u/1440268?v=4","gravatar_id":"","url":"https://api.github.com/users/pdecks","html_url":"https://github.com/pdecks","followers_url":"https://api.github.com/users/pdecks/followers","following_url":"https://api.github.com/users/pdecks/following{/other_user}","gists_url":"https://api.github.com/users/pdecks/gists{/gist_id}","starred_url":"https://api.github.com/users/pdecks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pdecks/subscriptions","organizations_url":"https://api.github.com/users/pdecks/orgs","repos_url":"https://api.github.com/users/pdecks/repos","events_url":"https://api.github.com/users/pdecks/events{/privacy}","received_events_url":"https://api.github.com/users/pdecks/received_events","type":"User","site_admin":false}]
+0
+

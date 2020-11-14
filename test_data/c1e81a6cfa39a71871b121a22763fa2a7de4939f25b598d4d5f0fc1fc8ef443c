@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:52 GMT
+Etag: W/"fe96f41add4707005b06a95deba25cbe6ff95325f025e68fe9c7ed18215dc135"
+Link: <https://api.github.com/user/670302/followers?page=8>; rel="prev", <https://api.github.com/user/670302/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D184:13F4:3D37729:468FEE1:5FB01D34
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 848
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4152
+X-Xss-Protection: 1; mode=block
+
+aa4
+[{"login":"gehtalexey","id":28701959,"node_id":"MDQ6VXNlcjI4NzAxOTU5","avatar_url":"https://avatars0.githubusercontent.com/u/28701959?v=4","gravatar_id":"","url":"https://api.github.com/users/gehtalexey","html_url":"https://github.com/gehtalexey","followers_url":"https://api.github.com/users/gehtalexey/followers","following_url":"https://api.github.com/users/gehtalexey/following{/other_user}","gists_url":"https://api.github.com/users/gehtalexey/gists{/gist_id}","starred_url":"https://api.github.com/users/gehtalexey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gehtalexey/subscriptions","organizations_url":"https://api.github.com/users/gehtalexey/orgs","repos_url":"https://api.github.com/users/gehtalexey/repos","events_url":"https://api.github.com/users/gehtalexey/events{/privacy}","received_events_url":"https://api.github.com/users/gehtalexey/received_events","type":"User","site_admin":false},{"login":"Renkai","id":3381789,"node_id":"MDQ6VXNlcjMzODE3ODk=","avatar_url":"https://avatars1.githubusercontent.com/u/3381789?v=4","gravatar_id":"","url":"https://api.github.com/users/Renkai","html_url":"https://github.com/Renkai","followers_url":"https://api.github.com/users/Renkai/followers","following_url":"https://api.github.com/users/Renkai/following{/other_user}","gists_url":"https://api.github.com/users/Renkai/gists{/gist_id}","starred_url":"https://api.github.com/users/Renkai/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Renkai/subscriptions","organizations_url":"https://api.github.com/users/Renkai/orgs","repos_url":"https://api.github.com/users/Renkai/repos","events_url":"https://api.github.com/users/Renkai/events{/privacy}","received_events_url":"https://api.github.com/users/Renkai/received_events","type":"User","site_admin":false},{"login":"gmsantos","id":1991286,"node_id":"MDQ6VXNlcjE5OTEyODY=","avatar_url":"https://avatars0.githubusercontent.com/u/1991286?v=4","gravatar_id":"","url":"https://api.github.com/users/gmsantos","html_url":"https://github.com/gmsantos","followers_url":"https://api.github.com/users/gmsantos/followers","following_url":"https://api.github.com/users/gmsantos/following{/other_user}","gists_url":"https://api.github.com/users/gmsantos/gists{/gist_id}","starred_url":"https://api.github.com/users/gmsantos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gmsantos/subscriptions","organizations_url":"https://api.github.com/users/gmsantos/orgs","repos_url":"https://api.github.com/users/gmsantos/repos","events_url":"https://api.github.com/users/gmsantos/events{/privacy}","received_events_url":"https://api.github.com/users/gmsantos/received_events","type":"User","site_admin":false}]
+0
+

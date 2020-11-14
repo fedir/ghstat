@@ -1,32 +1,34 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:18 GMT
-Etag: W/"010d2afbbf1d1f312a543da131eb1779"
-Last-Modified: Fri, 08 Jun 2018 17:42:52 GMT
+Date: Sat, 14 Nov 2020 18:10:58 GMT
+Etag: W/"9354f469dc1aa1fe232380f56efd5bb2c2b093a8113276796ba542239e2bedc6"
+Last-Modified: Tue, 03 Nov 2020 05:46:26 GMT
 Link: <https://api.github.com/repositories/4610430/tags?page=3>; rel="prev", <https://api.github.com/repositories/4610430/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD3E:57C4:23BCAC3:50D80C0:5B1B8B6A
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2CC:F077:1E5EB9F:2307842:5FB01DB1
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1229
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.053346
+X-Ratelimit-Remaining: 17
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4983
 X-Xss-Protection: 1; mode=block
 
-7b6
-[{"name":"ninja-0.5","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5","commit":{"sha":"47aa5095fbb31f65c095d8ee5bf80119fd9b04b9","url":"https://api.github.com/repos/ninjaframework/ninja/commits/47aa5095fbb31f65c095d8ee5bf80119fd9b04b9"},"node_id":"MDM6UmVmNDYxMDQzMDpuaW5qYS0wLjU="},{"name":"ninja-0.4.1","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.4.1","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.4.1","commit":{"sha":"32b1f1bddc60fe2bd76ef049f6ca5df889b5617f","url":"https://api.github.com/repos/ninjaframework/ninja/commits/32b1f1bddc60fe2bd76ef049f6ca5df889b5617f"},"node_id":"MDM6UmVmNDYxMDQzMDpuaW5qYS0wLjQuMQ=="},{"name":"ninja-0.4","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.4","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.4","commit":{"sha":"8dd3408788d199a3edb140f997fcd49296e36928","url":"https://api.github.com/repos/ninjaframework/ninja/commits/8dd3408788d199a3edb140f997fcd49296e36928"},"node_id":"MDM6UmVmNDYxMDQzMDpuaW5qYS0wLjQ="},{"name":"4.0.0","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/4.0.0","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/4.0.0","commit":{"sha":"4b2e935401019c53b7675a93ded1af65cb325b03","url":"https://api.github.com/repos/ninjaframework/ninja/commits/4b2e935401019c53b7675a93ded1af65cb325b03"},"node_id":"MDM6UmVmNDYxMDQzMDo0LjAuMA=="},{"name":"1.2","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/1.2","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/1.2","commit":{"sha":"2e09f3033c3859dea0efcda6766facd0e73f2665","url":"https://api.github.com/repos/ninjaframework/ninja/commits/2e09f3033c3859dea0efcda6766facd0e73f2665"},"node_id":"MDM6UmVmNDYxMDQzMDoxLjI="}]
+1383
+[{"name":"ninja-0.5.7","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.7","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.7","commit":{"sha":"32a85bd555474639b6ffc0ab4722f3251bd96874","url":"https://api.github.com/repos/ninjaframework/ninja/commits/32a85bd555474639b6ffc0ab4722f3251bd96874"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41Ljc="},{"name":"ninja-0.5.6","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.6","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.6","commit":{"sha":"41b2cf05caa4585bb08fdc6b715323b04dff0b0a","url":"https://api.github.com/repos/ninjaframework/ninja/commits/41b2cf05caa4585bb08fdc6b715323b04dff0b0a"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjY="},{"name":"ninja-0.5.5","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.5","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.5","commit":{"sha":"e53005d97d37ee711494178021ef72b1e771c86d","url":"https://api.github.com/repos/ninjaframework/ninja/commits/e53005d97d37ee711494178021ef72b1e771c86d"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjU="},{"name":"ninja-0.5.4","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.4","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.4","commit":{"sha":"f3b763fa73e801da2f084947da8733b670ce5915","url":"https://api.github.com/repos/ninjaframework/ninja/commits/f3b763fa73e801da2f084947da8733b670ce5915"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjQ="},{"name":"ninja-0.5.3","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.3","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.3","commit":{"sha":"fd0921258aa33f0723ebf5449828a7921d78280a","url":"https://api.github.com/repos/ninjaframework/ninja/commits/fd0921258aa33f0723ebf5449828a7921d78280a"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjM="},{"name":"ninja-0.5.2","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.2","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.2","commit":{"sha":"22f29184540033fcc63f4754249bcbd98daab2fd","url":"https://api.github.com/repos/ninjaframework/ninja/commits/22f29184540033fcc63f4754249bcbd98daab2fd"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjI="},{"name":"ninja-0.5.1","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5.1","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5.1","commit":{"sha":"2ddcb759cef1720fd76ac5c4fd2279e35a5b5419","url":"https://api.github.com/repos/ninjaframework/ninja/commits/2ddcb759cef1720fd76ac5c4fd2279e35a5b5419"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41LjE="},{"name":"ninja-0.5","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.5","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.5","commit":{"sha":"47aa5095fbb31f65c095d8ee5bf80119fd9b04b9","url":"https://api.github.com/repos/ninjaframework/ninja/commits/47aa5095fbb31f65c095d8ee5bf80119fd9b04b9"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC41"},{"name":"ninja-0.4.1","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.4.1","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.4.1","commit":{"sha":"32b1f1bddc60fe2bd76ef049f6ca5df889b5617f","url":"https://api.github.com/repos/ninjaframework/ninja/commits/32b1f1bddc60fe2bd76ef049f6ca5df889b5617f"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC40LjE="},{"name":"ninja-0.4","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/ninja-0.4","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/ninja-0.4","commit":{"sha":"8dd3408788d199a3edb140f997fcd49296e36928","url":"https://api.github.com/repos/ninjaframework/ninja/commits/8dd3408788d199a3edb140f997fcd49296e36928"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvbmluamEtMC40"},{"name":"4.0.0","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/4.0.0","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/4.0.0","commit":{"sha":"4b2e935401019c53b7675a93ded1af65cb325b03","url":"https://api.github.com/repos/ninjaframework/ninja/commits/4b2e935401019c53b7675a93ded1af65cb325b03"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvNC4wLjA="},{"name":"1.2","zipball_url":"https://api.github.com/repos/ninjaframework/ninja/zipball/1.2","tarball_url":"https://api.github.com/repos/ninjaframework/ninja/tarball/1.2","commit":{"sha":"2e09f3033c3859dea0efcda6766facd0e73f2665","url":"https://api.github.com/repos/ninjaframework/ninja/commits/2e09f3033c3859dea0efcda6766facd0e73f2665"},"node_id":"MDM6UmVmNDYxMDQzMDpyZWZzL3RhZ3MvMS4y"}]
 0
 

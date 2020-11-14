@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:04 GMT
+Etag: W/"01ba44d666d4984e41ce00759f755c9dca369c4c338a508658f51d0962cc206f"
+Last-Modified: Sat, 14 Nov 2020 13:47:36 GMT
+Link: <https://api.github.com/repositories/301742/tags?page=2>; rel="prev", <https://api.github.com/repositories/301742/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA2:78A3:3EA91E8:481A11B:5FB01C8B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2117
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2883
+X-Xss-Protection: 1; mode=block
+
+49f
+[{"name":"v1.1.0","zipball_url":"https://api.github.com/repos/tornadoweb/tornado/zipball/v1.1.0","tarball_url":"https://api.github.com/repos/tornadoweb/tornado/tarball/v1.1.0","commit":{"sha":"2338348edda61c663fff8a7f6f77cf489bf63de6","url":"https://api.github.com/repos/tornadoweb/tornado/commits/2338348edda61c663fff8a7f6f77cf489bf63de6"},"node_id":"MDM6UmVmMzAxNzQyOnJlZnMvdGFncy92MS4xLjA="},{"name":"v1.0.1","zipball_url":"https://api.github.com/repos/tornadoweb/tornado/zipball/v1.0.1","tarball_url":"https://api.github.com/repos/tornadoweb/tornado/tarball/v1.0.1","commit":{"sha":"2b5064b7ed962603ade0db0c8e21846a9879e30e","url":"https://api.github.com/repos/tornadoweb/tornado/commits/2b5064b7ed962603ade0db0c8e21846a9879e30e"},"node_id":"MDM6UmVmMzAxNzQyOnJlZnMvdGFncy92MS4wLjE="},{"name":"v1.0.0","zipball_url":"https://api.github.com/repos/tornadoweb/tornado/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/tornadoweb/tornado/tarball/v1.0.0","commit":{"sha":"eb5b3d8df7a305ac1ffa0a12c813e5d7ee4d6cd3","url":"https://api.github.com/repos/tornadoweb/tornado/commits/eb5b3d8df7a305ac1ffa0a12c813e5d7ee4d6cd3"},"node_id":"MDM6UmVmMzAxNzQyOnJlZnMvdGFncy92MS4wLjA="}]
+0
+

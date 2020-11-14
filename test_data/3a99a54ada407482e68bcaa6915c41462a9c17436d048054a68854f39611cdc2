@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:26 GMT
-Etag: W/"60ffdcccef764c8a751a9ce8b682eac0"
-Last-Modified: Sat, 05 May 2018 05:06:22 GMT
+Date: Sat, 14 Nov 2020 18:01:40 GMT
+Etag: W/"98ace94d63b710edbdb9b09e749000cf51a567d6127de237289b0bf4b19c470a"
+Last-Modified: Wed, 07 Oct 2020 04:54:22 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C91B:57C6:2FE1471:64E39E2:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE47:F44A:3A130EA:42DB3E2:5FB01B84
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4350
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033485
+X-Ratelimit-Remaining: 3355
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1645
 X-Xss-Protection: 1; mode=block
 
-4b8
-{"login":"ngocdaothanh","id":10095,"node_id":"MDQ6VXNlcjEwMDk1","avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"name":"Ngoc Dao","company":null,"blog":"","location":"Sydney","email":"ngocdaothanh@gmail.com","hireable":null,"bio":null,"public_repos":92,"public_gists":21,"followers":253,"following":68,"created_at":"2008-05-12T21:58:49Z","updated_at":"2018-05-05T05:06:22Z"}
+4cd
+{"login":"ngocdaothanh","id":10095,"node_id":"MDQ6VXNlcjEwMDk1","avatar_url":"https://avatars1.githubusercontent.com/u/10095?v=4","gravatar_id":"","url":"https://api.github.com/users/ngocdaothanh","html_url":"https://github.com/ngocdaothanh","followers_url":"https://api.github.com/users/ngocdaothanh/followers","following_url":"https://api.github.com/users/ngocdaothanh/following{/other_user}","gists_url":"https://api.github.com/users/ngocdaothanh/gists{/gist_id}","starred_url":"https://api.github.com/users/ngocdaothanh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngocdaothanh/subscriptions","organizations_url":"https://api.github.com/users/ngocdaothanh/orgs","repos_url":"https://api.github.com/users/ngocdaothanh/repos","events_url":"https://api.github.com/users/ngocdaothanh/events{/privacy}","received_events_url":"https://api.github.com/users/ngocdaothanh/received_events","type":"User","site_admin":false,"name":"Ngoc Dao","company":null,"blog":"","location":null,"email":"ngocdaothanh@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":112,"public_gists":21,"followers":288,"following":68,"created_at":"2008-05-12T21:58:49Z","updated_at":"2020-10-07T04:54:22Z"}
 0
 

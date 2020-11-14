@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:42 GMT
+Etag: W/"3e17b3a03d4eee988f5a868a4904da93d2ea9c6b6e58063e715a8b3495b38228"
+Link: <https://api.github.com/user/4143617/followers?page=6>; rel="prev", <https://api.github.com/user/4143617/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2AF:BAD3:3D075D3:464BF29:5FB01DA2
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 286
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4714
+X-Xss-Protection: 1; mode=block
+
+3d6
+[{"login":"CamiloSperberj","id":74435532,"node_id":"MDQ6VXNlcjc0NDM1NTMy","avatar_url":"https://avatars3.githubusercontent.com/u/74435532?v=4","gravatar_id":"","url":"https://api.github.com/users/CamiloSperberj","html_url":"https://github.com/CamiloSperberj","followers_url":"https://api.github.com/users/CamiloSperberj/followers","following_url":"https://api.github.com/users/CamiloSperberj/following{/other_user}","gists_url":"https://api.github.com/users/CamiloSperberj/gists{/gist_id}","starred_url":"https://api.github.com/users/CamiloSperberj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CamiloSperberj/subscriptions","organizations_url":"https://api.github.com/users/CamiloSperberj/orgs","repos_url":"https://api.github.com/users/CamiloSperberj/repos","events_url":"https://api.github.com/users/CamiloSperberj/events{/privacy}","received_events_url":"https://api.github.com/users/CamiloSperberj/received_events","type":"User","site_admin":false}]
+0
+

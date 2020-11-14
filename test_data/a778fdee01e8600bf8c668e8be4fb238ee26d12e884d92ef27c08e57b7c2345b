@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:29 GMT
+Etag: W/"192f42165383aff70f315725c1dfd93efa8bf665651df0a31ead1dfe04dda5cb"
+Last-Modified: Sat, 14 Nov 2020 11:17:34 GMT
+Link: <https://api.github.com/repositories/105379569/tags?page=8>; rel="prev", <https://api.github.com/repositories/105379569/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D29E:E4B7:3A51DFE:433CF1D:5FB01D95
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 442
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4558
+X-Xss-Protection: 1; mode=block
+
+30b
+[{"name":"0.7.16","zipball_url":"https://api.github.com/repos/actix/actix-web/zipball/0.7.16","tarball_url":"https://api.github.com/repos/actix/actix-web/tarball/0.7.16","commit":{"sha":"46db09428c2a38cab4daa8f272b36fb4112ff235","url":"https://api.github.com/repos/actix/actix-web/commits/46db09428c2a38cab4daa8f272b36fb4112ff235"},"node_id":"MDM6UmVmMTA1Mzc5NTY5OnJlZnMvdGFncy8wLjcuMTY="},{"name":"0.7.15","zipball_url":"https://api.github.com/repos/actix/actix-web/zipball/0.7.15","tarball_url":"https://api.github.com/repos/actix/actix-web/tarball/0.7.15","commit":{"sha":"ac9fc662c625f5c6273744b98d804019249f887e","url":"https://api.github.com/repos/actix/actix-web/commits/ac9fc662c625f5c6273744b98d804019249f887e"},"node_id":"MDM6UmVmMTA1Mzc5NTY5OnJlZnMvdGFncy8wLjcuMTU="}]
+0
+

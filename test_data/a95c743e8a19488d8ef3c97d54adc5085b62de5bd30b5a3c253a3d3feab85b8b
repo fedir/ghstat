@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:23 GMT
+Etag: W/"51b6147bcd43b5f336274bdcede28f4ccb445ad64d58c0d623954ee0caabca4b"
+Last-Modified: Wed, 11 Nov 2020 15:15:59 GMT
+Link: <https://api.github.com/repositories/23837426/tags?page=2>; rel="prev", <https://api.github.com/repositories/23837426/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D168:BA8A:21076BD:25F5CB4:5FB01D17
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1239
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3761
+X-Xss-Protection: 1; mode=block
+
+1279
+[{"name":"0.1.2","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.1.2","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.1.2","commit":{"sha":"bb10592ae98c5a3b4ba272912e350423df86e91b","url":"https://api.github.com/repos/duct-framework/duct/commits/bb10592ae98c5a3b4ba272912e350423df86e91b"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMS4y"},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.1.1","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.1.1","commit":{"sha":"6f883f5dc96684a2550b3f21b15ced56babdd6d4","url":"https://api.github.com/repos/duct-framework/duct/commits/6f883f5dc96684a2550b3f21b15ced56babdd6d4"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMS4x"},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.1.0","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.1.0","commit":{"sha":"04de21ec37b6defa0098b04e90ec558719d102d5","url":"https://api.github.com/repos/duct-framework/duct/commits/04de21ec37b6defa0098b04e90ec558719d102d5"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMS4w"},{"name":"0.0.9","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.9","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.9","commit":{"sha":"2fc26beb14000a78b83e256bb0aa2f849a9366d5","url":"https://api.github.com/repos/duct-framework/duct/commits/2fc26beb14000a78b83e256bb0aa2f849a9366d5"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC45"},{"name":"0.0.8","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.8","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.8","commit":{"sha":"7117d7065fa72010256c662bd7176629fd4156fe","url":"https://api.github.com/repos/duct-framework/duct/commits/7117d7065fa72010256c662bd7176629fd4156fe"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC44"},{"name":"0.0.7","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.7","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.7","commit":{"sha":"2def6cc1d3374f851606615b93e5b860fb150bd1","url":"https://api.github.com/repos/duct-framework/duct/commits/2def6cc1d3374f851606615b93e5b860fb150bd1"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC43"},{"name":"0.0.6","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.6","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.6","commit":{"sha":"fa259d8e066af0e16eee6afae9f6f3004d661a67","url":"https://api.github.com/repos/duct-framework/duct/commits/fa259d8e066af0e16eee6afae9f6f3004d661a67"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC42"},{"name":"0.0.5","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.5","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.5","commit":{"sha":"24de61b59d6baf1a1481860e356d06b25320d1a6","url":"https://api.github.com/repos/duct-framework/duct/commits/24de61b59d6baf1a1481860e356d06b25320d1a6"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC41"},{"name":"0.0.4","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.4","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.4","commit":{"sha":"cae2f13dd21699b1ec99921403945a33af8503be","url":"https://api.github.com/repos/duct-framework/duct/commits/cae2f13dd21699b1ec99921403945a33af8503be"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC40"},{"name":"0.0.3","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.3","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.3","commit":{"sha":"334533b68b23aa78777a2dd7ee3e584bbb527194","url":"https://api.github.com/repos/duct-framework/duct/commits/334533b68b23aa78777a2dd7ee3e584bbb527194"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC4z"},{"name":"0.0.2","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.2","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.2","commit":{"sha":"6455f991aa28e70a4a14ed133b24c9acce11632d","url":"https://api.github.com/repos/duct-framework/duct/commits/6455f991aa28e70a4a14ed133b24c9acce11632d"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC4y"},{"name":"0.0.1","zipball_url":"https://api.github.com/repos/duct-framework/duct/zipball/0.0.1","tarball_url":"https://api.github.com/repos/duct-framework/duct/tarball/0.0.1","commit":{"sha":"20243e41223688d281dd2fabb0c3be3c822102e3","url":"https://api.github.com/repos/duct-framework/duct/commits/20243e41223688d281dd2fabb0c3be3c822102e3"},"node_id":"MDM6UmVmMjM4Mzc0MjY6cmVmcy90YWdzLzAuMC4x"}]
+0
+

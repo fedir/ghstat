@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:20 GMT
-Etag: W/"ee0a783944f1822271c7a774b6808466"
-Last-Modified: Wed, 30 May 2018 10:46:39 GMT
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"5f0736449f74f46f8f0341520db931a476b0832100cc3c24b8d667da01a2a6eb"
+Last-Modified: Mon, 09 Nov 2020 19:45:36 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9E9:57C3:1EE1FDF:44F4BC0:5B1B8A7C
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE4B:F448:D53CDC:F5E1F6:5FB01B88
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3795
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.049606
+X-Ratelimit-Remaining: 3193
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1807
 X-Xss-Protection: 1; mode=block
 
-170
-[{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.0","commit":{"sha":"cd0cd6a88915158671352102d89be5ccf8418c4a","url":"https://api.github.com/repos/nafg/reactive/commits/cd0cd6a88915158671352102d89be5ccf8418c4a"},"node_id":"MDM6UmVmNjkwMTY2OnYwLjYuMA=="}]
+768
+[{"name":"v0.6.4","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.4","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.4","commit":{"sha":"73dde8baa5a55cba349ba7ba70cd4f7a89e9c328","url":"https://api.github.com/repos/nafg/reactive/commits/73dde8baa5a55cba349ba7ba70cd4f7a89e9c328"},"node_id":"MDM6UmVmNjkwMTY2OnJlZnMvdGFncy92MC42LjQ="},{"name":"v0.6.3","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.3","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.3","commit":{"sha":"c5746b2280c2f4aea1431afaf5001d13aa4ce323","url":"https://api.github.com/repos/nafg/reactive/commits/c5746b2280c2f4aea1431afaf5001d13aa4ce323"},"node_id":"MDM6UmVmNjkwMTY2OnJlZnMvdGFncy92MC42LjM="},{"name":"v0.6.2","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.2","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.2","commit":{"sha":"cfe7e646faf6fb72afa3e7bae5e354effc7c6855","url":"https://api.github.com/repos/nafg/reactive/commits/cfe7e646faf6fb72afa3e7bae5e354effc7c6855"},"node_id":"MDM6UmVmNjkwMTY2OnJlZnMvdGFncy92MC42LjI="},{"name":"v0.6.1","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.1","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.1","commit":{"sha":"3050e584d2b3705195e3722e001d446e25aae65f","url":"https://api.github.com/repos/nafg/reactive/commits/3050e584d2b3705195e3722e001d446e25aae65f"},"node_id":"MDM6UmVmNjkwMTY2OnJlZnMvdGFncy92MC42LjE="},{"name":"v0.6.0","zipball_url":"https://api.github.com/repos/nafg/reactive/zipball/v0.6.0","tarball_url":"https://api.github.com/repos/nafg/reactive/tarball/v0.6.0","commit":{"sha":"cd0cd6a88915158671352102d89be5ccf8418c4a","url":"https://api.github.com/repos/nafg/reactive/commits/cd0cd6a88915158671352102d89be5ccf8418c4a"},"node_id":"MDM6UmVmNjkwMTY2OnJlZnMvdGFncy92MC42LjA="}]
 0
 

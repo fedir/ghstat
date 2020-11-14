@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:40 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2AF:BAD3:3D0726E:464BB38:5FB01D9F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 14
+X-Ratelimit-Reset: 1605377483
+X-Ratelimit-Used: 16
+X-Xss-Protection: 1; mode=block
+
+120b
+{"total_count":2,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/jlaine/qdjango/issues/47","repository_url":"https://api.github.com/repos/jlaine/qdjango","labels_url":"https://api.github.com/repos/jlaine/qdjango/issues/47/labels{/name}","comments_url":"https://api.github.com/repos/jlaine/qdjango/issues/47/comments","events_url":"https://api.github.com/repos/jlaine/qdjango/issues/47/events","html_url":"https://github.com/jlaine/qdjango/issues/47","id":110082179,"node_id":"MDU6SXNzdWUxMTAwODIxNzk=","number":47,"title":"Handling QString() for NOT NULL fields","user":{"login":"jerch","id":6193135,"node_id":"MDQ6VXNlcjYxOTMxMzU=","avatar_url":"https://avatars0.githubusercontent.com/u/6193135?v=4","gravatar_id":"","url":"https://api.github.com/users/jerch","html_url":"https://github.com/jerch","followers_url":"https://api.github.com/users/jerch/followers","following_url":"https://api.github.com/users/jerch/following{/other_user}","gists_url":"https://api.github.com/users/jerch/gists{/gist_id}","starred_url":"https://api.github.com/users/jerch/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jerch/subscriptions","organizations_url":"https://api.github.com/users/jerch/orgs","repos_url":"https://api.github.com/users/jerch/repos","events_url":"https://api.github.com/users/jerch/events{/privacy}","received_events_url":"https://api.github.com/users/jerch/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":2,"created_at":"2015-10-06T19:28:50Z","updated_at":"2016-06-21T07:17:10Z","closed_at":"2016-06-21T06:37:29Z","author_association":"NONE","active_lock_reason":null,"body":"Is there any specific reason for returning `QLatin1String(\"\")` here?\nhttps://github.com/jlaine/qdjango/blob/master/src/db/QDjangoMetaModel.cpp#L203\n\nIt converts null strings to empty strings and bypasses NOT NULL rules. For my case returning `QVariant()` instead fixed the behavior.\n","performed_via_github_app":null,"score":1.0},{"url":"https://api.github.com/repos/jlaine/qdjango/issues/19","repository_url":"https://api.github.com/repos/jlaine/qdjango","labels_url":"https://api.github.com/repos/jlaine/qdjango/issues/19/labels{/name}","comments_url":"https://api.github.com/repos/jlaine/qdjango/issues/19/comments","events_url":"https://api.github.com/repos/jlaine/qdjango/issues/19/events","html_url":"https://github.com/jlaine/qdjango/issues/19","id":38157572,"node_id":"MDU6SXNzdWUzODE1NzU3Mg==","number":19,"title":"create/dropTables() FK dependencies","user":{"login":"topolsky","id":8199426,"node_id":"MDQ6VXNlcjgxOTk0MjY=","avatar_url":"https://avatars0.githubusercontent.com/u/8199426?v=4","gravatar_id":"","url":"https://api.github.com/users/topolsky","html_url":"https://github.com/topolsky","followers_url":"https://api.github.com/users/topolsky/followers","following_url":"https://api.github.com/users/topolsky/following{/other_user}","gists_url":"https://api.github.com/users/topolsky/gists{/gist_id}","starred_url":"https://api.github.com/users/topolsky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/topolsky/subscriptions","organizations_url":"https://api.github.com/users/topolsky/orgs","repos_url":"https://api.github.com/users/topolsky/repos","events_url":"https://api.github.com/users/topolsky/events{/privacy}","received_events_url":"https://api.github.com/users/topolsky/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":2,"created_at":"2014-07-18T08:37:30Z","updated_at":"2014-09-23T13:32:00Z","closed_at":"2014-09-23T13:32:00Z","author_association":"NONE","active_lock_reason":null,"body":"When creating/droping tables with QDjango::createTables() QDjango::dropTables()\ncheck for FK dependencies. Now the tables are processed alphabeticaly.\n\nExample:\nIf I have table A which has foreign key to table B:\nSQL query \"CREATE TABLE `A` (`id` integer `B_id` integer NOT NULL, CONSTRAINT `FK_B_id` FOREIGN KEY (`B_id`) REFERENCES `B` (`id`) ON DELETE RESTRICT)\"\nThen it ends with error like\nSQL error QSqlError(\"1005\", \"QMYSQL: Unable to execute query\", \"Can't create table 'DB.A' (errno: 150)\")\n\nThere is workaround - to run createTables many times (or until there is no error 150).\n\nIt would be nice if the createTables() checked for foreign keys first,\nfrom these FK dependencies created list of tables in right order and then created those tables.\n","performed_via_github_app":null,"score":1.0}]}
+0
+

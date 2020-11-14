@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:51 GMT
+Etag: W/"9e9be17ccb3c40f4eb5beea2191d96ea8fd3762fd88da8ef1862346fde96f363"
+Link: <https://api.github.com/user/690/followers?page=7>; rel="prev", <https://api.github.com/user/690/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D187:F074:2B255E:31D9D9:5FB01D33
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 877
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4123
+X-Xss-Protection: 1; mode=block
+
+aba
+[{"login":"JasonTrue","id":148547,"node_id":"MDQ6VXNlcjE0ODU0Nw==","avatar_url":"https://avatars1.githubusercontent.com/u/148547?v=4","gravatar_id":"","url":"https://api.github.com/users/JasonTrue","html_url":"https://github.com/JasonTrue","followers_url":"https://api.github.com/users/JasonTrue/followers","following_url":"https://api.github.com/users/JasonTrue/following{/other_user}","gists_url":"https://api.github.com/users/JasonTrue/gists{/gist_id}","starred_url":"https://api.github.com/users/JasonTrue/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JasonTrue/subscriptions","organizations_url":"https://api.github.com/users/JasonTrue/orgs","repos_url":"https://api.github.com/users/JasonTrue/repos","events_url":"https://api.github.com/users/JasonTrue/events{/privacy}","received_events_url":"https://api.github.com/users/JasonTrue/received_events","type":"User","site_admin":false},{"login":"hkjang","id":3069493,"node_id":"MDQ6VXNlcjMwNjk0OTM=","avatar_url":"https://avatars0.githubusercontent.com/u/3069493?v=4","gravatar_id":"","url":"https://api.github.com/users/hkjang","html_url":"https://github.com/hkjang","followers_url":"https://api.github.com/users/hkjang/followers","following_url":"https://api.github.com/users/hkjang/following{/other_user}","gists_url":"https://api.github.com/users/hkjang/gists{/gist_id}","starred_url":"https://api.github.com/users/hkjang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hkjang/subscriptions","organizations_url":"https://api.github.com/users/hkjang/orgs","repos_url":"https://api.github.com/users/hkjang/repos","events_url":"https://api.github.com/users/hkjang/events{/privacy}","received_events_url":"https://api.github.com/users/hkjang/received_events","type":"User","site_admin":false},{"login":"6un9-h0-Dan","id":60275072,"node_id":"MDQ6VXNlcjYwMjc1MDcy","avatar_url":"https://avatars0.githubusercontent.com/u/60275072?v=4","gravatar_id":"","url":"https://api.github.com/users/6un9-h0-Dan","html_url":"https://github.com/6un9-h0-Dan","followers_url":"https://api.github.com/users/6un9-h0-Dan/followers","following_url":"https://api.github.com/users/6un9-h0-Dan/following{/other_user}","gists_url":"https://api.github.com/users/6un9-h0-Dan/gists{/gist_id}","starred_url":"https://api.github.com/users/6un9-h0-Dan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/6un9-h0-Dan/subscriptions","organizations_url":"https://api.github.com/users/6un9-h0-Dan/orgs","repos_url":"https://api.github.com/users/6un9-h0-Dan/repos","events_url":"https://api.github.com/users/6un9-h0-Dan/events{/privacy}","received_events_url":"https://api.github.com/users/6un9-h0-Dan/received_events","type":"User","site_admin":false}]
+0
+

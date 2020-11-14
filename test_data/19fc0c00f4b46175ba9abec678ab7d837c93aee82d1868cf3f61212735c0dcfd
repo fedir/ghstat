@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:30 GMT
-Etag: W/"f7e351ef292f54d25b67ed0b31c51a98"
-Last-Modified: Sat, 12 May 2018 19:11:46 GMT
+Date: Sat, 14 Nov 2020 18:08:53 GMT
+Etag: W/"fc29b07b5fb097d4fa2987b1251b2f93e19cb7cebb6af2c9374eef40d13ad116"
+Last-Modified: Sun, 18 Oct 2020 16:04:01 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB6D:57C5:372E230:719F472:5B1B8AFE
-X-Oauth-Scopes: 
+X-Github-Request-Id: D187:F074:2B256F:31D9EF:5FB01D35
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2351
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.045205
+X-Ratelimit-Remaining: 844
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4156
 X-Xss-Protection: 1; mode=block
 
-2d9
-[{"name":"v0.9-3","zipball_url":"https://api.github.com/repos/mongrel2/Tir/zipball/v0.9-3","tarball_url":"https://api.github.com/repos/mongrel2/Tir/tarball/v0.9-3","commit":{"sha":"aaad49dc6574df7c85fda50c495435f8a0124698","url":"https://api.github.com/repos/mongrel2/Tir/commits/aaad49dc6574df7c85fda50c495435f8a0124698"},"node_id":"MDM6UmVmMTc4MTE4NDp2MC45LTM="},{"name":"v0.9-2","zipball_url":"https://api.github.com/repos/mongrel2/Tir/zipball/v0.9-2","tarball_url":"https://api.github.com/repos/mongrel2/Tir/tarball/v0.9-2","commit":{"sha":"e253b40d9af3ac40c2fa2a6c8ada017356a095de","url":"https://api.github.com/repos/mongrel2/Tir/commits/e253b40d9af3ac40c2fa2a6c8ada017356a095de"},"node_id":"MDM6UmVmMTc4MTE4NDp2MC45LTI="}]
+2f1
+[{"name":"v0.9-3","zipball_url":"https://api.github.com/repos/mongrel2/Tir/zipball/v0.9-3","tarball_url":"https://api.github.com/repos/mongrel2/Tir/tarball/v0.9-3","commit":{"sha":"aaad49dc6574df7c85fda50c495435f8a0124698","url":"https://api.github.com/repos/mongrel2/Tir/commits/aaad49dc6574df7c85fda50c495435f8a0124698"},"node_id":"MDM6UmVmMTc4MTE4NDpyZWZzL3RhZ3MvdjAuOS0z"},{"name":"v0.9-2","zipball_url":"https://api.github.com/repos/mongrel2/Tir/zipball/v0.9-2","tarball_url":"https://api.github.com/repos/mongrel2/Tir/tarball/v0.9-2","commit":{"sha":"e253b40d9af3ac40c2fa2a6c8ada017356a095de","url":"https://api.github.com/repos/mongrel2/Tir/commits/e253b40d9af3ac40c2fa2a6c8ada017356a095de"},"node_id":"MDM6UmVmMTc4MTE4NDpyZWZzL3RhZ3MvdjAuOS0y"}]
 0
 

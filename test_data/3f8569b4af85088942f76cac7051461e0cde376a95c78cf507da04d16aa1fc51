@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"10795f888376bdab02618953ff0d7077"
-Last-Modified: Sat, 09 Jun 2018 03:05:59 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"dfd11ff26c960d36186374a6e7587248bba082b66a9556487d6bdccd3c68c21d"
+Last-Modified: Sat, 14 Nov 2020 06:53:05 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC15:57C6:2FE58D9:64EDD87:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE0E:BAD2:1DA8E71:2234B75:5FB01B1D
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1922
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.028304
+X-Ratelimit-Remaining: 3985
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1015
 X-Xss-Protection: 1; mode=block
 
-16b
-{"Erlang":71105985,"C":14087025,"C++":1834124,"Makefile":1236143,"Java":498329,"Emacs Lisp":448509,"HTML":424583,"Shell":384309,"M4":333298,"XSLT":241030,"DTrace":225621,"Perl":138666,"Python":124320,"Assembly":112192,"Objective-C":74810,"NSIS":27852,"JavaScript":26696,"CSS":11526,"sed":8601,"Roff":1954,"Ruby":1045,"Batchfile":931,"DIGITAL Command Language":21}
+192
+{"Erlang":72077095,"C":16301602,"C++":4783306,"Makefile":1041460,"Java":501956,"Shell":495910,"Emacs Lisp":470465,"HTML":451987,"XSLT":248252,"DTrace":225424,"M4":215698,"Assembly":207976,"Perl":172206,"Python":139748,"Objective-C":74810,"JavaScript":27236,"SmPL":24294,"NSIS":15665,"CSS":13875,"sed":7660,"Elixir":4459,"Batchfile":3485,"PHP":2763,"Roff":1954,"Ruby":1108,"DIGITAL Command Language":21}
 0
 

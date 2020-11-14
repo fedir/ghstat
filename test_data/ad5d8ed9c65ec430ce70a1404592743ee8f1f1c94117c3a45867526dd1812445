@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:56 GMT
-Etag: W/"1409072ff22f6a0d49f2c20f44876ba7"
-Last-Modified: Fri, 08 Jun 2018 06:10:12 GMT
+Date: Sat, 14 Nov 2020 18:05:48 GMT
+Etag: W/"3fb02a4785db47843394b7c597da6c34648a65066899351b5566fe9b98df6aef"
+Last-Modified: Fri, 18 Sep 2020 23:33:57 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA9B:57C6:2FE326F:64E835B:5B1B8AA0
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF99:13F2:E1A6D4:104362B:5FB01C7C
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3445
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.047420
+X-Ratelimit-Remaining: 2354
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2646
 X-Xss-Protection: 1; mode=block
 
-472
-[{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.1.0","commit":{"sha":"2d5db716188355874091c829586972f70551950e","url":"https://api.github.com/repos/AgilionApps/relax/commits/2d5db716188355874091c829586972f70551950e"},"node_id":"MDM6UmVmMjcyODk0OTI6djAuMS4w"},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.2","commit":{"sha":"2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702","url":"https://api.github.com/repos/AgilionApps/relax/commits/2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702"},"node_id":"MDM6UmVmMjcyODk0OTI6djAuMC4y"},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.1","commit":{"sha":"d004994d660954952c555661140009e9baf04768","url":"https://api.github.com/repos/AgilionApps/relax/commits/d004994d660954952c555661140009e9baf04768"},"node_id":"MDM6UmVmMjcyODk0OTI6djAuMC4x"}]
+4a2
+[{"name":"v0.1.0","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.1.0","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.1.0","commit":{"sha":"2d5db716188355874091c829586972f70551950e","url":"https://api.github.com/repos/AgilionApps/relax/commits/2d5db716188355874091c829586972f70551950e"},"node_id":"MDM6UmVmMjcyODk0OTI6cmVmcy90YWdzL3YwLjEuMA=="},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.2","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.2","commit":{"sha":"2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702","url":"https://api.github.com/repos/AgilionApps/relax/commits/2b2b0dd2f73baa0bf622e5e186f6c8e6ec38d702"},"node_id":"MDM6UmVmMjcyODk0OTI6cmVmcy90YWdzL3YwLjAuMg=="},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/AgilionApps/relax/zipball/v0.0.1","tarball_url":"https://api.github.com/repos/AgilionApps/relax/tarball/v0.0.1","commit":{"sha":"d004994d660954952c555661140009e9baf04768","url":"https://api.github.com/repos/AgilionApps/relax/commits/d004994d660954952c555661140009e9baf04768"},"node_id":"MDM6UmVmMjcyODk0OTI6cmVmcy90YWdzL3YwLjAuMQ=="}]
 0
 

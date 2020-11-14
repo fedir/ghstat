@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:27 GMT
-Etag: W/"302b806edb166686d605b258f991fa45"
-Last-Modified: Mon, 21 May 2018 20:21:38 GMT
+Date: Sat, 14 Nov 2020 18:08:49 GMT
+Etag: W/"7894798a0e5b4ca979742cfab326c578b096ac0a001245dee40c81646230ee26"
+Last-Modified: Fri, 13 Nov 2020 22:59:51 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB5E:57C6:2FE5261:64ECD94:5B1B8AFB
-X-Oauth-Scopes: 
+X-Github-Request-Id: D188:5C53:3F6ABBA:4909493:5FB01D31
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2449
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.039994
+X-Ratelimit-Remaining: 929
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4071
 X-Xss-Protection: 1; mode=block
 
-50a
-{"login":"creationix","id":89353,"node_id":"MDQ6VXNlcjg5MzUz","avatar_url":"https://avatars3.githubusercontent.com/u/89353?v=4","gravatar_id":"","url":"https://api.github.com/users/creationix","html_url":"https://github.com/creationix","followers_url":"https://api.github.com/users/creationix/followers","following_url":"https://api.github.com/users/creationix/following{/other_user}","gists_url":"https://api.github.com/users/creationix/gists{/gist_id}","starred_url":"https://api.github.com/users/creationix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/creationix/subscriptions","organizations_url":"https://api.github.com/users/creationix/orgs","repos_url":"https://api.github.com/users/creationix/repos","events_url":"https://api.github.com/users/creationix/events{/privacy}","received_events_url":"https://api.github.com/users/creationix/received_events","type":"User","site_admin":false,"name":"Tim Caswell","company":"Daplie Inc.","blog":"http://creationix.com/","location":"Red Lick, TX, USA","email":"tim@creationix.com","hireable":null,"bio":"Making the world better and more free, one technology at a time.","public_repos":430,"public_gists":390,"followers":4298,"following":18,"created_at":"2009-05-27T22:47:14Z","updated_at":"2018-05-21T20:21:38Z"}
+524
+{"login":"creationix","id":89353,"node_id":"MDQ6VXNlcjg5MzUz","avatar_url":"https://avatars3.githubusercontent.com/u/89353?v=4","gravatar_id":"","url":"https://api.github.com/users/creationix","html_url":"https://github.com/creationix","followers_url":"https://api.github.com/users/creationix/followers","following_url":"https://api.github.com/users/creationix/following{/other_user}","gists_url":"https://api.github.com/users/creationix/gists{/gist_id}","starred_url":"https://api.github.com/users/creationix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/creationix/subscriptions","organizations_url":"https://api.github.com/users/creationix/orgs","repos_url":"https://api.github.com/users/creationix/repos","events_url":"https://api.github.com/users/creationix/events{/privacy}","received_events_url":"https://api.github.com/users/creationix/received_events","type":"User","site_admin":false,"name":"Tim Caswell","company":"@magic-script ","blog":"http://creationix.com/","location":"Leander, TX, USA","email":"tim@creationix.com","hireable":null,"bio":"Making the world better and more free, one technology at a time.","twitter_username":null,"public_repos":460,"public_gists":409,"followers":4738,"following":18,"created_at":"2009-05-27T22:47:14Z","updated_at":"2020-11-13T22:59:51Z"}
 0
 

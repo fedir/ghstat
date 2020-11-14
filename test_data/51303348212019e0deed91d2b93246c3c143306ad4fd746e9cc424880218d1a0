@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:50 GMT
-Etag: W/"9786f3c749980fead2f025d48c438d66"
-Last-Modified: Sat, 09 Jun 2018 06:56:17 GMT
+Date: Sat, 14 Nov 2020 17:59:58 GMT
+Etag: W/"d23d7e4627d3e9f9da735d91f15c8b8aa2efce3109c8a4807c7165b3ead94850"
+Last-Modified: Sat, 14 Nov 2020 17:32:45 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CC14:57C5:372EBD5:71A063B:5B1B8B12
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE12:F078:38782EE:410FE3D:5FB01B1E
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1919
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.029971
+X-Ratelimit-Remaining: 3994
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1006
 X-Xss-Protection: 1; mode=block
 
-109
-{"Python":27490467,"C":15864204,"Objective-C":2141785,"C++":867011,"M4":168195,"HTML":167277,"Batchfile":55255,"Assembly":52219,"Shell":44493,"Roff":34667,"Makefile":27944,"Common Lisp":24481,"PLSQL":22886,"PowerShell":5266,"DTrace":2157,"CSS":96,"Visual Basic":70}
+129
+{"Python":30667278,"C":14426686,"Objective-C":2014054,"C++":637952,"HTML":184781,"M4":181610,"Batchfile":71402,"Shell":53912,"Assembly":49121,"Roff":39358,"Makefile":31224,"Common Lisp":24579,"PLSQL":22886,"PowerShell":20153,"Rich Text Format":6118,"DTrace":2196,"XSLT":153,"CSS":96,"VBScript":70}
 0
 

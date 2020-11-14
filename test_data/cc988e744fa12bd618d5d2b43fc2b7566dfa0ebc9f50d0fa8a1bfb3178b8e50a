@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:33 GMT
+Etag: W/"321f8580148c004484d2664740d4a0ff07d97d82071fb7c458409e3f9e7f43aa"
+Link: <https://api.github.com/user/124580/followers?page=7>; rel="prev", <https://api.github.com/user/124580/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE37:78A3:3E91028:47FDA01:5FB01B7D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3522
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1478
+X-Xss-Protection: 1; mode=block
+
+3a6
+[{"login":"leajasmine","id":67395105,"node_id":"MDQ6VXNlcjY3Mzk1MTA1","avatar_url":"https://avatars3.githubusercontent.com/u/67395105?v=4","gravatar_id":"","url":"https://api.github.com/users/leajasmine","html_url":"https://github.com/leajasmine","followers_url":"https://api.github.com/users/leajasmine/followers","following_url":"https://api.github.com/users/leajasmine/following{/other_user}","gists_url":"https://api.github.com/users/leajasmine/gists{/gist_id}","starred_url":"https://api.github.com/users/leajasmine/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leajasmine/subscriptions","organizations_url":"https://api.github.com/users/leajasmine/orgs","repos_url":"https://api.github.com/users/leajasmine/repos","events_url":"https://api.github.com/users/leajasmine/events{/privacy}","received_events_url":"https://api.github.com/users/leajasmine/received_events","type":"User","site_admin":false}]
+0
+

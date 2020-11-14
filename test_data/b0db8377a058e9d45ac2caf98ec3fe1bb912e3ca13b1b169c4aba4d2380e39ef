@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:31 GMT
+Etag: W/"98a808037d43b2fc8402cce2097ba1bacd0cc222ffc9220765edf247484a9db9"
+Link: <https://api.github.com/user/135839/followers?page=1>; rel="prev", <https://api.github.com/user/135839/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D170:E7C5:366F903:3ECDE2E:5FB01D1F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1124
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3876
+X-Xss-Protection: 1; mode=block
+
+a8e
+[{"login":"carlosal1015","id":21283014,"node_id":"MDQ6VXNlcjIxMjgzMDE0","avatar_url":"https://avatars0.githubusercontent.com/u/21283014?v=4","gravatar_id":"","url":"https://api.github.com/users/carlosal1015","html_url":"https://github.com/carlosal1015","followers_url":"https://api.github.com/users/carlosal1015/followers","following_url":"https://api.github.com/users/carlosal1015/following{/other_user}","gists_url":"https://api.github.com/users/carlosal1015/gists{/gist_id}","starred_url":"https://api.github.com/users/carlosal1015/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/carlosal1015/subscriptions","organizations_url":"https://api.github.com/users/carlosal1015/orgs","repos_url":"https://api.github.com/users/carlosal1015/repos","events_url":"https://api.github.com/users/carlosal1015/events{/privacy}","received_events_url":"https://api.github.com/users/carlosal1015/received_events","type":"User","site_admin":false},{"login":"Lelfy","id":56323100,"node_id":"MDQ6VXNlcjU2MzIzMTAw","avatar_url":"https://avatars1.githubusercontent.com/u/56323100?v=4","gravatar_id":"","url":"https://api.github.com/users/Lelfy","html_url":"https://github.com/Lelfy","followers_url":"https://api.github.com/users/Lelfy/followers","following_url":"https://api.github.com/users/Lelfy/following{/other_user}","gists_url":"https://api.github.com/users/Lelfy/gists{/gist_id}","starred_url":"https://api.github.com/users/Lelfy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lelfy/subscriptions","organizations_url":"https://api.github.com/users/Lelfy/orgs","repos_url":"https://api.github.com/users/Lelfy/repos","events_url":"https://api.github.com/users/Lelfy/events{/privacy}","received_events_url":"https://api.github.com/users/Lelfy/received_events","type":"User","site_admin":false},{"login":"emgre","id":9339312,"node_id":"MDQ6VXNlcjkzMzkzMTI=","avatar_url":"https://avatars3.githubusercontent.com/u/9339312?v=4","gravatar_id":"","url":"https://api.github.com/users/emgre","html_url":"https://github.com/emgre","followers_url":"https://api.github.com/users/emgre/followers","following_url":"https://api.github.com/users/emgre/following{/other_user}","gists_url":"https://api.github.com/users/emgre/gists{/gist_id}","starred_url":"https://api.github.com/users/emgre/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/emgre/subscriptions","organizations_url":"https://api.github.com/users/emgre/orgs","repos_url":"https://api.github.com/users/emgre/repos","events_url":"https://api.github.com/users/emgre/events{/privacy}","received_events_url":"https://api.github.com/users/emgre/received_events","type":"User","site_admin":false}]
+0
+

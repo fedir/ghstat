@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:23 GMT
+Etag: W/"0b61a9d75f1ab0fa8c83e72be97ca4e93c0af70613c83a11e75a6fd417ce7f10"
+Link: <https://api.github.com/user/24476/followers?page=2>; rel="prev", <https://api.github.com/user/24476/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D169:BAD1:E3DB14:105A4DE:5FB01D17
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1244
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3756
+X-Xss-Protection: 1; mode=block
+
+b04
+[{"login":"saniellocutor","id":30304711,"node_id":"MDQ6VXNlcjMwMzA0NzEx","avatar_url":"https://avatars2.githubusercontent.com/u/30304711?v=4","gravatar_id":"","url":"https://api.github.com/users/saniellocutor","html_url":"https://github.com/saniellocutor","followers_url":"https://api.github.com/users/saniellocutor/followers","following_url":"https://api.github.com/users/saniellocutor/following{/other_user}","gists_url":"https://api.github.com/users/saniellocutor/gists{/gist_id}","starred_url":"https://api.github.com/users/saniellocutor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/saniellocutor/subscriptions","organizations_url":"https://api.github.com/users/saniellocutor/orgs","repos_url":"https://api.github.com/users/saniellocutor/repos","events_url":"https://api.github.com/users/saniellocutor/events{/privacy}","received_events_url":"https://api.github.com/users/saniellocutor/received_events","type":"User","site_admin":false},{"login":"ribeirojose","id":32641844,"node_id":"MDQ6VXNlcjMyNjQxODQ0","avatar_url":"https://avatars1.githubusercontent.com/u/32641844?v=4","gravatar_id":"","url":"https://api.github.com/users/ribeirojose","html_url":"https://github.com/ribeirojose","followers_url":"https://api.github.com/users/ribeirojose/followers","following_url":"https://api.github.com/users/ribeirojose/following{/other_user}","gists_url":"https://api.github.com/users/ribeirojose/gists{/gist_id}","starred_url":"https://api.github.com/users/ribeirojose/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ribeirojose/subscriptions","organizations_url":"https://api.github.com/users/ribeirojose/orgs","repos_url":"https://api.github.com/users/ribeirojose/repos","events_url":"https://api.github.com/users/ribeirojose/events{/privacy}","received_events_url":"https://api.github.com/users/ribeirojose/received_events","type":"User","site_admin":false},{"login":"sihingkk","id":971509,"node_id":"MDQ6VXNlcjk3MTUwOQ==","avatar_url":"https://avatars0.githubusercontent.com/u/971509?v=4","gravatar_id":"","url":"https://api.github.com/users/sihingkk","html_url":"https://github.com/sihingkk","followers_url":"https://api.github.com/users/sihingkk/followers","following_url":"https://api.github.com/users/sihingkk/following{/other_user}","gists_url":"https://api.github.com/users/sihingkk/gists{/gist_id}","starred_url":"https://api.github.com/users/sihingkk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sihingkk/subscriptions","organizations_url":"https://api.github.com/users/sihingkk/orgs","repos_url":"https://api.github.com/users/sihingkk/repos","events_url":"https://api.github.com/users/sihingkk/events{/privacy}","received_events_url":"https://api.github.com/users/sihingkk/received_events","type":"User","site_admin":false}]
+0
+

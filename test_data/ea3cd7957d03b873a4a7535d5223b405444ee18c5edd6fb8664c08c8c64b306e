@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:08 GMT
-Etag: W/"ff122c1d68a5d71b87d35137028a4578"
-Last-Modified: Wed, 23 May 2018 04:07:53 GMT
+Date: Sat, 14 Nov 2020 18:02:07 GMT
+Etag: W/"714de5783e9426444f56e0daad367a60d508b05f0c9ea2cb999ddf122e6daade"
+Last-Modified: Fri, 13 Nov 2020 10:52:56 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD0F:57C6:2FE6DC0:64F144A:5B1B8B60
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF00:072E:3B53EDB:446A687:5FB01B9F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1468
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.047000
+X-Ratelimit-Remaining: 2665
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2335
 X-Xss-Protection: 1; mode=block
 
-4ba
-{"login":"fukamachi","id":90570,"node_id":"MDQ6VXNlcjkwNTcw","avatar_url":"https://avatars2.githubusercontent.com/u/90570?v=4","gravatar_id":"","url":"https://api.github.com/users/fukamachi","html_url":"https://github.com/fukamachi","followers_url":"https://api.github.com/users/fukamachi/followers","following_url":"https://api.github.com/users/fukamachi/following{/other_user}","gists_url":"https://api.github.com/users/fukamachi/gists{/gist_id}","starred_url":"https://api.github.com/users/fukamachi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fukamachi/subscriptions","organizations_url":"https://api.github.com/users/fukamachi/orgs","repos_url":"https://api.github.com/users/fukamachi/repos","events_url":"https://api.github.com/users/fukamachi/events{/privacy}","received_events_url":"https://api.github.com/users/fukamachi/received_events","type":"User","site_admin":false,"name":"Eitaro Fukamachi","company":"Pocket Change, K.K.","blog":"http://8arrow.org","location":"Japan","email":"e.arrows@gmail.com","hireable":null,"bio":null,"public_repos":148,"public_gists":48,"followers":753,"following":60,"created_at":"2009-06-01T06:27:02Z","updated_at":"2018-05-23T04:07:53Z"}
+4ca
+{"login":"fukamachi","id":90570,"node_id":"MDQ6VXNlcjkwNTcw","avatar_url":"https://avatars2.githubusercontent.com/u/90570?v=4","gravatar_id":"","url":"https://api.github.com/users/fukamachi","html_url":"https://github.com/fukamachi","followers_url":"https://api.github.com/users/fukamachi/followers","following_url":"https://api.github.com/users/fukamachi/following{/other_user}","gists_url":"https://api.github.com/users/fukamachi/gists{/gist_id}","starred_url":"https://api.github.com/users/fukamachi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fukamachi/subscriptions","organizations_url":"https://api.github.com/users/fukamachi/orgs","repos_url":"https://api.github.com/users/fukamachi/repos","events_url":"https://api.github.com/users/fukamachi/events{/privacy}","received_events_url":"https://api.github.com/users/fukamachi/received_events","type":"User","site_admin":false,"name":"Eitaro Fukamachi","company":null,"blog":"https://8arrow.org","location":"Tokyo, Japan","email":"e.arrows@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":162,"public_gists":53,"followers":1072,"following":69,"created_at":"2009-06-01T06:27:02Z","updated_at":"2020-11-13T10:52:56Z"}
 0
 

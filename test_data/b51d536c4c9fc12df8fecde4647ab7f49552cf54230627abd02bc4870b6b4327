@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:09:58 GMT
-Etag: W/"6dffd6856c6d4774f7bfc1095e2af653"
-Last-Modified: Sat, 09 Jun 2018 04:02:02 GMT
+Date: Sat, 14 Nov 2020 18:10:35 GMT
+Etag: W/"4bd8e74f0e49db756d9e590cfcdd0f41bc4898409147a394a17a344a4a7c94ff"
+Last-Modified: Sat, 14 Nov 2020 14:08:21 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CCED:57C3:1EE38E5:44F91D8:5B1B8B56
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2A7:F448:D5DB26:F69FC2:5FB01D9A
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1551
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.037871
+X-Ratelimit-Remaining: 361
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4639
 X-Xss-Protection: 1; mode=block
 
-166
-[{"name":"v0.1","zipball_url":"https://api.github.com/repos/lpereira/lwan/zipball/v0.1","tarball_url":"https://api.github.com/repos/lpereira/lwan/tarball/v0.1","commit":{"sha":"ac96a4bfe5f46f944c504295374fb996388003e6","url":"https://api.github.com/repos/lpereira/lwan/commits/ac96a4bfe5f46f944c504295374fb996388003e6"},"node_id":"MDM6UmVmMzI4NzU5MTp2MC4x"}]
+460
+[{"name":"v0.3","zipball_url":"https://api.github.com/repos/lpereira/lwan/zipball/v0.3","tarball_url":"https://api.github.com/repos/lpereira/lwan/tarball/v0.3","commit":{"sha":"c00a4be2a8485f9354097d457d0961c53e37b307","url":"https://api.github.com/repos/lpereira/lwan/commits/c00a4be2a8485f9354097d457d0961c53e37b307"},"node_id":"MDM6UmVmMzI4NzU5MTpyZWZzL3RhZ3MvdjAuMw=="},{"name":"v0.2","zipball_url":"https://api.github.com/repos/lpereira/lwan/zipball/v0.2","tarball_url":"https://api.github.com/repos/lpereira/lwan/tarball/v0.2","commit":{"sha":"fc5681130aeecab3679695cfdd1e8f0e2aad9616","url":"https://api.github.com/repos/lpereira/lwan/commits/fc5681130aeecab3679695cfdd1e8f0e2aad9616"},"node_id":"MDM6UmVmMzI4NzU5MTpyZWZzL3RhZ3MvdjAuMg=="},{"name":"v0.1","zipball_url":"https://api.github.com/repos/lpereira/lwan/zipball/v0.1","tarball_url":"https://api.github.com/repos/lpereira/lwan/tarball/v0.1","commit":{"sha":"ac96a4bfe5f46f944c504295374fb996388003e6","url":"https://api.github.com/repos/lpereira/lwan/commits/ac96a4bfe5f46f944c504295374fb996388003e6"},"node_id":"MDM6UmVmMzI4NzU5MTpyZWZzL3RhZ3MvdjAuMQ=="}]
 0
 

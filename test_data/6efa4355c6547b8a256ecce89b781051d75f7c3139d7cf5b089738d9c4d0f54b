@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:26 GMT
+Etag: W/"728d00bf804096dcd3c8cde2bc678edb9af409cd238a1b912a21c607863b8584"
+Link: <https://api.github.com/user/5733658/followers?page=1>; rel="prev", <https://api.github.com/user/5733658/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D297:B55F:1E3FC2D:22D438F:5FB01D92
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 511
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4489
+X-Xss-Protection: 1; mode=block
+
+75f
+[{"login":"kristinmars","id":2507580,"node_id":"MDQ6VXNlcjI1MDc1ODA=","avatar_url":"https://avatars1.githubusercontent.com/u/2507580?v=4","gravatar_id":"","url":"https://api.github.com/users/kristinmars","html_url":"https://github.com/kristinmars","followers_url":"https://api.github.com/users/kristinmars/followers","following_url":"https://api.github.com/users/kristinmars/following{/other_user}","gists_url":"https://api.github.com/users/kristinmars/gists{/gist_id}","starred_url":"https://api.github.com/users/kristinmars/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristinmars/subscriptions","organizations_url":"https://api.github.com/users/kristinmars/orgs","repos_url":"https://api.github.com/users/kristinmars/repos","events_url":"https://api.github.com/users/kristinmars/events{/privacy}","received_events_url":"https://api.github.com/users/kristinmars/received_events","type":"User","site_admin":false},{"login":"akshitverma","id":5890380,"node_id":"MDQ6VXNlcjU4OTAzODA=","avatar_url":"https://avatars2.githubusercontent.com/u/5890380?v=4","gravatar_id":"","url":"https://api.github.com/users/akshitverma","html_url":"https://github.com/akshitverma","followers_url":"https://api.github.com/users/akshitverma/followers","following_url":"https://api.github.com/users/akshitverma/following{/other_user}","gists_url":"https://api.github.com/users/akshitverma/gists{/gist_id}","starred_url":"https://api.github.com/users/akshitverma/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/akshitverma/subscriptions","organizations_url":"https://api.github.com/users/akshitverma/orgs","repos_url":"https://api.github.com/users/akshitverma/repos","events_url":"https://api.github.com/users/akshitverma/events{/privacy}","received_events_url":"https://api.github.com/users/akshitverma/received_events","type":"User","site_admin":false}]
+0
+

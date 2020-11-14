@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:28 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D175:072C:100E9EB:1280977:5FB01D1C
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 21
+X-Ratelimit-Reset: 1605377359
+X-Ratelimit-Used: 9
+X-Xss-Protection: 1; mode=block
+
+a82
+{"total_count":1,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/kivra/giallo/issues/17","repository_url":"https://api.github.com/repos/kivra/giallo","labels_url":"https://api.github.com/repos/kivra/giallo/issues/17/labels{/name}","comments_url":"https://api.github.com/repos/kivra/giallo/issues/17/comments","events_url":"https://api.github.com/repos/kivra/giallo/issues/17/events","html_url":"https://github.com/kivra/giallo/issues/17","id":14544552,"node_id":"MDU6SXNzdWUxNDU0NDU1Mg==","number":17,"title":"Calling cowboy_req:body_qs multiple times on the same req","user":{"login":"rambocoder","id":1308527,"node_id":"MDQ6VXNlcjEzMDg1Mjc=","avatar_url":"https://avatars1.githubusercontent.com/u/1308527?v=4","gravatar_id":"","url":"https://api.github.com/users/rambocoder","html_url":"https://github.com/rambocoder","followers_url":"https://api.github.com/users/rambocoder/followers","following_url":"https://api.github.com/users/rambocoder/following{/other_user}","gists_url":"https://api.github.com/users/rambocoder/gists{/gist_id}","starred_url":"https://api.github.com/users/rambocoder/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rambocoder/subscriptions","organizations_url":"https://api.github.com/users/rambocoder/orgs","repos_url":"https://api.github.com/users/rambocoder/repos","events_url":"https://api.github.com/users/rambocoder/events{/privacy}","received_events_url":"https://api.github.com/users/rambocoder/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":6,"created_at":"2013-05-20T23:34:46Z","updated_at":"2013-05-28T14:08:30Z","closed_at":"2013-05-28T14:08:30Z","author_association":"NONE","active_lock_reason":null,"body":"Love the framework, I noticed that under load, calling this function https://github.com/kivra/giallo/blob/master/src/giallo.erl#L132 generates badmatch exceptions due to Cowboy not allowing calling cowboy_req:body_qs multiple times on the same Req. I believe body_qs can be called only once on each request because the data is streamed using transport:receive.\n\nIn simple test using command line curl, giallo:post_param can be called many times on the samerequest, but once I generated some load using JMeter 100 concurrent threads to POST data, then cowboy starts throwing timeout nondeterministically.\n\nThe way Axiom deals with it is https://github.com/tsujigiri/axiom/blob/master/src/axiom.erl#L152\n\nI wish we could call body_qs many times on the same request, this way the body parameters would not need to be passed around.\n","performed_via_github_app":null,"score":1.0}]}
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:15 GMT
-Etag: W/"0d4a7682db33a84f4dc6a8b505d3d346"
-Last-Modified: Fri, 20 Apr 2018 20:11:34 GMT
+Date: Sat, 14 Nov 2020 18:01:32 GMT
+Etag: W/"72b4654e1c040d41e0eb20d0a406430967ebb3a413054743157ec5aa74b0f947"
+Last-Modified: Mon, 09 Nov 2020 21:14:09 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8D3:57C3:1EE16AE:44F32DF:5B1B8A3B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE38:7087:3CFF7AF:4630E3F:5FB01B7C
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4543
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040084
+X-Ratelimit-Remaining: 3552
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1448
 X-Xss-Protection: 1; mode=block
 
-520
-{"login":"paulcsmith","id":22394,"node_id":"MDQ6VXNlcjIyMzk0","avatar_url":"https://avatars0.githubusercontent.com/u/22394?v=4","gravatar_id":"","url":"https://api.github.com/users/paulcsmith","html_url":"https://github.com/paulcsmith","followers_url":"https://api.github.com/users/paulcsmith/followers","following_url":"https://api.github.com/users/paulcsmith/following{/other_user}","gists_url":"https://api.github.com/users/paulcsmith/gists{/gist_id}","starred_url":"https://api.github.com/users/paulcsmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulcsmith/subscriptions","organizations_url":"https://api.github.com/users/paulcsmith/orgs","repos_url":"https://api.github.com/users/paulcsmith/repos","events_url":"https://api.github.com/users/paulcsmith/events{/privacy}","received_events_url":"https://api.github.com/users/paulcsmith/received_events","type":"User","site_admin":false,"name":"Paul Smith","company":"thoughtbot","blog":"","location":"Boston, MA","email":null,"hireable":null,"bio":"Crystal, Ruby, Elixir and design lover. Creator of Lucky, and Bamboo. Co-creator of ExMachina. Writing at https://medium.com/@paulcsmith","public_repos":67,"public_gists":33,"followers":129,"following":13,"created_at":"2008-08-28T20:51:37Z","updated_at":"2018-04-20T20:11:34Z"}
+528
+{"login":"paulcsmith","id":22394,"node_id":"MDQ6VXNlcjIyMzk0","avatar_url":"https://avatars0.githubusercontent.com/u/22394?v=4","gravatar_id":"","url":"https://api.github.com/users/paulcsmith","html_url":"https://github.com/paulcsmith","followers_url":"https://api.github.com/users/paulcsmith/followers","following_url":"https://api.github.com/users/paulcsmith/following{/other_user}","gists_url":"https://api.github.com/users/paulcsmith/gists{/gist_id}","starred_url":"https://api.github.com/users/paulcsmith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulcsmith/subscriptions","organizations_url":"https://api.github.com/users/paulcsmith/orgs","repos_url":"https://api.github.com/users/paulcsmith/repos","events_url":"https://api.github.com/users/paulcsmith/events{/privacy}","received_events_url":"https://api.github.com/users/paulcsmith/received_events","type":"User","site_admin":true,"name":"Paul Smith","company":"GitHub","blog":"https://luckyframework.org","location":"Apex, NC","email":null,"hireable":null,"bio":"Crystal, Ruby, Elixir and design lover. Creator of Lucky, Avram, and Bamboo. Co-creator of ExMachina.","twitter_username":null,"public_repos":85,"public_gists":44,"followers":330,"following":13,"created_at":"2008-08-28T20:51:37Z","updated_at":"2020-11-09T21:14:09Z"}
 0
 

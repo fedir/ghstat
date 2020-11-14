@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:42 GMT
+Etag: W/"eb035b20149a18180c900433feb06c922699b58aaf7bc9da328e93a10ff5e4b3"
+Link: <https://api.github.com/user/1381907/followers?page=2>; rel="prev", <https://api.github.com/user/1381907/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE47:F44A:3A132DA:42DB62B:5FB01B86
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3308
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1692
+X-Xss-Protection: 1; mode=block
+
+aca
+[{"login":"sumit1523","id":34701534,"node_id":"MDQ6VXNlcjM0NzAxNTM0","avatar_url":"https://avatars0.githubusercontent.com/u/34701534?v=4","gravatar_id":"","url":"https://api.github.com/users/sumit1523","html_url":"https://github.com/sumit1523","followers_url":"https://api.github.com/users/sumit1523/followers","following_url":"https://api.github.com/users/sumit1523/following{/other_user}","gists_url":"https://api.github.com/users/sumit1523/gists{/gist_id}","starred_url":"https://api.github.com/users/sumit1523/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sumit1523/subscriptions","organizations_url":"https://api.github.com/users/sumit1523/orgs","repos_url":"https://api.github.com/users/sumit1523/repos","events_url":"https://api.github.com/users/sumit1523/events{/privacy}","received_events_url":"https://api.github.com/users/sumit1523/received_events","type":"User","site_admin":false},{"login":"jonike","id":7898256,"node_id":"MDQ6VXNlcjc4OTgyNTY=","avatar_url":"https://avatars0.githubusercontent.com/u/7898256?v=4","gravatar_id":"","url":"https://api.github.com/users/jonike","html_url":"https://github.com/jonike","followers_url":"https://api.github.com/users/jonike/followers","following_url":"https://api.github.com/users/jonike/following{/other_user}","gists_url":"https://api.github.com/users/jonike/gists{/gist_id}","starred_url":"https://api.github.com/users/jonike/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jonike/subscriptions","organizations_url":"https://api.github.com/users/jonike/orgs","repos_url":"https://api.github.com/users/jonike/repos","events_url":"https://api.github.com/users/jonike/events{/privacy}","received_events_url":"https://api.github.com/users/jonike/received_events","type":"User","site_admin":false},{"login":"jindeveloper","id":39805502,"node_id":"MDQ6VXNlcjM5ODA1NTAy","avatar_url":"https://avatars2.githubusercontent.com/u/39805502?v=4","gravatar_id":"","url":"https://api.github.com/users/jindeveloper","html_url":"https://github.com/jindeveloper","followers_url":"https://api.github.com/users/jindeveloper/followers","following_url":"https://api.github.com/users/jindeveloper/following{/other_user}","gists_url":"https://api.github.com/users/jindeveloper/gists{/gist_id}","starred_url":"https://api.github.com/users/jindeveloper/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jindeveloper/subscriptions","organizations_url":"https://api.github.com/users/jindeveloper/orgs","repos_url":"https://api.github.com/users/jindeveloper/repos","events_url":"https://api.github.com/users/jindeveloper/events{/privacy}","received_events_url":"https://api.github.com/users/jindeveloper/received_events","type":"User","site_admin":false}]
+0
+

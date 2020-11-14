@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:44 GMT
-Etag: W/"3d81366420f241968dd88a7bfff12ec8"
-Last-Modified: Sun, 27 May 2018 21:39:36 GMT
+Date: Sat, 14 Nov 2020 18:10:23 GMT
+Etag: W/"5ca8df1d5e546d1085ba79f4f174c393c79e686a024061b1adf1210d17c1d245"
+Last-Modified: Wed, 28 Oct 2020 05:35:10 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9B5:57C6:2FE1989:64E47B7:5B1B8A58
-X-Oauth-Scopes: 
+X-Github-Request-Id: D295:B55C:66E395:765CEE:5FB01D8F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3975
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.045870
+X-Ratelimit-Remaining: 600
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4400
 X-Xss-Protection: 1; mode=block
 
-51c
-{"login":"s-panferov","id":198327,"node_id":"MDQ6VXNlcjE5ODMyNw==","avatar_url":"https://avatars1.githubusercontent.com/u/198327?v=4","gravatar_id":"","url":"https://api.github.com/users/s-panferov","html_url":"https://github.com/s-panferov","followers_url":"https://api.github.com/users/s-panferov/followers","following_url":"https://api.github.com/users/s-panferov/following{/other_user}","gists_url":"https://api.github.com/users/s-panferov/gists{/gist_id}","starred_url":"https://api.github.com/users/s-panferov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-panferov/subscriptions","organizations_url":"https://api.github.com/users/s-panferov/orgs","repos_url":"https://api.github.com/users/s-panferov/repos","events_url":"https://api.github.com/users/s-panferov/events{/privacy}","received_events_url":"https://api.github.com/users/s-panferov/received_events","type":"User","site_admin":false,"name":"Stanislav Panferov","company":"RevJet","blog":"https://www.linkedin.com/in/stanislavpanferov","location":"San Francisco Bay area","email":"fnight.m@gmail.com","hireable":true,"bio":"Senior Full Stack developer, Tech Lead, Architect","public_repos":97,"public_gists":24,"followers":111,"following":25,"created_at":"2010-02-06T11:37:07Z","updated_at":"2018-05-27T21:39:36Z"}
+548
+{"login":"s-panferov","id":198327,"node_id":"MDQ6VXNlcjE5ODMyNw==","avatar_url":"https://avatars1.githubusercontent.com/u/198327?v=4","gravatar_id":"","url":"https://api.github.com/users/s-panferov","html_url":"https://github.com/s-panferov","followers_url":"https://api.github.com/users/s-panferov/followers","following_url":"https://api.github.com/users/s-panferov/following{/other_user}","gists_url":"https://api.github.com/users/s-panferov/gists{/gist_id}","starred_url":"https://api.github.com/users/s-panferov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-panferov/subscriptions","organizations_url":"https://api.github.com/users/s-panferov/orgs","repos_url":"https://api.github.com/users/s-panferov/repos","events_url":"https://api.github.com/users/s-panferov/events{/privacy}","received_events_url":"https://api.github.com/users/s-panferov/received_events","type":"User","site_admin":false,"name":"Stanislav Panferov","company":"Facebook","blog":"https://www.linkedin.com/in/stanislavpanferov","location":"San Francisco Bay area","email":"fnight.m@gmail.com","hireable":true,"bio":"Senior Full Stack developer, Tech Lead, Architect. Rust, TypeScript","twitter_username":null,"public_repos":78,"public_gists":24,"followers":172,"following":26,"created_at":"2010-02-06T11:37:07Z","updated_at":"2020-10-28T05:35:10Z"}
 0
 

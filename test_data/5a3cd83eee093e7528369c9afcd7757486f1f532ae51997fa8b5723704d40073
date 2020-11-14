@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:49 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D183:F077:1E58E1D:23009A9:5FB01D30
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 5
+X-Ratelimit-Reset: 1605377359
+X-Ratelimit-Used: 25
+X-Xss-Protection: 1; mode=block
+
+f87
+{"total_count":2,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/keplerproject/orbit/issues/32","repository_url":"https://api.github.com/repos/keplerproject/orbit","labels_url":"https://api.github.com/repos/keplerproject/orbit/issues/32/labels{/name}","comments_url":"https://api.github.com/repos/keplerproject/orbit/issues/32/comments","events_url":"https://api.github.com/repos/keplerproject/orbit/issues/32/events","html_url":"https://github.com/keplerproject/orbit/issues/32","id":24869003,"node_id":"MDU6SXNzdWUyNDg2OTAwMw==","number":32,"title":"Publish 2.2.1 on luarocks?","user":{"login":"lilith","id":107935,"node_id":"MDQ6VXNlcjEwNzkzNQ==","avatar_url":"https://avatars1.githubusercontent.com/u/107935?v=4","gravatar_id":"","url":"https://api.github.com/users/lilith","html_url":"https://github.com/lilith","followers_url":"https://api.github.com/users/lilith/followers","following_url":"https://api.github.com/users/lilith/following{/other_user}","gists_url":"https://api.github.com/users/lilith/gists{/gist_id}","starred_url":"https://api.github.com/users/lilith/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lilith/subscriptions","organizations_url":"https://api.github.com/users/lilith/orgs","repos_url":"https://api.github.com/users/lilith/repos","events_url":"https://api.github.com/users/lilith/events{/privacy}","received_events_url":"https://api.github.com/users/lilith/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":7,"created_at":"2013-12-29T22:53:45Z","updated_at":"2014-01-17T04:23:23Z","closed_at":"2014-01-17T04:23:23Z","author_association":"NONE","active_lock_reason":null,"body":"The latest rock I see is orbit 2.2.0-2, which doesn't work due to the module changes in the dependencies.\n","performed_via_github_app":null,"score":1.0},{"url":"https://api.github.com/repos/keplerproject/orbit/issues/17","repository_url":"https://api.github.com/repos/keplerproject/orbit","labels_url":"https://api.github.com/repos/keplerproject/orbit/issues/17/labels{/name}","comments_url":"https://api.github.com/repos/keplerproject/orbit/issues/17/comments","events_url":"https://api.github.com/repos/keplerproject/orbit/issues/17/events","html_url":"https://github.com/keplerproject/orbit/issues/17","id":23000016,"node_id":"MDU6SXNzdWUyMzAwMDAxNg==","number":17,"title":"Rockspecs out of sync","user":{"login":"kognix","id":5696494,"node_id":"MDQ6VXNlcjU2OTY0OTQ=","avatar_url":"https://avatars1.githubusercontent.com/u/5696494?v=4","gravatar_id":"","url":"https://api.github.com/users/kognix","html_url":"https://github.com/kognix","followers_url":"https://api.github.com/users/kognix/followers","following_url":"https://api.github.com/users/kognix/following{/other_user}","gists_url":"https://api.github.com/users/kognix/gists{/gist_id}","starred_url":"https://api.github.com/users/kognix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kognix/subscriptions","organizations_url":"https://api.github.com/users/kognix/orgs","repos_url":"https://api.github.com/users/kognix/repos","events_url":"https://api.github.com/users/kognix/events{/privacy}","received_events_url":"https://api.github.com/users/kognix/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":15,"created_at":"2013-11-20T15:53:30Z","updated_at":"2013-12-07T04:04:06Z","closed_at":"2013-12-07T04:04:06Z","author_association":"CONTRIBUTOR","active_lock_reason":null,"body":"The rockspec on the main Luarocks repository is 2.2.0-2 which doesn't exist here on Github. It pulls a tarball dated 2010 which lacks some important bugfixes.\nAlso it has wsapi-xavante as a dependency - this should be wsapi since Orbit can run with other webservers.\nPlease update :)\n","performed_via_github_app":null,"score":1.0}]}
+0
+

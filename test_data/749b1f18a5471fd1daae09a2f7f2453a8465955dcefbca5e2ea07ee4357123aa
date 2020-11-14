@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:57 GMT
+Etag: W/"92c8b333ffd74eae99ea2daea5f1077cb3f793d9bab63023dc1c5cb8fcaa398e"
+Link: <https://api.github.com/user/739450/followers?page=2>; rel="prev", <https://api.github.com/user/739450/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2C8:78A3:3EC3D8E:4839675:5FB01DB1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 42
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4958
+X-Xss-Protection: 1; mode=block
+
+36a
+[{"login":"cveoy","id":72183885,"node_id":"MDQ6VXNlcjcyMTgzODg1","avatar_url":"https://avatars1.githubusercontent.com/u/72183885?v=4","gravatar_id":"","url":"https://api.github.com/users/cveoy","html_url":"https://github.com/cveoy","followers_url":"https://api.github.com/users/cveoy/followers","following_url":"https://api.github.com/users/cveoy/following{/other_user}","gists_url":"https://api.github.com/users/cveoy/gists{/gist_id}","starred_url":"https://api.github.com/users/cveoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cveoy/subscriptions","organizations_url":"https://api.github.com/users/cveoy/orgs","repos_url":"https://api.github.com/users/cveoy/repos","events_url":"https://api.github.com/users/cveoy/events{/privacy}","received_events_url":"https://api.github.com/users/cveoy/received_events","type":"User","site_admin":false}]
+0
+

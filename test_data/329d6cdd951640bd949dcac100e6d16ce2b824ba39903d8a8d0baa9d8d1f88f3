@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:09 GMT
+Etag: W/"438163face35a6613b855e62497a9067903e9d3336b95c694432254507bb8011"
+Link: <https://api.github.com/user/2257/followers?page=6>; rel="prev", <https://api.github.com/user/2257/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFAB:F441:1042D:1A1D4:5FB01C91
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2028
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2972
+X-Xss-Protection: 1; mode=block
+
+ade
+[{"login":"rwason","id":8106941,"node_id":"MDQ6VXNlcjgxMDY5NDE=","avatar_url":"https://avatars2.githubusercontent.com/u/8106941?v=4","gravatar_id":"","url":"https://api.github.com/users/rwason","html_url":"https://github.com/rwason","followers_url":"https://api.github.com/users/rwason/followers","following_url":"https://api.github.com/users/rwason/following{/other_user}","gists_url":"https://api.github.com/users/rwason/gists{/gist_id}","starred_url":"https://api.github.com/users/rwason/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rwason/subscriptions","organizations_url":"https://api.github.com/users/rwason/orgs","repos_url":"https://api.github.com/users/rwason/repos","events_url":"https://api.github.com/users/rwason/events{/privacy}","received_events_url":"https://api.github.com/users/rwason/received_events","type":"User","site_admin":false},{"login":"amirlivneh","id":724254,"node_id":"MDQ6VXNlcjcyNDI1NA==","avatar_url":"https://avatars0.githubusercontent.com/u/724254?v=4","gravatar_id":"","url":"https://api.github.com/users/amirlivneh","html_url":"https://github.com/amirlivneh","followers_url":"https://api.github.com/users/amirlivneh/followers","following_url":"https://api.github.com/users/amirlivneh/following{/other_user}","gists_url":"https://api.github.com/users/amirlivneh/gists{/gist_id}","starred_url":"https://api.github.com/users/amirlivneh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/amirlivneh/subscriptions","organizations_url":"https://api.github.com/users/amirlivneh/orgs","repos_url":"https://api.github.com/users/amirlivneh/repos","events_url":"https://api.github.com/users/amirlivneh/events{/privacy}","received_events_url":"https://api.github.com/users/amirlivneh/received_events","type":"User","site_admin":false},{"login":"gabriel-aires","id":11555716,"node_id":"MDQ6VXNlcjExNTU1NzE2","avatar_url":"https://avatars3.githubusercontent.com/u/11555716?v=4","gravatar_id":"","url":"https://api.github.com/users/gabriel-aires","html_url":"https://github.com/gabriel-aires","followers_url":"https://api.github.com/users/gabriel-aires/followers","following_url":"https://api.github.com/users/gabriel-aires/following{/other_user}","gists_url":"https://api.github.com/users/gabriel-aires/gists{/gist_id}","starred_url":"https://api.github.com/users/gabriel-aires/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gabriel-aires/subscriptions","organizations_url":"https://api.github.com/users/gabriel-aires/orgs","repos_url":"https://api.github.com/users/gabriel-aires/repos","events_url":"https://api.github.com/users/gabriel-aires/events{/privacy}","received_events_url":"https://api.github.com/users/gabriel-aires/received_events","type":"User","site_admin":false}]
+0
+

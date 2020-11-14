@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:25 GMT
+Etag: W/"e0a4ecb6436502bd63b0035bc55fc1716f3e009d2a35dea0b8a5b2131d62d6c1"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE03:5C53:3F31B71:48C6DAE:5FB01AFC
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4159
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 841
+X-Xss-Protection: 1; mode=block
+
+38a
+[{"login":"jelenadj","id":978548,"node_id":"MDQ6VXNlcjk3ODU0OA==","avatar_url":"https://avatars1.githubusercontent.com/u/978548?v=4","gravatar_id":"","url":"https://api.github.com/users/jelenadj","html_url":"https://github.com/jelenadj","followers_url":"https://api.github.com/users/jelenadj/followers","following_url":"https://api.github.com/users/jelenadj/following{/other_user}","gists_url":"https://api.github.com/users/jelenadj/gists{/gist_id}","starred_url":"https://api.github.com/users/jelenadj/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jelenadj/subscriptions","organizations_url":"https://api.github.com/users/jelenadj/orgs","repos_url":"https://api.github.com/users/jelenadj/repos","events_url":"https://api.github.com/users/jelenadj/events{/privacy}","received_events_url":"https://api.github.com/users/jelenadj/received_events","type":"User","site_admin":false}]
+0
+

@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:27 GMT
-Etag: W/"04ea0700824484fda04a624dd2b71d08"
-Last-Modified: Wed, 25 Apr 2018 18:34:25 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"66cffa85c98e64a09c1ca4ca9f9c542bdb799eea0cb2e6192e3144ffee2ea3ee"
+Last-Modified: Sun, 01 Nov 2020 23:30:37 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C925:57C5:3727A6E:71938E0:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE50:2940:11CEF1:14DD48:5FB01B85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4341
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.055505
+X-Ratelimit-Remaining: 3353
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1647
 X-Xss-Protection: 1; mode=block
 
-74b
-[{"login":"snowgooseyk","id":205096,"node_id":"MDQ6VXNlcjIwNTA5Ng==","avatar_url":"https://avatars2.githubusercontent.com/u/205096?v=4","gravatar_id":"","url":"https://api.github.com/users/snowgooseyk","html_url":"https://github.com/snowgooseyk","followers_url":"https://api.github.com/users/snowgooseyk/followers","following_url":"https://api.github.com/users/snowgooseyk/following{/other_user}","gists_url":"https://api.github.com/users/snowgooseyk/gists{/gist_id}","starred_url":"https://api.github.com/users/snowgooseyk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/snowgooseyk/subscriptions","organizations_url":"https://api.github.com/users/snowgooseyk/orgs","repos_url":"https://api.github.com/users/snowgooseyk/repos","events_url":"https://api.github.com/users/snowgooseyk/events{/privacy}","received_events_url":"https://api.github.com/users/snowgooseyk/received_events","type":"User","site_admin":false,"contributions":236},{"login":"y2k2mt","id":16241503,"node_id":"MDQ6VXNlcjE2MjQxNTAz","avatar_url":"https://avatars0.githubusercontent.com/u/16241503?v=4","gravatar_id":"","url":"https://api.github.com/users/y2k2mt","html_url":"https://github.com/y2k2mt","followers_url":"https://api.github.com/users/y2k2mt/followers","following_url":"https://api.github.com/users/y2k2mt/following{/other_user}","gists_url":"https://api.github.com/users/y2k2mt/gists{/gist_id}","starred_url":"https://api.github.com/users/y2k2mt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/y2k2mt/subscriptions","organizations_url":"https://api.github.com/users/y2k2mt/orgs","repos_url":"https://api.github.com/users/y2k2mt/repos","events_url":"https://api.github.com/users/y2k2mt/events{/privacy}","received_events_url":"https://api.github.com/users/y2k2mt/received_events","type":"User","site_admin":false,"contributions":129}]
+aea
+[{"login":"snowgooseyk","id":205096,"node_id":"MDQ6VXNlcjIwNTA5Ng==","avatar_url":"https://avatars2.githubusercontent.com/u/205096?v=4","gravatar_id":"","url":"https://api.github.com/users/snowgooseyk","html_url":"https://github.com/snowgooseyk","followers_url":"https://api.github.com/users/snowgooseyk/followers","following_url":"https://api.github.com/users/snowgooseyk/following{/other_user}","gists_url":"https://api.github.com/users/snowgooseyk/gists{/gist_id}","starred_url":"https://api.github.com/users/snowgooseyk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/snowgooseyk/subscriptions","organizations_url":"https://api.github.com/users/snowgooseyk/orgs","repos_url":"https://api.github.com/users/snowgooseyk/repos","events_url":"https://api.github.com/users/snowgooseyk/events{/privacy}","received_events_url":"https://api.github.com/users/snowgooseyk/received_events","type":"User","site_admin":false,"contributions":236},{"login":"y2k2mt","id":16241503,"node_id":"MDQ6VXNlcjE2MjQxNTAz","avatar_url":"https://avatars0.githubusercontent.com/u/16241503?v=4","gravatar_id":"","url":"https://api.github.com/users/y2k2mt","html_url":"https://github.com/y2k2mt","followers_url":"https://api.github.com/users/y2k2mt/followers","following_url":"https://api.github.com/users/y2k2mt/following{/other_user}","gists_url":"https://api.github.com/users/y2k2mt/gists{/gist_id}","starred_url":"https://api.github.com/users/y2k2mt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/y2k2mt/subscriptions","organizations_url":"https://api.github.com/users/y2k2mt/orgs","repos_url":"https://api.github.com/users/y2k2mt/repos","events_url":"https://api.github.com/users/y2k2mt/events{/privacy}","received_events_url":"https://api.github.com/users/y2k2mt/received_events","type":"User","site_admin":false,"contributions":148},{"login":"fossabot","id":29791463,"node_id":"MDQ6VXNlcjI5NzkxNDYz","avatar_url":"https://avatars0.githubusercontent.com/u/29791463?v=4","gravatar_id":"","url":"https://api.github.com/users/fossabot","html_url":"https://github.com/fossabot","followers_url":"https://api.github.com/users/fossabot/followers","following_url":"https://api.github.com/users/fossabot/following{/other_user}","gists_url":"https://api.github.com/users/fossabot/gists{/gist_id}","starred_url":"https://api.github.com/users/fossabot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fossabot/subscriptions","organizations_url":"https://api.github.com/users/fossabot/orgs","repos_url":"https://api.github.com/users/fossabot/repos","events_url":"https://api.github.com/users/fossabot/events{/privacy}","received_events_url":"https://api.github.com/users/fossabot/received_events","type":"User","site_admin":false,"contributions":1}]
 0
 

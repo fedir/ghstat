@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:07:22 GMT
-Etag: W/"9de4e2d6e0e7ed48a76011800f3da3f2"
-Last-Modified: Mon, 14 May 2018 02:30:54 GMT
+Date: Sat, 14 Nov 2020 18:06:08 GMT
+Etag: W/"b1ee9efc79b7ea0417151a4c65c1d6189f91ff3aac2436db8a293eedb79ddebb"
+Last-Modified: Tue, 20 Oct 2020 14:27:05 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CAC0:57C5:372BDC2:719B417:5B1B8ABA
-X-Oauth-Scopes: 
+X-Github-Request-Id: CFAE:E4B7:3A3A034:43210EE:5FB01C90
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3142
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.043335
+X-Ratelimit-Remaining: 2066
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2934
 X-Xss-Protection: 1; mode=block
 
-4bd
-{"login":"zetachang","id":839973,"node_id":"MDQ6VXNlcjgzOTk3Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/839973?v=4","gravatar_id":"","url":"https://api.github.com/users/zetachang","html_url":"https://github.com/zetachang","followers_url":"https://api.github.com/users/zetachang/followers","following_url":"https://api.github.com/users/zetachang/following{/other_user}","gists_url":"https://api.github.com/users/zetachang/gists{/gist_id}","starred_url":"https://api.github.com/users/zetachang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zetachang/subscriptions","organizations_url":"https://api.github.com/users/zetachang/orgs","repos_url":"https://api.github.com/users/zetachang/repos","events_url":"https://api.github.com/users/zetachang/events{/privacy}","received_events_url":"https://api.github.com/users/zetachang/received_events","type":"User","site_admin":false,"name":"David Chang","company":null,"blog":"twitter.com/zetachang","location":"Taipei, Taiwan","email":null,"hireable":null,"bio":"Software Engineer @Paktor","public_repos":61,"public_gists":15,"followers":120,"following":88,"created_at":"2011-06-09T13:24:20Z","updated_at":"2018-05-14T02:30:54Z"}
+4bf
+{"login":"zetachang","id":839973,"node_id":"MDQ6VXNlcjgzOTk3Mw==","avatar_url":"https://avatars2.githubusercontent.com/u/839973?v=4","gravatar_id":"","url":"https://api.github.com/users/zetachang","html_url":"https://github.com/zetachang","followers_url":"https://api.github.com/users/zetachang/followers","following_url":"https://api.github.com/users/zetachang/following{/other_user}","gists_url":"https://api.github.com/users/zetachang/gists{/gist_id}","starred_url":"https://api.github.com/users/zetachang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zetachang/subscriptions","organizations_url":"https://api.github.com/users/zetachang/orgs","repos_url":"https://api.github.com/users/zetachang/repos","events_url":"https://api.github.com/users/zetachang/events{/privacy}","received_events_url":"https://api.github.com/users/zetachang/received_events","type":"User","site_admin":false,"name":"David Chang","company":null,"blog":"twitter.com/zetachang","location":"Taipei, Taiwan","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":65,"public_gists":15,"followers":152,"following":104,"created_at":"2011-06-09T13:24:20Z","updated_at":"2020-10-20T14:27:05Z"}
 0
 

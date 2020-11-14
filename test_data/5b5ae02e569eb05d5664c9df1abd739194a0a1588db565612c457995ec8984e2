@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:20 GMT
-Etag: W/"21d9369281a3342bea6ed9634c587035"
-Last-Modified: Tue, 05 Jun 2018 23:08:03 GMT
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"02bd6631c74b0f1f65c9e4bc80fcd677b2e137c181d4d347d6a4a3954e602866"
+Last-Modified: Sun, 01 Nov 2020 23:25:24 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9FA:57C3:1EE1FDC:44F4BB4:5B1B8A7B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE4E:5C53:3F401C2:48D796D:5FB01B88
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3804
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.035271
+X-Ratelimit-Remaining: 3230
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1770
 X-Xss-Protection: 1; mode=block
 
-16a
-[{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/widok/widok/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/widok/widok/tarball/v0.2.3","commit":{"sha":"3fe3876c26d107f2de9d13599ac0bc9d3ccb85af","url":"https://api.github.com/repos/widok/widok/commits/3fe3876c26d107f2de9d13599ac0bc9d3ccb85af"},"node_id":"MDM6UmVmMjQ3NTY3MTc6djAuMi4z"}]
+17a
+[{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/widok/widok/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/widok/widok/tarball/v0.2.3","commit":{"sha":"3fe3876c26d107f2de9d13599ac0bc9d3ccb85af","url":"https://api.github.com/repos/widok/widok/commits/3fe3876c26d107f2de9d13599ac0bc9d3ccb85af"},"node_id":"MDM6UmVmMjQ3NTY3MTc6cmVmcy90YWdzL3YwLjIuMw=="}]
 0
 

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:42 GMT
+Etag: W/"d372f71018dae325d2d84e0a656bc48992448249a19844b5f5331310085e513e"
+Last-Modified: Sat, 07 Nov 2020 01:19:32 GMT
+Link: <https://api.github.com/repositories/7067532/tags?page=1>; rel="prev", <https://api.github.com/repositories/7067532/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2B2:41F4:3DAC83F:4714A4D:5FB01DA2
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 285
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4715
+X-Xss-Protection: 1; mode=block
+
+541
+[{"name":"v1.7.4","zipball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/zipball/v1.7.4","tarball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/tarball/v1.7.4","commit":{"sha":"17438a296d97e5a40afd3808979f9e5718b77b66","url":"https://api.github.com/repos/treefrogframework/treefrog-framework/commits/17438a296d97e5a40afd3808979f9e5718b77b66"},"node_id":"MDM6UmVmNzA2NzUzMjpyZWZzL3RhZ3MvdjEuNy40"},{"name":"v1.7.3","zipball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/zipball/v1.7.3","tarball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/tarball/v1.7.3","commit":{"sha":"1a87b9772b23f8d87e4e3f96ed4a9bee421eef02","url":"https://api.github.com/repos/treefrogframework/treefrog-framework/commits/1a87b9772b23f8d87e4e3f96ed4a9bee421eef02"},"node_id":"MDM6UmVmNzA2NzUzMjpyZWZzL3RhZ3MvdjEuNy4z"},{"name":"v1.7.2","zipball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/zipball/v1.7.2","tarball_url":"https://api.github.com/repos/treefrogframework/treefrog-framework/tarball/v1.7.2","commit":{"sha":"12c61d8db5f0a6a9c3e995c0bd0e7574a6cf487e","url":"https://api.github.com/repos/treefrogframework/treefrog-framework/commits/12c61d8db5f0a6a9c3e995c0bd0e7574a6cf487e"},"node_id":"MDM6UmVmNzA2NzUzMjpyZWZzL3RhZ3MvdjEuNy4y"}]
+0
+

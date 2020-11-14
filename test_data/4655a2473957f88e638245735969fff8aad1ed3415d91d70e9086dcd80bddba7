@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:26 GMT
+Etag: W/"5c64bd2a1cf0a38ca1a71e4eaf54345393763b5e98ac8457181fd0839e4411bb"
+Link: <https://api.github.com/user/2129/followers?page=18>; rel="prev", <https://api.github.com/user/2129/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D295:B55C:66E3F7:765D58:5FB01D91
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 538
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4462
+X-Xss-Protection: 1; mode=block
+
+aec
+[{"login":"GaneshSrambikal","id":33309469,"node_id":"MDQ6VXNlcjMzMzA5NDY5","avatar_url":"https://avatars2.githubusercontent.com/u/33309469?v=4","gravatar_id":"","url":"https://api.github.com/users/GaneshSrambikal","html_url":"https://github.com/GaneshSrambikal","followers_url":"https://api.github.com/users/GaneshSrambikal/followers","following_url":"https://api.github.com/users/GaneshSrambikal/following{/other_user}","gists_url":"https://api.github.com/users/GaneshSrambikal/gists{/gist_id}","starred_url":"https://api.github.com/users/GaneshSrambikal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GaneshSrambikal/subscriptions","organizations_url":"https://api.github.com/users/GaneshSrambikal/orgs","repos_url":"https://api.github.com/users/GaneshSrambikal/repos","events_url":"https://api.github.com/users/GaneshSrambikal/events{/privacy}","received_events_url":"https://api.github.com/users/GaneshSrambikal/received_events","type":"User","site_admin":false},{"login":"Khalifa180","id":74045510,"node_id":"MDQ6VXNlcjc0MDQ1NTEw","avatar_url":"https://avatars3.githubusercontent.com/u/74045510?v=4","gravatar_id":"","url":"https://api.github.com/users/Khalifa180","html_url":"https://github.com/Khalifa180","followers_url":"https://api.github.com/users/Khalifa180/followers","following_url":"https://api.github.com/users/Khalifa180/following{/other_user}","gists_url":"https://api.github.com/users/Khalifa180/gists{/gist_id}","starred_url":"https://api.github.com/users/Khalifa180/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Khalifa180/subscriptions","organizations_url":"https://api.github.com/users/Khalifa180/orgs","repos_url":"https://api.github.com/users/Khalifa180/repos","events_url":"https://api.github.com/users/Khalifa180/events{/privacy}","received_events_url":"https://api.github.com/users/Khalifa180/received_events","type":"User","site_admin":false},{"login":"zfogg","id":774794,"node_id":"MDQ6VXNlcjc3NDc5NA==","avatar_url":"https://avatars3.githubusercontent.com/u/774794?v=4","gravatar_id":"","url":"https://api.github.com/users/zfogg","html_url":"https://github.com/zfogg","followers_url":"https://api.github.com/users/zfogg/followers","following_url":"https://api.github.com/users/zfogg/following{/other_user}","gists_url":"https://api.github.com/users/zfogg/gists{/gist_id}","starred_url":"https://api.github.com/users/zfogg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zfogg/subscriptions","organizations_url":"https://api.github.com/users/zfogg/orgs","repos_url":"https://api.github.com/users/zfogg/repos","events_url":"https://api.github.com/users/zfogg/events{/privacy}","received_events_url":"https://api.github.com/users/zfogg/received_events","type":"User","site_admin":false}]
+0
+

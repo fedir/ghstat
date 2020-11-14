@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:00 GMT
+Etag: W/"d3ddc5980090628a97f45ed929058edc2bbab3cef52672f693016dad5fe99bc9"
+Link: <https://api.github.com/user/118551/followers?page=1>; rel="prev", <https://api.github.com/user/118551/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA6:41F3:1ED7A09:23A23F5:5FB01C88
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2201
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2799
+X-Xss-Protection: 1; mode=block
+
+129a
+[{"login":"RooLsi","id":42068604,"node_id":"MDQ6VXNlcjQyMDY4NjA0","avatar_url":"https://avatars3.githubusercontent.com/u/42068604?v=4","gravatar_id":"","url":"https://api.github.com/users/RooLsi","html_url":"https://github.com/RooLsi","followers_url":"https://api.github.com/users/RooLsi/followers","following_url":"https://api.github.com/users/RooLsi/following{/other_user}","gists_url":"https://api.github.com/users/RooLsi/gists{/gist_id}","starred_url":"https://api.github.com/users/RooLsi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/RooLsi/subscriptions","organizations_url":"https://api.github.com/users/RooLsi/orgs","repos_url":"https://api.github.com/users/RooLsi/repos","events_url":"https://api.github.com/users/RooLsi/events{/privacy}","received_events_url":"https://api.github.com/users/RooLsi/received_events","type":"User","site_admin":false},{"login":"osvaldodelr","id":52512287,"node_id":"MDQ6VXNlcjUyNTEyMjg3","avatar_url":"https://avatars3.githubusercontent.com/u/52512287?v=4","gravatar_id":"","url":"https://api.github.com/users/osvaldodelr","html_url":"https://github.com/osvaldodelr","followers_url":"https://api.github.com/users/osvaldodelr/followers","following_url":"https://api.github.com/users/osvaldodelr/following{/other_user}","gists_url":"https://api.github.com/users/osvaldodelr/gists{/gist_id}","starred_url":"https://api.github.com/users/osvaldodelr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/osvaldodelr/subscriptions","organizations_url":"https://api.github.com/users/osvaldodelr/orgs","repos_url":"https://api.github.com/users/osvaldodelr/repos","events_url":"https://api.github.com/users/osvaldodelr/events{/privacy}","received_events_url":"https://api.github.com/users/osvaldodelr/received_events","type":"User","site_admin":false},{"login":"lenindelarosafeliz","id":29897839,"node_id":"MDQ6VXNlcjI5ODk3ODM5","avatar_url":"https://avatars0.githubusercontent.com/u/29897839?v=4","gravatar_id":"","url":"https://api.github.com/users/lenindelarosafeliz","html_url":"https://github.com/lenindelarosafeliz","followers_url":"https://api.github.com/users/lenindelarosafeliz/followers","following_url":"https://api.github.com/users/lenindelarosafeliz/following{/other_user}","gists_url":"https://api.github.com/users/lenindelarosafeliz/gists{/gist_id}","starred_url":"https://api.github.com/users/lenindelarosafeliz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lenindelarosafeliz/subscriptions","organizations_url":"https://api.github.com/users/lenindelarosafeliz/orgs","repos_url":"https://api.github.com/users/lenindelarosafeliz/repos","events_url":"https://api.github.com/users/lenindelarosafeliz/events{/privacy}","received_events_url":"https://api.github.com/users/lenindelarosafeliz/received_events","type":"User","site_admin":false},{"login":"codesketcher","id":65951570,"node_id":"MDQ6VXNlcjY1OTUxNTcw","avatar_url":"https://avatars2.githubusercontent.com/u/65951570?v=4","gravatar_id":"","url":"https://api.github.com/users/codesketcher","html_url":"https://github.com/codesketcher","followers_url":"https://api.github.com/users/codesketcher/followers","following_url":"https://api.github.com/users/codesketcher/following{/other_user}","gists_url":"https://api.github.com/users/codesketcher/gists{/gist_id}","starred_url":"https://api.github.com/users/codesketcher/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/codesketcher/subscriptions","organizations_url":"https://api.github.com/users/codesketcher/orgs","repos_url":"https://api.github.com/users/codesketcher/repos","events_url":"https://api.github.com/users/codesketcher/events{/privacy}","received_events_url":"https://api.github.com/users/codesketcher/received_events","type":"User","site_admin":false},{"login":"Akshar-code","id":59618640,"node_id":"MDQ6VXNlcjU5NjE4NjQw","avatar_url":"https://avatars0.githubusercontent.com/u/59618640?v=4","gravatar_id":"","url":"https://api.github.com/users/Akshar-code","html_url":"https://github.com/Akshar-code","followers_url":"https://api.github.com/users/Akshar-code/followers","following_url":"https://api.github.com/users/Akshar-code/following{/other_user}","gists_url":"https://api.github.com/users/Akshar-code/gists{/gist_id}","starred_url":"https://api.github.com/users/Akshar-code/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Akshar-code/subscriptions","organizations_url":"https://api.github.com/users/Akshar-code/orgs","repos_url":"https://api.github.com/users/Akshar-code/repos","events_url":"https://api.github.com/users/Akshar-code/events{/privacy}","received_events_url":"https://api.github.com/users/Akshar-code/received_events","type":"User","site_admin":false}]
+0
+

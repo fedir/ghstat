@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"7ff5bc01fca051f11a381060e636478a4d4ba4075e0380b1468167ba0e579de7"
+Link: <https://api.github.com/user/8098452/followers?page=1>; rel="prev", <https://api.github.com/user/8098452/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE51:E4B6:1F0FBB8:23C1E2E:5FB01B88
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3204
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1796
+X-Xss-Protection: 1; mode=block
+
+1194
+[{"login":"Lelfy","id":56323100,"node_id":"MDQ6VXNlcjU2MzIzMTAw","avatar_url":"https://avatars1.githubusercontent.com/u/56323100?v=4","gravatar_id":"","url":"https://api.github.com/users/Lelfy","html_url":"https://github.com/Lelfy","followers_url":"https://api.github.com/users/Lelfy/followers","following_url":"https://api.github.com/users/Lelfy/following{/other_user}","gists_url":"https://api.github.com/users/Lelfy/gists{/gist_id}","starred_url":"https://api.github.com/users/Lelfy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lelfy/subscriptions","organizations_url":"https://api.github.com/users/Lelfy/orgs","repos_url":"https://api.github.com/users/Lelfy/repos","events_url":"https://api.github.com/users/Lelfy/events{/privacy}","received_events_url":"https://api.github.com/users/Lelfy/received_events","type":"User","site_admin":false},{"login":"ghostpuk","id":58131687,"node_id":"MDQ6VXNlcjU4MTMxNjg3","avatar_url":"https://avatars3.githubusercontent.com/u/58131687?v=4","gravatar_id":"","url":"https://api.github.com/users/ghostpuk","html_url":"https://github.com/ghostpuk","followers_url":"https://api.github.com/users/ghostpuk/followers","following_url":"https://api.github.com/users/ghostpuk/following{/other_user}","gists_url":"https://api.github.com/users/ghostpuk/gists{/gist_id}","starred_url":"https://api.github.com/users/ghostpuk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ghostpuk/subscriptions","organizations_url":"https://api.github.com/users/ghostpuk/orgs","repos_url":"https://api.github.com/users/ghostpuk/repos","events_url":"https://api.github.com/users/ghostpuk/events{/privacy}","received_events_url":"https://api.github.com/users/ghostpuk/received_events","type":"User","site_admin":false},{"login":"radiopartizan","id":60745285,"node_id":"MDQ6VXNlcjYwNzQ1Mjg1","avatar_url":"https://avatars1.githubusercontent.com/u/60745285?v=4","gravatar_id":"","url":"https://api.github.com/users/radiopartizan","html_url":"https://github.com/radiopartizan","followers_url":"https://api.github.com/users/radiopartizan/followers","following_url":"https://api.github.com/users/radiopartizan/following{/other_user}","gists_url":"https://api.github.com/users/radiopartizan/gists{/gist_id}","starred_url":"https://api.github.com/users/radiopartizan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/radiopartizan/subscriptions","organizations_url":"https://api.github.com/users/radiopartizan/orgs","repos_url":"https://api.github.com/users/radiopartizan/repos","events_url":"https://api.github.com/users/radiopartizan/events{/privacy}","received_events_url":"https://api.github.com/users/radiopartizan/received_events","type":"User","site_admin":false},{"login":"Lisprez","id":14808551,"node_id":"MDQ6VXNlcjE0ODA4NTUx","avatar_url":"https://avatars0.githubusercontent.com/u/14808551?v=4","gravatar_id":"","url":"https://api.github.com/users/Lisprez","html_url":"https://github.com/Lisprez","followers_url":"https://api.github.com/users/Lisprez/followers","following_url":"https://api.github.com/users/Lisprez/following{/other_user}","gists_url":"https://api.github.com/users/Lisprez/gists{/gist_id}","starred_url":"https://api.github.com/users/Lisprez/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Lisprez/subscriptions","organizations_url":"https://api.github.com/users/Lisprez/orgs","repos_url":"https://api.github.com/users/Lisprez/repos","events_url":"https://api.github.com/users/Lisprez/events{/privacy}","received_events_url":"https://api.github.com/users/Lisprez/received_events","type":"User","site_admin":false},{"login":"esin","id":69767,"node_id":"MDQ6VXNlcjY5NzY3","avatar_url":"https://avatars0.githubusercontent.com/u/69767?v=4","gravatar_id":"","url":"https://api.github.com/users/esin","html_url":"https://github.com/esin","followers_url":"https://api.github.com/users/esin/followers","following_url":"https://api.github.com/users/esin/following{/other_user}","gists_url":"https://api.github.com/users/esin/gists{/gist_id}","starred_url":"https://api.github.com/users/esin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/esin/subscriptions","organizations_url":"https://api.github.com/users/esin/orgs","repos_url":"https://api.github.com/users/esin/repos","events_url":"https://api.github.com/users/esin/events{/privacy}","received_events_url":"https://api.github.com/users/esin/received_events","type":"User","site_admin":false}]
+0
+

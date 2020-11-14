@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:04:43 GMT
-Etag: W/"49e59ed93a458628297e8aa64bbeaca9"
-Last-Modified: Mon, 07 May 2018 03:12:24 GMT
+Date: Sat, 14 Nov 2020 17:59:22 GMT
+Etag: W/"1e8aad39f47e8bc7233e0f082ea7c6e6c074f671404e06717344e82d75ebbb90"
+Last-Modified: Sat, 17 Oct 2020 17:05:35 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C876:57C6:2FE04E1:64E13C7:5B1B8A1B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CDFF:5C52:201DAF3:24F342D:5FB01AFA
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4930
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.034078
+X-Ratelimit-Remaining: 4207
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 793
 X-Xss-Protection: 1; mode=block
 
-48c
-{"login":"vishr","id":314036,"node_id":"MDQ6VXNlcjMxNDAzNg==","avatar_url":"https://avatars3.githubusercontent.com/u/314036?v=4","gravatar_id":"","url":"https://api.github.com/users/vishr","html_url":"https://github.com/vishr","followers_url":"https://api.github.com/users/vishr/followers","following_url":"https://api.github.com/users/vishr/following{/other_user}","gists_url":"https://api.github.com/users/vishr/gists{/gist_id}","starred_url":"https://api.github.com/users/vishr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vishr/subscriptions","organizations_url":"https://api.github.com/users/vishr/orgs","repos_url":"https://api.github.com/users/vishr/repos","events_url":"https://api.github.com/users/vishr/events{/privacy}","received_events_url":"https://api.github.com/users/vishr/received_events","type":"User","site_admin":false,"name":"Vishal Rana","company":"@labstack @paypal","blog":"http://vishr.com","location":"San Francisco","email":"vr@labstack.com","hireable":null,"bio":"👀","public_repos":25,"public_gists":8,"followers":293,"following":4,"created_at":"2010-06-24T22:12:20Z","updated_at":"2018-05-07T03:12:24Z"}
+49d
+{"login":"vishr","id":314036,"node_id":"MDQ6VXNlcjMxNDAzNg==","avatar_url":"https://avatars3.githubusercontent.com/u/314036?v=4","gravatar_id":"","url":"https://api.github.com/users/vishr","html_url":"https://github.com/vishr","followers_url":"https://api.github.com/users/vishr/followers","following_url":"https://api.github.com/users/vishr/following{/other_user}","gists_url":"https://api.github.com/users/vishr/gists{/gist_id}","starred_url":"https://api.github.com/users/vishr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vishr/subscriptions","organizations_url":"https://api.github.com/users/vishr/orgs","repos_url":"https://api.github.com/users/vishr/repos","events_url":"https://api.github.com/users/vishr/events{/privacy}","received_events_url":"https://api.github.com/users/vishr/received_events","type":"User","site_admin":false,"name":"Vishal Rana","company":"@labstack ","blog":"http://vishr.com","location":"San Francisco","email":"vr@labstack.com","hireable":null,"bio":"👀","twitter_username":null,"public_repos":32,"public_gists":8,"followers":520,"following":4,"created_at":"2010-06-24T22:12:20Z","updated_at":"2020-10-17T17:05:35Z"}
 0
 

@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:43 GMT
+Etag: W/"ab8ec054e4b7912665e3a0daa328bc72cd9829b0794de05142e4ce5800ed2667"
+Last-Modified: Fri, 06 Nov 2020 08:55:56 GMT
+Link: <https://api.github.com/repositories/36847099/tags?page=2>; rel="prev", <https://api.github.com/repositories/36847099/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2B5:BAD3:3D07690:464C025:5FB01DA3
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 274
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4726
+X-Xss-Protection: 1; mode=block
+
+18c
+[{"name":"r0.1.0","zipball_url":"https://api.github.com/repos/cutelyst/cutelyst/zipball/r0.1.0","tarball_url":"https://api.github.com/repos/cutelyst/cutelyst/tarball/r0.1.0","commit":{"sha":"f48999e17ea48fea12d774904011fd11f92b1e6d","url":"https://api.github.com/repos/cutelyst/cutelyst/commits/f48999e17ea48fea12d774904011fd11f92b1e6d"},"node_id":"MDM6UmVmMzY4NDcwOTk6cmVmcy90YWdzL3IwLjEuMA=="}]
+0
+

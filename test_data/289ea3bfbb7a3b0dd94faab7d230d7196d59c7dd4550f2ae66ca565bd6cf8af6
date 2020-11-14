@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:15 GMT
-Etag: W/"303d22f6e8641ce374b941999de4e9b2"
-Last-Modified: Tue, 22 May 2018 09:52:16 GMT
+Date: Sat, 14 Nov 2020 18:10:53 GMT
+Etag: W/"3624e884c47c3d827656f9edd6a0ff6fd72c7cea53fa7284be44c4706af77bd5"
+Last-Modified: Fri, 06 Nov 2020 07:30:58 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD1A:57C5:3731973:71A558C:5B1B8B66
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2C8:78A3:3EC387D:483905D:5FB01DAD
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1383
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.043950
+X-Ratelimit-Remaining: 173
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4827
 X-Xss-Protection: 1; mode=block
 
-4ae
-{"login":"trustin","id":173918,"node_id":"MDQ6VXNlcjE3MzkxOA==","avatar_url":"https://avatars0.githubusercontent.com/u/173918?v=4","gravatar_id":"","url":"https://api.github.com/users/trustin","html_url":"https://github.com/trustin","followers_url":"https://api.github.com/users/trustin/followers","following_url":"https://api.github.com/users/trustin/following{/other_user}","gists_url":"https://api.github.com/users/trustin/gists{/gist_id}","starred_url":"https://api.github.com/users/trustin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/trustin/subscriptions","organizations_url":"https://api.github.com/users/trustin/orgs","repos_url":"https://api.github.com/users/trustin/repos","events_url":"https://api.github.com/users/trustin/events{/privacy}","received_events_url":"https://api.github.com/users/trustin/received_events","type":"User","site_admin":false,"name":"Trustin Lee","company":"@line @netty","blog":"http://t.motd.kr/","location":"South Korea","email":"t@motd.kr","hireable":null,"bio":"the best is yet to come","public_repos":33,"public_gists":44,"followers":1101,"following":12,"created_at":"2009-12-30T00:30:26Z","updated_at":"2018-05-22T09:52:16Z"}
+4cc
+{"login":"trustin","id":173918,"node_id":"MDQ6VXNlcjE3MzkxOA==","avatar_url":"https://avatars0.githubusercontent.com/u/173918?v=4","gravatar_id":"","url":"https://api.github.com/users/trustin","html_url":"https://github.com/trustin","followers_url":"https://api.github.com/users/trustin/followers","following_url":"https://api.github.com/users/trustin/following{/other_user}","gists_url":"https://api.github.com/users/trustin/gists{/gist_id}","starred_url":"https://api.github.com/users/trustin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/trustin/subscriptions","organizations_url":"https://api.github.com/users/trustin/orgs","repos_url":"https://api.github.com/users/trustin/repos","events_url":"https://api.github.com/users/trustin/events{/privacy}","received_events_url":"https://api.github.com/users/trustin/received_events","type":"User","site_admin":false,"name":"Trustin Lee","company":"@databricks @netty","blog":"http://t.motd.kr/","location":"South Korea","email":"t@motd.kr","hireable":null,"bio":"the best is yet to come","twitter_username":null,"public_repos":39,"public_gists":45,"followers":1726,"following":21,"created_at":"2009-12-30T00:30:26Z","updated_at":"2020-11-06T07:30:58Z"}
 0
 

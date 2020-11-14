@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:25 GMT
+Etag: W/"fa50efba0dd9f96babe692ab6fbc5a1f014dffcbce12ece0d6a465b123615000"
+Link: <https://api.github.com/user/421552/followers?page=1>; rel="prev", <https://api.github.com/user/421552/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CDFF:5C52:201DD19:24F36A6:5FB01AFD
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4124
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 876
+X-Xss-Protection: 1; mode=block
+
+6ff
+[{"login":"pnakidas","id":5631223,"node_id":"MDQ6VXNlcjU2MzEyMjM=","avatar_url":"https://avatars3.githubusercontent.com/u/5631223?v=4","gravatar_id":"","url":"https://api.github.com/users/pnakidas","html_url":"https://github.com/pnakidas","followers_url":"https://api.github.com/users/pnakidas/followers","following_url":"https://api.github.com/users/pnakidas/following{/other_user}","gists_url":"https://api.github.com/users/pnakidas/gists{/gist_id}","starred_url":"https://api.github.com/users/pnakidas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/pnakidas/subscriptions","organizations_url":"https://api.github.com/users/pnakidas/orgs","repos_url":"https://api.github.com/users/pnakidas/repos","events_url":"https://api.github.com/users/pnakidas/events{/privacy}","received_events_url":"https://api.github.com/users/pnakidas/received_events","type":"User","site_admin":false},{"login":"f13end","id":3318070,"node_id":"MDQ6VXNlcjMzMTgwNzA=","avatar_url":"https://avatars3.githubusercontent.com/u/3318070?v=4","gravatar_id":"","url":"https://api.github.com/users/f13end","html_url":"https://github.com/f13end","followers_url":"https://api.github.com/users/f13end/followers","following_url":"https://api.github.com/users/f13end/following{/other_user}","gists_url":"https://api.github.com/users/f13end/gists{/gist_id}","starred_url":"https://api.github.com/users/f13end/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/f13end/subscriptions","organizations_url":"https://api.github.com/users/f13end/orgs","repos_url":"https://api.github.com/users/f13end/repos","events_url":"https://api.github.com/users/f13end/events{/privacy}","received_events_url":"https://api.github.com/users/f13end/received_events","type":"User","site_admin":false}]
+0
+

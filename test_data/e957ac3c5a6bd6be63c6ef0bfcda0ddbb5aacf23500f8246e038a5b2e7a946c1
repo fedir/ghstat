@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:06 GMT
-Etag: W/"7fb9640c6870e37274109edb91b60130"
-Last-Modified: Tue, 06 Mar 2018 00:15:31 GMT
+Date: Sat, 14 Nov 2020 18:01:22 GMT
+Etag: W/"65124027c862234470f29cf149603da93c60c74a79025c5de7024f37db81fdcd"
+Last-Modified: Fri, 04 Sep 2020 09:00:01 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8B2:57C5:3726CBE:71920C3:5B1B8A32
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE28:41F3:1ECB23E:2393A34:5FB01B72
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4692
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033060
+X-Ratelimit-Remaining: 3679
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1321
 X-Xss-Protection: 1; mode=block
 
-45c
-{"login":"danneu","id":529580,"node_id":"MDQ6VXNlcjUyOTU4MA==","avatar_url":"https://avatars0.githubusercontent.com/u/529580?v=4","gravatar_id":"","url":"https://api.github.com/users/danneu","html_url":"https://github.com/danneu","followers_url":"https://api.github.com/users/danneu/followers","following_url":"https://api.github.com/users/danneu/following{/other_user}","gists_url":"https://api.github.com/users/danneu/gists{/gist_id}","starred_url":"https://api.github.com/users/danneu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danneu/subscriptions","organizations_url":"https://api.github.com/users/danneu/orgs","repos_url":"https://api.github.com/users/danneu/repos","events_url":"https://api.github.com/users/danneu/events{/privacy}","received_events_url":"https://api.github.com/users/danneu/received_events","type":"User","site_admin":false,"name":"Dan","company":null,"blog":"","location":"Mexico","email":null,"hireable":true,"bio":null,"public_repos":90,"public_gists":145,"followers":67,"following":5,"created_at":"2010-12-19T17:11:04Z","updated_at":"2018-03-06T00:15:31Z"}
+473
+{"login":"danneu","id":529580,"node_id":"MDQ6VXNlcjUyOTU4MA==","avatar_url":"https://avatars0.githubusercontent.com/u/529580?v=4","gravatar_id":"","url":"https://api.github.com/users/danneu","html_url":"https://github.com/danneu","followers_url":"https://api.github.com/users/danneu/followers","following_url":"https://api.github.com/users/danneu/following{/other_user}","gists_url":"https://api.github.com/users/danneu/gists{/gist_id}","starred_url":"https://api.github.com/users/danneu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/danneu/subscriptions","organizations_url":"https://api.github.com/users/danneu/orgs","repos_url":"https://api.github.com/users/danneu/repos","events_url":"https://api.github.com/users/danneu/events{/privacy}","received_events_url":"https://api.github.com/users/danneu/received_events","type":"User","site_admin":false,"name":"Dan","company":null,"blog":"","location":"Texas","email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":96,"public_gists":156,"followers":74,"following":6,"created_at":"2010-12-19T17:11:04Z","updated_at":"2020-09-04T09:00:01Z"}
 0
 

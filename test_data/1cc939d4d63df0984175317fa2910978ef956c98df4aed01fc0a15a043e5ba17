@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:25 GMT
+Etag: W/"b77dba91cfe6f41de3195011ba7b1ff442053f6cc75f46c4c33dc4fdcde6cde9"
+Link: <https://api.github.com/user/21979/followers?page=119>; rel="prev", <https://api.github.com/user/21979/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE02:41F4:3D6C4F2:46C91DC:5FB01AFD
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4117
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 883
+X-Xss-Protection: 1; mode=block
+
+af0
+[{"login":"gn00645224","id":16395146,"node_id":"MDQ6VXNlcjE2Mzk1MTQ2","avatar_url":"https://avatars2.githubusercontent.com/u/16395146?v=4","gravatar_id":"","url":"https://api.github.com/users/gn00645224","html_url":"https://github.com/gn00645224","followers_url":"https://api.github.com/users/gn00645224/followers","following_url":"https://api.github.com/users/gn00645224/following{/other_user}","gists_url":"https://api.github.com/users/gn00645224/gists{/gist_id}","starred_url":"https://api.github.com/users/gn00645224/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gn00645224/subscriptions","organizations_url":"https://api.github.com/users/gn00645224/orgs","repos_url":"https://api.github.com/users/gn00645224/repos","events_url":"https://api.github.com/users/gn00645224/events{/privacy}","received_events_url":"https://api.github.com/users/gn00645224/received_events","type":"User","site_admin":false},{"login":"zibralu","id":41463486,"node_id":"MDQ6VXNlcjQxNDYzNDg2","avatar_url":"https://avatars2.githubusercontent.com/u/41463486?v=4","gravatar_id":"","url":"https://api.github.com/users/zibralu","html_url":"https://github.com/zibralu","followers_url":"https://api.github.com/users/zibralu/followers","following_url":"https://api.github.com/users/zibralu/following{/other_user}","gists_url":"https://api.github.com/users/zibralu/gists{/gist_id}","starred_url":"https://api.github.com/users/zibralu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zibralu/subscriptions","organizations_url":"https://api.github.com/users/zibralu/orgs","repos_url":"https://api.github.com/users/zibralu/repos","events_url":"https://api.github.com/users/zibralu/events{/privacy}","received_events_url":"https://api.github.com/users/zibralu/received_events","type":"User","site_admin":false},{"login":"romanofficial","id":47697490,"node_id":"MDQ6VXNlcjQ3Njk3NDkw","avatar_url":"https://avatars2.githubusercontent.com/u/47697490?v=4","gravatar_id":"","url":"https://api.github.com/users/romanofficial","html_url":"https://github.com/romanofficial","followers_url":"https://api.github.com/users/romanofficial/followers","following_url":"https://api.github.com/users/romanofficial/following{/other_user}","gists_url":"https://api.github.com/users/romanofficial/gists{/gist_id}","starred_url":"https://api.github.com/users/romanofficial/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/romanofficial/subscriptions","organizations_url":"https://api.github.com/users/romanofficial/orgs","repos_url":"https://api.github.com/users/romanofficial/repos","events_url":"https://api.github.com/users/romanofficial/events{/privacy}","received_events_url":"https://api.github.com/users/romanofficial/received_events","type":"User","site_admin":false}]
+0
+

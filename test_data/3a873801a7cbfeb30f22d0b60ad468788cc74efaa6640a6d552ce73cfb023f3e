@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:25 GMT
+Etag: W/"172e5d4da437d1ea9ead7f23f1830060f88c885906a1f500fc3c6687033a0b30"
+Link: <https://api.github.com/user/13563490/followers?page=1>; rel="prev", <https://api.github.com/user/13563490/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D29C:41F4:3DAAEA4:4712C3C:5FB01D91
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 547
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4453
+X-Xss-Protection: 1; mode=block
+
+b2a
+[{"login":"zhenpingfeng","id":13215166,"node_id":"MDQ6VXNlcjEzMjE1MTY2","avatar_url":"https://avatars1.githubusercontent.com/u/13215166?v=4","gravatar_id":"","url":"https://api.github.com/users/zhenpingfeng","html_url":"https://github.com/zhenpingfeng","followers_url":"https://api.github.com/users/zhenpingfeng/followers","following_url":"https://api.github.com/users/zhenpingfeng/following{/other_user}","gists_url":"https://api.github.com/users/zhenpingfeng/gists{/gist_id}","starred_url":"https://api.github.com/users/zhenpingfeng/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zhenpingfeng/subscriptions","organizations_url":"https://api.github.com/users/zhenpingfeng/orgs","repos_url":"https://api.github.com/users/zhenpingfeng/repos","events_url":"https://api.github.com/users/zhenpingfeng/events{/privacy}","received_events_url":"https://api.github.com/users/zhenpingfeng/received_events","type":"User","site_admin":false},{"login":"AsceticBear","id":11801722,"node_id":"MDQ6VXNlcjExODAxNzIy","avatar_url":"https://avatars0.githubusercontent.com/u/11801722?v=4","gravatar_id":"","url":"https://api.github.com/users/AsceticBear","html_url":"https://github.com/AsceticBear","followers_url":"https://api.github.com/users/AsceticBear/followers","following_url":"https://api.github.com/users/AsceticBear/following{/other_user}","gists_url":"https://api.github.com/users/AsceticBear/gists{/gist_id}","starred_url":"https://api.github.com/users/AsceticBear/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AsceticBear/subscriptions","organizations_url":"https://api.github.com/users/AsceticBear/orgs","repos_url":"https://api.github.com/users/AsceticBear/repos","events_url":"https://api.github.com/users/AsceticBear/events{/privacy}","received_events_url":"https://api.github.com/users/AsceticBear/received_events","type":"User","site_admin":false},{"login":"Bachmann1234","id":1521093,"node_id":"MDQ6VXNlcjE1MjEwOTM=","avatar_url":"https://avatars3.githubusercontent.com/u/1521093?v=4","gravatar_id":"","url":"https://api.github.com/users/Bachmann1234","html_url":"https://github.com/Bachmann1234","followers_url":"https://api.github.com/users/Bachmann1234/followers","following_url":"https://api.github.com/users/Bachmann1234/following{/other_user}","gists_url":"https://api.github.com/users/Bachmann1234/gists{/gist_id}","starred_url":"https://api.github.com/users/Bachmann1234/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Bachmann1234/subscriptions","organizations_url":"https://api.github.com/users/Bachmann1234/orgs","repos_url":"https://api.github.com/users/Bachmann1234/repos","events_url":"https://api.github.com/users/Bachmann1234/events{/privacy}","received_events_url":"https://api.github.com/users/Bachmann1234/received_events","type":"User","site_admin":false}]
+0
+

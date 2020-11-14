@@ -1,30 +1,32 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:10:03 GMT
-Etag: W/"3c735e8010e20bf77d6b7d56abedfeb5"
+Date: Sat, 14 Nov 2020 18:10:43 GMT
+Etag: W/"5ecdd9d82052636cd18dbf0086e32754bbe78aa3e827c837f69adbfd5e4bde88"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CD02:57C4:23BC66F:50D773D:5B1B8B5B
-X-Oauth-Scopes: 
+X-Github-Request-Id: D2AF:BAD3:3D0760F:464BF6B:5FB01DA2
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 1507
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033840
+X-Ratelimit-Remaining: 282
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4718
 X-Xss-Protection: 1; mode=block
 
-38e
-[{"login":"Ashikoki","id":23324483,"node_id":"MDQ6VXNlcjIzMzI0NDgz","avatar_url":"https://avatars3.githubusercontent.com/u/23324483?v=4","gravatar_id":"","url":"https://api.github.com/users/Ashikoki","html_url":"https://github.com/Ashikoki","followers_url":"https://api.github.com/users/Ashikoki/followers","following_url":"https://api.github.com/users/Ashikoki/following{/other_user}","gists_url":"https://api.github.com/users/Ashikoki/gists{/gist_id}","starred_url":"https://api.github.com/users/Ashikoki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ashikoki/subscriptions","organizations_url":"https://api.github.com/users/Ashikoki/orgs","repos_url":"https://api.github.com/users/Ashikoki/repos","events_url":"https://api.github.com/users/Ashikoki/events{/privacy}","received_events_url":"https://api.github.com/users/Ashikoki/received_events","type":"User","site_admin":false}]
+1180
+[{"login":"Ashikoki","id":23324483,"node_id":"MDQ6VXNlcjIzMzI0NDgz","avatar_url":"https://avatars3.githubusercontent.com/u/23324483?v=4","gravatar_id":"","url":"https://api.github.com/users/Ashikoki","html_url":"https://github.com/Ashikoki","followers_url":"https://api.github.com/users/Ashikoki/followers","following_url":"https://api.github.com/users/Ashikoki/following{/other_user}","gists_url":"https://api.github.com/users/Ashikoki/gists{/gist_id}","starred_url":"https://api.github.com/users/Ashikoki/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ashikoki/subscriptions","organizations_url":"https://api.github.com/users/Ashikoki/orgs","repos_url":"https://api.github.com/users/Ashikoki/repos","events_url":"https://api.github.com/users/Ashikoki/events{/privacy}","received_events_url":"https://api.github.com/users/Ashikoki/received_events","type":"User","site_admin":false},{"login":"oliuz","id":5214293,"node_id":"MDQ6VXNlcjUyMTQyOTM=","avatar_url":"https://avatars0.githubusercontent.com/u/5214293?v=4","gravatar_id":"","url":"https://api.github.com/users/oliuz","html_url":"https://github.com/oliuz","followers_url":"https://api.github.com/users/oliuz/followers","following_url":"https://api.github.com/users/oliuz/following{/other_user}","gists_url":"https://api.github.com/users/oliuz/gists{/gist_id}","starred_url":"https://api.github.com/users/oliuz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/oliuz/subscriptions","organizations_url":"https://api.github.com/users/oliuz/orgs","repos_url":"https://api.github.com/users/oliuz/repos","events_url":"https://api.github.com/users/oliuz/events{/privacy}","received_events_url":"https://api.github.com/users/oliuz/received_events","type":"User","site_admin":false},{"login":"kfalconspb","id":2184721,"node_id":"MDQ6VXNlcjIxODQ3MjE=","avatar_url":"https://avatars3.githubusercontent.com/u/2184721?v=4","gravatar_id":"","url":"https://api.github.com/users/kfalconspb","html_url":"https://github.com/kfalconspb","followers_url":"https://api.github.com/users/kfalconspb/followers","following_url":"https://api.github.com/users/kfalconspb/following{/other_user}","gists_url":"https://api.github.com/users/kfalconspb/gists{/gist_id}","starred_url":"https://api.github.com/users/kfalconspb/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kfalconspb/subscriptions","organizations_url":"https://api.github.com/users/kfalconspb/orgs","repos_url":"https://api.github.com/users/kfalconspb/repos","events_url":"https://api.github.com/users/kfalconspb/events{/privacy}","received_events_url":"https://api.github.com/users/kfalconspb/received_events","type":"User","site_admin":false},{"login":"ko-htut","id":27004428,"node_id":"MDQ6VXNlcjI3MDA0NDI4","avatar_url":"https://avatars3.githubusercontent.com/u/27004428?v=4","gravatar_id":"","url":"https://api.github.com/users/ko-htut","html_url":"https://github.com/ko-htut","followers_url":"https://api.github.com/users/ko-htut/followers","following_url":"https://api.github.com/users/ko-htut/following{/other_user}","gists_url":"https://api.github.com/users/ko-htut/gists{/gist_id}","starred_url":"https://api.github.com/users/ko-htut/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ko-htut/subscriptions","organizations_url":"https://api.github.com/users/ko-htut/orgs","repos_url":"https://api.github.com/users/ko-htut/repos","events_url":"https://api.github.com/users/ko-htut/events{/privacy}","received_events_url":"https://api.github.com/users/ko-htut/received_events","type":"User","site_admin":false},{"login":"kurim","id":1880220,"node_id":"MDQ6VXNlcjE4ODAyMjA=","avatar_url":"https://avatars1.githubusercontent.com/u/1880220?v=4","gravatar_id":"","url":"https://api.github.com/users/kurim","html_url":"https://github.com/kurim","followers_url":"https://api.github.com/users/kurim/followers","following_url":"https://api.github.com/users/kurim/following{/other_user}","gists_url":"https://api.github.com/users/kurim/gists{/gist_id}","starred_url":"https://api.github.com/users/kurim/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kurim/subscriptions","organizations_url":"https://api.github.com/users/kurim/orgs","repos_url":"https://api.github.com/users/kurim/repos","events_url":"https://api.github.com/users/kurim/events{/privacy}","received_events_url":"https://api.github.com/users/kurim/received_events","type":"User","site_admin":false}]
 0
 

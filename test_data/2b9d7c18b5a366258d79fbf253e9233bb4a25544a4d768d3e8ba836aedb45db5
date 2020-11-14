@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Tue, 03 Jul 2018 02:33:21 GMT
-Etag: W/"66ad9dad5f317ed06f421c2b3cfff674"
-Last-Modified: Mon, 02 Jul 2018 21:59:51 GMT
+Date: Sat, 14 Nov 2020 18:06:30 GMT
+Etag: W/"1bdb70e2d3f312035b1b506921ba116134ab5929d7ca0bf01f5a54f032477774"
+Last-Modified: Sat, 14 Nov 2020 07:32:00 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C19D:77E4:291D036:5BE1921:5B3AE071
-X-Oauth-Scopes: 
+X-Github-Request-Id: D09A:B55C:66C2DA:763684:5FB01CA6
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4981
-X-Ratelimit-Reset: 1530588801
-X-Runtime-Rack: 0.033887
+X-Ratelimit-Remaining: 1650
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3350
 X-Xss-Protection: 1; mode=block
 
 85
-{"Java":20165690,"Python":516831,"HTML":264240,"GAP":86964,"Shell":81963,"PowerShell":39146,"Batchfile":37481,"Lex":10151,"AMPL":801}
+{"Java":25650722,"Python":524753,"HTML":264240,"Shell":97020,"GAP":88488,"Batchfile":40251,"PowerShell":39042,"Lex":10151,"AMPL":801}
 0
 

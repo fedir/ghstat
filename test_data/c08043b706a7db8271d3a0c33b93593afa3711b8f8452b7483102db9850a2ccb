@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:55 GMT
+Etag: W/"49c2a50cdf84198d4a347ab561f13ebe78398fc6d1ab73b4f7d8e0a799235780"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2CD:E7C3:F76490:11C55E7:5FB01DAE
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 150
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4850
+X-Xss-Protection: 1; mode=block
+
+6cd
+[{"login":"Pozo","id":194902,"node_id":"MDQ6VXNlcjE5NDkwMg==","avatar_url":"https://avatars3.githubusercontent.com/u/194902?v=4","gravatar_id":"","url":"https://api.github.com/users/Pozo","html_url":"https://github.com/Pozo","followers_url":"https://api.github.com/users/Pozo/followers","following_url":"https://api.github.com/users/Pozo/following{/other_user}","gists_url":"https://api.github.com/users/Pozo/gists{/gist_id}","starred_url":"https://api.github.com/users/Pozo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Pozo/subscriptions","organizations_url":"https://api.github.com/users/Pozo/orgs","repos_url":"https://api.github.com/users/Pozo/repos","events_url":"https://api.github.com/users/Pozo/events{/privacy}","received_events_url":"https://api.github.com/users/Pozo/received_events","type":"User","site_admin":false},{"login":"2sofix","id":4198663,"node_id":"MDQ6VXNlcjQxOTg2NjM=","avatar_url":"https://avatars2.githubusercontent.com/u/4198663?v=4","gravatar_id":"","url":"https://api.github.com/users/2sofix","html_url":"https://github.com/2sofix","followers_url":"https://api.github.com/users/2sofix/followers","following_url":"https://api.github.com/users/2sofix/following{/other_user}","gists_url":"https://api.github.com/users/2sofix/gists{/gist_id}","starred_url":"https://api.github.com/users/2sofix/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/2sofix/subscriptions","organizations_url":"https://api.github.com/users/2sofix/orgs","repos_url":"https://api.github.com/users/2sofix/repos","events_url":"https://api.github.com/users/2sofix/events{/privacy}","received_events_url":"https://api.github.com/users/2sofix/received_events","type":"User","site_admin":false}]
+0
+

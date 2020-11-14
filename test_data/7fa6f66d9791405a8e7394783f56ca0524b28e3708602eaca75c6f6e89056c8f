@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:08 GMT
+Etag: W/"e37e15b21c97d508b657f84e950a947f87fd38288f8e05970cc68007bae183f8"
+Link: <https://api.github.com/user/839973/followers?page=5>; rel="prev", <https://api.github.com/user/839973/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFAE:E4B7:3A39FF0:432109E:5FB01C90
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2073
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2927
+X-Xss-Protection: 1; mode=block
+
+80b
+[{"login":"vigneshwaran-chandrasekaran","id":16235791,"node_id":"MDQ6VXNlcjE2MjM1Nzkx","avatar_url":"https://avatars2.githubusercontent.com/u/16235791?v=4","gravatar_id":"","url":"https://api.github.com/users/vigneshwaran-chandrasekaran","html_url":"https://github.com/vigneshwaran-chandrasekaran","followers_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/followers","following_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/following{/other_user}","gists_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/gists{/gist_id}","starred_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/subscriptions","organizations_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/orgs","repos_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/repos","events_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/events{/privacy}","received_events_url":"https://api.github.com/users/vigneshwaran-chandrasekaran/received_events","type":"User","site_admin":false},{"login":"Kailash23","id":22117819,"node_id":"MDQ6VXNlcjIyMTE3ODE5","avatar_url":"https://avatars1.githubusercontent.com/u/22117819?v=4","gravatar_id":"","url":"https://api.github.com/users/Kailash23","html_url":"https://github.com/Kailash23","followers_url":"https://api.github.com/users/Kailash23/followers","following_url":"https://api.github.com/users/Kailash23/following{/other_user}","gists_url":"https://api.github.com/users/Kailash23/gists{/gist_id}","starred_url":"https://api.github.com/users/Kailash23/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Kailash23/subscriptions","organizations_url":"https://api.github.com/users/Kailash23/orgs","repos_url":"https://api.github.com/users/Kailash23/repos","events_url":"https://api.github.com/users/Kailash23/events{/privacy}","received_events_url":"https://api.github.com/users/Kailash23/received_events","type":"User","site_admin":false}]
+0
+

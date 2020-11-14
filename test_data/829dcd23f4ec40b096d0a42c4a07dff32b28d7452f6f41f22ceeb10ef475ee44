@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"9d5f373efc470a46ed2b49b989bf73dc467c8723cea3feaa78ca928efc34f4f8"
+Link: <https://api.github.com/user/620189/followers?page=2>; rel="prev", <https://api.github.com/user/620189/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE4B:F448:D53CC4:F5E1D8:5FB01B88
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3214
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1786
+X-Xss-Protection: 1; mode=block
+
+ab0
+[{"login":"liz-shinn","id":57226633,"node_id":"MDQ6VXNlcjU3MjI2NjMz","avatar_url":"https://avatars3.githubusercontent.com/u/57226633?v=4","gravatar_id":"","url":"https://api.github.com/users/liz-shinn","html_url":"https://github.com/liz-shinn","followers_url":"https://api.github.com/users/liz-shinn/followers","following_url":"https://api.github.com/users/liz-shinn/following{/other_user}","gists_url":"https://api.github.com/users/liz-shinn/gists{/gist_id}","starred_url":"https://api.github.com/users/liz-shinn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/liz-shinn/subscriptions","organizations_url":"https://api.github.com/users/liz-shinn/orgs","repos_url":"https://api.github.com/users/liz-shinn/repos","events_url":"https://api.github.com/users/liz-shinn/events{/privacy}","received_events_url":"https://api.github.com/users/liz-shinn/received_events","type":"User","site_admin":false},{"login":"eMediaCode","id":6267284,"node_id":"MDQ6VXNlcjYyNjcyODQ=","avatar_url":"https://avatars2.githubusercontent.com/u/6267284?v=4","gravatar_id":"","url":"https://api.github.com/users/eMediaCode","html_url":"https://github.com/eMediaCode","followers_url":"https://api.github.com/users/eMediaCode/followers","following_url":"https://api.github.com/users/eMediaCode/following{/other_user}","gists_url":"https://api.github.com/users/eMediaCode/gists{/gist_id}","starred_url":"https://api.github.com/users/eMediaCode/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/eMediaCode/subscriptions","organizations_url":"https://api.github.com/users/eMediaCode/orgs","repos_url":"https://api.github.com/users/eMediaCode/repos","events_url":"https://api.github.com/users/eMediaCode/events{/privacy}","received_events_url":"https://api.github.com/users/eMediaCode/received_events","type":"User","site_admin":false},{"login":"nnnnat","id":1135948,"node_id":"MDQ6VXNlcjExMzU5NDg=","avatar_url":"https://avatars0.githubusercontent.com/u/1135948?v=4","gravatar_id":"","url":"https://api.github.com/users/nnnnat","html_url":"https://github.com/nnnnat","followers_url":"https://api.github.com/users/nnnnat/followers","following_url":"https://api.github.com/users/nnnnat/following{/other_user}","gists_url":"https://api.github.com/users/nnnnat/gists{/gist_id}","starred_url":"https://api.github.com/users/nnnnat/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nnnnat/subscriptions","organizations_url":"https://api.github.com/users/nnnnat/orgs","repos_url":"https://api.github.com/users/nnnnat/repos","events_url":"https://api.github.com/users/nnnnat/events{/privacy}","received_events_url":"https://api.github.com/users/nnnnat/received_events","type":"User","site_admin":false}]
+0
+

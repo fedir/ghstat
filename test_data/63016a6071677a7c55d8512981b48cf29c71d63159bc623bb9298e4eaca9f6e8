@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:26 GMT
-Etag: W/"b5fde2974851ef842a0bf84bd11ba975"
-Last-Modified: Sun, 08 Apr 2018 13:22:03 GMT
+Date: Sat, 14 Nov 2020 18:05:37 GMT
+Etag: W/"cd27dfb84cb11ca908e4c797c4de9391f3a355b3f4fe9ce4936def33d80d1f84"
+Last-Modified: Sat, 14 Nov 2020 07:46:50 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA08:57C6:2FE289D:64E6C64:5B1B8A82
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF8A:F078:38997C7:4136A58:5FB01C71
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3703
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.030576
+X-Ratelimit-Remaining: 2455
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2545
 X-Xss-Protection: 1; mode=block
 
-47a
-{"login":"s-ludwig","id":1645969,"node_id":"MDQ6VXNlcjE2NDU5Njk=","avatar_url":"https://avatars3.githubusercontent.com/u/1645969?v=4","gravatar_id":"","url":"https://api.github.com/users/s-ludwig","html_url":"https://github.com/s-ludwig","followers_url":"https://api.github.com/users/s-ludwig/followers","following_url":"https://api.github.com/users/s-ludwig/following{/other_user}","gists_url":"https://api.github.com/users/s-ludwig/gists{/gist_id}","starred_url":"https://api.github.com/users/s-ludwig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-ludwig/subscriptions","organizations_url":"https://api.github.com/users/s-ludwig/orgs","repos_url":"https://api.github.com/users/s-ludwig/repos","events_url":"https://api.github.com/users/s-ludwig/events{/privacy}","received_events_url":"https://api.github.com/users/s-ludwig/received_events","type":"User","site_admin":false,"name":"Sönke Ludwig","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":56,"public_gists":8,"followers":89,"following":0,"created_at":"2012-04-15T19:28:25Z","updated_at":"2018-04-08T13:22:03Z"}
+493
+{"login":"s-ludwig","id":1645969,"node_id":"MDQ6VXNlcjE2NDU5Njk=","avatar_url":"https://avatars3.githubusercontent.com/u/1645969?v=4","gravatar_id":"","url":"https://api.github.com/users/s-ludwig","html_url":"https://github.com/s-ludwig","followers_url":"https://api.github.com/users/s-ludwig/followers","following_url":"https://api.github.com/users/s-ludwig/following{/other_user}","gists_url":"https://api.github.com/users/s-ludwig/gists{/gist_id}","starred_url":"https://api.github.com/users/s-ludwig/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-ludwig/subscriptions","organizations_url":"https://api.github.com/users/s-ludwig/orgs","repos_url":"https://api.github.com/users/s-ludwig/repos","events_url":"https://api.github.com/users/s-ludwig/events{/privacy}","received_events_url":"https://api.github.com/users/s-ludwig/received_events","type":"User","site_admin":false,"name":"Sönke Ludwig","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":63,"public_gists":8,"followers":105,"following":0,"created_at":"2012-04-15T19:28:25Z","updated_at":"2020-11-14T07:46:50Z"}
 0
 

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:22 GMT
+Etag: W/"e4f27719f76a35bd63483ef22fc316b1683ab0eed469ae399a73a1d5d1d685a7"
+Link: <https://api.github.com/user/12960/followers?page=9>; rel="prev", <https://api.github.com/user/12960/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE07:41F4:3D6BF5C:46C8B4F:5FB01AFA
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4227
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 773
+X-Xss-Protection: 1; mode=block
+
+a7e
+[{"login":"acutkosky","id":1939410,"node_id":"MDQ6VXNlcjE5Mzk0MTA=","avatar_url":"https://avatars1.githubusercontent.com/u/1939410?v=4","gravatar_id":"","url":"https://api.github.com/users/acutkosky","html_url":"https://github.com/acutkosky","followers_url":"https://api.github.com/users/acutkosky/followers","following_url":"https://api.github.com/users/acutkosky/following{/other_user}","gists_url":"https://api.github.com/users/acutkosky/gists{/gist_id}","starred_url":"https://api.github.com/users/acutkosky/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/acutkosky/subscriptions","organizations_url":"https://api.github.com/users/acutkosky/orgs","repos_url":"https://api.github.com/users/acutkosky/repos","events_url":"https://api.github.com/users/acutkosky/events{/privacy}","received_events_url":"https://api.github.com/users/acutkosky/received_events","type":"User","site_admin":false},{"login":"hkjang","id":3069493,"node_id":"MDQ6VXNlcjMwNjk0OTM=","avatar_url":"https://avatars0.githubusercontent.com/u/3069493?v=4","gravatar_id":"","url":"https://api.github.com/users/hkjang","html_url":"https://github.com/hkjang","followers_url":"https://api.github.com/users/hkjang/followers","following_url":"https://api.github.com/users/hkjang/following{/other_user}","gists_url":"https://api.github.com/users/hkjang/gists{/gist_id}","starred_url":"https://api.github.com/users/hkjang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hkjang/subscriptions","organizations_url":"https://api.github.com/users/hkjang/orgs","repos_url":"https://api.github.com/users/hkjang/repos","events_url":"https://api.github.com/users/hkjang/events{/privacy}","received_events_url":"https://api.github.com/users/hkjang/received_events","type":"User","site_admin":false},{"login":"flyysr","id":6218953,"node_id":"MDQ6VXNlcjYyMTg5NTM=","avatar_url":"https://avatars3.githubusercontent.com/u/6218953?v=4","gravatar_id":"","url":"https://api.github.com/users/flyysr","html_url":"https://github.com/flyysr","followers_url":"https://api.github.com/users/flyysr/followers","following_url":"https://api.github.com/users/flyysr/following{/other_user}","gists_url":"https://api.github.com/users/flyysr/gists{/gist_id}","starred_url":"https://api.github.com/users/flyysr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/flyysr/subscriptions","organizations_url":"https://api.github.com/users/flyysr/orgs","repos_url":"https://api.github.com/users/flyysr/repos","events_url":"https://api.github.com/users/flyysr/events{/privacy}","received_events_url":"https://api.github.com/users/flyysr/received_events","type":"User","site_admin":false}]
+0
+

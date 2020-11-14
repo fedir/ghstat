@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:27 GMT
+Etag: W/"6cca6d29a35cd9d4bffa633359cfa3faa586882cb80fd95b7b83e720dc9c8933"
+Last-Modified: Sat, 14 Nov 2020 11:55:23 GMT
+Link: <https://api.github.com/repositories/40136600/contributors?page=5>; rel="prev", <https://api.github.com/repositories/40136600/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE26:E4B6:1F0EFB9:23C1036:5FB01B76
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3609
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1391
+X-Xss-Protection: 1; mode=block
+
+731
+[{"login":"talanov","id":26108664,"node_id":"MDQ6VXNlcjI2MTA4NjY0","avatar_url":"https://avatars0.githubusercontent.com/u/26108664?v=4","gravatar_id":"","url":"https://api.github.com/users/talanov","html_url":"https://github.com/talanov","followers_url":"https://api.github.com/users/talanov/followers","following_url":"https://api.github.com/users/talanov/following{/other_user}","gists_url":"https://api.github.com/users/talanov/gists{/gist_id}","starred_url":"https://api.github.com/users/talanov/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/talanov/subscriptions","organizations_url":"https://api.github.com/users/talanov/orgs","repos_url":"https://api.github.com/users/talanov/repos","events_url":"https://api.github.com/users/talanov/events{/privacy}","received_events_url":"https://api.github.com/users/talanov/received_events","type":"User","site_admin":false,"contributions":1},{"login":"wollnyst","id":2404967,"node_id":"MDQ6VXNlcjI0MDQ5Njc=","avatar_url":"https://avatars0.githubusercontent.com/u/2404967?v=4","gravatar_id":"","url":"https://api.github.com/users/wollnyst","html_url":"https://github.com/wollnyst","followers_url":"https://api.github.com/users/wollnyst/followers","following_url":"https://api.github.com/users/wollnyst/following{/other_user}","gists_url":"https://api.github.com/users/wollnyst/gists{/gist_id}","starred_url":"https://api.github.com/users/wollnyst/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wollnyst/subscriptions","organizations_url":"https://api.github.com/users/wollnyst/orgs","repos_url":"https://api.github.com/users/wollnyst/repos","events_url":"https://api.github.com/users/wollnyst/events{/privacy}","received_events_url":"https://api.github.com/users/wollnyst/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

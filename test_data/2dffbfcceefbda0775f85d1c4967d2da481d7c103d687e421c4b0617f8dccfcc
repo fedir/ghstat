@@ -1,27 +1,32 @@
 HTTP/1.1 200 OK
-Content-Length: 2
+Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:20 GMT
-Etag: "e5e78ea60c2c52d3b15a1be042776906"
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"c282085e53bd318f97c984bb4fcd8279ab91a9cef6c81d0a0b8361998d46ab15"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C9E5:57C5:3729ABA:7197348:5B1B8A7C
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE54:BA8A:20F14FF:25DC376:5FB01B88
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3771
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.033328
+X-Ratelimit-Remaining: 3208
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1792
 X-Xss-Protection: 1; mode=block
 
-[]
+ace
+[{"login":"tellnobody1","id":6303577,"node_id":"MDQ6VXNlcjYzMDM1Nzc=","avatar_url":"https://avatars3.githubusercontent.com/u/6303577?v=4","gravatar_id":"","url":"https://api.github.com/users/tellnobody1","html_url":"https://github.com/tellnobody1","followers_url":"https://api.github.com/users/tellnobody1/followers","following_url":"https://api.github.com/users/tellnobody1/following{/other_user}","gists_url":"https://api.github.com/users/tellnobody1/gists{/gist_id}","starred_url":"https://api.github.com/users/tellnobody1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tellnobody1/subscriptions","organizations_url":"https://api.github.com/users/tellnobody1/orgs","repos_url":"https://api.github.com/users/tellnobody1/repos","events_url":"https://api.github.com/users/tellnobody1/events{/privacy}","received_events_url":"https://api.github.com/users/tellnobody1/received_events","type":"User","site_admin":false},{"login":"doxtop","id":431589,"node_id":"MDQ6VXNlcjQzMTU4OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/431589?v=4","gravatar_id":"","url":"https://api.github.com/users/doxtop","html_url":"https://github.com/doxtop","followers_url":"https://api.github.com/users/doxtop/followers","following_url":"https://api.github.com/users/doxtop/following{/other_user}","gists_url":"https://api.github.com/users/doxtop/gists{/gist_id}","starred_url":"https://api.github.com/users/doxtop/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/doxtop/subscriptions","organizations_url":"https://api.github.com/users/doxtop/orgs","repos_url":"https://api.github.com/users/doxtop/repos","events_url":"https://api.github.com/users/doxtop/events{/privacy}","received_events_url":"https://api.github.com/users/doxtop/received_events","type":"User","site_admin":false},{"login":"plokhotnyuk","id":890289,"node_id":"MDQ6VXNlcjg5MDI4OQ==","avatar_url":"https://avatars1.githubusercontent.com/u/890289?v=4","gravatar_id":"","url":"https://api.github.com/users/plokhotnyuk","html_url":"https://github.com/plokhotnyuk","followers_url":"https://api.github.com/users/plokhotnyuk/followers","following_url":"https://api.github.com/users/plokhotnyuk/following{/other_user}","gists_url":"https://api.github.com/users/plokhotnyuk/gists{/gist_id}","starred_url":"https://api.github.com/users/plokhotnyuk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/plokhotnyuk/subscriptions","organizations_url":"https://api.github.com/users/plokhotnyuk/orgs","repos_url":"https://api.github.com/users/plokhotnyuk/repos","events_url":"https://api.github.com/users/plokhotnyuk/events{/privacy}","received_events_url":"https://api.github.com/users/plokhotnyuk/received_events","type":"User","site_admin":false}]
+0
+

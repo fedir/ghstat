@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:26 GMT
-Etag: W/"5b5249afe88766f11f75ee86642e76ac"
-Last-Modified: Sun, 29 Apr 2018 03:35:08 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"b4ee61537b3210b31366178bf9f836a7d9a3eb997996ece3fd918bf5d60656d5"
+Last-Modified: Thu, 29 Oct 2020 14:26:14 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8F3:57C6:2FE145F:64E39B9:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE48:5C4E:180CAC:1B8AF1:5FB01B85
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4362
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.047084
+X-Ratelimit-Remaining: 3357
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1643
 X-Xss-Protection: 1; mode=block
 
-440
-{"login":"nafg","id":98384,"node_id":"MDQ6VXNlcjk4Mzg0","avatar_url":"https://avatars0.githubusercontent.com/u/98384?v=4","gravatar_id":"","url":"https://api.github.com/users/nafg","html_url":"https://github.com/nafg","followers_url":"https://api.github.com/users/nafg/followers","following_url":"https://api.github.com/users/nafg/following{/other_user}","gists_url":"https://api.github.com/users/nafg/gists{/gist_id}","starred_url":"https://api.github.com/users/nafg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nafg/subscriptions","organizations_url":"https://api.github.com/users/nafg/orgs","repos_url":"https://api.github.com/users/nafg/repos","events_url":"https://api.github.com/users/nafg/events{/privacy}","received_events_url":"https://api.github.com/users/nafg/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":"New Jersey","email":null,"hireable":null,"bio":null,"public_repos":68,"public_gists":51,"followers":32,"following":1,"created_at":"2009-06-24T04:31:39Z","updated_at":"2018-04-29T03:35:08Z"}
+45d
+{"login":"nafg","id":98384,"node_id":"MDQ6VXNlcjk4Mzg0","avatar_url":"https://avatars0.githubusercontent.com/u/98384?v=4","gravatar_id":"","url":"https://api.github.com/users/nafg","html_url":"https://github.com/nafg","followers_url":"https://api.github.com/users/nafg/followers","following_url":"https://api.github.com/users/nafg/following{/other_user}","gists_url":"https://api.github.com/users/nafg/gists{/gist_id}","starred_url":"https://api.github.com/users/nafg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nafg/subscriptions","organizations_url":"https://api.github.com/users/nafg/orgs","repos_url":"https://api.github.com/users/nafg/repos","events_url":"https://api.github.com/users/nafg/events{/privacy}","received_events_url":"https://api.github.com/users/nafg/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":"New Jersey","email":null,"hireable":null,"bio":null,"twitter_username":"nafg613","public_repos":94,"public_gists":63,"followers":38,"following":1,"created_at":"2009-06-24T04:31:39Z","updated_at":"2020-10-29T14:26:14Z"}
 0
 

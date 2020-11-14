@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:06:26 GMT
-Etag: W/"b97bd2c3de6f72c761b528053a5d5750"
-Last-Modified: Thu, 24 May 2018 19:55:03 GMT
+Date: Sat, 14 Nov 2020 18:05:37 GMT
+Etag: W/"e9930c2a726ed5274ffec2f54f5fc8e6db000fdb3f66cd1f3ee21a297786be85"
+Last-Modified: Sun, 16 Aug 2020 15:28:13 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CA0A:57C4:23B9DFB:50D0C55:5B1B8A82
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF88:BAD3:3CEAD17:462A819:5FB01C70
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 3702
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.040613
+X-Ratelimit-Remaining: 2456
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2544
 X-Xss-Protection: 1; mode=block
 
-4c7
-{"login":"adamdruppe","id":600799,"node_id":"MDQ6VXNlcjYwMDc5OQ==","avatar_url":"https://avatars3.githubusercontent.com/u/600799?v=4","gravatar_id":"","url":"https://api.github.com/users/adamdruppe","html_url":"https://github.com/adamdruppe","followers_url":"https://api.github.com/users/adamdruppe/followers","following_url":"https://api.github.com/users/adamdruppe/following{/other_user}","gists_url":"https://api.github.com/users/adamdruppe/gists{/gist_id}","starred_url":"https://api.github.com/users/adamdruppe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamdruppe/subscriptions","organizations_url":"https://api.github.com/users/adamdruppe/orgs","repos_url":"https://api.github.com/users/adamdruppe/repos","events_url":"https://api.github.com/users/adamdruppe/events{/privacy}","received_events_url":"https://api.github.com/users/adamdruppe/received_events","type":"User","site_admin":false,"name":"Adam D. Ruppe","company":null,"blog":"","location":"Watertown, New York, United States","email":"destructionator@gmail.com","hireable":true,"bio":null,"public_repos":34,"public_gists":0,"followers":76,"following":0,"created_at":"2011-02-04T17:33:45Z","updated_at":"2018-05-24T19:55:03Z"}
+4e0
+{"login":"adamdruppe","id":600799,"node_id":"MDQ6VXNlcjYwMDc5OQ==","avatar_url":"https://avatars3.githubusercontent.com/u/600799?v=4","gravatar_id":"","url":"https://api.github.com/users/adamdruppe","html_url":"https://github.com/adamdruppe","followers_url":"https://api.github.com/users/adamdruppe/followers","following_url":"https://api.github.com/users/adamdruppe/following{/other_user}","gists_url":"https://api.github.com/users/adamdruppe/gists{/gist_id}","starred_url":"https://api.github.com/users/adamdruppe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamdruppe/subscriptions","organizations_url":"https://api.github.com/users/adamdruppe/orgs","repos_url":"https://api.github.com/users/adamdruppe/repos","events_url":"https://api.github.com/users/adamdruppe/events{/privacy}","received_events_url":"https://api.github.com/users/adamdruppe/received_events","type":"User","site_admin":false,"name":"Adam D. Ruppe","company":null,"blog":"","location":"Watertown, New York, United States","email":"destructionator@gmail.com","hireable":true,"bio":null,"twitter_username":null,"public_repos":50,"public_gists":1,"followers":110,"following":0,"created_at":"2011-02-04T17:33:45Z","updated_at":"2020-08-16T15:28:13Z"}
 0
 

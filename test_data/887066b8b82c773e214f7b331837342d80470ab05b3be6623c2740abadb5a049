@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:40 GMT
+Etag: W/"8778b5e3ffcfeb3294872cdc9a95a62f13d190bb48b53f99b0bd140341f9aac8"
+Link: <https://api.github.com/user/160894/followers?page=10>; rel="prev", <https://api.github.com/user/160894/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF8A:F078:3899BE7:4136F52:5FB01C74
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2423
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2577
+X-Xss-Protection: 1; mode=block
+
+aec
+[{"login":"jhermsmeier","id":244907,"node_id":"MDQ6VXNlcjI0NDkwNw==","avatar_url":"https://avatars3.githubusercontent.com/u/244907?v=4","gravatar_id":"","url":"https://api.github.com/users/jhermsmeier","html_url":"https://github.com/jhermsmeier","followers_url":"https://api.github.com/users/jhermsmeier/followers","following_url":"https://api.github.com/users/jhermsmeier/following{/other_user}","gists_url":"https://api.github.com/users/jhermsmeier/gists{/gist_id}","starred_url":"https://api.github.com/users/jhermsmeier/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jhermsmeier/subscriptions","organizations_url":"https://api.github.com/users/jhermsmeier/orgs","repos_url":"https://api.github.com/users/jhermsmeier/repos","events_url":"https://api.github.com/users/jhermsmeier/events{/privacy}","received_events_url":"https://api.github.com/users/jhermsmeier/received_events","type":"User","site_admin":false},{"login":"alexpapworth","id":25950768,"node_id":"MDQ6VXNlcjI1OTUwNzY4","avatar_url":"https://avatars2.githubusercontent.com/u/25950768?v=4","gravatar_id":"","url":"https://api.github.com/users/alexpapworth","html_url":"https://github.com/alexpapworth","followers_url":"https://api.github.com/users/alexpapworth/followers","following_url":"https://api.github.com/users/alexpapworth/following{/other_user}","gists_url":"https://api.github.com/users/alexpapworth/gists{/gist_id}","starred_url":"https://api.github.com/users/alexpapworth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alexpapworth/subscriptions","organizations_url":"https://api.github.com/users/alexpapworth/orgs","repos_url":"https://api.github.com/users/alexpapworth/repos","events_url":"https://api.github.com/users/alexpapworth/events{/privacy}","received_events_url":"https://api.github.com/users/alexpapworth/received_events","type":"User","site_admin":false},{"login":"leovano","id":13321466,"node_id":"MDQ6VXNlcjEzMzIxNDY2","avatar_url":"https://avatars3.githubusercontent.com/u/13321466?v=4","gravatar_id":"","url":"https://api.github.com/users/leovano","html_url":"https://github.com/leovano","followers_url":"https://api.github.com/users/leovano/followers","following_url":"https://api.github.com/users/leovano/following{/other_user}","gists_url":"https://api.github.com/users/leovano/gists{/gist_id}","starred_url":"https://api.github.com/users/leovano/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/leovano/subscriptions","organizations_url":"https://api.github.com/users/leovano/orgs","repos_url":"https://api.github.com/users/leovano/repos","events_url":"https://api.github.com/users/leovano/events{/privacy}","received_events_url":"https://api.github.com/users/leovano/received_events","type":"User","site_admin":false}]
+0
+

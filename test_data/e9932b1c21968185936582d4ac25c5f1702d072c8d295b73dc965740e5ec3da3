@@ -1,32 +1,34 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:15 GMT
-Etag: W/"a52bcc5df5713cee68254bb92ebc81c5"
-Last-Modified: Fri, 08 Jun 2018 06:16:38 GMT
+Date: Sat, 14 Nov 2020 18:08:36 GMT
+Etag: W/"bf59643c9e71c07e17780309e6b9d43a14eed9222486abfaa21505e4ba8c1ad6"
+Last-Modified: Tue, 10 Nov 2020 19:36:23 GMT
 Link: <https://api.github.com/repositories/680799/tags?page=1>; rel="prev", <https://api.github.com/repositories/680799/tags?page=1>; rel="first"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB47:57C5:372D9DB:719E608:5B1B8AEF
-X-Oauth-Scopes: 
+X-Github-Request-Id: D16F:072D:1FE5E68:24CBFAD:5FB01D23
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2568
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.036800
+X-Ratelimit-Remaining: 1053
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3947
 X-Xss-Protection: 1; mode=block
 
-a1c
-[{"name":"v2.1.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/v2.1.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/v2.1.0","commit":{"sha":"497f1fc02f513a4d6488820025384e0dcf8fa7ab","url":"https://api.github.com/repos/mochi/mochiweb/commits/497f1fc02f513a4d6488820025384e0dcf8fa7ab"},"node_id":"MDM6UmVmNjgwNzk5OnYyLjEuMA=="},{"name":"active-passive","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/active-passive","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/active-passive","commit":{"sha":"ecc6f85090c91c59e6628adb393f0c3bd25cc61d","url":"https://api.github.com/repos/mochi/mochiweb/commits/ecc6f85090c91c59e6628adb393f0c3bd25cc61d"},"node_id":"MDM6UmVmNjgwNzk5OmFjdGl2ZS1wYXNzaXZl"},{"name":"1.5.2","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.2","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.2","commit":{"sha":"b81e5047a44d55e1b42ddbc62a801940a1a693c4","url":"https://api.github.com/repos/mochi/mochiweb/commits/b81e5047a44d55e1b42ddbc62a801940a1a693c4"},"node_id":"MDM6UmVmNjgwNzk5OjEuNS4y"},{"name":"1.5.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.1","commit":{"sha":"bed36252198ae7159e3d2b3a9ca9a9bb9817e1de","url":"https://api.github.com/repos/mochi/mochiweb/commits/bed36252198ae7159e3d2b3a9ca9a9bb9817e1de"},"node_id":"MDM6UmVmNjgwNzk5OjEuNS4x"},{"name":"1.5.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.0","commit":{"sha":"86e2b0388737ef79e4c443e62cf8f86e680b887b","url":"https://api.github.com/repos/mochi/mochiweb/commits/86e2b0388737ef79e4c443e62cf8f86e680b887b"},"node_id":"MDM6UmVmNjgwNzk5OjEuNS4w"},{"name":"1.4.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.1","commit":{"sha":"80571b9683cbc75cafddd4c428aa3cb2bbd66a7d","url":"https://api.github.com/repos/mochi/mochiweb/commits/80571b9683cbc75cafddd4c428aa3cb2bbd66a7d"},"node_id":"MDM6UmVmNjgwNzk5OjEuNC4x"},{"name":"1.4.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.0","commit":{"sha":"32dc8be582d6e8287f7b241990a1d55faec26d43","url":"https://api.github.com/repos/mochi/mochiweb/commits/32dc8be582d6e8287f7b241990a1d55faec26d43"},"node_id":"MDM6UmVmNjgwNzk5OjEuNC4w"}]
+f02
+[{"name":"v2.3.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/v2.3.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/v2.3.1","commit":{"sha":"5305a4b6476c66eff3c3146eccf5d03e7a496fc8","url":"https://api.github.com/repos/mochi/mochiweb/commits/5305a4b6476c66eff3c3146eccf5d03e7a496fc8"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy92Mi4zLjE="},{"name":"v2.3.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/v2.3.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/v2.3.0","commit":{"sha":"e6d1870200802f32e17e334272191397e15aec53","url":"https://api.github.com/repos/mochi/mochiweb/commits/e6d1870200802f32e17e334272191397e15aec53"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy92Mi4zLjA="},{"name":"v2.2.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/v2.2.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/v2.2.1","commit":{"sha":"e92a71d47b55b801b60d0c07a8e09418c4b21044","url":"https://api.github.com/repos/mochi/mochiweb/commits/e92a71d47b55b801b60d0c07a8e09418c4b21044"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy92Mi4yLjE="},{"name":"v2.1.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/v2.1.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/v2.1.0","commit":{"sha":"497f1fc02f513a4d6488820025384e0dcf8fa7ab","url":"https://api.github.com/repos/mochi/mochiweb/commits/497f1fc02f513a4d6488820025384e0dcf8fa7ab"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy92Mi4xLjA="},{"name":"active-passive","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/active-passive","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/active-passive","commit":{"sha":"ecc6f85090c91c59e6628adb393f0c3bd25cc61d","url":"https://api.github.com/repos/mochi/mochiweb/commits/ecc6f85090c91c59e6628adb393f0c3bd25cc61d"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy9hY3RpdmUtcGFzc2l2ZQ=="},{"name":"1.5.2","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.2","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.2","commit":{"sha":"b81e5047a44d55e1b42ddbc62a801940a1a693c4","url":"https://api.github.com/repos/mochi/mochiweb/commits/b81e5047a44d55e1b42ddbc62a801940a1a693c4"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy8xLjUuMg=="},{"name":"1.5.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.1","commit":{"sha":"bed36252198ae7159e3d2b3a9ca9a9bb9817e1de","url":"https://api.github.com/repos/mochi/mochiweb/commits/bed36252198ae7159e3d2b3a9ca9a9bb9817e1de"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy8xLjUuMQ=="},{"name":"1.5.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.5.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.5.0","commit":{"sha":"86e2b0388737ef79e4c443e62cf8f86e680b887b","url":"https://api.github.com/repos/mochi/mochiweb/commits/86e2b0388737ef79e4c443e62cf8f86e680b887b"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy8xLjUuMA=="},{"name":"1.4.1","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.1","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.1","commit":{"sha":"80571b9683cbc75cafddd4c428aa3cb2bbd66a7d","url":"https://api.github.com/repos/mochi/mochiweb/commits/80571b9683cbc75cafddd4c428aa3cb2bbd66a7d"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy8xLjQuMQ=="},{"name":"1.4.0","zipball_url":"https://api.github.com/repos/mochi/mochiweb/zipball/1.4.0","tarball_url":"https://api.github.com/repos/mochi/mochiweb/tarball/1.4.0","commit":{"sha":"32dc8be582d6e8287f7b241990a1d55faec26d43","url":"https://api.github.com/repos/mochi/mochiweb/commits/32dc8be582d6e8287f7b241990a1d55faec26d43"},"node_id":"MDM6UmVmNjgwNzk5OnJlZnMvdGFncy8xLjQuMA=="}]
 0
 

@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:00:04 GMT
+Etag: W/"c6418213f2fa31c5394ee5f8ecc4e192389a0be1946d4b3ae501ea5b246c2704"
+Link: <https://api.github.com/user/17790/followers?page=3>; rel="prev", <https://api.github.com/user/17790/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE17:5C52:201F615:24F5495:5FB01B24
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3838
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1162
+X-Xss-Protection: 1; mode=block
+
+3a4
+[{"login":"traversaro","id":1857049,"node_id":"MDQ6VXNlcjE4NTcwNDk=","avatar_url":"https://avatars2.githubusercontent.com/u/1857049?v=4","gravatar_id":"","url":"https://api.github.com/users/traversaro","html_url":"https://github.com/traversaro","followers_url":"https://api.github.com/users/traversaro/followers","following_url":"https://api.github.com/users/traversaro/following{/other_user}","gists_url":"https://api.github.com/users/traversaro/gists{/gist_id}","starred_url":"https://api.github.com/users/traversaro/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/traversaro/subscriptions","organizations_url":"https://api.github.com/users/traversaro/orgs","repos_url":"https://api.github.com/users/traversaro/repos","events_url":"https://api.github.com/users/traversaro/events{/privacy}","received_events_url":"https://api.github.com/users/traversaro/received_events","type":"User","site_admin":false}]
+0
+

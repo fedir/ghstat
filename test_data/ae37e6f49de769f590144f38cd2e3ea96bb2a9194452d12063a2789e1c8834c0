@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:27 GMT
-Etag: W/"850bb0de7a69d16f7d6592b274b17657"
-Last-Modified: Mon, 28 May 2018 11:54:28 GMT
+Date: Sat, 14 Nov 2020 18:01:40 GMT
+Etag: W/"87a521aea9026ada0a9e7182601b6071aae6287e26d7a10b1abebb08ac71ba49"
+Last-Modified: Mon, 18 Feb 2019 09:02:35 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8E8:57C6:2FE1477:64E39FB:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE45:E4B7:3A219FE:4304761:5FB01B84
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4348
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.032180
+X-Ratelimit-Remaining: 3378
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1622
 X-Xss-Protection: 1; mode=block
 
-481
-{"login":"Starzu","id":817407,"node_id":"MDQ6VXNlcjgxNzQwNw==","avatar_url":"https://avatars2.githubusercontent.com/u/817407?v=4","gravatar_id":"","url":"https://api.github.com/users/Starzu","html_url":"https://github.com/Starzu","followers_url":"https://api.github.com/users/Starzu/followers","following_url":"https://api.github.com/users/Starzu/following{/other_user}","gists_url":"https://api.github.com/users/Starzu/gists{/gist_id}","starred_url":"https://api.github.com/users/Starzu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Starzu/subscriptions","organizations_url":"https://api.github.com/users/Starzu/orgs","repos_url":"https://api.github.com/users/Starzu/repos","events_url":"https://api.github.com/users/Starzu/events{/privacy}","received_events_url":"https://api.github.com/users/Starzu/received_events","type":"User","site_admin":false,"name":"Mateusz Starzec","company":"AVSystem","blog":"","location":"Kraków","email":"m.starzec@avsystem.com","hireable":null,"bio":null,"public_repos":16,"public_gists":0,"followers":14,"following":2,"created_at":"2011-05-29T18:38:11Z","updated_at":"2018-05-28T11:54:28Z"}
+496
+{"login":"Starzu","id":817407,"node_id":"MDQ6VXNlcjgxNzQwNw==","avatar_url":"https://avatars2.githubusercontent.com/u/817407?v=4","gravatar_id":"","url":"https://api.github.com/users/Starzu","html_url":"https://github.com/Starzu","followers_url":"https://api.github.com/users/Starzu/followers","following_url":"https://api.github.com/users/Starzu/following{/other_user}","gists_url":"https://api.github.com/users/Starzu/gists{/gist_id}","starred_url":"https://api.github.com/users/Starzu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Starzu/subscriptions","organizations_url":"https://api.github.com/users/Starzu/orgs","repos_url":"https://api.github.com/users/Starzu/repos","events_url":"https://api.github.com/users/Starzu/events{/privacy}","received_events_url":"https://api.github.com/users/Starzu/received_events","type":"User","site_admin":false,"name":"Mateusz Starzec","company":null,"blog":"","location":"Kraków","email":"starzec.mateusz@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":0,"followers":15,"following":2,"created_at":"2011-05-29T18:38:11Z","updated_at":"2019-02-18T09:02:35Z"}
 0
 

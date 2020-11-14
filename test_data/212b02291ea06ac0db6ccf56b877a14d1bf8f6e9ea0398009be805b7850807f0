@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:08:43 GMT
-Etag: W/"32a6384aa3046618afb244963247e715"
-Last-Modified: Sat, 09 Jun 2018 08:06:06 GMT
+Date: Sat, 14 Nov 2020 18:02:07 GMT
+Etag: W/"61838e6c0b87531aa88b8449924208612e0c83656984024b669554c779d478b0"
+Last-Modified: Sat, 14 Nov 2020 16:42:08 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CB9D:57C4:23BB758:50D514F:5B1B8B0B
-X-Oauth-Scopes: 
+X-Github-Request-Id: CF13:F44A:3A15ABC:42DE46D:5FB01B9F
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 2147
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038324
+X-Ratelimit-Remaining: 2641
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2359
 X-Xss-Protection: 1; mode=block
 
-e6
-{"Java":35953236,"Kotlin":157050,"CSS":51284,"HTML":47563,"Groovy":38175,"AspectJ":31909,"FreeMarker":15915,"GAP":6137,"Batchfile":4529,"Shell":3949,"XSLT":2945,"Ruby":2106,"JavaScript":916,"Smarty":700,"PLpgSQL":304,"Python":254}
+e5
+{"Java":41639540,"Kotlin":503857,"Groovy":36461,"AspectJ":31968,"FreeMarker":30820,"CSS":13783,"GAP":6137,"Shell":5472,"XSLT":2945,"HTML":1299,"Ruby":1060,"JavaScript":916,"Smarty":700,"Dockerfile":667,"PLpgSQL":305,"Python":254}
 0
 

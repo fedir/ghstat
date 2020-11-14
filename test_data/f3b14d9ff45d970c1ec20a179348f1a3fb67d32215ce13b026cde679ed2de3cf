@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 17:59:59 GMT
+Etag: W/"9a497e97a93832e5c0fea769d43b069e0609f09cc0cf22169a87e8feeb5db9e4"
+Link: <https://api.github.com/user/14097/followers?page=89>; rel="prev", <https://api.github.com/user/14097/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE0E:BAD2:1DA8F9D:2234CE1:5FB01B1F
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3953
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1047
+X-Xss-Protection: 1; mode=block
+
+f0b
+[{"login":"FinnZhang","id":14357454,"node_id":"MDQ6VXNlcjE0MzU3NDU0","avatar_url":"https://avatars0.githubusercontent.com/u/14357454?v=4","gravatar_id":"","url":"https://api.github.com/users/FinnZhang","html_url":"https://github.com/FinnZhang","followers_url":"https://api.github.com/users/FinnZhang/followers","following_url":"https://api.github.com/users/FinnZhang/following{/other_user}","gists_url":"https://api.github.com/users/FinnZhang/gists{/gist_id}","starred_url":"https://api.github.com/users/FinnZhang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/FinnZhang/subscriptions","organizations_url":"https://api.github.com/users/FinnZhang/orgs","repos_url":"https://api.github.com/users/FinnZhang/repos","events_url":"https://api.github.com/users/FinnZhang/events{/privacy}","received_events_url":"https://api.github.com/users/FinnZhang/received_events","type":"User","site_admin":false},{"login":"NaniteFactory","id":10949969,"node_id":"MDQ6VXNlcjEwOTQ5OTY5","avatar_url":"https://avatars1.githubusercontent.com/u/10949969?v=4","gravatar_id":"","url":"https://api.github.com/users/NaniteFactory","html_url":"https://github.com/NaniteFactory","followers_url":"https://api.github.com/users/NaniteFactory/followers","following_url":"https://api.github.com/users/NaniteFactory/following{/other_user}","gists_url":"https://api.github.com/users/NaniteFactory/gists{/gist_id}","starred_url":"https://api.github.com/users/NaniteFactory/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NaniteFactory/subscriptions","organizations_url":"https://api.github.com/users/NaniteFactory/orgs","repos_url":"https://api.github.com/users/NaniteFactory/repos","events_url":"https://api.github.com/users/NaniteFactory/events{/privacy}","received_events_url":"https://api.github.com/users/NaniteFactory/received_events","type":"User","site_admin":false},{"login":"Yangushan","id":6031507,"node_id":"MDQ6VXNlcjYwMzE1MDc=","avatar_url":"https://avatars0.githubusercontent.com/u/6031507?v=4","gravatar_id":"","url":"https://api.github.com/users/Yangushan","html_url":"https://github.com/Yangushan","followers_url":"https://api.github.com/users/Yangushan/followers","following_url":"https://api.github.com/users/Yangushan/following{/other_user}","gists_url":"https://api.github.com/users/Yangushan/gists{/gist_id}","starred_url":"https://api.github.com/users/Yangushan/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Yangushan/subscriptions","organizations_url":"https://api.github.com/users/Yangushan/orgs","repos_url":"https://api.github.com/users/Yangushan/repos","events_url":"https://api.github.com/users/Yangushan/events{/privacy}","received_events_url":"https://api.github.com/users/Yangushan/received_events","type":"User","site_admin":false},{"login":"prehistoric-penguin","id":10259243,"node_id":"MDQ6VXNlcjEwMjU5MjQz","avatar_url":"https://avatars1.githubusercontent.com/u/10259243?v=4","gravatar_id":"","url":"https://api.github.com/users/prehistoric-penguin","html_url":"https://github.com/prehistoric-penguin","followers_url":"https://api.github.com/users/prehistoric-penguin/followers","following_url":"https://api.github.com/users/prehistoric-penguin/following{/other_user}","gists_url":"https://api.github.com/users/prehistoric-penguin/gists{/gist_id}","starred_url":"https://api.github.com/users/prehistoric-penguin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/prehistoric-penguin/subscriptions","organizations_url":"https://api.github.com/users/prehistoric-penguin/orgs","repos_url":"https://api.github.com/users/prehistoric-penguin/repos","events_url":"https://api.github.com/users/prehistoric-penguin/events{/privacy}","received_events_url":"https://api.github.com/users/prehistoric-penguin/received_events","type":"User","site_admin":false}]
+0
+

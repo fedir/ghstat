@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:27 GMT
-Etag: W/"19fb5475d966f6933b44364466399c95"
-Last-Modified: Sat, 26 May 2018 05:27:57 GMT
+Date: Sat, 14 Nov 2020 18:01:41 GMT
+Etag: W/"8fef2d4b6a54f03bd2ef25802fdd25abb89630c8b16de6e9653c1ec9c062beef"
+Last-Modified: Wed, 07 Oct 2020 14:46:41 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C90D:57C4:23B8F40:50CE937:5B1B8A46
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE4B:F448:D53BD7:F5E0B9:5FB01B84
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4342
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.038315
+X-Ratelimit-Remaining: 3354
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1646
 X-Xss-Protection: 1; mode=block
 
-4a3
-{"login":"indrajitr","id":93846,"node_id":"MDQ6VXNlcjkzODQ2","avatar_url":"https://avatars3.githubusercontent.com/u/93846?v=4","gravatar_id":"","url":"https://api.github.com/users/indrajitr","html_url":"https://github.com/indrajitr","followers_url":"https://api.github.com/users/indrajitr/followers","following_url":"https://api.github.com/users/indrajitr/following{/other_user}","gists_url":"https://api.github.com/users/indrajitr/gists{/gist_id}","starred_url":"https://api.github.com/users/indrajitr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indrajitr/subscriptions","organizations_url":"https://api.github.com/users/indrajitr/orgs","repos_url":"https://api.github.com/users/indrajitr/repos","events_url":"https://api.github.com/users/indrajitr/events{/privacy}","received_events_url":"https://api.github.com/users/indrajitr/received_events","type":"User","site_admin":false,"name":"Indrajit Raychaudhuri","company":null,"blog":"http://indrajit.com","location":"Chicago, IL","email":null,"hireable":null,"bio":null,"public_repos":48,"public_gists":0,"followers":55,"following":13,"created_at":"2009-06-10T04:20:11Z","updated_at":"2018-05-26T05:27:57Z"}
+4bb
+{"login":"indrajitr","id":93846,"node_id":"MDQ6VXNlcjkzODQ2","avatar_url":"https://avatars3.githubusercontent.com/u/93846?v=4","gravatar_id":"","url":"https://api.github.com/users/indrajitr","html_url":"https://github.com/indrajitr","followers_url":"https://api.github.com/users/indrajitr/followers","following_url":"https://api.github.com/users/indrajitr/following{/other_user}","gists_url":"https://api.github.com/users/indrajitr/gists{/gist_id}","starred_url":"https://api.github.com/users/indrajitr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/indrajitr/subscriptions","organizations_url":"https://api.github.com/users/indrajitr/orgs","repos_url":"https://api.github.com/users/indrajitr/repos","events_url":"https://api.github.com/users/indrajitr/events{/privacy}","received_events_url":"https://api.github.com/users/indrajitr/received_events","type":"User","site_admin":false,"name":"Indrajit Raychaudhuri","company":null,"blog":"http://indrajit.com","location":"Chicago, IL","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":54,"public_gists":1,"followers":61,"following":14,"created_at":"2009-06-10T04:20:11Z","updated_at":"2020-10-07T14:46:41Z"}
 0
 

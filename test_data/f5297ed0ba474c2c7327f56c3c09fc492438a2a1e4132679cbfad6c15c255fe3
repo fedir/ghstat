@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:06:17 GMT
+Etag: W/"1c56c7f0b1bb13c47b7c4de9260638dba934d211b52945dbbcf4d0d8fffd59a1"
+Last-Modified: Sat, 14 Nov 2020 16:22:37 GMT
+Link: <https://api.github.com/repositories/8514/tags?page=14>; rel="prev", <https://api.github.com/repositories/8514/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFAB:F441:10444:1A1EC:5FB01C99
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 1818
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 3182
+X-Xss-Protection: 1; mode=block
+
+f9c
+[{"name":"github25","zipball_url":"https://api.github.com/repos/rails/rails/zipball/github25","tarball_url":"https://api.github.com/repos/rails/rails/tarball/github25","commit":{"sha":"685cb901fcc86491a3424a7f2e27f61ba4e135c7","url":"https://api.github.com/repos/rails/rails/commits/685cb901fcc86491a3424a7f2e27f61ba4e135c7"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvZ2l0aHViMjU="},{"name":"github24","zipball_url":"https://api.github.com/repos/rails/rails/zipball/github24","tarball_url":"https://api.github.com/repos/rails/rails/tarball/github24","commit":{"sha":"b2969e6b48e4dddff3ea9e6814383f73596c75c4","url":"https://api.github.com/repos/rails/rails/commits/b2969e6b48e4dddff3ea9e6814383f73596c75c4"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvZ2l0aHViMjQ="},{"name":"3.2.19.github1","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.2.19.github1","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.2.19.github1","commit":{"sha":"e27d15746c9b82e921b3dbbdcac57fb5ed71cc75","url":"https://api.github.com/repos/rails/rails/commits/e27d15746c9b82e921b3dbbdcac57fb5ed71cc75"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4yLjE5LmdpdGh1YjE="},{"name":"3.1.12.github1","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.1.12.github1","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.1.12.github1","commit":{"sha":"808b03caeaceb09ab5d31465852182f03f658ee8","url":"https://api.github.com/repos/rails/rails/commits/808b03caeaceb09ab5d31465852182f03f658ee8"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4xLjEyLmdpdGh1YjE="},{"name":"3.0.20.github4","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.0.20.github4","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.0.20.github4","commit":{"sha":"d5eff4fba90e7cead50c196d0760aaab1283b440","url":"https://api.github.com/repos/rails/rails/commits/d5eff4fba90e7cead50c196d0760aaab1283b440"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4wLjIwLmdpdGh1YjQ="},{"name":"3.0.20.github3","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.0.20.github3","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.0.20.github3","commit":{"sha":"b46168e048931d7d2fcc1a40bc99e1ffd113ad82","url":"https://api.github.com/repos/rails/rails/commits/b46168e048931d7d2fcc1a40bc99e1ffd113ad82"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4wLjIwLmdpdGh1YjM="},{"name":"3.0.20.github2","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.0.20.github2","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.0.20.github2","commit":{"sha":"a3e2e39c9ffe6c8906e2a7a214cd8e85e36f6cf3","url":"https://api.github.com/repos/rails/rails/commits/a3e2e39c9ffe6c8906e2a7a214cd8e85e36f6cf3"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4wLjIwLmdpdGh1YjI="},{"name":"3.0.20.github1","zipball_url":"https://api.github.com/repos/rails/rails/zipball/3.0.20.github1","tarball_url":"https://api.github.com/repos/rails/rails/tarball/3.0.20.github1","commit":{"sha":"b3037287784eddd7a9d311b82cbfae259de8f96d","url":"https://api.github.com/repos/rails/rails/commits/b3037287784eddd7a9d311b82cbfae259de8f96d"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMy4wLjIwLmdpdGh1YjE="},{"name":"2.3.14.github2","zipball_url":"https://api.github.com/repos/rails/rails/zipball/2.3.14.github2","tarball_url":"https://api.github.com/repos/rails/rails/tarball/2.3.14.github2","commit":{"sha":"a6eb61b7e4138c999099a7e6ed7b3d2f0a227004","url":"https://api.github.com/repos/rails/rails/commits/a6eb61b7e4138c999099a7e6ed7b3d2f0a227004"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMi4zLjE0LmdpdGh1YjI="},{"name":"2.3.14.github","zipball_url":"https://api.github.com/repos/rails/rails/zipball/2.3.14.github","tarball_url":"https://api.github.com/repos/rails/rails/tarball/2.3.14.github","commit":{"sha":"fe11782158c82bf60f783cd5799449b9744ca3f0","url":"https://api.github.com/repos/rails/rails/commits/fe11782158c82bf60f783cd5799449b9744ca3f0"},"node_id":"MDM6UmVmODUxNDpyZWZzL3RhZ3MvMi4zLjE0LmdpdGh1Yg=="}]
+0
+

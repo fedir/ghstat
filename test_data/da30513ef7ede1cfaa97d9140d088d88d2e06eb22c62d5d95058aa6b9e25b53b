@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:08:46 GMT
+Etag: W/"99940e676227b32ce9f7281f8de046c3e9b49dc55fdf10f02a43c340c0ba5faf"
+Last-Modified: Sat, 14 Nov 2020 14:56:58 GMT
+Link: <https://api.github.com/repositories/237904/tags?page=28>; rel="prev", <https://api.github.com/repositories/237904/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D17F:78A1:EA5739:10D2B8B:5FB01D2D
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 953
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4047
+X-Xss-Protection: 1; mode=block
+
+d07
+[{"name":"yesod-auth-1.6.3","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-auth-1.6.3","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-auth-1.6.3","commit":{"sha":"06e0ffb48b14f56011f1c249636126386f16a026","url":"https://api.github.com/repos/yesodweb/yesod/commits/06e0ffb48b14f56011f1c249636126386f16a026"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC1hdXRoLTEuNi4z"},{"name":"yesod-auth-1.6.2","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-auth-1.6.2","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-auth-1.6.2","commit":{"sha":"e894239563aeee878307c25b5f3c58e629ef1666","url":"https://api.github.com/repos/yesodweb/yesod/commits/e894239563aeee878307c25b5f3c58e629ef1666"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC1hdXRoLTEuNi4y"},{"name":"yesod-auth-1.6.1","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-auth-1.6.1","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-auth-1.6.1","commit":{"sha":"a3f130233bbf4e6bfebdb7bfd3d926c689b53fd7","url":"https://api.github.com/repos/yesodweb/yesod/commits/a3f130233bbf4e6bfebdb7bfd3d926c689b53fd7"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC1hdXRoLTEuNi4x"},{"name":"yesod-auth-1.6.0","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-auth-1.6.0","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-auth-1.6.0","commit":{"sha":"ce0c6976593261e9895b055c46b4f2d655e9d0a5","url":"https://api.github.com/repos/yesodweb/yesod/commits/ce0c6976593261e9895b055c46b4f2d655e9d0a5"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC1hdXRoLTEuNi4w"},{"name":"yesod-1.6.1.0","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-1.6.1.0","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-1.6.1.0","commit":{"sha":"eb5f7a95cd89295b26c85eab63f06083415156a5","url":"https://api.github.com/repos/yesodweb/yesod/commits/eb5f7a95cd89295b26c85eab63f06083415156a5"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC0xLjYuMS4w"},{"name":"yesod-1.6.0.2","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-1.6.0.2","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-1.6.0.2","commit":{"sha":"a1c6bc553c2166a210925a14d6cd0c18b0c71d0f","url":"https://api.github.com/repos/yesodweb/yesod/commits/a1c6bc553c2166a210925a14d6cd0c18b0c71d0f"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC0xLjYuMC4y"},{"name":"yesod-1.6.0.1","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-1.6.0.1","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-1.6.0.1","commit":{"sha":"873bee0cfaf418f1f3c0f7040178f83d922d70a0","url":"https://api.github.com/repos/yesodweb/yesod/commits/873bee0cfaf418f1f3c0f7040178f83d922d70a0"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC0xLjYuMC4x"},{"name":"yesod-1.6.0","zipball_url":"https://api.github.com/repos/yesodweb/yesod/zipball/yesod-1.6.0","tarball_url":"https://api.github.com/repos/yesodweb/yesod/tarball/yesod-1.6.0","commit":{"sha":"ce0c6976593261e9895b055c46b4f2d655e9d0a5","url":"https://api.github.com/repos/yesodweb/yesod/commits/ce0c6976593261e9895b055c46b4f2d655e9d0a5"},"node_id":"MDM6UmVmMjM3OTA0OnJlZnMvdGFncy95ZXNvZC0xLjYuMA=="}]
+0
+

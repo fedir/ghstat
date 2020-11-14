@@ -1,28 +1,30 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:12:28 GMT
-Etag: W/"a19dbc7b2ae686948100b8e9c06cf1bb"
-Link: <https://api.github.com/user/216080/followers?page=2>; rel="next", <https://api.github.com/user/216080/followers?page=96>; rel="last"
+Date: Sat, 14 Nov 2020 18:00:01 GMT
+Etag: W/"3a9d154c41d2943972d4782228773b9b750084059586399fbdcaeaea7e6bd173"
+Link: <https://api.github.com/user/216080/followers?page=2>; rel="next", <https://api.github.com/user/216080/followers?page=150>; rel="last"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: CEEE:57C5:3735C5A:71AD3D4:5B1B8BEC
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE0F:78A2:1F37634:23E0D4D:5FB01B20
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 221
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.102792
+X-Ratelimit-Remaining: 3917
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1083
 X-Xss-Protection: 1; mode=block
 
 6913

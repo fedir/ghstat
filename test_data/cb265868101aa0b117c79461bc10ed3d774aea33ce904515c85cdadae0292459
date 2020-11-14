@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:44 GMT
+Etag: W/"db16fdb7f9852d4f4ac117cb642f7a69188a23f7101d0b1369f67d0a6bbcd453"
+Link: <https://api.github.com/user/1701138/followers?page=2>; rel="prev", <https://api.github.com/user/1701138/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE46:5C52:2023E51:24FAACF:5FB01B87
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3237
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1763
+X-Xss-Protection: 1; mode=block
+
+1274
+[{"login":"bayashi","id":42190,"node_id":"MDQ6VXNlcjQyMTkw","avatar_url":"https://avatars3.githubusercontent.com/u/42190?v=4","gravatar_id":"","url":"https://api.github.com/users/bayashi","html_url":"https://github.com/bayashi","followers_url":"https://api.github.com/users/bayashi/followers","following_url":"https://api.github.com/users/bayashi/following{/other_user}","gists_url":"https://api.github.com/users/bayashi/gists{/gist_id}","starred_url":"https://api.github.com/users/bayashi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/bayashi/subscriptions","organizations_url":"https://api.github.com/users/bayashi/orgs","repos_url":"https://api.github.com/users/bayashi/repos","events_url":"https://api.github.com/users/bayashi/events{/privacy}","received_events_url":"https://api.github.com/users/bayashi/received_events","type":"User","site_admin":false},{"login":"thibaultduponchelle","id":580360,"node_id":"MDQ6VXNlcjU4MDM2MA==","avatar_url":"https://avatars3.githubusercontent.com/u/580360?v=4","gravatar_id":"","url":"https://api.github.com/users/thibaultduponchelle","html_url":"https://github.com/thibaultduponchelle","followers_url":"https://api.github.com/users/thibaultduponchelle/followers","following_url":"https://api.github.com/users/thibaultduponchelle/following{/other_user}","gists_url":"https://api.github.com/users/thibaultduponchelle/gists{/gist_id}","starred_url":"https://api.github.com/users/thibaultduponchelle/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thibaultduponchelle/subscriptions","organizations_url":"https://api.github.com/users/thibaultduponchelle/orgs","repos_url":"https://api.github.com/users/thibaultduponchelle/repos","events_url":"https://api.github.com/users/thibaultduponchelle/events{/privacy}","received_events_url":"https://api.github.com/users/thibaultduponchelle/received_events","type":"User","site_admin":false},{"login":"geraldo-netto","id":20527108,"node_id":"MDQ6VXNlcjIwNTI3MTA4","avatar_url":"https://avatars1.githubusercontent.com/u/20527108?v=4","gravatar_id":"","url":"https://api.github.com/users/geraldo-netto","html_url":"https://github.com/geraldo-netto","followers_url":"https://api.github.com/users/geraldo-netto/followers","following_url":"https://api.github.com/users/geraldo-netto/following{/other_user}","gists_url":"https://api.github.com/users/geraldo-netto/gists{/gist_id}","starred_url":"https://api.github.com/users/geraldo-netto/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/geraldo-netto/subscriptions","organizations_url":"https://api.github.com/users/geraldo-netto/orgs","repos_url":"https://api.github.com/users/geraldo-netto/repos","events_url":"https://api.github.com/users/geraldo-netto/events{/privacy}","received_events_url":"https://api.github.com/users/geraldo-netto/received_events","type":"User","site_admin":false},{"login":"cat2koban","id":10192563,"node_id":"MDQ6VXNlcjEwMTkyNTYz","avatar_url":"https://avatars1.githubusercontent.com/u/10192563?v=4","gravatar_id":"","url":"https://api.github.com/users/cat2koban","html_url":"https://github.com/cat2koban","followers_url":"https://api.github.com/users/cat2koban/followers","following_url":"https://api.github.com/users/cat2koban/following{/other_user}","gists_url":"https://api.github.com/users/cat2koban/gists{/gist_id}","starred_url":"https://api.github.com/users/cat2koban/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cat2koban/subscriptions","organizations_url":"https://api.github.com/users/cat2koban/orgs","repos_url":"https://api.github.com/users/cat2koban/repos","events_url":"https://api.github.com/users/cat2koban/events{/privacy}","received_events_url":"https://api.github.com/users/cat2koban/received_events","type":"User","site_admin":false},{"login":"iam-Paul","id":43728753,"node_id":"MDQ6VXNlcjQzNzI4NzUz","avatar_url":"https://avatars1.githubusercontent.com/u/43728753?v=4","gravatar_id":"","url":"https://api.github.com/users/iam-Paul","html_url":"https://github.com/iam-Paul","followers_url":"https://api.github.com/users/iam-Paul/followers","following_url":"https://api.github.com/users/iam-Paul/following{/other_user}","gists_url":"https://api.github.com/users/iam-Paul/gists{/gist_id}","starred_url":"https://api.github.com/users/iam-Paul/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iam-Paul/subscriptions","organizations_url":"https://api.github.com/users/iam-Paul/orgs","repos_url":"https://api.github.com/users/iam-Paul/repos","events_url":"https://api.github.com/users/iam-Paul/events{/privacy}","received_events_url":"https://api.github.com/users/iam-Paul/received_events","type":"User","site_admin":false}]
+0
+

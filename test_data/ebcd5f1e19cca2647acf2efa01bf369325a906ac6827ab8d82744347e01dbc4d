@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:02:03 GMT
+Etag: W/"a842fe6fbac7ca9cf0f6735ec053e0e052ef332bb0c976d8433d8b6e0da1e27b"
+Link: <https://api.github.com/user/1258619/followers?page=6>; rel="prev", <https://api.github.com/user/1258619/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CEE7:7087:3D026C4:46345F0:5FB01B9B
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2738
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2262
+X-Xss-Protection: 1; mode=block
+
+a76
+[{"login":"yesudeep","id":3874,"node_id":"MDQ6VXNlcjM4NzQ=","avatar_url":"https://avatars1.githubusercontent.com/u/3874?v=4","gravatar_id":"","url":"https://api.github.com/users/yesudeep","html_url":"https://github.com/yesudeep","followers_url":"https://api.github.com/users/yesudeep/followers","following_url":"https://api.github.com/users/yesudeep/following{/other_user}","gists_url":"https://api.github.com/users/yesudeep/gists{/gist_id}","starred_url":"https://api.github.com/users/yesudeep/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/yesudeep/subscriptions","organizations_url":"https://api.github.com/users/yesudeep/orgs","repos_url":"https://api.github.com/users/yesudeep/repos","events_url":"https://api.github.com/users/yesudeep/events{/privacy}","received_events_url":"https://api.github.com/users/yesudeep/received_events","type":"User","site_admin":false},{"login":"cvlvxi","id":41276358,"node_id":"MDQ6VXNlcjQxMjc2MzU4","avatar_url":"https://avatars3.githubusercontent.com/u/41276358?v=4","gravatar_id":"","url":"https://api.github.com/users/cvlvxi","html_url":"https://github.com/cvlvxi","followers_url":"https://api.github.com/users/cvlvxi/followers","following_url":"https://api.github.com/users/cvlvxi/following{/other_user}","gists_url":"https://api.github.com/users/cvlvxi/gists{/gist_id}","starred_url":"https://api.github.com/users/cvlvxi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cvlvxi/subscriptions","organizations_url":"https://api.github.com/users/cvlvxi/orgs","repos_url":"https://api.github.com/users/cvlvxi/repos","events_url":"https://api.github.com/users/cvlvxi/events{/privacy}","received_events_url":"https://api.github.com/users/cvlvxi/received_events","type":"User","site_admin":false},{"login":"Zylatis","id":1456631,"node_id":"MDQ6VXNlcjE0NTY2MzE=","avatar_url":"https://avatars1.githubusercontent.com/u/1456631?v=4","gravatar_id":"","url":"https://api.github.com/users/Zylatis","html_url":"https://github.com/Zylatis","followers_url":"https://api.github.com/users/Zylatis/followers","following_url":"https://api.github.com/users/Zylatis/following{/other_user}","gists_url":"https://api.github.com/users/Zylatis/gists{/gist_id}","starred_url":"https://api.github.com/users/Zylatis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Zylatis/subscriptions","organizations_url":"https://api.github.com/users/Zylatis/orgs","repos_url":"https://api.github.com/users/Zylatis/repos","events_url":"https://api.github.com/users/Zylatis/events{/privacy}","received_events_url":"https://api.github.com/users/Zylatis/received_events","type":"User","site_admin":false}]
+0
+

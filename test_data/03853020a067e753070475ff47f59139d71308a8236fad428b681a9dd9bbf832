@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:57 GMT
+Etag: W/"a2c78e88c0dc3b31a4693dcc5aa52ab13465de5ea0f10e9363500c233a6dc831"
+Link: <https://api.github.com/user/148100/followers?page=25>; rel="prev", <https://api.github.com/user/148100/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CFA6:41F3:1ED77C4:23A2140:5FB01C84
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2281
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2719
+X-Xss-Protection: 1; mode=block
+
+a90
+[{"login":"1s3k3b","id":56838314,"node_id":"MDQ6VXNlcjU2ODM4MzE0","avatar_url":"https://avatars3.githubusercontent.com/u/56838314?v=4","gravatar_id":"","url":"https://api.github.com/users/1s3k3b","html_url":"https://github.com/1s3k3b","followers_url":"https://api.github.com/users/1s3k3b/followers","following_url":"https://api.github.com/users/1s3k3b/following{/other_user}","gists_url":"https://api.github.com/users/1s3k3b/gists{/gist_id}","starred_url":"https://api.github.com/users/1s3k3b/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/1s3k3b/subscriptions","organizations_url":"https://api.github.com/users/1s3k3b/orgs","repos_url":"https://api.github.com/users/1s3k3b/repos","events_url":"https://api.github.com/users/1s3k3b/events{/privacy}","received_events_url":"https://api.github.com/users/1s3k3b/received_events","type":"User","site_admin":false},{"login":"gaetgu","id":47652746,"node_id":"MDQ6VXNlcjQ3NjUyNzQ2","avatar_url":"https://avatars1.githubusercontent.com/u/47652746?v=4","gravatar_id":"","url":"https://api.github.com/users/gaetgu","html_url":"https://github.com/gaetgu","followers_url":"https://api.github.com/users/gaetgu/followers","following_url":"https://api.github.com/users/gaetgu/following{/other_user}","gists_url":"https://api.github.com/users/gaetgu/gists{/gist_id}","starred_url":"https://api.github.com/users/gaetgu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gaetgu/subscriptions","organizations_url":"https://api.github.com/users/gaetgu/orgs","repos_url":"https://api.github.com/users/gaetgu/repos","events_url":"https://api.github.com/users/gaetgu/events{/privacy}","received_events_url":"https://api.github.com/users/gaetgu/received_events","type":"User","site_admin":false},{"login":"Sardonyx78","id":28059892,"node_id":"MDQ6VXNlcjI4MDU5ODky","avatar_url":"https://avatars1.githubusercontent.com/u/28059892?v=4","gravatar_id":"","url":"https://api.github.com/users/Sardonyx78","html_url":"https://github.com/Sardonyx78","followers_url":"https://api.github.com/users/Sardonyx78/followers","following_url":"https://api.github.com/users/Sardonyx78/following{/other_user}","gists_url":"https://api.github.com/users/Sardonyx78/gists{/gist_id}","starred_url":"https://api.github.com/users/Sardonyx78/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Sardonyx78/subscriptions","organizations_url":"https://api.github.com/users/Sardonyx78/orgs","repos_url":"https://api.github.com/users/Sardonyx78/repos","events_url":"https://api.github.com/users/Sardonyx78/events{/privacy}","received_events_url":"https://api.github.com/users/Sardonyx78/received_events","type":"User","site_admin":false}]
+0
+

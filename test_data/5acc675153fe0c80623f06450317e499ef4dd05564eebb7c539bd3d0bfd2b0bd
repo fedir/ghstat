@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:54 GMT
+Etag: W/"5d591d8a481995e6731fa107e9ef38753e7916c6b2ac8b957f29a619a187899b"
+Last-Modified: Sat, 14 Nov 2020 11:46:35 GMT
+Link: <https://api.github.com/repositories/16072585/tags?page=3>; rel="prev", <https://api.github.com/repositories/16072585/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF94:78A3:3EA826A:4818EEB:5FB01C82
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 2295
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 2705
+X-Xss-Protection: 1; mode=block
+
+9ba
+[{"name":"v0.2.3","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.3","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.3","commit":{"sha":"10faec01dbff733c1219203c5e027ad59ab1790d","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/10faec01dbff733c1219203c5e027ad59ab1790d"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzL3YwLjIuMw=="},{"name":"v0.2.2","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.2","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.2","commit":{"sha":"82b7c4151ee4f5f95bf42987de1cd1000ebccacf","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/82b7c4151ee4f5f95bf42987de1cd1000ebccacf"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzL3YwLjIuMg=="},{"name":"v0.2.1","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.1","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.1","commit":{"sha":"422ecff35e84d81099ae79f5cd842e44fbc88d71","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/422ecff35e84d81099ae79f5cd842e44fbc88d71"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzL3YwLjIuMQ=="},{"name":"v0.2.0","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.2.0","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.2.0","commit":{"sha":"10ac0e1b435d8868b17e661c64143691d58a4232","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/10ac0e1b435d8868b17e661c64143691d58a4232"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzL3YwLjIuMA=="},{"name":"v0.1.1","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/v0.1.1","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/v0.1.1","commit":{"sha":"041a3c65405997850af23a963b3fd1d7f0597a90","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/041a3c65405997850af23a963b3fd1d7f0597a90"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzL3YwLjEuMQ=="},{"name":"1.3.3","zipball_url":"https://api.github.com/repos/phoenixframework/phoenix/zipball/1.3.3","tarball_url":"https://api.github.com/repos/phoenixframework/phoenix/tarball/1.3.3","commit":{"sha":"0e9dce51aa2f836222e5ec2ef88ea80b737ee4a7","url":"https://api.github.com/repos/phoenixframework/phoenix/commits/0e9dce51aa2f836222e5ec2ef88ea80b737ee4a7"},"node_id":"MDM6UmVmMTYwNzI1ODU6cmVmcy90YWdzLzEuMy4z"}]
+0
+

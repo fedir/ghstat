@@ -1,31 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:05:07 GMT
-Etag: W/"e656fd54f96c730e43369c81f148b726"
-Last-Modified: Fri, 08 Jun 2018 12:43:37 GMT
+Date: Sat, 14 Nov 2020 18:01:22 GMT
+Etag: W/"8c1e60587f0f4682e37b6353acc3796651b06e707fe8cb0890d9ef4db727e1cc"
+Last-Modified: Mon, 09 Nov 2020 02:40:10 GMT
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C8B6:57C5:3726DB5:719226E:5B1B8A33
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE2D:E7C3:F6833C:11B4F56:5FB01B72
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4661
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.067522
+X-Ratelimit-Remaining: 3676
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1324
 X-Xss-Protection: 1; mode=block
 
 3db
-[{"login":"hypercube1024","id":854268,"node_id":"MDQ6VXNlcjg1NDI2OA==","avatar_url":"https://avatars3.githubusercontent.com/u/854268?v=4","gravatar_id":"","url":"https://api.github.com/users/hypercube1024","html_url":"https://github.com/hypercube1024","followers_url":"https://api.github.com/users/hypercube1024/followers","following_url":"https://api.github.com/users/hypercube1024/following{/other_user}","gists_url":"https://api.github.com/users/hypercube1024/gists{/gist_id}","starred_url":"https://api.github.com/users/hypercube1024/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hypercube1024/subscriptions","organizations_url":"https://api.github.com/users/hypercube1024/orgs","repos_url":"https://api.github.com/users/hypercube1024/repos","events_url":"https://api.github.com/users/hypercube1024/events{/privacy}","received_events_url":"https://api.github.com/users/hypercube1024/received_events","type":"User","site_admin":false,"contributions":1988}]
+[{"login":"hypercube1024","id":854268,"node_id":"MDQ6VXNlcjg1NDI2OA==","avatar_url":"https://avatars3.githubusercontent.com/u/854268?v=4","gravatar_id":"","url":"https://api.github.com/users/hypercube1024","html_url":"https://github.com/hypercube1024","followers_url":"https://api.github.com/users/hypercube1024/followers","following_url":"https://api.github.com/users/hypercube1024/following{/other_user}","gists_url":"https://api.github.com/users/hypercube1024/gists{/gist_id}","starred_url":"https://api.github.com/users/hypercube1024/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hypercube1024/subscriptions","organizations_url":"https://api.github.com/users/hypercube1024/orgs","repos_url":"https://api.github.com/users/hypercube1024/repos","events_url":"https://api.github.com/users/hypercube1024/events{/privacy}","received_events_url":"https://api.github.com/users/hypercube1024/received_events","type":"User","site_admin":false,"contributions":3028}]
 0
 

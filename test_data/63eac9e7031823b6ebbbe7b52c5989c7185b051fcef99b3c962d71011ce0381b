@@ -1,27 +1,32 @@
 HTTP/1.1 200 OK
-Content-Length: 2
+Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Cache-Control: private, max-age=60, s-maxage=60
 Content-Security-Policy: default-src 'none'
 Content-Type: application/json; charset=utf-8
-Date: Sat, 09 Jun 2018 08:04:45 GMT
-Etag: "e5e78ea60c2c52d3b15a1be042776906"
+Date: Sat, 14 Nov 2020 17:59:24 GMT
+Etag: W/"1920c97bc0b240d055638f60cc8aef5d79b0c06637d2c24c4c04401e70992357"
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Server: GitHub.com
 Status: 200 OK
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
 X-Accepted-Oauth-Scopes: 
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Github-Media-Type: github.v3; format=json
-X-Github-Request-Id: C890:57C5:3725FE9:7190922:5B1B8A1D
-X-Oauth-Scopes: 
+X-Github-Request-Id: CE01:F44A:3A05F27:42CBE55:5FB01AFC
+X-Oauth-Scopes: repo
 X-Ratelimit-Limit: 5000
-X-Ratelimit-Remaining: 4871
-X-Ratelimit-Reset: 1528535081
-X-Runtime-Rack: 0.030262
+X-Ratelimit-Remaining: 4169
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 831
 X-Xss-Protection: 1; mode=block
 
-[]
+38e
+[{"login":"shuwenhe","id":30018599,"node_id":"MDQ6VXNlcjMwMDE4NTk5","avatar_url":"https://avatars0.githubusercontent.com/u/30018599?v=4","gravatar_id":"","url":"https://api.github.com/users/shuwenhe","html_url":"https://github.com/shuwenhe","followers_url":"https://api.github.com/users/shuwenhe/followers","following_url":"https://api.github.com/users/shuwenhe/following{/other_user}","gists_url":"https://api.github.com/users/shuwenhe/gists{/gist_id}","starred_url":"https://api.github.com/users/shuwenhe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shuwenhe/subscriptions","organizations_url":"https://api.github.com/users/shuwenhe/orgs","repos_url":"https://api.github.com/users/shuwenhe/repos","events_url":"https://api.github.com/users/shuwenhe/events{/privacy}","received_events_url":"https://api.github.com/users/shuwenhe/received_events","type":"User","site_admin":false}]
+0
+

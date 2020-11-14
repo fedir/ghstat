@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:01:36 GMT
+Etag: W/"5ed810a0b82432b5d443768b8497ad7a81a81ec0241d2c8a2bbbba4a5bfa6831"
+Last-Modified: Fri, 13 Nov 2020 14:02:41 GMT
+Link: <https://api.github.com/repositories/78238350/contributors?page=2>; rel="prev", <https://api.github.com/repositories/78238350/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CE38:7087:3CFFD48:4631500:5FB01B80
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3472
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 1528
+X-Xss-Protection: 1; mode=block
+
+125e
+[{"login":"vnbrs","id":5093045,"node_id":"MDQ6VXNlcjUwOTMwNDU=","avatar_url":"https://avatars3.githubusercontent.com/u/5093045?v=4","gravatar_id":"","url":"https://api.github.com/users/vnbrs","html_url":"https://github.com/vnbrs","followers_url":"https://api.github.com/users/vnbrs/followers","following_url":"https://api.github.com/users/vnbrs/following{/other_user}","gists_url":"https://api.github.com/users/vnbrs/gists{/gist_id}","starred_url":"https://api.github.com/users/vnbrs/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vnbrs/subscriptions","organizations_url":"https://api.github.com/users/vnbrs/orgs","repos_url":"https://api.github.com/users/vnbrs/repos","events_url":"https://api.github.com/users/vnbrs/events{/privacy}","received_events_url":"https://api.github.com/users/vnbrs/received_events","type":"User","site_admin":false,"contributions":1},{"login":"veelenga","id":3624712,"node_id":"MDQ6VXNlcjM2MjQ3MTI=","avatar_url":"https://avatars2.githubusercontent.com/u/3624712?v=4","gravatar_id":"","url":"https://api.github.com/users/veelenga","html_url":"https://github.com/veelenga","followers_url":"https://api.github.com/users/veelenga/followers","following_url":"https://api.github.com/users/veelenga/following{/other_user}","gists_url":"https://api.github.com/users/veelenga/gists{/gist_id}","starred_url":"https://api.github.com/users/veelenga/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/veelenga/subscriptions","organizations_url":"https://api.github.com/users/veelenga/orgs","repos_url":"https://api.github.com/users/veelenga/repos","events_url":"https://api.github.com/users/veelenga/events{/privacy}","received_events_url":"https://api.github.com/users/veelenga/received_events","type":"User","site_admin":false,"contributions":1},{"login":"westonganger","id":3414795,"node_id":"MDQ6VXNlcjM0MTQ3OTU=","avatar_url":"https://avatars3.githubusercontent.com/u/3414795?v=4","gravatar_id":"","url":"https://api.github.com/users/westonganger","html_url":"https://github.com/westonganger","followers_url":"https://api.github.com/users/westonganger/followers","following_url":"https://api.github.com/users/westonganger/following{/other_user}","gists_url":"https://api.github.com/users/westonganger/gists{/gist_id}","starred_url":"https://api.github.com/users/westonganger/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/westonganger/subscriptions","organizations_url":"https://api.github.com/users/westonganger/orgs","repos_url":"https://api.github.com/users/westonganger/repos","events_url":"https://api.github.com/users/westonganger/events{/privacy}","received_events_url":"https://api.github.com/users/westonganger/received_events","type":"User","site_admin":false,"contributions":1},{"login":"westoque","id":99235,"node_id":"MDQ6VXNlcjk5MjM1","avatar_url":"https://avatars1.githubusercontent.com/u/99235?v=4","gravatar_id":"","url":"https://api.github.com/users/westoque","html_url":"https://github.com/westoque","followers_url":"https://api.github.com/users/westoque/followers","following_url":"https://api.github.com/users/westoque/following{/other_user}","gists_url":"https://api.github.com/users/westoque/gists{/gist_id}","starred_url":"https://api.github.com/users/westoque/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/westoque/subscriptions","organizations_url":"https://api.github.com/users/westoque/orgs","repos_url":"https://api.github.com/users/westoque/repos","events_url":"https://api.github.com/users/westoque/events{/privacy}","received_events_url":"https://api.github.com/users/westoque/received_events","type":"User","site_admin":false,"contributions":1},{"login":"shortly-portly","id":1791959,"node_id":"MDQ6VXNlcjE3OTE5NTk=","avatar_url":"https://avatars2.githubusercontent.com/u/1791959?v=4","gravatar_id":"","url":"https://api.github.com/users/shortly-portly","html_url":"https://github.com/shortly-portly","followers_url":"https://api.github.com/users/shortly-portly/followers","following_url":"https://api.github.com/users/shortly-portly/following{/other_user}","gists_url":"https://api.github.com/users/shortly-portly/gists{/gist_id}","starred_url":"https://api.github.com/users/shortly-portly/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shortly-portly/subscriptions","organizations_url":"https://api.github.com/users/shortly-portly/orgs","repos_url":"https://api.github.com/users/shortly-portly/repos","events_url":"https://api.github.com/users/shortly-portly/events{/privacy}","received_events_url":"https://api.github.com/users/shortly-portly/received_events","type":"User","site_admin":false,"contributions":1}]
+0
+

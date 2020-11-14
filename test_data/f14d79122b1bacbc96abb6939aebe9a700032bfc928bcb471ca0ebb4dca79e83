@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:05:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: CF95:F44A:3A2A3B5:42F656B:5FB01C7A
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 23
+X-Ratelimit-Reset: 1605377196
+X-Ratelimit-Used: 7
+X-Xss-Protection: 1; mode=block
+
+105f
+{"total_count":2,"incomplete_results":false,"items":[{"url":"https://api.github.com/repos/fedir/ghstat/issues/20","repository_url":"https://api.github.com/repos/fedir/ghstat","labels_url":"https://api.github.com/repos/fedir/ghstat/issues/20/labels{/name}","comments_url":"https://api.github.com/repos/fedir/ghstat/issues/20/comments","events_url":"https://api.github.com/repos/fedir/ghstat/issues/20/events","html_url":"https://github.com/fedir/ghstat/issues/20","id":310282264,"node_id":"MDU6SXNzdWUzMTAyODIyNjQ=","number":20,"title":"Add Elixir web frameworks","user":{"login":"fedir","id":306586,"node_id":"MDQ6VXNlcjMwNjU4Ng==","avatar_url":"https://avatars1.githubusercontent.com/u/306586?v=4","gravatar_id":"","url":"https://api.github.com/users/fedir","html_url":"https://github.com/fedir","followers_url":"https://api.github.com/users/fedir/followers","following_url":"https://api.github.com/users/fedir/following{/other_user}","gists_url":"https://api.github.com/users/fedir/gists{/gist_id}","starred_url":"https://api.github.com/users/fedir/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/fedir/subscriptions","organizations_url":"https://api.github.com/users/fedir/orgs","repos_url":"https://api.github.com/users/fedir/repos","events_url":"https://api.github.com/users/fedir/events{/privacy}","received_events_url":"https://api.github.com/users/fedir/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":1,"created_at":"2018-04-01T00:23:23Z","updated_at":"2018-04-14T19:45:54Z","closed_at":"2018-04-14T19:45:54Z","author_association":"OWNER","active_lock_reason":null,"body":"https://github.com/kittoframework/kitto\r\nhttps://github.com/phoenixframework/phoenix\r\nhttps://github.com/slogsdon/placid\r\nhttps://github.com/AntonFagerberg/rackla\r\nhttps://github.com/AgilionApps/relax\r\nhttps://github.com/sugar-framework/sugar\r\nhttps://github.com/hexedpackets/trot","performed_via_github_app":null,"score":1.0},{"url":"https://api.github.com/repos/slogsdon/placid/issues/7","repository_url":"https://api.github.com/repos/slogsdon/placid","labels_url":"https://api.github.com/repos/slogsdon/placid/issues/7/labels{/name}","comments_url":"https://api.github.com/repos/slogsdon/placid/issues/7/comments","events_url":"https://api.github.com/repos/slogsdon/placid/issues/7/events","html_url":"https://github.com/slogsdon/placid/issues/7","id":42984573,"node_id":"MDU6SXNzdWU0Mjk4NDU3Mw==","number":7,"title":"Websocket Support?","user":{"login":"jtmoulia","id":1057862,"node_id":"MDQ6VXNlcjEwNTc4NjI=","avatar_url":"https://avatars3.githubusercontent.com/u/1057862?v=4","gravatar_id":"","url":"https://api.github.com/users/jtmoulia","html_url":"https://github.com/jtmoulia","followers_url":"https://api.github.com/users/jtmoulia/followers","following_url":"https://api.github.com/users/jtmoulia/following{/other_user}","gists_url":"https://api.github.com/users/jtmoulia/gists{/gist_id}","starred_url":"https://api.github.com/users/jtmoulia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jtmoulia/subscriptions","organizations_url":"https://api.github.com/users/jtmoulia/orgs","repos_url":"https://api.github.com/users/jtmoulia/repos","events_url":"https://api.github.com/users/jtmoulia/events{/privacy}","received_events_url":"https://api.github.com/users/jtmoulia/received_events","type":"User","site_admin":false},"labels":[],"state":"closed","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":10,"created_at":"2014-09-17T09:12:29Z","updated_at":"2015-08-11T15:44:00Z","closed_at":"2015-08-11T14:45:46Z","author_association":"NONE","active_lock_reason":null,"body":"Hey, any thought on websocket support in placid?\n\nLooks like you're using cowboy under the hood which supports websockets, and I'd think you could make it work with the existing style:\n\n``` elixir\nwebsocket \"/ws\", Handlers.V2.WebSocket\n```\n\nThe `Handlers.V2.WebSocket` could implement some placid websocket behavior.\n\nI wouldn't mind taking this on if you think it fits in!\n","performed_via_github_app":null,"score":1.0}]}
+0
+

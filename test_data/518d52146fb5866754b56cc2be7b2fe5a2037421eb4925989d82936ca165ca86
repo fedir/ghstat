@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sat, 14 Nov 2020 18:10:57 GMT
+Etag: W/"375d5af37b35d229edd0e0969121257fca159c32e752a178c2a381d71ecb93f1"
+Link: <https://api.github.com/user/330665/followers?page=9>; rel="prev", <https://api.github.com/user/330665/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: GitHub.com
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: D2D2:2944:208C941:256EF2B:5FB01DB1
+X-Oauth-Scopes: repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 25
+X-Ratelimit-Reset: 1605379514
+X-Ratelimit-Used: 4975
+X-Xss-Protection: 1; mode=block
+
+38e
+[{"login":"moomdate","id":16360081,"node_id":"MDQ6VXNlcjE2MzYwMDgx","avatar_url":"https://avatars0.githubusercontent.com/u/16360081?v=4","gravatar_id":"","url":"https://api.github.com/users/moomdate","html_url":"https://github.com/moomdate","followers_url":"https://api.github.com/users/moomdate/followers","following_url":"https://api.github.com/users/moomdate/following{/other_user}","gists_url":"https://api.github.com/users/moomdate/gists{/gist_id}","starred_url":"https://api.github.com/users/moomdate/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/moomdate/subscriptions","organizations_url":"https://api.github.com/users/moomdate/orgs","repos_url":"https://api.github.com/users/moomdate/repos","events_url":"https://api.github.com/users/moomdate/events{/privacy}","received_events_url":"https://api.github.com/users/moomdate/received_events","type":"User","site_admin":false}]
+0
+
