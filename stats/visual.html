@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Source Health Analysis 2025</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #060810;
+    color: #f1f5f9;
+    padding: 40px 32px;
+    min-height: 100vh;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -1px;
+    text-shadow: 0 0 40px rgba(96, 165, 250, 0.4);
+  }
+  .header p {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-top: 8px;
+  }
+  .header .subtitle {
+    font-size: 13px;
+    color: #7c8fa8;
+    margin-top: 4px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #12151f;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #2a2f4a;
+  }
+  .card.full-width {
+    grid-column: 1 / -1;
+  }
+  .card h2 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2a2f4a;
+    padding-bottom: 12px;
+  }
+  .card h2 span {
+    font-size: 16px;
+    margin-right: 6px;
+  }
+
+  /* Bar chart */
+  .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  .bar-label {
+    font-size: 12px;
+    color: #94a3b8;
+    width: 160px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-label .repo {
+    color: #f1f5f9;
+    font-weight: 600;
+  }
+  .bar-label .cat {
+    color: #7c8fa8;
+    font-size: 10px;
+  }
+  .bar-track {
+    flex: 1;
+    background: #2e3558;
+    border-radius: 4px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #3d4470;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8px;
+  }
+  .bar-fill span {
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  }
+
+  /* Stars vs winner table */
+  .vs-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 20px 1fr;
+    gap: 6px 12px;
+    align-items: center;
+  }
+  .vs-cat {
+    font-size: 11px;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  .vs-name {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .vs-stars {
+    background: #2d1a4f;
+    color: #c4b5fd;
+    border: 1px solid #7c3aed;
+  }
+  .vs-winner {
+    background: #14391f;
+    color: #6ee7a0;
+    border: 1px solid #22c55e;
+  }
+  .vs-same {
+    background: #162144;
+    color: #7dd3fc;
+    border: 1px solid #2563eb;
+  }
+  .vs-arrow {
+    font-size: 16px;
+    color: #94a3b8;
+    text-align: center;
+    font-weight: 700;
+  }
+  .vs-header {
+    font-size: 10px;
+    color: #e2e8f0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #3d4470;
+    margin-bottom: 4px;
+  }
+
+  /* Loyalty highlight */
+  .loyalty-big {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .loyalty-hero {
+    flex: 1;
+    background: linear-gradient(135deg, #162144 0%, #0f1830 100%);
+    border: 1px solid #2563eb;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .loyalty-hero .days {
+    font-size: 38px;
+    font-weight: 800;
+    color: #93c5fd;
+    line-height: 1;
+  }
+  .loyalty-hero .unit {
+    font-size: 12px;
+    color: #7dd3fc;
+    margin-top: 2px;
+    font-weight: 600;
+  }
+  .loyalty-hero .name {
+    font-size: 12px;
+    color: #e2e8f0;
+    margin-top: 8px;
+    font-weight: 700;
+  }
+  .loyalty-hero .years {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 2px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 11px;
+    color: #64748b;
+  }
+  .footer a { color: #7c8fa8; }
+
+  .legend {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 11px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #e2e8f0;
+    font-weight: 600;
+  }
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Open Source Health Analysis — 2026</h1>
+  <p>~200 repositories · 12 categories · 15+ metrics · hybrid GitHub API + local git analysis</p>
+  <p class="subtitle">Methodology presented at Linux Foundation Open Source Summit Europe, Edinburgh 2018 · github.com/fedir/ghstat</p>
+</div>
+
+<div class="grid">
+
+  <!-- LOYALTY -->
+  <div class="card">
+    <h2><span>🏆</span>Contributor loyalty — avg active period</h2>
+    <div class="loyalty-big">
+      <div class="loyalty-hero">
+        <div class="days">3,270</div>
+        <div class="unit">days</div>
+        <div class="name">postgres/postgres</div>
+        <div class="years">≈ 9 years average</div>
+      </div>
+      <div class="loyalty-hero" style="background: linear-gradient(135deg, #0f2e1a 0%, #091f12 100%); border-color: #16a34a;">
+        <div class="days" style="color: #86efac">2,255</div>
+        <div class="unit">days</div>
+        <div class="name">lua/lua</div>
+        <div class="years">≈ 6 years average</div>
+      </div>
+    </div>
+
+    <!-- bar chart for loyalty -->
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">postgres</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:100%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>3270d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">lua</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:68.9%; background: linear-gradient(90deg,#065f46,#10b981)"><span>2255d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">WordPress</div><div class="cat">php cms</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:40.3%; background: linear-gradient(90deg,#7c2d12,#f97316)"><span>1318d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">TYPO3</div><div class="cat">php cms</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:23.6%; background: linear-gradient(90deg,#7c2d12,#f97316)"><span>772d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">mysql</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:19.4%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>635d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">mongodb</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:18.4%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>602d</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">php-src</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:17.4%; background: linear-gradient(90deg,#065f46,#10b981)"><span>568d</span></div></div>
+    </div>
+  </div>
+
+  <!-- VELOCITY -->
+  <div class="card">
+    <h2><span>⚡</span>Commit velocity — commits per day</h2>
+
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">rust-lang/rust</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:100%; background: linear-gradient(90deg,#7c1d8a,#c084fc)"><span>56.3/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">MariaDB/server</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:82.9%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>46.6/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">mysql/mysql-server</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:78.8%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>44.3/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">python/cpython</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:69.0%; background: linear-gradient(90deg,#065f46,#10b981)"><span>38.8/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">php/php-src</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:47.7%; background: linear-gradient(90deg,#065f46,#10b981)"><span>26.8/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">craftcms/cms</div><div class="cat">php cms</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:40.1%; background: linear-gradient(90deg,#7c2d12,#f97316)"><span>22.6/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">ruby/ruby</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:29.7%; background: linear-gradient(90deg,#065f46,#10b981)"><span>16.7/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">mongodb/mongo</div><div class="cat">databases</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:27.9%; background: linear-gradient(90deg,#1d4ed8,#3b82f6)"><span>15.7/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">golang/go</div><div class="cat">languages</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:27.5%; background: linear-gradient(90deg,#065f46,#10b981)"><span>15.5/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">rails/rails</div><div class="cat">ruby</div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:26.3%; background: linear-gradient(90deg,#7c1d1d,#f87171)"><span>14.8/day</span></div></div>
+    </div>
+  </div>
+
+  <!-- STARS vs WINNER -->
+  <div class="card full-width">
+    <h2><span>🔍</span>Stars vs composite score — who actually wins?</h2>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div><span style="color:#e2e8f0">Most stars</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div><span style="color:#e2e8f0">Overall winner (15+ metrics)</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div><span style="color:#e2e8f0">Same project wins both</span></div>
+    </div>
+    <div class="vs-grid">
+      <div></div>
+      <div class="vs-header">Most stars</div>
+      <div></div>
+      <div class="vs-header">Overall winner</div>
+
+      <div class="vs-cat">Go</div>
+      <div class="vs-name vs-stars">gohugoio/hugo <span style="color:#a78bfa;font-size:10px">48K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">gofiber/fiber</div>
+
+      <div class="vs-cat">Rust</div>
+      <div class="vs-name vs-stars">tokio-rs/axum <span style="color:#a78bfa;font-size:10px">26K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">leptos-rs/leptos</div>
+
+      <div class="vs-cat">JavaScript</div>
+      <div class="vs-name vs-stars">vuejs/vue <span style="color:#a78bfa;font-size:10px">175K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">angular/angular</div>
+
+      <div class="vs-cat">Databases</div>
+      <div class="vs-name vs-stars">redis/redis <span style="color:#a78bfa;font-size:10px">46K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">mysql/mysql-server</div>
+
+      <div class="vs-cat">Languages</div>
+      <div class="vs-name vs-stars">golang/go <span style="color:#a78bfa;font-size:10px">78K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">php/php-src</div>
+
+      <div class="vs-cat">PHP CMS</div>
+      <div class="vs-name vs-stars">WordPress <span style="color:#a78bfa;font-size:10px">14K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-winner">craftcms/cms</div>
+
+      <div class="vs-cat">Python</div>
+      <div class="vs-name vs-same">django/django <span style="color:#7dd3fc;font-size:10px">53K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-same">django/django ✓</div>
+
+      <div class="vs-cat">Ruby</div>
+      <div class="vs-name vs-same">rails/rails <span style="color:#7dd3fc;font-size:10px">46K★</span></div>
+      <div class="vs-arrow">→</div>
+      <div class="vs-name vs-same">rails/rails ✓</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  github.com/fedir/ghstat · ~200 repos · methodology: Linux Foundation OSS Summit Europe, Edinburgh 2018
+</div>
+
+</body>
+</html>
