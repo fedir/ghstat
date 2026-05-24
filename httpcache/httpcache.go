@@ -76,6 +76,9 @@ func loadRespFromFile(file string) []byte {
 
 // ReadResp reads response from the cached HTTP query.
 func ReadResp(fullResp []byte) ([]byte, string, error) {
+	if len(fullResp) == 0 {
+		return []byte{}, "", nil
+	}
 	r := bufio.NewReader(bytes.NewReader(fullResp))
 	resp, err := http.ReadResponse(r, nil)
 	if err != nil {
@@ -115,7 +118,12 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 		if statusCode == 403 {
 			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
 		} else if statusCode == 202 {
-			log.Printf("[attempt %d] GitHub is computing stats, retrying in 5s: %s", attempt, url)
+			const maxAttempts = 10
+			if attempt >= maxAttempts {
+				log.Printf("[attempt %d/%d] GitHub stats unavailable, giving up: %s", attempt, maxAttempts, url)
+				return []byte{}
+			}
+			log.Printf("[attempt %d/%d] GitHub is computing stats, retrying in 5s: %s", attempt, maxAttempts, url)
 			time.Sleep(5 * time.Second)
 			return makeCachedHTTPRequest(url, tmpFolder, debug, attempt+1)
 		} else if statusCode == 404 {
