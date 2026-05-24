@@ -112,3 +112,17 @@ Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of t
 ## Conventional commits
 
 `feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:` — single-line messages only.
+
+## Lessons learned
+
+### Clone cache and `-t` flag for new scripts
+New `bin/*.sh` scripts must pass `-t tmp` explicitly. Without it the tool defaults to `test_data/` which has no clones for new repo sets. The tool exits after writing only the repos whose clones finished before the others — producing a truncated CSV with no error message. Always verify row count after a run: `wc -l stats/*.csv`.
+
+### test_data/projects disk usage
+`test_data/projects/` accumulates full git clones and can grow to 60GB+. Use `make clean-data-<category>` to remove specific sets, or `make clean-data-all` to wipe everything. CNCF and Rust crates use `tmp/projects/` (via `-t tmp`); all other scripts use `test_data/projects/` (default).
+
+### 404 and 403 responses must not crash the tool
+`httpcache` returns `[]byte{}` on 404 and 403. All JSON unmarshal callers must guard against empty input — use `if len(jsonResponse) == 0 { return }` before unmarshaling. Slice indexing on unmarshaled results (`commits[0]`, `commits[len-1]`) must also guard against empty slices. `log.Fatal`/`log.Fatalf` in fetch paths kills the entire batch — use `log.Printf` and return zero values instead.
+
+### GitHub search API rate limit (403) with large batches
+The `/search/issues` endpoint has a stricter rate limit than the main API (~30 req/min). Running 50+ repos in parallel exhausts it immediately. The tool now logs and skips gracefully instead of fatally crashing. Closed issue counts will be 0 for repos that hit this limit — re-run later with a smaller batch or add a sleep between search calls.

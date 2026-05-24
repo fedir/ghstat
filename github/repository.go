@@ -62,9 +62,8 @@ func GetRepositoryLanguages(RepoKey string, tmpFolder string, debug bool) (strin
 	jsonResponse, _, _ := httpcache.ReadResp(fullResp)
 
 	jsonMap := make(map[string]interface{})
-	err := json.Unmarshal([]byte(jsonResponse), &jsonMap)
-	if err != nil {
-		log.Fatal(err)
+	if len(jsonResponse) > 0 {
+		json.Unmarshal([]byte(jsonResponse), &jsonMap)
 	}
 	languages := repositoryLanguagesBySize(jsonMap)
 	totalSize := repositoryTotalSize(jsonMap)
@@ -90,9 +89,12 @@ func getRepositoryData(repoKey string, tmpFolder string, debug bool) []byte {
 // ParseRepositoryData is used to parse repository common statistics
 func ParseRepositoryData(jsonResponse []byte) *Repository {
 	result := &Repository{}
+	if len(jsonResponse) == 0 {
+		return result
+	}
 	err := json.Unmarshal([]byte(jsonResponse), result)
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("failed to parse repository data: %v", err)
 	}
 	return result
 }

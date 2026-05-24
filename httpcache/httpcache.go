@@ -132,7 +132,8 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 			panic(err)
 		}
 		if statusCode == 403 {
-			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
+			log.Printf("rate limit exceeded for %s, please try again in 60 minutes", url)
+			return []byte{}
 		} else if statusCode == 202 {
 			maxAttempts := 5
 			if v := os.Getenv("GH_STATS_MAX_RETRIES"); v != "" {
@@ -155,7 +156,7 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 			return makeCachedHTTPRequest(url, tmpFolder, debug, attempt+1)
 		} else if statusCode == 404 {
 			log.Printf("not found (404), skipping: %s", url)
-			return resp
+			return []byte{}
 		} else if statusCode != 200 {
 			log.Fatalf("unexpected status %d for URL %s", statusCode, url)
 		}

@@ -60,7 +60,9 @@ func GetRepositoryCommitsData(repoKey string, tmpFolder string, debug bool) (str
 		commits := make([]Commit, 0)
 		json.Unmarshal(jsonResponse, &commits)
 		total = len(commits)
-		authorLogin = commits[total-1].Author.Login
+		if total > 0 {
+			authorLogin = commits[total-1].Author.Login
+		}
 	} else {
 		authorLogin = getRepositoryFirstCommitAuthorLogin(linkHeader, tmpFolder, debug)
 	}
@@ -72,13 +74,18 @@ func getRepositoryFirstCommitAuthorLogin(linkHeader string, tmpFolder string, de
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
 	commitsOnLastPage := len(commits)
-	commitAuthorLogin := commits[commitsOnLastPage-1].Author.Login
-	return commitAuthorLogin
+	if commitsOnLastPage == 0 {
+		return ""
+	}
+	return commits[commitsOnLastPage-1].Author.Login
 }
 
 func getRepositoryLastCommitDate(jsonResponse []byte) time.Time {
 	commits := make([]Commit, 0)
 	json.Unmarshal(jsonResponse, &commits)
+	if len(commits) == 0 {
+		return time.Time{}
+	}
 	return commits[0].Commit.Author.Date
 }
 

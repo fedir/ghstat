@@ -14,6 +14,7 @@ bash bin/erlang_frameworks.sh
 bash bin/haskell_frameworks.sh
 bash bin/lua_frameworks.sh
 bash bin/rust_frameworks.sh
+bash bin/rust_crates.sh
 bash bin/c_frameworks.sh
 bash bin/cpp_frameworks.sh
 bash bin/lisp_frameworks.sh
@@ -30,3 +31,6 @@ bash bin/all_cms.sh
 bash bin/js_cms.sh
 bash bin/php_cms.sh
 bash bin/java_cms.sh
+# cloud native
+bash bin/cncf_projects.sh
+bash bin/devops_tools.sh
