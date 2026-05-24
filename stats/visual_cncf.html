@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CNCF Cloud Native Projects — Health Analysis 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0a0f1e;
+    color: #e8edf5;
+    padding: 36px 32px 24px;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(50, 108, 229, 0.15);
+    border: 1px solid #326CE5;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #7aadff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .header .title-cncf {
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    margin-bottom: 6px;
+    text-shadow: 0 0 60px rgba(50, 108, 229, 0.6);
+  }
+  .header .title-cncf .wheel { color: #326CE5; }
+  .header .title-cncf .cncf  { color: #5b9cf6; }
+  .header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c8d8f0;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+  }
+  .header h1 span {
+    color: #326CE5;
+  }
+  .header p {
+    font-size: 13px;
+    color: #7a90b0;
+    margin-top: 8px;
+  }
+  .header .sub {
+    font-size: 11px;
+    color: #4a6080;
+    margin-top: 4px;
+  }
+
+  /* ── Grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ── Card ── */
+  .card {
+    background: #0e1628;
+    border-radius: 14px;
+    padding: 20px 22px;
+    border: 1px solid #1a2844;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #326CE5, #5b9cf6, transparent);
+  }
+  .card.full-width { grid-column: 1 / -1; }
+  .card h2 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7aadff;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1a2844;
+  }
+  .card h2 .emoji { margin-right: 6px; font-size: 14px; }
+
+  /* ── Hero stats ── */
+  .hero-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .hero-stat {
+    background: linear-gradient(135deg, #0d1f3c 0%, #091428 100%);
+    border: 1px solid #1e3a6e;
+    border-radius: 10px;
+    padding: 14px 12px;
+    text-align: center;
+  }
+  .hero-stat .num {
+    font-size: 28px;
+    font-weight: 800;
+    color: #5b9cf6;
+    line-height: 1;
+  }
+  .hero-stat .num.green { color: #34d399; }
+  .hero-stat .num.gold  { color: #fbbf24; }
+  .hero-stat .label {
+    font-size: 10px;
+    color: #4a6080;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .hero-stat .name {
+    font-size: 11px;
+    color: #9ab8e0;
+    margin-top: 6px;
+    font-weight: 600;
+  }
+
+  /* ── Bar chart ── */
+  .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+  }
+  .bar-label {
+    width: 170px;
+    flex-shrink: 0;
+  }
+  .bar-label .repo {
+    font-size: 12px;
+    color: #e8edf5;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-label .cat {
+    font-size: 10px;
+    color: #3a5070;
+  }
+  .bar-track {
+    flex: 1;
+    background: #131e33;
+    border-radius: 4px;
+    height: 22px;
+    border: 1px solid #1e3050;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8px;
+  }
+  .bar-fill span {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    white-space: nowrap;
+  }
+
+  /* bar colors */
+  .blue  { background: linear-gradient(90deg, #1a3a8a, #326CE5); }
+  .teal  { background: linear-gradient(90deg, #0a4a4a, #0ea5a5); }
+  .green { background: linear-gradient(90deg, #064a2a, #10b981); }
+  .gold  { background: linear-gradient(90deg, #4a3000, #f59e0b); }
+  .purple{ background: linear-gradient(90deg, #2a1060, #7c3aed); }
+
+  /* ── Top 5 overall table ── */
+  .rank-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .rank-table tr {
+    border-bottom: 1px solid #1a2844;
+    border-radius: 8px;
+  }
+  .rank-table tr:first-child td {
+    background: linear-gradient(90deg, rgba(50,108,229,0.12), transparent);
+    border-bottom: 1px solid #326CE5;
+  }
+  .rank-table tr:last-child { border-bottom: none; }
+  .rank-table td {
+    padding: 10px 8px;
+    font-size: 13px;
+  }
+  .rank-num {
+    font-size: 26px;
+    font-weight: 800;
+    color: #1e3a6a;
+    width: 36px;
+    text-align: center;
+  }
+  .rank-num.top { color: #5b9cf6; }
+  .rank-table tr:first-child .rank-num {
+    font-size: 32px;
+    color: #326CE5;
+    text-shadow: 0 0 20px rgba(50,108,229,0.8);
+  }
+  .rank-name {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .rank-table tr:first-child .rank-name {
+    font-size: 14px;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  .rank-pill {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 6px;
+  }
+  .pill-blue   { background: rgba(50,108,229,0.25); color: #93c5fd; border: 1px solid #326CE5; }
+  .pill-green  { background: rgba(16,185,129,0.25); color: #6ee7b7; border: 1px solid #10b981; }
+  .pill-gold   { background: rgba(251,191,36,0.25);  color: #fde68a; border: 1px solid #f59e0b; }
+  .rank-meta {
+    color: #93c5fd;
+    font-size: 9px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  /* ── Issue resolution ── */
+  .issue-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .issue-item {
+    background: #0a1628;
+    border: 1px solid #1a2844;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .issue-item .iname {
+    font-size: 12px;
+    color: #9ab8e0;
+    font-weight: 600;
+  }
+  .issue-item .ipct {
+    font-size: 14px;
+    font-weight: 800;
+    color: #34d399;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 11px;
+    color: #2a4060;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="badge">Cloud Native Computing Foundation</div>
+  <div class="title-cncf"><span class="wheel">☸</span> <span class="cncf">CNCF</span> Cloud Native Projects</div>
+  <h1>50 Projects · <span>Health Analysis</span> · 2026</h1>
+  <p>15+ metrics · GitHub API + local git analysis · stars, velocity, contributor retention, issue resolution</p>
+  <p class="sub">Methodology: Linux Foundation Open Source Summit Europe, Edinburgh 2018 · github.com/fedir/ghstat</p>
+</div>
+
+<div class="grid">
+
+  <!-- TOP 5 OVERALL -->
+  <div class="card">
+    <h2><span class="emoji">🏆</span>Top 5 overall ranking</h2>
+    <table class="rank-table">
+      <tr>
+        <td class="rank-num top">1</td>
+        <td class="rank-name">kubernetes/kubernetes <span class="rank-pill pill-blue">122K★</span></td>
+        <td class="rank-meta">31.6/day · 99.16% closed · 1203 returning</td>
+      </tr>
+      <tr>
+        <td class="rank-num top">2</td>
+        <td class="rank-name">backstage/backstage <span class="rank-pill pill-blue">33K★</span></td>
+        <td class="rank-meta">32.0/day · 94.22% closed · 407 returning</td>
+      </tr>
+      <tr>
+        <td class="rank-num top">3</td>
+        <td class="rank-name">istio/istio <span class="rank-pill pill-blue">38K★</span></td>
+        <td class="rank-meta">7.5/day · 98.31% closed · 269 returning</td>
+      </tr>
+      <tr>
+        <td class="rank-num top">4</td>
+        <td class="rank-name">cilium/cilium <span class="rank-pill pill-blue">24K★</span></td>
+        <td class="rank-meta">11.2/day · 92.67% closed · 189 returning</td>
+      </tr>
+      <tr>
+        <td class="rank-num top">5</td>
+        <td class="rank-name">grafana/grafana <span class="rank-pill pill-blue">73K★</span></td>
+        <td class="rank-meta">15.3/day · 94.76% closed · 426 returning</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- HERO STATS -->
+  <div class="card">
+    <h2><span class="emoji">📊</span>Dataset highlights</h2>
+    <div class="hero-row">
+      <div class="hero-stat">
+        <div class="num">122K</div>
+        <div class="label">most stars</div>
+        <div class="name">kubernetes</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num green">38.0</div>
+        <div class="label">commits/day</div>
+        <div class="name">VictoriaLogs</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num gold">99.98%</div>
+        <div class="label">closed issues</div>
+        <div class="name">kubeflow</div>
+      </div>
+    </div>
+    <div class="hero-row">
+      <div class="hero-stat">
+        <div class="num">1,203</div>
+        <div class="label">returning contributors</div>
+        <div class="name">kubernetes</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num green">342</div>
+        <div class="label">avg contrib. days</div>
+        <div class="name">kubevirt</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num gold">50</div>
+        <div class="label">projects rated</div>
+        <div class="name">CNCF graduated + incubating</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VELOCITY -->
+  <div class="card">
+    <h2><span class="emoji">⚡</span>Commit velocity — commits per day</h2>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">VictoriaMetrics/VictoriaLogs</div><div class="cat">observability</div></div>
+      <div class="bar-track"><div class="bar-fill gold" style="width:100%"><span>37.98/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">backstage/backstage</div><div class="cat">developer portal</div></div>
+      <div class="bar-track"><div class="bar-fill blue" style="width:84.3%"><span>32.01/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">kubernetes/kubernetes</div><div class="cat">orchestration</div></div>
+      <div class="bar-track"><div class="bar-fill blue" style="width:83.2%"><span>31.61/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">grafana/grafana</div><div class="cat">observability</div></div>
+      <div class="bar-track"><div class="bar-fill teal" style="width:40.2%"><span>15.28/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">cilium/cilium</div><div class="cat">networking</div></div>
+      <div class="bar-track"><div class="bar-fill blue" style="width:29.5%"><span>11.19/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">VictoriaMetrics/VictoriaMetrics</div><div class="cat">observability</div></div>
+      <div class="bar-track"><div class="bar-fill gold" style="width:26.8%"><span>10.17/day</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">envoyproxy/envoy</div><div class="cat">networking</div></div>
+      <div class="bar-track"><div class="bar-fill purple" style="width:24.1%"><span>9.15/day</span></div></div>
+    </div>
+  </div>
+
+  <!-- CONTRIBUTOR LOYALTY -->
+  <div class="card">
+    <h2><span class="emoji">🏅</span>Contributor loyalty — avg active period (days)</h2>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">kubevirt/kubevirt</div><div class="cat">virtualization</div></div>
+      <div class="bar-track"><div class="bar-fill green" style="width:100%"><span>342 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">tikv/tikv</div><div class="cat">storage</div></div>
+      <div class="bar-track"><div class="bar-fill teal" style="width:92.9%"><span>318 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">envoyproxy/envoy</div><div class="cat">networking</div></div>
+      <div class="bar-track"><div class="bar-fill purple" style="width:86.3%"><span>295 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">kubernetes/kubernetes</div><div class="cat">orchestration</div></div>
+      <div class="bar-track"><div class="bar-fill blue" style="width:82.5%"><span>282 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">containerd/containerd</div><div class="cat">runtime</div></div>
+      <div class="bar-track"><div class="bar-fill blue" style="width:75.7%"><span>259 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">etcd-io/etcd</div><div class="cat">storage</div></div>
+      <div class="bar-track"><div class="bar-fill teal" style="width:70.5%"><span>241 days</span></div></div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label"><div class="repo">istio/istio</div><div class="cat">service mesh</div></div>
+      <div class="bar-track"><div class="bar-fill purple" style="width:65.5%"><span>224 days</span></div></div>
+    </div>
+  </div>
+
+  <!-- ISSUE RESOLUTION -->
+  <div class="card full-width">
+    <h2><span class="emoji">✅</span>Issue resolution excellence — closed issues %</h2>
+    <div class="issue-grid">
+      <div class="issue-item"><span class="iname">kubeflow/kubeflow</span><span class="ipct">99.98%</span></div>
+      <div class="issue-item"><span class="iname">helm/helm</span><span class="ipct">99.65%</span></div>
+      <div class="issue-item"><span class="iname">kubernetes/kubernetes</span><span class="ipct">99.16%</span></div>
+      <div class="issue-item"><span class="iname">cert-manager/cert-manager</span><span class="ipct">99.16%</span></div>
+      <div class="issue-item"><span class="iname">prometheus/prometheus</span><span class="ipct">98.98%</span></div>
+      <div class="issue-item"><span class="iname">argoproj/argo-cd</span><span class="ipct">98.72%</span></div>
+      <div class="issue-item"><span class="iname">istio/istio</span><span class="ipct">98.31%</span></div>
+      <div class="issue-item"><span class="iname">fluxcd/flux2</span><span class="ipct">97.84%</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  github.com/fedir/ghstat · 50 CNCF repos · methodology: Linux Foundation OSS Summit Europe, Edinburgh 2018
+</div>
+
+</body>
+</html>
