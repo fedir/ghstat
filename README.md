@@ -7,7 +7,15 @@
 
 Statistical multi-criteria decision-making comparator for GitHub projects. Combines GitHub REST API data with local git clone analysis for accurate historical commit statistics.
 
-Project overview was presented at Open Source Summit Europe 2018 — ["Methodology of Multi-Criteria Comparison and Typology of Open Source Projects"](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf).
+## Background
+
+The tool was built out of a frustration familiar to most engineers: choosing between open source dependencies by star count alone. Stars measure marketing, not health.
+
+The methodology behind ghstat was presented at **Linux Foundation Open Source Summit Europe 2018 in Edinburgh, UK** — ["Methodology of Multi-Criteria Comparison and Typology of Open Source Projects"](https://events19.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf). The core argument: open source project selection should be treated like engineering — systematic, multi-dimensional, reproducible. Commit velocity, contributor retention, issue resolution, and code churn together tell a story that no single metric can.
+
+A companion blog post from 2018 walking through the analysis on Python frameworks: [Using ghstat for open source project statistics and ratings](https://fedir.github.io/development/2018/04/02/using-ghstat-open-source-projects-statistics-and-ratings).
+
+Seven years later the tool has been rebuilt with hybrid analysis (GitHub API + local git clone) and run across ~200 repositories in 12 categories. The methodology holds.
 
 ## Getting started
 
