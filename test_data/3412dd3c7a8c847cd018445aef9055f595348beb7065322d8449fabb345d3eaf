@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:38 GMT
+Etag: W/"3b66d837168cb7488e5407c70ab6e258129aa85ca459a2dc17c063dbac600582"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Fri, 24 Apr 2026 10:58:21 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:14711767:13578795:6A12FD42
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4932
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 68
+X-Xss-Protection: 0
+
+{"login":"davidpdrsn","id":718941,"node_id":"MDQ6VXNlcjcxODk0MQ==","avatar_url":"https://avatars.githubusercontent.com/u/718941?v=4","gravatar_id":"","url":"https://api.github.com/users/davidpdrsn","html_url":"https://github.com/davidpdrsn","followers_url":"https://api.github.com/users/davidpdrsn/followers","following_url":"https://api.github.com/users/davidpdrsn/following{/other_user}","gists_url":"https://api.github.com/users/davidpdrsn/gists{/gist_id}","starred_url":"https://api.github.com/users/davidpdrsn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/davidpdrsn/subscriptions","organizations_url":"https://api.github.com/users/davidpdrsn/orgs","repos_url":"https://api.github.com/users/davidpdrsn/repos","events_url":"https://api.github.com/users/davidpdrsn/events{/privacy}","received_events_url":"https://api.github.com/users/davidpdrsn/received_events","type":"User","user_view_type":"public","site_admin":false,"name":"David Pedersen","company":null,"blog":"","location":"Denmark","email":"david.pdrsn@gmail.com","hireable":null,"bio":"Software Engineer, martial artist, gamer, and addicted to Cardistry","twitter_username":null,"public_repos":175,"public_gists":79,"followers":1732,"following":47,"created_at":"2011-04-09T08:30:23Z","updated_at":"2026-04-24T10:58:21Z"}

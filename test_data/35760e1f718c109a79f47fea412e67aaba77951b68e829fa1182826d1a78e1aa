@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:33 GMT
+Etag: W/"f981e621d57c65637d5ef229288b061b341f25893130fe059aed422e082f4f89"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/35136007/followers?page=9>; rel="prev", <https://api.github.com/user/35136007/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554AD15:142784FA:6A12FD79
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4866
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 134
+X-Xss-Protection: 0
+
+[{"login":"3mmar-dev","id":192822026,"node_id":"U_kgDOC347Cg","avatar_url":"https://avatars.githubusercontent.com/u/192822026?v=4","gravatar_id":"","url":"https://api.github.com/users/3mmar-dev","html_url":"https://github.com/3mmar-dev","followers_url":"https://api.github.com/users/3mmar-dev/followers","following_url":"https://api.github.com/users/3mmar-dev/following{/other_user}","gists_url":"https://api.github.com/users/3mmar-dev/gists{/gist_id}","starred_url":"https://api.github.com/users/3mmar-dev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/3mmar-dev/subscriptions","organizations_url":"https://api.github.com/users/3mmar-dev/orgs","repos_url":"https://api.github.com/users/3mmar-dev/repos","events_url":"https://api.github.com/users/3mmar-dev/events{/privacy}","received_events_url":"https://api.github.com/users/3mmar-dev/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"LinuxJS","id":193270912,"node_id":"U_kgDOC4UUgA","avatar_url":"https://avatars.githubusercontent.com/u/193270912?v=4","gravatar_id":"","url":"https://api.github.com/users/LinuxJS","html_url":"https://github.com/LinuxJS","followers_url":"https://api.github.com/users/LinuxJS/followers","following_url":"https://api.github.com/users/LinuxJS/following{/other_user}","gists_url":"https://api.github.com/users/LinuxJS/gists{/gist_id}","starred_url":"https://api.github.com/users/LinuxJS/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/LinuxJS/subscriptions","organizations_url":"https://api.github.com/users/LinuxJS/orgs","repos_url":"https://api.github.com/users/LinuxJS/repos","events_url":"https://api.github.com/users/LinuxJS/events{/privacy}","received_events_url":"https://api.github.com/users/LinuxJS/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"patmikemid-in-vr","id":207624698,"node_id":"U_kgDODGAZ-g","avatar_url":"https://avatars.githubusercontent.com/u/207624698?v=4","gravatar_id":"","url":"https://api.github.com/users/patmikemid-in-vr","html_url":"https://github.com/patmikemid-in-vr","followers_url":"https://api.github.com/users/patmikemid-in-vr/followers","following_url":"https://api.github.com/users/patmikemid-in-vr/following{/other_user}","gists_url":"https://api.github.com/users/patmikemid-in-vr/gists{/gist_id}","starred_url":"https://api.github.com/users/patmikemid-in-vr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patmikemid-in-vr/subscriptions","organizations_url":"https://api.github.com/users/patmikemid-in-vr/orgs","repos_url":"https://api.github.com/users/patmikemid-in-vr/repos","events_url":"https://api.github.com/users/patmikemid-in-vr/events{/privacy}","received_events_url":"https://api.github.com/users/patmikemid-in-vr/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"S-Rabbit81","id":222885101,"node_id":"U_kgDODUj07Q","avatar_url":"https://avatars.githubusercontent.com/u/222885101?v=4","gravatar_id":"","url":"https://api.github.com/users/S-Rabbit81","html_url":"https://github.com/S-Rabbit81","followers_url":"https://api.github.com/users/S-Rabbit81/followers","following_url":"https://api.github.com/users/S-Rabbit81/following{/other_user}","gists_url":"https://api.github.com/users/S-Rabbit81/gists{/gist_id}","starred_url":"https://api.github.com/users/S-Rabbit81/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/S-Rabbit81/subscriptions","organizations_url":"https://api.github.com/users/S-Rabbit81/orgs","repos_url":"https://api.github.com/users/S-Rabbit81/repos","events_url":"https://api.github.com/users/S-Rabbit81/events{/privacy}","received_events_url":"https://api.github.com/users/S-Rabbit81/received_events","type":"User","user_view_type":"public","site_admin":false}]

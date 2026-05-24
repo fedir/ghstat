@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:34 GMT
+Etag: W/"3dc7c911816a15018ff9effaad5d61c4d4fcf21045c2e5a3be754c07279a96c6"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/2073135/followers?page=1>; rel="prev", <https://api.github.com/user/2073135/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554B439:14278BCF:6A12FD7A
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4845
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 155
+X-Xss-Protection: 0
+
+[{"login":"samade747","id":132301326,"node_id":"U_kgDOB-LCDg","avatar_url":"https://avatars.githubusercontent.com/u/132301326?v=4","gravatar_id":"","url":"https://api.github.com/users/samade747","html_url":"https://github.com/samade747","followers_url":"https://api.github.com/users/samade747/followers","following_url":"https://api.github.com/users/samade747/following{/other_user}","gists_url":"https://api.github.com/users/samade747/gists{/gist_id}","starred_url":"https://api.github.com/users/samade747/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samade747/subscriptions","organizations_url":"https://api.github.com/users/samade747/orgs","repos_url":"https://api.github.com/users/samade747/repos","events_url":"https://api.github.com/users/samade747/events{/privacy}","received_events_url":"https://api.github.com/users/samade747/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"Iankulani","id":161088906,"node_id":"U_kgDOCZoFig","avatar_url":"https://avatars.githubusercontent.com/u/161088906?v=4","gravatar_id":"","url":"https://api.github.com/users/Iankulani","html_url":"https://github.com/Iankulani","followers_url":"https://api.github.com/users/Iankulani/followers","following_url":"https://api.github.com/users/Iankulani/following{/other_user}","gists_url":"https://api.github.com/users/Iankulani/gists{/gist_id}","starred_url":"https://api.github.com/users/Iankulani/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Iankulani/subscriptions","organizations_url":"https://api.github.com/users/Iankulani/orgs","repos_url":"https://api.github.com/users/Iankulani/repos","events_url":"https://api.github.com/users/Iankulani/events{/privacy}","received_events_url":"https://api.github.com/users/Iankulani/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"wombatsyoks","id":173272809,"node_id":"U_kgDOClPu6Q","avatar_url":"https://avatars.githubusercontent.com/u/173272809?v=4","gravatar_id":"","url":"https://api.github.com/users/wombatsyoks","html_url":"https://github.com/wombatsyoks","followers_url":"https://api.github.com/users/wombatsyoks/followers","following_url":"https://api.github.com/users/wombatsyoks/following{/other_user}","gists_url":"https://api.github.com/users/wombatsyoks/gists{/gist_id}","starred_url":"https://api.github.com/users/wombatsyoks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/wombatsyoks/subscriptions","organizations_url":"https://api.github.com/users/wombatsyoks/orgs","repos_url":"https://api.github.com/users/wombatsyoks/repos","events_url":"https://api.github.com/users/wombatsyoks/events{/privacy}","received_events_url":"https://api.github.com/users/wombatsyoks/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"LinuxJS","id":193270912,"node_id":"U_kgDOC4UUgA","avatar_url":"https://avatars.githubusercontent.com/u/193270912?v=4","gravatar_id":"","url":"https://api.github.com/users/LinuxJS","html_url":"https://github.com/LinuxJS","followers_url":"https://api.github.com/users/LinuxJS/followers","following_url":"https://api.github.com/users/LinuxJS/following{/other_user}","gists_url":"https://api.github.com/users/LinuxJS/gists{/gist_id}","starred_url":"https://api.github.com/users/LinuxJS/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/LinuxJS/subscriptions","organizations_url":"https://api.github.com/users/LinuxJS/orgs","repos_url":"https://api.github.com/users/LinuxJS/repos","events_url":"https://api.github.com/users/LinuxJS/events{/privacy}","received_events_url":"https://api.github.com/users/LinuxJS/received_events","type":"User","user_view_type":"public","site_admin":false}]

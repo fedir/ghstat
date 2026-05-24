@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:39 GMT
+Etag: W/"82b01da0b097fb3d68bb960ca9741971cd2a72b8daac8ffaf4108f4dad9be135"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sat, 23 May 2026 17:49:22 GMT
+Link: <https://api.github.com/repositories/80249302/contributors?page=8>; rel="prev", <https://api.github.com/repositories/80249302/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8E7:2D733F:14DB3E02:13B7C199:6A12FD7E
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3946
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1054
+X-Xss-Protection: 0
+
+[{"login":"Ippey","id":471948,"node_id":"MDQ6VXNlcjQ3MTk0OA==","avatar_url":"https://avatars.githubusercontent.com/u/471948?v=4","gravatar_id":"","url":"https://api.github.com/users/Ippey","html_url":"https://github.com/Ippey","followers_url":"https://api.github.com/users/Ippey/followers","following_url":"https://api.github.com/users/Ippey/following{/other_user}","gists_url":"https://api.github.com/users/Ippey/gists{/gist_id}","starred_url":"https://api.github.com/users/Ippey/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ippey/subscriptions","organizations_url":"https://api.github.com/users/Ippey/orgs","repos_url":"https://api.github.com/users/Ippey/repos","events_url":"https://api.github.com/users/Ippey/events{/privacy}","received_events_url":"https://api.github.com/users/Ippey/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1},{"login":"noregt","id":534396,"node_id":"MDQ6VXNlcjUzNDM5Ng==","avatar_url":"https://avatars.githubusercontent.com/u/534396?v=4","gravatar_id":"","url":"https://api.github.com/users/noregt","html_url":"https://github.com/noregt","followers_url":"https://api.github.com/users/noregt/followers","following_url":"https://api.github.com/users/noregt/following{/other_user}","gists_url":"https://api.github.com/users/noregt/gists{/gist_id}","starred_url":"https://api.github.com/users/noregt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/noregt/subscriptions","organizations_url":"https://api.github.com/users/noregt/orgs","repos_url":"https://api.github.com/users/noregt/repos","events_url":"https://api.github.com/users/noregt/events{/privacy}","received_events_url":"https://api.github.com/users/noregt/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1},{"login":"gustavs-gutmanis","id":709181,"node_id":"MDQ6VXNlcjcwOTE4MQ==","avatar_url":"https://avatars.githubusercontent.com/u/709181?v=4","gravatar_id":"","url":"https://api.github.com/users/gustavs-gutmanis","html_url":"https://github.com/gustavs-gutmanis","followers_url":"https://api.github.com/users/gustavs-gutmanis/followers","following_url":"https://api.github.com/users/gustavs-gutmanis/following{/other_user}","gists_url":"https://api.github.com/users/gustavs-gutmanis/gists{/gist_id}","starred_url":"https://api.github.com/users/gustavs-gutmanis/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gustavs-gutmanis/subscriptions","organizations_url":"https://api.github.com/users/gustavs-gutmanis/orgs","repos_url":"https://api.github.com/users/gustavs-gutmanis/repos","events_url":"https://api.github.com/users/gustavs-gutmanis/events{/privacy}","received_events_url":"https://api.github.com/users/gustavs-gutmanis/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1}]

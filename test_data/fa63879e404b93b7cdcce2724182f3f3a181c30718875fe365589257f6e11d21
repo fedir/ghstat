@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:36 GMT
+Etag: W/"28ce47ded51b4790964a2c9829a5724b81c971f413e8d98206433eb276c6dd1c"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 13:02:11 GMT
+Link: <https://api.github.com/repositories/80945428/tags?page=12>; rel="prev", <https://api.github.com/repositories/80945428/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554C1A1:142797F7:6A12FD7C
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3976
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1024
+X-Xss-Protection: 0
+
+[{"name":"v4.4.1","zipball_url":"https://api.github.com/repos/nestjs/nest/zipball/refs/tags/v4.4.1","tarball_url":"https://api.github.com/repos/nestjs/nest/tarball/refs/tags/v4.4.1","commit":{"sha":"832eb517df4eaaf3a3cbd59f5f69c57e30bc715a","url":"https://api.github.com/repos/nestjs/nest/commits/832eb517df4eaaf3a3cbd59f5f69c57e30bc715a"},"node_id":"MDM6UmVmODA5NDU0Mjg6cmVmcy90YWdzL3Y0LjQuMQ=="},{"name":"v4.4.0","zipball_url":"https://api.github.com/repos/nestjs/nest/zipball/refs/tags/v4.4.0","tarball_url":"https://api.github.com/repos/nestjs/nest/tarball/refs/tags/v4.4.0","commit":{"sha":"b34b24e75c48f541987546086689f0bc42916c07","url":"https://api.github.com/repos/nestjs/nest/commits/b34b24e75c48f541987546086689f0bc42916c07"},"node_id":"MDM6UmVmODA5NDU0Mjg6cmVmcy90YWdzL3Y0LjQuMA=="},{"name":"6.3.1","zipball_url":"https://api.github.com/repos/nestjs/nest/zipball/refs/tags/6.3.1","tarball_url":"https://api.github.com/repos/nestjs/nest/tarball/refs/tags/6.3.1","commit":{"sha":"78f980008865809d5a94b3c09ad5fa070517c3f6","url":"https://api.github.com/repos/nestjs/nest/commits/78f980008865809d5a94b3c09ad5fa070517c3f6"},"node_id":"MDM6UmVmODA5NDU0Mjg6cmVmcy90YWdzLzYuMy4x"}]

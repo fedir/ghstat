@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:32 GMT
+Etag: W/"b959c9b67e1168b19a4f484b6aa57cd5af7e30eafeafa0b3731eefc21bcc03d6"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/5959235/followers?page=16>; rel="prev", <https://api.github.com/user/5959235/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554AAE2:14278305:6A12FD78
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4870
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 130
+X-Xss-Protection: 0
+
+[{"login":"LinuxJS","id":193270912,"node_id":"U_kgDOC4UUgA","avatar_url":"https://avatars.githubusercontent.com/u/193270912?v=4","gravatar_id":"","url":"https://api.github.com/users/LinuxJS","html_url":"https://github.com/LinuxJS","followers_url":"https://api.github.com/users/LinuxJS/followers","following_url":"https://api.github.com/users/LinuxJS/following{/other_user}","gists_url":"https://api.github.com/users/LinuxJS/gists{/gist_id}","starred_url":"https://api.github.com/users/LinuxJS/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/LinuxJS/subscriptions","organizations_url":"https://api.github.com/users/LinuxJS/orgs","repos_url":"https://api.github.com/users/LinuxJS/repos","events_url":"https://api.github.com/users/LinuxJS/events{/privacy}","received_events_url":"https://api.github.com/users/LinuxJS/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"miracleflow","id":199963114,"node_id":"U_kgDOC-sx6g","avatar_url":"https://avatars.githubusercontent.com/u/199963114?v=4","gravatar_id":"","url":"https://api.github.com/users/miracleflow","html_url":"https://github.com/miracleflow","followers_url":"https://api.github.com/users/miracleflow/followers","following_url":"https://api.github.com/users/miracleflow/following{/other_user}","gists_url":"https://api.github.com/users/miracleflow/gists{/gist_id}","starred_url":"https://api.github.com/users/miracleflow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/miracleflow/subscriptions","organizations_url":"https://api.github.com/users/miracleflow/orgs","repos_url":"https://api.github.com/users/miracleflow/repos","events_url":"https://api.github.com/users/miracleflow/events{/privacy}","received_events_url":"https://api.github.com/users/miracleflow/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"nikecodedev","id":231803691,"node_id":"U_kgDODdELKw","avatar_url":"https://avatars.githubusercontent.com/u/231803691?v=4","gravatar_id":"","url":"https://api.github.com/users/nikecodedev","html_url":"https://github.com/nikecodedev","followers_url":"https://api.github.com/users/nikecodedev/followers","following_url":"https://api.github.com/users/nikecodedev/following{/other_user}","gists_url":"https://api.github.com/users/nikecodedev/gists{/gist_id}","starred_url":"https://api.github.com/users/nikecodedev/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nikecodedev/subscriptions","organizations_url":"https://api.github.com/users/nikecodedev/orgs","repos_url":"https://api.github.com/users/nikecodedev/repos","events_url":"https://api.github.com/users/nikecodedev/events{/privacy}","received_events_url":"https://api.github.com/users/nikecodedev/received_events","type":"User","user_view_type":"public","site_admin":false}]

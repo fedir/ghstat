@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:36 GMT
+Etag: W/"86c006b98aa516ec5e4c70b43422b8faa75c16faa7efae8e38b7178e0da104f7"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sat, 23 May 2026 19:18:55 GMT
+Link: <https://api.github.com/repositories/11551538/tags?page=4>; rel="prev", <https://api.github.com/repositories/11551538/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554BE8C:142794FF:6A12FD7B
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3990
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1010
+X-Xss-Protection: 0
+
+[{"name":"0.2.0","zipball_url":"https://api.github.com/repos/koajs/koa/zipball/refs/tags/0.2.0","tarball_url":"https://api.github.com/repos/koajs/koa/tarball/refs/tags/0.2.0","commit":{"sha":"08a88a92dba20c39e2a6666457f87fa89d8a4244","url":"https://api.github.com/repos/koajs/koa/commits/08a88a92dba20c39e2a6666457f87fa89d8a4244"},"node_id":"MDM6UmVmMTE1NTE1Mzg6cmVmcy90YWdzLzAuMi4w"},{"name":"0.1.2","zipball_url":"https://api.github.com/repos/koajs/koa/zipball/refs/tags/0.1.2","tarball_url":"https://api.github.com/repos/koajs/koa/tarball/refs/tags/0.1.2","commit":{"sha":"6b16574df7c3d09583f24c5858ff10bd83734a2c","url":"https://api.github.com/repos/koajs/koa/commits/6b16574df7c3d09583f24c5858ff10bd83734a2c"},"node_id":"MDM6UmVmMTE1NTE1Mzg6cmVmcy90YWdzLzAuMS4y"},{"name":"0.1.1","zipball_url":"https://api.github.com/repos/koajs/koa/zipball/refs/tags/0.1.1","tarball_url":"https://api.github.com/repos/koajs/koa/tarball/refs/tags/0.1.1","commit":{"sha":"45db061563e349c29f6c7131453b0bf5a3e49448","url":"https://api.github.com/repos/koajs/koa/commits/45db061563e349c29f6c7131453b0bf5a3e49448"},"node_id":"MDM6UmVmMTE1NTE1Mzg6cmVmcy90YWdzLzAuMS4x"},{"name":"0.1.0","zipball_url":"https://api.github.com/repos/koajs/koa/zipball/refs/tags/0.1.0","tarball_url":"https://api.github.com/repos/koajs/koa/tarball/refs/tags/0.1.0","commit":{"sha":"a381881bc15f6de686373a6509ff073bb6290132","url":"https://api.github.com/repos/koajs/koa/commits/a381881bc15f6de686373a6509ff073bb6290132"},"node_id":"MDM6UmVmMTE1NTE1Mzg6cmVmcy90YWdzLzAuMS4w"},{"name":"0.0.2","zipball_url":"https://api.github.com/repos/koajs/koa/zipball/refs/tags/0.0.2","tarball_url":"https://api.github.com/repos/koajs/koa/tarball/refs/tags/0.0.2","commit":{"sha":"8ee8abcc3268189c3f44abfb64d42903a87c4d5e","url":"https://api.github.com/repos/koajs/koa/commits/8ee8abcc3268189c3f44abfb64d42903a87c4d5e"},"node_id":"MDM6UmVmMTE1NTE1Mzg6cmVmcy90YWdzLzAuMC4y"}]

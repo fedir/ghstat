@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:30 GMT
+Etag: W/"92e9e81c4612f052879ff43aed9329f30b508199bf3ab34ffff297efd18a0849"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/2768267/followers?page=127>; rel="prev", <https://api.github.com/user/2768267/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:155499F3:14277368:6A12FD75
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4899
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 101
+X-Xss-Protection: 0
+
+[{"login":"nayupls","id":260500668,"node_id":"U_kgDOD4bsvA","avatar_url":"https://avatars.githubusercontent.com/u/260500668?v=4","gravatar_id":"","url":"https://api.github.com/users/nayupls","html_url":"https://github.com/nayupls","followers_url":"https://api.github.com/users/nayupls/followers","following_url":"https://api.github.com/users/nayupls/following{/other_user}","gists_url":"https://api.github.com/users/nayupls/gists{/gist_id}","starred_url":"https://api.github.com/users/nayupls/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nayupls/subscriptions","organizations_url":"https://api.github.com/users/nayupls/orgs","repos_url":"https://api.github.com/users/nayupls/repos","events_url":"https://api.github.com/users/nayupls/events{/privacy}","received_events_url":"https://api.github.com/users/nayupls/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"rakibulAI","id":266117683,"node_id":"U_kgDOD9yiMw","avatar_url":"https://avatars.githubusercontent.com/u/266117683?v=4","gravatar_id":"","url":"https://api.github.com/users/rakibulAI","html_url":"https://github.com/rakibulAI","followers_url":"https://api.github.com/users/rakibulAI/followers","following_url":"https://api.github.com/users/rakibulAI/following{/other_user}","gists_url":"https://api.github.com/users/rakibulAI/gists{/gist_id}","starred_url":"https://api.github.com/users/rakibulAI/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rakibulAI/subscriptions","organizations_url":"https://api.github.com/users/rakibulAI/orgs","repos_url":"https://api.github.com/users/rakibulAI/repos","events_url":"https://api.github.com/users/rakibulAI/events{/privacy}","received_events_url":"https://api.github.com/users/rakibulAI/received_events","type":"User","user_view_type":"public","site_admin":false}]

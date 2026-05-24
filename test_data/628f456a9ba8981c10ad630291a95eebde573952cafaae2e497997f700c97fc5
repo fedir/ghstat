@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:41 GMT
+Etag: W/"a2920b9c14da95b9476a4d4b7fb0b0e816712b436214a6e16a3c58a819ead562"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/291359/followers?page=14>; rel="prev", <https://api.github.com/user/291359/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:14712A88:13579970:6A12FD45
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4919
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 81
+X-Xss-Protection: 0
+
+[{"login":"mwanikiwilson001","id":278607506,"node_id":"U_kgDOEJs2kg","avatar_url":"https://avatars.githubusercontent.com/u/278607506?v=4","gravatar_id":"","url":"https://api.github.com/users/mwanikiwilson001","html_url":"https://github.com/mwanikiwilson001","followers_url":"https://api.github.com/users/mwanikiwilson001/followers","following_url":"https://api.github.com/users/mwanikiwilson001/following{/other_user}","gists_url":"https://api.github.com/users/mwanikiwilson001/gists{/gist_id}","starred_url":"https://api.github.com/users/mwanikiwilson001/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mwanikiwilson001/subscriptions","organizations_url":"https://api.github.com/users/mwanikiwilson001/orgs","repos_url":"https://api.github.com/users/mwanikiwilson001/repos","events_url":"https://api.github.com/users/mwanikiwilson001/events{/privacy}","received_events_url":"https://api.github.com/users/mwanikiwilson001/received_events","type":"User","user_view_type":"public","site_admin":false}]

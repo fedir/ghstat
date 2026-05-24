@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:34 GMT
+Etag: W/"77102ad76c71aafa0f5ef6aab8967cf827d1928f6046479c3b160decd9606850"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 03:13:53 GMT
+Link: <https://api.github.com/repositories/304344049/contributors?page=15>; rel="prev", <https://api.github.com/repositories/304344049/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554B14E:1427893D:6A12FD79
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4042
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 958
+X-Xss-Protection: 0
+
+[{"login":"codercms","id":4526911,"node_id":"MDQ6VXNlcjQ1MjY5MTE=","avatar_url":"https://avatars.githubusercontent.com/u/4526911?v=4","gravatar_id":"","url":"https://api.github.com/users/codercms","html_url":"https://github.com/codercms","followers_url":"https://api.github.com/users/codercms/followers","following_url":"https://api.github.com/users/codercms/following{/other_user}","gists_url":"https://api.github.com/users/codercms/gists{/gist_id}","starred_url":"https://api.github.com/users/codercms/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/codercms/subscriptions","organizations_url":"https://api.github.com/users/codercms/orgs","repos_url":"https://api.github.com/users/codercms/repos","events_url":"https://api.github.com/users/codercms/events{/privacy}","received_events_url":"https://api.github.com/users/codercms/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1},{"login":"dreitzner","id":30938967,"node_id":"MDQ6VXNlcjMwOTM4OTY3","avatar_url":"https://avatars.githubusercontent.com/u/30938967?v=4","gravatar_id":"","url":"https://api.github.com/users/dreitzner","html_url":"https://github.com/dreitzner","followers_url":"https://api.github.com/users/dreitzner/followers","following_url":"https://api.github.com/users/dreitzner/following{/other_user}","gists_url":"https://api.github.com/users/dreitzner/gists{/gist_id}","starred_url":"https://api.github.com/users/dreitzner/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dreitzner/subscriptions","organizations_url":"https://api.github.com/users/dreitzner/orgs","repos_url":"https://api.github.com/users/dreitzner/repos","events_url":"https://api.github.com/users/dreitzner/events{/privacy}","received_events_url":"https://api.github.com/users/dreitzner/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1}]

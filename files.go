@@ -24,6 +24,9 @@ func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
 		log.Fatalf("Could not read from %s", tmpFolderPath)
 	}
 	for _, name := range names {
+		if name == "projects" {
+			continue // preserve local git clones
+		}
 		fp := filepath.Join(tmpFolderPath, name)
 		if dryRun {
 			fmt.Printf("Deleted %s\n", fp)

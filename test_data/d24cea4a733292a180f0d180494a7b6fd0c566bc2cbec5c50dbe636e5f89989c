@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:41 GMT
+Etag: W/"a595bde39952e176d40209da0c209c6ce30251b881298bcea414aff8d235b0fb"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 10:44:26 GMT
+Link: <https://api.github.com/repositories/54168759/tags?page=2>; rel="prev", <https://api.github.com/repositories/54168759/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:147127E8:135796EB:6A12FD45
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4218
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 782
+X-Xss-Protection: 0
+
+[{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/rwf2/Rocket/zipball/refs/tags/v0.0.8","tarball_url":"https://api.github.com/repos/rwf2/Rocket/tarball/refs/tags/v0.0.8","commit":{"sha":"21e26c32c0323fa67d3dd4196b38efb18eb20115","url":"https://api.github.com/repos/rwf2/Rocket/commits/21e26c32c0323fa67d3dd4196b38efb18eb20115"},"node_id":"MDM6UmVmNTQxNjg3NTk6cmVmcy90YWdzL3YwLjAuOA=="},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/rwf2/Rocket/zipball/refs/tags/v0.0.6","tarball_url":"https://api.github.com/repos/rwf2/Rocket/tarball/refs/tags/v0.0.6","commit":{"sha":"bb9faeb34482370db1e12873567caa5a52894ebd","url":"https://api.github.com/repos/rwf2/Rocket/commits/bb9faeb34482370db1e12873567caa5a52894ebd"},"node_id":"MDM6UmVmNTQxNjg3NTk6cmVmcy90YWdzL3YwLjAuNg=="},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/rwf2/Rocket/zipball/refs/tags/v0.0.5","tarball_url":"https://api.github.com/repos/rwf2/Rocket/tarball/refs/tags/v0.0.5","commit":{"sha":"3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d","url":"https://api.github.com/repos/rwf2/Rocket/commits/3a89cb8e2b113f7dfa5e8a282d4fafe8a414362d"},"node_id":"MDM6UmVmNTQxNjg3NTk6cmVmcy90YWdzL3YwLjAuNQ=="}]

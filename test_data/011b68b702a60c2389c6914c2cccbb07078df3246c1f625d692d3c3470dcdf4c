@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:34 GMT
+Etag: W/"ed31ac0154d8205a16c08462f59f2664be9a3b0a9fbd57a98c7df17d59ff77e3"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/321201/followers?page=13>; rel="prev", <https://api.github.com/user/321201/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554B6B8:14278E1B:6A12FD7A
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4840
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 160
+X-Xss-Protection: 0
+
+[{"login":"cansandraann90-ctrl","id":264265273,"node_id":"U_kgDOD8BeOQ","avatar_url":"https://avatars.githubusercontent.com/u/264265273?v=4","gravatar_id":"","url":"https://api.github.com/users/cansandraann90-ctrl","html_url":"https://github.com/cansandraann90-ctrl","followers_url":"https://api.github.com/users/cansandraann90-ctrl/followers","following_url":"https://api.github.com/users/cansandraann90-ctrl/following{/other_user}","gists_url":"https://api.github.com/users/cansandraann90-ctrl/gists{/gist_id}","starred_url":"https://api.github.com/users/cansandraann90-ctrl/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cansandraann90-ctrl/subscriptions","organizations_url":"https://api.github.com/users/cansandraann90-ctrl/orgs","repos_url":"https://api.github.com/users/cansandraann90-ctrl/repos","events_url":"https://api.github.com/users/cansandraann90-ctrl/events{/privacy}","received_events_url":"https://api.github.com/users/cansandraann90-ctrl/received_events","type":"User","user_view_type":"public","site_admin":false}]

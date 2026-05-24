@@ -1,0 +1,28 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:40 GMT
+Etag: W/"bfa438378f6132f1e130bd34ae464abc6981a9b90efd72c3a0086d2613cf5bf4"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:1471236B:1357929F:6A12FD44
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4227
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 773
+X-Xss-Protection: 0
+
+[{"login":"Neustradamus","id":104737,"node_id":"MDQ6VXNlcjEwNDczNw==","avatar_url":"https://avatars.githubusercontent.com/u/104737?v=4","gravatar_id":"","url":"https://api.github.com/users/Neustradamus","html_url":"https://github.com/Neustradamus","followers_url":"https://api.github.com/users/Neustradamus/followers","following_url":"https://api.github.com/users/Neustradamus/following{/other_user}","gists_url":"https://api.github.com/users/Neustradamus/gists{/gist_id}","starred_url":"https://api.github.com/users/Neustradamus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Neustradamus/subscriptions","organizations_url":"https://api.github.com/users/Neustradamus/orgs","repos_url":"https://api.github.com/users/Neustradamus/repos","events_url":"https://api.github.com/users/Neustradamus/events{/privacy}","received_events_url":"https://api.github.com/users/Neustradamus/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"Phosphorus-M","id":19656993,"node_id":"MDQ6VXNlcjE5NjU2OTkz","avatar_url":"https://avatars.githubusercontent.com/u/19656993?v=4","gravatar_id":"","url":"https://api.github.com/users/Phosphorus-M","html_url":"https://github.com/Phosphorus-M","followers_url":"https://api.github.com/users/Phosphorus-M/followers","following_url":"https://api.github.com/users/Phosphorus-M/following{/other_user}","gists_url":"https://api.github.com/users/Phosphorus-M/gists{/gist_id}","starred_url":"https://api.github.com/users/Phosphorus-M/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Phosphorus-M/subscriptions","organizations_url":"https://api.github.com/users/Phosphorus-M/orgs","repos_url":"https://api.github.com/users/Phosphorus-M/repos","events_url":"https://api.github.com/users/Phosphorus-M/events{/privacy}","received_events_url":"https://api.github.com/users/Phosphorus-M/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"Connor9994","id":39637206,"node_id":"MDQ6VXNlcjM5NjM3MjA2","avatar_url":"https://avatars.githubusercontent.com/u/39637206?v=4","gravatar_id":"","url":"https://api.github.com/users/Connor9994","html_url":"https://github.com/Connor9994","followers_url":"https://api.github.com/users/Connor9994/followers","following_url":"https://api.github.com/users/Connor9994/following{/other_user}","gists_url":"https://api.github.com/users/Connor9994/gists{/gist_id}","starred_url":"https://api.github.com/users/Connor9994/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Connor9994/subscriptions","organizations_url":"https://api.github.com/users/Connor9994/orgs","repos_url":"https://api.github.com/users/Connor9994/repos","events_url":"https://api.github.com/users/Connor9994/events{/privacy}","received_events_url":"https://api.github.com/users/Connor9994/received_events","type":"User","user_view_type":"public","site_admin":false}]

@@ -1,0 +1,27 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 11:56:18 GMT
+Etag: W/"4c00b3233fd8e9b0d97ca47d62e90f4decc44d011cbfa7d50714af45f792519b"
+Last-Modified: Sat, 23 May 2026 22:46:12 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E1E4:1681:D05E09D:C3BEBE7:6A12E762
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 41
+X-Ratelimit-Reset: 1779625962
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 19
+X-Xss-Protection: 0
+
+{"Go":1619265,"HTML":62489,"Python":45994,"Shell":4325,"Makefile":4303,"CSS":4051,"Go Template":1648,"JavaScript":1400,"Dockerfile":1022,"Ruby":119}

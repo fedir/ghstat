@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:33 GMT
+Etag: W/"67b2bd9fd1115f09b6e18863ac2c78a4d29554c5a78dbf2fedb336e6a628c98a"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Mon, 27 Apr 2026 20:47:46 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554AC47:1427845B:6A12FD79
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4868
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 132
+X-Xss-Protection: 0
+
+{"login":"rauchg","id":13041,"node_id":"MDQ6VXNlcjEzMDQx","avatar_url":"https://avatars.githubusercontent.com/u/13041?v=4","gravatar_id":"","url":"https://api.github.com/users/rauchg","html_url":"https://github.com/rauchg","followers_url":"https://api.github.com/users/rauchg/followers","following_url":"https://api.github.com/users/rauchg/following{/other_user}","gists_url":"https://api.github.com/users/rauchg/gists{/gist_id}","starred_url":"https://api.github.com/users/rauchg/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rauchg/subscriptions","organizations_url":"https://api.github.com/users/rauchg/orgs","repos_url":"https://api.github.com/users/rauchg/repos","events_url":"https://api.github.com/users/rauchg/events{/privacy}","received_events_url":"https://api.github.com/users/rauchg/received_events","type":"User","user_view_type":"public","site_admin":false,"name":"Guillermo Rauch","company":"https://vercel.com","blog":"http://twitter.com/rauchg","location":"SF","email":"rauchg@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":140,"public_gists":31,"followers":16857,"following":882,"created_at":"2008-06-09T02:22:48Z","updated_at":"2026-04-27T20:47:46Z"}

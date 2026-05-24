@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:28:38 GMT
+Etag: W/"dade6b0e742c76a0ba6816056c68f2596da3955a379eee3ca94dd9b3130259fc"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/6501251/followers?page=1>; rel="prev", <https://api.github.com/user/6501251/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E87F:1698:140715C3:12E12172:6A12FD06
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4944
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 56
+X-Xss-Protection: 0
+
+[{"login":"MARYDOGSHELTER","id":137525390,"node_id":"U_kgDOCDJ4jg","avatar_url":"https://avatars.githubusercontent.com/u/137525390?v=4","gravatar_id":"","url":"https://api.github.com/users/MARYDOGSHELTER","html_url":"https://github.com/MARYDOGSHELTER","followers_url":"https://api.github.com/users/MARYDOGSHELTER/followers","following_url":"https://api.github.com/users/MARYDOGSHELTER/following{/other_user}","gists_url":"https://api.github.com/users/MARYDOGSHELTER/gists{/gist_id}","starred_url":"https://api.github.com/users/MARYDOGSHELTER/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MARYDOGSHELTER/subscriptions","organizations_url":"https://api.github.com/users/MARYDOGSHELTER/orgs","repos_url":"https://api.github.com/users/MARYDOGSHELTER/repos","events_url":"https://api.github.com/users/MARYDOGSHELTER/events{/privacy}","received_events_url":"https://api.github.com/users/MARYDOGSHELTER/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"scrrlt","id":235653744,"node_id":"U_kgDODgvKcA","avatar_url":"https://avatars.githubusercontent.com/u/235653744?v=4","gravatar_id":"","url":"https://api.github.com/users/scrrlt","html_url":"https://github.com/scrrlt","followers_url":"https://api.github.com/users/scrrlt/followers","following_url":"https://api.github.com/users/scrrlt/following{/other_user}","gists_url":"https://api.github.com/users/scrrlt/gists{/gist_id}","starred_url":"https://api.github.com/users/scrrlt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/scrrlt/subscriptions","organizations_url":"https://api.github.com/users/scrrlt/orgs","repos_url":"https://api.github.com/users/scrrlt/repos","events_url":"https://api.github.com/users/scrrlt/events{/privacy}","received_events_url":"https://api.github.com/users/scrrlt/received_events","type":"User","user_view_type":"public","site_admin":false}]

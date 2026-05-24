@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:37 GMT
+Etag: W/"eeb3c57082a42bdd3674db064bb10c8410a626cb37da5229e2b9d47993ab32b1"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 10:40:31 GMT
+Link: <https://api.github.com/repositories/71995937/contributors?page=14>; rel="prev", <https://api.github.com/repositories/71995937/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554C534:14279B48:6A12FD7D
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3965
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1035
+X-Xss-Protection: 0
+
+[{"login":"sir-kain","id":8977909,"node_id":"MDQ6VXNlcjg5Nzc5MDk=","avatar_url":"https://avatars.githubusercontent.com/u/8977909?v=4","gravatar_id":"","url":"https://api.github.com/users/sir-kain","html_url":"https://github.com/sir-kain","followers_url":"https://api.github.com/users/sir-kain/followers","following_url":"https://api.github.com/users/sir-kain/following{/other_user}","gists_url":"https://api.github.com/users/sir-kain/gists{/gist_id}","starred_url":"https://api.github.com/users/sir-kain/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sir-kain/subscriptions","organizations_url":"https://api.github.com/users/sir-kain/orgs","repos_url":"https://api.github.com/users/sir-kain/repos","events_url":"https://api.github.com/users/sir-kain/events{/privacy}","received_events_url":"https://api.github.com/users/sir-kain/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1}]

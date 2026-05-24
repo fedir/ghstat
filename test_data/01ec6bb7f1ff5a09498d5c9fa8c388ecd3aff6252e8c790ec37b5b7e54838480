@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:39 GMT
+Etag: W/"44a74407ad6c9f17a821f6d8d5688469c57aa67fd6dbc2c55c3b223bd6eddb1f"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/3974920/followers?page=1>; rel="prev", <https://api.github.com/user/3974920/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:1471203C:13578FD5:6A12FD43
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4929
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 71
+X-Xss-Protection: 0
+
+[{"login":"freenet-for-poor","id":256210180,"node_id":"U_kgDOD0V1BA","avatar_url":"https://avatars.githubusercontent.com/u/256210180?v=4","gravatar_id":"","url":"https://api.github.com/users/freenet-for-poor","html_url":"https://github.com/freenet-for-poor","followers_url":"https://api.github.com/users/freenet-for-poor/followers","following_url":"https://api.github.com/users/freenet-for-poor/following{/other_user}","gists_url":"https://api.github.com/users/freenet-for-poor/gists{/gist_id}","starred_url":"https://api.github.com/users/freenet-for-poor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/freenet-for-poor/subscriptions","organizations_url":"https://api.github.com/users/freenet-for-poor/orgs","repos_url":"https://api.github.com/users/freenet-for-poor/repos","events_url":"https://api.github.com/users/freenet-for-poor/events{/privacy}","received_events_url":"https://api.github.com/users/freenet-for-poor/received_events","type":"User","user_view_type":"public","site_admin":false}]
