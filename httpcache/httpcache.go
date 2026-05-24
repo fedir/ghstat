@@ -26,19 +26,24 @@ import (
 	"net/http/httputil"
 	"os"
 	"strconv"
+	"sync"
 	"time"
 )
 
-var httpClient = newHTTPClient()
+var httpClient *http.Client
+var httpClientOnce sync.Once
 
-func newHTTPClient() *http.Client {
-	timeout := 30 * time.Second
-	if v := os.Getenv("GH_HTTP_TIMEOUT"); v != "" {
-		if sec, err := strconv.Atoi(v); err == nil && sec > 0 {
-			timeout = time.Duration(sec) * time.Second
+func getHTTPClient() *http.Client {
+	httpClientOnce.Do(func() {
+		timeout := 30 * time.Second
+		if v := os.Getenv("GH_HTTP_TIMEOUT"); v != "" {
+			if sec, err := strconv.Atoi(v); err == nil && sec > 0 {
+				timeout = time.Duration(sec) * time.Second
+			}
 		}
-	}
-	return &http.Client{Timeout: timeout}
+		httpClient = &http.Client{Timeout: timeout}
+	})
+	return httpClient
 }
 
 const dumpBody = true
@@ -59,7 +64,7 @@ func MakeHTTPRequest(url string) ([]byte, int, error) {
 	if token := os.Getenv("GH_TOKEN"); token != "" {
 		req.Header.Set("Authorization", "Bearer "+token)
 	}
-	resp, err := httpClient.Do(req)
+	resp, err := getHTTPClient().Do(req)
 	if err != nil {
 		log.Fatal("cannot process the HTTP request", err)
 	}
