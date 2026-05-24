@@ -109,13 +109,16 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 			panic(err)
 		}
 		if statusCode == 403 {
-			log.Fatalf("Looks like the rate limit is exceeded, please try again in 60 minutes. Or make a pull request with authentification feature.")
+			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
 		} else if statusCode == 202 {
 			log.Printf("Server is computing stats, retrying in 5s...")
 			time.Sleep(5 * time.Second)
 			return MakeCachedHTTPRequest(url, tmpFolder, debug)
+		} else if statusCode == 404 {
+			log.Printf("not found (404), skipping: %s", url)
+			return resp
 		} else if statusCode != 200 {
-			log.Fatalf("The status code of URL %s is not OK : %d", url, statusCode)
+			log.Fatalf("unexpected status %d for URL %s", statusCode, url)
 		}
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
