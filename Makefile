@@ -48,9 +48,9 @@ run-go-microservices: build
 	./$(BINARY) -r koding/kite,nytimes/gizmo,micro/go-micro,rsms/gotalk,gocircuit/circuit,go-kit/kit \
 		-f $(STATS_DIR)/go_microservice_toolkits.csv -t $(CACHE_DIR)
 
-## run-all: run all framework/CMS comparisons
+## run-all: run all framework/CMS comparisons and regenerate ratings.md
 run-all: build
-	bash bin/build_all.sh
+	bash bin/build_all.sh > ratings.md
 
 ## help: show this help
 help:
