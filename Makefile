@@ -1,4 +1,4 @@
-.PHONY: build test vet lint clean cache-clear rate-limit run-go run-go-microservices run-all help
+.PHONY: build test vet lint clean cache-clear clone-clear rate-limit run-go run-go-microservices run-all help
 
 BINARY := ghstat
 STATS_DIR := stats
@@ -20,14 +20,18 @@ test:
 vet:
 	go vet ./...
 
-## clean: remove binary and cache
+## clean: remove binary and API cache (preserves local clones in tmp/projects/)
 clean:
 	rm -f $(BINARY)
 	rm -rf $(CACHE_DIR)
 
-## cache-clear: clear HTTP response cache
+## cache-clear: clear HTTP response cache (preserves local clones)
 cache-clear: build
 	./$(BINARY) -cc -t $(CACHE_DIR)
+
+## clone-clear: remove locally cloned repositories (tmp/projects/ can be several GB)
+clone-clear:
+	rm -rf $(CACHE_DIR)/projects
 
 ## rate-limit: show current GitHub API rate limit status
 rate-limit: build

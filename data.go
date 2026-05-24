@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"github.com/fedir/ghstat/github"
+	"github.com/fedir/ghstat/localstat"
 )
 
 func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository, wg *sync.WaitGroup) {
@@ -76,8 +77,20 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	r.AverageContributionPeriod = contributionStatistics.AverageContributionPeriod
 	r.ReturningContributors = contributionStatistics.ReturningContributors
 	r.MediCommitSize = contributionStatistics.MediumCommitSize
-
 	r.CommitsByDay = github.GetCommitsByDay(contributionStatistics.TotalCommits, r.Age)
+
+	// Hybrid: enrich with local git stats — authoritative for commit history
+	localStats := localstat.GetContributionStatistics(rKey, tmpFolder)
+	if localStats.TotalCommits > 0 {
+		r.TotalCommits = localStats.TotalCommits
+		r.TotalAdditions = localStats.TotalAdditions
+		r.TotalDeletions = localStats.TotalDeletions
+		r.TotalCodeChanges = localStats.TotalCodeChanges
+		r.MediCommitSize = localStats.MediumCommitSize
+		r.AverageContributionPeriod = localStats.AverageContributionPeriod
+		r.ReturningContributors = localStats.ReturningContributors
+		r.CommitsByDay = github.GetCommitsByDay(localStats.TotalCommits, r.Age)
+	}
 
 	log.Printf("%-40s done (%.1fs)", rKey, time.Since(start).Seconds())
 	dataChan <- *r
