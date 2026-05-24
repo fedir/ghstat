@@ -19,7 +19,7 @@ func main() {
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
 		clearHTTPCacheDryRun   = flag.Bool("ccdr", false, "Clear HTTP cache (dry run)")
 		debug                  = flag.Bool("d", false, "Debug mode")
-		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
+		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved (required)")
 		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		tmpFolder              = flag.String("t", "test_data", "Temporary folder path")
@@ -52,11 +52,12 @@ func main() {
 		})
 	}
 
-	csvFilePath := ""
-	if *resultFileSavePath != "" {
-		csvFilePath = *resultFileSavePath
-	} else {
-		csvFilePath = "result.csv"
+	if *resultFileSavePath == "" {
+		flag.Usage()
+		os.Exit(1)
+	}
+	if err := os.MkdirAll("stats", 0755); err != nil {
+		panic(err)
 	}
 	var ghData = []Repository{}
 	var wg sync.WaitGroup
@@ -71,7 +72,7 @@ func main() {
 	}
 	wg.Wait()
 	rateAndPrintGreetings(ghData)
-	writeCSVStatistics(ghData, csvFilePath)
+	writeCSVStatistics(ghData, *resultFileSavePath)
 }
 
 func uniqSlice(s []string) []string {
