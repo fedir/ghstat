@@ -43,7 +43,6 @@ longhorn/longhorn,\
 strimzi/strimzi-kafka-operator,\
 chaos-mesh/chaos-mesh,\
 kubevirt/kubevirt,\
-operator-framework/operator-sdk,\
 VictoriaMetrics/VictoriaMetrics,\
 VictoriaMetrics/VictoriaLogs,\
 kubeflow/kubeflow,\
@@ -52,8 +51,7 @@ tektoncd/pipeline,\
 buildpacks/pack,\
 emissary-ingress/emissary,\
 artifacthub/hub,\
-openkruise/kruise,\
-wasmCloud/wasmCloud \
+openkruise/kruise \
 -f stats/cncf_projects.csv -t tmp
 echo "[Detailed CNCF projects statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/cncf_projects.csv)"
 echo ""
