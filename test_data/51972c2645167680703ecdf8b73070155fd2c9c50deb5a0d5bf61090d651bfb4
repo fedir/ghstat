@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:38 GMT
+Etag: W/"b38ab4cbcee0cd18c6cbe67ff8df8d6442ee9e5999eac2e253fc31957bd2024e"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/29931815/followers?page=148>; rel="prev", <https://api.github.com/user/29931815/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554CC29:1427A19C:6A12FD7E
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4808
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 192
+X-Xss-Protection: 0
+
+[{"login":"TheChyeahhh","id":266442946,"node_id":"U_kgDOD-GYwg","avatar_url":"https://avatars.githubusercontent.com/u/266442946?v=4","gravatar_id":"","url":"https://api.github.com/users/TheChyeahhh","html_url":"https://github.com/TheChyeahhh","followers_url":"https://api.github.com/users/TheChyeahhh/followers","following_url":"https://api.github.com/users/TheChyeahhh/following{/other_user}","gists_url":"https://api.github.com/users/TheChyeahhh/gists{/gist_id}","starred_url":"https://api.github.com/users/TheChyeahhh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/TheChyeahhh/subscriptions","organizations_url":"https://api.github.com/users/TheChyeahhh/orgs","repos_url":"https://api.github.com/users/TheChyeahhh/repos","events_url":"https://api.github.com/users/TheChyeahhh/events{/privacy}","received_events_url":"https://api.github.com/users/TheChyeahhh/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"ngockhoanguyen994","id":276280755,"node_id":"U_kgDOEHe1sw","avatar_url":"https://avatars.githubusercontent.com/u/276280755?v=4","gravatar_id":"","url":"https://api.github.com/users/ngockhoanguyen994","html_url":"https://github.com/ngockhoanguyen994","followers_url":"https://api.github.com/users/ngockhoanguyen994/followers","following_url":"https://api.github.com/users/ngockhoanguyen994/following{/other_user}","gists_url":"https://api.github.com/users/ngockhoanguyen994/gists{/gist_id}","starred_url":"https://api.github.com/users/ngockhoanguyen994/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ngockhoanguyen994/subscriptions","organizations_url":"https://api.github.com/users/ngockhoanguyen994/orgs","repos_url":"https://api.github.com/users/ngockhoanguyen994/repos","events_url":"https://api.github.com/users/ngockhoanguyen994/events{/privacy}","received_events_url":"https://api.github.com/users/ngockhoanguyen994/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"nguyenngoctrinh86375","id":276286745,"node_id":"U_kgDOEHfNGQ","avatar_url":"https://avatars.githubusercontent.com/u/276286745?v=4","gravatar_id":"","url":"https://api.github.com/users/nguyenngoctrinh86375","html_url":"https://github.com/nguyenngoctrinh86375","followers_url":"https://api.github.com/users/nguyenngoctrinh86375/followers","following_url":"https://api.github.com/users/nguyenngoctrinh86375/following{/other_user}","gists_url":"https://api.github.com/users/nguyenngoctrinh86375/gists{/gist_id}","starred_url":"https://api.github.com/users/nguyenngoctrinh86375/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nguyenngoctrinh86375/subscriptions","organizations_url":"https://api.github.com/users/nguyenngoctrinh86375/orgs","repos_url":"https://api.github.com/users/nguyenngoctrinh86375/repos","events_url":"https://api.github.com/users/nguyenngoctrinh86375/events{/privacy}","received_events_url":"https://api.github.com/users/nguyenngoctrinh86375/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"minhphatvo888","id":276287972,"node_id":"U_kgDOEHfR5A","avatar_url":"https://avatars.githubusercontent.com/u/276287972?v=4","gravatar_id":"","url":"https://api.github.com/users/minhphatvo888","html_url":"https://github.com/minhphatvo888","followers_url":"https://api.github.com/users/minhphatvo888/followers","following_url":"https://api.github.com/users/minhphatvo888/following{/other_user}","gists_url":"https://api.github.com/users/minhphatvo888/gists{/gist_id}","starred_url":"https://api.github.com/users/minhphatvo888/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/minhphatvo888/subscriptions","organizations_url":"https://api.github.com/users/minhphatvo888/orgs","repos_url":"https://api.github.com/users/minhphatvo888/repos","events_url":"https://api.github.com/users/minhphatvo888/events{/privacy}","received_events_url":"https://api.github.com/users/minhphatvo888/received_events","type":"User","user_view_type":"public","site_admin":false}]

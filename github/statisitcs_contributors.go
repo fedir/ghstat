@@ -36,6 +36,13 @@ type ContributionStatistics struct {
 	ReturningContributors     int
 }
 
+// WarmUpContributionStatistics fires a single request to prime GitHub's stats cache.
+// It ignores 202 responses — the goal is only to trigger background computation.
+func WarmUpContributionStatistics(repoKey string) {
+	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"
+	httpcache.MakeHTTPRequest(url)
+}
+
 // GetContributionStatistics gets detailsed statistics about contributors of the repository
 func GetContributionStatistics(repoKey string, tmpFolder string, debug bool) ContributionStatistics {
 	url := "https://api.github.com/repos/" + repoKey + "/stats/contributors"

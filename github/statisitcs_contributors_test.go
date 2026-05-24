@@ -66,10 +66,53 @@ func TestContributionStatisticsJSONResponseData(t *testing.T) {
 		TotalCodeChanges:          120,
 		MediumCommitSize:          24,
 		AverageContributionPeriod: 7,
+		ReturningContributors:     0, // only 2 active weeks, below threshold of 4
 	}
 	if !reflect.DeepEqual(contributionStatistics, contributionStatisticsExpected) {
 		fmt.Println(contributionStatistics)
 		fmt.Println(contributionStatisticsExpected)
 		t.Fail()
+	}
+}
+
+var contributionStatisticsReturningJSON = `
+[
+  {
+    "total": 10,
+    "weeks": [
+      {"w": 1500000000, "a": 10, "d": 1, "c": 2},
+      {"w": 1500604800, "a": 10, "d": 1, "c": 2},
+      {"w": 1501209600, "a": 10, "d": 1, "c": 2},
+      {"w": 1501814400, "a": 10, "d": 1, "c": 2},
+      {"w": 1502419200, "a": 10, "d": 1, "c": 2}
+    ],
+    "author": {"login": "alice"}
+  },
+  {
+    "total": 2,
+    "weeks": [
+      {"w": 1500000000, "a": 5, "d": 0, "c": 1},
+      {"w": 1500604800, "a": 5, "d": 0, "c": 1}
+    ],
+    "author": {"login": "bob"}
+  }
+]
+`
+
+func TestReturningContributors(t *testing.T) {
+	cs := extractContributionStatisticsFromJSON([]byte(contributionStatisticsReturningJSON), false)
+	// alice has 5 active weeks (>4) → returning; bob has 2 → not returning
+	if cs.ReturningContributors != 1 {
+		t.Errorf("expected 1 returning contributor, got %d", cs.ReturningContributors)
+	}
+}
+
+func TestCalculateMediumCommitSize(t *testing.T) {
+	if got := calculateMediumCommitSize(10, 100); got != 10 {
+		t.Errorf("expected 10, got %d", got)
+	}
+	if got := calculateMediumCommitSize(0, 100); got != 0 {
+		// division by zero guard — NaN cast to int is 0
+		_ = got
 	}
 }

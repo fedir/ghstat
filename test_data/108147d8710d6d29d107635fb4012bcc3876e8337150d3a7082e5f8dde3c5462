@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:34 GMT
+Etag: W/"ce1db2046b3940a640f85c5fe7ce12989e052da6db9cd2d9b0fe2e184b61b1ba"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/51245643/followers?page=4>; rel="prev", <https://api.github.com/user/51245643/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554B6FF:14278E62:6A12FD7A
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4837
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 163
+X-Xss-Protection: 0
+
+[{"login":"AdrianVCunha","id":203363138,"node_id":"U_kgDODB8TQg","avatar_url":"https://avatars.githubusercontent.com/u/203363138?v=4","gravatar_id":"","url":"https://api.github.com/users/AdrianVCunha","html_url":"https://github.com/AdrianVCunha","followers_url":"https://api.github.com/users/AdrianVCunha/followers","following_url":"https://api.github.com/users/AdrianVCunha/following{/other_user}","gists_url":"https://api.github.com/users/AdrianVCunha/gists{/gist_id}","starred_url":"https://api.github.com/users/AdrianVCunha/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AdrianVCunha/subscriptions","organizations_url":"https://api.github.com/users/AdrianVCunha/orgs","repos_url":"https://api.github.com/users/AdrianVCunha/repos","events_url":"https://api.github.com/users/AdrianVCunha/events{/privacy}","received_events_url":"https://api.github.com/users/AdrianVCunha/received_events","type":"User","user_view_type":"public","site_admin":false}]

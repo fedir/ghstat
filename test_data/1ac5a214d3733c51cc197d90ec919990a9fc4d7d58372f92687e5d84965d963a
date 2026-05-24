@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:33 GMT
+Etag: W/"2efb071230d44d1578caf7208ff0fb827f6f095d5e06a855d9de97fa1a0cc8aa"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/25180681/followers?page=81>; rel="prev", <https://api.github.com/user/25180681/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554AA0E:14278235:6A12FD78
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4875
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 125
+X-Xss-Protection: 0
+
+[{"login":"noyboy695-droid","id":280392850,"node_id":"U_kgDOELZ0kg","avatar_url":"https://avatars.githubusercontent.com/u/280392850?v=4","gravatar_id":"","url":"https://api.github.com/users/noyboy695-droid","html_url":"https://github.com/noyboy695-droid","followers_url":"https://api.github.com/users/noyboy695-droid/followers","following_url":"https://api.github.com/users/noyboy695-droid/following{/other_user}","gists_url":"https://api.github.com/users/noyboy695-droid/gists{/gist_id}","starred_url":"https://api.github.com/users/noyboy695-droid/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/noyboy695-droid/subscriptions","organizations_url":"https://api.github.com/users/noyboy695-droid/orgs","repos_url":"https://api.github.com/users/noyboy695-droid/repos","events_url":"https://api.github.com/users/noyboy695-droid/events{/privacy}","received_events_url":"https://api.github.com/users/noyboy695-droid/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"gonzalesmissyloujacquelinemoni-ui","id":281080185,"node_id":"U_kgDOEMDxeQ","avatar_url":"https://avatars.githubusercontent.com/u/281080185?v=4","gravatar_id":"","url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui","html_url":"https://github.com/gonzalesmissyloujacquelinemoni-ui","followers_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/followers","following_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/following{/other_user}","gists_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/gists{/gist_id}","starred_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/subscriptions","organizations_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/orgs","repos_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/repos","events_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/events{/privacy}","received_events_url":"https://api.github.com/users/gonzalesmissyloujacquelinemoni-ui/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"absinthefortwoplz11-boop","id":283028081,"node_id":"U_kgDOEN6qcQ","avatar_url":"https://avatars.githubusercontent.com/u/283028081?v=4","gravatar_id":"","url":"https://api.github.com/users/absinthefortwoplz11-boop","html_url":"https://github.com/absinthefortwoplz11-boop","followers_url":"https://api.github.com/users/absinthefortwoplz11-boop/followers","following_url":"https://api.github.com/users/absinthefortwoplz11-boop/following{/other_user}","gists_url":"https://api.github.com/users/absinthefortwoplz11-boop/gists{/gist_id}","starred_url":"https://api.github.com/users/absinthefortwoplz11-boop/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/absinthefortwoplz11-boop/subscriptions","organizations_url":"https://api.github.com/users/absinthefortwoplz11-boop/orgs","repos_url":"https://api.github.com/users/absinthefortwoplz11-boop/repos","events_url":"https://api.github.com/users/absinthefortwoplz11-boop/events{/privacy}","received_events_url":"https://api.github.com/users/absinthefortwoplz11-boop/received_events","type":"User","user_view_type":"public","site_admin":false}]

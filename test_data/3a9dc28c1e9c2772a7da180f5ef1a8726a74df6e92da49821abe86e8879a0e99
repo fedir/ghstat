@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:38 GMT
+Etag: W/"1f34e6224e43c1ea468178db6bbe9a098788a69e3de9be2791f0ab03b0cef98e"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Fri, 22 May 2026 11:33:48 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:14711709:13578738:6A12FD42
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4933
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 67
+X-Xss-Protection: 0
+
+{"login":"seanmonstar","id":51479,"node_id":"MDQ6VXNlcjUxNDc5","avatar_url":"https://avatars.githubusercontent.com/u/51479?v=4","gravatar_id":"","url":"https://api.github.com/users/seanmonstar","html_url":"https://github.com/seanmonstar","followers_url":"https://api.github.com/users/seanmonstar/followers","following_url":"https://api.github.com/users/seanmonstar/following{/other_user}","gists_url":"https://api.github.com/users/seanmonstar/gists{/gist_id}","starred_url":"https://api.github.com/users/seanmonstar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/seanmonstar/subscriptions","organizations_url":"https://api.github.com/users/seanmonstar/orgs","repos_url":"https://api.github.com/users/seanmonstar/repos","events_url":"https://api.github.com/users/seanmonstar/events{/privacy}","received_events_url":"https://api.github.com/users/seanmonstar/received_events","type":"User","user_view_type":"public","site_admin":false,"name":"Sean McArthur","company":null,"blog":"https://seanmonstar.com","location":null,"email":"sean@seanmonstar.com","hireable":null,"bio":"Independent maintainer of @hyperium, @tower-rs, and other 🦀 Rust networking libraries.","twitter_username":"seanmonstar","public_repos":131,"public_gists":34,"followers":3299,"following":15,"created_at":"2009-02-03T18:09:59Z","updated_at":"2026-05-22T11:33:48Z"}

@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:33 GMT
+Etag: W/"ece3dc78379ab03eb27702389f374b6bdc5755f729ba2e37b58b59d93aae8162"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/61869/followers?page=6>; rel="prev", <https://api.github.com/user/61869/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8E7:2D733F:14DB1C4C:13B7A2B7:6A12FD79
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4858
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 142
+X-Xss-Protection: 0
+
+[{"login":"ClearRise","id":233490093,"node_id":"U_kgDODerGrQ","avatar_url":"https://avatars.githubusercontent.com/u/233490093?v=4","gravatar_id":"","url":"https://api.github.com/users/ClearRise","html_url":"https://github.com/ClearRise","followers_url":"https://api.github.com/users/ClearRise/followers","following_url":"https://api.github.com/users/ClearRise/following{/other_user}","gists_url":"https://api.github.com/users/ClearRise/gists{/gist_id}","starred_url":"https://api.github.com/users/ClearRise/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ClearRise/subscriptions","organizations_url":"https://api.github.com/users/ClearRise/orgs","repos_url":"https://api.github.com/users/ClearRise/repos","events_url":"https://api.github.com/users/ClearRise/events{/privacy}","received_events_url":"https://api.github.com/users/ClearRise/received_events","type":"User","user_view_type":"public","site_admin":false}]

@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:29:41 GMT
+Etag: W/"80407c3f18b64917d1c1f258809a4034d38e447ae772162b004eb2538ff354c6"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/51669/followers?page=4>; rel="prev", <https://api.github.com/user/51669/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8A8:2BCE5E:147128C7:135797C1:6A12FD45
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4921
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 79
+X-Xss-Protection: 0
+
+[{"login":"zeon-neon","id":168932499,"node_id":"U_kgDOChG0kw","avatar_url":"https://avatars.githubusercontent.com/u/168932499?v=4","gravatar_id":"","url":"https://api.github.com/users/zeon-neon","html_url":"https://github.com/zeon-neon","followers_url":"https://api.github.com/users/zeon-neon/followers","following_url":"https://api.github.com/users/zeon-neon/following{/other_user}","gists_url":"https://api.github.com/users/zeon-neon/gists{/gist_id}","starred_url":"https://api.github.com/users/zeon-neon/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zeon-neon/subscriptions","organizations_url":"https://api.github.com/users/zeon-neon/orgs","repos_url":"https://api.github.com/users/zeon-neon/repos","events_url":"https://api.github.com/users/zeon-neon/events{/privacy}","received_events_url":"https://api.github.com/users/zeon-neon/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"ftnfurina","id":169629575,"node_id":"U_kgDOChxXhw","avatar_url":"https://avatars.githubusercontent.com/u/169629575?v=4","gravatar_id":"","url":"https://api.github.com/users/ftnfurina","html_url":"https://github.com/ftnfurina","followers_url":"https://api.github.com/users/ftnfurina/followers","following_url":"https://api.github.com/users/ftnfurina/following{/other_user}","gists_url":"https://api.github.com/users/ftnfurina/gists{/gist_id}","starred_url":"https://api.github.com/users/ftnfurina/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ftnfurina/subscriptions","organizations_url":"https://api.github.com/users/ftnfurina/orgs","repos_url":"https://api.github.com/users/ftnfurina/repos","events_url":"https://api.github.com/users/ftnfurina/events{/privacy}","received_events_url":"https://api.github.com/users/ftnfurina/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"nancythomas68","id":194291763,"node_id":"U_kgDOC5SoMw","avatar_url":"https://avatars.githubusercontent.com/u/194291763?v=4","gravatar_id":"","url":"https://api.github.com/users/nancythomas68","html_url":"https://github.com/nancythomas68","followers_url":"https://api.github.com/users/nancythomas68/followers","following_url":"https://api.github.com/users/nancythomas68/following{/other_user}","gists_url":"https://api.github.com/users/nancythomas68/gists{/gist_id}","starred_url":"https://api.github.com/users/nancythomas68/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nancythomas68/subscriptions","organizations_url":"https://api.github.com/users/nancythomas68/orgs","repos_url":"https://api.github.com/users/nancythomas68/repos","events_url":"https://api.github.com/users/nancythomas68/events{/privacy}","received_events_url":"https://api.github.com/users/nancythomas68/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"luckystar0705","id":220774021,"node_id":"U_kgDODSi-hQ","avatar_url":"https://avatars.githubusercontent.com/u/220774021?v=4","gravatar_id":"","url":"https://api.github.com/users/luckystar0705","html_url":"https://github.com/luckystar0705","followers_url":"https://api.github.com/users/luckystar0705/followers","following_url":"https://api.github.com/users/luckystar0705/following{/other_user}","gists_url":"https://api.github.com/users/luckystar0705/gists{/gist_id}","starred_url":"https://api.github.com/users/luckystar0705/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/luckystar0705/subscriptions","organizations_url":"https://api.github.com/users/luckystar0705/orgs","repos_url":"https://api.github.com/users/luckystar0705/repos","events_url":"https://api.github.com/users/luckystar0705/events{/privacy}","received_events_url":"https://api.github.com/users/luckystar0705/received_events","type":"User","user_view_type":"public","site_admin":false}]

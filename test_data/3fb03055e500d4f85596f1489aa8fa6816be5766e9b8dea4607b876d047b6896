@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:36 GMT
+Etag: W/"c5638e8f5f5d4fce310bb253715c75bc9ac9f7a862f6fc2a95b7c5e7bfcf6ed5"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 13:02:11 GMT
+Link: <https://api.github.com/repositories/80945428/contributors?page=13>; rel="prev", <https://api.github.com/repositories/80945428/contributors?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554BDD9:14279467:6A12FD7B
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3994
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1006
+X-Xss-Protection: 0
+
+[{"login":"dzhlobo","id":800337,"node_id":"MDQ6VXNlcjgwMDMzNw==","avatar_url":"https://avatars.githubusercontent.com/u/800337?v=4","gravatar_id":"","url":"https://api.github.com/users/dzhlobo","html_url":"https://github.com/dzhlobo","followers_url":"https://api.github.com/users/dzhlobo/followers","following_url":"https://api.github.com/users/dzhlobo/following{/other_user}","gists_url":"https://api.github.com/users/dzhlobo/gists{/gist_id}","starred_url":"https://api.github.com/users/dzhlobo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dzhlobo/subscriptions","organizations_url":"https://api.github.com/users/dzhlobo/orgs","repos_url":"https://api.github.com/users/dzhlobo/repos","events_url":"https://api.github.com/users/dzhlobo/events{/privacy}","received_events_url":"https://api.github.com/users/dzhlobo/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1},{"login":"williamdclt","id":15254996,"node_id":"MDQ6VXNlcjE1MjU0OTk2","avatar_url":"https://avatars.githubusercontent.com/u/15254996?v=4","gravatar_id":"","url":"https://api.github.com/users/williamdclt","html_url":"https://github.com/williamdclt","followers_url":"https://api.github.com/users/williamdclt/followers","following_url":"https://api.github.com/users/williamdclt/following{/other_user}","gists_url":"https://api.github.com/users/williamdclt/gists{/gist_id}","starred_url":"https://api.github.com/users/williamdclt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/williamdclt/subscriptions","organizations_url":"https://api.github.com/users/williamdclt/orgs","repos_url":"https://api.github.com/users/williamdclt/repos","events_url":"https://api.github.com/users/williamdclt/events{/privacy}","received_events_url":"https://api.github.com/users/williamdclt/received_events","type":"User","user_view_type":"public","site_admin":false,"contributions":1}]

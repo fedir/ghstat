@@ -1,0 +1,30 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:36 GMT
+Etag: W/"558a4897eb468f0bf5296443047febfa75b4315b67d04a3dda900c330384061d"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sun, 24 May 2026 10:59:06 GMT
+Link: <https://api.github.com/repositories/438384984/tags?page=14>; rel="prev", <https://api.github.com/repositories/438384984/tags?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554BE7A:142794E8:6A12FD7B
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 3991
+X-Ratelimit-Reset: 1779630164
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 1009
+X-Xss-Protection: 0
+
+[{"name":"v0.0.9","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.9","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.9","commit":{"sha":"5408416ce0bc59ea7ab962e8f18a872bdd0e7297","url":"https://api.github.com/repos/honojs/hono/commits/5408416ce0bc59ea7ab962e8f18a872bdd0e7297"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC45"},{"name":"v0.0.8","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.8","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.8","commit":{"sha":"e32ed85ad160b5d57b224c7db6c8cb22fc92f5fe","url":"https://api.github.com/repos/honojs/hono/commits/e32ed85ad160b5d57b224c7db6c8cb22fc92f5fe"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC44"},{"name":"v0.0.7","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.7","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.7","commit":{"sha":"1ad6549e819964b24ed07fea419681c1674fc54d","url":"https://api.github.com/repos/honojs/hono/commits/1ad6549e819964b24ed07fea419681c1674fc54d"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC43"},{"name":"v0.0.6","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.6","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.6","commit":{"sha":"3817dc92650929cbea4d6922196886ba740c8566","url":"https://api.github.com/repos/honojs/hono/commits/3817dc92650929cbea4d6922196886ba740c8566"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC42"},{"name":"v0.0.5","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.5","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.5","commit":{"sha":"146dfbf7438df57557c6dd3134ab8fcafda83401","url":"https://api.github.com/repos/honojs/hono/commits/146dfbf7438df57557c6dd3134ab8fcafda83401"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC41"},{"name":"v0.0.4","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.4","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.4","commit":{"sha":"b3482452348dc8d7a0ab42fd974d70d40779fa86","url":"https://api.github.com/repos/honojs/hono/commits/b3482452348dc8d7a0ab42fd974d70d40779fa86"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC40"},{"name":"v0.0.3","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.3","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.3","commit":{"sha":"c40441e5a554c760d77b5b0ab3f35dab46017a1b","url":"https://api.github.com/repos/honojs/hono/commits/c40441e5a554c760d77b5b0ab3f35dab46017a1b"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC4z"},{"name":"v0.0.2","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.2","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.2","commit":{"sha":"5526535c8caf5311674ebb61762c8458bb2d4af5","url":"https://api.github.com/repos/honojs/hono/commits/5526535c8caf5311674ebb61762c8458bb2d4af5"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC4y"},{"name":"v0.0.1","zipball_url":"https://api.github.com/repos/honojs/hono/zipball/refs/tags/v0.0.1","tarball_url":"https://api.github.com/repos/honojs/hono/tarball/refs/tags/v0.0.1","commit":{"sha":"fbafc6e36060cab5ec8a11c369338ec356385b8a","url":"https://api.github.com/repos/honojs/hono/commits/fbafc6e36060cab5ec8a11c369338ec356385b8a"},"node_id":"REF_kwDOGiE5WLByZWZzL3RhZ3MvdjAuMC4x"}]

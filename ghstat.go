@@ -7,19 +7,23 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"os"
 	"strings"
 	"sync"
 
 	"github.com/fedir/ghstat/github"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	godotenv.Load()
+
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
 		clearHTTPCacheDryRun   = flag.Bool("ccdr", false, "Clear HTTP cache (dry run)")
 		debug                  = flag.Bool("d", false, "Debug mode")
-		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved")
+		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved (required)")
 		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		tmpFolder              = flag.String("t", "test_data", "Temporary folder path")
@@ -38,40 +42,44 @@ func main() {
 		repositoriesKeys = uniqSlice(strings.Split(*repositoriesKeysManual, ","))
 	} else {
 		repositoriesKeys = uniqSlice([]string{
-			"astaxie/beego",
-			"gohugoio/hugo",
 			"gin-gonic/gin",
+			"gofiber/fiber",
 			"labstack/echo",
-			"revel/revel",
-			"gobuffalo/buffalo",
 			"go-chi/chi",
+			"beego/beego",
+			"gohugoio/hugo",
+			"gobuffalo/buffalo",
+			"revel/revel",
 			"kataras/iris",
-			"zenazn/goji",
 			"go-macaron/macaron",
-			"go-aah/aah",
 		})
 	}
 
-	csvFilePath := ""
-	if *resultFileSavePath != "" {
-		csvFilePath = *resultFileSavePath
-	} else {
-		csvFilePath = "result.csv"
+	if *resultFileSavePath == "" {
+		flag.Usage()
+		os.Exit(1)
+	}
+	if err := os.MkdirAll("stats", 0755); err != nil {
+		panic(err)
 	}
 	var ghData = []Repository{}
 	var wg sync.WaitGroup
 	wg.Add(len(repositoriesKeys))
 
-	dataChan := make(chan Repository, len(repositoriesKeys))
+	total := len(repositoriesKeys)
+	fmt.Printf("Fetching %d repositories...\n", total)
+	dataChan := make(chan Repository, total)
 	for _, rKey := range repositoriesKeys {
 		go repositoryData(rKey, *tmpFolder, *debug, dataChan, &wg)
 	}
-	for range repositoriesKeys {
-		ghData = append(ghData, <-dataChan)
+	for i := 1; i <= total; i++ {
+		r := <-dataChan
+		ghData = append(ghData, r)
+		fmt.Printf("[%d/%d] %s\n", i, total, r.Name)
 	}
 	wg.Wait()
 	rateAndPrintGreetings(ghData)
-	writeCSVStatistics(ghData, csvFilePath)
+	writeCSVStatistics(ghData, *resultFileSavePath)
 }
 
 func uniqSlice(s []string) []string {

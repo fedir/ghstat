@@ -48,7 +48,7 @@ func GetRepositoryClosedIssues(repoKey string, tmpFolder string, debug bool) int
 // GetRepositoryStatistics gets repository common statistics
 func GetRepositoryStatistics(RepoKey string, tmpFolder string, debug bool) *Repository {
 	repositoryStatistics := ParseRepositoryData(getRepositoryData(RepoKey, tmpFolder, debug))
-	if repositoryStatistics.HasIssues == false {
+	if !repositoryStatistics.HasIssues {
 		repositoryStatistics.OpenIssues = 0
 	}
 	return repositoryStatistics

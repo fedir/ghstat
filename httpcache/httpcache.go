@@ -20,17 +20,31 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"net/http/httputil"
 	"os"
+	"strconv"
+	"sync"
 	"time"
 )
 
-var cacheTTL = 3600
+var httpClient *http.Client
+var httpClientOnce sync.Once
 
-var httpClient = &http.Client{Timeout: 10 * time.Second}
+func getHTTPClient() *http.Client {
+	httpClientOnce.Do(func() {
+		timeout := 30 * time.Second
+		if v := os.Getenv("GH_HTTP_TIMEOUT"); v != "" {
+			if sec, err := strconv.Atoi(v); err == nil && sec > 0 {
+				timeout = time.Duration(sec) * time.Second
+			}
+		}
+		httpClient = &http.Client{Timeout: timeout}
+	})
+	return httpClient
+}
 
 const dumpBody = true
 
@@ -45,46 +59,48 @@ func GetFilename(url string) string {
 func MakeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
-		log.Fatal("Cannont prepare the HTTP request", err)
+		log.Fatal("cannot prepare the HTTP request", err)
 	}
-	if os.Getenv("GH_USR") != "" && os.Getenv("GH_PASS") != "" {
-		req.SetBasicAuth(os.Getenv("GH_USR"), os.Getenv("GH_PASS"))
+	if token := os.Getenv("GH_TOKEN"); token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
 	}
-	resp, err := httpClient.Do(req)
+	resp, err := getHTTPClient().Do(req)
 	if err != nil {
-		log.Fatal("Cannot process the HTTP request", err)
+		log.Fatal("cannot process the HTTP request", err)
 	}
 	defer resp.Body.Close()
 	body, err := httputil.DumpResponse(resp, dumpBody)
 	if err != nil {
-		log.Fatal("Cannont dump the body of HTTP response", err)
+		log.Fatal("cannot dump the body of HTTP response", err)
 	}
 	return body, resp.StatusCode, err
 }
 
 func saveRespToFile(file string, resp []byte) {
-	err := ioutil.WriteFile(file, resp, 0644)
-	if err != nil {
+	if err := os.WriteFile(file, resp, 0644); err != nil {
 		panic(err)
 	}
 }
 
 func loadRespFromFile(file string) []byte {
-	resp, err := ioutil.ReadFile(file)
+	resp, err := os.ReadFile(file)
 	if err != nil {
 		panic(err)
 	}
 	return resp
 }
 
-// ReadResp :  reads response from the cached HTTP query.
+// ReadResp reads response from the cached HTTP query.
 func ReadResp(fullResp []byte) ([]byte, string, error) {
+	if len(fullResp) == 0 {
+		return []byte{}, "", nil
+	}
 	r := bufio.NewReader(bytes.NewReader(fullResp))
 	resp, err := http.ReadResponse(r, nil)
 	if err != nil {
 		log.Printf("%v\n%s", err, fullResp)
 	}
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		log.Printf("%v\n%s", err, resp.Body)
 	}
@@ -97,6 +113,10 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 // but read from the file in temporary folder.
 // Currently is was tested only for GET queries
 func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
+	return makeCachedHTTPRequest(url, tmpFolder, debug, 1)
+}
+
+func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int) []byte {
 	var fullResp []byte
 	filename := GetFilename(url)
 	filepath := filename
@@ -104,7 +124,7 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		filepath = tmpFolder + "/" + filename
 	}
 	if _, err := os.Stat(filepath); os.IsNotExist(err) {
-		if debug == true {
+		if debug {
 			fmt.Println("HTTP query: " + url)
 		}
 		resp, statusCode, err := MakeHTTPRequest(url)
@@ -112,18 +132,37 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 			panic(err)
 		}
 		if statusCode == 403 {
-			log.Fatalf("Looks like the rate limit is exceeded, please try again in 60 minutes. Or make a pull request with authentification feature.")
+			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
 		} else if statusCode == 202 {
-			log.Printf("Server need some time to prepare request. Trying again.")
-			time.Sleep(2 * time.Second)
-			return MakeCachedHTTPRequest(url, tmpFolder, debug)
+			maxAttempts := 5
+			if v := os.Getenv("GH_STATS_MAX_RETRIES"); v != "" {
+				if n, err := strconv.Atoi(v); err == nil && n > 0 {
+					maxAttempts = n
+				}
+			}
+			retryInterval := 5
+			if v := os.Getenv("GH_STATS_RETRY_INTERVAL"); v != "" {
+				if n, err := strconv.Atoi(v); err == nil && n > 0 {
+					retryInterval = n
+				}
+			}
+			if attempt >= maxAttempts {
+				log.Printf("[attempt %d/%d] GitHub stats unavailable, giving up: %s", attempt, maxAttempts, url)
+				return []byte{}
+			}
+			log.Printf("[attempt %d/%d] GitHub is computing stats, retrying in %ds: %s", attempt, maxAttempts, retryInterval, url)
+			time.Sleep(time.Duration(retryInterval) * time.Second)
+			return makeCachedHTTPRequest(url, tmpFolder, debug, attempt+1)
+		} else if statusCode == 404 {
+			log.Printf("not found (404), skipping: %s", url)
+			return resp
 		} else if statusCode != 200 {
-			log.Fatalf("The status code of URL %s is not OK : %d", url, statusCode)
+			log.Fatalf("unexpected status %d for URL %s", statusCode, url)
 		}
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
 	} else {
-		if debug == true {
+		if debug {
 			fmt.Println("Loaded results directly from: " + filepath)
 		}
 		fullResp = loadRespFromFile(filepath)

@@ -6,6 +6,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"reflect"
 	"testing"
 	"time"
@@ -155,6 +156,7 @@ func TestParseRepositoryDataNegative(t *testing.T) {
 }
 
 func TestMainProgram(t *testing.T) {
+	os.Args = []string{"ghstat", "-f", "result.csv"}
 	main()
 }
 

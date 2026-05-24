@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:30 GMT
+Etag: W/"cc71710910a98309ed31654d3667ee155ef1616ae04ef599c26f99131026b424"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Last-Modified: Sat, 16 May 2026 07:26:32 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:15549E80:1427779F:6A12FD76
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4892
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 108
+X-Xss-Protection: 0
+
+{"login":"mcollina","id":52195,"node_id":"MDQ6VXNlcjUyMTk1","avatar_url":"https://avatars.githubusercontent.com/u/52195?v=4","gravatar_id":"","url":"https://api.github.com/users/mcollina","html_url":"https://github.com/mcollina","followers_url":"https://api.github.com/users/mcollina/followers","following_url":"https://api.github.com/users/mcollina/following{/other_user}","gists_url":"https://api.github.com/users/mcollina/gists{/gist_id}","starred_url":"https://api.github.com/users/mcollina/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcollina/subscriptions","organizations_url":"https://api.github.com/users/mcollina/orgs","repos_url":"https://api.github.com/users/mcollina/repos","events_url":"https://api.github.com/users/mcollina/events{/privacy}","received_events_url":"https://api.github.com/users/mcollina/received_events","type":"User","user_view_type":"public","site_admin":false,"name":"Matteo Collina","company":"@platformatic","blog":"nodeland.dev","location":"Forlì, Italy","email":"matteo.collina@gmail.com","hireable":null,"bio":"@platformatic Co-Founder & CTO, TSC member @nodejs, Lead Maintainer @fastify, Conference Speaker, Ph.D.","twitter_username":"matteocollina","public_repos":642,"public_gists":64,"followers":11178,"following":475,"created_at":"2009-02-05T22:24:19Z","updated_at":"2026-05-16T07:26:32Z"}

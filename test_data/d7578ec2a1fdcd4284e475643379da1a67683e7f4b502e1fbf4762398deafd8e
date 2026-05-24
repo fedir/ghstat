@@ -1,0 +1,29 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: private, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 13:30:34 GMT
+Etag: W/"ee4642e0cef5d864fab9f572de91095a1f1eb658c1c950635d5515556f519027"
+Github-Authentication-Token-Expiration: 2026-06-23 11:30:08 UTC
+Link: <https://api.github.com/user/11542387/followers?page=7>; rel="prev", <https://api.github.com/user/11542387/followers?page=1>; rel="first"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+X-Accepted-Oauth-Scopes: 
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E8D1:1A5FA2:1554B14E:1427893E:6A12FD79
+X-Oauth-Scopes: read:org, repo
+X-Ratelimit-Limit: 5000
+X-Ratelimit-Remaining: 4852
+X-Ratelimit-Reset: 1779630344
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 148
+X-Xss-Protection: 0
+
+[{"login":"afrancisca98","id":201098389,"node_id":"U_kgDOC_yElQ","avatar_url":"https://avatars.githubusercontent.com/u/201098389?v=4","gravatar_id":"","url":"https://api.github.com/users/afrancisca98","html_url":"https://github.com/afrancisca98","followers_url":"https://api.github.com/users/afrancisca98/followers","following_url":"https://api.github.com/users/afrancisca98/following{/other_user}","gists_url":"https://api.github.com/users/afrancisca98/gists{/gist_id}","starred_url":"https://api.github.com/users/afrancisca98/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/afrancisca98/subscriptions","organizations_url":"https://api.github.com/users/afrancisca98/orgs","repos_url":"https://api.github.com/users/afrancisca98/repos","events_url":"https://api.github.com/users/afrancisca98/events{/privacy}","received_events_url":"https://api.github.com/users/afrancisca98/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"mfainman-churned","id":229714099,"node_id":"U_kgDODbEosw","avatar_url":"https://avatars.githubusercontent.com/u/229714099?v=4","gravatar_id":"","url":"https://api.github.com/users/mfainman-churned","html_url":"https://github.com/mfainman-churned","followers_url":"https://api.github.com/users/mfainman-churned/followers","following_url":"https://api.github.com/users/mfainman-churned/following{/other_user}","gists_url":"https://api.github.com/users/mfainman-churned/gists{/gist_id}","starred_url":"https://api.github.com/users/mfainman-churned/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mfainman-churned/subscriptions","organizations_url":"https://api.github.com/users/mfainman-churned/orgs","repos_url":"https://api.github.com/users/mfainman-churned/repos","events_url":"https://api.github.com/users/mfainman-churned/events{/privacy}","received_events_url":"https://api.github.com/users/mfainman-churned/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"N012025","id":243741038,"node_id":"U_kgDODocxbg","avatar_url":"https://avatars.githubusercontent.com/u/243741038?v=4","gravatar_id":"","url":"https://api.github.com/users/N012025","html_url":"https://github.com/N012025","followers_url":"https://api.github.com/users/N012025/followers","following_url":"https://api.github.com/users/N012025/following{/other_user}","gists_url":"https://api.github.com/users/N012025/gists{/gist_id}","starred_url":"https://api.github.com/users/N012025/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/N012025/subscriptions","organizations_url":"https://api.github.com/users/N012025/orgs","repos_url":"https://api.github.com/users/N012025/repos","events_url":"https://api.github.com/users/N012025/events{/privacy}","received_events_url":"https://api.github.com/users/N012025/received_events","type":"User","user_view_type":"public","site_admin":false},{"login":"brianjones8789","id":280626617,"node_id":"U_kgDOELoFuQ","avatar_url":"https://avatars.githubusercontent.com/u/280626617?v=4","gravatar_id":"","url":"https://api.github.com/users/brianjones8789","html_url":"https://github.com/brianjones8789","followers_url":"https://api.github.com/users/brianjones8789/followers","following_url":"https://api.github.com/users/brianjones8789/following{/other_user}","gists_url":"https://api.github.com/users/brianjones8789/gists{/gist_id}","starred_url":"https://api.github.com/users/brianjones8789/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianjones8789/subscriptions","organizations_url":"https://api.github.com/users/brianjones8789/orgs","repos_url":"https://api.github.com/users/brianjones8789/repos","events_url":"https://api.github.com/users/brianjones8789/events{/privacy}","received_events_url":"https://api.github.com/users/brianjones8789/received_events","type":"User","user_view_type":"public","site_admin":false}]

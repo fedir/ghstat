@@ -24,6 +24,9 @@ func clearHTTPCacheFolder(tmpFolderPath string, dryRun bool) error {
 		log.Fatalf("Could not read from %s", tmpFolderPath)
 	}
 	for _, name := range names {
+		if name == "projects" {
+			continue // preserve local git clones
+		}
 		fp := filepath.Join(tmpFolderPath, name)
 		if dryRun {
 			fmt.Printf("Deleted %s\n", fp)
@@ -50,14 +53,14 @@ func writeCSVStatistics(ghData []Repository, csvFilePath string) {
 func formatRepositoryDataForCSV(r Repository) []string {
 	ghProjectData := []string{
 		r.Name,
-		fmt.Sprintf("%s", r.URL),
-		fmt.Sprintf("%s", r.Author),
-		fmt.Sprintf("%s", r.AuthorLocation),
-		fmt.Sprintf("%s", r.MainLanguage),
-		fmt.Sprintf("%s", r.AllLanguages),
-		fmt.Sprintf("%s", r.Description),
+		r.URL,
+		r.Author,
+		r.AuthorLocation,
+		r.MainLanguage,
+		r.AllLanguages,
+		r.Description,
 		fmt.Sprintf("%d", r.TotalCodeSize),
-		fmt.Sprintf("%s", r.License),
+		r.License,
 		fmt.Sprintf("%d", r.AuthorsFollowers),
 		fmt.Sprintf("%d", r.Top10ContributorsFollowers),
 		fmt.Sprintf("%d/%02d", r.CreatedAt.Year(), r.CreatedAt.Month()),
@@ -66,7 +69,7 @@ func formatRepositoryDataForCSV(r Repository) []string {
 		fmt.Sprintf("%d", r.TotalAdditions),
 		fmt.Sprintf("%d", r.TotalDeletions),
 		fmt.Sprintf("%d", r.TotalCodeChanges),
-		fmt.Sprintf(r.LastCommitDate.Format("2006-01-02 15:04:05")),
+		r.LastCommitDate.Format("2006-01-02 15:04:05"),
 		fmt.Sprintf("%.4f", r.CommitsByDay),
 		fmt.Sprintf("%d", r.AverageContributionPeriod),
 		fmt.Sprintf("%d", r.MediCommitSize),

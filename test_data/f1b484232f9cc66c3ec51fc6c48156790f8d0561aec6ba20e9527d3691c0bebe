@@ -1,0 +1,28 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning
+Cache-Control: public, max-age=60, s-maxage=60
+Content-Security-Policy: default-src 'none'
+Content-Type: application/json; charset=utf-8
+Date: Sun, 24 May 2026 11:56:19 GMT
+Etag: W/"ff81c599eee665bcbd56958d00ef942dcfce8ac968cffc0fc2be1e6bd7647390"
+Last-Modified: Wed, 04 Sep 2013 08:48:25 GMT
+Link: <https://api.github.com/repositories/17035868/commits?page=1>; rel="first", <https://api.github.com/repositories/17035868/commits?page=61>; rel="prev"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Server: github.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Api-Version-Selected: 2022-11-28
+X-Github-Media-Type: github.v3; format=json
+X-Github-Request-Id: E1E4:1681:D05E1FF:C3BED2E:6A12E763
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 38
+X-Ratelimit-Reset: 1779625962
+X-Ratelimit-Resource: core
+X-Ratelimit-Used: 22
+X-Xss-Protection: 0
+
+[{"sha":"f190078ed1819e6b012e731658b57a93bfc34ac9","node_id":"MDY6Q29tbWl0MTcwMzU4Njg6ZjE5MDA3OGVkMTgxOWU2YjAxMmU3MzE2NThiNTdhOTNiZmMzNGFjOQ==","commit":{"author":{"name":"Fatih Arslan","email":"fatih@koding.com","date":"2013-09-04T08:48:25Z"},"committer":{"name":"Fatih Arslan","email":"fatih@koding.com","date":"2013-09-04T08:48:25Z"},"message":"Make files and package compatible with koding go folder","tree":{"sha":"b8b6447b3001242bfdea8e38788b953085bd5ffd","url":"https://api.github.com/repos/koding/kite/git/trees/b8b6447b3001242bfdea8e38788b953085bd5ffd"},"url":"https://api.github.com/repos/koding/kite/git/commits/f190078ed1819e6b012e731658b57a93bfc34ac9","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}},"url":"https://api.github.com/repos/koding/kite/commits/f190078ed1819e6b012e731658b57a93bfc34ac9","html_url":"https://github.com/koding/kite/commit/f190078ed1819e6b012e731658b57a93bfc34ac9","comments_url":"https://api.github.com/repos/koding/kite/commits/f190078ed1819e6b012e731658b57a93bfc34ac9/comments","author":null,"committer":null,"parents":[{"sha":"1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","url":"https://api.github.com/repos/koding/kite/commits/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","html_url":"https://github.com/koding/kite/commit/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1"}]},{"sha":"1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","node_id":"MDY6Q29tbWl0MTcwMzU4Njg6MWU0MzljM2JiZmUxZjc1ZmI1Y2ZmNzkyMGZhODgyYTY5YzVhMTRkMQ==","commit":{"author":{"name":"Fatih Arslan","email":"fatih@koding.com","date":"2013-09-04T08:31:01Z"},"committer":{"name":"Fatih Arslan","email":"fatih@koding.com","date":"2013-09-04T08:31:01Z"},"message":"Move kite files here, this makes it easier to run and configure","tree":{"sha":"f794e4324ba5c00ef7df66eebe64ac01d2707b7c","url":"https://api.github.com/repos/koding/kite/git/trees/f794e4324ba5c00ef7df66eebe64ac01d2707b7c"},"url":"https://api.github.com/repos/koding/kite/git/commits/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null,"verified_at":null}},"url":"https://api.github.com/repos/koding/kite/commits/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","html_url":"https://github.com/koding/kite/commit/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1","comments_url":"https://api.github.com/repos/koding/kite/commits/1e439c3bbfe1f75fb5cff7920fa882a69c5a14d1/comments","author":null,"committer":null,"parents":[]}]
