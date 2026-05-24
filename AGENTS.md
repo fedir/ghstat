@@ -88,7 +88,21 @@ make cache-clear          # wipe HTTP response cache (preserves clones)
 make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # Go frameworks → stats/go_frameworks.csv
 make run-go-microservices # Go microservice toolkits
-make run-all              # all categories via bin/build_all.sh
+make run-rust-crates      # top 25 Rust crates → stats/rust_crates.csv
+make run-cncf             # 52 CNCF cloud native projects → stats/cncf_projects.csv
+make run-devops           # 40 DevOps tools → stats/devops_tools.csv
+make run-all              # all categories via bin/build_all.sh → ratings.md
+make clean-data-cms       # remove CMS clones from test_data/projects/
+make clean-data-databases # remove database clones
+make clean-data-langs     # remove language clones
+make clean-data-go        # remove Go framework clones
+make clean-data-rust      # remove Rust clones
+make clean-data-js        # remove JS framework clones
+make clean-data-python    # remove Python framework clones
+make clean-data-ruby      # remove Ruby framework clones
+make clean-data-java      # remove Java/JVM clones
+make clean-data-cncf      # remove CNCF project clones
+make clean-data-all       # remove all clones (test_data/ + tmp/projects/)
 make clean                # remove binary and tmp/ (preserves clones)
 make help                 # list all targets
 ```
