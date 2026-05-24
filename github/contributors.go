@@ -42,15 +42,12 @@ func GetRepositoryContributors(repoKey string, tmpFolder string, debug bool) (in
 
 	contributors := make([]Contributor, 0)
 	json.Unmarshal(jsonResponse, &contributors)
-	i := 0
-	for _, contributor := range contributors {
-		topContributorsFollowers = topContributorsFollowers + getContributorFollowers(contributor.Login, tmpFolder, debug)
-		i++
+	for i, contributor := range contributors {
 		if i == 10 {
-			goto TOTAL_CONTRIBUTORS
+			break
 		}
+		topContributorsFollowers += getContributorFollowers(contributor.Login, tmpFolder, debug)
 	}
-TOTAL_CONTRIBUTORS:
 	if nextPage != 0 {
 		contributorsOnLastPage := getRepositoryContributorsNumberLastPage(linkHeader, tmpFolder, debug)
 		totalContributors = (lastPage-1)*30 + contributorsOnLastPage

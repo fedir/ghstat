@@ -101,7 +101,7 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		filepath = tmpFolder + "/" + filename
 	}
 	if _, err := os.Stat(filepath); os.IsNotExist(err) {
-		if debug == true {
+		if debug {
 			fmt.Println("HTTP query: " + url)
 		}
 		resp, statusCode, err := MakeHTTPRequest(url)
@@ -120,7 +120,7 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		saveRespToFile(filepath, resp)
 		fullResp = loadRespFromFile(filepath)
 	} else {
-		if debug == true {
+		if debug {
 			fmt.Println("Loaded results directly from: " + filepath)
 		}
 		fullResp = loadRespFromFile(filepath)
