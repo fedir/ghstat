@@ -140,12 +140,18 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 					maxAttempts = n
 				}
 			}
+			retryInterval := 5
+			if v := os.Getenv("GH_STATS_RETRY_INTERVAL"); v != "" {
+				if n, err := strconv.Atoi(v); err == nil && n > 0 {
+					retryInterval = n
+				}
+			}
 			if attempt >= maxAttempts {
 				log.Printf("[attempt %d/%d] GitHub stats unavailable, giving up: %s", attempt, maxAttempts, url)
 				return []byte{}
 			}
-			log.Printf("[attempt %d/%d] GitHub is computing stats, retrying in 5s: %s", attempt, maxAttempts, url)
-			time.Sleep(5 * time.Second)
+			log.Printf("[attempt %d/%d] GitHub is computing stats, retrying in %ds: %s", attempt, maxAttempts, retryInterval, url)
+			time.Sleep(time.Duration(retryInterval) * time.Second)
 			return makeCachedHTTPRequest(url, tmpFolder, debug, attempt+1)
 		} else if statusCode == 404 {
 			log.Printf("not found (404), skipping: %s", url)
