@@ -6,6 +6,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"sync"
 	"time"
 
@@ -15,6 +16,9 @@ import (
 func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Repository, wg *sync.WaitGroup) {
 
 	defer wg.Done()
+
+	log.Printf("%-40s fetching...", rKey)
+	start := time.Now()
 
 	r := new(Repository)
 
@@ -73,5 +77,6 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 
 	r.CommitsByDay = github.GetCommitsByDay(contributionStatistics.TotalCommits, r.Age)
 
+	log.Printf("%-40s done (%.1fs)", rKey, time.Since(start).Seconds())
 	dataChan <- *r
 }

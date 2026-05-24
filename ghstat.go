@@ -7,6 +7,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"os"
 	"strings"
 	"sync"
@@ -66,12 +67,16 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(len(repositoriesKeys))
 
-	dataChan := make(chan Repository, len(repositoriesKeys))
+	total := len(repositoriesKeys)
+	fmt.Printf("Fetching %d repositories...\n", total)
+	dataChan := make(chan Repository, total)
 	for _, rKey := range repositoriesKeys {
 		go repositoryData(rKey, *tmpFolder, *debug, dataChan, &wg)
 	}
-	for range repositoriesKeys {
-		ghData = append(ghData, <-dataChan)
+	for i := 1; i <= total; i++ {
+		r := <-dataChan
+		ghData = append(ghData, r)
+		fmt.Printf("[%d/%d] %s\n", i, total, r.Name)
 	}
 	wg.Wait()
 	rateAndPrintGreetings(ghData)

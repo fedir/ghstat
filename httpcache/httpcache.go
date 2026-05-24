@@ -94,6 +94,10 @@ func ReadResp(fullResp []byte) ([]byte, string, error) {
 // but read from the file in temporary folder.
 // Currently is was tested only for GET queries
 func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
+	return makeCachedHTTPRequest(url, tmpFolder, debug, 1)
+}
+
+func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int) []byte {
 	var fullResp []byte
 	filename := GetFilename(url)
 	filepath := filename
@@ -111,9 +115,9 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		if statusCode == 403 {
 			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
 		} else if statusCode == 202 {
-			log.Printf("Server is computing stats, retrying in 5s...")
+			log.Printf("[attempt %d] GitHub is computing stats, retrying in 5s: %s", attempt, url)
 			time.Sleep(5 * time.Second)
-			return MakeCachedHTTPRequest(url, tmpFolder, debug)
+			return makeCachedHTTPRequest(url, tmpFolder, debug, attempt+1)
 		} else if statusCode == 404 {
 			log.Printf("not found (404), skipping: %s", url)
 			return resp
