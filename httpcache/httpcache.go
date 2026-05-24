@@ -26,6 +26,7 @@ import (
 	"net/http/httputil"
 	"os"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -135,6 +136,9 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 			log.Printf("rate limit exceeded for %s, please try again in 60 minutes", url)
 			return []byte{}
 		} else if statusCode == 202 {
+			if strings.Contains(url, "/stats/contributors") {
+				return []byte{}
+			}
 			maxAttempts := 5
 			if v := os.Getenv("GH_STATS_MAX_RETRIES"); v != "" {
 				if n, err := strconv.Atoi(v); err == nil && n > 0 {
