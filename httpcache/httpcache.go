@@ -134,7 +134,12 @@ func makeCachedHTTPRequest(url string, tmpFolder string, debug bool, attempt int
 		if statusCode == 403 {
 			log.Fatalf("rate limit exceeded for %s, please try again in 60 minutes", url)
 		} else if statusCode == 202 {
-			const maxAttempts = 10
+			maxAttempts := 5
+			if v := os.Getenv("GH_STATS_MAX_RETRIES"); v != "" {
+				if n, err := strconv.Atoi(v); err == nil && n > 0 {
+					maxAttempts = n
+				}
+			}
 			if attempt >= maxAttempts {
 				log.Printf("[attempt %d/%d] GitHub stats unavailable, giving up: %s", attempt, maxAttempts, url)
 				return []byte{}
