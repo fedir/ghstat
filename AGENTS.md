@@ -111,7 +111,7 @@ Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of t
 
 ## Conventional commits
 
-`feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:` — single-line messages only.
+`feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:` — **single-line messages only**. No bullet lists, no multi-line body, no `Co-Authored-By` trailer. One line, under 72 chars, imperative mood. Example: `feat: add CNCF rating script with 404 robustness fixes`.
 
 ## Lessons learned
 
