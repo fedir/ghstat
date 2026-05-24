@@ -89,7 +89,7 @@ make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # Go frameworks → stats/go_frameworks.csv
 make run-go-microservices # Go microservice toolkits
 make run-rust-crates      # top 25 Rust crates → stats/rust_crates.csv
-make run-cncf             # 52 CNCF cloud native projects → stats/cncf_projects.csv
+make run-cncf             # 50 CNCF cloud native projects → stats/cncf_projects.csv
 make run-devops           # 40 DevOps tools → stats/devops_tools.csv
 make run-all              # all categories via bin/build_all.sh → ratings.md
 make clean-data-cms       # remove CMS clones from test_data/projects/

@@ -51,7 +51,7 @@ make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # compare Go frameworks
 make run-go-microservices # compare Go microservice toolkits
 make run-rust-crates      # top 25 Rust crates
-make run-cncf             # 52 CNCF cloud native projects
+make run-cncf             # 50 CNCF cloud native projects
 make run-devops           # 40 DevOps tools
 make run-all              # run all comparisons and regenerate ratings.md
 make clean-data-<category># remove clones for a specific category (cms, databases, langs, go, rust, js, python, ruby, java, cncf)
