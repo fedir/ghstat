@@ -1,64 +1,85 @@
 # ghstat
 
-[![Build Status](https://travis-ci.org/fedir/ghstat.svg?branch=master)](https://travis-ci.org/fedir/ghstat)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fedir/ghstat/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fedir/ghstat/?branch=master)
+[![CI](https://github.com/fedir/ghstat/actions/workflows/ci.yml/badge.svg)](https://github.com/fedir/ghstat/actions/workflows/ci.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/fedir/ghstat)](https://goreportcard.com/report/github.com/fedir/ghstat)
-[![Maintainability](https://api.codeclimate.com/v1/badges/572b4413f5c5ebf49e36/maintainability)](https://codeclimate.com/github/fedir/go-github-statistics/maintainability)
 [![codecov](https://codecov.io/gh/fedir/ghstat/branch/master/graph/badge.svg)](https://codecov.io/gh/fedir/ghstat)
-[![GoDoc](https://godoc.org/github.com/fedir/ghstat?status.svg)](https://godoc.org/github.com/fedir/ghstat)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Statistical multi-criteria decision-making comparator for selected Github's projects.
+Statistical multi-criteria decision-making comparator for GitHub projects.
 
-Project's overview was given on Open Source Summit Europe 2018 "Methodology of Multi-Criteria Comparison and Typology of Open Source Projects" - https://events.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf
+Project overview was presented at Open Source Summit Europe 2018 — ["Methodology of Multi-Criteria Comparison and Typology of Open Source Projects"](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf).
 
 ## Getting started
 
-Installation instruction:
+**1. Generate a GitHub token**
 
-* Generate a token for Your GitHub account: https://github.com/settings/tokens
-* Select following scope: `repo` and all it's sub-scopes 
-* Build the app
-* Configure the project with environment variables
-* Launch
+Go to https://github.com/settings/tokens and create a token with `repo` scope.
 
-    go get -u -v github.com/fedir/ghstat
-    cd [package location]
-    go build
-    mkdir tmp
-    export GH_USR="your_gh_username" && export GH_PASS="your_gh_api_token"
-    ./ghstat
+**2. Clone and configure**
 
-The project contains already some data received from Github API for local testing and debugging, but You could update it in the following way: 
+```bash
+git clone https://github.com/fedir/ghstat
+cd ghstat
+cp .env.sample .env
+# edit .env and set your token
+```
 
-    ./ghstat --cc
-    bash bin/build_all.sh
+**3. Build and run**
 
-If You have timeouts, You could check the rate limit with :
+```bash
+make build
+make run-go
+```
 
-    ./ghstat -l
+Output is written to `stats/go_frameworks.csv`.
 
-Usage example to compare most famous JS frameworks
+## Usage
 
-    ./ghstat -r angular/angular,facebook/react,vuejs/vue
+```bash
+make help                 # list all available commands
+make rate-limit           # check GitHub API quota
+make cache-clear          # wipe cached responses
+make run-go               # compare Go frameworks
+make run-go-microservices # compare Go microservice toolkits
+make run-all              # run all comparisons
+make test                 # run tests with coverage
+```
 
-Usage example to compare most famous PHP frameworks
+Custom comparison:
 
-    ./ghstat -r laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter
+```bash
+./ghstat -r angular/angular,facebook/react,vuejs/vue -f stats/js.csv -t tmp
+```
 
-After that, `result.csv` file will be created (or updated, if it's already exists) with the statistics of selected repositories.
+## Flags
 
-## Comparaison methodology
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-r` | Go frameworks | Comma-separated list of `owner/repo` |
+| `-f` | *(required)* | Output CSV file path |
+| `-t` | `test_data` | Cache folder |
+| `-l` | | Check GitHub rate limit |
+| `-cc` | | Clear HTTP cache |
+| `-ccdr` | | Dry-run cache clear |
+| `-d` | | Debug mode |
 
-At the moment We choosed following metrics, here they are, in alphabetical order :
+## Comparison methodology
 
-* Active forkers percentage - more is better
-* Age in days - newest is better :)
-* Closed issues, % - more is better
-* Watchers - more is better
-* Total commits - more is better
-  * More precisely, it's total commits by existing contributors, commits of deleted accounts, will not be taken in account
+Each repository is scored across these criteria (more is better unless noted):
+
+- **Stargazers** — popularity
+- **Age** — newest is better
+- **Total commits** — activity
+- **Closed issues %** — maintenance quality
+- **Commits/day** — development pace
+- **Top 10 contributors followers** — community notability
+- **Active forkers %** — engagement
+- **Returning contributors** — project retention
+- **Average contribution period** — contributor loyalty
+- **Total releases** — release cadence
+
+A final overall placement is computed by summing individual rankings.
 
 ## Ratings
 
-[Detailed statistics with ratings made with ghstat](https://github.com/fedir/ghstat/blob/master/ratings.md)
+[Detailed statistics with ratings](https://github.com/fedir/ghstat/blob/master/ratings.md)

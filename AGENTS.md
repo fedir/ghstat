@@ -2,19 +2,19 @@
 
 ## Project overview
 
-CLI tool for multi-criteria statistical comparison of GitHub repositories. Fetches data from the GitHub REST API, scores each repo across ~10 criteria, and writes ranked results to `result.csv`.
+CLI tool for multi-criteria statistical comparison of GitHub repositories. Fetches data from the GitHub REST API, scores each repo across ~10 criteria, and writes ranked results to a CSV file.
 
 ## Tech stack
 
 - **Language:** Go 1.26.3
 - **Module:** `github.com/fedir/ghstat`
-- **Dependencies:** `github.com/tidwall/gjson` (JSON path queries)
+- **Dependencies:** `github.com/tidwall/gjson`, `github.com/joho/godotenv`
 - **CI:** GitHub Actions (`.github/workflows/ci.yml`)
 
 ## Repository layout
 
 ```
-ghstat.go           # main: CLI flags, goroutine fan-out
+ghstat.go           # main: CLI flags, .env loading, goroutine fan-out
 struct.go           # Repository struct with CSV header tags
 data.go             # per-repo data fetching (called per goroutine)
 competition.go      # scoring and ranking logic
@@ -29,56 +29,56 @@ github/             # GitHub API client
 httpcache/          # file-based HTTP response cache (SHA-256 keyed)
   httpcache.go
 timing/             # Unix timestamp → relative minutes helper
-bin/                # shell scripts for common repo group comparisons
-test_data/          # cached API responses used by tests
+bin/                # shell scripts for per-category comparisons
+stats/              # output CSV files (committed, updated by runs)
+test_data/          # cached API responses used by tests (no network)
+Makefile            # all developer commands
+.env                # local secrets (gitignored)
+.env.sample         # template for .env
 ```
 
 ## Authentication
 
-Set a single env var before running:
+Copy `.env.sample` to `.env` and set your token:
 
 ```bash
-export GH_TOKEN="your_github_token"
+cp .env.sample .env
+# GH_TOKEN=your_github_token_here
 ```
 
-The token needs `repo` scope. Without it requests are rate-limited to 60/hour.
+The token needs `repo` scope. The app loads `.env` automatically on startup. A shell environment variable takes precedence over `.env`.
 
-## Build & run
+## Common commands
 
 ```bash
-go build
-./ghstat                                      # compare default Go frameworks
-./ghstat -r angular/angular,vuejs/vue         # custom repo list
-./ghstat -f output.csv                        # custom output path
-./ghstat -t /tmp/cache                        # custom cache folder
-./ghstat -l                                   # check rate limit
-./ghstat -cc                                  # clear HTTP cache
-./ghstat -ccdr                                # dry-run cache clear
+make build                # compile binary
+make test                 # run tests with race detector + coverage.txt
+make vet                  # run go vet
+make rate-limit           # check GitHub API quota
+make cache-clear          # wipe tmp/ cache
+make run-go               # Go frameworks → stats/go_frameworks.csv
+make run-go-microservices # Go microservice toolkits
+make run-all              # all categories via bin/build_all.sh
+make clean                # remove binary and tmp/
+make help                 # list all targets
 ```
 
-## Tests
+Manual run:
 
 ```bash
-go test -race ./...
+./ghstat -r owner/repo1,owner/repo2 -f stats/output.csv -t tmp
 ```
 
-Tests use pre-recorded API responses in `test_data/` — no network required.
+## Output
 
-## Pre-built comparison scripts
-
-```bash
-bash bin/js_frameworks.sh
-bash bin/go_frameworks.sh
-bash bin/php_frameworks.sh
-bash bin/build_all.sh        # runs all categories
-```
+- `-f` is required — no default output path
+- `stats/` is created automatically if missing
+- Results are written as CSV; headers come from `header` struct tags on `Repository`
 
 ## HTTP cache
 
-API responses are cached as files under the temp folder (`test_data/` by default), keyed by SHA-256 of the URL. Cache is permanent until manually cleared with `-cc`. This avoids hitting rate limits on repeated runs.
-
-The GitHub `stats/contributors` endpoint returns HTTP 202 on first call (GitHub computes it async). The client retries automatically with a 5s delay.
+Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of the URL. Cache is permanent until cleared with `make cache-clear` or `-cc`. Do not cache error responses — 403/404 are handled before writing to disk. The `stats/contributors` endpoint returns 202 on first call; the client retries with 5s delay automatically.
 
 ## Conventional commits
 
-This project uses conventional commits: `feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:`. Keep commit messages as single lines.
+`feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:` — single-line messages only.
