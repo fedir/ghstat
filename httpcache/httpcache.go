@@ -20,15 +20,13 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"net/http/httputil"
 	"os"
 	"time"
 )
-
-var cacheTTL = 3600
 
 var httpClient = &http.Client{Timeout: 10 * time.Second}
 
@@ -45,46 +43,45 @@ func GetFilename(url string) string {
 func MakeHTTPRequest(url string) ([]byte, int, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
-		log.Fatal("Cannont prepare the HTTP request", err)
+		log.Fatal("cannot prepare the HTTP request", err)
 	}
-	if os.Getenv("GH_USR") != "" && os.Getenv("GH_PASS") != "" {
-		req.SetBasicAuth(os.Getenv("GH_USR"), os.Getenv("GH_PASS"))
+	if token := os.Getenv("GH_TOKEN"); token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
 	}
 	resp, err := httpClient.Do(req)
 	if err != nil {
-		log.Fatal("Cannot process the HTTP request", err)
+		log.Fatal("cannot process the HTTP request", err)
 	}
 	defer resp.Body.Close()
 	body, err := httputil.DumpResponse(resp, dumpBody)
 	if err != nil {
-		log.Fatal("Cannont dump the body of HTTP response", err)
+		log.Fatal("cannot dump the body of HTTP response", err)
 	}
 	return body, resp.StatusCode, err
 }
 
 func saveRespToFile(file string, resp []byte) {
-	err := ioutil.WriteFile(file, resp, 0644)
-	if err != nil {
+	if err := os.WriteFile(file, resp, 0644); err != nil {
 		panic(err)
 	}
 }
 
 func loadRespFromFile(file string) []byte {
-	resp, err := ioutil.ReadFile(file)
+	resp, err := os.ReadFile(file)
 	if err != nil {
 		panic(err)
 	}
 	return resp
 }
 
-// ReadResp :  reads response from the cached HTTP query.
+// ReadResp reads response from the cached HTTP query.
 func ReadResp(fullResp []byte) ([]byte, string, error) {
 	r := bufio.NewReader(bytes.NewReader(fullResp))
 	resp, err := http.ReadResponse(r, nil)
 	if err != nil {
 		log.Printf("%v\n%s", err, fullResp)
 	}
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		log.Printf("%v\n%s", err, resp.Body)
 	}
@@ -114,8 +111,8 @@ func MakeCachedHTTPRequest(url string, tmpFolder string, debug bool) []byte {
 		if statusCode == 403 {
 			log.Fatalf("Looks like the rate limit is exceeded, please try again in 60 minutes. Or make a pull request with authentification feature.")
 		} else if statusCode == 202 {
-			log.Printf("Server need some time to prepare request. Trying again.")
-			time.Sleep(2 * time.Second)
+			log.Printf("Server is computing stats, retrying in 5s...")
+			time.Sleep(5 * time.Second)
 			return MakeCachedHTTPRequest(url, tmpFolder, debug)
 		} else if statusCode != 200 {
 			log.Fatalf("The status code of URL %s is not OK : %d", url, statusCode)
