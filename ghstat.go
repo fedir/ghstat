@@ -12,9 +12,12 @@ import (
 	"sync"
 
 	"github.com/fedir/ghstat/github"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	godotenv.Load()
+
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
 		clearHTTPCacheDryRun   = flag.Bool("ccdr", false, "Clear HTTP cache (dry run)")
