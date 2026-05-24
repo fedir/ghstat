@@ -20,6 +20,8 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	log.Printf("%-40s fetching...", rKey)
 	start := time.Now()
 
+	github.WarmUpContributionStatistics(rKey)
+
 	r := new(Repository)
 
 	repositoryData := github.GetRepositoryStatistics(rKey, tmpFolder, debug)
