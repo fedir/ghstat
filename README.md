@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/fedir/ghstat/branch/master/graph/badge.svg)](https://codecov.io/gh/fedir/ghstat)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Statistical multi-criteria decision-making comparator for GitHub projects.
+Statistical multi-criteria decision-making comparator for GitHub projects. Combines GitHub REST API data with local git clone analysis for accurate historical commit statistics.
 
 Project overview was presented at Open Source Summit Europe 2018 — ["Methodology of Multi-Criteria Comparison and Typology of Open Source Projects"](https://events.linuxfoundation.org/wp-content/uploads/2017/12/Methodology-of-Multi-Criteria-Comparison-and-Typology-of-Open-Source-Project-Fedir-Rykhtik-Stratis-1.pdf).
 
@@ -38,7 +38,8 @@ Output is written to `stats/go_frameworks.csv`.
 ```bash
 make help                 # list all available commands
 make rate-limit           # check GitHub API quota
-make cache-clear          # wipe cached responses
+make cache-clear          # wipe HTTP response cache (preserves local clones)
+make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # compare Go frameworks
 make run-go-microservices # compare Go microservice toolkits
 make run-all              # run all comparisons
@@ -63,19 +64,28 @@ Custom comparison:
 | `-ccdr` | | Dry-run cache clear |
 | `-d` | | Debug mode |
 
+## How it works
+
+Each repository is analysed from two sources:
+
+- **GitHub API** — real-time data: stars, forks, issues, license, author profile, closed issues, tags, contributors
+- **Local git clone** — authoritative history: commit count, additions/deletions, commit size, contribution period, returning contributors
+
+On first run repos are cloned to `tmp/projects/`. On subsequent runs the clones are updated. Local stats override API stats when available, so repositories where GitHub's stats API returns 202 (inactive repos) still get accurate data.
+
 ## Comparison methodology
 
 Each repository is scored across these criteria (more is better unless noted):
 
 - **Stargazers** — popularity
 - **Age** — newest is better
-- **Total commits** — activity
+- **Total commits** — activity (from local git)
 - **Closed issues %** — maintenance quality
-- **Commits/day** — development pace
+- **Commits/day** — development pace (from local git)
 - **Top 10 contributors followers** — community notability
 - **Active forkers %** — engagement
-- **Returning contributors** — project retention
-- **Average contribution period** — contributor loyalty
+- **Returning contributors** — project retention (from local git)
+- **Average contribution period** — contributor loyalty (from local git)
 - **Total releases** — release cadence
 
 A final overall placement is computed by summing individual rankings.
