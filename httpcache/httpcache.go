@@ -25,10 +25,21 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"os"
+	"strconv"
 	"time"
 )
 
-var httpClient = &http.Client{Timeout: 10 * time.Second}
+var httpClient = newHTTPClient()
+
+func newHTTPClient() *http.Client {
+	timeout := 30 * time.Second
+	if v := os.Getenv("GH_HTTP_TIMEOUT"); v != "" {
+		if sec, err := strconv.Atoi(v); err == nil && sec > 0 {
+			timeout = time.Duration(sec) * time.Second
+		}
+	}
+	return &http.Client{Timeout: timeout}
+}
 
 const dumpBody = true
 
