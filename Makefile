@@ -4,6 +4,8 @@ BINARY := ghstat
 STATS_DIR := stats
 CACHE_DIR := tmp
 
+PKGS := $(shell go list ./... 2>/dev/null | grep -v '/tmp/' | grep -v '/test_data/')
+
 ## build: compile the binary
 build:
 	go build -o $(BINARY) .
@@ -11,14 +13,14 @@ build:
 ## test: run tests with race detector and coverage
 test:
 	@echo "" > coverage.txt
-	@for d in $$(go list ./...); do \
+	@for d in $(PKGS); do \
 		go test -race -coverprofile=profile.out -covermode=atomic $$d; \
 		if [ -f profile.out ]; then cat profile.out >> coverage.txt && rm profile.out; fi \
 	done
 
 ## vet: run go vet
 vet:
-	go vet ./...
+	go vet $(PKGS)
 
 ## clean: remove binary and API cache (preserves local clones in tmp/projects/)
 clean:
