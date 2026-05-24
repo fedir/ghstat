@@ -1,6 +1,6 @@
 echo "## Cross-language frameworks rating"
 echo ""
-./ghstat -r astaxie/beego,gohugoio/hugo,gin-gonic/gin,labstack/echo,revel/revel,gobuffalo/buffalo,go-chi/chi,kataras/iris,go-macaron/macaron,go-aah/aah,\
+./ghstat -r gin-gonic/gin,gofiber/fiber,labstack/echo,go-chi/chi,beego/beego,gohugoio/hugo,gobuffalo/buffalo,revel/revel,kataras/iris,go-macaron/macaron,\
 huntlabs/hunt,vibe-d/vibe.d,adamdruppe/arsd,DiamondMVC/Diamond,\
 kittoframework/kitto,phoenixframework/phoenix,slogsdon/placid,AntonFagerberg/rackla,AgilionApps/relax,sugar-framework/sugar,hexedpackets/trot,\
 ktorio/ktor,TinyMission/kara,http4k/http4k,jean79/yested,wasabifx/wasabi,kohesive/kovert,danneu/kog,hypercube1024/firefly,\
@@ -8,12 +8,13 @@ analogweb/analogweb-scala,mesosphere/chaos,tumblr/colossus,twitter/finatra,lift/
 yesodweb/yesod,snapframework/snap-core,agrafix/Spock,transient-haskell/axiom,myfreeweb/magicbane,positiondev/fn,\
 leafo/lapis,sailorproject/sailor,keplerproject/orbit,luvit/luvit,Fizzadar/Luapress,kernelsauce/turbo,mongrel2/Tir,appwilldev/moochine,\
 playframework/playframework,vaadin/framework,lets-blade/blade,ninjaframework/ninja,bootique/bootique,jooby-project/jooby,pippo-java/pippo,ratpack/ratpack,primefaces/primefaces,netty/netty,spring-projects/spring-framework,eclipse/vert.x,\
-angular/angular,facebook/react,vuejs/vue,jquery/jquery,emberjs/ember.js,jashkenas/backbone,meteor/meteor,ractivejs/ractive,knockout/knockout,hyperapp/hyperapp,developit/preact,balderdashy/sails,\
-expressjs/express,hexojs/hexo,hyperapp/hyperapp,MithrilJS/mithril.js,totaljs/framework,enyojs/enyo,microjs/microjs.com,nuxt/nuxt.js,riot/riot,\
+facebook/react,vuejs/vue,angular/angular,sveltejs/svelte,solidjs/solid,\
+expressjs/express,fastify/fastify,nestjs/nest,koajs/koa,honojs/hono,\
+vercel/next.js,nuxt/nuxt,remix-run/remix,sveltejs/kit,analogjs/analog,\
 laravel/framework,symfony/symfony,yiisoft/yii2,bcit-ci/CodeIgniter,nova-framework/framework,cakephp/cakephp,pradosoft/prado,phalcon/cphalcon,nette/nette,PHPixie/Project,slimphp/Slim,leocavalcante/siler,\
 bottlepy/bottle,plotly/dash,django/django,pallets/flask,Pylons/pyramid,channelcat/sanic,tornadoweb/tornado,web2py/web2py,TurboGears/tg2,\
 camping/camping,soveran/cuba,patriciomacadden/hobbit,hanami/hanami,ruby-hyperloop/hyper-react,padrino/padrino-framework,pakyow/pakyow,rack-app/rack-app,ramaze/ramaze,jeremyevans/roda,rails/rails,wardrop/Scorched,sinatra/sinatra,voltrb/volt,\
-SergioBenitez/rocket,iron/iron,actix/actix-web,gotham-rs/gotham,nickel-org/nickel.rs,Ogeon/rustful,rustless/rustless,tomaka/rouille,sappworks/sapper,mehcode/shio-rs,\
+actix/actix-web,tokio-rs/axum,rwf2/Rocket,seanmonstar/warp,leptos-rs/leptos,iron/iron,nickel-org/nickel.rs,tomaka/rouille,gotham-rs/gotham,\
 tsujigiri/axiom,ChicagoBoss/ChicagoBoss,ninenines/cowboy,kivra/giallo,mochi/mochiweb,synrc/n2o,synrc/rest,nitrogen/nitrogen,zotonic/zotonic,nova-framework/framework,\
 civetweb/civetweb,jorisvink/kore,davidmoreno/onion,lpereira/lwan,emweb/wt,HerikLyma/CPPWebFramework,\
 amberframework/amber,kemalcr/kemal,jasonl99/lattice-core,luckyframework/lucky,vladfaust/prism,samueleaton/raze,spider-gazelle/spider-gazelle,amethyst-framework/amethyst,\

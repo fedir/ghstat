@@ -42,17 +42,16 @@ func main() {
 		repositoriesKeys = uniqSlice(strings.Split(*repositoriesKeysManual, ","))
 	} else {
 		repositoriesKeys = uniqSlice([]string{
-			"astaxie/beego",
-			"gohugoio/hugo",
 			"gin-gonic/gin",
+			"gofiber/fiber",
 			"labstack/echo",
-			"revel/revel",
-			"gobuffalo/buffalo",
 			"go-chi/chi",
+			"beego/beego",
+			"gohugoio/hugo",
+			"gobuffalo/buffalo",
+			"revel/revel",
 			"kataras/iris",
-			"zenazn/goji",
 			"go-macaron/macaron",
-			"go-aah/aah",
 		})
 	}
 
