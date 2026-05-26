@@ -41,7 +41,30 @@ oxsecurity/megalinter,\
 grafana/k6,\
 zabbix/zabbix,\
 icinga/icinga2,\
-netdata/netdata \
+netdata/netdata,\
+kubernetes/kubernetes,\
+argoproj/argo-cd,\
+fluxcd/flux2,\
+tektoncd/pipeline,\
+helm/helm,\
+prometheus/prometheus,\
+grafana/grafana,\
+grafana/loki,\
+jaegertracing/jaeger,\
+open-telemetry/opentelemetry-collector,\
+thanos-io/thanos,\
+falcosecurity/falco,\
+open-policy-agent/opa,\
+cert-manager/cert-manager,\
+kyverno/kyverno,\
+spiffe/spire,\
+containers/podman,\
+goharbor/harbor,\
+containerd/containerd,\
+buildpacks/pack,\
+envoyproxy/envoy,\
+cilium/cilium,\
+crossplane/crossplane \
 -f stats/devops_tools.csv -t tmp
 echo "[Detailed DevOps tools statistics with ratings](https://github.com/fedir/ghstat/blob/master/stats/devops_tools.csv)"
 echo ""
