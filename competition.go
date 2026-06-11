@@ -9,12 +9,12 @@ import (
 	"sort"
 )
 
-func rateAndPrintGreetings(ghData []Repository) {
-	greetings := rateGhData(ghData)
+func rateAndPrintGreetings(ghData []Repository, rankingByAge string) {
+	greetings := rateGhData(ghData, rankingByAge)
 	fmt.Println(greetings)
 }
 
-func rateGhData(ghData []Repository) string {
+func rateGhData(ghData []Repository, rankingByAge string) string {
 
 	greetings := ""
 
@@ -28,14 +28,28 @@ func rateGhData(ghData []Repository) string {
 		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
 	}
 
-	// Add points by age (newest is better)
-	sort.Slice(ghData[:], func(i, j int) bool {
-		return ghData[i].Age < ghData[j].Age
-	})
-	greetings += fmt.Sprintf("* The newest project is `%s`\n", ghData[0].Name)
-	for i := range ghData {
-		ghData[i].PlacementAge = i + 1
-		ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
+	// Add points by age (configurable: newest-better, oldest-better, or none)
+	switch rankingByAge {
+	case "newest-better":
+		sort.Slice(ghData[:], func(i, j int) bool {
+			return ghData[i].Age < ghData[j].Age
+		})
+		greetings += fmt.Sprintf("* The newest project is `%s`\n", ghData[0].Name)
+		for i := range ghData {
+			ghData[i].PlacementAge = i + 1
+			ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
+		}
+	case "oldest-better":
+		sort.Slice(ghData[:], func(i, j int) bool {
+			return ghData[i].Age > ghData[j].Age
+		})
+		greetings += fmt.Sprintf("* The oldest project is `%s`\n", ghData[0].Name)
+		for i := range ghData {
+			ghData[i].PlacementAge = i + 1
+			ghData[i].PlacementOverall = ghData[i].PlacementOverall + i
+		}
+	default:
+		// none: age not considered, PlacementAge stays 0
 	}
 
 	// Add points by number of commits (more commits is better)

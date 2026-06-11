@@ -25,11 +25,18 @@ func main() {
 		debug                  = flag.Bool("d", false, "Debug mode")
 		resultFileSavePath     = flag.String("f", "", "File path where result CSV file will be saved (required)")
 		rateLimitCheck         = flag.Bool("l", false, "Rate limit check")
+		rankingByAge           = flag.String("ranking-by-age", "none", "Age criterion in overall ranking: none, newest-better, oldest-better")
 		repositoriesKeysManual = flag.String("r", "", "Repositories keys")
 		tmpFolder              = flag.String("t", "test_data", "Temporary folder path")
 		repositoriesKeys       = []string{}
 	)
 	flag.Parse()
+	switch *rankingByAge {
+	case "none", "newest-better", "oldest-better":
+	default:
+		fmt.Fprintf(os.Stderr, "invalid --ranking-by-age value %q: must be none, newest-better, or oldest-better\n", *rankingByAge)
+		os.Exit(1)
+	}
 	if *clearHTTPCache || *clearHTTPCacheDryRun {
 		clearHTTPCacheFolder(*tmpFolder, *clearHTTPCacheDryRun)
 		os.Exit(0)
@@ -78,7 +85,7 @@ func main() {
 		fmt.Printf("[%d/%d] %s\n", i, total, r.Name)
 	}
 	wg.Wait()
-	rateAndPrintGreetings(ghData)
+	rateAndPrintGreetings(ghData, *rankingByAge)
 	writeCSVStatistics(ghData, *resultFileSavePath)
 }
 

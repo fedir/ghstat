@@ -26,7 +26,7 @@ func TestRateGhDataWinnerIsConsistent(t *testing.T) {
 		makeRepo("gamma", 2000, 200, 1000, 20, 5000, 50.0, 1.0, 15.0, 3),
 	}
 
-	result := rateGhData(repos)
+	result := rateGhData(repos, "none")
 
 	if result == "" {
 		t.Error("rateGhData returned empty result")
@@ -52,7 +52,7 @@ func TestRateGhDataAllPlacementsAssigned(t *testing.T) {
 		makeRepo("c", 3000, 200, 2000, 20, 5000, 45.0, 2.0, 15.0, 4),
 	}
 
-	rateGhData(repos)
+	rateGhData(repos, "none")
 
 	placements := make(map[int]bool)
 	for _, r := range repos {
@@ -74,7 +74,7 @@ func TestRateGhDataSingleRepo(t *testing.T) {
 		makeRepo("solo", 1000, 300, 500, 10, 2000, 50.0, 1.5, 10.0, 2),
 	}
 
-	rateGhData(repos)
+	rateGhData(repos, "none")
 
 	if repos[0].PlacementOverall != 1 {
 		t.Errorf("single repo must have PlacementOverall=1, got %d", repos[0].PlacementOverall)
