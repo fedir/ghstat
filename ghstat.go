@@ -85,6 +85,13 @@ func main() {
 		fmt.Printf("[%d/%d] %s\n", i, total, r.Name)
 	}
 	wg.Wait()
+	filtered := ghData[:0]
+	for _, r := range ghData {
+		if r.Name != "" {
+			filtered = append(filtered, r)
+		}
+	}
+	ghData = filtered
 	rateAndPrintGreetings(ghData, *rankingByAge)
 	writeCSVStatistics(ghData, *resultFileSavePath)
 }

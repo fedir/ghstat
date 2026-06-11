@@ -28,6 +28,9 @@ func repositoryData(rKey string, tmpFolder string, debug bool, dataChan chan Rep
 	repositoryData := github.GetRepositoryStatistics(rKey, tmpFolder, debug)
 
 	r.Name = repositoryData.FullName
+	if r.Name == "" {
+		log.Printf("WARNING: failed to fetch data for %s — will be excluded from ranking\n", rKey)
+	}
 	r.URL = fmt.Sprintf("https://github.com/%s", r.Name)
 	r.MainLanguage = repositoryData.Language
 	r.AllLanguages, r.TotalCodeSize = github.GetRepositoryLanguages(rKey, tmpFolder, debug)
