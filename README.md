@@ -1,6 +1,7 @@
 # ghstat
 
 [![CI](https://github.com/fedir/ghstat/actions/workflows/ci.yml/badge.svg)](https://github.com/fedir/ghstat/actions/workflows/ci.yml)
+[![Release](https://github.com/fedir/ghstat/actions/workflows/release.yml/badge.svg)](https://github.com/fedir/ghstat/releases)
 [![Go Report Card](https://goreportcard.com/badge/github.com/fedir/ghstat)](https://goreportcard.com/report/github.com/fedir/ghstat)
 [![codecov](https://codecov.io/gh/fedir/ghstat/branch/master/graph/badge.svg)](https://codecov.io/gh/fedir/ghstat)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -18,6 +19,14 @@ A companion blog post from 2018 walking through the analysis on Python framework
 Seven years later the tool has been rebuilt with hybrid analysis (GitHub API + local git clone) and run across ~200 repositories in 12 categories. The methodology holds.
 
 ## Getting started
+
+**Option A — Homebrew (macOS/Linux)**
+
+```bash
+brew install fedir/tap/ghstat
+```
+
+**Option B — Build from source**
 
 **1. Generate a GitHub token**
 
@@ -51,8 +60,8 @@ make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # compare Go frameworks
 make run-go-microservices # compare Go microservice toolkits
 make run-rust-crates      # top 25 Rust crates
-make run-cncf             # 50 CNCF cloud native projects
-make run-devops           # 40 DevOps tools
+make run-cncf             # 189 CNCF cloud native projects
+make run-devops           # 63 DevOps tools
 make run-all              # run all comparisons and regenerate ratings.md
 make clean-data-<category># remove clones for a specific category (cms, databases, langs, go, rust, js, python, ruby, java, cncf)
 make clean-data-all       # remove all clones
@@ -72,10 +81,12 @@ Custom comparison:
 | `-r` | Go frameworks | Comma-separated list of `owner/repo` |
 | `-f` | *(required)* | Output CSV file path |
 | `-t` | `test_data` | Cache folder |
+| `--ranking-by-age` | `none` | Age criterion: `none`, `newest-better`, `oldest-better` |
 | `-l` | | Check GitHub rate limit |
 | `-cc` | | Clear HTTP cache |
 | `-ccdr` | | Dry-run cache clear |
 | `-d` | | Debug mode |
+| `-version` | | Print version and exit |
 
 ## How it works
 
@@ -91,7 +102,7 @@ On first run repos are cloned to `tmp/projects/`. On subsequent runs the clones 
 Each repository is scored across these criteria (more is better unless noted):
 
 - **Stargazers** — popularity
-- **Age** — newest is better
+- **Age** — configurable via `--ranking-by-age` (`none` by default, `newest-better` or `oldest-better`)
 - **Total commits** — activity (from local git)
 - **Closed issues %** — maintenance quality
 - **Commits/day** — development pace (from local git)

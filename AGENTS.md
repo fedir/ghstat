@@ -9,7 +9,8 @@ CLI tool for multi-criteria statistical comparison of GitHub repositories. Combi
 - **Language:** Go 1.26.3
 - **Module:** `github.com/fedir/ghstat`
 - **Dependencies:** `github.com/tidwall/gjson`, `github.com/joho/godotenv`
-- **CI:** GitHub Actions (`.github/workflows/ci.yml`)
+- **CI/CD:** GitHub Actions (`.github/workflows/ci.yml`, `.github/workflows/release.yml`)
+- **Releases:** GoReleaser — triggered automatically on `v*` tags; publishes binaries and Homebrew formula to `fedir/homebrew-tap`
 
 ## Repository layout
 
@@ -89,8 +90,8 @@ make clone-clear          # remove local git clones in tmp/projects/
 make run-go               # Go frameworks → stats/go_frameworks.csv
 make run-go-microservices # Go microservice toolkits
 make run-rust-crates      # top 25 Rust crates → stats/rust_crates.csv
-make run-cncf             # 50 CNCF cloud native projects → stats/cncf_projects.csv
-make run-devops           # 40 DevOps tools → stats/devops_tools.csv
+make run-cncf             # 189 CNCF cloud native projects → stats/cncf_projects.csv
+make run-devops           # 63 DevOps tools → stats/devops_tools.csv
 make run-all              # all categories via bin/build_all.sh → ratings.md
 make clean-data-cms       # remove CMS clones from test_data/projects/
 make clean-data-databases # remove database clones
@@ -103,7 +104,9 @@ make clean-data-ruby      # remove Ruby framework clones
 make clean-data-java      # remove Java/JVM clones
 make clean-data-cncf      # remove CNCF project clones
 make clean-data-all       # remove all clones (test_data/ + tmp/projects/)
-make clean                # remove binary and tmp/ (preserves clones)
+make release              # publish release via GoReleaser (requires v* tag + GITHUB_TOKEN)
+make snapshot             # build release artifacts locally without publishing
+make clean                # remove binary, tmp/, and dist/
 make help                 # list all targets
 ```
 
@@ -121,7 +124,7 @@ Manual run:
 
 ## HTTP cache
 
-Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of the URL. Cache is permanent until cleared with `make cache-clear` or `-cc`. Error responses (403/404) are not cached. The `stats/contributors` endpoint returns 202 when GitHub is computing stats; the client retries up to `GH_STATS_MAX_RETRIES` times with `GH_STATS_RETRY_INTERVAL` second delays. Local git stats always override the API result when available, so 202-forever repos are handled correctly.
+Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of the URL. Cache is permanent until cleared with `make cache-clear` or `-cc`. Error responses (403/404) are not cached. The `stats/contributors` endpoint returns 202 when GitHub is computing stats; for all other endpoints the client retries up to `GH_STATS_MAX_RETRIES` times with `GH_STATS_RETRY_INTERVAL` second delays. For `stats/contributors` specifically, 202 is treated as empty (local git provides authoritative contributor data anyway). Local git stats always override the API result when available, so 202-forever repos are handled correctly.
 
 ## Conventional commits
 
@@ -137,6 +140,12 @@ New `bin/*.sh` scripts must pass `-t tmp` explicitly. Without it the tool defaul
 
 ### 404 and 403 responses must not crash the tool
 `httpcache` returns `[]byte{}` on 404 and 403. All JSON unmarshal callers must guard against empty input — use `if len(jsonResponse) == 0 { return }` before unmarshaling. Slice indexing on unmarshaled results (`commits[0]`, `commits[len-1]`) must also guard against empty slices. `log.Fatal`/`log.Fatalf` in fetch paths kills the entire batch — use `log.Printf` and return zero values instead.
+
+### Ghost rows from failed fetches
+When a GitHub API call fails silently (network error, 404, rate limit), `data.go` still sends a zero-value `Repository{}` to the channel. A filter in `ghstat.go` removes any repo with an empty `Name` before ranking and CSV write, and logs `WARNING: failed to fetch data for <repo>` so you can identify which repos are broken.
+
+### `--ranking-by-age` flag
+Age is excluded from the overall score by default (`none`). Use `newest-better` to restore the original behavior (rewards younger projects) or `oldest-better` to reward proven longevity. Excluding age prevents newly created projects from outranking mature, more active ones on the overall placement.
 
 ### GitHub search API rate limit (403) with large batches
 The `/search/issues` endpoint has a stricter rate limit than the main API (~30 req/min). Running 50+ repos in parallel exhausts it immediately. The tool now logs and skips gracefully instead of fatally crashing. Closed issue counts will be 0 for repos that hit this limit — re-run later with a smaller batch or add a sleep between search calls.
