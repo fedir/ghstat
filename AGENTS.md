@@ -126,6 +126,16 @@ Manual run:
 
 Responses cached under `-t` folder (default `test_data/`), keyed by SHA-256 of the URL. Cache is permanent until cleared with `make cache-clear` or `-cc`. Error responses (403/404) are not cached. The `stats/contributors` endpoint returns 202 when GitHub is computing stats; for all other endpoints the client retries up to `GH_STATS_MAX_RETRIES` times with `GH_STATS_RETRY_INTERVAL` second delays. For `stats/contributors` specifically, 202 is treated as empty (local git provides authoritative contributor data anyway). Local git stats always override the API result when available, so 202-forever repos are handled correctly.
 
+## Versioning and releases
+
+Tags must follow strict semver: `vX.Y.Z` (e.g. `v0.9.0`). Do **not** use `v.X.Y.Z` — the leading dot breaks GoReleaser's semver parser. Previous tags before v0.8.0 used the wrong format; all new tags must use the correct one.
+
+To release:
+```bash
+git tag v0.9.0 && git push origin v0.9.0
+```
+GitHub Actions picks up the tag and GoReleaser publishes binaries + Homebrew formula automatically. No local goreleaser install needed.
+
 ## Conventional commits
 
 `feat:`, `fix:`, `refactor:`, `chore:`, `ci:`, `docs:`, `test:` — **single-line messages only**. No bullet lists, no multi-line body, no `Co-Authored-By` trailer. One line, under 72 chars, imperative mood. Example: `feat: add CNCF rating script with 404 robustness fixes`.
