@@ -1,15 +1,18 @@
-.PHONY: build test vet lint clean cache-clear clone-clear rate-limit run-go run-go-microservices run-all run-cncf run-rust-crates run-devops help clean-data-cms clean-data-databases clean-data-langs clean-data-go clean-data-rust clean-data-js clean-data-python clean-data-ruby clean-data-java clean-data-cncf clean-data-all
+.PHONY: build test vet lint clean cache-clear clone-clear rate-limit release snapshot run-go run-go-microservices run-all run-cncf run-rust-crates run-devops help clean-data-cms clean-data-databases clean-data-langs clean-data-go clean-data-rust clean-data-js clean-data-python clean-data-ruby clean-data-java clean-data-cncf clean-data-all
 
 BINARY := ghstat
 STATS_DIR := stats
 CACHE_DIR := tmp
 DATA_DIR := test_data
 
+VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo dev)
+LDFLAGS = -ldflags "-X main.version=$(VERSION)"
+
 PKGS := $(shell go list ./... 2>/dev/null | grep -v '/tmp/' | grep -v '/test_data/')
 
 ## build: compile the binary
 build:
-	go build -o $(BINARY) .
+	go build $(LDFLAGS) -o $(BINARY) .
 
 ## test: run tests with race detector and coverage
 test:
@@ -23,10 +26,19 @@ test:
 vet:
 	go vet $(PKGS)
 
+## release: publish a new release via GoReleaser (requires a v* tag)
+release:
+	goreleaser release --clean
+
+## snapshot: build release artifacts locally without publishing
+snapshot:
+	goreleaser release --snapshot --clean
+
 ## clean: remove binary and API cache (preserves local clones in tmp/projects/)
 clean:
 	rm -f $(BINARY)
 	rm -rf $(CACHE_DIR)
+	rm -rf dist
 
 ## cache-clear: clear HTTP response cache (preserves local clones)
 cache-clear: build
