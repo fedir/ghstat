@@ -16,8 +16,15 @@ import (
 	"github.com/joho/godotenv"
 )
 
+var version = "dev"
+
 func main() {
 	godotenv.Load()
+
+	if len(os.Args) > 1 && os.Args[1] == "-version" {
+		fmt.Println("ghstat", version)
+		os.Exit(0)
+	}
 
 	var (
 		clearHTTPCache         = flag.Bool("cc", false, "Clear HTTP cache")
